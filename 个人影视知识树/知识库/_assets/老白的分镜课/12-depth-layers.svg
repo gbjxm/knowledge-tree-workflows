@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="t d">
+  <title id="t">空间感来自露面与分层，不来自堆细节</title><desc id="d">比较只见一个面的平面版本与斜看空间的前中后景版本。</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker><style>.h{font:700 32px 'Microsoft YaHei',sans-serif;fill:#111827}.s{font:700 20px 'Microsoft YaHei',sans-serif;fill:#111827}.p{font:400 17px 'Microsoft YaHei',sans-serif;fill:#374151}.f{fill:#f8fafc;stroke:#111827;stroke-width:3}</style></defs>
+  <rect width="1200" height="690" fill="#f3f4f6"/><rect x="30" y="24" width="1140" height="642" rx="24" fill="#fff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="70" y="78" class="h">空间感来自露面与分层，不来自堆细节</text><text x="70" y="110" class="p">先让空间露出多个面，再让前景、中景和远景分别承担遮挡、动作与目标。</text>
+  <rect x="60" y="145" width="500" height="390" rx="18" fill="#fff" stroke="#d1d5db" stroke-width="2"/><text x="88" y="185" class="s" fill="#b91c1c">平面版：元素贴在同一层</text>
+  <rect x="90" y="220" width="440" height="250" rx="10" class="f"/><line x1="110" y1="420" x2="510" y2="420" stroke="#9ca3af" stroke-width="5"/><circle cx="270" cy="325" r="34" fill="#3b82f6"/><path d="M225 420 Q230 360 270 360 Q310 360 315 420Z" fill="#60a5fa"/><rect x="395" y="285" width="75" height="135" fill="#d1d5db" stroke="#6b7280" stroke-width="4"/><text x="115" y="505" class="p">只见后墙一面；人物和门的距离主要靠猜。</text>
+  <rect x="590" y="145" width="550" height="390" rx="18" fill="#fff" stroke="#d1d5db" stroke-width="2"/><text x="618" y="185" class="s" fill="#047857">纵深版：前、中、后层有明确任务</text>
+  <rect x="620" y="220" width="490" height="250" rx="10" class="f"/><path d="M630 455 L735 250 L1080 250 L1080 455Z" fill="#e5e7eb"/><path d="M630 455 L735 250 L735 455Z" fill="#dbeafe"/><path d="M660 470 Q670 305 760 290 Q830 335 850 470Z" fill="#6b7280" fill-opacity=".72"/><circle cx="895" cy="330" r="30" fill="#3b82f6"/><path d="M852 455 Q858 365 895 365 Q932 365 938 455Z" fill="#60a5fa"/><rect x="1015" y="275" width="65" height="125" fill="#fde68a" stroke="#92400e" stroke-width="4"/>
+  <text x="645" y="505" class="p">前景遮挡/方向</text><text x="835" y="505" class="p">中景动作</text><text x="1010" y="505" class="p">远景目标</text>
+  <rect x="60" y="565" width="1080" height="65" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/><text x="88" y="606" class="p">诊断顺序：能看见几个面？前中后层是否拉开？每一层是否提供遮挡、尺度、方向、动作或信息？</text>
+  <text x="70" y="650" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="14" fill="#6b7280">教学示意：透视与物体比例经过简化；固定的是“露面＋有功能的前中后层”这一诊断方法。</text>
+</svg>

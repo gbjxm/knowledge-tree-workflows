@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">色调建立情绪底盘，线条引导观看路径</title>
+  <desc id="desc">先比较整体色调与局部点色，再沿三种线条结构观察视线如何汇聚、延伸或产生动势。</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker>
+    <marker id="arrow-amber" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#d97706"/></marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .panel-title{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .label{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .small{font:400 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1200" height="780" fill="#f1f5f9"/>
+  <rect x="30" y="24" width="1140" height="732" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="78" class="title">色调定“情绪底盘”，线条铺“观看路径”</text>
+  <text x="70" y="111" class="subtitle">阅读顺序：先看整幅颜色关系，再沿箭头追踪眼睛被带往哪里</text>
+
+  <rect x="60" y="145" width="490" height="470" rx="18" class="panel"/>
+  <text x="88" y="187" class="panel-title">① 色调：先决定全局，再安排点色</text>
+  <rect x="88" y="218" width="205" height="214" rx="14" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="244" cy="270" r="25" fill="#ef4444"/>
+  <path d="M108 390 Q158 330 210 363 T274 333" fill="none" stroke="#7c3aed" stroke-width="9" opacity=".45"/>
+  <text x="108" y="462" class="label">冷色整体基调</text>
+  <text x="108" y="489" class="body">决定画面的主要情绪范围</text>
+  <text x="314" y="246" class="label" fill="#b91c1c">局部点色</text>
+  <line x1="314" y1="257" x2="274" y2="267" stroke="#ef4444" stroke-width="3" marker-end="url(#arrow-amber)"/>
+  <text x="314" y="294" class="body">面积小、位置集中</text>
+  <text x="314" y="321" class="body">负责强调与提示</text>
+  <rect x="88" y="515" width="430" height="70" rx="14" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+  <text x="108" y="545" class="label">判断顺序</text>
+  <text x="108" y="572" class="body">整体面积与冷暖 → 局部色块是否“反客为主”</text>
+
+  <rect x="575" y="145" width="565" height="470" rx="18" class="panel"/>
+  <text x="603" y="187" class="panel-title">② 线条：不是贴标签，而是安排视线</text>
+  <rect x="603" y="218" width="158" height="320" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="625" y="250" class="label">汇聚</text>
+  <line x1="620" y1="300" x2="688" y2="360" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow-blue)"/>
+  <line x1="742" y1="300" x2="698" y2="357" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow-blue)"/>
+  <line x1="682" y1="430" x2="692" y2="373" stroke="#2563eb" stroke-width="5" marker-end="url(#arrow-blue)"/>
+  <circle cx="694" cy="365" r="14" fill="#ef4444"/>
+  <text x="624" y="494" class="small">放射线把注意力</text>
+  <text x="624" y="518" class="small">压向一个重点</text>
+
+  <rect x="778" y="218" width="158" height="320" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="800" y="250" class="label">延伸</text>
+  <path d="M812 286 C900 300 802 368 890 384 C932 393 850 455 908 485" fill="none" stroke="#10b981" stroke-width="7" marker-end="url(#arrow-blue)"/>
+  <text x="800" y="494" class="small">曲线延长路径，</text>
+  <text x="800" y="518" class="small">带出纵深与节奏</text>
+
+  <rect x="953" y="218" width="159" height="320" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="975" y="250" class="label">动势</text>
+  <line x1="978" y1="448" x2="1082" y2="294" stroke="#d97706" stroke-width="8" marker-end="url(#arrow-amber)"/>
+  <line x1="991" y1="471" x2="1095" y2="317" stroke="#d97706" stroke-width="3" stroke-dasharray="8 8"/>
+  <text x="975" y="494" class="small">斜线制造不平衡，</text>
+  <text x="975" y="518" class="small">让画面产生运动感</text>
+  <text x="603" y="575" class="body">同一画面可以组合线型；关键是每条线承担什么观看功能。</text>
+
+  <rect x="60" y="642" width="1080" height="82" rx="16" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="88" y="678" class="panel-title">③ 创作判断：先写“要让人感到什么”，再写“眼睛要从哪里走到哪里”</text>
+  <text x="88" y="706" class="body">教学简化：色彩效果必须结合对象、面积、明度、饱和度与具体语境，线型名称本身不保证叙事效果。</text>
+</svg>

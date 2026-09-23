@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+  <title id="t">动势先决定怎么接，再决定怎么画</title><desc id="d">用连续画框和色块方向展示顺接、镜内转向与反势重音。</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker><marker id="r" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#dc2626"/></marker><style>.h{font:700 32px 'Microsoft YaHei',sans-serif;fill:#111827}.s{font:700 20px 'Microsoft YaHei',sans-serif;fill:#111827}.p{font:400 17px 'Microsoft YaHei',sans-serif;fill:#374151}.f{fill:#f8fafc;stroke:#111827;stroke-width:3}</style></defs>
+  <rect width="1200" height="720" fill="#f3f4f6"/><rect x="30" y="24" width="1140" height="672" rx="24" fill="#fff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="70" y="78" class="h">动势先决定怎么接，再决定怎么画</text><text x="70" y="110" class="p">先匹配切前最后方向与切后第一方向；骨架成立后，再补姿势、武器和摄影机运动。</text>
+  <text x="70" y="160" class="s">① 顺势接续｜保持速度</text>
+  <rect x="70" y="180" width="430" height="120" rx="12" class="f"/><circle cx="165" cy="240" r="30" fill="#3b82f6"/><line x1="205" y1="240" x2="430" y2="240" stroke="#2563eb" stroke-width="6" marker-end="url(#a)"/>
+  <rect x="700" y="180" width="430" height="120" rx="12" class="f"/><line x1="750" y1="240" x2="975" y2="240" stroke="#2563eb" stroke-width="6" marker-end="url(#a)"/><circle cx="1015" cy="240" r="30" fill="#10b981"/><line x1="515" y1="240" x2="675" y2="240" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/><text x="560" y="225" class="p">切镜</text>
+  <text x="70" y="350" class="s">② 镜内转向｜先让观众看见方向改变</text>
+  <rect x="70" y="370" width="430" height="120" rx="12" class="f"/><path d="M155 430 C260 345 350 500 430 420" fill="none" stroke="#2563eb" stroke-width="6" marker-end="url(#a)"/><circle cx="155" cy="430" r="28" fill="#3b82f6"/>
+  <rect x="700" y="370" width="430" height="120" rx="12" class="f"/><line x1="1065" y1="430" x2="820" y2="430" stroke="#2563eb" stroke-width="6" marker-end="url(#a)"/><circle cx="1065" cy="430" r="28" fill="#10b981"/><line x1="515" y1="430" x2="675" y2="430" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/><text x="560" y="415" class="p">切镜</text>
+  <text x="70" y="540" class="s">③ 反势重音｜眼睛被顶回，但动作因果不能断</text>
+  <rect x="70" y="560" width="430" height="100" rx="12" class="f"/><circle cx="155" cy="610" r="26" fill="#3b82f6"/><line x1="195" y1="610" x2="430" y2="610" stroke="#2563eb" stroke-width="6" marker-end="url(#a)"/>
+  <rect x="700" y="560" width="430" height="100" rx="12" class="f"/><circle cx="1045" cy="610" r="26" fill="#dc2626"/><line x1="1005" y1="610" x2="770" y2="610" stroke="#dc2626" stroke-width="6" marker-end="url(#r)"/><line x1="515" y1="610" x2="675" y2="610" stroke="#dc2626" stroke-width="4" marker-end="url(#r)"/><text x="540" y="595" class="p" fill="#b91c1c">冲突切点</text>
+  <text x="70" y="680" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="14" fill="#6b7280">教学示意：圆点代表总体运动色块，不代表人物形态、真实速度或动作轨迹比例。</text>
+</svg>

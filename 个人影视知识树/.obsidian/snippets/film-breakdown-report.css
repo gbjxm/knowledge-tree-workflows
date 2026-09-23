@@ -1,0 +1,177 @@
+/*
+ * 小陌的拉片库｜画面优先阅读版式
+ * 仅对 frontmatter 中含 film-breakdown-report 的笔记生效。
+ */
+
+.markdown-preview-view.film-breakdown-report,
+.markdown-source-view.mod-cm6.film-breakdown-report,
+.film-breakdown-report .markdown-preview-view,
+.film-breakdown-report .markdown-source-view.mod-cm6 {
+  --file-line-width: 1680px;
+}
+
+.markdown-preview-view.film-breakdown-report .markdown-preview-sizer,
+.markdown-source-view.mod-cm6.film-breakdown-report .cm-sizer,
+.markdown-source-view.mod-cm6.film-breakdown-report .cm-contentContainer,
+.film-breakdown-report .markdown-preview-view .markdown-preview-sizer,
+.film-breakdown-report .markdown-source-view.mod-cm6 .cm-sizer,
+.film-breakdown-report .markdown-source-view.mod-cm6 .cm-contentContainer,
+body:has(.workspace-leaf.mod-active .film-breakdown-report) .workspace-leaf.mod-active .markdown-preview-sizer,
+body:has(.workspace-leaf.mod-active .film-breakdown-report) .workspace-leaf.mod-active .cm-sizer,
+body:has(.workspace-leaf.mod-active .film-breakdown-report) .workspace-leaf.mod-active .cm-contentContainer {
+  width: calc(100% - 32px) !important;
+  max-width: none !important;
+  margin-inline: auto;
+}
+
+.film-breakdown-report table:has(.image-embed),
+.film-breakdown-report table:has(img) {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.film-breakdown-report table:has(.image-embed) th:nth-child(1),
+.film-breakdown-report table:has(.image-embed) td:nth-child(1),
+.film-breakdown-report table:has(img) th:nth-child(1),
+.film-breakdown-report table:has(img) td:nth-child(1) {
+  width: 38%;
+  min-width: 320px;
+}
+
+.film-breakdown-report table:has(.image-embed) th:nth-child(2),
+.film-breakdown-report table:has(.image-embed) td:nth-child(2),
+.film-breakdown-report table:has(img) th:nth-child(2),
+.film-breakdown-report table:has(img) td:nth-child(2) {
+  width: 13%;
+}
+
+.film-breakdown-report table:has(.image-embed) th:nth-child(3),
+.film-breakdown-report table:has(.image-embed) td:nth-child(3),
+.film-breakdown-report table:has(img) th:nth-child(3),
+.film-breakdown-report table:has(img) td:nth-child(3) {
+  width: 16%;
+}
+
+.film-breakdown-report table:has(.image-embed) th:nth-child(4),
+.film-breakdown-report table:has(.image-embed) td:nth-child(4),
+.film-breakdown-report table:has(img) th:nth-child(4),
+.film-breakdown-report table:has(img) td:nth-child(4) {
+  width: 15%;
+}
+
+.film-breakdown-report table:has(.image-embed) th:nth-child(5),
+.film-breakdown-report table:has(.image-embed) td:nth-child(5),
+.film-breakdown-report table:has(img) th:nth-child(5),
+.film-breakdown-report table:has(img) td:nth-child(5),
+.film-breakdown-report table:has(.image-embed) th:nth-child(6),
+.film-breakdown-report table:has(.image-embed) td:nth-child(6),
+.film-breakdown-report table:has(img) th:nth-child(6),
+.film-breakdown-report table:has(img) td:nth-child(6) {
+  width: 9%;
+}
+
+.film-breakdown-report table:has(.image-embed) th,
+.film-breakdown-report table:has(.image-embed) td,
+.film-breakdown-report table:has(img) th,
+.film-breakdown-report table:has(img) td {
+  vertical-align: top;
+}
+
+.film-breakdown-report table:has(.image-embed) .image-embed,
+.film-breakdown-report table:has(img) .image-embed {
+  display: block;
+  width: 100%;
+}
+
+.film-breakdown-report table:has(.image-embed) img,
+.film-breakdown-report table:has(img) img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  margin: 0;
+  border-radius: 6px;
+  background: var(--background-secondary);
+}
+
+@media (max-width: 1000px) {
+  .film-breakdown-report table:has(.image-embed),
+  .film-breakdown-report table:has(img) {
+    min-width: 980px;
+  }
+}
+
+/*
+ * 逐镜六栏表突破 Obsidian 的正文窄栏并在工作区居中。
+ * 结构选择器也覆盖实时预览中未挂载 cssclasses 的虚拟化表格。
+ */
+table:has(th:nth-child(6)):has(.image-embed),
+table:has(th:nth-child(6)):has(img) {
+  position: relative;
+  left: 50%;
+  width: min(1580px, calc(100vw - 380px)) !important;
+  max-width: none !important;
+  margin-left: 0;
+  transform: translateX(-50%);
+  table-layout: fixed;
+}
+
+table:has(th:nth-child(6)):has(.image-embed) th:nth-child(1),
+table:has(th:nth-child(6)):has(.image-embed) td:nth-child(1),
+table:has(th:nth-child(6)):has(img) th:nth-child(1),
+table:has(th:nth-child(6)):has(img) td:nth-child(1) {
+  width: 10% !important;
+  min-width: 120px;
+}
+
+table:has(th:nth-child(6)):has(.image-embed) th:nth-child(2),
+table:has(th:nth-child(6)):has(.image-embed) td:nth-child(2),
+table:has(th:nth-child(6)):has(img) th:nth-child(2),
+table:has(th:nth-child(6)):has(img) td:nth-child(2) {
+  width: 41% !important;
+  min-width: 520px;
+}
+
+table:has(th:nth-child(6)):has(.image-embed) th:nth-child(3),
+table:has(th:nth-child(6)):has(.image-embed) td:nth-child(3),
+table:has(th:nth-child(6)):has(img) th:nth-child(3),
+table:has(th:nth-child(6)):has(img) td:nth-child(3) {
+  width: 13% !important;
+}
+
+table:has(th:nth-child(6)):has(.image-embed) th:nth-child(4),
+table:has(th:nth-child(6)):has(.image-embed) td:nth-child(4),
+table:has(th:nth-child(6)):has(img) th:nth-child(4),
+table:has(th:nth-child(6)):has(img) td:nth-child(4) {
+  width: 16% !important;
+}
+
+table:has(th:nth-child(6)):has(.image-embed) th:nth-child(5),
+table:has(th:nth-child(6)):has(.image-embed) td:nth-child(5),
+table:has(th:nth-child(6)):has(img) th:nth-child(5),
+table:has(th:nth-child(6)):has(img) td:nth-child(5),
+table:has(th:nth-child(6)):has(.image-embed) th:nth-child(6),
+table:has(th:nth-child(6)):has(.image-embed) td:nth-child(6),
+table:has(th:nth-child(6)):has(img) th:nth-child(6),
+table:has(th:nth-child(6)):has(img) td:nth-child(6) {
+  width: 10% !important;
+}
+
+table:has(th:nth-child(6)):has(.image-embed) .image-embed,
+table:has(th:nth-child(6)):has(img) .image-embed,
+table:has(th:nth-child(6)):has(.image-embed) img,
+table:has(th:nth-child(6)):has(img) img {
+  display: block;
+  width: 100% !important;
+  max-width: none !important;
+}
+
+@media (max-width: 1200px) {
+  table:has(th:nth-child(6)):has(.image-embed),
+  table:has(th:nth-child(6)):has(img) {
+    left: 0;
+    width: 1280px !important;
+    transform: none;
+  }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790" role="img" aria-labelledby="t d">
+  <title id="t">蒙太奇不是快剪：A 与 B 的关系产生第三层意义</title><desc id="d">用同一中性人物镜头与不同对象组接，并列出镜头、叙事线、画面声音和声音声音四种并置对象。</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker><style>.h{font:700 32px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#111827}.s{font:700 20px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#111827}.p{font:400 17px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#374151}.tiny{font:400 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#6b7280}.card{fill:#f8fafc;stroke:#111827;stroke-width:2}</style></defs>
+  <rect width="1200" height="790" fill="#f3f4f6"/><rect x="30" y="24" width="1140" height="742" rx="24" fill="#fff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="70" y="78" class="h">蒙太奇不是快剪：A＋关系＋B＝第三层意义</text><text x="70" y="110" class="p">先写清 A、B 各自含义，再指定相似、冲突、递进、因果、反讽或对位关系。</text>
+  <rect x="60" y="145" width="1080" height="280" rx="18" fill="#fff" stroke="#d1d5db" stroke-width="2"/><text x="88" y="185" class="s">① 同一素材 A，接不同素材 B，观众会改变解释</text>
+  <g transform="translate(88 215)"><rect width="250" height="165" rx="12" class="card"/><circle cx="125" cy="72" r="38" fill="#d1d5db"/><path d="M65 165 Q72 112 125 112 Q178 112 185 165Z" fill="#9ca3af"/><text x="55" y="30" class="p">素材 A：中性人物</text></g>
+  <text x="360" y="300" class="h" fill="#2563eb">＋</text>
+  <g transform="translate(420 215)"><rect width="250" height="165" rx="12" class="card"/><ellipse cx="125" cy="100" rx="78" ry="30" fill="#fde68a" stroke="#92400e" stroke-width="3"/><circle cx="95" cy="85" r="22" fill="#f59e0b"/><circle cx="145" cy="92" r="18" fill="#10b981"/><text x="65" y="30" class="p">素材 B1：食物</text></g>
+  <line x1="690" y1="297" x2="750" y2="297" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/><rect x="770" y="235" width="330" height="125" rx="12" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/><text x="800" y="278" class="s">第三层解释：饥饿／期待</text><text x="800" y="315" class="p">不是脸单独说出的，也不是食物单独说出的</text>
+  <text x="88" y="402" class="p">替换素材 B：若换成“空椅／告别物件”，同一张脸可被解释为失落或怀念。</text>
+  <rect x="60" y="455" width="1080" height="240" rx="18" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/><text x="88" y="495" class="s">② A 与 B 不只可以是两颗相邻镜头</text>
+  <g transform="translate(88 525)"><rect width="235" height="115" rx="12" fill="#fff" stroke="#3b82f6" stroke-width="2"/><text x="30" y="40" class="s">镜头 A ＋ 镜头 B</text><text x="30" y="77" class="p">相邻组接改变解释</text></g>
+  <g transform="translate(343 525)"><rect width="235" height="115" rx="12" fill="#fff" stroke="#3b82f6" stroke-width="2"/><text x="30" y="40" class="s">叙事线 A ＋ B</text><text x="30" y="77" class="p">平行／对照互相评论</text></g>
+  <g transform="translate(598 525)"><rect width="235" height="115" rx="12" fill="#fff" stroke="#3b82f6" stroke-width="2"/><text x="30" y="40" class="s">画面 ＋ 声音</text><text x="30" y="77" class="p">正配、反配或独立对位</text></g>
+  <g transform="translate(853 525)"><rect width="235" height="115" rx="12" fill="#fff" stroke="#3b82f6" stroke-width="2"/><text x="30" y="40" class="s">声音 A ＋ 声音 B</text><text x="30" y="77" class="p">个人情绪被扩展或对照</text></g>
+  <rect x="88" y="655" width="1000" height="25" rx="8" fill="#fffbeb"/><text x="118" y="675" class="p">检验：第三层意义能否由上下文获得？如果只能靠创作者解释，它还没有真正成立。</text>
+  <text x="70" y="750" class="tiny">教学示意：中性人物与对象是课程方法的简化示例，不复刻具体影片画面或历史实验原始素材。</text>
+</svg>

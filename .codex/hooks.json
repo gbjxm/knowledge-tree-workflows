@@ -1,0 +1,45 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -B \"skills/operate-personal-knowledge-tree/scripts/knowledge_tree_runtime.py\"",
+            "commandWindows": "python -B \"skills\\operate-personal-knowledge-tree\\scripts\\knowledge_tree_runtime.py\"",
+            "timeout": 20,
+            "statusMessage": "正在读取个人影视知识树"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "^apply_patch$|^Bash$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -B \"skills/operate-personal-knowledge-tree/scripts/knowledge_tree_runtime.py\"",
+            "commandWindows": "python -B \"skills\\operate-personal-knowledge-tree\\scripts\\knowledge_tree_runtime.py\"",
+            "timeout": 45,
+            "statusMessage": "正在校验知识树笔记"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -B \"skills/operate-personal-knowledge-tree/scripts/knowledge_tree_runtime.py\"",
+            "commandWindows": "python -B \"skills\\operate-personal-knowledge-tree\\scripts\\knowledge_tree_runtime.py\"",
+            "timeout": 60,
+            "statusMessage": "正在完成知识树结束检查"
+          }
+        ]
+      }
+    ]
+  }
+}

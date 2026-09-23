@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "workspace": "..",
+  "vault": "个人影视知识树",
+  "vault_name": "个人影视知识树",
+  "knowledge_library": "个人影视知识树/知识库",
+  "source_notes": "个人影视知识树/知识库/学习区",
+  "raw_cache": ".runtime/raw-cache",
+  "prompt_box": "个人影视知识树/小陌的AI百宝箱.md",
+  "obsidian_cli": "discover",
+  "skills_root": "skills",
+  "source_evidence": "evidence/sources",
+  "creation_root": "个人影视知识树/知识库/创作区",
+  "learning_root": "个人影视知识树/知识库/学习区",
+  "github_backup": {
+    "repository": "gbjxm/knowledge-tree-workflows",
+    "branch": "main"
+  }
+}

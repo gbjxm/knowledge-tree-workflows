@@ -1,0 +1,176 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "resolve20-editors-ch07",
+  "source": {
+    "kind": "book",
+    "title": "07 - 剪辑页合成、变速与特效",
+    "locator": "https://documents.blackmagicdesign.com/UserManuals/DaVinci-Resolve-20-Editors-Guide.pdf#page=420",
+    "text_sha256": "45389822950775bcc46279e4bb91fa2eee21224b909348ab5d05bdbb958b037a",
+    "local_text_hint": ".runtime/raw-cache/knowledge-quality/2026-09-12-source-note-upgrade/evidence/books/chapter-7-source-excerpts.txt"
+  },
+  "note": {
+    "path": "知识库/学习区/书籍/DaVinci Resolve 20剪辑师指南/07 - 剪辑页合成、变速与特效.md",
+    "sha256": "32c86ca6b87a22043a1c2c2164a1e8ed04e280406a8a00d8e5551352458b1826",
+    "reviewed_note_sha256": "727da798ee73a6aa424784097128490e6394127ba900f81524cdfd7b46a1e933",
+    "reviewed_prefix_bytes": 14723
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "45389822950775bcc46279e4bb91fa2eee21224b909348ab5d05bdbb958b037a",
+    "note_sha256": "32c86ca6b87a22043a1c2c2164a1e8ed04e280406a8a00d8e5551352458b1826",
+    "scope": [
+      [
+        9,
+        21
+      ],
+      [
+        24,
+        36
+      ],
+      [
+        39,
+        59
+      ]
+    ],
+    "items": [
+      {
+        "id": "BOOK-13",
+        "item": "Compound Clip容纳影像与遮罩，内部结果返回主时间线",
+        "source": {
+          "lines": [
+            9,
+            21
+          ]
+        },
+        "note": {
+          "lines": [
+            94,
+            94
+          ]
+        },
+        "status": "合并",
+        "source_locator": "p397–400、403 / PDF420–423、426",
+        "raw_ranges": [
+          [
+            301,
+            303
+          ],
+          [
+            317,
+            320
+          ],
+          [
+            326,
+            327
+          ],
+          [
+            340,
+            341
+          ],
+          [
+            389,
+            390
+          ]
+        ],
+        "semantic_review": "画笔边缘目标、容器组织作用、内外时间线关系都保留；未假称本次实操成功。",
+        "reason": "容器建立和打开步骤归纳成组织目的、内部改变与主时间线结果的关系，省略面板操作。"
+      },
+      {
+        "id": "BOOK-14",
+        "item": "PNG自带Alpha、棋盘格显示透明及无Alpha用Luma",
+        "source": {
+          "lines": [
+            24,
+            36
+          ]
+        },
+        "note": {
+          "lines": [
+            96,
+            96
+          ]
+        },
+        "status": "合并",
+        "source_locator": "p400–402 / PDF423–425",
+        "raw_ranges": [
+          [
+            349,
+            352
+          ],
+          [
+            358,
+            364
+          ],
+          [
+            378,
+            379
+          ]
+        ],
+        "semantic_review": "可据输入是否有Alpha选择方法，未把两种遮罩仅作名词解释。",
+        "reason": "相邻定义与NOTE合并，保留输入条件与替代方法；关于黑白外观的提醒明确归属整理者。"
+      },
+      {
+        "id": "BOOK-15",
+        "item": "上层影像Foreground与下层matte Alpha/Lum的对应",
+        "source": {
+          "lines": [
+            39,
+            59
+          ]
+        },
+        "note": {
+          "lines": [
+            98,
+            104
+          ]
+        },
+        "status": "合并",
+        "source_locator": "p400、402–403 / PDF423、425–426",
+        "raw_ranges": [
+          [
+            343,
+            347
+          ],
+          [
+            370,
+            379
+          ],
+          [
+            385,
+            390
+          ]
+        ],
+        "semantic_review": "可复述谁提供透明关系、谁接受遮罩及模式如何对应；不要求记全部按钮序列。",
+        "reason": "原书上下层和合成模式步骤整理为对象对应表，保留时长、Alpha/Lum/Foreground关系；内外容器解释另明示归纳。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-12",
+    "scope": "原书印刷p397-403中的3个遮罩诊断内容项；未在Resolve实操。",
+    "summary": "保留案例、方法关系和限定语的已执行复核；来源获取、内容复核、用户掌握与真实效果分开。",
+    "method": "此前源输入升级的逐项复核；此次仅核对身份、原稿保留和可迁移入口，不冒充新一轮原文/媒体审核。",
+    "unverified": [],
+    "limitations": "配套影片/软件效果和用户理解未验证。"
+  },
+  "migration": {
+    "created_at": "2026-09-12T21:20:51.090260+08:00",
+    "previous_coverage_sha256": "3c8780eaa388b6d034e3718902379470ae66065860b6b1d956d0a8614e575cba",
+    "previous_coverage_hint": ".runtime/raw-cache/knowledge-quality/2026-09-12-source-note-upgrade/evidence/books/chapter-7-coverage.json",
+    "change": "仅在原笔记末尾追加长期复核入口；原始笔记字节前缀保持，覆盖定位不变；原缓存保留。"
+  },
+  "relocations": [
+    {
+      "date": "2026-09-22T09:01:09.840450+00:00",
+      "previous_note": {
+        "path": "bilibili-transcripts/DaVinci Resolve 20剪辑师指南/07 - 剪辑页合成、变速与特效.md",
+        "sha256": "162ef8d73ab8abba8485e25574730848dcf5b52cd46c0eb73c0bb651ded9cecf",
+        "reviewed_note_sha256": "271311fe835260e15c6986daa3dc6d6358f0412eca32daaf0a26dcf891ab6210",
+        "reviewed_prefix_bytes": 14649
+      },
+      "new_path": "知识库/学习区/书籍/DaVinci Resolve 20剪辑师指南/07 - 剪辑页合成、变速与特效.md",
+      "new_sha256": "32c86ca6b87a22043a1c2c2164a1e8ed04e280406a8a00d8e5551352458b1826",
+      "verification": "仅存放路径与链接替换；逐字节对照原件的同一变换，原来源身份、复核结论、未核事项保持。不代表重新审看原始内容。"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "抖音学习笔记"
+  short_description: "后台提取抖音视频并整理为可追溯的 Obsidian 笔记"
+  default_prompt: "使用 $douyin-study-notes 提取这条抖音视频，并整理成可追溯的 Obsidian 学习笔记。"

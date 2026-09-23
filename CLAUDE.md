@@ -1,0 +1,7 @@
+# Claude Code workspace entry
+
+@AGENTS.md
+
+Start by reading `README-先读我.md` and running `powershell -ExecutionPolicy Bypass -File .\scripts\verify.ps1`.
+
+Use the canonical `skills\*\SKILL.md` files and `manifest/modules.json` for release status and dependencies. Default installation contains eight stable core Skills; the two film-breakdown v2 modules remain preview-only. Do not install software or copy Skills outside this workspace without user authorization; do not repeat already granted authorization. Do not alter `个人影视知识树` merely to make it portable. Daily, immutable Migration and per-release verification are distinct modes. Current-task context never overwrites the confirmed global learning tables, and durable source records do not substitute for unavailable raw originals. Follow `skills/grow-creative-library/references/library-layout.md`: the shared knowledge root contains creative-role and learning zones; six categories remain properties and professional indexes. Learning intake stays in the learning zone unless specific knowledge is selected for creation. Creative calls prefer the role plus shared knowledge; learning files need call-specific `--include-path`, never implicit backlink expansion. Notes preserve knowledge without automatic learning assignments. Startup, deposit, closeout and ordinary weekly review do not select questions; only an explicit learning-suggestion request enables call-local `--learning`. Learning conversations are saved only when explicitly requested.

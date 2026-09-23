@@ -1,0 +1,450 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "resolve20-editors-ch03",
+  "source": {
+    "kind": "book",
+    "title": "03 - 剧情场景、表演选择与声画剪辑",
+    "locator": "https://documents.blackmagicdesign.com/UserManuals/DaVinci-Resolve-20-Editors-Guide.pdf#page=197",
+    "text_sha256": "7cf3a539a02a6b92dfdce904aeeaf24de1469f82d3435f62e0102db205818127",
+    "local_text_hint": ".runtime/raw-cache/knowledge-quality/2026-09-12-source-note-upgrade/evidence/books/chapter-3-source-excerpts.txt"
+  },
+  "note": {
+    "path": "知识库/学习区/书籍/DaVinci Resolve 20剪辑师指南/03 - 剧情场景、表演选择与声画剪辑.md",
+    "sha256": "fe1b9c6f0d65d647c41293a5cf4c1dc3f3bc46249e287fc8066b1d832adca830",
+    "reviewed_note_sha256": "bc5f1b8f05834aabb278ed343d157686e187107064208a2c47038435f1835519",
+    "reviewed_prefix_bytes": 18199
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "7cf3a539a02a6b92dfdce904aeeaf24de1469f82d3435f62e0102db205818127",
+    "note_sha256": "fe1b9c6f0d65d647c41293a5cf4c1dc3f3bc46249e287fc8066b1d832adca830",
+    "scope": [
+      [
+        9,
+        17
+      ],
+      [
+        20,
+        28
+      ],
+      [
+        31,
+        37
+      ],
+      [
+        40,
+        61
+      ],
+      [
+        64,
+        94
+      ],
+      [
+        97,
+        108
+      ],
+      [
+        111,
+        113
+      ],
+      [
+        116,
+        131
+      ],
+      [
+        134,
+        158
+      ],
+      [
+        161,
+        168
+      ],
+      [
+        171,
+        182
+      ],
+      [
+        185,
+        193
+      ]
+    ],
+    "items": [
+      {
+        "id": "BOOK-01",
+        "item": "Pickup补具体覆盖缺口及本场补镜类型",
+        "source": {
+          "lines": [
+            9,
+            17
+          ]
+        },
+        "note": {
+          "lines": [
+            128,
+            128
+          ]
+        },
+        "status": "保留",
+        "source_locator": "p174 / PDF197",
+        "raw_ranges": [
+          [
+            7,
+            12
+          ],
+          [
+            15,
+            17
+          ]
+        ],
+        "semantic_review": "定义、移龟/起身争吵/吸气三个用途均可从笔记复述。"
+      },
+      {
+        "id": "BOOK-02",
+        "item": "移龟动作以接触前/释放前匹配两段边界",
+        "source": {
+          "lines": [
+            20,
+            28
+          ]
+        },
+        "note": {
+          "lines": [
+            130,
+            130
+          ]
+        },
+        "status": "合并",
+        "source_locator": "p175–176 / PDF198–199",
+        "raw_ranges": [
+          [
+            28,
+            32
+          ],
+          [
+            40,
+            43
+          ]
+        ],
+        "semantic_review": "能解释是匹配事件阶段，而不是复制帧长或只说“动作匹配”。",
+        "reason": "源与时间线的相似边界操作合成一段，省去编号和键位，保留两端动作阶段与Ripple Overwrite。"
+      },
+      {
+        "id": "BOOK-03",
+        "item": "移龟接好后Harper肘部状态在切出时仍不连续",
+        "source": {
+          "lines": [
+            31,
+            37
+          ]
+        },
+        "note": {
+          "lines": [
+            132,
+            132
+          ]
+        },
+        "status": "保留",
+        "source_locator": "p176 / PDF199",
+        "raw_ranges": [
+          [
+            44,
+            50
+          ]
+        ],
+        "semantic_review": "人物、两种肘部状态、切出更明显三个事实均保留。"
+      },
+      {
+        "id": "BOOK-04",
+        "item": "连续性与亲近感/表演的比较及导演最终选原take",
+        "source": {
+          "lines": [
+            40,
+            61
+          ]
+        },
+        "note": {
+          "lines": [
+            134,
+            138
+          ]
+        },
+        "status": "合并",
+        "source_locator": "p178、182 / PDF201、205",
+        "raw_ranges": [
+          [
+            74,
+            83
+          ],
+          [
+            142,
+            153
+          ]
+        ],
+        "semantic_review": "两种方案的得失和导演选择均可复述；未把个案取舍普遍化。",
+        "reason": "将取舍与具体选择合成同一案例，并把整理者适用边界另标；省略论坛/粉丝网站的旁述。"
+      },
+      {
+        "id": "BOOK-05",
+        "item": "Take Selector比较、时长适应、关闭与Finalize不同",
+        "source": {
+          "lines": [
+            64,
+            94
+          ]
+        },
+        "note": {
+          "lines": [
+            148,
+            148
+          ]
+        },
+        "status": "合并",
+        "source_locator": "p179–182 / PDF202–205",
+        "raw_ranges": [
+          [
+            88,
+            94
+          ],
+          [
+            104,
+            107
+          ],
+          [
+            125,
+            135
+          ],
+          [
+            155,
+            163
+          ]
+        ],
+        "semantic_review": "可解释关闭后仍能再比较，Finalize才移除容器中的未选take；未声称删除源媒体。",
+        "reason": "重复预览和界面操作合并为容器、切换、时长与定稿关系；保留Finalize移除未选take的后果。"
+      },
+      {
+        "id": "BOOK-06",
+        "item": "J/L-cut先后关系、反应在回应之前及自然衔接",
+        "source": {
+          "lines": [
+            97,
+            108
+          ]
+        },
+        "note": {
+          "lines": [
+            91,
+            93
+          ]
+        },
+        "status": "合并",
+        "source_locator": "p185 / PDF208",
+        "raw_ranges": [
+          [
+            171,
+            177
+          ],
+          [
+            181,
+            185
+          ]
+        ],
+        "semantic_review": "J声音先于新画面、L画面先于声音变化关系准确，未写成强制规则。",
+        "reason": "与BOOK-07共享声画关系段，术语定义、L-cut反应目的与适用语气保留。"
+      },
+      {
+        "id": "BOOK-07",
+        "item": "汽车喇叭例解释声音驱动视点变化",
+        "source": {
+          "lines": [
+            111,
+            113
+          ]
+        },
+        "note": {
+          "lines": [
+            93,
+            93
+          ]
+        },
+        "status": "保留",
+        "source_locator": "p185 / PDF208",
+        "raw_ranges": [
+          [
+            178,
+            180
+          ]
+        ],
+        "semantic_review": "听见声音→稍后寻找声源的顺序及其作用都保留。"
+      },
+      {
+        "id": "BOOK-08",
+        "item": "Everdunn转头引出Garret点头及独立选声画边界",
+        "source": {
+          "lines": [
+            116,
+            131
+          ]
+        },
+        "note": {
+          "lines": [
+            97,
+            97
+          ]
+        },
+        "status": "合并",
+        "source_locator": "p185–186 / PDF208–209",
+        "raw_ranges": [
+          [
+            187,
+            189
+          ],
+          [
+            195,
+            207
+          ]
+        ],
+        "semantic_review": "能复述具体可见行为链和切点动机，不仅是泛泛“反应重要”。",
+        "reason": "源中的菜单、编号与回放步骤合并，保留转头/叫名前/点头的动机及单独选画面边界。"
+      },
+      {
+        "id": "BOOK-09",
+        "item": "Harper翻眼与补回直视的前后观感及回应时间比较",
+        "source": {
+          "lines": [
+            134,
+            158
+          ]
+        },
+        "note": {
+          "lines": [
+            101,
+            110
+          ]
+        },
+        "status": "合并",
+        "source_locator": "p186–188 / PDF209–211",
+        "raw_ranges": [
+          [
+            211,
+            213
+          ],
+          [
+            219,
+            240
+          ]
+        ],
+        "semantic_review": "教材的表演解释与本次实测明确分开；未将“多留几帧必然后悔”写成规律。",
+        "reason": "两页相邻步骤合成前后版本比较，保留killed、翻眼、补回直视、教材所述悔意及延后回应；省去重复回放键位。"
+      },
+      {
+        "id": "BOOK-10",
+        "item": "下一处缩短Harper入镜前段以加快回应",
+        "source": {
+          "lines": [
+            161,
+            168
+          ]
+        },
+        "note": {
+          "lines": [
+            114,
+            114
+          ]
+        },
+        "status": "合并",
+        "source_locator": "p188–189 / PDF211–212",
+        "raw_ranges": [
+          [
+            241,
+            242
+          ],
+          [
+            247,
+            252
+          ]
+        ],
+        "semantic_review": "与BOOK-09的延长对比清楚，未混淆“先看听者”与“给听者多少时间”。",
+        "reason": "把台词位置和修剪步骤合成对照段，保留缩短前段、眯眼前、回应更快三项。"
+      },
+      {
+        "id": "BOOK-11",
+        "item": "Garret反应使故意激怒更清楚，停留时长与节奏权衡",
+        "source": {
+          "lines": [
+            171,
+            182
+          ]
+        },
+        "note": {
+          "lines": [
+            116,
+            116
+          ]
+        },
+        "status": "合并",
+        "source_locator": "p190 / PDF213",
+        "raw_ranges": [
+          [
+            257,
+            268
+          ]
+        ],
+        "semantic_review": "例子的具体解释与两难均保留，没有用通用情绪词列表替代。",
+        "reason": "命令与反复提问合并成同一因果和取舍段；保留palm/直视触发、激怒解释及两种速度选择。"
+      },
+      {
+        "id": "BOOK-12",
+        "item": "没有唯一切法且表演素材限制想要的反应速度",
+        "source": {
+          "lines": [
+            185,
+            193
+          ]
+        },
+        "note": {
+          "lines": [
+            118,
+            118
+          ]
+        },
+        "status": "保留",
+        "source_locator": "p191 / PDF214",
+        "raw_ranges": [
+          [
+            273,
+            281
+          ]
+        ],
+        "semantic_review": "换take或接受素材方向两个选项保留；此前个人理解和实操状态未提升。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-12",
+    "scope": "原书印刷p174-182、p185-191中的12个诊断内容项；不等于这些页所有操作或全章完整复核。",
+    "summary": "保留案例、方法关系和限定语的已执行复核；来源获取、内容复核、用户掌握与真实效果分开。",
+    "method": "此前源输入升级的逐项复核；此次仅核对身份、原稿保留和可迁移入口，不冒充新一轮原文/媒体审核。",
+    "unverified": [],
+    "limitations": "配套影片/软件效果和用户理解未验证。"
+  },
+  "migration": {
+    "created_at": "2026-09-12T21:20:51.069887+08:00",
+    "previous_coverage_sha256": "b396cf8954f433b3f5b6e5f286db0019cd52762cdf8a14c4ec1f7418b658a035",
+    "previous_coverage_hint": ".runtime/raw-cache/knowledge-quality/2026-09-12-source-note-upgrade/evidence/books/chapter-3-coverage.json",
+    "change": "仅在原笔记末尾追加长期复核入口；原始笔记字节前缀保持，覆盖定位不变；原缓存保留。"
+  },
+  "relocations": [
+    {
+      "date": "2026-09-22T09:01:09.819822+00:00",
+      "previous_note": {
+        "path": "bilibili-transcripts/DaVinci Resolve 20剪辑师指南/03 - 剧情场景、表演选择与声画剪辑.md",
+        "sha256": "434787334d00568ec5072e94728987c3bb4f9f4d532ae898a6b3b176eff65d56",
+        "reviewed_note_sha256": "e57a06a53584c47e6d376e242cf7d640cd356f0f7c11fd1c08d91f3ac7e0b997",
+        "reviewed_prefix_bytes": 18147
+      },
+      "new_path": "知识库/学习区/书籍/DaVinci Resolve 20剪辑师指南/03 - 剧情场景、表演选择与声画剪辑.md",
+      "new_sha256": "fe1b9c6f0d65d647c41293a5cf4c1dc3f3bc46249e287fc8066b1d832adca830",
+      "verification": "仅存放路径与链接替换；逐字节对照原件的同一变换，原来源身份、复核结论、未核事项保持。不代表重新审看原始内容。"
+    }
+  ]
+}

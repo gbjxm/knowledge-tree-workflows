@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="880" viewBox="0 0 1200 880" role="img" aria-labelledby="title desc">
+  <title id="title">第十三课：整体编人物，单集编事件</title>
+  <desc id="desc">左侧全剧人物编织表按集数规划人物弧线与关系曲线，从其中纵向切出一集任务；右侧再把任务压缩成两到三条有行动、冲突和结果的事件线。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0v6l9-3z" fill="#2563eb"/>
+    </marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .subtitle{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .section{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .module{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .cell{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .head{font:700 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .badge{font:700 14px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#ffffff}
+      .strong{font:700 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f766e}
+      .small{font:400 14px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#64748b}
+      .card{fill:#ffffff;stroke:#cbd5e1;stroke-width:2}
+      .grid{stroke:#cbd5e1;stroke-width:1.5}
+    </style>
+  </defs>
+
+  <rect width="1200" height="880" fill="#f1f5f9"/>
+  <rect x="28" y="20" width="1144" height="840" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+
+  <text x="60" y="70" class="title">第十三课｜整体编人物，单集编事件</text>
+  <text x="60" y="101" class="subtitle">先在全剧尺度安排人物变化，再把某一集的人物任务压缩成可见事件</text>
+
+  <rect x="60" y="126" width="710" height="570" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="82" y="148" width="30" height="30" rx="8" fill="#0f766e"/>
+  <text x="92" y="169" class="badge">1</text>
+  <text x="126" y="170" class="section">全剧层：人物编织表</text>
+  <text x="82" y="202" class="body">横轴按集数，纵轴按人物；先锁起点、终点和共同目标，再分配弧线节点。</text>
+
+  <rect x="82" y="226" width="666" height="340" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="82" y="226" width="666" height="46" rx="8" fill="#eff6ff"/>
+  <rect x="366" y="226" width="95" height="302" fill="#fff7ed" stroke="#f59e0b" stroke-width="3"/>
+
+  <line x1="176" y1="226" x2="176" y2="566" class="grid"/>
+  <line x1="271" y1="226" x2="271" y2="566" class="grid"/>
+  <line x1="366" y1="226" x2="366" y2="566" class="grid"/>
+  <line x1="461" y1="226" x2="461" y2="566" class="grid"/>
+  <line x1="556" y1="226" x2="556" y2="566" class="grid"/>
+  <line x1="651" y1="226" x2="651" y2="566" class="grid"/>
+  <line x1="82" y1="272" x2="748" y2="272" class="grid"/>
+  <line x1="82" y1="336" x2="748" y2="336" class="grid"/>
+  <line x1="82" y1="400" x2="748" y2="400" class="grid"/>
+  <line x1="82" y1="464" x2="748" y2="464" class="grid"/>
+  <line x1="82" y1="528" x2="748" y2="528" class="grid"/>
+
+  <text x="129" y="255" text-anchor="middle" class="head">人物 / 集</text>
+  <text x="223" y="255" text-anchor="middle" class="head">第1集</text>
+  <text x="318" y="255" text-anchor="middle" class="head">第2集</text>
+  <text x="413" y="255" text-anchor="middle" class="head">第3集</text>
+  <text x="508" y="255" text-anchor="middle" class="head">第4集</text>
+  <text x="603" y="255" text-anchor="middle" class="head">第5集</text>
+  <text x="699" y="255" text-anchor="middle" class="head">第6集</text>
+
+  <text x="129" y="311" text-anchor="middle" class="module">A</text>
+  <text x="223" y="302" text-anchor="middle" class="cell">起点</text>
+  <text x="223" y="321" text-anchor="middle" class="cell">受困</text>
+  <text x="318" y="302" text-anchor="middle" class="cell">激励</text>
+  <text x="318" y="321" text-anchor="middle" class="cell">开始行动</text>
+  <text x="413" y="302" text-anchor="middle" class="cell">选择</text>
+  <text x="413" y="321" text-anchor="middle" class="cell">承担代价</text>
+  <text x="508" y="302" text-anchor="middle" class="cell">受挫</text>
+  <text x="508" y="321" text-anchor="middle" class="cell">改变方向</text>
+  <text x="603" y="302" text-anchor="middle" class="cell">危机</text>
+  <text x="603" y="321" text-anchor="middle" class="cell">失去退路</text>
+  <text x="699" y="302" text-anchor="middle" class="cell">终点</text>
+  <text x="699" y="321" text-anchor="middle" class="cell">价值变化</text>
+
+  <text x="129" y="375" text-anchor="middle" class="module">B</text>
+  <text x="223" y="366" text-anchor="middle" class="cell">资源</text>
+  <text x="223" y="385" text-anchor="middle" class="cell">加入主线</text>
+  <text x="318" y="366" text-anchor="middle" class="cell">互补</text>
+  <text x="318" y="385" text-anchor="middle" class="cell">推动行动</text>
+  <text x="413" y="366" text-anchor="middle" class="cell">受挫</text>
+  <text x="413" y="385" text-anchor="middle" class="cell">怀疑合作</text>
+  <text x="508" y="366" text-anchor="middle" class="cell">分裂</text>
+  <text x="508" y="385" text-anchor="middle" class="cell">私人欲望</text>
+  <text x="603" y="366" text-anchor="middle" class="cell">回归</text>
+  <text x="603" y="385" text-anchor="middle" class="cell">承担风险</text>
+  <text x="699" y="366" text-anchor="middle" class="cell">结果</text>
+  <text x="699" y="385" text-anchor="middle" class="cell">去留选择</text>
+
+  <text x="129" y="439" text-anchor="middle" class="module">C</text>
+  <text x="223" y="430" text-anchor="middle" class="cell">缺席</text>
+  <text x="223" y="449" text-anchor="middle" class="cell">伏笔</text>
+  <text x="318" y="430" text-anchor="middle" class="cell">登场</text>
+  <text x="318" y="449" text-anchor="middle" class="cell">带来阻力</text>
+  <text x="413" y="430" text-anchor="middle" class="cell">误会</text>
+  <text x="413" y="449" text-anchor="middle" class="cell">假对手</text>
+  <text x="508" y="430" text-anchor="middle" class="cell">揭示</text>
+  <text x="508" y="449" text-anchor="middle" class="cell">真实立场</text>
+  <text x="603" y="430" text-anchor="middle" class="cell">结盟</text>
+  <text x="603" y="449" text-anchor="middle" class="cell">补主线</text>
+  <text x="699" y="430" text-anchor="middle" class="cell">承担</text>
+  <text x="699" y="449" text-anchor="middle" class="cell">阶段结果</text>
+
+  <text x="129" y="503" text-anchor="middle" class="module">关系</text>
+  <text x="223" y="494" text-anchor="middle" class="cell">联合</text>
+  <text x="223" y="513" text-anchor="middle" class="cell">试探信任</text>
+  <text x="318" y="494" text-anchor="middle" class="cell">靠近</text>
+  <text x="318" y="513" text-anchor="middle" class="cell">主线相生</text>
+  <text x="413" y="494" text-anchor="middle" class="cell">裂缝</text>
+  <text x="413" y="513" text-anchor="middle" class="cell">副线相克</text>
+  <text x="508" y="494" text-anchor="middle" class="cell">反目</text>
+  <text x="508" y="513" text-anchor="middle" class="cell">权力倒置</text>
+  <text x="603" y="494" text-anchor="middle" class="cell">修复</text>
+  <text x="603" y="513" text-anchor="middle" class="cell">共同代价</text>
+  <text x="699" y="494" text-anchor="middle" class="cell">新关系</text>
+  <text x="699" y="513" text-anchor="middle" class="cell">留下痕迹</text>
+
+  <text x="129" y="553" text-anchor="middle" class="head">共同目标</text>
+  <text x="462" y="553" text-anchor="middle" class="strong">同一持续任务，让 A / B / C 的能力彼此需要</text>
+
+  <rect x="82" y="590" width="666" height="78" rx="8" fill="#ecfdf5" stroke="#5eead4" stroke-width="2"/>
+  <text x="104" y="621" class="module">双线原则</text>
+  <text x="214" y="621" class="strong">主线相生</text>
+  <text x="306" y="621" class="body">共同任务促成合作</text>
+  <text x="214" y="649" class="strong" fill="#dc2626">副线相克</text>
+  <text x="306" y="649" class="body">爱情、家庭、忠诚、利益让合作付出代价</text>
+
+  <line x1="770" y1="412" x2="802" y2="412" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="786" y="390" text-anchor="middle" class="head">纵向切片</text>
+
+  <rect x="812" y="126" width="328" height="570" rx="8" fill="#fff7ed" stroke="#f59e0b" stroke-width="2"/>
+  <rect x="834" y="148" width="30" height="30" rx="8" fill="#d97706"/>
+  <text x="844" y="169" class="badge">2</text>
+  <text x="878" y="170" class="section">单集层：事件编排</text>
+  <text x="834" y="202" class="body">先列当集任务，再压成 2–3 条事件线。</text>
+
+  <rect x="834" y="226" width="284" height="112" rx="8" fill="#ffffff" stroke="#fdba74" stroke-width="2"/>
+  <text x="854" y="256" class="module">第 3 集人物任务</text>
+  <text x="854" y="284" class="body">A 作选择　B 受挫</text>
+  <text x="854" y="312" class="body">C 以假对手登场　A / B 出现裂缝</text>
+
+  <line x1="976" y1="338" x2="976" y2="368" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="834" y="378" width="284" height="88" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="854" y="407" class="module">事件线 1｜主任务</text>
+  <text x="854" y="435" class="body">行动 → 冲突 → 结果</text>
+  <text x="854" y="458" class="cell">一个事件尽量同时完成多个任务</text>
+
+  <rect x="834" y="482" width="284" height="88" rx="8" fill="#ecfdf5" stroke="#5eead4" stroke-width="2"/>
+  <text x="854" y="511" class="module">事件线 2｜关系 / 代价</text>
+  <text x="854" y="539" class="body">副线冲击主线，并改变推进方式</text>
+  <text x="854" y="562" class="cell">不要把人物线轮流展示成并列片段</text>
+
+  <rect x="834" y="586" width="284" height="82" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <text x="976" y="618" text-anchor="middle" class="module">单集验收</text>
+  <text x="976" y="646" text-anchor="middle" class="body">推进全剧 + 留下可单独记住的看点</text>
+
+  <rect x="60" y="724" width="1080" height="82" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="84" y="756" class="module">扩篇不注水</text>
+  <text x="214" y="756" class="body">允许人物多次激励、受挫与转向，但每次都要改变状态、关系、代价或方向。</text>
+  <text x="84" y="786" class="body">连续剧补“单集看点”；单元剧与情景剧补“跨集暗线”，两者都要管理黏度。</text>
+  <text x="1140" y="838" text-anchor="end" class="small">适用边界：本图适合多人物连续剧规划，不是所有剧集唯一的写法</text>
+</svg>

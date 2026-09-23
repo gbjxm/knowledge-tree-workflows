@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">人物怎样生成情节</title>
+  <desc id="desc">人物的弱点与需要赋予外部欲望意义，主要对手持续施压，迫使计划升级、揭示发生，最终形成领悟和新平衡。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#e11d48"/></marker>
+    <style>.title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#111827}.sub{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#4b5563}.pt{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#111827}.body{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#374151}.small{font:400 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#4b5563}.label{font:700 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif}.card{fill:#fff;stroke:#cbd5e1;stroke-width:2}.blue{stroke:#2563eb;stroke-width:4;fill:none;marker-end:url(#arrow)}.red{stroke:#e11d48;stroke-width:4;fill:none;marker-end:url(#arrow-red)}</style>
+  </defs>
+  <rect width="1200" height="820" fill="#eef2f7"/><rect x="30" y="24" width="1140" height="772" rx="26" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="78" class="title">人物怎样真正生成情节</text>
+  <text x="70" y="112" class="sub">不是“给人物加细节”，而是让外部目标持续触碰内部问题。</text>
+
+  <rect x="70" y="155" width="300" height="150" rx="20" fill="#fff7ed" stroke="#fb923c" stroke-width="2"/>
+  <text x="98" y="197" class="pt">弱点与需要</text>
+  <text x="98" y="234" class="body">旧模式正在怎样伤害生活？</text>
+  <text x="98" y="263" class="body">人物必须面对什么？</text>
+
+  <rect x="450" y="155" width="300" height="150" rx="20" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="478" y="197" class="pt">外部欲望</text>
+  <text x="478" y="234" class="body">人物有意识追逐什么？</text>
+  <text x="478" y="263" class="body">成败标准能否被看见？</text>
+
+  <rect x="830" y="155" width="300" height="150" rx="20" fill="#fff1f2" stroke="#f43f5e" stroke-width="2"/>
+  <text x="858" y="197" class="pt">主要对手</text>
+  <text x="858" y="234" class="body">持续争夺同一目标，</text>
+  <text x="858" y="263" class="body">迫使人物升级策略。</text>
+
+  <path d="M370 230 H440" class="blue"/><text x="378" y="212" class="small">赋予目标意义</text>
+  <path d="M830 230 H760" class="red"/><text x="761" y="212" class="small">制造持续压力</text>
+
+  <rect x="115" y="375" width="970" height="170" rx="22" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="143" y="417" class="pt">行动循环：计划 → 阻挡 → 新信息／失败 → 升级选择 → 更高代价</text>
+  <circle cx="205" cy="478" r="35" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/><text x="184" y="484" class="label" fill="#1d4ed8">计划</text>
+  <path d="M242 478 H342" class="blue"/>
+  <circle cx="385" cy="478" r="35" fill="#ffe4e6" stroke="#f43f5e" stroke-width="2"/><text x="364" y="484" class="label" fill="#be123c">阻挡</text>
+  <path d="M422 478 H522" class="blue"/>
+  <circle cx="565" cy="478" r="35" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/><text x="544" y="484" class="label" fill="#92400e">揭示</text>
+  <path d="M602 478 H702" class="blue"/>
+  <circle cx="745" cy="478" r="35" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/><text x="724" y="484" class="label" fill="#6d28d9">选择</text>
+  <path d="M782 478 H882" class="blue"/>
+  <circle cx="925" cy="478" r="35" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/><text x="904" y="484" class="label" fill="#166534">代价</text>
+  <path d="M925 516 C925 560 260 560 205 520" stroke="#64748b" stroke-width="3" fill="none" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+  <text x="470" y="582" class="small">每轮行动都应同时推进外部目标，并加深人物内部问题</text>
+
+  <path d="M600 591 V622" class="blue"/>
+  <rect x="70" y="632" width="500" height="110" rx="18" fill="#ecfdf5" stroke="#22c55e" stroke-width="2"/>
+  <text x="98" y="674" class="pt">成立：情节源于人物</text>
+  <text x="98" y="708" class="body">目标推进越远，人物越无法逃避自己的弱点。</text>
+  <rect x="630" y="632" width="500" height="110" rx="18" fill="#fff1f2" stroke="#f43f5e" stroke-width="2"/>
+  <text x="658" y="674" class="pt">断裂：两条线只是并排</text>
+  <text x="658" y="708" class="body">事件很热闹，但成功或失败都不改变人物。</text>
+
+  <text x="70" y="775" class="small">双重逆转边界：只有对手也拥有可学习的目标、弱点和选择链时，双方共同改变才成立。</text>
+</svg>

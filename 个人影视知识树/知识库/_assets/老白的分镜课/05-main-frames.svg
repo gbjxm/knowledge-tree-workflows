@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="t d">
+  <title id="t">主镜不是台词切片：保留不可删的变化</title><desc id="d">用五个变化节点和遮挡测试区分主镜与连接镜。</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker><style>.h{font:700 32px 'Microsoft YaHei',sans-serif;fill:#111827}.s{font:700 20px 'Microsoft YaHei',sans-serif;fill:#111827}.p{font:400 17px 'Microsoft YaHei',sans-serif;fill:#374151}.f{fill:#f8fafc;stroke:#111827;stroke-width:3}</style></defs>
+  <rect width="1200" height="620" fill="#f3f4f6"/><rect x="30" y="24" width="1140" height="572" rx="24" fill="#fff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="70" y="78" class="h">主镜不是台词切片：保留不可删的变化</text><text x="70" y="110" class="p">先把剧本压成变化节点；遮住一格就断掉事件、关系或规则，它才更接近主镜。</text>
+  <g transform="translate(60 155)">
+    <g><rect width="190" height="235" rx="14" class="f"/><text x="20" y="38" class="s">① 进入</text><path d="M65 185 L65 95 L135 95 L135 185" fill="none" stroke="#6b7280" stroke-width="8"/><circle cx="100" cy="125" r="18" fill="#f59e0b"/><path d="M100 145v40M100 158l-25 18M100 158l25 18" stroke="#92400e" stroke-width="5"/><text x="28" y="218" class="p">人物与空间成立</text></g>
+    <line x1="200" y1="118" x2="235" y2="118" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/>
+    <g transform="translate(245 0)"><rect width="190" height="235" rx="14" class="f"/><text x="20" y="38" class="s">② 求助</text><circle cx="68" cy="120" r="26" fill="#f59e0b"/><circle cx="132" cy="120" r="26" fill="#3b82f6"/><line x1="94" y1="120" x2="106" y2="120" stroke="#dc2626" stroke-width="5"/><text x="30" y="218" class="p">人物关系改变</text></g>
+    <line x1="445" y1="118" x2="480" y2="118" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/>
+    <g transform="translate(490 0)"><rect width="190" height="235" rx="14" class="f"/><text x="20" y="38" class="s">③ 异变</text><circle cx="95" cy="120" r="42" fill="#8b5cf6"/><path d="M95 65l10 30 32-5-25 20 17 28-34-10-22 26 2-35-32-13 34-9z" fill="#facc15"/><text x="30" y="218" class="p">状态发生转折</text></g>
+    <line x1="690" y1="118" x2="725" y2="118" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/>
+    <g transform="translate(735 0)"><rect width="190" height="235" rx="14" class="f"/><text x="20" y="38" class="s">④ 消失</text><circle cx="95" cy="118" r="44" fill="none" stroke="#dc2626" stroke-width="5" stroke-dasharray="8 8"/><path d="M55 165l80-95M55 70l80 95" stroke="#dc2626" stroke-width="5"/><text x="30" y="218" class="p">世界规则兑现</text></g>
+    <line x1="935" y1="118" x2="970" y2="118" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/>
+    <g transform="translate(980 0)"><rect width="160" height="235" rx="14" class="f"/><text x="20" y="38" class="s">⑤ 余韵</text><path d="M42 150 Q80 95 118 150 Z" fill="#374151"/><rect x="38" y="150" width="84" height="12" rx="5" fill="#111827"/><text x="22" y="218" class="p">道具留下后果</text></g>
+  </g>
+  <rect x="60" y="425" width="1080" height="125" rx="16" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/><text x="88" y="468" class="s">遮挡测试</text><text x="88" y="505" class="p">遮住一格：若事件、关系或规则断裂，它更接近主镜；若仍能顺利推断，它可能只是连接镜。</text><text x="88" y="536" class="p">先确定主镜，再讨论机位、焦距与覆盖；不要让技术清单反过来决定故事重点。</text>
+  <text x="70" y="580" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="14" fill="#6b7280">教学示意：五格表示五个叙事变化，不代表最终只能剪成五个镜头。</text>
+</svg>

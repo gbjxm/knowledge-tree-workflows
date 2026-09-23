@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc">
+  <title id="title">人物想要与需要：分清目标、手段和深层必然性</title>
+  <desc id="desc">左侧区分人物的外部目标、可替换策略与必须面对的深层需要；右侧用四象限展示想要与需要在结局中的四种组合，并强调这不是机械定律。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0v6l9-3z" fill="#64748B"/>
+    </marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .panelTitle{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .tag{font:700 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#FFFFFF}
+      .layer{font:700 20px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .small{font:400 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .quad{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .axis{font:700 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .take{font:700 19px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+    </style>
+  </defs>
+
+  <rect width="1200" height="840" fill="#F1F5F9"/>
+  <rect x="30" y="24" width="1140" height="792" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="70" y="76" class="title">人物“想要”与“需要”：先分层，再谈结局</text>
+  <text x="70" y="108" class="subtitle">P5 原意指向人物的深层必然性；2×2 结局是编剧化解释，不是固定配方</text>
+
+  <rect x="60" y="145" width="470" height="500" rx="20" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="88" y="184" class="panelTitle">① 三个层级不要混在一起</text>
+
+  <g aria-label="想要目标">
+    <rect x="88" y="218" width="414" height="102" rx="16" fill="#EFF6FF" stroke="#60A5FA" stroke-width="2"/>
+    <rect x="104" y="236" width="86" height="27" rx="13" fill="#2563EB"/>
+    <text x="147" y="255" text-anchor="middle" class="tag">WANT</text>
+    <text x="208" y="258" class="layer">自觉目标／显性欲望</text>
+    <text x="104" y="294" class="body">人物自觉追逐；提供方向、悬念与成败标准</text>
+  </g>
+
+  <line x1="295" y1="321" x2="295" y2="341" stroke="#64748B" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g aria-label="行动策略">
+    <rect x="88" y="350" width="414" height="102" rx="16" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2" stroke-dasharray="7 6"/>
+    <rect x="104" y="368" width="86" height="27" rx="13" fill="#64748B"/>
+    <text x="147" y="387" text-anchor="middle" class="tag">手段</text>
+    <text x="208" y="390" class="layer">当前策略／可见行动</text>
+    <text x="104" y="426" class="body">为目标服务；受阻后可以更换，不等于人物弧光</text>
+  </g>
+
+  <line x1="295" y1="453" x2="295" y2="473" stroke="#64748B" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g aria-label="深层需要">
+    <rect x="88" y="482" width="414" height="126" rx="16" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>
+    <rect x="104" y="500" width="86" height="27" rx="13" fill="#D97706"/>
+    <text x="147" y="519" text-anchor="middle" class="tag">NEED</text>
+    <text x="208" y="522" class="layer">必须面对的深层必然性</text>
+    <text x="104" y="558" class="body">承认、学会、放下、承担，或遭遇应得的后果</text>
+    <text x="104" y="584" class="small">也可能是客观生存条件，而非心理觉悟</text>
+  </g>
+
+  <rect x="560" y="145" width="580" height="500" rx="20" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="588" y="184" class="panelTitle">② 结局落点：四种组合都可能成立</text>
+  <rect x="588" y="224" width="524" height="334" rx="14" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2"/>
+
+  <rect x="614" y="250" width="228" height="128" rx="12" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="632" y="283" class="quad">失去想要｜得到需要</text>
+  <text x="632" y="316" class="body">苦乐参半／成长</text>
+  <text x="632" y="344" class="small">失去换来更深解决</text>
+
+  <rect x="860" y="250" width="226" height="128" rx="12" fill="#DCFCE7" stroke="#22C55E" stroke-width="2"/>
+  <text x="878" y="283" class="quad">得到想要｜得到需要</text>
+  <text x="878" y="316" class="body">整合／完整胜利</text>
+  <text x="878" y="344" class="small">外部成功回应内在变化</text>
+
+  <rect x="614" y="396" width="228" height="128" rx="12" fill="#FEF2F2" stroke="#F87171" stroke-width="2"/>
+  <text x="632" y="429" class="quad">失去想要｜错过需要</text>
+  <text x="632" y="462" class="body">失败／负弧光</text>
+  <text x="632" y="490" class="small">仍需兑现选择与因果</text>
+
+  <rect x="860" y="396" width="226" height="128" rx="12" fill="#FFF7ED" stroke="#FB923C" stroke-width="2"/>
+  <text x="878" y="429" class="quad">得到想要｜错过需要</text>
+  <text x="878" y="462" class="body">空洞胜利／反讽</text>
+  <text x="878" y="490" class="small">成功暴露旧问题仍在</text>
+
+  <text x="850" y="590" text-anchor="middle" class="axis">横轴：外部 WANT　← 未得到　｜　得到 →</text>
+  <text x="850" y="618" text-anchor="middle" class="axis">纵轴：深层 NEED　↑ 得到／面对　｜　↓ 错过／拒绝</text>
+
+  <rect x="60" y="676" width="1080" height="104" rx="18" fill="#FFF7ED" stroke="#FDBA74" stroke-width="2"/>
+  <text x="84" y="712" class="take">判断边界｜不是“好人领奖、坏人受罚”的机械定律</text>
+  <text x="84" y="744" class="body">need 可以是成长、承认、生存、惩罚、暴露或承担；结局必须由此前的选择与后果证明，不能只靠一句对白宣布。</text>
+</svg>

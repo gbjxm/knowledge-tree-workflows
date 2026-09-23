@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "inspiration-to-story",
+      "query": "一个模糊灵感怎么发展成完整故事",
+      "stage": "灵感与命题",
+      "expected_any": ["从灵感到完整故事"],
+      "mode": "retrieve"
+    },
+    {
+      "id": "character-change",
+      "query": "人物转变为什么不可信",
+      "stage": "故事骨架",
+      "expected_any": ["从人物共情到人物弧光", "从梗概到可拍大纲"],
+      "mode": "retrieve"
+    },
+    {
+      "id": "short-structure-compression",
+      "query": "3-7分钟短片压缩结构哪些因果不能丢",
+      "stage": "剧本开发",
+      "expected_any": ["从梗概到可拍大纲", "短篇、类型与媒介的叙事选择"],
+      "mode": "retrieve"
+    },
+    {
+      "id": "credible-world",
+      "query": "虚构世界怎样让人物选择可信",
+      "stage": "故事骨架",
+      "expected_any": ["用描述与世界构建让虚构可信"],
+      "mode": "retrieve"
+    },
+    {
+      "id": "blocking-and-coverage",
+      "query": "一场戏怎么安排人物空间和镜头覆盖",
+      "stage": "视觉设计",
+      "expected_any": ["场面调度与镜头覆盖"],
+      "mode": "retrieve"
+    },
+    {
+      "id": "continuity-and-rhythm",
+      "query": "切镜方向连续性和节奏怎么检查",
+      "stage": "生成与镜头",
+      "expected_any": ["连续性剪辑与镜头衔接", "镜头组与视听节奏"],
+      "mode": "retrieve"
+    },
+    {
+      "id": "unsupported-problem",
+      "query": "怎样设计电影宇宙的区块链票务系统",
+      "stage": "行业观察",
+      "expected_any": [],
+      "expect_gap": true,
+      "mode": "retrieve"
+    },
+    {
+      "id": "practice-writeback",
+      "query": "一次提示词改动后画面更稳定应该怎样回写",
+      "stage": "复盘与方法升级",
+      "expected_any": ["创作流程复盘与提示词迭代"],
+      "mode": "feedback",
+      "must_not_auto_upgrade_evidence": true
+    }
+  ]
+}

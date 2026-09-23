@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">从光成像到影像表达</title>
+  <desc id="desc">以四步技术链说明光线如何先形成倒像，再被呈现、固定并连续成为运动影像，最后由选择转化为表达。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .panel-title{font:700 21px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.body{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}.small{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}.label{font:700 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#1d4ed8}.conclusion{font:700 19px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}.ray{stroke:#d97706;stroke-width:3;fill:none}.blue{stroke:#2563eb;stroke-width:3;fill:none}.muted{stroke:#94a3b8;stroke-width:2;fill:none}
+    </style>
+  </defs>
+  <rect width="1200" height="820" fill="#f1f5f9"/><rect x="30" y="24" width="1140" height="772" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="78" class="title">从光成像到影像表达</text><text x="70" y="110" class="subtitle">阅读顺序：光 → 成像 → 呈现 → 固定 → 连续运动；技术提供条件，选择产生表达。</text>
+
+  <rect x="60" y="145" width="250" height="430" rx="18" class="panel"/><circle cx="92" cy="180" r="18" fill="#dbeafe"/><text x="86" y="187" class="label">1</text><text x="120" y="188" class="panel-title">让光形成影像</text>
+  <rect x="90" y="235" width="150" height="130" rx="8" fill="#f8fafc" stroke="#64748b" stroke-width="3"/><circle cx="165" cy="300" r="5" fill="#0f172a"/>
+  <circle cx="65" cy="260" r="18" fill="#d97706"/><line x1="80" y1="260" x2="165" y2="300" class="ray"/><line x1="80" y1="340" x2="165" y2="300" class="ray"/>
+  <path d="M165 300 L225 265 M165 300 L225 335" class="ray"/><path d="M218 275 l7-10 7 10 M218 325 l7 10 7-10" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <text x="92" y="405" class="body">小孔让外部光线</text><text x="92" y="431" class="body">在承接面形成倒像</text><rect x="88" y="472" width="194" height="62" rx="12" fill="#fff7ed"/><text x="103" y="499" class="small">得到：可见的影像</text><text x="103" y="524" class="small">尚未自动保存</text>
+
+  <line x1="320" y1="360" x2="350" y2="360" class="blue" marker-end="url(#arrow)"/>
+  <rect x="360" y="145" width="230" height="430" rx="18" class="panel"/><circle cx="392" cy="180" r="18" fill="#dbeafe"/><text x="386" y="187" class="label">2</text><text x="420" y="188" class="panel-title">稳定呈现</text>
+  <rect x="395" y="235" width="160" height="130" rx="10" fill="#0f172a"/><rect x="420" y="257" width="110" height="82" rx="5" fill="#e0f2fe"/><path d="M437 321 l18-31 17 18 15-27 25 40z" fill="#10b981"/><circle cx="500" cy="274" r="9" fill="#fbbf24"/>
+  <path d="M415 390 h120" class="muted"/><text x="397" y="425" class="body">暗箱把外界影像</text><text x="397" y="451" class="body">稳定地投在平面上</text><rect x="388" y="472" width="174" height="62" rx="12" fill="#eff6ff"/><text x="403" y="499" class="small">进步：能持续观看</text><text x="403" y="524" class="small">缺口：还不能留存</text>
+
+  <line x1="600" y1="360" x2="630" y2="360" class="blue" marker-end="url(#arrow)"/>
+  <rect x="640" y="145" width="230" height="430" rx="18" class="panel"/><circle cx="672" cy="180" r="18" fill="#dbeafe"/><text x="666" y="187" class="label">3</text><text x="700" y="188" class="panel-title">固定影像</text>
+  <rect x="682" y="238" width="146" height="116" rx="8" fill="#e2e8f0" stroke="#64748b" stroke-width="3"/><path d="M700 333 l24-37 22 19 18-31 43 49z" fill="#64748b"/><circle cx="784" cy="272" r="9" fill="#94a3b8"/>
+  <path d="M692 373 h126" stroke="#10b981" stroke-width="5"/><path d="M710 399 h90" class="muted"/>
+  <text x="677" y="425" class="body">记录材料把一次受光</text><text x="677" y="451" class="body">变成可留存的静态画面</text><rect x="668" y="472" width="174" height="62" rx="12" fill="#ecfdf5"/><text x="683" y="499" class="small">进步：影像可保存</text><text x="683" y="524" class="small">限制：仍是静态瞬间</text>
+
+  <line x1="880" y1="360" x2="910" y2="360" class="blue" marker-end="url(#arrow)"/>
+  <rect x="920" y="145" width="220" height="430" rx="18" class="panel"/><circle cx="952" cy="180" r="18" fill="#dbeafe"/><text x="946" y="187" class="label">4</text><text x="980" y="188" class="panel-title">连续与表达</text>
+  <g transform="translate(950 238)"><rect width="52" height="80" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><circle cx="25" cy="34" r="9" fill="#2563eb"/><line x1="25" y1="43" x2="25" y2="63" stroke="#2563eb" stroke-width="3"/><rect x="62" width="52" height="80" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><circle cx="88" cy="31" r="9" fill="#2563eb"/><line x1="88" y1="40" x2="95" y2="61" stroke="#2563eb" stroke-width="3"/><rect x="124" width="52" height="80" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><circle cx="151" cy="27" r="9" fill="#2563eb"/><line x1="151" y1="36" x2="163" y2="58" stroke="#2563eb" stroke-width="3"/></g>
+  <path d="M957 348 h160" class="blue" marker-end="url(#arrow)"/><text x="950" y="390" class="small">连续静态画面</text><text x="950" y="425" class="body">让运动可被观看；</text><text x="950" y="451" class="body">角度、时机、范围组织意义</text><rect x="948" y="472" width="164" height="62" rx="12" fill="#f5f3ff"/><text x="963" y="499" class="small">结果：记录不只是复制</text><text x="963" y="524" class="small">而成为有目的的表达</text>
+
+  <rect x="60" y="605" width="1080" height="142" rx="18" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/><text x="88" y="645" class="panel-title">判断链：每种技术究竟改变了哪一环？</text>
+  <text x="88" y="680" class="body">能否成像</text><path d="M180 674 h80" class="blue" marker-end="url(#arrow)"/><text x="285" y="680" class="body">能否稳定呈现</text><path d="M430 674 h80" class="blue" marker-end="url(#arrow)"/><text x="535" y="680" class="body">能否固定留存</text><path d="M675 674 h80" class="blue" marker-end="url(#arrow)"/><text x="780" y="680" class="body">能否连续运动</text><path d="M920 674 h70" class="blue" marker-end="url(#arrow)"/><text x="1010" y="680" class="body">怎样表达</text>
+  <text x="88" y="720" class="conclusion">结论：技术条件决定“能看见什么”，创作者的选择决定“让观众怎样理解”。</text>
+</svg>

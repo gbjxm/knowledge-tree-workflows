@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">四类摄影机运动改变的空间信息不同</title>
+  <desc id="desc">推、拉、摇、移分别对应强调细节、揭示环境、连续浏览或勾连，以及改变机位获得空间体验；所有运动都有起幅、过程和落幅。</desc>
+  <defs>
+    <marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker>
+    <marker id="amber" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#d97706"/></marker>
+    <marker id="green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#10b981"/></marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .panel-title{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .label{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .small{font:400 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1200" height="860" fill="#f1f5f9"/>
+  <rect x="30" y="24" width="1140" height="812" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="78" class="title">不是“怎么动”，而是“运动让观众多知道了什么”</text>
+  <text x="70" y="111" class="subtitle">先辨认运动方式，再检查过程中的空间、信息、情绪与关系收益</text>
+
+  <rect x="60" y="145" width="520" height="225" rx="18" class="panel"/>
+  <text x="88" y="185" class="panel-title">① 推：大范围 → 小范围</text>
+  <rect x="88" y="213" width="145" height="100" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="127" cy="259" r="18" fill="#fde68a" stroke="#d97706" stroke-width="2"/><circle cx="202" cy="241" r="8" fill="#ef4444"/>
+  <line x1="247" y1="262" x2="317" y2="262" stroke="#2563eb" stroke-width="4" marker-end="url(#blue)"/>
+  <rect x="331" y="213" width="145" height="100" rx="10" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+  <circle cx="404" cy="263" r="29" fill="#ef4444" opacity=".9"/>
+  <text x="88" y="341" class="body">功能：从环境中强调原本不易发现、值得注意的细节。</text>
+
+  <rect x="605" y="145" width="535" height="225" rx="18" class="panel"/>
+  <text x="633" y="185" class="panel-title">② 拉：小范围 → 大范围</text>
+  <rect x="633" y="213" width="145" height="100" rx="10" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+  <circle cx="705" cy="263" r="29" fill="#ef4444" opacity=".9"/>
+  <line x1="793" y1="262" x2="863" y2="262" stroke="#d97706" stroke-width="4" marker-end="url(#amber)"/>
+  <rect x="877" y="213" width="145" height="100" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="916" cy="259" r="18" fill="#fde68a" stroke="#d97706" stroke-width="2"/><circle cx="991" cy="241" r="8" fill="#ef4444"/>
+  <text x="633" y="341" class="body">功能：增加环境与关系，让原细节获得新的解释或落幕感。</text>
+
+  <rect x="60" y="394" width="520" height="225" rx="18" class="panel"/>
+  <text x="88" y="434" class="panel-title">③ 摇：机位不动，光轴连续转动</text>
+  <rect x="90" y="476" width="62" height="44" rx="8" fill="#7c3aed"/><path d="M152 486 l24 -11 v46 l-24 -11z" fill="#7c3aed"/>
+  <circle cx="283" cy="498" r="22" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="435" cy="498" r="22" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+  <path d="M178 494 Q281 432 407 486" fill="none" stroke="#7c3aed" stroke-width="4" marker-end="url(#blue)"/>
+  <text x="88" y="555" class="body">慢摇可持续浏览；两端勾连时，要确认关系不是被镜头伪造。</text>
+  <text x="88" y="584" class="small">过程中的每一段都应持续更新信息。</text>
+
+  <rect x="605" y="394" width="535" height="225" rx="18" class="panel"/>
+  <text x="633" y="434" class="panel-title">④ 移／跟：机位改变，空间关系随之变化</text>
+  <rect x="645" y="482" width="62" height="44" rx="8" fill="#10b981"/><path d="M707 492 l24 -11 v46 l-24 -11z" fill="#10b981"/>
+  <rect x="788" y="465" width="66" height="88" rx="8" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="927" cy="502" r="24" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+  <rect x="1030" y="455" width="52" height="108" rx="8" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
+  <path d="M674 558 C784 599 910 585 1038 542" fill="none" stroke="#10b981" stroke-width="4" stroke-dasharray="10 8" marker-end="url(#green)"/>
+  <text x="633" y="603" class="body">功能：穿过前后景、改变尺度，跟随线索带出环境与事件。</text>
+
+  <rect x="60" y="648" width="1080" height="126" rx="16" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="88" y="684" class="panel-title">⑤ 每条运动都要完整：起幅 → 过程新增 → 落幅重点</text>
+  <circle cx="233" cy="732" r="12" fill="#2563eb"/><line x1="245" y1="732" x2="497" y2="732" stroke="#2563eb" stroke-width="4" marker-end="url(#blue)"/>
+  <circle cx="523" cy="732" r="12" fill="#d97706"/><line x1="535" y1="732" x2="787" y2="732" stroke="#d97706" stroke-width="4" marker-end="url(#amber)"/>
+  <circle cx="813" cy="732" r="12" fill="#10b981"/>
+  <text x="165" y="758" class="small">稳定起幅</text><text x="444" y="758" class="small">持续有信息</text><text x="770" y="758" class="small">停稳读完</text>
+
+  <text x="70" y="811" class="panel-title">判断边界：若只有位移，没有新增信息、空间变化、情绪或关系，固定镜头通常更准确。</text>
+</svg>

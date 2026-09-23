@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="840" viewBox="0 0 1200 840" role="img" aria-labelledby="title desc">
+  <title id="title">从初稿到交付：完成与修改闭环</title>
+  <desc id="desc">六步流程从初稿生成、抵达结尾、冷却距离、读者重读、结构修改到反馈交付，并由开始下一件作品返回新的创作循环。</desc>
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0v6l9-3z" fill="#2563EB"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0v6l9-3z" fill="#059669"/>
+    </marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .banner{font:700 20px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .stepTitle{font:700 20px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .small{font:400 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .num{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#FFFFFF}
+      .take{font:700 19px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+    </style>
+  </defs>
+
+  <rect width="1200" height="840" fill="#F1F5F9"/>
+  <rect x="30" y="24" width="1140" height="792" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="70" y="76" class="title">从初稿到交付：把“写好”拆成两个不同状态</text>
+  <text x="70" y="108" class="subtitle">P17 的修改流程 + P18 的完成与投递循环；不要求每个项目等待固定天数</text>
+
+  <rect x="60" y="138" width="1080" height="68" rx="18" fill="#EFF6FF" stroke="#93C5FD" stroke-width="2"/>
+  <text x="220" y="180" text-anchor="middle" class="banner">第一稿负责“存在”</text>
+  <text x="600" y="180" text-anchor="middle" class="banner">第二稿负责“清楚”</text>
+  <text x="980" y="180" text-anchor="middle" class="banner">作品最终要“离开作者”</text>
+  <line x1="380" y1="153" x2="380" y2="190" stroke="#BFDBFE" stroke-width="2"/>
+  <line x1="820" y1="153" x2="820" y2="190" stroke="#BFDBFE" stroke-width="2"/>
+
+  <g aria-label="第一步初稿生成">
+    <rect x="60" y="244" width="320" height="146" rx="18" fill="#EFF6FF" stroke="#60A5FA" stroke-width="2"/>
+    <circle cx="94" cy="278" r="19" fill="#2563EB"/>
+    <text x="94" y="285" text-anchor="middle" class="num">1</text>
+    <text x="126" y="284" class="stepTitle">初稿生成</text>
+    <text x="84" y="326" class="body">先创造、往前走</text>
+    <text x="84" y="356" class="body">允许混乱，不边写边辩护</text>
+  </g>
+
+  <g aria-label="第二步抵达结尾">
+    <rect x="440" y="244" width="320" height="146" rx="18" fill="#EFF6FF" stroke="#60A5FA" stroke-width="2"/>
+    <circle cx="474" cy="278" r="19" fill="#2563EB"/>
+    <text x="474" y="285" text-anchor="middle" class="num">2</text>
+    <text x="506" y="284" class="stepTitle">抵达结尾</text>
+    <text x="464" y="326" class="body">让整条叙事先存在</text>
+    <text x="464" y="356" class="body">空白页无法修改</text>
+  </g>
+
+  <g aria-label="第三步冷却距离">
+    <rect x="820" y="244" width="320" height="146" rx="18" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>
+    <circle cx="854" cy="278" r="19" fill="#D97706"/>
+    <text x="854" y="285" text-anchor="middle" class="num">3</text>
+    <text x="886" y="284" class="stepTitle">制造距离</text>
+    <text x="844" y="326" class="body">放置一段时间，或换介质</text>
+    <text x="844" y="356" class="body">让作者暂时变回读者</text>
+  </g>
+
+  <line x1="380" y1="317" x2="430" y2="317" stroke="#2563EB" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  <line x1="760" y1="317" x2="810" y2="317" stroke="#2563EB" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  <path d="M980 390 L980 422 L220 422 L220 454" fill="none" stroke="#2563EB" stroke-width="4" marker-end="url(#arrowBlue)"/>
+
+  <g aria-label="第四步读者重读">
+    <rect x="60" y="464" width="320" height="154" rx="18" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>
+    <circle cx="94" cy="498" r="19" fill="#D97706"/>
+    <text x="94" y="505" text-anchor="middle" class="num">4</text>
+    <text x="126" y="504" class="stepTitle">以读者身份重读</text>
+    <text x="84" y="546" class="body">标出无聊、困惑、不相信</text>
+    <text x="84" y="576" class="body">先收集症状，不急着修</text>
+  </g>
+
+  <g aria-label="第五步结构修改">
+    <rect x="440" y="464" width="320" height="154" rx="18" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+    <circle cx="474" cy="498" r="19" fill="#059669"/>
+    <text x="474" y="505" text-anchor="middle" class="num">5</text>
+    <text x="506" y="504" class="stepTitle">围绕“关于什么”修改</text>
+    <text x="464" y="546" class="body">先结构与人物，再场景与句子</text>
+    <text x="464" y="576" class="body">问题位置可能早于症状</text>
+  </g>
+
+  <g aria-label="第六步反馈交付">
+    <rect x="820" y="464" width="320" height="154" rx="18" fill="#F5F3FF" stroke="#A78BFA" stroke-width="2"/>
+    <circle cx="854" cy="498" r="19" fill="#7C3AED"/>
+    <text x="854" y="505" text-anchor="middle" class="num">6</text>
+    <text x="886" y="504" class="stepTitle">反馈、停止、交付</text>
+    <text x="844" y="546" class="body">重视“不工作”的位置</text>
+    <text x="844" y="576" class="body">自行诊断修法；送出作品</text>
+  </g>
+
+  <line x1="380" y1="541" x2="430" y2="541" stroke="#059669" stroke-width="4" marker-end="url(#arrowGreen)"/>
+  <line x1="760" y1="541" x2="810" y2="541" stroke="#059669" stroke-width="4" marker-end="url(#arrowGreen)"/>
+
+  <path d="M980 618 C980 682 1040 692 1080 692 L1080 706 L48 706 L48 317 L52 317" fill="none" stroke="#059669" stroke-width="4" marker-end="url(#arrowGreen)"/>
+  <rect x="420" y="672" width="360" height="50" rx="25" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="600" y="704" text-anchor="middle" class="take">开始下一件作品／继续生活与观察</text>
+
+  <rect x="60" y="748" width="1080" height="48" rx="16" fill="#FEF2F2" stroke="#FCA5A5" stroke-width="2"/>
+  <text x="600" y="779" text-anchor="middle" class="take">停止条件不是“完美”：作品已围绕核心变清楚，就让它进入读者的检验</text>
+</svg>

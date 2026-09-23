@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920" role="img" aria-labelledby="title desc">
+  <title id="title">第三课八要素烈度对照</title>
+  <desc id="desc">八要素从完整版本提升到有烈度版本的逐项检查表，并用想殉职的警察展示前后半程欲望反转。</desc>
+  <defs><style>
+    .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.subtitle{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}.section{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.head{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}.small{font:400 14px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#64748b}.claim{font:700 21px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#14532d}.card{fill:#fff;stroke:#cbd5e1;stroke-width:2}.row{fill:#fff;stroke:#cbd5e1;stroke-width:1.5}
+  </style></defs>
+  <rect width="1200" height="920" fill="#f1f5f9"/><rect x="28" y="20" width="1144" height="880" rx="8" class="card"/>
+  <text x="60" y="70" class="title">第三课：八要素怎样从“完整”升到“有烈度”</text>
+  <text x="60" y="102" class="subtitle">完整只保证故事站得住；反差、选择、代价与未知，才让人物和因果产生吸引力</text>
+  <rect x="60" y="130" width="1080" height="62" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <text x="600" y="169" text-anchor="middle" class="claim">完整故事 + 可信反差 + 困难选择 + 真实代价 + 持续未知 = 烈度提高</text>
+
+  <rect x="60" y="220" width="528" height="48" rx="8" fill="#ecfdf5" stroke="#5eead4" stroke-width="2"/><text x="84" y="251" class="section">人物与行动</text>
+  <rect x="612" y="220" width="528" height="48" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/><text x="636" y="251" class="section">事件与主题</text>
+
+  <rect x="60" y="282" width="528" height="88" rx="8" class="row"/><text x="82" y="314" class="head">1 身份</text><text x="180" y="314" class="body">职业标签</text><text x="300" y="314" class="body">→</text><text x="334" y="314" class="body">可信的负价值定语</text><text x="82" y="347" class="small">反常负责抬头，人物前史负责让人相信</text>
+  <rect x="60" y="382" width="528" height="88" rx="8" class="row"/><text x="82" y="414" class="head">2 欲望</text><text x="180" y="414" class="body">抽象理想</text><text x="300" y="414" class="body">→</text><text x="334" y="414" class="body">原始、具体、可理解</text><text x="82" y="447" class="small">“猴子测试”检查生存、爱、地位、保护等需要</text>
+  <rect x="60" y="482" width="528" height="88" rx="8" class="row"/><text x="82" y="514" class="head">3 动作</text><text x="180" y="514" class="body">想要／努力</text><text x="300" y="514" class="body">→</text><text x="334" y="514" class="body">指向对象的具体动作</text><text x="82" y="547" class="small">用可见、可执行的及物动词推动事件</text>
+  <rect x="60" y="582" width="528" height="88" rx="8" class="row"/><text x="82" y="614" class="head">4 问题</text><text x="180" y="614" class="body">存在任务</text><text x="300" y="614" class="body">→</text><text x="334" y="614" class="body">未知不断线、逐渐增强</text><text x="82" y="647" class="small">让观众始终能问：他到底能不能做到？</text>
+
+  <rect x="612" y="282" width="528" height="88" rx="8" class="row"/><text x="634" y="314" class="head">5 阻力</text><text x="732" y="314" class="body">单一障碍</text><text x="852" y="314" class="body">→</text><text x="886" y="314" class="body">环境 → 对手 → 自我</text><text x="634" y="347" class="small">阻力逐层进入人物内部，迫使其真正选择</text>
+  <rect x="612" y="382" width="528" height="88" rx="8" class="row"/><text x="634" y="414" class="head">6 结果</text><text x="732" y="414" class="body">原动作成功</text><text x="852" y="414" class="body">→</text><text x="886" y="414" class="body">绕过动作实现欲望</text><text x="634" y="447" class="small">计划可失败，人物却更深地得到或重释所求</text>
+  <rect x="612" y="482" width="528" height="88" rx="8" class="row"/><text x="634" y="514" class="head">7 正价值</text><text x="752" y="514" class="body">正确口号</text><text x="852" y="514" class="body">→</text><text x="886" y="514" class="body">由选择与代价成立</text><text x="634" y="547" class="small">价值词可以朴素，关键是故事怎样证明它</text>
+  <rect x="612" y="582" width="528" height="88" rx="8" class="row"/><text x="634" y="614" class="head">8 负价值</text><text x="752" y="614" class="body">反义词标签</text><text x="852" y="614" class="body">→</text><text x="886" y="614" class="body">形成真实拉扯与代价</text><text x="634" y="647" class="small">与正价值共同进入人物的行动与选择</text>
+
+  <rect x="60" y="704" width="1080" height="142" rx="8" fill="#fff7ed" stroke="#f59e0b" stroke-width="2"/>
+  <text x="84" y="738" class="section">组合示例：想殉职的警察</text>
+  <text x="84" y="775" class="body">反常身份 + 丧女与愧疚前史 → 欲望“继续保护女儿” → 动作“通过殉职去天堂”</text>
+  <text x="84" y="808" class="body">前半：想死却死不了　｜　后半：想活却活不了　｜　主题转向：活着才能保护更多“女儿”</text>
+  <text x="1140" y="884" text-anchor="end" class="small">适用边界：反常设定必须由可信动机与具体行动支撑；烈度不等于猎奇或堆砌所有变化</text>
+</svg>

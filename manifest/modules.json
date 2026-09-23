@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "modules": [
+    {
+      "name": "operate-personal-knowledge-tree",
+      "channel": "stable",
+      "unit": "knowledge-tree-core",
+      "requires": [
+        "grow-creative-library",
+        "internalize-film-knowledge",
+        "weave-film-knowledge-connections",
+        "apply-film-knowledge"
+      ]
+    },
+    {
+      "name": "grow-creative-library",
+      "channel": "stable",
+      "unit": "knowledge-tree-core",
+      "requires": [
+        "operate-personal-knowledge-tree"
+      ]
+    },
+    {
+      "name": "bilibili-study-notes",
+      "channel": "stable",
+      "unit": "knowledge-tree-core",
+      "requires": [
+        "operate-personal-knowledge-tree",
+        "grow-creative-library"
+      ]
+    },
+    {
+      "name": "douyin-study-notes",
+      "channel": "stable",
+      "unit": "knowledge-tree-core",
+      "requires": [
+        "operate-personal-knowledge-tree",
+        "grow-creative-library"
+      ]
+    },
+    {
+      "name": "internalize-film-knowledge",
+      "channel": "stable",
+      "unit": "knowledge-tree-core",
+      "requires": [
+        "operate-personal-knowledge-tree"
+      ]
+    },
+    {
+      "name": "weave-film-knowledge-connections",
+      "channel": "stable",
+      "unit": "knowledge-tree-core",
+      "requires": [
+        "operate-personal-knowledge-tree"
+      ]
+    },
+    {
+      "name": "apply-film-knowledge",
+      "channel": "stable",
+      "unit": "knowledge-tree-core",
+      "requires": [
+        "operate-personal-knowledge-tree"
+      ]
+    },
+    {
+      "name": "curate-ai-prompt-treasure-box",
+      "channel": "stable",
+      "unit": "knowledge-tree-core",
+      "requires": [
+        "operate-personal-knowledge-tree"
+      ]
+    },
+    {
+      "name": "generate-film-breakdown-report",
+      "channel": "preview",
+      "unit": "film-breakdown-v2",
+      "requires": [
+        "operate-film-breakdown-library",
+        "operate-personal-knowledge-tree"
+      ]
+    },
+    {
+      "name": "operate-film-breakdown-library",
+      "channel": "preview",
+      "unit": "film-breakdown-v2",
+      "requires": [
+        "generate-film-breakdown-report",
+        "operate-personal-knowledge-tree"
+      ]
+    }
+  ],
+  "include": {
+    "files": [
+      "README-先读我.md",
+      "AGENTS.md",
+      "CLAUDE.md",
+      ".codex/knowledge-tree.json",
+      ".codex/hooks.json",
+      "manifest/modules.json",
+      "manifest/vault-before-migration.json",
+      "scripts/bootstrap-windows.ps1",
+      "scripts/install-skills.ps1",
+      "scripts/package.ps1",
+      "scripts/verify.ps1",
+      "scripts/portable_manifest.py",
+      "scripts/portable_security_scan.py",
+      "scripts/quick_validate.py",
+      "scripts/release_core.py",
+      "scripts/test_install_skills.py",
+      "scripts/test_release.py",
+      "scripts/backup.ps1",
+      "scripts/github_backup.py",
+      "scripts/test_github_backup.py"
+    ],
+    "directories": [
+      "docs"
+    ],
+    "vault": true,
+    "source_evidence": true
+  }
+}

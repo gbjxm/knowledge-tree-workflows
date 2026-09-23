@@ -1,0 +1,57 @@
+{
+  "version": 2,
+  "cases": [
+    {"id":"base-inspiration","query":"一个模糊灵感怎么发展成完整故事","role":"B","stage":"灵感与命题","expected_top1":["从灵感到完整故事"]},
+    {"id":"base-character","query":"人物转变为什么不可信","role":"B","stage":"故事骨架","expected_top1":["从人物共情到人物弧光"]},
+    {"id":"base-short","query":"3-7分钟短片压缩结构哪些因果不能丢","role":"B","stage":"剧本开发","expected_top1":["短篇、类型与媒介的叙事选择","从梗概到可拍大纲"]},
+    {"id":"base-world","query":"虚构世界怎样让人物选择可信","role":"B","stage":"故事骨架","expected_top1":["用描述与世界构建让虚构可信"]},
+    {"id":"base-blocking","query":"一场戏怎么安排人物空间和镜头覆盖","role":"C","stage":"视觉设计","expected_top1":["场面调度与镜头覆盖"]},
+    {"id":"base-continuity","query":"切镜方向连续性和节奏怎么检查","role":"C","stage":"生成与镜头","expected_top1":["连续性剪辑与镜头衔接"],"expected_any":["连续性剪辑与镜头衔接","镜头组与视听节奏"]},
+    {"id":"base-feedback","query":"一次提示词改动后画面更稳定应该怎样回写","role":"D","stage":"复盘与方法升级","expected_top1":["创作流程复盘与提示词迭代","用过程质量而不是单次结果复盘创作决策"]},
+
+    {"id":"natural-character","query":"这个人物怎么感觉突然就变了","role":"B","stage":"故事骨架","expected_top1":["从人物共情到人物弧光"]},
+    {"id":"natural-compress","query":"这段太长了，三分钟塞不下，哪些东西不能丢","role":"B","stage":"剧本开发","expected_top1":["短篇、类型与媒介的叙事选择"]},
+    {"id":"natural-dialogue-shot","query":"两个人站着说话，镜头怎么拍才不死","role":"C","stage":"视觉设计","expected_top1":["场面调度与镜头覆盖"]},
+    {"id":"natural-reverse","query":"切到反打之后方向乱了","role":"C","stage":"生成与镜头","expected_top1":["连续性剪辑与镜头衔接"]},
+    {"id":"natural-asset","query":"同一个角色每个镜头衣服和道具对不上","role":"C","stage":"资产与提示词","expected_top1":["场记与制作连续性怎样让跨镜、跨拍摄顺序和跨版本保持可追溯","生产设计怎样让空间、陈设、服化道与材质共同表达人物和世界"]},
+    {"id":"natural-world-look","query":"画面有质感但人物和场景不在一个世界里","role":"C","stage":"视觉设计","expected_top1":["生产设计怎样让空间、陈设、服化道与材质共同表达人物和世界"]},
+    {"id":"natural-ingest","query":"这些生成视频到底能不能进剪辑","role":"D","stage":"剪辑与声音","expected_top1":["AI生成素材怎样建立可追溯身份并通过时间与技术可用性检查"]},
+    {"id":"natural-lock","query":"粗剪一直推进不到锁画","role":"D","stage":"剪辑与声音","expected_top1":["画面剪辑怎样从真实素材选择推进到可锁画候选"]},
+    {"id":"natural-dialogue-space","query":"对白清楚但像录音棚，空间断了","role":"D","stage":"剪辑与声音","expected_top1":["对白编辑怎样在保留表演的同时获得清晰、连续与空间可信的对白"]},
+    {"id":"natural-music","query":"配乐一停戏就不成立","role":"D","stage":"剪辑与声音","expected_top1":["影视音乐怎样通过Spotting、Cue入退、主题动机与无配乐段落服务叙事而不替代戏剧行动"]},
+    {"id":"natural-master","query":"最后导出的版本怎么证明声画字幕没串版","role":"D","stage":"成片完成","expected_top1":["影视成片怎样把画面、声音、字幕与图文汇合为版本冻结、QC通过且可恢复的母版"]},
+    {"id":"natural-luck","query":"这次提示词改完好了一张，怎么判断是不是运气","role":"D","stage":"复盘与方法升级","expected_top1":["用过程质量而不是单次结果复盘创作决策"]},
+
+    {"id":"forward-character","query":"主角到结尾忽然像换了个人","role":"B","stage":"故事骨架","expected_top1":["从人物共情到人物弧光"]},
+    {"id":"forward-short","query":"片长只有三分钟，可是故事铺得太大","role":"B","stage":"剧本开发","expected_top1":["短篇、类型与媒介的叙事选择","从灵感到完整故事"]},
+    {"id":"forward-blocking","query":"对话场景只有正反打还是很僵","role":"C","stage":"视觉设计","expected_top1":["场面调度与镜头覆盖","表演导演怎样把人物关系转成行动、聆听、反应与镜头表演"]},
+    {"id":"forward-take-state","query":"同一件外套在不同take里颜色和状态都变了","role":"C","stage":"生成与镜头","expected_top1":["场记与制作连续性怎样让跨镜、跨拍摄顺序和跨版本保持可追溯","影视色彩怎样区分资产本色、光源影响与最终Look并保持连续性"]},
+    {"id":"forward-relink","query":"代理文件重连后时长对不上","role":"D","stage":"剪辑与声音","expected_top1":["AI生成素材怎样建立可追溯身份并通过时间与技术可用性检查"]},
+    {"id":"forward-roomtone","query":"人声修干净了，但房间感每一句都在跳","role":"D","stage":"剪辑与声音","expected_top1":["对白编辑怎样在保留表演的同时获得清晰、连续与空间可信的对白"]},
+    {"id":"forward-no-music","query":"没有音乐这段就完全没情绪","role":"D","stage":"剪辑与声音","expected_top1":["影视音乐怎样通过Spotting、Cue入退、主题动机与无配乐段落服务叙事而不替代戏剧行动"]},
+    {"id":"forward-text-audio","query":"交付文件里的字幕和最终音轨不是同一版","role":"D","stage":"成片完成","expected_top1":["影视成片怎样把画面、声音、字幕与图文汇合为版本冻结、QC通过且可恢复的母版","影视字幕怎样区分对白、翻译、SDH与Forced Narrative并通过版本绑定、人工校对和Timed Text交接进入母版"]},
+
+    {"id":"unseen-character","query":"主人公前面什么都没经历，最后却突然成熟","role":"B","stage":"故事骨架","expected_top1":["从人物共情到人物弧光"]},
+    {"id":"unseen-short","query":"四分钟片子背景太多，怎么保住最重要那条线","role":"B","stage":"剧本开发","expected_top1":["短篇、类型与媒介的叙事选择"]},
+    {"id":"unseen-dialogue","query":"对话戏剪了很多角度，还是不知道人物关系变了什么","role":"C","stage":"视觉设计","expected_top1":["表演导演怎样把人物关系转成行动、聆听、反应与镜头表演","场面调度与镜头覆盖"]},
+    {"id":"unseen-eyeline","query":"反打里两个人看向同一个方向","role":"C","stage":"生成与镜头","expected_top1":["连续性剪辑与镜头衔接"]},
+    {"id":"unseen-prop","query":"手里的咖啡杯一会儿有一会儿没","role":"C","stage":"生成与镜头","expected_top1":["场记与制作连续性怎样让跨镜、跨拍摄顺序和跨版本保持可追溯"]},
+    {"id":"unseen-sync","query":"代理替换以后声音比画面多了两帧","role":"D","stage":"剪辑与声音","expected_top1":["AI生成素材怎样建立可追溯身份并通过时间与技术可用性检查"]},
+    {"id":"unseen-room","query":"一句在大房间，一句像贴着麦克风","role":"D","stage":"剪辑与声音","expected_top1":["对白编辑怎样在保留表演的同时获得清晰、连续与空间可信的对白"]},
+    {"id":"unseen-temp","query":"删掉临时音乐后整场没有推动力","role":"D","stage":"剪辑与声音","expected_top1":["影视音乐怎样通过Spotting、Cue入退、主题动机与无配乐段落服务叙事而不替代戏剧行动"]},
+    {"id":"unseen-stale-master","query":"字幕文件绑的是旧剪辑，母版已经换了","role":"D","stage":"成片完成","expected_top1":["影视成片怎样把画面、声音、字幕与图文汇合为版本冻结、QC通过且可恢复的母版"]},
+    {"id":"unseen-no-control","query":"模型只成功一次，还没做对照","role":"D","stage":"复盘与方法升级","expected_top1":["创作流程复盘与提示词迭代","用过程质量而不是单次结果复盘创作决策"]},
+
+    {"id":"gap-blockchain","query":"怎样设计电影宇宙的区块链票务系统","role":"A","stage":"行业观察","expect_gap":true},
+    {"id":"gap-rig","query":"角色骨骼权重炸了怎么修","role":"C","stage":"生成与镜头","expect_gap":true},
+    {"id":"gap-douyin-time","query":"抖音今天几点发流量最好","role":"E","stage":"复盘与方法升级","expect_gap":true},
+    {"id":"gap-unreal","query":"虚幻引擎蓝图怎么驱动粒子","role":"C","stage":"生成与镜头","expect_gap":true},
+    {"id":"gap-festival","query":"怎么申请电影节首映资格","role":"E","stage":"成片完成","expect_gap":true},
+    {"id":"gap-blender","query":"Blender Geometry Nodes要怎么写","role":"C","stage":"生成与镜头","expect_gap":true},
+    {"id":"gap-algorithm","query":"当前B站推荐算法各项权重是多少","role":"E","stage":"复盘与方法升级","expect_gap":true}
+    ,{"id":"gap-houdini","query":"Houdini VEX怎么生成噪声","role":"C","stage":"生成与镜头","expect_gap":true}
+    ,{"id":"gap-hot-search","query":"今天小红书热搜第几","role":"E","stage":"复盘与方法升级","expect_gap":true}
+    ,{"id":"gap-premiere","query":"Premiere新版菜单在哪里","role":"D","stage":"剪辑与声音","expect_gap":true}
+    ,{"id":"gap-email","query":"电影节报名邮箱是什么","role":"E","stage":"成片完成","expect_gap":true}
+  ]
+}

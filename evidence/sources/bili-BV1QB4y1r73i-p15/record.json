@@ -1,0 +1,328 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1QB4y1r73i-p15",
+  "source": {
+    "kind": "video",
+    "title": "14 - 第十四课 什么时候能跳轴（P15）",
+    "locator": "https://www.bilibili.com/video/BV1QB4y1r73i?p=15",
+    "text_sha256": "ff3b7704e7ee1b37c88c0ce8639ebcb62e4860c51302e4ac7cc58b9e6e156708",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1QB4y1r73i-p15-第十四课 什么时候能跳轴/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/老白的分镜课/14 - 第十四课 什么时候能跳轴（P15）.md",
+    "sha256": "ce3cc30ccc7cfa12a4d355ea2836ffe1f093042e526626d0209a12b1e00bc358",
+    "reviewed_note_sha256": "7b4b11ee981854ab88a2989e30da18c1d5c002607040cf8a1826ddbc2e419ee7",
+    "reviewed_prefix_bytes": 14790
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "ff3b7704e7ee1b37c88c0ce8639ebcb62e4860c51302e4ac7cc58b9e6e156708",
+    "note_sha256": "ce3cc30ccc7cfa12a4d355ea2836ffe1f093042e526626d0209a12b1e00bc358",
+    "scope": [
+      [
+        6,
+        298
+      ]
+    ],
+    "items": [
+      {
+        "id": "P15-00",
+        "item": "开场与作者熟悉自己绘制的首例",
+        "source": {
+          "lines": [
+            6,
+            14
+          ]
+        },
+        "note": {
+          "lines": [
+            111,
+            111
+          ]
+        },
+        "status": "合并",
+        "reason": "略招呼，保留作者自述参与分镜及其熟悉案例的背景。"
+      },
+      {
+        "id": "P15-01",
+        "item": "先熟练不越轴再权衡其他要求",
+        "source": {
+          "lines": [
+            15,
+            29
+          ]
+        },
+        "note": {
+          "lines": [
+            81,
+            81
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-02",
+        "item": "多人L形关系及2到3、3到1区别",
+        "source": {
+          "lines": [
+            30,
+            77
+          ]
+        },
+        "note": {
+          "lines": [
+            111,
+            111
+          ]
+        },
+        "status": "待核",
+        "reason": "已保留讲解关系与编号，但未完整逐帧重核原方位图及全部角色专名。"
+      },
+      {
+        "id": "P15-03",
+        "item": "第3机位来自对抗视角",
+        "source": {
+          "lines": [
+            78,
+            97
+          ]
+        },
+        "note": {
+          "lines": [
+            113,
+            113
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-04",
+        "item": "保留或删去第4反应的反事实比较",
+        "source": {
+          "lines": [
+            98,
+            129
+          ]
+        },
+        "note": {
+          "lines": [
+            115,
+            122
+          ]
+        },
+        "status": "合并",
+        "reason": "重复编号说明合并入两个方案，保留人物设定及节奏代价。"
+      },
+      {
+        "id": "P15-05",
+        "item": "对脸及删转头前后比较",
+        "source": {
+          "lines": [
+            130,
+            147
+          ]
+        },
+        "note": {
+          "lines": [
+            124,
+            124
+          ]
+        },
+        "status": "待核",
+        "reason": "静帧/字幕支持课程在做该对照；尚未连续播放两版，观感按讲者陈述而非本轮验证。"
+      },
+      {
+        "id": "P15-06",
+        "item": "走廊死墙背景与越轴构图",
+        "source": {
+          "lines": [
+            148,
+            191
+          ]
+        },
+        "note": {
+          "lines": [
+            128,
+            128
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-07",
+        "item": "小津作品、东京物语及适应经验",
+        "source": {
+          "lines": [
+            192,
+            200
+          ]
+        },
+        "note": {
+          "lines": [
+            130,
+            130
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-08",
+        "item": "无名换侧现象及第一种氛围假设",
+        "source": {
+          "lines": [
+            201,
+            225
+          ]
+        },
+        "note": {
+          "lines": [
+            134,
+            136
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-09",
+        "item": "无名另一种分段假设",
+        "source": {
+          "lines": [
+            226,
+            238
+          ]
+        },
+        "note": {
+          "lines": [
+            137,
+            139
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-10",
+        "item": "关山飞渡追逐方向混乱与紧张感",
+        "source": {
+          "lines": [
+            239,
+            259
+          ]
+        },
+        "note": {
+          "lines": [
+            143,
+            145
+          ]
+        },
+        "status": "待核",
+        "reason": "片名原帧已核、讲者论点保留；追逐连续观感未播放，整理者使用建议已分开。"
+      },
+      {
+        "id": "P15-11",
+        "item": "喜剧之王亲密对话短暂换侧",
+        "source": {
+          "lines": [
+            260,
+            291
+          ]
+        },
+        "note": {
+          "lines": [
+            149,
+            151
+          ]
+        },
+        "status": "待核",
+        "reason": "片名与两帧构图变化已核；情绪效果仍是讲者解读，未连续审看。"
+      },
+      {
+        "id": "P15-12",
+        "item": "有限知识范围不穷尽",
+        "source": {
+          "lines": [
+            292,
+            294
+          ]
+        },
+        "note": {
+          "lines": [
+            153,
+            153
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-X1",
+        "item": "片尾互动与以后再讲",
+        "source": {
+          "lines": [
+            295,
+            298
+          ]
+        },
+        "note": {
+          "lines": [
+            48,
+            48
+          ]
+        },
+        "status": "合并",
+        "reason": "非知识正文，按已披露的片尾口语省略边界处理。"
+      }
+    ],
+    "scope_note": "完整现存ASR内容登记，非原声准确率、全原片语义覆盖或连续观感验收；保留待核项。",
+    "source_path": "D:\\obsidian\\影视知识树\\.runtime\\raw-cache\\bilibili\\BV1QB4y1r73i-p15-第十四课 什么时候能跳轴\\transcript.md",
+    "note_path": "D:\\obsidian\\影视知识树\\.runtime\\raw-cache\\knowledge-quality\\2026-09-12-source-note-upgrade\\candidate\\vault\\bilibili-transcripts\\老白的分镜课\\14 - 第十四课 什么时候能跳轴（P15）.md",
+    "review": "先读完整ASR并建立source-inventory.md，再写笔记并回查每项；新原帧证据见frame-review.md。"
+  },
+  "review": {
+    "date": "2026-09-12",
+    "scope": "现存P15转写的14项登记与18张原帧抽查；4项待核，未连续体验剪接/情绪。",
+    "summary": "保留案例、方法关系和限定语的已执行复核；来源获取、内容复核、用户掌握与真实效果分开。",
+    "method": "此前源输入升级的逐项复核；此次仅核对身份、原稿保留和可迁移入口，不冒充新一轮原文/媒体审核。",
+    "unverified": [
+      {
+        "id": "P15-02",
+        "item": "多人L形关系及2到3、3到1区别",
+        "reason": "已保留讲解关系与编号，但未完整逐帧重核原方位图及全部角色专名。"
+      },
+      {
+        "id": "P15-05",
+        "item": "对脸及删转头前后比较",
+        "reason": "静帧/字幕支持课程在做该对照；尚未连续播放两版，观感按讲者陈述而非本轮验证。"
+      },
+      {
+        "id": "P15-10",
+        "item": "关山飞渡追逐方向混乱与紧张感",
+        "reason": "片名原帧已核、讲者论点保留；追逐连续观感未播放，整理者使用建议已分开。"
+      },
+      {
+        "id": "P15-11",
+        "item": "喜剧之王亲密对话短暂换侧",
+        "reason": "片名与两帧构图变化已核；情绪效果仍是讲者解读，未连续审看。"
+      }
+    ],
+    "limitations": "原音回听、未抽查/连续画面及实际理解效果未验证。"
+  },
+  "migration": {
+    "created_at": "2026-09-12T21:20:51.053115+08:00",
+    "previous_coverage_sha256": "9499870946277ee559dfe22912b4a97705d4f366264127feb239f226203fbff6",
+    "previous_coverage_hint": ".runtime/raw-cache/knowledge-quality/2026-09-12-source-note-upgrade/evidence/video/p15-coverage.json",
+    "change": "仅在原笔记末尾追加长期复核入口；原始笔记字节前缀保持，覆盖定位不变；原缓存保留。"
+  },
+  "relocations": [
+    {
+      "date": "2026-09-22T09:01:09.798624+00:00",
+      "previous_note": {
+        "path": "bilibili-transcripts/老白的分镜课/14 - 第十四课 什么时候能跳轴（P15）.md",
+        "sha256": "73d8862c03991076f126ebad96fbc73de4d61dc43eaeafdfbba47836e9badeec",
+        "reviewed_note_sha256": "3cc9a392f76b2d7a731a6b16a5910a8a911716e410babfc1c302d374f79efd98",
+        "reviewed_prefix_bytes": 14705
+      },
+      "new_path": "知识库/学习区/课程/老白的分镜课/14 - 第十四课 什么时候能跳轴（P15）.md",
+      "new_sha256": "ce3cc30ccc7cfa12a4d355ea2836ffe1f093042e526626d0209a12b1e00bc358",
+      "verification": "仅存放路径与链接替换；逐字节对照原件的同一变换，原来源身份、复核结论、未核事项保持。不代表重新审看原始内容。"
+    }
+  ]
+}

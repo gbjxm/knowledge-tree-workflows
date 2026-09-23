@@ -1,0 +1,4 @@
+interface:
+  display_name: "影视知识连接织网"
+  short_description: "发现、预览并维护影视主题之间有类型、有理由的知识连接"
+  default_prompt: "使用 $weave-film-knowledge-connections 检查这些主题之间的正式知识关系；区分导航与语义连接，先给预览，按确认边界写回并严格审计。"

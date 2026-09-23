@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1080" viewBox="0 0 1200 1080" role="img" aria-labelledby="title desc">
+  <title id="title">正反打：机位同侧让人物像在互相看</title>
+  <desc id="desc">从俯视机位、拍摄方向、对应画框和剪接结果解释双人正反打。</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#dc2626"/>
+    </marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#111827}
+      .subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#4b5563}
+      .panel-title{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#111827}
+      .label{font:600 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#1f2937}
+      .small{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#4b5563}
+      .tiny{font:400 14px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#6b7280}
+      .panel{fill:#ffffff;stroke:#d1d5db;stroke-width:2}
+      .frame{fill:#f8fafc;stroke:#111827;stroke-width:3}
+      .axis{stroke:#dc2626;stroke-width:4;stroke-dasharray:12 10}
+      .blue{stroke:#2563eb;fill:none;stroke-width:4}
+      .red{stroke:#dc2626;fill:none;stroke-width:4}
+    </style>
+  </defs>
+
+  <rect width="1200" height="1080" fill="#f3f4f6"/>
+  <rect x="30" y="24" width="1140" height="1032" rx="24" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+
+  <text x="70" y="78" class="title">正反打：机位同侧 → 方向相反 → 像在互相看</text>
+  <text x="70" y="110" class="subtitle">阅读顺序：①俯视摆位与拍摄方向 → ②对应画框 → ③剪接结果 → ④判断边界</text>
+
+  <!-- Panel 1 -->
+  <rect x="60" y="140" width="1080" height="390" rx="18" class="panel"/>
+  <text x="88" y="180" class="panel-title">① 俯视机位图：摄影机留在关系轴同一侧</text>
+
+  <rect x="90" y="210" width="1020" height="285" rx="16" fill="#eff6ff"/>
+  <rect x="90" y="210" width="1020" height="92" rx="16" fill="#fef2f2"/>
+  <text x="105" y="238" class="small" fill="#991b1b">越轴侧：若直接切入，人物屏幕方向可能翻转</text>
+  <text x="105" y="334" class="small" fill="#1d4ed8">安全侧：C1、C2 位于关系轴同一侧</text>
+
+  <!-- relation axis -->
+  <line x1="360" y1="302" x2="840" y2="302" class="axis"/>
+  <text x="510" y="272" class="label" fill="#b91c1c">人物关系轴 A—B</text>
+
+  <!-- people -->
+  <circle cx="360" cy="302" r="28" fill="#f59e0b" stroke="#92400e" stroke-width="3"/>
+  <circle cx="840" cy="302" r="28" fill="#3b82f6" stroke="#1e40af" stroke-width="3"/>
+  <text x="349" y="309" class="label" fill="#ffffff">A</text>
+  <text x="829" y="309" class="label" fill="#ffffff">B</text>
+  <line x1="390" y1="302" x2="430" y2="302" class="blue" marker-end="url(#arrow-blue)"/>
+  <line x1="810" y1="302" x2="770" y2="302" class="blue" marker-end="url(#arrow-blue)"/>
+  <text x="316" y="278" class="small">人物甲</text>
+  <text x="796" y="278" class="small">人物乙</text>
+
+  <!-- shooting directions: keep the combined map readable; frame contents appear in Panel 2 -->
+  <line x1="324" y1="426" x2="792" y2="324" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <line x1="876" y1="426" x2="408" y2="324" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/>
+
+  <!-- cameras safe side -->
+  <g transform="translate(276 414)">
+    <rect x="0" y="0" width="48" height="30" rx="6" fill="#1d4ed8"/>
+    <path d="M48 7 L66 0 L66 30 L48 23 Z" fill="#1d4ed8"/>
+  </g>
+  <text x="246" y="472" class="label">C1 拍乙</text>
+
+  <g transform="translate(876 414)">
+    <rect x="0" y="0" width="48" height="30" rx="6" fill="#1d4ed8"/>
+    <path d="M0 7 L-18 0 L-18 30 L0 23 Z" fill="#1d4ed8"/>
+  </g>
+  <text x="842" y="472" class="label">C2 拍甲</text>
+
+  <!-- Panel 2 -->
+  <rect x="60" y="550" width="1080" height="300" rx="18" class="panel"/>
+  <text x="88" y="590" class="panel-title">② 对应画框：俯视图中的人物位置必须转成稳定的屏幕方向</text>
+
+  <!-- Frame C1 -->
+  <rect x="90" y="620" width="465" height="190" rx="10" class="frame"/>
+  <text x="108" y="650" class="label">C1 拍乙：甲肩在左，乙朝左看</text>
+  <path d="M105 800 Q110 690 205 680 Q250 700 270 810 Z" fill="#f59e0b" fill-opacity="0.75"/>
+  <circle cx="400" cy="710" r="38" fill="#3b82f6" stroke="#1e40af" stroke-width="3"/>
+  <path d="M372 752 Q400 735 428 752 L455 810 L345 810 Z" fill="#3b82f6" fill-opacity="0.7"/>
+  <line x1="370" y1="710" x2="315" y2="710" class="blue" marker-end="url(#arrow-blue)"/>
+  <text x="292" y="742" class="small">乙的视线</text>
+
+  <!-- Frame C2 -->
+  <rect x="645" y="620" width="465" height="190" rx="10" class="frame"/>
+  <text x="663" y="650" class="label">C2 拍甲：乙肩在右，甲朝右看</text>
+  <path d="M1095 800 Q1090 690 995 680 Q950 700 930 810 Z" fill="#3b82f6" fill-opacity="0.75"/>
+  <circle cx="800" cy="710" r="38" fill="#f59e0b" stroke="#92400e" stroke-width="3"/>
+  <path d="M772 752 Q800 735 828 752 L855 810 L745 810 Z" fill="#f59e0b" fill-opacity="0.7"/>
+  <line x1="830" y1="710" x2="885" y2="710" class="blue" marker-end="url(#arrow-blue)"/>
+  <text x="842" y="742" class="small">甲的视线</text>
+
+  <!-- Panel 3 -->
+  <rect x="60" y="870" width="680" height="150" rx="18" class="panel"/>
+  <text x="88" y="910" class="panel-title">③ 剪接结果</text>
+  <rect x="92" y="934" width="185" height="54" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+  <text x="112" y="968" class="label">甲 → 画面右</text>
+  <line x1="286" y1="961" x2="344" y2="961" class="blue" marker-end="url(#arrow-blue)"/>
+  <rect x="354" y="934" width="185" height="54" rx="8" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+  <text x="372" y="968" class="label">画面左 ← 乙</text>
+  <text x="558" y="968" class="label" fill="#047857">像在互相看</text>
+
+  <!-- Panel 4 -->
+  <rect x="760" y="870" width="380" height="150" rx="18" class="panel"/>
+  <text x="788" y="910" class="panel-title">④ 判断边界</text>
+  <text x="788" y="944" class="small">• 同侧不是目的，稳定观看关系才是目的。</text>
+  <text x="788" y="974" class="small">• 人物换位后，要重新画当前关系轴。</text>
+  <text x="788" y="1004" class="small">• 越轴前先展示转头、移动或新空间基准。</text>
+
+  <text x="70" y="1043" class="tiny">教学示意：机位距离、焦距和肩位可按场景意图变化；图中只固定空间关系与屏幕方向。</text>
+</svg>

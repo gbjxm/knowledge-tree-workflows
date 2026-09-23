@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">查理老师的编剧课：从素材到可拍剧本</title>
+  <desc id="desc">课程被整理为准备与故事核心、结构与扩展、场景与修订三个阶段，六个模块按推荐检查顺序推进，最后产出可拍、可改、可沟通的剧本。</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0v6l9-3z" fill="#2563eb"/>
+    </marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .subtitle{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .phase{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .module{font:700 20px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .small{font:400 14px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#64748b}
+      .badge{font:700 14px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#ffffff}
+      .arrow-label{font:700 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#2563eb}
+      .takeaway{font:700 21px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#14532d}
+      .panel{fill:#ffffff;stroke:#cbd5e1;stroke-width:2}
+      .module-card{fill:#ffffff;stroke-width:2}
+    </style>
+  </defs>
+
+  <rect width="1200" height="820" fill="#f1f5f9"/>
+  <rect x="28" y="20" width="1144" height="780" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+
+  <text x="60" y="70" class="title">查理老师的编剧课：从素材到可拍剧本</text>
+  <text x="60" y="101" class="subtitle">先建立输入与故事核心，再扩展结构，最后落到场景、修订与开场</text>
+
+  <rect x="60" y="124" width="360" height="40" rx="8" fill="#fff7ed" stroke="#f59e0b" stroke-width="2"/>
+  <text x="80" y="150" class="body">起点：学习者 + 观察 + 欲望 / 恐惧 / 幻想</text>
+  <line x1="438" y1="144" x2="760" y2="144" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <rect x="780" y="124" width="360" height="40" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <text x="800" y="150" class="body">终点：可拍、可改、可沟通的剧本</text>
+
+  <rect x="60" y="188" width="340" height="422" rx="8" class="panel"/>
+  <rect x="60" y="188" width="340" height="58" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="84" y="224" class="phase">A　准备与故事核心</text>
+
+  <rect x="82" y="268" width="296" height="142" rx="8" class="module-card" stroke="#d97706"/>
+  <rect x="98" y="284" width="28" height="28" rx="8" fill="#d97706"/>
+  <text x="107" y="304" class="badge">1</text>
+  <text x="138" y="305" class="module">入门与素材｜P2–P4</text>
+  <text x="102" y="338" class="body">手艺观：理论 + 技巧，由写作验收</text>
+  <text x="102" y="366" class="body">输入系统：影视素材 + 生活素材</text>
+  <text x="102" y="394" class="body">启动材料：共情练习 + 真实幻想</text>
+
+  <rect x="82" y="434" width="296" height="150" rx="8" class="module-card" stroke="#2563eb"/>
+  <rect x="98" y="450" width="28" height="28" rx="8" fill="#2563eb"/>
+  <text x="107" y="470" class="badge">2</text>
+  <text x="138" y="471" class="module">故事核心｜P5–P14</text>
+  <text x="102" y="504" class="body">三要素与八要素：先保证完整</text>
+  <text x="102" y="532" class="body">五个故事支点：再制造吸引力</text>
+  <text x="102" y="560" class="body">主题正义 + 拿事说话：落到事件</text>
+
+  <rect x="430" y="188" width="340" height="422" rx="8" class="panel"/>
+  <rect x="430" y="188" width="340" height="58" rx="8" fill="#ecfdf5" stroke="#5eead4" stroke-width="2"/>
+  <text x="454" y="224" class="phase">B　结构与叙事扩展</text>
+
+  <rect x="452" y="268" width="296" height="142" rx="8" class="module-card" stroke="#0f766e"/>
+  <rect x="468" y="284" width="28" height="28" rx="8" fill="#0f766e"/>
+  <text x="477" y="304" class="badge">3</text>
+  <text x="508" y="305" class="module">大纲与人物｜P15–P21</text>
+  <text x="472" y="338" class="body">十序列：组织结构关节</text>
+  <text x="472" y="366" class="body">共情 / 配角 / 弧光：组织人物变化</text>
+  <text x="472" y="394" class="body">四轴：人物 · 事件 · 视角 · 时间</text>
+
+  <rect x="452" y="434" width="296" height="150" rx="8" class="module-card" stroke="#7c3aed"/>
+  <rect x="468" y="450" width="28" height="28" rx="8" fill="#7c3aed"/>
+  <text x="477" y="470" class="badge">4</text>
+  <text x="508" y="471" class="module">类型与长篇｜P22–P31</text>
+  <text x="472" y="504" class="body">十类型：兑现最低叙事承诺</text>
+  <text x="472" y="532" class="body">同母题迁移：机制变，故事也要变</text>
+  <text x="472" y="560" class="body">整体编人物，单集编事件</text>
+
+  <rect x="800" y="188" width="340" height="422" rx="8" class="panel"/>
+  <rect x="800" y="188" width="340" height="58" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="2"/>
+  <text x="824" y="224" class="phase">C　场景执行与修订</text>
+
+  <rect x="822" y="268" width="296" height="142" rx="8" class="module-card" stroke="#2563eb"/>
+  <rect x="838" y="284" width="28" height="28" rx="8" fill="#2563eb"/>
+  <text x="847" y="304" class="badge">5</text>
+  <text x="878" y="305" class="module">场景与节拍｜P32–P37</text>
+  <text x="842" y="338" class="body">场景六检：信息 / 推进 / 变化</text>
+  <text x="842" y="366" class="body">对抗 / 进出 / 效率 + 对白五法</text>
+  <text x="842" y="394" class="body">15 节拍 + A/B + Want / Need</text>
+
+  <rect x="822" y="434" width="296" height="150" rx="8" class="module-card" stroke="#dc2626"/>
+  <rect x="838" y="450" width="28" height="28" rx="8" fill="#dc2626"/>
+  <text x="847" y="470" class="badge">6</text>
+  <text x="878" y="471" class="module">修订与开场｜P38–P41</text>
+  <text x="842" y="504" class="body">悬念 = 未知性 + 可能性 + 压迫感</text>
+  <text x="842" y="532" class="body">反转 = 建立预期 → 打破预期</text>
+  <text x="842" y="560" class="body">七坑自检 + 四种开场调序</text>
+
+  <line x1="400" y1="398" x2="422" y2="398" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-blue)"/>
+  <text x="402" y="382" class="arrow-label">组织</text>
+  <line x1="770" y1="398" x2="792" y2="398" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-blue)"/>
+  <text x="772" y="382" class="arrow-label">落地</text>
+
+  <rect x="60" y="640" width="1080" height="112" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <rect x="82" y="662" width="62" height="28" rx="8" fill="#15803d"/>
+  <text x="96" y="682" class="badge">输出</text>
+  <text x="164" y="684" class="takeaway">可拍、可改、可沟通的剧本</text>
+  <text x="82" y="720" class="body">发现问题时，返回最近的因果节点修复；不要用后续技巧掩盖前面尚未成立的故事核心。</text>
+  <text x="1140" y="782" text-anchor="end" class="small">教学简化：箭头表示推荐检查顺序，不是唯一创作顺序</text>
+</svg>
+

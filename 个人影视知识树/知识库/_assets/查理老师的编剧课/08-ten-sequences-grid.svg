@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">第八课：十序列横轴与八要素纵轴</title>
+  <desc id="desc">十个序列作为大纲结构关节，八要素作为逐关节检查维度。下方用想殉职的警察案例显示开场原罪、虚假胜利、原罪反噬和高潮承担之间的因果。</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .subtitle{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .section{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .header{font:700 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .strong{font:700 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .small{font:400 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#64748b}
+      .matrix-line{stroke:#cbd5e1;stroke-width:1.5}
+    </style>
+  </defs>
+
+  <rect width="1200" height="900" fill="#f1f5f9"/>
+  <rect x="28" y="20" width="1144" height="860" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="60" y="70" class="title">第八课：十序列 × 八要素大纲检查表</text>
+  <text x="60" y="101" class="subtitle">横向组织结构关节，纵向追踪人物、事件与主题怎样发生变化</text>
+
+  <rect x="60" y="126" width="1080" height="56" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="84" y="161" class="strong">核心结论：</text>
+  <text x="190" y="161" class="body">十序列不是十场戏；每个序列是一件承担结构任务的大事，内部可以包含多场戏。</text>
+
+  <rect x="60" y="206" width="1080" height="474" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="60" y="206" width="150" height="90" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="82" y="240" class="strong">纵轴：八要素</text>
+  <text x="82" y="271" class="small">每格写“发生了什么变化”</text>
+
+  <g>
+    <rect x="210" y="206" width="93" height="90" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/><text x="256" y="237" text-anchor="middle" class="header">1 开场</text><text x="256" y="265" text-anchor="middle" class="body">世界 / 原罪</text>
+    <rect x="303" y="206" width="93" height="90" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/><text x="349" y="237" text-anchor="middle" class="header">2 切入</text><text x="349" y="265" text-anchor="middle" class="body">痛点 / 台阶</text>
+    <rect x="396" y="206" width="93" height="90" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/><text x="442" y="237" text-anchor="middle" class="header">3 激励</text><text x="442" y="265" text-anchor="middle" class="body">错误欲望</text>
+    <rect x="489" y="206" width="93" height="90" fill="#ecfdf5" stroke="#5eead4" stroke-width="1.5"/><text x="535" y="237" text-anchor="middle" class="header">4 进展</text><text x="535" y="265" text-anchor="middle" class="body">反讽升级</text>
+    <rect x="582" y="206" width="93" height="90" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1.5"/><text x="628" y="237" text-anchor="middle" class="header">5 转折</text><text x="628" y="265" text-anchor="middle" class="body">虚假胜利</text>
+    <rect x="675" y="206" width="93" height="90" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/><text x="721" y="237" text-anchor="middle" class="header">6 再转</text><text x="721" y="265" text-anchor="middle" class="body">原罪回收</text>
+    <rect x="768" y="206" width="93" height="90" fill="#fff1f2" stroke="#fb7185" stroke-width="1.5"/><text x="814" y="237" text-anchor="middle" class="header">7 危机</text><text x="814" y="265" text-anchor="middle" class="body">假身份崩塌</text>
+    <rect x="861" y="206" width="93" height="90" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/><text x="907" y="237" text-anchor="middle" class="header">8 导入</text><text x="907" y="265" text-anchor="middle" class="body">退路缩窄</text>
+    <rect x="954" y="206" width="93" height="90" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/><text x="1000" y="237" text-anchor="middle" class="header">9 高潮</text><text x="1000" y="265" text-anchor="middle" class="body">行动答题</text>
+    <rect x="1047" y="206" width="93" height="90" fill="#ecfdf5" stroke="#5eead4" stroke-width="1.5"/><text x="1093" y="237" text-anchor="middle" class="header">10 结局</text><text x="1093" y="265" text-anchor="middle" class="body">安放变化</text>
+  </g>
+
+  <g>
+    <rect x="60" y="296" width="150" height="48" fill="#f8fafc" class="matrix-line"/><text x="84" y="327" class="strong">身份</text>
+    <rect x="60" y="344" width="150" height="48" fill="#ffffff" class="matrix-line"/><text x="84" y="375" class="strong">欲望</text>
+    <rect x="60" y="392" width="150" height="48" fill="#f8fafc" class="matrix-line"/><text x="84" y="423" class="strong">动作</text>
+    <rect x="60" y="440" width="150" height="48" fill="#ffffff" class="matrix-line"/><text x="84" y="471" class="strong">问题</text>
+    <rect x="60" y="488" width="150" height="48" fill="#f8fafc" class="matrix-line"/><text x="84" y="519" class="strong">阻力</text>
+    <rect x="60" y="536" width="150" height="48" fill="#ffffff" class="matrix-line"/><text x="84" y="567" class="strong">结果</text>
+    <rect x="60" y="584" width="150" height="48" fill="#f0fdf4" class="matrix-line"/><text x="84" y="615" class="strong">正价值</text>
+    <rect x="60" y="632" width="150" height="48" fill="#fef2f2" class="matrix-line"/><text x="84" y="663" class="strong">负价值</text>
+  </g>
+
+  <g class="matrix-line">
+    <rect x="210" y="296" width="930" height="384" fill="#ffffff"/>
+    <rect x="210" y="296" width="930" height="48" fill="#f8fafc"/><rect x="210" y="392" width="930" height="48" fill="#f8fafc"/><rect x="210" y="488" width="930" height="48" fill="#f8fafc"/><rect x="210" y="584" width="930" height="48" fill="#f0fdf4"/><rect x="210" y="632" width="930" height="48" fill="#fef2f2"/>
+    <path d="M210 344H1140M210 392H1140M210 440H1140M210 488H1140M210 536H1140M210 584H1140M210 632H1140M303 296V680M396 296V680M489 296V680M582 296V680M675 296V680M768 296V680M861 296V680M954 296V680M1047 296V680" fill="none"/>
+  </g>
+  <text x="60" y="723" class="section">案例因果：想殉职的警察</text>
+  <rect x="60" y="746" width="224" height="78" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/><text x="80" y="776" class="strong">开场：放任欺负</text><text x="80" y="806" class="body">埋下不作为的原罪</text>
+  <line x1="284" y1="785" x2="332" y2="785" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <rect x="350" y="746" width="224" height="78" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/><text x="370" y="776" class="strong">转折：被表彰转正</text><text x="370" y="806" class="body">外部成功、内部未解</text>
+  <line x1="574" y1="785" x2="622" y2="785" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <rect x="640" y="746" width="224" height="78" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/><text x="660" y="776" class="strong">再转：原罪反噬</text><text x="660" y="806" class="body">早期选择造成后果</text>
+  <line x1="864" y1="785" x2="912" y2="785" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <rect x="930" y="746" width="210" height="78" rx="8" fill="#f0fdf4" stroke="#15803d" stroke-width="2"/><text x="950" y="776" class="strong">高潮：主动承担</text><text x="950" y="806" class="body">用行动回答主题</text>
+  <text x="1140" y="858" text-anchor="end" class="small">教学简化：空格是逐关节检查位，不要求每格都新增设定；序列数量也不是唯一公式</text>
+</svg>

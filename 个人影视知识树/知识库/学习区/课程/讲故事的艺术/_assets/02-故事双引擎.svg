@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">故事的双引擎：表层推进与深层判断</title>
+  <desc id="desc">左侧以人物欲望、障碍、选择和后果回答然后发生什么；右侧以情感价值问题和结局判断回答故事关于什么；中间说明每个关键事件应同时推进并检验。</desc>
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0v6l9-3z" fill="#2563EB"/>
+    </marker>
+    <marker id="arrowAmber" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0v6l9-3z" fill="#D97706"/>
+    </marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .panelTitle{font:700 23px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .question{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif}
+      .step{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .small{font:400 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .label{font:700 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#FFFFFF}
+      .take{font:700 19px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+    </style>
+  </defs>
+
+  <rect width="1200" height="760" fill="#F1F5F9"/>
+  <rect x="30" y="24" width="1140" height="712" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="70" y="76" class="title">故事的“双引擎”</text>
+  <text x="70" y="108" class="subtitle">P5 课程原意：一条线让读者追问下一步，另一条线判断这些变化为什么重要</text>
+
+  <rect x="60" y="145" width="470" height="430" rx="20" fill="#EFF6FF" stroke="#60A5FA" stroke-width="2"/>
+  <rect x="670" y="145" width="470" height="430" rx="20" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>
+
+  <text x="88" y="184" class="panelTitle">表层引擎｜制造翻页动力</text>
+  <text x="88" y="222" class="question" fill="#1D4ED8">“然后发生什么？”</text>
+
+  <g aria-label="表层推进四步">
+    <rect x="88" y="258" width="180" height="70" rx="14" fill="#FFFFFF" stroke="#93C5FD" stroke-width="2"/>
+    <circle cx="112" cy="282" r="14" fill="#2563EB"/>
+    <text x="107" y="288" class="label">1</text>
+    <text x="138" y="286" class="step">人物欲望</text>
+    <text x="138" y="312" class="small">想得到什么</text>
+
+    <rect x="322" y="258" width="180" height="70" rx="14" fill="#FFFFFF" stroke="#93C5FD" stroke-width="2"/>
+    <circle cx="346" cy="282" r="14" fill="#2563EB"/>
+    <text x="341" y="288" class="label">2</text>
+    <text x="372" y="286" class="step">阻碍／互斥</text>
+    <text x="372" y="312" class="small">不能同时满足</text>
+
+    <rect x="88" y="382" width="180" height="70" rx="14" fill="#FFFFFF" stroke="#93C5FD" stroke-width="2"/>
+    <circle cx="112" cy="406" r="14" fill="#2563EB"/>
+    <text x="107" y="412" class="label">3</text>
+    <text x="138" y="410" class="step">选择与行动</text>
+    <text x="138" y="436" class="small">付出可见代价</text>
+
+    <rect x="322" y="382" width="180" height="70" rx="14" fill="#FFFFFF" stroke="#93C5FD" stroke-width="2"/>
+    <circle cx="346" cy="406" r="14" fill="#2563EB"/>
+    <text x="341" y="412" class="label">4</text>
+    <text x="372" y="410" class="step">后果／新问题</text>
+    <text x="372" y="436" class="small">迫使下一选择</text>
+
+    <line x1="268" y1="293" x2="312" y2="293" stroke="#2563EB" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <path d="M412 329 C412 350 190 350 190 374" fill="none" stroke="#2563EB" stroke-width="4" marker-end="url(#arrowBlue)"/>
+    <line x1="268" y1="417" x2="312" y2="417" stroke="#2563EB" stroke-width="4" marker-end="url(#arrowBlue)"/>
+  </g>
+  <text x="88" y="512" class="body">判断：事件是否由前一步的选择和后果引出？</text>
+  <text x="88" y="540" class="body">若只是事件排队，表层引擎并没有真正启动。</text>
+
+  <text x="698" y="184" class="panelTitle">深层罗盘｜决定变化意义</text>
+  <text x="698" y="222" class="question" fill="#B45309">“这个故事关于什么？”</text>
+
+  <g aria-label="深层判断三步">
+    <rect x="698" y="258" width="414" height="72" rx="14" fill="#FFFFFF" stroke="#FCD34D" stroke-width="2"/>
+    <text x="722" y="287" class="step">① 情感／价值问题</text>
+    <text x="722" y="314" class="body">作品反复逼近、无法回避的核心</text>
+
+    <rect x="698" y="354" width="414" height="72" rx="14" fill="#FFFFFF" stroke="#FCD34D" stroke-width="2"/>
+    <text x="722" y="383" class="step">② 压力测试</text>
+    <text x="722" y="410" class="body">哪些选择能真正暴露人物与代价</text>
+
+    <rect x="698" y="450" width="414" height="72" rx="14" fill="#FFFFFF" stroke="#FCD34D" stroke-width="2"/>
+    <text x="722" y="479" class="step">③ 结局判断</text>
+    <text x="722" y="506" class="body">结尾怎样回应，而不是口号式说明</text>
+
+    <line x1="905" y1="331" x2="905" y2="344" stroke="#D97706" stroke-width="4" marker-end="url(#arrowAmber)"/>
+    <line x1="905" y1="427" x2="905" y2="440" stroke="#D97706" stroke-width="4" marker-end="url(#arrowAmber)"/>
+  </g>
+
+  <g aria-label="双轨连接">
+    <rect x="552" y="276" width="96" height="168" rx="46" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2" stroke-dasharray="7 6"/>
+    <text x="600" y="315" text-anchor="middle" class="small">每个</text>
+    <text x="600" y="342" text-anchor="middle" class="step">关键事件</text>
+    <text x="600" y="378" text-anchor="middle" class="small">既推进</text>
+    <text x="600" y="404" text-anchor="middle" class="small">也检验</text>
+    <line x1="552" y1="360" x2="534" y2="360" stroke="#2563EB" stroke-width="3" marker-end="url(#arrowBlue)"/>
+    <line x1="648" y1="360" x2="666" y2="360" stroke="#D97706" stroke-width="3" marker-end="url(#arrowAmber)"/>
+  </g>
+
+  <rect x="60" y="606" width="1080" height="92" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="84" y="640" class="take">教学综合（非课程逐字公式）</text>
+  <text x="84" y="672" class="body">只有推进，故事可能热闹却空；只有命题，故事可能有观点却没有行动。关键事件要同时改变处境，并逼人物回答深层问题。</text>
+</svg>

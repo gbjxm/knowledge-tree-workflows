@@ -1,0 +1,30 @@
+{
+  "saved_at": "2026-09-13T23:16:50.623504+08:00",
+  "paused_by_user": true,
+  "reason": "investment_decision",
+  "workspace": "D:\\obsidian\\影视知识树",
+  "run": "D:\\obsidian\\影视知识树\\.runtime\\raw-cache\\knowledge-quality\\2026-09-12-system-optimization",
+  "pause_record": "D:\\obsidian\\影视知识树\\.runtime\\raw-cache\\knowledge-quality\\2026-09-12-system-optimization\\evidence\\pause-investment-20260913-231650",
+  "decision_report": "D:\\obsidian\\影视知识树\\docs\\知识树优化-暂停与投入判断.md",
+  "mode": "lightweight_state_save_with_original_artifacts_in_place",
+  "sealed_runs": 13,
+  "protocol_failed_runs": [
+    "R10",
+    "R13"
+  ],
+  "paused_runs": [
+    "R14",
+    "R15"
+  ],
+  "not_started_runs": [
+    "R16"
+  ],
+  "anonymous_graders_started": 0,
+  "active_child_agents": [],
+  "incomplete_calls": [],
+  "next_revision_started": false,
+  "original_results_preserved": true,
+  "formal_apply_and_bridge": "unchanged originals",
+  "prior_full_checkpoint": "D:\\obsidian\\知识树工作存档\\20260913-145343-体系优化暂停",
+  "resume_requires_explicit_user_decision": true
+}

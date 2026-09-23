@@ -1,0 +1,574 @@
+{
+  "version": 1,
+  "root_name": "个人影视知识树",
+  "generated_at": "2026-07-18T04:28:30.836501+00:00",
+  "file_count": 113,
+  "total_bytes": 26485706,
+  "files": [
+    {
+      "path": ".obsidian/app.json",
+      "size": 56,
+      "sha256": "36039fe2d44d67d4a4f7a2631e07392c61d76364b8351e92861beb4ff6782933"
+    },
+    {
+      "path": ".obsidian/appearance.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": ".obsidian/community-plugins.json",
+      "size": 223,
+      "sha256": "8a18840b0e351deccb8893f14ab4e0b9bd63bbd92c3e2ee152c7f8bc2ecf7953"
+    },
+    {
+      "path": ".obsidian/core-plugins.json",
+      "size": 696,
+      "sha256": "763cf20a921fd9955735b278006820b90b207b2fc04d9e79ca648279c7c14276"
+    },
+    {
+      "path": ".obsidian/graph.json",
+      "size": 510,
+      "sha256": "0195d1c3402e42f4dda251c5a176e21aba783a00803df1fc71153aec49ab04d1"
+    },
+    {
+      "path": ".obsidian/plugins/cm-chs-patch/main.js",
+      "size": 41325,
+      "sha256": "803b2f6271a93058b30705dcb1e92b7918dcb24dca5a3b465850ea139179ac84"
+    },
+    {
+      "path": ".obsidian/plugins/cm-chs-patch/manifest.json",
+      "size": 315,
+      "sha256": "b47a500b7914d281cea524b946c433a9ebb9a598de32598af89b5428fdc1a69d"
+    },
+    {
+      "path": ".obsidian/plugins/dataview/main.js",
+      "size": 1302069,
+      "sha256": "bcdb7a7882051a30427a3fa370533c1052019591e7551bcc12611bb9a726bbb3"
+    },
+    {
+      "path": ".obsidian/plugins/dataview/manifest.json",
+      "size": 357,
+      "sha256": "9235db47112da81b85591c79ecb9ae2574e5e72207056e976472f90616286185"
+    },
+    {
+      "path": ".obsidian/plugins/dataview/styles.css",
+      "size": 2965,
+      "sha256": "3306dd9032e00f989ba7233a37fd255bc4d3f4340cee661762e952f3f6aa1de9"
+    },
+    {
+      "path": ".obsidian/plugins/note-refactor-obsidian/main.js",
+      "size": 852677,
+      "sha256": "4dd83248769ec32e8022887d266a92ba16e26f158c91470262a7bfdb444f2ce7"
+    },
+    {
+      "path": ".obsidian/plugins/note-refactor-obsidian/manifest.json",
+      "size": 225,
+      "sha256": "73697c533f735c25c858c0e7b0e53963ceb13901ac1a6cce67d645d112d86d5d"
+    },
+    {
+      "path": ".obsidian/plugins/note-refactor-obsidian/styles.css",
+      "size": 138,
+      "sha256": "15a2e9cb8ec49ac0da06fab98a7925955ba65f43e25547d1f8887ed61775dbda"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/data.json",
+      "size": 26727,
+      "sha256": "dd58f9dc52bb99fb7c1129f37bfb514a89254f3d2ccd6595c1a03496200cfe22"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/main.js",
+      "size": 8601682,
+      "sha256": "c4473ac52463fe3b4286e4037cca452c85db46efc2dee84fa89367567b259bd8"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/manifest.json",
+      "size": 463,
+      "sha256": "875d5dab2c490508bc7bf0901499056c092d65547dde090053bb0645e3a85c85"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-excalidraw-plugin/styles.css",
+      "size": 202684,
+      "sha256": "0cd1d03e93176ad8546964d4c7341c300acc12ee251aa3f3699e0e135bc1d70a"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-linter/data.json",
+      "size": 10383,
+      "sha256": "600b948ec9693436e30c22eec366d278f68e7c3941e2302d4aeb076b7cbdcaf7"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-linter/main.js",
+      "size": 902746,
+      "sha256": "1b4f44bf929024cf78dd5e60a655f7cffdf7ff49f8f55695a01591f8f69e3416"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-linter/manifest.json",
+      "size": 536,
+      "sha256": "ebe2da23394289758e13020fe2932e2f930acb20bce65f61fc233902de6ec839"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-linter/styles.css",
+      "size": 4333,
+      "sha256": "e64117e999ea0594fc9840f00a3b6f8133b5df12340cb564124b77934b424269"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-tasks-plugin/main.js",
+      "size": 850416,
+      "sha256": "449e4e1d4fa9b76b995e7b257d0ac3362f8e9ed24f83c739546176352e686ede"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-tasks-plugin/manifest.json",
+      "size": 517,
+      "sha256": "150cec115dfd83f2f95c4edd515df7254e1102c116032bd0998dc90d67138737"
+    },
+    {
+      "path": ".obsidian/plugins/obsidian-tasks-plugin/styles.css",
+      "size": 27027,
+      "sha256": "62865e01fbaf8418635c0eeacc27d4f7352c90f07e81b1be396acd1a1f7eabbc"
+    },
+    {
+      "path": ".obsidian/plugins/omnisearch/data.json",
+      "size": 1103,
+      "sha256": "e0882f09505bc677a24714574020ef7b2d1222976901ac5cfaebcfa96911eedf"
+    },
+    {
+      "path": ".obsidian/plugins/omnisearch/main.js",
+      "size": 715440,
+      "sha256": "9943f2ea28c702acdf4458b593b8b13b85b19723586aa4e27b006bf40a48d3df"
+    },
+    {
+      "path": ".obsidian/plugins/omnisearch/manifest.json",
+      "size": 366,
+      "sha256": "f9b2791c44ea02e6347383cd02719309f59792eb39361f32ccaafc6f49753b7b"
+    },
+    {
+      "path": ".obsidian/plugins/omnisearch/styles.css",
+      "size": 2783,
+      "sha256": "818e6b361e426ab3a868a4524a20df5a6416bf614876b61ede340d0f78c9ebc8"
+    },
+    {
+      "path": ".obsidian/plugins/quickadd/data.json",
+      "size": 3773,
+      "sha256": "a59d2abe85efe051958882ed75fce927eeec0efe522e13648c86db55d8b164e8"
+    },
+    {
+      "path": ".obsidian/plugins/quickadd/main.js",
+      "size": 4282277,
+      "sha256": "a0c59ebed18ab870e7b9dc5f70b84e5730bb15116dba673c8fd6ce90f0aeaf90"
+    },
+    {
+      "path": ".obsidian/plugins/quickadd/manifest.json",
+      "size": 371,
+      "sha256": "60625157623a60e143aa26ab1823fd10e2361d12b2eb946792a555839231e7d5"
+    },
+    {
+      "path": ".obsidian/plugins/quickadd/styles.css",
+      "size": 15873,
+      "sha256": "7198c40b23c4b1ba825156f376855e6122ed8a7f8792e6bd813ebb86534e133e"
+    },
+    {
+      "path": ".obsidian/plugins/table-editor-obsidian/data.json",
+      "size": 94,
+      "sha256": "6525d5e0734cc16cc753d3cddc9e2385890506c462ca33b48cc24ce804587b7a"
+    },
+    {
+      "path": ".obsidian/plugins/table-editor-obsidian/main.js",
+      "size": 272036,
+      "sha256": "cf5dd4ddbddebef68cc99cd93a883e33895c7f123d04bc5d1106ea6e338ba791"
+    },
+    {
+      "path": ".obsidian/plugins/table-editor-obsidian/manifest.json",
+      "size": 493,
+      "sha256": "698b4f77445e07d887f33450eaf533a28e099b7b483f642fa883362ffbd8ffe9"
+    },
+    {
+      "path": ".obsidian/plugins/table-editor-obsidian/styles.css",
+      "size": 1744,
+      "sha256": "23fa30d76f117fd3d1624c4c2e6ddedabf809923996b0534895f8254ea6a39f7"
+    },
+    {
+      "path": ".obsidian/plugins/templater-obsidian/main.js",
+      "size": 321746,
+      "sha256": "804536468672c6cd1a1d8a2f418a94e0a15e8e4af1a07236f147dccf311a4431"
+    },
+    {
+      "path": ".obsidian/plugins/templater-obsidian/manifest.json",
+      "size": 756,
+      "sha256": "5df1451e29cabdeca445ddf346e51fac0a93f007bf0f8d100924d35d7a3a03d8"
+    },
+    {
+      "path": ".obsidian/plugins/templater-obsidian/styles.css",
+      "size": 4935,
+      "sha256": "7d85bcd129e9f38a8932455bdf05c9629ce466ab1236dc933b7b7aea55350c04"
+    },
+    {
+      "path": ".obsidian/types.json",
+      "size": 909,
+      "sha256": "c361c067aec5bae9cdcd2b2eb3865688c45ab4a83945f15fb6e8010fffcab08a"
+    },
+    {
+      "path": ".obsidian/workspace.json",
+      "size": 9339,
+      "sha256": "9c7a96247777cbebf24b50ec3951de8354082ca6fa737adc62cd928a9d2d88c1"
+    },
+    {
+      "path": "bilibili-transcripts/00 - 来源总览.md",
+      "size": 1521,
+      "sha256": "20a3c2947bab4fe936541fd0badd6a70b3bd4ef81bd2b47c0ed3391fa8a1cbaf"
+    },
+    {
+      "path": "bilibili-transcripts/查理老师的编剧课/00 - 课程总览.md",
+      "size": 8508,
+      "sha256": "076f12a49ec338b1074a9823956bf1ac446a169912d19706296c2ebc44e6d563"
+    },
+    {
+      "path": "bilibili-transcripts/查理老师的编剧课/02 - 第二课 故事的要素（P5-P6）.md",
+      "size": 7273,
+      "sha256": "07360f0b97f001561f977f4dc859f26475902fc25ed5f39a3127953ef29401c5"
+    },
+    {
+      "path": "bilibili-transcripts/查理老师的编剧课/03 - 第三课 八要素的实战应用（P7-P8）.md",
+      "size": 7921,
+      "sha256": "8a40ccd5feca62192a5837950e1c2da07d4aeb686998ac25dbbfa485b4296149"
+    },
+    {
+      "path": "bilibili-transcripts/查理老师的编剧课/04 - 第四课 第一个故事（P9-P10）.md",
+      "size": 7239,
+      "sha256": "900be6dd4e40d488e39553a1d0583cc5e5188cb003bfd3abda22ef80b12a8b1c"
+    },
+    {
+      "path": "bilibili-transcripts/查理老师的编剧课/05 - 第五课 剧本的正义（P11-P12）.md",
+      "size": 7107,
+      "sha256": "936bd82788ded9216479e37d7079767fb3ae69a6349ec1b0c1d620190bbfb633"
+    },
+    {
+      "path": "bilibili-transcripts/查理老师的编剧课/06 - 第六课 剧本的格式（P13）.md",
+      "size": 5698,
+      "sha256": "6a525f546591ef196beebde1500bbc279ab7f62920082a98ac1d305f77e3c9d4"
+    },
+    {
+      "path": "bilibili-transcripts/查理老师的编剧课/07 - 第七课 拿事儿说话（P14）.md",
+      "size": 5061,
+      "sha256": "46b4c4a704e2bcc74bedb22d0cfb8becd5283b953b252644d24717406a9c1c82"
+    },
+    {
+      "path": "bilibili-transcripts/查理老师的编剧课/08 - 第八课 勾勒画面（P15-P17）.md",
+      "size": 18573,
+      "sha256": "ea823317dfd9f316d8fe0fe9577fb0f51a2517804b4eb71725175619a42ca25e"
+    },
+    {
+      "path": "bilibili-transcripts/查理老师的编剧课/09 - 第九课 谈谈人物（P18-P19）.md",
+      "size": 11416,
+      "sha256": "ecd70f7b77f0dd8da4044601f94ec3c7c25a914f80f87ab9042f40bd1c4594c5"
+    },
+    {
+      "path": "bilibili-transcripts/查理老师的编剧课/查理老师的编剧课.md",
+      "size": 39990,
+      "sha256": "401c82498a46385b5ee8c2a3c494a7af358cbbaa79f981ae0da7ab1d233af756"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/00 - 课程总览.md",
+      "size": 10257,
+      "sha256": "6bda4dd0ed0781352d106e508535cfc85ccb60f4ed6659e6162f36006fec5adf"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/01 - 第一课 课程介绍（P1）.md",
+      "size": 9659,
+      "sha256": "cda26b773fb998d2b51cc85949e7c42d946d2245db885ede811dda755688bd9a"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/02 - 第二课 虚构中的真实（P2）.md",
+      "size": 12023,
+      "sha256": "6533ac4d994685e7f1f7254100f1c54c0bf13e722a49f8ca1ae2dd9eb11ed54d"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/03 - 第三课 灵感的来源（P3）.md",
+      "size": 9416,
+      "sha256": "bb090a186f00b02e9584b9b381482feff3df9740069b4f45784813add54135e0"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/04 - 第四课 寻找你的风格（P4）.md",
+      "size": 9288,
+      "sha256": "7daaf0c7a0df3fe55fb2e6446f0d5011eb366098c2dab5777b7f6f7aae006f9b"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/05 - 第五课 故事情节的展开（P5）.md",
+      "size": 9438,
+      "sha256": "346f96370e09cc0783298e335c2e4819dc0d6093e0f9816d80a79fa4ad988476"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/06 - 第六课 案例分析之《坟场之书》（P6）.md",
+      "size": 8918,
+      "sha256": "358e566bc92ebe8db9356237441064d0d6d38fc921eabd144c530426f3093cb7"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/07 - 第七课 短篇小说（P7）.md",
+      "size": 8549,
+      "sha256": "98c474b8b8501884019cfb559ef1299d3bfaa0ea5ca22b96b5db043f1c60ec1f"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/08 - 第八课 短篇小说案例分析之《三月童话》（P8）.md",
+      "size": 8686,
+      "sha256": "9c86f3a3b5280b20927fb8deb7abbcb75982ebdb34a2b61891ec444f9c877a87"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/09 - 第九课 对白与角色（P9）.md",
+      "size": 9080,
+      "sha256": "d552972ea5241a051024863e0444f45358fcfa84ba205c0efd34ff2add3bf0ae"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/10 - 第十课 角色塑造案例分析《十月童话》（P10）.md",
+      "size": 8815,
+      "sha256": "2ec2b1dbe76522852f4c6d047956d3314261aee11fa4ff562ad47e8b8c1674ee"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/11 - 第十一课 构建世界（P11）.md",
+      "size": 9394,
+      "sha256": "73e6f45e1af371f276c6f1a9bf8ed9aacb4f1e8f8f8e0d7f27b014029c601ea1"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/12 - 第十二课 描述（P12）.md",
+      "size": 8255,
+      "sha256": "d06ca4560828d9455ba1d05957d93d20c90535383d149b15d1c771206bd8f766"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/13 - 第十三课 幽默（P13）.md",
+      "size": 8354,
+      "sha256": "d4ed561108dda9844ec9681e83d40bfe4d1abc3d01f3bc995432449fe8c724a6"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/14 - 第十四课 题材类型（P14）.md",
+      "size": 8626,
+      "sha256": "040db8177d35cbdc98c2ba58052b682ac6c5b5fa1ca8c89152d3a8301d88eac9"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/15 - 第十五课 漫画（P15）.md",
+      "size": 9369,
+      "sha256": "64a4638bbe7b6abd8f667a813e37889af7f299a85025fce7092e2d58b830600e"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/16 - 第十六课 写作困境（P16）.md",
+      "size": 8744,
+      "sha256": "7a97b5783af239b6560c71c7149db4e587a0504e0bb284d2afeb0881cd252015"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/17 - 第十七课 编辑修改（P17）.md",
+      "size": 8620,
+      "sha256": "26869005870dec2a4395032844b44c56546c44e1250b56537b0fa87d7915abfb"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/18 - 第十八课 作家的规则（P18）.md",
+      "size": 8899,
+      "sha256": "b4547636854dd0ea1127ea77185459a10e7d4d9303987e52d7fff2601d838fd3"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/19 - 第十九课 作家的责任（P19）.md",
+      "size": 10520,
+      "sha256": "ae28f6c804e7f35a1fbbd1dfcd707c0370214686ddc42975eeed9e79c5fb4494"
+    },
+    {
+      "path": "bilibili-transcripts/讲故事的艺术/讲故事的艺术.md",
+      "size": 14099,
+      "sha256": "4230371a06ee727ef26878fa671e9388c7c022f6ca4dde31d71118470420e7bd"
+    },
+    {
+      "path": "bilibili-transcripts/访谈记录/王煜全 - AI泡沫将在2029年破裂.md",
+      "size": 22245,
+      "sha256": "8b1495757ae3beb06a5e23b158a1a640970884c1642dfe68a73dcec7843bcc3b"
+    },
+    {
+      "path": "大学生在校资源与机会清单.md",
+      "size": 7226,
+      "sha256": "5c44dbff5428465c433e9a243f29cf9843d70e537e4eb8b5234f2095c85e0ac9"
+    },
+    {
+      "path": "小陌的AI百宝箱.md",
+      "size": 47037,
+      "sha256": "d930863aae2e8bc586b7858d2930177c630a1d71ce01721a2507221bff7ccc15"
+    },
+    {
+      "path": "归档/旧版与待确认/未命名.base",
+      "size": 40,
+      "sha256": "4c49a4cdfba0ada0e12eb45edb16e010494f9fdc14fecda8104529c22f1c2402"
+    },
+    {
+      "path": "归档/旧版与待确认/欢迎.md",
+      "size": 221,
+      "sha256": "e32b6160cd221f1f40c48d642d12e8d104eaa9fe9a13af42515bcb40a0d8fec8"
+    },
+    {
+      "path": "影视创作知识库/00-待归档与知识地图/兼容入口/大纲写作与事件化.md",
+      "size": 475,
+      "sha256": "803f774ce61681fda1a0598457883c8c01cdf58ba6e11a9844c40cb4691c007f"
+    },
+    {
+      "path": "影视创作知识库/00-待归档与知识地图/兼容入口/查理老师的编剧课入口.md",
+      "size": 782,
+      "sha256": "9a7f158f24e1005d9cb4289729ad86ccd94a38c8e67b57831ef29380233d7d03"
+    },
+    {
+      "path": "影视创作知识库/00-待归档与知识地图/我的知识树北极星.md",
+      "size": 2983,
+      "sha256": "c1f802e69828a57f0770ba091501eee7305e1ff6b94848a636bcf6100225044e"
+    },
+    {
+      "path": "影视创作知识库/00-待归档与知识地图/知识库主页.md",
+      "size": 8458,
+      "sha256": "0e85cc670cbdc473a079adcd7b586eef99739f8ee178549f54b7c29c0675acca"
+    },
+    {
+      "path": "影视创作知识库/00-待归档与知识地图/知识树变更记录.md",
+      "size": 8345,
+      "sha256": "d60cb90118da2bdb66817213422c619d604d9e26a9121489ee684bc191118ad0"
+    },
+    {
+      "path": "影视创作知识库/00-待归档与知识地图/知识树收件箱.md",
+      "size": 802,
+      "sha256": "72e684486cc47cc961b5213b43ffeb164b7583bae36af91469deee5128186c14"
+    },
+    {
+      "path": "影视创作知识库/00-待归档与知识地图/知识树状态.md",
+      "size": 7158,
+      "sha256": "b2d6662332279fd3d2c708c6aaf2109bff030106fe7315c4104aef22290c3996"
+    },
+    {
+      "path": "影视创作知识库/01-故事与剧本/00-故事与剧本地图.md",
+      "size": 6039,
+      "sha256": "7fc034c21411fcc54b604355516aeb5a013f4f124841ed0625e9c348f6363ede"
+    },
+    {
+      "path": "影视创作知识库/01-故事与剧本/从人物共情到人物弧光.md",
+      "size": 15900,
+      "sha256": "b914bea18264e0b0cbceaedd873c5275f62621ec8b36bb2ede3fe84e4847008e"
+    },
+    {
+      "path": "影视创作知识库/01-故事与剧本/从写作困境到编辑完成.md",
+      "size": 10163,
+      "sha256": "37c83fad0cc6f08abb9774aef308840b2cd605fdf554035bf46c7788a09ccff6"
+    },
+    {
+      "path": "影视创作知识库/01-故事与剧本/从梗概到可拍大纲.md",
+      "size": 10194,
+      "sha256": "358d571f48482d46b6286337d5005d90447fad6a2061078c0fdf80352ccdf8e1"
+    },
+    {
+      "path": "影视创作知识库/01-故事与剧本/从灵感到完整故事.md",
+      "size": 15723,
+      "sha256": "f298f2319dbe7722c671ad8fc75beab1a1f9909a61493c03ed2e152f52410d6c"
+    },
+    {
+      "path": "影视创作知识库/01-故事与剧本/用描述与世界构建让虚构可信.md",
+      "size": 9072,
+      "sha256": "e515f4c17cde417489fd51b206aa41a70544b21efed535a83410fd79a91ae866"
+    },
+    {
+      "path": "影视创作知识库/01-故事与剧本/短篇、类型与媒介的叙事选择.md",
+      "size": 9642,
+      "sha256": "1de10f326da471321f4cf31f4109ecec7fa8daff1f483faea6be10359de39b92"
+    },
+    {
+      "path": "影视创作知识库/02-导演与视听语言/00-导演与视听语言地图.md",
+      "size": 6000,
+      "sha256": "57701f7fed84121c503398380f9a85d60f66168a9569e29ad50219f88a8024fa"
+    },
+    {
+      "path": "影视创作知识库/02-导演与视听语言/场面调度与镜头覆盖.md",
+      "size": 14908,
+      "sha256": "68d5796285bfd0315ca0cc8f745df3af1917b5419ed344f705a08b82a4d95052"
+    },
+    {
+      "path": "影视创作知识库/02-导演与视听语言/连续性剪辑与镜头衔接.md",
+      "size": 14725,
+      "sha256": "cccf6db962bc0f31600ae3d541ba27bf481a0f24aa41d6532206fb74aed58405"
+    },
+    {
+      "path": "影视创作知识库/02-导演与视听语言/镜头组与视听节奏.md",
+      "size": 15179,
+      "sha256": "b5366699b4ee891866943230cb91470e2077c0b58743443dfab46da72ad8ff3d"
+    },
+    {
+      "path": "影视创作知识库/02-导演与视听语言/镜头语言专业总表.md",
+      "size": 62552,
+      "sha256": "6c0139cffa5732875e691dc2d07ab2a6b6627ad9ac4133e0ec962ee2433a1b96"
+    },
+    {
+      "path": "影视创作知识库/03-摄影美术与现场制作/00-摄影美术与现场制作地图.md",
+      "size": 2392,
+      "sha256": "0c089c2675eb9ed8159c72312c678cb66be6ba50822e1933514613c1baec1d36"
+    },
+    {
+      "path": "影视创作知识库/04-声音与后期/00-声音与后期地图.md",
+      "size": 2240,
+      "sha256": "d262effbe3872205727ab8b147d5888f68e3f8ee901d1eb155140d302d2ebb17"
+    },
+    {
+      "path": "影视创作知识库/05-创作实践与项目复盘/00-创作实践与项目复盘地图.md",
+      "size": 3698,
+      "sha256": "76853e951083b7641bbce97372d58a0457c6787dccf584842663bbcfdb1547c1"
+    },
+    {
+      "path": "影视创作知识库/05-创作实践与项目复盘/个人思考/流程记录与复盘习惯.md",
+      "size": 644,
+      "sha256": "c029d18ba930de04ca999da263c03f8aecd87fbb2c50003a99f6ea43f104ba00"
+    },
+    {
+      "path": "影视创作知识库/05-创作实践与项目复盘/创作流程复盘与提示词迭代.md",
+      "size": 9183,
+      "sha256": "b0f78d9d38461faaef37f7b516e5edb6fc42b8ebce9870694a0b40563735192f"
+    },
+    {
+      "path": "影视创作知识库/05-创作实践与项目复盘/项目应用/回家-第一条提示词迭代记录.md",
+      "size": 2964,
+      "sha256": "275d872ae1a7275bbb83b8d96300eea9e0b51366bb08491afbf02ce44e321028"
+    },
+    {
+      "path": "影视创作知识库/05-创作实践与项目复盘/项目应用/旧壳-镜头语言演示案例.md",
+      "size": 3655,
+      "sha256": "c4c25b8c160c191070ca658e6ba85fbbcb105530ab3ea3f17fd8484136654f57"
+    },
+    {
+      "path": "影视创作知识库/05-创作实践与项目复盘/项目应用/止血-七场分场事件化检查.md",
+      "size": 2737,
+      "sha256": "4dd9699fbf84795b942da3f653fcbe05a93272645bead046918964fa250c338e"
+    },
+    {
+      "path": "影视创作知识库/05-创作实践与项目复盘/项目资料/回家/回家工作流.md",
+      "size": 12549,
+      "sha256": "00119622ecc72ff15a51c5e4374a5cd2f98ad24d6dcf7777c9d043c9925a6fcb"
+    },
+    {
+      "path": "影视创作知识库/05-创作实践与项目复盘/项目资料/旧壳/素材/Pasted image 20260701171742.png",
+      "size": 2513886,
+      "sha256": "d1c411c29d3742e0cb2a0c8973d755bab22a8ea4e2fc7e46af8f756436076add"
+    },
+    {
+      "path": "影视创作知识库/05-创作实践与项目复盘/项目资料/旧壳/素材/Pasted image 20260701172322.png",
+      "size": 1408724,
+      "sha256": "111eb4290846dee80f7982cd62996c36bbcfd6d3e17c5e505a99b13ddecac573"
+    },
+    {
+      "path": "影视创作知识库/05-创作实践与项目复盘/项目资料/旧壳/素材/屏幕截图 2026-07-01 170458.png",
+      "size": 1871435,
+      "sha256": "519401f22418a1edbdec6e651446622729c157a4c56d841cf17329c4296617b2"
+    },
+    {
+      "path": "影视创作知识库/05-创作实践与项目复盘/项目资料/旧壳/素材/屏幕截图 2026-07-01 170841.png",
+      "size": 1560163,
+      "sha256": "d3dd55c1a4f10b8037dd771a63600100867a95fc9a7dcf09facba3924b9e64ee"
+    },
+    {
+      "path": "影视创作知识库/05-创作实践与项目复盘/项目资料/旧壳/镜头参考.md",
+      "size": 375,
+      "sha256": "183e02492a341ee358e9606169440d35e61a60c48b589cbd4f00a8b096cca80a"
+    },
+    {
+      "path": "影视创作知识库/05-创作实践与项目复盘/项目资料/止血/止血工作流.md",
+      "size": 10335,
+      "sha256": "26227a4a7f248a6f66286cd17638250a248dc1b9cdeefbdaaa97835d4ebdc937"
+    },
+    {
+      "path": "影视创作知识库/06-行业观察与灵感素材/00-行业观察与灵感素材地图.md",
+      "size": 2431,
+      "sha256": "8c702a53ca1954b28efdb770531001a049c3d0c2eb3bb10e2d81a3a23ce2f87b"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">光线方向如何改变人物造型</title>
+  <desc id="desc">将正面光、侧面光、逆光和顶底光分别映射到阴影分布、信息保留、轮廓与题材感，强调光位必须结合具体人物和背景判断。</desc>
+  <defs>
+    <marker id="arrowY" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#d97706"/></marker>
+    <clipPath id="faceL"><circle cx="0" cy="0" r="45"/></clipPath>
+    <style>.title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}.panel-title{font:700 21px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.body{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}.small{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}.key{font:700 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif}.panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}.light{stroke:#d97706;stroke-width:5;fill:none;stroke-linecap:round}</style>
+  </defs>
+  <rect width="1200" height="820" fill="#f1f5f9"/><rect x="30" y="24" width="1140" height="772" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><text x="70" y="78" class="title">光线方向如何改变人物造型</text><text x="70" y="110" class="subtitle">阅读链：光从哪里来 → 阴影落在哪里 → 保留多少身份信息 → 形成怎样的体积与题材感。</text>
+
+  <rect x="60" y="145" width="525" height="235" rx="18" class="panel"/><circle cx="92" cy="178" r="18" fill="#dbeafe"/><text x="86" y="185" class="key" fill="#1d4ed8">1</text><text x="120" y="185" class="panel-title">正面光：信息公开，体积变平</text>
+  <g transform="translate(185 290)"><circle r="46" fill="#fde68a" stroke="#d97706" stroke-width="3"/><circle cx="-15" cy="-8" r="4" fill="#0f172a"/><circle cx="15" cy="-8" r="4" fill="#0f172a"/><path d="M-15 18 Q0 28 15 18" fill="none" stroke="#0f172a" stroke-width="3"/><path d="M0 -75 v30" class="light" marker-end="url(#arrowY)"/></g>
+  <text x="270" y="243" class="body">阴影少，面部信息完整</text><text x="270" y="274" class="body">前后层次与立体感减弱</text><rect x="270" y="302" width="276" height="42" rx="10" fill="#eff6ff"/><text x="286" y="329" class="small">用途倾向：识别、柔和、平面化</text>
+
+  <rect x="615" y="145" width="525" height="235" rx="18" class="panel"/><circle cx="647" cy="178" r="18" fill="#fef3c7"/><text x="641" y="185" class="key" fill="#b45309">2</text><text x="675" y="185" class="panel-title">侧面光：阴影开始塑造体积</text>
+  <g transform="translate(740 278)"><circle r="46" fill="#fde68a" stroke="#d97706" stroke-width="3"/><rect x="0" y="-46" width="46" height="92" fill="#334155" clip-path="url(#faceL)"/><circle cx="-15" cy="-8" r="4" fill="#0f172a"/><circle cx="15" cy="-8" r="4" fill="#f8fafc"/><path d="M-138 0 h42" class="light" marker-end="url(#arrowY)"/></g>
+  <text x="825" y="236" class="body">约 45°：亮、灰、暗面表现体积</text><text x="825" y="267" class="body">转到侧面：明暗冲突与神秘增强</text><rect x="825" y="302" width="276" height="42" rx="10" fill="#fff7ed"/><text x="841" y="329" class="small">暗部保留多少信息，需要主动控制</text>
+
+  <rect x="60" y="405" width="525" height="235" rx="18" class="panel"/><circle cx="92" cy="438" r="18" fill="#dcfce7"/><text x="86" y="445" class="key" fill="#047857">3</text><text x="120" y="445" class="panel-title">逆光：删除正面信息，强调外轮廓</text>
+  <g transform="translate(185 538)"><circle r="46" fill="#0f172a" stroke="#fbbf24" stroke-width="7"/><path d="M-105 0 h54" class="light" marker-end="url(#arrowY)"/></g>
+  <text x="270" y="499" class="body">正面落入阴影：可形成剪影</text><text x="270" y="530" class="body">偏高逆光＋可抓光边缘＋暗背景：</text><text x="270" y="558" class="body">更容易形成轮廓光并分离背景</text><rect x="270" y="581" width="276" height="42" rx="10" fill="#ecfdf5"/><text x="286" y="608" class="small">先检查头颈、四肢与动作是否可读</text>
+
+  <rect x="615" y="405" width="525" height="235" rx="18" class="panel"/><circle cx="647" cy="438" r="18" fill="#fee2e2"/><text x="641" y="445" class="key" fill="#b91c1c">4</text><text x="675" y="445" class="panel-title">顶光／底光：异常阴影强化题材感</text>
+  <g transform="translate(735 540)"><circle r="38" fill="#fde68a" stroke="#d97706" stroke-width="3"/><ellipse cx="-13" cy="-8" rx="10" ry="7" fill="#334155"/><ellipse cx="13" cy="-8" rx="10" ry="7" fill="#334155"/><path d="M0 -72 v30" class="light" marker-end="url(#arrowY)"/></g>
+  <g transform="translate(865 540)"><circle r="38" fill="#fde68a" stroke="#d97706" stroke-width="3"/><path d="M-16 17 Q0 4 16 17" fill="none" stroke="#334155" stroke-width="8"/><path d="M0 72 v-30" class="light" marker-end="url(#arrowY)"/></g>
+  <text x="925" y="495" class="body">顶光：眼窝、鼻下深影</text><text x="925" y="526" class="body">底光：违背日常光照经验</text><text x="925" y="557" class="body">可服务压迫、神秘或恐怖</text><rect x="925" y="581" width="176" height="42" rx="10" fill="#fef2f2"/><text x="940" y="608" class="small">必须有明确题材理由</text>
+
+  <rect x="60" y="670" width="1080" height="88" rx="18" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/><text x="88" y="706" class="panel-title">结论：光位不是情绪密码，而是信息控制工具。</text><text x="88" y="737" class="body">先检查阴影分布、轮廓、背景和具体脸型，再判断它是否服务人物；图中光位为教学简化，不是固定距离与角度。</text>
+</svg>

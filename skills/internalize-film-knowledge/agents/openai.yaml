@@ -1,0 +1,4 @@
+interface:
+  display_name: "影视知识内化"
+  short_description: "按需讲解影视知识，明确求测时检验，明确保存时写回"
+  default_prompt: "使用 $internalize-film-knowledge 围绕我选定的影视知识和困惑讲解或讨论；我明确要求检验时一次一题，默认只对话，明确要求保存时再写回。"

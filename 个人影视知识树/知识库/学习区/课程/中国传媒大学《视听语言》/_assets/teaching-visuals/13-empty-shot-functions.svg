@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">空镜头：空的是主角，不是叙事</title>
+  <desc id="desc">从无主要人物的环境或细节镜头出发，映射到交代时空、压缩过程、调节情绪与节奏、连接段落四类职责。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker>
+    <style>.title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.sub{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}.pt{font:700 21px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.body{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}.small{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}.panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}.dash{fill:none;stroke:#94a3b8;stroke-width:3;stroke-dasharray:8 7}</style>
+  </defs>
+  <rect width="1200" height="800" fill="#f1f5f9"/><rect x="30" y="24" width="1140" height="752" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="76" class="title">空镜头：空的是主角，不是叙事</text><text x="70" y="108" class="sub">先认镜头里有什么，再问它承接什么、改变什么</text>
+  <rect x="60" y="140" width="310" height="485" rx="18" class="panel"/><text x="86" y="180" class="pt">① 无主要人物的镜头</text>
+  <rect x="88" y="210" width="254" height="214" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <path d="M106 385 L160 320 L205 360 L250 278 L324 385 Z" fill="#bfdbfe" stroke="#2563eb" stroke-width="3"/><circle cx="285" cy="250" r="22" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+  <rect x="118" y="342" width="38" height="43" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><path d="M118 342 L137 322 L156 342" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <text x="215" y="453" text-anchor="middle" class="body">环境 / 风景</text><line x1="110" y1="480" x2="320" y2="480" class="dash"/><circle cx="145" cy="535" r="20" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/><path d="M190 520 h108 v32 h-108z" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/><text x="215" y="586" text-anchor="middle" class="body">物体 / 细节</text>
+  <text x="215" y="610" text-anchor="middle" class="small">可属人物视线，也可客观呈现</text>
+  <line x1="380" y1="382" x2="418" y2="382" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <rect x="430" y="140" width="710" height="485" rx="18" class="panel"/><text x="456" y="180" class="pt">② 四类叙事职责</text>
+  <rect x="458" y="210" width="315" height="160" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/><text x="482" y="247" class="pt" fill="#2563eb">A 交代时空</text><text x="482" y="282" class="body">环境、地域、季节、时段</text><text x="482" y="316" class="small">先让观众知道“在哪里”</text>
+  <rect x="797" y="210" width="315" height="160" rx="14" fill="#fffbeb" stroke="#d97706" stroke-width="2"/><text x="821" y="247" class="pt" fill="#d97706">B 压缩过程</text><text x="821" y="282" class="body">省略生活过程，保留变化</text><text x="821" y="316" class="small">短放映承载长故事时间</text>
+  <rect x="458" y="394" width="315" height="160" rx="14" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/><text x="482" y="431" class="pt" fill="#10b981">C 调节感受</text><text x="482" y="466" class="body">节奏、情绪、气氛、意境</text><text x="482" y="500" class="small">让段落呼吸或继续蓄力</text>
+  <rect x="797" y="394" width="315" height="160" rx="14" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/><text x="821" y="431" class="pt" fill="#7c3aed">D 连接与统领</text><text x="821" y="466" class="body">转场、符号、主题呼应</text><text x="821" y="500" class="small">关键在前后镜头的关系</text>
+  <rect x="60" y="655" width="1080" height="88" rx="16" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/><text x="88" y="691" class="pt">③ 判断：此刻为何出现 → 承接什么 → 改变什么？</text><text x="88" y="721" class="body">单独好看不等于有效；职责清楚，空镜才真正“不空”。</text>
+</svg>

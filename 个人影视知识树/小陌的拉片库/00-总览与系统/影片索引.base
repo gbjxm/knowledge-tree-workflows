@@ -1,0 +1,58 @@
+filters:
+  and:
+    - file.inFolder("小陌的拉片库/01-影片库")
+    - 类型 == "拉片影片"
+properties:
+  片名:
+    displayName: 片名
+  导演:
+    displayName: 导演
+  年份:
+    displayName: 年份
+  片长秒:
+    displayName: 片长（秒）
+  分析状态:
+    displayName: 状态
+  完整度:
+    displayName: 完整度
+  镜头数:
+    displayName: 镜头数
+  序列数:
+    displayName: 序列数
+  模型:
+    displayName: 模型
+  更新日期:
+    displayName: 更新日期
+views:
+  - type: table
+    name: 全部影片
+    order:
+      - file.name
+      - 片名
+      - 导演
+      - 年份
+      - 分析状态
+      - 完整度
+      - 镜头数
+      - 序列数
+      - 模型
+      - 更新日期
+  - type: table
+    name: 待完善
+    filters:
+      and:
+        - 分析状态 != "完整"
+    order:
+      - file.name
+      - 片名
+      - 分析状态
+      - 完整度
+      - 更新日期
+  - type: cards
+    name: 影片卡片
+    order:
+      - 封面
+      - 片名
+      - 导演
+      - 年份
+      - 分析状态

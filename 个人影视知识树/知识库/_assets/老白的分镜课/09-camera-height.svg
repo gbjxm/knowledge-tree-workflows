@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+  <title id="t">视高与俯仰必须分开记录</title><desc id="d">用侧视图说明摄影机离地高度和光轴朝向是两个独立变量。</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker><style>.h{font:700 32px 'Microsoft YaHei',sans-serif;fill:#111827}.s{font:700 20px 'Microsoft YaHei',sans-serif;fill:#111827}.p{font:400 17px 'Microsoft YaHei',sans-serif;fill:#374151}.b{fill:#fff;stroke:#d1d5db;stroke-width:2}</style></defs>
+  <rect width="1200" height="720" fill="#f3f4f6"/><rect x="30" y="24" width="1140" height="672" rx="24" fill="#fff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="70" y="78" class="h">视高与俯仰必须分开记录</text><text x="70" y="110" class="p">视高回答摄影机离地多高；俯仰回答光轴朝上、朝平还是朝下，两者不能用“低角度”混写。</text>
+  <rect x="60" y="145" width="700" height="430" rx="18" class="b"/><text x="88" y="185" class="s">① 侧视图</text>
+  <line x1="100" y1="520" x2="720" y2="520" stroke="#6b7280" stroke-width="5"/><text x="650" y="548" class="p">地面</text>
+  <circle cx="620" cy="285" r="30" fill="#f59e0b"/><path d="M570 500 Q575 330 620 325 Q665 330 670 500Z" fill="#fbbf24"/><line x1="620" y1="315" x2="620" y2="520" stroke="#92400e" stroke-width="3" stroke-dasharray="8 7"/><text x="650" y="300" class="p">人物眼高</text>
+  <g transform="translate(170 230)"><rect width="58" height="34" rx="6" fill="#1d4ed8"/><path d="M58 7l22-7v34l-22-7z" fill="#1d4ed8"/></g><line x1="250" y1="247" x2="560" y2="370" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/><text x="105" y="222" class="s">高视高＋向下俯</text>
+  <g transform="translate(170 300)"><rect width="58" height="34" rx="6" fill="#1d4ed8"/><path d="M58 7l22-7v34l-22-7z" fill="#1d4ed8"/></g><line x1="250" y1="317" x2="560" y2="317" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/><text x="105" y="292" class="s">眼高＋平拍</text>
+  <g transform="translate(170 430)"><rect width="58" height="34" rx="6" fill="#1d4ed8"/><path d="M58 7l22-7v34l-22-7z" fill="#1d4ed8"/></g><line x1="250" y1="447" x2="560" y2="330" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/><text x="105" y="420" class="s">低视高＋向上仰</text>
+  <rect x="790" y="145" width="350" height="430" rx="18" class="b"/><text x="818" y="185" class="s">② 不要套固定含义</text>
+  <rect x="818" y="220" width="294" height="82" rx="12" fill="#eff6ff"/><text x="838" y="253" class="s">低机位平拍</text><text x="838" y="282" class="p">只是观看位置低，不必仰视</text>
+  <rect x="818" y="322" width="294" height="82" rx="12" fill="#eff6ff"/><text x="838" y="355" class="s">高机位平拍</text><text x="838" y="384" class="p">只是地面层级高，不必俯视</text>
+  <rect x="818" y="424" width="294" height="116" rx="12" fill="#fffbeb"/><text x="838" y="457" class="s">镜头表写法</text><text x="838" y="490" class="p">视高：0.8 m</text><text x="838" y="518" class="p">光轴：上仰 10°</text>
+  <rect x="60" y="600" width="1080" height="62" rx="14" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/><text x="88" y="640" class="p">先由人物高差、观看视点与构图决定；“仰拍强大、俯拍弱小”只能是具体语境中的可能结果。</text>
+  <text x="70" y="680" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="14" fill="#6b7280">教学示意：图中高度与角度用于区分变量，不代表真实镜头参数或固定情绪含义。</text>
+</svg>

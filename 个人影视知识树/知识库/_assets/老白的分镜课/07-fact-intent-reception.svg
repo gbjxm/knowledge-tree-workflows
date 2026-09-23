@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="730" viewBox="0 0 1200 730" role="img" aria-labelledby="t d">
+  <title id="t">画面里出现，不等于观众真正接收</title><desc id="d">比较场景事实、创作者希望强调的重点与观众实际记住的内容，并展示强化重点与弱化非重点两种控制方式。</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker><style>.h{font:700 32px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#111827}.s{font:700 20px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#111827}.p{font:400 17px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#374151}.tiny{font:400 14px 'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#6b7280}.panel{fill:#fff;stroke:#d1d5db;stroke-width:2}.card{fill:#f8fafc;stroke:#111827;stroke-width:2}</style></defs>
+  <rect width="1200" height="730" fill="#f3f4f6"/><rect x="30" y="24" width="1140" height="682" rx="24" fill="#fff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="70" y="78" class="h">画面里出现，不等于观众真正接收</text><text x="70" y="110" class="p">分镜的终点不是“全都画到了”，而是重点被接收、非重点没有抢走注意力。</text>
+  <rect x="60" y="145" width="300" height="330" rx="18" class="panel"/><text x="88" y="185" class="s">① 实际发生了什么</text><text x="88" y="215" class="p">场景事实很多，权重尚未区分</text>
+  <g transform="translate(92 245)"><circle cx="38" cy="38" r="26" fill="#9ca3af"/><rect x="92" y="12" width="55" height="55" rx="8" fill="#d1d5db"/><path d="M214 5l10 24 26 2-20 17 7 26-23-13-23 13 7-26-20-17 26-2z" fill="#dc2626"/><circle cx="45" cy="142" r="23" fill="#d1d5db"/><rect x="105" y="116" width="50" height="50" rx="25" fill="#9ca3af"/><path d="M205 120h55v48h-55z" fill="#d1d5db"/></g><text x="88" y="445" class="p" fill="#b91c1c">红色事件是本段必须记住的重点</text>
+  <line x1="370" y1="310" x2="430" y2="310" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/>
+  <rect x="440" y="145" width="300" height="330" rx="18" class="panel"/><text x="468" y="185" class="s">② 想让观众看到什么</text><text x="468" y="215" class="p">只圈 1–3 个必须接收的重点</text>
+  <circle cx="590" cy="330" r="98" fill="#fef2f2" stroke="#dc2626" stroke-width="4" stroke-dasharray="10 8"/><path d="M590 250l16 38 42 3-32 27 10 41-36-21-36 21 10-41-32-27 42-3z" fill="#dc2626"/><text x="505" y="445" class="p">重点已经被创作者选出</text>
+  <line x1="750" y1="310" x2="810" y2="310" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/>
+  <rect x="820" y="145" width="320" height="330" rx="18" class="panel"/><text x="848" y="185" class="s">③ 观众实际看到了什么</text><text x="848" y="215" class="p">出现不等于看见，看见不等于记住</text>
+  <path d="M875 320 Q980 235 1085 320 Q980 405 875 320Z" fill="#fff" stroke="#111827" stroke-width="5"/><circle cx="980" cy="320" r="34" fill="#3b82f6"/><rect x="888" y="405" width="190" height="46" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/><text x="922" y="435" class="p">记住：关键事件</text>
+  <rect x="60" y="505" width="1080" height="145" rx="18" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/><text x="88" y="545" class="s">缩小意图与接收的差距：两种杠杆必须同时用</text>
+  <rect x="88" y="570" width="465" height="55" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/><text x="115" y="605" class="p">强化重点：反应｜对比｜重复｜尺度／声音变化</text><rect x="585" y="570" width="525" height="55" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/><text x="612" y="605" class="p">弱化非重点：合并｜删减｜减少变化｜建立安静基准</text>
+  <text x="70" y="688" class="tiny">教学示意：图形数量不对应案例真实镜头数；固定的是“事实—意图—接收”三问与两种注意力杠杆。</text>
+</svg>

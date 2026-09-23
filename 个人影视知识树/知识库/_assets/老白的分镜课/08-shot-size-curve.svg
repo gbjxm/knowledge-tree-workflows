@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="t d">
+  <title id="t">景别变化要有方向，不要来回拉抽屉</title><desc id="d">展示全景、中景、近景和特写，以及收紧、释放与无任务伸缩的区别。</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker><style>.h{font:700 32px 'Microsoft YaHei',sans-serif;fill:#111827}.s{font:700 20px 'Microsoft YaHei',sans-serif;fill:#111827}.p{font:400 17px 'Microsoft YaHei',sans-serif;fill:#374151}.f{fill:#f8fafc;stroke:#111827;stroke-width:3}</style></defs>
+  <rect width="1200" height="700" fill="#f3f4f6"/><rect x="30" y="24" width="1140" height="652" rx="24" fill="#fff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="70" y="78" class="h">景别变化要有方向，不要来回拉抽屉</text><text x="70" y="110" class="p">先满足内容可读，再让尺度承担收紧、释放或重音；没有新任务的伸缩只会制造噪声。</text>
+  <g transform="translate(60 150)">
+    <g><rect width="245" height="220" rx="14" class="f"/><text x="18" y="35" class="s">全景｜空间与动作</text><circle cx="122" cy="95" r="15" fill="#3b82f6"/><path d="M122 110v52M122 125l-24 22M122 125l24 22M122 162l-22 30M122 162l22 30" stroke="#1e40af" stroke-width="5"/></g>
+    <g transform="translate(270 0)"><rect width="245" height="220" rx="14" class="f"/><text x="18" y="35" class="s">中景｜动作与关系</text><circle cx="122" cy="85" r="28" fill="#3b82f6"/><path d="M82 205 Q90 120 122 118 Q154 120 162 205Z" fill="#60a5fa"/></g>
+    <g transform="translate(540 0)"><rect width="245" height="220" rx="14" class="f"/><text x="18" y="35" class="s">近景｜表情与反应</text><circle cx="122" cy="115" r="62" fill="#3b82f6"/><path d="M52 220 Q62 168 122 168 Q182 168 192 220Z" fill="#60a5fa"/></g>
+    <g transform="translate(810 0)"><rect width="245" height="220" rx="14" class="f"/><text x="18" y="35" class="s">特写｜一个关键细节</text><path d="M48 115 Q122 55 196 115 Q122 175 48 115Z" fill="#fff" stroke="#111827" stroke-width="5"/><circle cx="122" cy="115" r="28" fill="#3b82f6"/></g>
+  </g>
+  <rect x="60" y="405" width="1080" height="220" rx="18" fill="#fff" stroke="#d1d5db" stroke-width="2"/>
+  <text x="88" y="446" class="s">把一段镜头写成曲线</text>
+  <text x="88" y="490" class="p">逐步收紧</text><line x1="220" y1="484" x2="800" y2="484" stroke="#2563eb" stroke-width="5" marker-end="url(#a)"/><text x="250" y="475" class="s">全　→　中　→　近　→　特</text><text x="835" y="490" class="p">情绪逼近</text>
+  <text x="88" y="540" class="p">突然释放</text><line x1="220" y1="534" x2="800" y2="534" stroke="#10b981" stroke-width="5" marker-end="url(#a)"/><text x="250" y="525" class="s">特　→　近　→　中　→　全</text><text x="835" y="540" class="p">信息展开</text>
+  <text x="88" y="590" class="p">机械伸缩</text><path d="M220 584 Q300 540 380 584 T540 584 T700 584 T860 584" fill="none" stroke="#dc2626" stroke-width="5"/><text x="250" y="575" class="s">近　⇄　全　⇄　近　⇄　全</text><text x="900" y="590" class="p">没有新任务</text>
+  <text x="70" y="660" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="14" fill="#6b7280">教学示意：人物大小只表达景别层级；具体取景边界仍由内容、视角与构图共同决定。</text>
+</svg>

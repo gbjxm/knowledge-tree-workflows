@@ -1,0 +1,503 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1QB4y1r73i-p1",
+  "source": {
+    "kind": "video",
+    "title": "01 - 第一课 正反打（P1）",
+    "locator": "https://www.bilibili.com/video/BV1QB4y1r73i?p=1",
+    "text_sha256": "8980fd61defe153a5c53ddc455e006ef56522a47c21183077ea63c47a4301cd7",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1QB4y1r73i-p1-第一课 正反打 1/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/老白的分镜课/01 - 第一课 正反打（P1）.md",
+    "sha256": "c894659af3c0fb31ced1e890146d6b9f4fd63610ac12e9de91f80d5eb244daf2",
+    "reviewed_note_sha256": "1ae4cab9ece7101d2b1d4888dbd6b080346be7cb300fc27caf820b733a72d933",
+    "reviewed_prefix_bytes": 14286
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "8980fd61defe153a5c53ddc455e006ef56522a47c21183077ea63c47a4301cd7",
+    "note_sha256": "c894659af3c0fb31ced1e890146d6b9f4fd63610ac12e9de91f80d5eb244daf2",
+    "scope": [
+      [
+        6,
+        508
+      ]
+    ],
+    "items": [
+      {
+        "id": "P1-01",
+        "item": "双人关系轴与同侧覆盖",
+        "source": {
+          "lines": [
+            6,
+            24
+          ]
+        },
+        "note": {
+          "lines": [
+            104,
+            104
+          ]
+        },
+        "status": "合并",
+        "reason": "开场及反复解释合并为基础场景，保留轴线和机位侧。"
+      },
+      {
+        "id": "P1-02",
+        "item": "五类机位及画面类别",
+        "source": {
+          "lines": [
+            25,
+            40
+          ]
+        },
+        "note": {
+          "lines": [
+            104,
+            104
+          ]
+        },
+        "status": "合并",
+        "reason": "五类列入一个完整句，未复制重复口语。"
+      },
+      {
+        "id": "P1-03",
+        "item": "避免机械照搬及示范目的",
+        "source": {
+          "lines": [
+            41,
+            55
+          ]
+        },
+        "note": {
+          "lines": [
+            106,
+            106
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P1-04",
+        "item": "庭院情境与冷远正对称目标",
+        "source": {
+          "lines": [
+            56,
+            89
+          ]
+        },
+        "note": {
+          "lines": [
+            110,
+            110
+          ]
+        },
+        "status": "合并",
+        "reason": "相同人物位置的重复机位枚举并入基础示范，保留本场目标。"
+      },
+      {
+        "id": "P1-05",
+        "item": "墙体和距离限制导致删除侧面",
+        "source": {
+          "lines": [
+            90,
+            105
+          ]
+        },
+        "note": {
+          "lines": [
+            114,
+            114
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P1-06",
+        "item": "单人机位正面对称与靠轴",
+        "source": {
+          "lines": [
+            106,
+            127
+          ]
+        },
+        "note": {
+          "lines": [
+            115,
+            115
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P1-07",
+        "item": "用上摇揭示未知观察者",
+        "source": {
+          "lines": [
+            128,
+            149
+          ]
+        },
+        "note": {
+          "lines": [
+            116,
+            116
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P1-08",
+        "item": "近景替代为远侧单人及冷感理由",
+        "source": {
+          "lines": [
+            150,
+            164
+          ]
+        },
+        "note": {
+          "lines": [
+            117,
+            117
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P1-09",
+        "item": "发现对方后单人前景与此前运动",
+        "source": {
+          "lines": [
+            165,
+            178
+          ]
+        },
+        "note": {
+          "lines": [
+            118,
+            118
+          ]
+        },
+        "status": "待核",
+        "reason": "原帧已见前景缺席；损坏运动术语未据原音复原，连续摇镜未播放。"
+      },
+      {
+        "id": "P1-10",
+        "item": "省略无互动的上楼过程",
+        "source": {
+          "lines": [
+            179,
+            194
+          ]
+        },
+        "note": {
+          "lines": [
+            119,
+            119
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P1-11",
+        "item": "楼上距离变近使侧面双人恢复",
+        "source": {
+          "lines": [
+            195,
+            214
+          ]
+        },
+        "note": {
+          "lines": [
+            120,
+            120
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P1-11b",
+        "item": "常规无错但本例目的为不常规",
+        "source": {
+          "lines": [
+            215,
+            227
+          ]
+        },
+        "note": {
+          "lines": [
+            106,
+            106
+          ]
+        },
+        "status": "合并",
+        "reason": "将本例限制与基础公式限制合并，避免把常规一律判为错误。"
+      },
+      {
+        "id": "P1-12",
+        "item": "对话正远、较平透视、景别和关系覆盖",
+        "source": {
+          "lines": [
+            228,
+            281
+          ]
+        },
+        "note": {
+          "lines": [
+            121,
+            121
+          ]
+        },
+        "status": "待核",
+        "reason": "保留可辨选择链；长胶疑为长焦但未回听，不擅补焦距；景别连续观感未核。"
+      },
+      {
+        "id": "P1-13",
+        "item": "生气离开、切全并留下另一人",
+        "source": {
+          "lines": [
+            282,
+            296
+          ]
+        },
+        "note": {
+          "lines": [
+            122,
+            122
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P1-G1",
+        "item": "第一段电影对白和连续演示",
+        "source": {
+          "lines": [
+            297,
+            362
+          ]
+        },
+        "note": {
+          "lines": [
+            46,
+            46
+          ]
+        },
+        "status": "待核",
+        "reason": "已有全片低清流但仅抽静帧；原片完整对白、人物名、连续剪接体验尚未核验，不据损坏ASR复原。"
+      },
+      {
+        "id": "P1-14a",
+        "item": "作者解释这是拆已有电影",
+        "source": {
+          "lines": [
+            363,
+            370
+          ]
+        },
+        "note": {
+          "lines": [
+            128,
+            128
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P1-14b",
+        "item": "逐次人物站位与重新选机位",
+        "source": {
+          "lines": [
+            371,
+            395
+          ]
+        },
+        "note": {
+          "lines": [
+            130,
+            130
+          ]
+        },
+        "status": "合并",
+        "reason": "反复站位动作保留顺序，重复轴线/机位口语合并。"
+      },
+      {
+        "id": "P1-14c",
+        "item": "因看不清脸和互动而选择换侧",
+        "source": {
+          "lines": [
+            396,
+            405
+          ]
+        },
+        "note": {
+          "lines": [
+            131,
+            131
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P1-14d",
+        "item": "人物不动相机侧移与最后关键话语推近",
+        "source": {
+          "lines": [
+            406,
+            414
+          ]
+        },
+        "note": {
+          "lines": [
+            132,
+            132
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P1-14e",
+        "item": "将各阶段选中机位连接成长镜头",
+        "source": {
+          "lines": [
+            415,
+            443
+          ]
+        },
+        "note": {
+          "lines": [
+            133,
+            133
+          ]
+        },
+        "status": "合并",
+        "reason": "重复移动口语合并，保留人物运动幅度和情绪变化对应相机较大移动。"
+      },
+      {
+        "id": "P1-14f",
+        "item": "侧面观察关系与最后推近再次说明",
+        "source": {
+          "lines": [
+            444,
+            448
+          ]
+        },
+        "note": {
+          "lines": [
+            132,
+            132
+          ]
+        },
+        "status": "合并",
+        "reason": "与14:34–14:49相同选择合并，保留两处来源时间。"
+      },
+      {
+        "id": "P1-G2",
+        "item": "第二段电影连续长镜头演示",
+        "source": {
+          "lines": [
+            449,
+            487
+          ]
+        },
+        "note": {
+          "lines": [
+            135,
+            135
+          ]
+        },
+        "status": "待核",
+        "reason": "受损ASR不能复原对白与表演；16:00静帧只证实电影/方位图并置，不等于连续播放。"
+      },
+      {
+        "id": "P1-15",
+        "item": "买肉而不从养猪开始的类比",
+        "source": {
+          "lines": [
+            488,
+            499
+          ]
+        },
+        "note": {
+          "lines": [
+            139,
+            139
+          ]
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P1-X1",
+        "item": "课程后续及片尾互动邀请",
+        "source": {
+          "lines": [
+            500,
+            508
+          ]
+        },
+        "note": {
+          "lines": [
+            49,
+            49
+          ]
+        },
+        "status": "合并",
+        "reason": "非本课知识正文，按已披露省略边界不逐句收录。"
+      }
+    ],
+    "scope_note": "完整现存ASR内容登记，非原声准确率、全原片语义覆盖或连续观感验收；保留待核项。",
+    "source_path": "D:\\obsidian\\影视知识树\\.runtime\\raw-cache\\bilibili\\BV1QB4y1r73i-p1-第一课 正反打 1\\transcript.md",
+    "note_path": "D:\\obsidian\\影视知识树\\.runtime\\raw-cache\\knowledge-quality\\2026-09-12-source-note-upgrade\\candidate\\vault\\bilibili-transcripts\\老白的分镜课\\01 - 第一课 正反打（P1）.md",
+    "review": "先读完整ASR并建立source-inventory.md，再写笔记并回查每项；新原帧证据见frame-review.md。"
+  },
+  "review": {
+    "date": "2026-09-12",
+    "scope": "现存P1转写的24项登记与18张原帧抽查；4项待核，未连续观片/回听原音。",
+    "summary": "保留案例、方法关系和限定语的已执行复核；来源获取、内容复核、用户掌握与真实效果分开。",
+    "method": "此前源输入升级的逐项复核；此次仅核对身份、原稿保留和可迁移入口，不冒充新一轮原文/媒体审核。",
+    "unverified": [
+      {
+        "id": "P1-09",
+        "item": "发现对方后单人前景与此前运动",
+        "reason": "原帧已见前景缺席；损坏运动术语未据原音复原，连续摇镜未播放。"
+      },
+      {
+        "id": "P1-12",
+        "item": "对话正远、较平透视、景别和关系覆盖",
+        "reason": "保留可辨选择链；长胶疑为长焦但未回听，不擅补焦距；景别连续观感未核。"
+      },
+      {
+        "id": "P1-G1",
+        "item": "第一段电影对白和连续演示",
+        "reason": "已有全片低清流但仅抽静帧；原片完整对白、人物名、连续剪接体验尚未核验，不据损坏ASR复原。"
+      },
+      {
+        "id": "P1-G2",
+        "item": "第二段电影连续长镜头演示",
+        "reason": "受损ASR不能复原对白与表演；16:00静帧只证实电影/方位图并置，不等于连续播放。"
+      }
+    ],
+    "limitations": "原音回听、未抽查/连续画面及实际理解效果未验证。"
+  },
+  "migration": {
+    "created_at": "2026-09-12T21:20:51.039114+08:00",
+    "previous_coverage_sha256": "5a4435a8f6926b7ff8d07ea88a1af0ea4f5c52ef478d65a1e6c6f56b8f2f9ade",
+    "previous_coverage_hint": ".runtime/raw-cache/knowledge-quality/2026-09-12-source-note-upgrade/evidence/video/p1-coverage.json",
+    "change": "仅在原笔记末尾追加长期复核入口；原始笔记字节前缀保持，覆盖定位不变；原缓存保留。"
+  },
+  "relocations": [
+    {
+      "date": "2026-09-22T09:01:09.777860+00:00",
+      "previous_note": {
+        "path": "bilibili-transcripts/老白的分镜课/01 - 第一课 正反打（P1）.md",
+        "sha256": "9eeb8ae06839b18315e28e7afe59486f0a9f5f60cda77b0a7c054b58cec50564",
+        "reviewed_note_sha256": "0d9bafbac074863890f533e21164173ab8ae0a29b8ae3bdae257d8a9cd3116bc",
+        "reviewed_prefix_bytes": 14212
+      },
+      "new_path": "知识库/学习区/课程/老白的分镜课/01 - 第一课 正反打（P1）.md",
+      "new_sha256": "c894659af3c0fb31ced1e890146d6b9f4fd63610ac12e9de91f80d5eb244daf2",
+      "verification": "仅存放路径与链接替换；逐字节对照原件的同一变换，原来源身份、复核结论、未核事项保持。不代表重新审看原始内容。"
+    }
+  ]
+}

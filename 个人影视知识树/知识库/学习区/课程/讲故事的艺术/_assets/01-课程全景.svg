@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">《讲故事的艺术》P1-P19课程全景</title>
+  <desc id="desc">五个模块依次展示故事从真实经验与灵感出发，经过情节、人物、世界、形式，走向完成、修改、交付与责任。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0v6l9-3z" fill="#64748B"/>
+    </marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .mod{font:700 20px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .range{font:700 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif}
+      .question{font:600 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .small{font:400 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .take{font:700 20px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .card{fill:#FFFFFF;stroke-width:2}
+    </style>
+  </defs>
+
+  <rect width="1200" height="760" fill="#F1F5F9"/>
+  <rect x="30" y="24" width="1140" height="712" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="70" y="76" class="title">《讲故事的艺术》：从素材到抵达读者</text>
+  <text x="70" y="108" class="subtitle">阅读顺序：沿箭头看五个模块；每一阶段都在为下一阶段提供判断依据</text>
+
+  <line x1="260" y1="355" x2="280" y2="355" stroke="#64748B" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="480" y1="355" x2="500" y2="355" stroke="#64748B" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="700" y1="355" x2="720" y2="355" stroke="#64748B" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="920" y1="355" x2="940" y2="355" stroke="#64748B" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g aria-label="模块一 P1到P5">
+    <rect x="60" y="145" width="200" height="420" rx="18" class="card" stroke="#60A5FA"/>
+    <rect x="60" y="145" width="200" height="54" rx="18" fill="#DBEAFE"/>
+    <rect x="60" y="181" width="200" height="18" fill="#DBEAFE"/>
+    <text x="82" y="179" class="range" fill="#1D4ED8">P1–P5</text>
+    <text x="82" y="226" class="mod">从真实经验到</text>
+    <text x="82" y="252" class="mod">可推进故事</text>
+    <text x="82" y="287" class="question">材料从哪里来？</text>
+    <text x="82" y="322" class="body">情感真实</text>
+    <text x="82" y="353" class="body">灵感堆肥</text>
+    <text x="82" y="384" class="body">个人声音</text>
+    <text x="82" y="415" class="body">欲望与情节</text>
+    <line x1="82" y1="447" x2="238" y2="447" stroke="#BFDBFE" stroke-width="2"/>
+    <text x="82" y="481" class="small">诚实与观察</text>
+    <text x="82" y="509" class="small">让私人经验可分享</text>
+  </g>
+
+  <g aria-label="模块二 P6到P8">
+    <rect x="280" y="145" width="200" height="420" rx="18" class="card" stroke="#34D399"/>
+    <rect x="280" y="145" width="200" height="54" rx="18" fill="#D1FAE5"/>
+    <rect x="280" y="181" width="200" height="18" fill="#D1FAE5"/>
+    <text x="302" y="179" class="range" fill="#047857">P6–P8</text>
+    <text x="302" y="232" class="mod">短篇压缩世界</text>
+    <text x="302" y="273" class="question">有限篇幅写什么？</text>
+    <text x="302" y="310" class="body">具体欲望</text>
+    <text x="302" y="341" class="body">关键切片</text>
+    <text x="302" y="372" class="body">暗示与留白</text>
+    <text x="302" y="403" class="body">情绪落点</text>
+    <line x1="302" y1="435" x2="458" y2="435" stroke="#A7F3D0" stroke-width="2"/>
+    <text x="302" y="469" class="small">只写一个近景</text>
+    <text x="302" y="497" class="small">让读者补全远景</text>
+  </g>
+
+  <g aria-label="模块三 P9到P12">
+    <rect x="500" y="145" width="200" height="420" rx="18" class="card" stroke="#F59E0B"/>
+    <rect x="500" y="145" width="200" height="54" rx="18" fill="#FEF3C7"/>
+    <rect x="500" y="181" width="200" height="18" fill="#FEF3C7"/>
+    <text x="522" y="179" class="range" fill="#B45309">P9–P12</text>
+    <text x="522" y="232" class="mod">人物与虚构空间</text>
+    <text x="522" y="273" class="question">怎样让虚构站住？</text>
+    <text x="522" y="310" class="body">对白行动</text>
+    <text x="522" y="341" class="body">价值碰撞</text>
+    <text x="522" y="372" class="body">稳定规则</text>
+    <text x="522" y="403" class="body">准确描述</text>
+    <line x1="522" y1="435" x2="678" y2="435" stroke="#FDE68A" stroke-width="2"/>
+    <text x="522" y="469" class="small">人物通过选择显形</text>
+    <text x="522" y="497" class="small">世界由细节获得信用</text>
+  </g>
+
+  <g aria-label="模块四 P13到P15">
+    <rect x="720" y="145" width="200" height="420" rx="18" class="card" stroke="#A78BFA"/>
+    <rect x="720" y="145" width="200" height="54" rx="18" fill="#EDE9FE"/>
+    <rect x="720" y="181" width="200" height="18" fill="#EDE9FE"/>
+    <text x="742" y="179" class="range" fill="#6D28D9">P13–P15</text>
+    <text x="742" y="232" class="mod">类型、幽默与媒介</text>
+    <text x="742" y="273" class="question">信息怎样被释放？</text>
+    <text x="742" y="310" class="body">预期与偏转</text>
+    <text x="742" y="341" class="body">类型契约</text>
+    <text x="742" y="372" class="body">文字与图像</text>
+    <text x="742" y="403" class="body">格间与翻页</text>
+    <line x1="742" y1="435" x2="898" y2="435" stroke="#DDD6FE" stroke-width="2"/>
+    <text x="742" y="469" class="small">形式不是包装</text>
+    <text x="742" y="497" class="small">媒介参与叙事</text>
+  </g>
+
+  <g aria-label="模块五 P16到P19">
+    <rect x="940" y="145" width="200" height="420" rx="18" class="card" stroke="#F87171"/>
+    <rect x="940" y="145" width="200" height="54" rx="18" fill="#FEE2E2"/>
+    <rect x="940" y="181" width="200" height="18" fill="#FEE2E2"/>
+    <text x="962" y="179" class="range" fill="#B91C1C">P16–P19</text>
+    <text x="962" y="232" class="mod">完成、修改与责任</text>
+    <text x="962" y="273" class="question">怎样让作品抵达？</text>
+    <text x="962" y="310" class="body">卡点诊断</text>
+    <text x="962" y="341" class="body">冷却与修改</text>
+    <text x="962" y="372" class="body">投递与继续</text>
+    <text x="962" y="403" class="body">创作责任</text>
+    <line x1="962" y1="435" x2="1118" y2="435" stroke="#FECACA" stroke-width="2"/>
+    <text x="962" y="469" class="small">作品必须完成</text>
+    <text x="962" y="497" class="small">也必须离开作者</text>
+  </g>
+
+  <rect x="60" y="598" width="1080" height="100" rx="18" fill="#EFF6FF" stroke="#93C5FD" stroke-width="2"/>
+  <text x="84" y="636" class="take">一条闭环，而非五套孤立技巧</text>
+  <text x="84" y="672" class="body">生活提供材料　｜　欲望使故事运动　｜　形式组织信息　｜　完成让作品抵达读者</text>
+</svg>

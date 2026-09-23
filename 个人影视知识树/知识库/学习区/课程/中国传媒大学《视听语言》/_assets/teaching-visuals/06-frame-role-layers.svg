@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">画面构成：四种角色怎样分工</title>
+  <desc id="desc">在同一画框中用一致颜色标出主体、陪体、前景和背景，并逐项说明它们的叙事与观看功能以及删除测试。</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker><style>.title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}.panel-title{font:700 21px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.body{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}.small{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}.key{font:700 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif}.panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}.call{stroke-width:3;fill:none}</style></defs>
+  <rect width="1200" height="820" fill="#f1f5f9"/><rect x="30" y="24" width="1140" height="772" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><text x="70" y="78" class="title">画面构成：四种角色怎样分工</text><text x="70" y="110" class="subtitle">先看左侧同一画框中的颜色映射，再用右侧功能卡判断：每个元素为什么必须存在？</text>
+
+  <rect x="60" y="145" width="590" height="475" rx="18" class="panel"/><text x="88" y="183" class="panel-title">① 同一画框：位置不是身份，功能才是身份</text>
+  <rect x="95" y="215" width="520" height="350" rx="10" fill="#dcfce7" stroke="#0f172a" stroke-width="4"/>
+  <rect x="95" y="445" width="520" height="120" fill="#bbf7d0"/><path d="M95 375 Q220 300 350 375 T615 355 L615 445 L95 445z" fill="#86efac"/><rect x="505" y="315" width="72" height="130" fill="#64748b"/><rect x="520" y="285" width="42" height="30" fill="#94a3b8"/>
+  <g fill="#2563eb" stroke="#1d4ed8" stroke-width="3"><circle cx="340" cy="335" r="30"/><rect x="312" y="365" width="56" height="105" rx="20"/></g><text x="314" y="505" class="key" fill="#1d4ed8">主体</text>
+  <g fill="#d97706" stroke="#b45309" stroke-width="3"><circle cx="455" cy="365" r="22"/><rect x="435" y="390" width="40" height="76" rx="16"/></g><text x="430" y="505" class="key" fill="#b45309">陪体</text>
+  <path d="M112 232 h95 v24 h-70 v88 h-25z M598 548 h-108 v-24 h83 v-92 h25z" fill="#7c3aed" opacity=".88"/><text x="120" y="278" class="key" fill="#6d28d9">前景</text>
+  <text x="472" y="255" class="key" fill="#047857">背景</text><path d="M490 262 L525 300" stroke="#10b981" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M305 320 Q340 280 375 320" fill="none" stroke="#2563eb" stroke-width="3" stroke-dasharray="6 5"/><text x="252" y="245" class="small">主体由差异与关系被突出</text>
+  <text x="88" y="595" class="small">教学简化：人物与环境只用于标示功能，不代表具体故事或固定层级。</text>
+
+  <rect x="680" y="145" width="460" height="102" rx="16" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/><circle cx="716" cy="180" r="12" fill="#2563eb"/><text x="744" y="183" class="panel-title">主体：内容中心与结构中心</text><text x="716" y="218" class="body">让观众首先知道“这幅画主要在说谁／什么”。</text>
+  <rect x="680" y="265" width="460" height="102" rx="16" fill="#fff7ed" stroke="#d97706" stroke-width="2"/><circle cx="716" cy="300" r="12" fill="#d97706"/><text x="744" y="303" class="panel-title">陪体：解释关系、原因与气氛</text><text x="716" y="338" class="body">删掉它若主体含义不变，它可能只是环境元素。</text>
+  <rect x="680" y="385" width="460" height="102" rx="16" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/><circle cx="716" cy="420" r="12" fill="#7c3aed"/><text x="744" y="423" class="panel-title">前景：规定观看方式</text><text x="716" y="458" class="body">制造尺度、框架、心理提示，或主动遮挡干扰。</text>
+  <rect x="680" y="505" width="460" height="115" rx="16" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/><circle cx="716" cy="540" r="12" fill="#10b981"/><text x="744" y="543" class="panel-title">背景：说明处境，并控制信息量</text><text x="716" y="578" class="body">交代环境、身份、情绪与纵深；</text><text x="716" y="604" class="body">也可通过虚化或简化减少干扰。</text>
+
+  <rect x="60" y="650" width="1080" height="108" rx="18" fill="#f8fafc" stroke="#64748b" stroke-width="2"/><text x="88" y="688" class="panel-title">② 删除测试：拿掉这个元素，主题、关系、情绪、层次或观看路径会损失什么？</text>
+  <text x="88" y="724" class="body">答得出，说明它有功能；答不出，可能只是“把画面放满”。同一对象会随叙事关系改变而在四种角色之间转换。</text>
+</svg>

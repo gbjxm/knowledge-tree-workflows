@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">有限场景通过视点、调度、时间和声音扩展成更大的影视时空</title>
+  <desc id="desc">中心是可见可拍的有限场景，四种组织手段把信息延伸到画外、场景链与观众的心理时空。</desc>
+  <defs>
+    <marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker>
+    <marker id="purple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#7c3aed"/></marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .panel-title{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .label{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .small{font:400 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1200" height="820" fill="#f1f5f9"/>
+  <rect x="30" y="24" width="1140" height="772" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="78" class="title">场地有限，影视时空的组织方式可以不断变化</text>
+  <text x="70" y="111" class="subtitle">从中心的“看得见、拍得到”，向四周读取视点、调度、时间与声音怎样扩展想象</text>
+
+  <rect x="420" y="238" width="360" height="300" rx="22" fill="#fff7ed" stroke="#d97706" stroke-width="3"/>
+  <text x="476" y="280" class="panel-title">有限场景：具体、可见、可拍</text>
+  <rect x="465" y="315" width="270" height="150" rx="12" fill="#fff" stroke="#64748b" stroke-width="3"/>
+  <rect x="479" y="331" width="74" height="116" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="618" cy="373" r="22" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+  <line x1="618" y1="395" x2="618" y2="438" stroke="#d97706" stroke-width="7"/>
+  <circle cx="690" cy="360" r="17" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
+  <line x1="690" y1="377" x2="690" y2="423" stroke="#7c3aed" stroke-width="6"/>
+  <text x="475" y="495" class="body">某时、某地、某事</text>
+  <text x="475" y="521" class="small">边界内安排人物、光线、构图与行动</text>
+
+  <rect x="60" y="160" width="300" height="150" rx="18" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="88" y="198" class="panel-title">① 视点</text>
+  <text x="88" y="232" class="body">改变距离、方向与高度</text>
+  <text x="88" y="259" class="body">选择看见什么、隐藏什么</text>
+  <text x="88" y="286" class="small">同一地点可产生不同关系与态度</text>
+  <line x1="360" y1="235" x2="420" y2="300" stroke="#2563eb" stroke-width="4" marker-end="url(#blue)"/>
+
+  <rect x="840" y="160" width="300" height="150" rx="18" fill="#f0fdf4" stroke="#10b981" stroke-width="2"/>
+  <text x="868" y="198" class="panel-title">② 调度</text>
+  <text x="868" y="232" class="body">让人物进入、离开、遮挡、换位</text>
+  <text x="868" y="259" class="body">让空间逼出行动与关系</text>
+  <text x="868" y="286" class="small">场景不再只是背景，而是叙事条件</text>
+  <line x1="840" y1="235" x2="780" y2="300" stroke="#10b981" stroke-width="4" marker-end="url(#blue)"/>
+
+  <rect x="60" y="488" width="300" height="150" rx="18" fill="#faf5ff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="88" y="526" class="panel-title">③ 时间与场景链</text>
+  <text x="88" y="560" class="body">重复、变化、进入与退出</text>
+  <text x="88" y="587" class="body">让多个场景共同组成一场戏</text>
+  <text x="88" y="614" class="small">连续性把有限单元接成整体时空</text>
+  <line x1="360" y1="563" x2="420" y2="498" stroke="#7c3aed" stroke-width="4" marker-end="url(#purple)"/>
+
+  <rect x="840" y="488" width="300" height="150" rx="18" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+  <text x="868" y="526" class="panel-title">④ 声音与画外</text>
+  <path d="M872 570 Q889 548 906 570 T940 570" fill="none" stroke="#d97706" stroke-width="4"/>
+  <path d="M952 570 Q969 538 986 570 T1020 570" fill="none" stroke="#d97706" stroke-width="4"/>
+  <text x="868" y="602" class="body">未入画的人、事与空间仍可被感知</text>
+  <text x="868" y="627" class="small">观众据线索补全画框之外</text>
+  <line x1="840" y1="563" x2="780" y2="498" stroke="#d97706" stroke-width="4" marker-end="url(#blue)"/>
+
+  <path d="M600 561 C600 635 600 645 600 683" fill="none" stroke="#2563eb" stroke-width="5" marker-end="url(#blue)"/>
+  <rect x="250" y="690" width="700" height="68" rx="16" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="353" y="723" class="panel-title">观众建立的整体影视时空：大于眼前画框</text>
+  <text x="320" y="748" class="small">教学简化：四条路径不是固定公式，实际设计还需统筹色彩、光线、构图、材质与生产条件。</text>
+</svg>

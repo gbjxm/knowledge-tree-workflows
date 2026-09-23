@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">第二课三要素与八要素因果链</title>
+  <desc id="desc">人物、事件、主题三要素包含八个小要素；身份、欲望、动作、问题、阻力、结果构成因果链，正负价值通过结果与选择落地。</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.subtitle{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}.group{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.node{font:700 19px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}.small{font:400 14px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#64748b}.claim{font:700 21px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#14532d}.card{fill:#fff;stroke:#cbd5e1;stroke-width:2}.box{fill:#fff;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1200" height="860" fill="#f1f5f9"/><rect x="28" y="20" width="1144" height="820" rx="8" class="card"/>
+  <text x="60" y="70" class="title">第二课：三要素怎样展开成八要素因果链</text>
+  <text x="60" y="102" class="subtitle">八要素不是八张孤立的卡片，而是一句能持续追问“后来呢”的完整故事</text>
+
+  <rect x="60" y="130" width="1080" height="82" rx="8" fill="#fff7ed" stroke="#f59e0b" stroke-width="2"/>
+  <text x="84" y="162" class="group">灵感入口：欲望提供向上力量，恐惧／代价／秘密提供相反力量</text>
+  <text x="84" y="191" class="body">单一愿望只是材料；两股力量逼人物行动、隐瞒和选择，材料才开始进入故事。</text>
+
+  <rect x="60" y="242" width="522" height="70" rx="8" fill="#ecfdf5" stroke="#5eead4" stroke-width="2"/>
+  <text x="84" y="270" class="group">人物</text><text x="158" y="270" class="body">谁在推动故事，并承担观众最关心的“成事”视角</text>
+  <text x="84" y="298" class="small">包含：身份、欲望、动作</text>
+  <rect x="618" y="242" width="522" height="70" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="642" y="270" class="group">事件</text><text x="716" y="270" class="body">人物要解决什么，为什么不能轻易解决，最后发生什么</text>
+  <text x="642" y="298" class="small">包含：问题、阻力、结果</text>
+
+  <rect x="60" y="342" width="156" height="138" rx="8" class="box" stroke="#0f766e"/>
+  <text x="82" y="376" class="node">1 身份</text><text x="82" y="407" class="body">故事中的</text><text x="82" y="433" class="body">关系位置</text><text x="82" y="461" class="small">不只写职业</text>
+  <rect x="244" y="342" width="156" height="138" rx="8" class="box" stroke="#d97706"/>
+  <text x="266" y="376" class="node">2 欲望</text><text x="266" y="407" class="body">人物真正</text><text x="266" y="433" class="body">想得到什么</text><text x="266" y="461" class="small">推动方向</text>
+  <rect x="428" y="342" width="156" height="138" rx="8" class="box" stroke="#2563eb"/>
+  <text x="450" y="376" class="node">3 动作</text><text x="450" y="407" class="body">为了欲望</text><text x="450" y="433" class="body">具体做什么</text><text x="450" y="461" class="small">产生事件</text>
+  <rect x="616" y="342" width="156" height="138" rx="8" class="box" stroke="#dc2626"/>
+  <text x="638" y="376" class="node">4 问题</text><text x="638" y="407" class="body">故事必须</text><text x="638" y="433" class="body">回答的未知</text><text x="638" y="461" class="small">维持追问</text>
+  <rect x="800" y="342" width="156" height="138" rx="8" class="box" stroke="#dc2626"/>
+  <text x="822" y="376" class="node">5 阻力</text><text x="822" y="407" class="body">让行动不能</text><text x="822" y="433" class="body">直接成功</text><text x="822" y="461" class="small">制造选择</text>
+  <rect x="984" y="342" width="156" height="138" rx="8" class="box" stroke="#15803d"/>
+  <text x="1006" y="376" class="node">6 结果</text><text x="1006" y="407" class="body">行动之后</text><text x="1006" y="433" class="body">局面怎样改变</text><text x="1006" y="461" class="small">价值落点</text>
+  <line x1="216" y1="411" x2="234" y2="411" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/><line x1="400" y1="411" x2="418" y2="411" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/><line x1="584" y1="411" x2="606" y2="411" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/><line x1="772" y1="411" x2="790" y2="411" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/><line x1="956" y1="411" x2="974" y2="411" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/>
+
+  <rect x="60" y="516" width="1080" height="178" rx="8" fill="#faf5ff" stroke="#c4b5fd" stroke-width="2"/>
+  <text x="84" y="550" class="group">主题：结果让正负价值的较量落地</text>
+  <rect x="84" y="576" width="338" height="84" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <text x="106" y="609" class="node">7 正价值</text><text x="106" y="638" class="body">作品最终肯定、维护或争取什么</text>
+  <text x="600" y="619" text-anchor="middle" class="group">选择 + 代价 + 结果</text>
+  <line x1="432" y1="618" x2="492" y2="618" stroke="#7c3aed" stroke-width="3"/><line x1="708" y1="618" x2="768" y2="618" stroke="#7c3aed" stroke-width="3"/>
+  <rect x="778" y="576" width="338" height="84" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="2"/>
+  <text x="800" y="609" class="node">8 负价值</text><text x="800" y="638" class="body">与正价值冲突、诱惑或压迫的力量</text>
+
+  <rect x="60" y="726" width="1080" height="72" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <text x="84" y="757" class="claim">复述句式：某种身份的人，因为欲望采取动作；面对问题与阻力，得到结果，并让价值较量显形。</text>
+  <text x="1140" y="824" text-anchor="end" class="small">教学简化：箭头表示主要因果检查顺序；实际创作可从任一强要素起步并反推其他要素</text>
+</svg>

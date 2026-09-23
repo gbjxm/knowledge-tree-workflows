@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">蒙太奇按镜头、段落与全片分成三个组织层次</title>
+  <desc id="desc">微观层决定相邻镜头何时切，中观层决定段落怎样转场，宏观层决定整片如何叙事并表达观点。</desc>
+  <defs>
+    <marker id="blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker>
+    <marker id="amber" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#d97706"/></marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .panel-title{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .label{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .small{font:400 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1200" height="820" fill="#f1f5f9"/>
+  <rect x="30" y="24" width="1140" height="772" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="78" class="title">剪辑要先问：问题发生在镜头、段落，还是整片？</text>
+  <text x="70" y="111" class="subtitle">从小到大读取三层：切点 → 转场 → 结构；每一层解决的尺度不同</text>
+
+  <rect x="60" y="145" width="1080" height="160" rx="18" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="88" y="185" class="panel-title">① 微观：相邻镜头为什么在这里切？</text>
+  <rect x="88" y="208" width="175" height="67" rx="10" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <text x="143" y="249" class="label">镜头 A</text>
+  <line x1="276" y1="241" x2="355" y2="241" stroke="#2563eb" stroke-width="4" marker-end="url(#blue)"/>
+  <line x1="315" y1="213" x2="315" y2="269" stroke="#ef4444" stroke-width="5"/>
+  <text x="289" y="200" class="small">切点</text>
+  <rect x="368" y="208" width="175" height="67" rx="10" fill="#fff" stroke="#2563eb" stroke-width="2"/>
+  <text x="423" y="249" class="label">镜头 B</text>
+  <text x="590" y="228" class="label">依据</text>
+  <text x="590" y="257" class="body">动作节点／情绪留白／节奏变化</text>
+  <text x="891" y="228" class="label">前期条件</text>
+  <text x="891" y="257" class="body">拍完整动作与可选节点</text>
+
+  <rect x="60" y="329" width="1080" height="160" rx="18" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+  <text x="88" y="369" class="panel-title">② 中观：一个段落怎样进入另一个段落？</text>
+  <rect x="88" y="392" width="235" height="67" rx="10" fill="#fff" stroke="#d97706" stroke-width="2"/>
+  <text x="163" y="433" class="label">段落 A</text>
+  <line x1="337" y1="425" x2="433" y2="425" stroke="#d97706" stroke-width="4" marker-end="url(#amber)"/>
+  <rect x="447" y="392" width="235" height="67" rx="10" fill="#fff" stroke="#d97706" stroke-width="2"/>
+  <text x="506" y="419" class="label">结构性镜头</text>
+  <text x="495" y="445" class="small">形／动作／声音／遮挡／运动</text>
+  <line x1="696" y1="425" x2="792" y2="425" stroke="#d97706" stroke-width="4" marker-end="url(#amber)"/>
+  <rect x="806" y="392" width="235" height="67" rx="10" fill="#fff" stroke="#d97706" stroke-width="2"/>
+  <text x="881" y="433" class="label">段落 B</text>
+
+  <rect x="60" y="513" width="1080" height="160" rx="18" fill="#f0fdf4" stroke="#10b981" stroke-width="2"/>
+  <text x="88" y="553" class="panel-title">③ 宏观：整片怎样组织信息、情绪与观点？</text>
+  <line x1="115" y1="614" x2="1024" y2="614" stroke="#10b981" stroke-width="6"/>
+  <circle cx="150" cy="614" r="15" fill="#2563eb"/><circle cx="355" cy="614" r="15" fill="#2563eb"/><circle cx="560" cy="614" r="15" fill="#d97706"/><circle cx="765" cy="614" r="15" fill="#7c3aed"/><circle cx="990" cy="614" r="15" fill="#10b981"/>
+  <text x="120" y="651" class="small">线索建立</text><text x="315" y="651" class="small">平行／交叉</text><text x="519" y="651" class="small">复现／呼应</text><text x="719" y="651" class="small">情绪与表意</text><text x="952" y="651" class="small">整体落点</text>
+  <text x="690" y="583" class="body">先保证叙事清楚，再用关系、重复与心理画面生成表达。</text>
+
+  <rect x="60" y="698" width="1080" height="68" rx="16" fill="#faf5ff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="88" y="730" class="panel-title">诊断口诀：镜头看切点，段落看转场，全片看结构；上一层没讲清，下一层不能代替它补救。</text>
+  <text x="88" y="754" class="small">教学简化：三层在实际剪辑中相互影响，但先分尺度更容易找到真正的问题。</text>
+</svg>

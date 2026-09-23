@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">布光实践：从叙事动机到画面层次</title><desc id="desc">以时空和场景中的动机光源为起点，经定光建立基准，再分配主体、暗部、轮廓与背景，最后检查跨镜头氛围连续。</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker><style>.title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.sub{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}.pt{font:700 21px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.body{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}.small{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}.panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}</style></defs>
+  <rect width="1200" height="800" fill="#f1f5f9"/><rect x="30" y="24" width="1140" height="752" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="76" class="title">布光实践：从叙事动机到画面层次</text><text x="70" y="108" class="sub">灯位是结果：先决定时空、可见信息与氛围，再分配光线职责</text>
+  <rect x="60" y="140" width="250" height="485" rx="18" class="panel"/><text x="86" y="180" class="pt">① 动机与规则</text>
+  <circle cx="185" cy="272" r="52" fill="#fef3c7" stroke="#d97706" stroke-width="4"/><path d="M185 205v-25M185 364v-25M118 272H94M276 272h-24M137 224l-18-18M251 338l-18-18M233 224l18-18M119 338l18-18" stroke="#d97706" stroke-width="4"/><text x="185" y="280" text-anchor="middle" class="body">动机光源</text>
+  <text x="86" y="382" class="body">时空 · 场景 · 人物状态</text><text x="86" y="418" class="small">规定光向、色温、光质、光比</text><text x="86" y="451" class="small">不填写课程未确认的参数</text>
+  <line x1="320" y1="382" x2="352" y2="382" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/>
+  <rect x="365" y="140" width="470" height="485" rx="18" class="panel"/><text x="391" y="180" class="pt">② 定光后分配层次（教学简化）</text>
+  <rect x="408" y="220" width="384" height="280" rx="12" fill="#0f172a"/>
+  <path d="M430 255 L610 335 L610 425 L430 455 Z" fill="#fef3c7" opacity=".72"/><path d="M770 285 L610 350 L610 420 L770 445 Z" fill="#dbeafe" opacity=".45"/>
+  <circle cx="610" cy="330" r="42" fill="#fde68a" stroke="#fff" stroke-width="3"/><path d="M550 480 Q610 388 670 480" fill="#f8fafc" stroke="#fff" stroke-width="3"/>
+  <path d="M657 310 Q694 348 655 392" fill="none" stroke="#10b981" stroke-width="7"/>
+  <rect x="700" y="240" width="65" height="220" fill="#334155" stroke="#7c3aed" stroke-width="3"/>
+  <text x="423" y="535" class="small">主光：主要方向</text><text x="423" y="565" class="small">辅光：暗部可读</text><text x="615" y="535" class="small">轮廓：主体分离</text><text x="615" y="565" class="small">背景：空间层次</text>
+  <line x1="845" y1="382" x2="877" y2="382" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/>
+  <rect x="890" y="140" width="250" height="485" rx="18" class="panel"/><text x="916" y="180" class="pt">③ 连续性检查</text>
+  <rect x="918" y="224" width="194" height="110" rx="10" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/><circle cx="1015" cy="270" r="24" fill="#fde68a"/><text x="1015" y="320" text-anchor="middle" class="small">全景：定氛围</text>
+  <rect x="918" y="362" width="194" height="110" rx="10" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/><circle cx="1015" cy="406" r="34" fill="#fde68a"/><text x="1015" y="458" text-anchor="middle" class="small">近景：可微调造型</text>
+  <text x="916" y="522" class="small">仍须匹配：</text><text x="916" y="552" class="body">光向 · 色温 · 环境反差</text>
+  <rect x="60" y="655" width="1080" height="88" rx="16" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/><text x="88" y="691" class="pt">④ 现场顺序：勘景与调度 → 定光基准 → 控高光与暗部 → 跨景别匹配</text><text x="88" y="721" class="body">目标不是“把人照亮”，而是让叙事需要的层次稳定可读。</text>
+</svg>

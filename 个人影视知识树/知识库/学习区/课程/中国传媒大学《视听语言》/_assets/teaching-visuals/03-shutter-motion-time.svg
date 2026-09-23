@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">曝光时间怎样改变运动形态</title>
+  <desc id="desc">在同一运动路径与速度下，对比较短、中等和较长曝光时间形成的凝固、轻微拖影与连续轨迹，并强调快慢必须相对主体运动判断。</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker><style>.title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}.panel-title{font:700 21px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}.body{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}.small{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}.key{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif}.panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}.path{stroke:#94a3b8;stroke-width:3;stroke-dasharray:8 7;fill:none}.time{stroke:#2563eb;stroke-width:10;stroke-linecap:round}.motion{stroke:#d97706;stroke-width:5;stroke-linecap:round;fill:none}</style></defs>
+  <rect width="1200" height="820" fill="#f1f5f9"/><rect x="30" y="24" width="1140" height="772" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="2"/><text x="70" y="78" class="title">曝光时间怎样改变运动形态</text><text x="70" y="110" class="subtitle">固定同一运动方向与速度，只改变记录时间：看到的是一个瞬间，还是一段过程？</text>
+  <rect x="60" y="145" width="1080" height="92" rx="16" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/><text x="88" y="178" class="panel-title">共同条件：主体沿同一路径向右运动</text><circle cx="430" cy="192" r="16" fill="#d97706"/><path d="M460 192 h560" stroke="#d97706" stroke-width="4" marker-end="url(#arrow)"/><text x="1040" y="198" class="body">运动方向</text>
+
+  <rect x="60" y="265" width="330" height="350" rx="18" class="panel"/><circle cx="92" cy="300" r="18" fill="#dbeafe"/><text x="86" y="307" class="key" fill="#1d4ed8">1</text><text x="122" y="307" class="panel-title">较短记录：凝固瞬间</text>
+  <path d="M92 390 h260" class="path"/><circle cx="220" cy="390" r="28" fill="#2563eb"/><path d="M220 418 l-18 50 M220 418 l22 48 M220 430 l-35 20 M220 430 l38 8" stroke="#2563eb" stroke-width="7" stroke-linecap="round"/>
+  <text x="92" y="510" class="body">曝光窗口只覆盖动作中的</text><text x="92" y="536" class="body">很短一段，轮廓更清楚。</text><line x1="100" y1="574" x2="170" y2="574" class="time"/><text x="188" y="580" class="small">时间窗口较短</text>
+
+  <rect x="435" y="265" width="330" height="350" rx="18" class="panel"/><circle cx="467" cy="300" r="18" fill="#fef3c7"/><text x="461" y="307" class="key" fill="#b45309">2</text><text x="497" y="307" class="panel-title">中间状态：轮廓带拖影</text>
+  <path d="M467 390 h260" class="path"/><circle cx="590" cy="390" r="28" fill="#2563eb" opacity=".35"/><circle cx="610" cy="390" r="28" fill="#2563eb" opacity=".65"/><circle cx="630" cy="390" r="28" fill="#2563eb"/><path d="M630 418 l-18 50 M630 418 l22 48 M630 430 l-35 20 M630 430 l38 8" stroke="#2563eb" stroke-width="7" stroke-linecap="round"/>
+  <text x="467" y="510" class="body">窗口覆盖了可见位移，</text><text x="467" y="536" class="body">同时留下瞬间和方向感。</text><line x1="475" y1="574" x2="595" y2="574" class="time"/><text x="613" y="580" class="small">时间窗口增加</text>
+
+  <rect x="810" y="265" width="330" height="350" rx="18" class="panel"/><circle cx="842" cy="300" r="18" fill="#ede9fe"/><text x="836" y="307" class="key" fill="#6d28d9">3</text><text x="872" y="307" class="panel-title">较长记录：留下过程</text>
+  <path d="M842 390 h260" class="path"/><path d="M890 390 C935 350 1010 430 1075 390" class="motion" opacity=".3"/><path d="M910 390 C955 350 1025 430 1090 390" class="motion" opacity=".65"/><circle cx="1090" cy="390" r="23" fill="#d97706"/>
+  <text x="842" y="510" class="body">窗口覆盖更多运动阶段，</text><text x="842" y="536" class="body">轨迹、速度与流动感更明显。</text><line x1="850" y1="574" x2="1030" y2="574" class="time"/><text x="1048" y="580" class="small">更长</text>
+
+  <rect x="60" y="645" width="1080" height="112" rx="18" fill="#fff7ed" stroke="#d97706" stroke-width="2"/><text x="88" y="682" class="panel-title">关键不是某个固定数值，而是“记录时间 ÷ 动作变化速度”</text><text x="88" y="716" class="body">同一时间对慢动作可能足够清晰，对高速动作却可能拖影。先决定要表现“瞬间”还是“过程”，再选择快门。</text><text x="88" y="744" class="small">教学简化：路径与速度仅用于对照，不代表真实距离或器材参数。</text>
+</svg>

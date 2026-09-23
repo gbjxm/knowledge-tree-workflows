@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860" role="img" aria-labelledby="title desc">
+  <title id="title">信息差怎样产生悬念或反转</title>
+  <desc id="desc">先用信息持有矩阵识别观众、角色和创作者各自知道什么，再区分公开信息缺口形成的悬念与隐藏信息缺口形成的反转。</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .subtitle{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .section{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .label{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .small{font:400 14px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#64748b}
+      .cell{font:700 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .white{font:700 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#ffffff}
+      .core{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#1e3a8a}
+      .card{fill:#ffffff;stroke:#cbd5e1;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1200" height="860" fill="#f1f5f9"/>
+  <rect x="28" y="20" width="1144" height="820" rx="8" class="card"/>
+  <text x="60" y="68" class="title">第16课｜信息差怎样产生悬念或反转</text>
+  <text x="60" y="99" class="subtitle">先分配“谁知道什么”，再决定让观众持续追问，还是在揭示时重新判断</text>
+  <rect x="60" y="120" width="1080" height="48" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="600" y="151" text-anchor="middle" class="core">悬念公开缺口并延长紧张；反转隐藏缺口并在揭示瞬间打破预期</text>
+
+  <rect x="60" y="190" width="1080" height="322" rx="8" class="card"/>
+  <text x="82" y="224" class="section">一、信息持有矩阵：先判断观众站在哪里</text>
+  <rect x="82" y="246" width="150" height="48" rx="8" fill="#0f172a"/><text x="157" y="277" text-anchor="middle" class="white">信息配置</text>
+  <rect x="242" y="246" width="170" height="48" rx="8" fill="#2563eb"/><text x="327" y="277" text-anchor="middle" class="white">观众</text>
+  <rect x="422" y="246" width="170" height="48" rx="8" fill="#0f766e"/><text x="507" y="277" text-anchor="middle" class="white">角色</text>
+  <rect x="602" y="246" width="170" height="48" rx="8" fill="#7c3aed"/><text x="687" y="277" text-anchor="middle" class="white">创作者</text>
+  <rect x="782" y="246" width="336" height="48" rx="8" fill="#334155"/><text x="950" y="277" text-anchor="middle" class="white">主要观看效果</text>
+
+  <rect x="82" y="304" width="150" height="58" fill="#f8fafc" stroke="#cbd5e1"/><text x="157" y="339" text-anchor="middle" class="cell">配置 1</text>
+  <rect x="242" y="304" width="170" height="58" fill="#fff7ed" stroke="#cbd5e1"/><text x="327" y="339" text-anchor="middle" class="cell">不知道</text>
+  <rect x="422" y="304" width="170" height="58" fill="#ecfdf5" stroke="#cbd5e1"/><text x="507" y="339" text-anchor="middle" class="cell">知道</text>
+  <rect x="602" y="304" width="170" height="58" fill="#f5f3ff" stroke="#cbd5e1"/><text x="687" y="339" text-anchor="middle" class="cell">知道</text>
+  <rect x="782" y="304" width="336" height="58" fill="#ffffff" stroke="#cbd5e1"/><text x="950" y="330" text-anchor="middle" class="cell">追问人物为何改变行动</text><text x="950" y="351" text-anchor="middle" class="small">例：省略电话内容</text>
+
+  <rect x="82" y="370" width="150" height="58" fill="#f8fafc" stroke="#cbd5e1"/><text x="157" y="405" text-anchor="middle" class="cell">配置 2</text>
+  <rect x="242" y="370" width="170" height="58" fill="#eff6ff" stroke="#cbd5e1"/><text x="327" y="405" text-anchor="middle" class="cell">知道</text>
+  <rect x="422" y="370" width="170" height="58" fill="#fff7ed" stroke="#cbd5e1"/><text x="507" y="405" text-anchor="middle" class="cell">不知道</text>
+  <rect x="602" y="370" width="170" height="58" fill="#f5f3ff" stroke="#cbd5e1"/><text x="687" y="405" text-anchor="middle" class="cell">知道</text>
+  <rect x="782" y="370" width="336" height="58" fill="#ffffff" stroke="#cbd5e1"/><text x="950" y="396" text-anchor="middle" class="cell">替人物着急，持续紧张</text><text x="950" y="417" text-anchor="middle" class="small">例：桌下定时炸弹</text>
+
+  <rect x="82" y="436" width="150" height="58" fill="#f8fafc" stroke="#cbd5e1"/><text x="157" y="471" text-anchor="middle" class="cell">配置 3</text>
+  <rect x="242" y="436" width="170" height="58" fill="#fff7ed" stroke="#cbd5e1"/><text x="327" y="471" text-anchor="middle" class="cell">不知道</text>
+  <rect x="422" y="436" width="170" height="58" fill="#fff7ed" stroke="#cbd5e1"/><text x="507" y="471" text-anchor="middle" class="cell">不知道</text>
+  <rect x="602" y="436" width="170" height="58" fill="#f5f3ff" stroke="#cbd5e1"/><text x="687" y="471" text-anchor="middle" class="cell">知道</text>
+  <rect x="782" y="436" width="336" height="58" fill="#ffffff" stroke="#cbd5e1"/><text x="950" y="462" text-anchor="middle" class="cell">与人物一起探索答案</text><text x="950" y="483" text-anchor="middle" class="small">例：侦探、梦境、陌生规则</text>
+
+  <rect x="60" y="534" width="526" height="222" rx="8" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="84" y="568" class="section">二、悬念｜持续追问</text>
+  <text x="84" y="600" class="body">观众明确知道：自己缺少一个答案</text>
+  <rect x="84" y="620" width="140" height="52" rx="8" fill="#ffffff" stroke="#2563eb"/><text x="154" y="652" text-anchor="middle" class="label">未知性</text>
+  <text x="236" y="652" class="label">＋</text>
+  <rect x="260" y="620" width="140" height="52" rx="8" fill="#ffffff" stroke="#2563eb"/><text x="330" y="652" text-anchor="middle" class="label">可能性</text>
+  <text x="412" y="652" class="label">＋</text>
+  <rect x="436" y="620" width="126" height="52" rx="8" fill="#ffffff" stroke="#2563eb"/><text x="499" y="652" text-anchor="middle" class="label">压迫感</text>
+  <text x="84" y="704" class="body">结果：至少两个方向可推测，且后果迫使观众关心</text>
+  <text x="84" y="734" class="small">可嵌套大 / 中 / 小悬念，但密度服从作品节奏</text>
+
+  <rect x="614" y="534" width="526" height="222" rx="8" fill="#fef2f2" stroke="#fca5a5" stroke-width="2"/>
+  <text x="638" y="568" class="section">三、反转｜揭示后改判</text>
+  <text x="638" y="600" class="body">观众暂未意识到：关键判断依赖一个缺口</text>
+  <rect x="638" y="620" width="184" height="52" rx="8" fill="#ffffff" stroke="#dc2626"/><text x="730" y="652" text-anchor="middle" class="label">建立预期</text>
+  <line x1="834" y1="646" x2="886" y2="646" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <rect x="896" y="620" width="220" height="52" rx="8" fill="#ffffff" stroke="#dc2626"/><text x="1006" y="643" text-anchor="middle" class="label">误导／隐藏事实</text><text x="1006" y="664" text-anchor="middle" class="small">揭示后重写前文</text>
+  <text x="638" y="704" class="body">结果：打破预期，但回看前文仍必须成立</text>
+  <text x="638" y="734" class="small">反转不是任意改答案，也不是每个故事的必需品</text>
+
+  <rect x="60" y="778" width="1080" height="38" rx="8" fill="#fefce8" stroke="#fde047"/>
+  <text x="600" y="803" text-anchor="middle" class="small">适用边界：先让人物、因果与主要行动线成立；信息控制不能靠伪造证据或违背角色逻辑。</text>
+</svg>

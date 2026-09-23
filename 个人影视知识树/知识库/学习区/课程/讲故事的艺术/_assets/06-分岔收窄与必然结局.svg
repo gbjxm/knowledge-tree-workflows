@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">分岔收窄：结局怎样由前文逐步变得必然</title>
+  <desc id="desc">P8课程结构比喻。开端有许多可能路径，人物选择、已确立事实、后果和类型承诺逐步关闭不再诚实的路径；到故事四分之三处只剩少数可行结局，最终结局由累计约束产生。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0v6l9-3z" fill="#2563EB"/>
+    </marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .stage{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .small{font:400 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .rightTitle{font:700 21px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .take{font:700 19px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0F172A}
+      .cross{font:700 19px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#DC2626}
+    </style>
+  </defs>
+
+  <rect width="1200" height="780" fill="#F1F5F9"/>
+  <rect x="30" y="24" width="1140" height="732" rx="24" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="70" y="76" class="title">分岔收窄：结局不是预先锁死，而是被前文“逼出来”</text>
+  <text x="70" y="108" class="subtitle">P8 原课 `13:59–14:51`：每个词与选择都会关闭路径，故事后段只剩少数诚实方向</text>
+
+  <rect x="60" y="145" width="790" height="480" rx="20" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <polygon points="95,218 815,316 815,454 95,552" fill="#EFF6FF" stroke="#93C5FD" stroke-width="2"/>
+  <line x1="95" y1="385" x2="808" y2="385" stroke="#2563EB" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g aria-label="开端多种可能">
+    <text x="125" y="187" text-anchor="middle" class="stage">开端</text>
+    <text x="125" y="594" text-anchor="middle" class="small">可能性很多</text>
+    <circle cx="125" cy="244" r="11" fill="#2563EB"/>
+    <circle cx="125" cy="290" r="11" fill="#2563EB"/>
+    <circle cx="125" cy="336" r="11" fill="#2563EB"/>
+    <circle cx="125" cy="385" r="13" fill="#1D4ED8"/>
+    <circle cx="125" cy="434" r="11" fill="#2563EB"/>
+    <circle cx="125" cy="480" r="11" fill="#2563EB"/>
+    <circle cx="125" cy="526" r="11" fill="#2563EB"/>
+  </g>
+
+  <g aria-label="第一次重大选择">
+    <line x1="125" y1="244" x2="300" y2="306" stroke="#94A3B8" stroke-width="3"/>
+    <line x1="125" y1="290" x2="300" y2="345" stroke="#94A3B8" stroke-width="3"/>
+    <line x1="125" y1="336" x2="300" y2="365" stroke="#94A3B8" stroke-width="3"/>
+    <line x1="125" y1="385" x2="300" y2="385" stroke="#2563EB" stroke-width="4"/>
+    <line x1="125" y1="434" x2="300" y2="405" stroke="#94A3B8" stroke-width="3"/>
+    <line x1="125" y1="480" x2="300" y2="425" stroke="#94A3B8" stroke-width="3"/>
+    <line x1="125" y1="526" x2="300" y2="464" stroke="#94A3B8" stroke-width="3"/>
+    <circle cx="300" cy="306" r="10" fill="#94A3B8"/>
+    <circle cx="300" cy="345" r="10" fill="#94A3B8"/>
+    <circle cx="300" cy="385" r="13" fill="#1D4ED8"/>
+    <circle cx="300" cy="425" r="10" fill="#94A3B8"/>
+    <circle cx="300" cy="464" r="10" fill="#94A3B8"/>
+    <text x="300" y="187" text-anchor="middle" class="stage">重大选择</text>
+    <text x="300" y="594" text-anchor="middle" class="small">人物决定一条路</text>
+  </g>
+
+  <g aria-label="路径被关闭">
+    <line x1="300" y1="306" x2="465" y2="340" stroke="#CBD5E1" stroke-width="3" stroke-dasharray="7 6"/>
+    <line x1="300" y1="345" x2="465" y2="360" stroke="#CBD5E1" stroke-width="3" stroke-dasharray="7 6"/>
+    <line x1="300" y1="385" x2="465" y2="385" stroke="#2563EB" stroke-width="4"/>
+    <line x1="300" y1="425" x2="465" y2="410" stroke="#CBD5E1" stroke-width="3" stroke-dasharray="7 6"/>
+    <line x1="300" y1="464" x2="465" y2="430" stroke="#CBD5E1" stroke-width="3" stroke-dasharray="7 6"/>
+    <text x="382" y="322" text-anchor="middle" class="cross">×</text>
+    <text x="382" y="352" text-anchor="middle" class="cross">×</text>
+    <text x="382" y="426" text-anchor="middle" class="cross">×</text>
+    <text x="382" y="458" text-anchor="middle" class="cross">×</text>
+    <circle cx="465" cy="360" r="10" fill="#F59E0B"/>
+    <circle cx="465" cy="385" r="13" fill="#1D4ED8"/>
+    <circle cx="465" cy="410" r="10" fill="#F59E0B"/>
+    <text x="465" y="187" text-anchor="middle" class="stage">事实与后果累积</text>
+    <text x="465" y="594" text-anchor="middle" class="small">不相容路径关闭</text>
+  </g>
+
+  <g aria-label="四分之三只剩少数路径">
+    <line x1="465" y1="360" x2="635" y2="372" stroke="#D97706" stroke-width="3"/>
+    <line x1="465" y1="385" x2="635" y2="385" stroke="#2563EB" stroke-width="4"/>
+    <line x1="465" y1="410" x2="635" y2="398" stroke="#D97706" stroke-width="3"/>
+    <circle cx="635" cy="372" r="11" fill="#D97706"/>
+    <circle cx="635" cy="398" r="11" fill="#D97706"/>
+    <text x="635" y="187" text-anchor="middle" class="stage">约四分之三处</text>
+    <text x="635" y="594" text-anchor="middle" class="small">只剩少数诚实方向</text>
+  </g>
+
+  <g aria-label="结局">
+    <line x1="635" y1="372" x2="790" y2="385" stroke="#059669" stroke-width="4"/>
+    <line x1="635" y1="398" x2="790" y2="385" stroke="#059669" stroke-width="4"/>
+    <circle cx="790" cy="385" r="22" fill="#059669"/>
+    <circle cx="790" cy="385" r="9" fill="#FFFFFF"/>
+    <text x="790" y="187" text-anchor="middle" class="stage">结局</text>
+    <text x="790" y="594" text-anchor="middle" class="small">回看时感到必然</text>
+  </g>
+
+  <rect x="880" y="145" width="260" height="480" rx="20" fill="#FFFBEB" stroke="#F59E0B" stroke-width="2"/>
+  <text x="906" y="184" class="rightTitle">每次收窄靠什么？</text>
+
+  <rect x="906" y="218" width="208" height="70" rx="14" fill="#FFFFFF" stroke="#FCD34D" stroke-width="2"/>
+  <text x="926" y="247" class="stage">人物选择</text>
+  <text x="926" y="273" class="small">做了，就要承受后果</text>
+
+  <rect x="906" y="306" width="208" height="70" rx="14" fill="#FFFFFF" stroke="#FCD34D" stroke-width="2"/>
+  <text x="926" y="335" class="stage">已确立事实</text>
+  <text x="926" y="361" class="small">前文不能随意作废</text>
+
+  <rect x="906" y="394" width="208" height="70" rx="14" fill="#FFFFFF" stroke="#FCD34D" stroke-width="2"/>
+  <text x="926" y="423" class="stage">类型承诺</text>
+  <text x="926" y="449" class="small">约束后续可行方向</text>
+
+  <rect x="906" y="482" width="208" height="108" rx="14" fill="#FFFFFF" stroke="#FCD34D" stroke-width="2"/>
+  <text x="926" y="511" class="stage">因果共同作用</text>
+  <text x="926" y="539" class="small">不是作者临时挑一个</text>
+  <text x="926" y="565" class="small">“最刺激”的结尾</text>
+
+  <rect x="60" y="655" width="1080" height="70" rx="18" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="2"/>
+  <text x="84" y="684" class="take">“必然”不等于没有惊喜</text>
+  <text x="84" y="712" class="body">它意味着结尾发生后，读者回看前文，会发现其他路径早已被人物自己的选择和故事承诺逐步关闭。</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">景别选择信息尺度，角度选择观看关系</title>
+  <desc id="desc">左侧用环境、关系、细节三层说明景别，右侧用方向与高度说明角度；两者是不同决策。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .subtitle{font:400 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .panel-title{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .label{font:700 18px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .small{font:400 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .panel{fill:#fff;stroke:#cbd5e1;stroke-width:2}
+      .frame{fill:#f8fafc;stroke:#64748b;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1200" height="820" fill="#f1f5f9"/>
+  <rect x="30" y="24" width="1140" height="772" rx="24" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="70" y="78" class="title">景别管“看多少”，角度管“从哪里看”</text>
+  <text x="70" y="111" class="subtitle">先选择信息层，再选择对象哪一面、关系与态度；不要把大小和机位方向混成一件事</text>
+
+  <rect x="60" y="145" width="520" height="520" rx="18" class="panel"/>
+  <text x="88" y="187" class="panel-title">① 景别＝信息尺度</text>
+  <text x="88" y="216" class="body">画框收紧时，重点从环境转向关系，再转向神情与细节。</text>
+
+  <rect x="88" y="245" width="450" height="115" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <rect x="108" y="266" width="130" height="70" rx="8" class="frame"/>
+  <path d="M112 323 L143 288 L171 314 L198 279 L234 323" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="175" cy="313" r="7" fill="#ef4444"/>
+  <text x="263" y="283" class="label">环境层</text>
+  <text x="263" y="309" class="body">在哪里？整体氛围与结构如何？</text>
+  <text x="263" y="334" class="small">人物可以很小，重点仍是人景关系</text>
+
+  <rect x="88" y="376" width="450" height="115" rx="14" fill="#f0fdf4" stroke="#10b981" stroke-width="2"/>
+  <rect x="108" y="397" width="130" height="70" rx="8" class="frame"/>
+  <circle cx="150" cy="420" r="12" fill="#2563eb"/><line x1="150" y1="432" x2="150" y2="456" stroke="#2563eb" stroke-width="6"/>
+  <circle cx="198" cy="420" r="12" fill="#d97706"/><line x1="198" y1="432" x2="198" y2="456" stroke="#d97706" stroke-width="6"/>
+  <line x1="163" y1="428" x2="185" y2="428" stroke="#10b981" stroke-width="3" stroke-dasharray="6 5"/>
+  <text x="263" y="414" class="label">关系层</text>
+  <text x="263" y="440" class="body">谁与谁如何关联？动作如何发生？</text>
+  <text x="263" y="465" class="small">同框关系可直接确认因果与位置</text>
+
+  <rect x="88" y="507" width="450" height="115" rx="14" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+  <rect x="108" y="528" width="130" height="70" rx="8" class="frame"/>
+  <circle cx="173" cy="561" r="27" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+  <path d="M159 561 Q173 573 188 561" fill="none" stroke="#0f172a" stroke-width="3"/>
+  <circle cx="164" cy="553" r="3" fill="#0f172a"/><circle cx="182" cy="553" r="3" fill="#0f172a"/>
+  <text x="263" y="545" class="label">细节层</text>
+  <text x="263" y="571" class="body">此刻应看哪种神情或关键细节？</text>
+  <text x="263" y="596" class="small">选择性最强，也最能暴露创作者注意</text>
+
+  <rect x="605" y="145" width="535" height="520" rx="18" class="panel"/>
+  <text x="633" y="187" class="panel-title">② 角度＝观看关系</text>
+  <text x="633" y="216" class="body">同一景别不变，移动机位仍会改变对象侧面、空间与态度。</text>
+
+  <rect x="633" y="245" width="479" height="230" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="655" y="278" class="label">水平方向：你看见哪一面？</text>
+  <circle cx="874" cy="361" r="43" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+  <circle cx="861" cy="352" r="4" fill="#0f172a"/><circle cx="887" cy="352" r="4" fill="#0f172a"/>
+  <path d="M861 376 Q874 385 888 376" fill="none" stroke="#0f172a" stroke-width="3"/>
+  <rect x="681" y="327" width="54" height="38" rx="7" fill="#2563eb"/><path d="M735 337 l20 -10 v38 l-20 -10z" fill="#2563eb"/>
+  <line x1="756" y1="346" x2="821" y2="356" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="655" y="405" class="small">正面：形状与直接交流</text>
+  <rect x="989" y="327" width="54" height="38" rx="7" fill="#7c3aed" transform="rotate(-25 1016 346)"/>
+  <line x1="984" y1="374" x2="925" y2="373" stroke="#7c3aed" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="908" y="405" class="small">斜侧：体积与纵深</text>
+  <text x="655" y="439" class="small">侧面突出朝向；反侧可牵引视线；背面隐藏表情并留下想象。</text>
+
+  <rect x="633" y="491" width="479" height="131" rx="14" fill="#faf5ff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="655" y="525" class="label">垂直高度：情绪编码还是场景分层？</text>
+  <line x1="805" y1="592" x2="874" y2="556" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="943" y1="520" x2="886" y2="552" stroke="#ef4444" stroke-width="4" marker-end="url(#arrow)"/>
+  <circle cx="880" cy="560" r="20" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+  <text x="655" y="581" class="small">仰／平／俯都要结合对象与场景判断：</text>
+  <text x="655" y="607" class="small">它可能塑造人物，也可能只是去背景、增层次或扩规模。</text>
+
+  <rect x="60" y="692" width="1080" height="74" rx="16" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="88" y="725" class="panel-title">③ 一次机位决策要回答两题：需要哪层信息？要以什么关系观看？</text>
+  <text x="88" y="751" class="body">教学简化：图中人物与机位不代表真实比例、距离或固定情绪含义；实际效果必须结合具体场景。</text>
+</svg>

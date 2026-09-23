@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">第七课：把抽象判断翻译成观众可见的事件</title>
+  <desc id="desc">从创意、梗概、大纲到剧本逐层增加可见性。大纲用五个骨架事件组织推进，并用八要素检查每个关节的变化。</desc>
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#2563eb"/></marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#15803d"/></marker>
+    <style>
+      .title{font:700 34px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .subtitle{font:400 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#475569}
+      .section{font:700 22px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .module{font:700 20px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .body{font:400 16px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#334155}
+      .strong{font:700 17px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#0f172a}
+      .small{font:400 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#64748b}
+      .badge{font:700 15px "Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#ffffff}
+      .card{fill:#ffffff;stroke:#cbd5e1;stroke-width:2}
+    </style>
+  </defs>
+
+  <rect width="1200" height="820" fill="#f1f5f9"/>
+  <rect x="28" y="20" width="1144" height="780" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="60" y="70" class="title">第七课：把抽象判断翻译成可见事件</text>
+  <text x="60" y="101" class="subtitle">大纲不是把梗概扩写得更长，而是回答“观众怎样看见它发生”</text>
+
+  <text x="60" y="150" class="section">1　开发顺序：逐层增加可执行性</text>
+  <rect x="60" y="174" width="230" height="84" rx="8" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+  <text x="84" y="207" class="module">创意</text>
+  <text x="84" y="238" class="body">抓住人物与核心处境</text>
+  <line x1="290" y1="216" x2="342" y2="216" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <rect x="360" y="174" width="230" height="84" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="384" y="207" class="module">梗概</text>
+  <text x="384" y="238" class="body">回答故事“是什么”</text>
+  <line x1="590" y1="216" x2="642" y2="216" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <rect x="660" y="174" width="230" height="84" rx="8" fill="#ecfdf5" stroke="#0f766e" stroke-width="3"/>
+  <text x="684" y="207" class="module">大纲</text>
+  <text x="684" y="238" class="body">回答观众“怎样看见”</text>
+  <line x1="890" y1="216" x2="942" y2="216" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow-blue)"/>
+  <rect x="960" y="174" width="180" height="84" rx="8" fill="#f0fdf4" stroke="#15803d" stroke-width="2"/>
+  <text x="984" y="207" class="module">剧本</text>
+  <text x="984" y="238" class="body">落实场景与对白</text>
+
+  <rect x="60" y="292" width="1080" height="202" rx="8" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <text x="84" y="332" class="section">2　“拿事说话”的翻译器</text>
+
+  <rect x="86" y="356" width="252" height="108" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="106" y="389" class="strong">抽象判断</text>
+  <text x="106" y="421" class="body">“他很冷漠”</text>
+  <text x="106" y="450" class="body">“夫妻关系疏远”</text>
+
+  <line x1="338" y1="410" x2="430" y2="410" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-blue)"/>
+  <text x="356" y="390" class="strong">拆成载体</text>
+
+  <rect x="448" y="346" width="304" height="128" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="472" y="379" class="strong">环境 + 行动 + 对白</text>
+  <text x="472" y="411" class="body">坐得很远、不对视、物件摔坏</text>
+  <text x="472" y="441" class="body">看见欺负却选择不管</text>
+  <text x="472" y="464" class="small">让状态进入一件正在发生的事</text>
+
+  <line x1="752" y1="410" x2="844" y2="410" stroke="#15803d" stroke-width="4" marker-end="url(#arrow-green)"/>
+  <text x="768" y="390" class="strong">交给观众</text>
+
+  <rect x="862" y="356" width="252" height="108" rx="8" fill="#f0fdf4" stroke="#15803d" stroke-width="2"/>
+  <text x="882" y="389" class="strong">可见结论</text>
+  <text x="882" y="421" class="body">观众自己判断人物</text>
+  <text x="882" y="450" class="body">事件同时推动局面</text>
+
+  <text x="60" y="540" class="section">3　大纲骨架：横轴定关节，纵轴查变化</text>
+  <line x1="112" y1="614" x2="1088" y2="614" stroke="#2563eb" stroke-width="4" marker-end="url(#arrow-blue)"/>
+
+  <g>
+    <rect x="82" y="574" width="164" height="82" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+    <text x="104" y="606" class="strong">1　开场</text><text x="104" y="636" class="body">建立世界与初态</text>
+    <rect x="300" y="574" width="164" height="82" rx="8" fill="#fff7ed" stroke="#d97706" stroke-width="2"/>
+    <text x="322" y="606" class="strong">2　激励</text><text x="322" y="636" class="body">启动核心问题</text>
+    <rect x="518" y="574" width="164" height="82" rx="8" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+    <text x="540" y="606" class="strong">3　转折</text><text x="540" y="636" class="body">改变行动局面</text>
+    <rect x="736" y="574" width="164" height="82" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+    <text x="758" y="606" class="strong">4　危机</text><text x="758" y="636" class="body">逼到最痛位置</text>
+    <rect x="954" y="574" width="164" height="82" rx="8" fill="#f0fdf4" stroke="#15803d" stroke-width="2"/>
+    <text x="976" y="606" class="strong">5　高潮</text><text x="976" y="636" class="body">行动解决问题</text>
+  </g>
+
+  <rect x="60" y="684" width="1080" height="68" rx="8" fill="#ecfdf5" stroke="#0f766e" stroke-width="2"/>
+  <text x="84" y="714" class="strong">每个关节都用八要素检查：</text>
+  <text x="302" y="714" class="body">身份 · 欲望 · 动作 · 问题 · 阻力 · 结果 · 正价值 · 负价值，哪里发生了真实变化？</text>
+  <text x="84" y="741" class="small">适用边界：五个骨架事件是大纲横轴，不等于只写五场戏；抽象判断必须由具体事件证明</text>
+</svg>
