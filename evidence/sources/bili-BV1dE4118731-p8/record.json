@@ -1,0 +1,209 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p8",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P8 2.6超焦距",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=8",
+    "bvid": "BV1dE4118731",
+    "page": 8,
+    "cid": 126008866,
+    "text_sha256": "7125ca0f41061788c9e4df6b3f019dfbb6e77ca513682ab9b495f77b51ae6ad1",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p8-2.6超焦距/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/02 - 第二章 镜头原理、类型与光学控制（P3-P8）.md",
+    "sha256": "15899e3b9e24d5e4d6d0877c9f24cfb32bfe8bd6a438fc888c9c9d0a1e7999f8"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "7125ca0f41061788c9e4df6b3f019dfbb6e77ca513682ab9b495f77b51ae6ad1",
+    "note_sha256": "15899e3b9e24d5e4d6d0877c9f24cfb32bfe8bd6a438fc888c9c9d0a1e7999f8",
+    "scope": [
+      [
+        6,
+        166
+      ]
+    ],
+    "items": [
+      {
+        "id": "P8-U01",
+        "item": "三因素回顾、雕像/人群/教堂、最近对象是否在近界内",
+        "source": {
+          "lines": [
+            6,
+            30
+          ]
+        },
+        "note": {
+          "lines": [
+            232,
+            237
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P8-U02",
+        "item": "标尺三步，约2.3m合焦/f8/左右约1.5–5m；近似图非通用值",
+        "source": {
+          "lines": [
+            31,
+            61
+          ]
+        },
+        "note": {
+          "lines": [
+            238,
+            247
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P8-U03",
+        "item": "假设改f16后读两侧16约1.2m至∞，未说明同改对焦",
+        "source": {
+          "lines": [
+            62,
+            85
+          ]
+        },
+        "note": {
+          "lines": [
+            248,
+            253
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P8-U04",
+        "item": "纪录片手动跟焦困难、老师教标尺预置、近界外无需持续调焦",
+        "source": {
+          "lines": [
+            86,
+            112
+          ]
+        },
+        "note": {
+          "lines": [
+            254,
+            259
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P8-U05",
+        "item": "锁焦、小光圈、读标尺、后界∞等要素按逻辑整理",
+        "source": {
+          "lines": [
+            113,
+            120
+          ]
+        },
+        "note": {
+          "lines": [
+            254,
+            259
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P8-U06",
+        "item": "回到雕像例，先查标尺再定最近距离",
+        "source": {
+          "lines": [
+            121,
+            129
+          ]
+        },
+        "note": {
+          "lines": [
+            260,
+            267
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P8-U07",
+        "item": "HOLLYWOOD背景的悬挂模特、预知清晰范围安排人物距离",
+        "source": {
+          "lines": [
+            130,
+            147
+          ]
+        },
+        "note": {
+          "lines": [
+            260,
+            267
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P8-U08",
+        "item": "大小景深适用性、精准技术服务表达、无新增提交任务",
+        "source": {
+          "lines": [
+            148,
+            166
+          ]
+        },
+        "note": {
+          "lines": [
+            260,
+            267
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "8022b5da463702e9e02006c43cf635b3fbab78b2268fd0f2b8925d6200ab5d43",
+    "historical_review_sha256": "9851f52275fe2ff61d005ee8787614db42dd15f204e00fea067232d61b39f91a",
+    "historical_seal_sha256": "5830971f3b445dcd6e28549b295ff4acff4f9d93f1cdf5b8ea886ca35c3c02a9",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-02/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "55dfd8c044c541b29615c2452ab902948c31dfb91efb64b7bc4f8b25ac8ebdd9",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/02 - 第二章 镜头原理、类型与光学控制（P3-P8）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-02/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第二章既有学习记录.md",
+    "personal_sha256": "9ed73945cfd87f37d6b06a15a6040176a0d27a7a7f6d78c7ea85faadb5be2fad",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-02/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-02/review.md"
+}

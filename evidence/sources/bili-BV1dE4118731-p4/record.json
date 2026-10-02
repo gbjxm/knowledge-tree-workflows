@@ -1,0 +1,235 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p4",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P4 2.2背景范围与希区柯克变焦",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=4",
+    "bvid": "BV1dE4118731",
+    "page": 4,
+    "cid": 126436983,
+    "text_sha256": "ed266146b21d6ecb5124808c8bb7efb1c833fa33e553157b45570b9db7eed524",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p4-2.2背景范围与希区柯克变焦/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/02 - 第二章 镜头原理、类型与光学控制（P3-P8）.md",
+    "sha256": "15899e3b9e24d5e4d6d0877c9f24cfb32bfe8bd6a438fc888c9c9d0a1e7999f8"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "ed266146b21d6ecb5124808c8bb7efb1c833fa33e553157b45570b9db7eed524",
+    "note_sha256": "15899e3b9e24d5e4d6d0877c9f24cfb32bfe8bd6a438fc888c9c9d0a1e7999f8",
+    "scope": [
+      [
+        6,
+        274
+      ]
+    ],
+    "items": [
+      {
+        "id": "P4-U01",
+        "item": "主体等大红伞四图、背景栏杆及不确定海景，换焦距需机位配合",
+        "source": {
+          "lines": [
+            6,
+            62
+          ]
+        },
+        "note": {
+          "lines": [
+            82,
+            87
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P4-U02",
+        "item": "旅行模特两种诉求、两楼/墙面/少数窗格，年龄不是固定规则",
+        "source": {
+          "lines": [
+            63,
+            106
+          ]
+        },
+        "note": {
+          "lines": [
+            88,
+            93
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P4-U03",
+        "item": "宏阔环境与主体情绪的不同使用目标",
+        "source": {
+          "lines": [
+            107,
+            130
+          ]
+        },
+        "note": {
+          "lines": [
+            88,
+            93
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P4-U04",
+        "item": "课内提问：从焦距/背景关系解释接下来视频效果",
+        "source": {
+          "lines": [
+            131,
+            138
+          ]
+        },
+        "note": {
+          "lines": [
+            94,
+            103
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P4-U05",
+        "item": "多元莫斯科短片的连续运动和声音",
+        "source": {
+          "lines": [
+            139,
+            139
+          ]
+        },
+        "note": {
+          "lines": [
+            94,
+            103
+          ]
+        },
+        "status": "待核",
+        "reason": "实际看过原静帧与末段停帧，未连续审看05:24–05:44的运动、切换及声音；关键缺口保留。"
+      },
+      {
+        "id": "P4-U06",
+        "item": "相对身高类比、前景大小不变/背景相对变大、背景范围与长焦推理",
+        "source": {
+          "lines": [
+            140,
+            200
+          ]
+        },
+        "note": {
+          "lines": [
+            94,
+            103
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P4-U07",
+        "item": "后退抵消长焦主体放大、可让主体略小；希区柯克名称和悬念空间用途",
+        "source": {
+          "lines": [
+            201,
+            243
+          ]
+        },
+        "note": {
+          "lines": [
+            94,
+            103
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P4-U08",
+        "item": "前移+变广角，字幕背景范围小存在冲突；飞船为效果类比",
+        "source": {
+          "lines": [
+            244,
+            259
+          ]
+        },
+        "note": {
+          "lines": [
+            104,
+            109
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P4-U09",
+        "item": "主体背景比例细节到电影表达、结语",
+        "source": {
+          "lines": [
+            260,
+            274
+          ]
+        },
+        "note": {
+          "lines": [
+            104,
+            109
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P4-U05",
+        "item": "多元莫斯科短片的连续运动和声音",
+        "status": "待核",
+        "reason": "实际看过原静帧与末段停帧，未连续审看05:24–05:44的运动、切换及声音；关键缺口保留。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "8022b5da463702e9e02006c43cf635b3fbab78b2268fd0f2b8925d6200ab5d43",
+    "historical_review_sha256": "9851f52275fe2ff61d005ee8787614db42dd15f204e00fea067232d61b39f91a",
+    "historical_seal_sha256": "5830971f3b445dcd6e28549b295ff4acff4f9d93f1cdf5b8ea886ca35c3c02a9",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-02/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "55dfd8c044c541b29615c2452ab902948c31dfb91efb64b7bc4f8b25ac8ebdd9",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/02 - 第二章 镜头原理、类型与光学控制（P3-P8）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-02/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第二章既有学习记录.md",
+    "personal_sha256": "9ed73945cfd87f37d6b06a15a6040176a0d27a7a7f6d78c7ea85faadb5be2fad",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-02/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-02/review.md"
+}

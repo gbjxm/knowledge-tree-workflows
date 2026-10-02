@@ -1,0 +1,227 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p65",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P65 10.14影视需要有节奏2",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=65",
+    "bvid": "BV1dE4118731",
+    "page": 65,
+    "cid": 139214706,
+    "text_sha256": "eab721015e875bff9073ab44012ff8794f072bdce0052a63330bf8612af5a607",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p65-10.14影视需要有节奏2/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/17 - 第十章 视听节奏（P64-P68）.md",
+    "sha256": "2237128c8019f982dfaeaedf9ec4dd6c5a09714dbe1718721571ffdef71437c1"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "eab721015e875bff9073ab44012ff8794f072bdce0052a63330bf8612af5a607",
+    "note_sha256": "2237128c8019f982dfaeaedf9ec4dd6c5a09714dbe1718721571ffdef71437c1",
+    "scope": [
+      [
+        6,
+        226
+      ]
+    ],
+    "items": [
+      {
+        "id": "P65-U01",
+        "item": "镜头长短影响观感，长镜头舒缓自然理性、短镜头冲动活跃是课程概括，随后有长镜头紧张的对照。",
+        "source": {
+          "lines": [
+            6,
+            36
+          ]
+        },
+        "note": {
+          "lines": [
+            105,
+            114
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留原课解释、案例与整理限定；文字覆盖不等于原声或连续观看完成。"
+      },
+      {
+        "id": "P65-U02",
+        "item": "三峡好人开篇船上横摇，打牌吸烟聊天望远思考等状态与平缓叙述，教师用沉闷形容风格。",
+        "source": {
+          "lines": [
+            37,
+            64
+          ]
+        },
+        "note": {
+          "lines": [
+            105,
+            114
+          ]
+        },
+        "status": "待核",
+        "reason": "M5的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P65-U03",
+        "item": "荒野猎人开篇水流、低视点前行、一到两名猎人、举枪射击；02:27–03:21及03:33–04:24等长空窗，角色ASR失真。",
+        "source": {
+          "lines": [
+            65,
+            94
+          ]
+        },
+        "note": {
+          "lines": [
+            115,
+            128
+          ]
+        },
+        "status": "待核",
+        "reason": "M6的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P65-U04",
+        "item": "两种长镜头对照：平稳横移与林间蛇行、冷暗雾气流水、危险预感、沉浸类比；摄影师姓名需核。",
+        "source": {
+          "lines": [
+            95,
+            133
+          ]
+        },
+        "note": {
+          "lines": [
+            115,
+            128
+          ]
+        },
+        "status": "待核",
+        "reason": "M6的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P65-U05",
+        "item": "血战钢锯岭战场行进、貌似尸体的人喊叫引出反应和混战，短镜头衔接；不把表演描述误写复活。",
+        "source": {
+          "lines": [
+            134,
+            174
+          ]
+        },
+        "note": {
+          "lines": [
+            129,
+            138
+          ]
+        },
+        "status": "待核",
+        "reason": "M7的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P65-U06",
+        "item": "景别与节奏，大景别平缓小景别刺激中景衔接；课程把近特写联系焦距，需区分景别与焦距。",
+        "source": {
+          "lines": [
+            175,
+            199
+          ]
+        },
+        "note": {
+          "lines": [
+            139,
+            148
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留原课解释、案例与整理限定；文字覆盖不等于原声或连续观看完成。"
+      },
+      {
+        "id": "P65-U07",
+        "item": "血战钢锯岭再举例，以全远与近特为主、少量中景，交叉组接与速度感；08:38以后长媒体窗待核。",
+        "source": {
+          "lines": [
+            200,
+            226
+          ]
+        },
+        "note": {
+          "lines": [
+            139,
+            148
+          ]
+        },
+        "status": "待核",
+        "reason": "M7的连续声画待核；来源文字与静态补充已分别保留。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P65-U02",
+        "item": "三峡好人开篇船上横摇，打牌吸烟聊天望远思考等状态与平缓叙述，教师用沉闷形容风格。",
+        "status": "待核",
+        "reason": "M5的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P65-U03",
+        "item": "荒野猎人开篇水流、低视点前行、一到两名猎人、举枪射击；02:27–03:21及03:33–04:24等长空窗，角色ASR失真。",
+        "status": "待核",
+        "reason": "M6的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P65-U04",
+        "item": "两种长镜头对照：平稳横移与林间蛇行、冷暗雾气流水、危险预感、沉浸类比；摄影师姓名需核。",
+        "status": "待核",
+        "reason": "M6的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P65-U05",
+        "item": "血战钢锯岭战场行进、貌似尸体的人喊叫引出反应和混战，短镜头衔接；不把表演描述误写复活。",
+        "status": "待核",
+        "reason": "M7的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P65-U07",
+        "item": "血战钢锯岭再举例，以全远与近特为主、少量中景，交叉组接与速度感；08:38以后长媒体窗待核。",
+        "status": "待核",
+        "reason": "M7的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "0a24f627001b03b3b9e366c75120962039b71260c7bfbf44ef573508cabf1613",
+    "historical_review_sha256": "1c49bb86a5ee9680aa72ba64aeafe685c3e1c6b14add59e2e0f1b2dbd68c02b4",
+    "historical_seal_sha256": "55cdf4f03b6a5400685655e664b77e662ebcbf5f23c7d9a60f29aa3215c075c9",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-17/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "46328e0b9791cb8ba7ef7bddd188a49d3555efeb3931e5d2783fadaf40671b43",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/17 - 第十章 视听节奏（P64-P68）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-17/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章视听节奏既有学习记录.md",
+    "personal_sha256": "efa1765a3df4aca897a366e9ef375aa31f9cf83989927520ad468dc8324c3fa9",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-17/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-17/review.md"
+}

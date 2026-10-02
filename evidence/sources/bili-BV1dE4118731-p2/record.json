@@ -1,0 +1,649 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p2",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P2 1.2技术史：影像技术的发展",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=2",
+    "bvid": "BV1dE4118731",
+    "page": 2,
+    "cid": 126007592,
+    "text_sha256": "ffc876e82e0b9acdfd8ed43c0879e0126b0cefac03f323262a49190c4525054d",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p2-1.2技术史：影像技术的发展/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/01 - 第一章 影像语言与技术史（P1-P2）.md",
+    "sha256": "d8f6ad982487a31f3af4dd7b5dc8ce69a0d7fb4c8bcd1d91d2ea517a7709ae3c"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "ffc876e82e0b9acdfd8ed43c0879e0126b0cefac03f323262a49190c4525054d",
+    "note_sha256": "d8f6ad982487a31f3af4dd7b5dc8ce69a0d7fb4c8bcd1d91d2ea517a7709ae3c",
+    "scope": [
+      [
+        6,
+        528
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "分辨率发展、手机及授课时代的价格/普及条件",
+        "source": {
+          "lines": [
+            6,
+            51
+          ]
+        },
+        "note": {
+          "lines": [
+            90,
+            97
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U2",
+        "item": "蓝光与3D记录/观看的生活应用",
+        "source": {
+          "lines": [
+            52,
+            67
+          ]
+        },
+        "note": {
+          "lines": [
+            90,
+            97
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U3",
+        "item": "钨丝灯/LED功率举例非等效亮度换算",
+        "source": {
+          "lines": [
+            68,
+            80
+          ]
+        },
+        "note": {
+          "lines": [
+            90,
+            97
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U4",
+        "item": "VR全景设备与观看方式、快速发展反问",
+        "source": {
+          "lines": [
+            81,
+            99
+          ]
+        },
+        "note": {
+          "lines": [
+            90,
+            97
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U5",
+        "item": "小孔图、墨经记录、墨子繁忙属推想",
+        "source": {
+          "lines": [
+            100,
+            143
+          ]
+        },
+        "note": {
+          "lines": [
+            98,
+            105
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U6",
+        "item": "蜡烛/纸片/墙的例示转入整房暗箱，字幕核定",
+        "source": {
+          "lines": [
+            144,
+            156
+          ]
+        },
+        "note": {
+          "lines": [
+            98,
+            105
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U7",
+        "item": "第一段外语暗箱演示",
+        "source": {
+          "lines": [
+            157,
+            199
+          ]
+        },
+        "note": {
+          "lines": [
+            98,
+            105
+          ]
+        },
+        "status": "待核",
+        "reason": "旧ASR失真，英文补录与原字幕已恢复主要文本；遮光到成像的连续过程、原声和声画关系未审。"
+      },
+      {
+        "id": "U8",
+        "item": "教堂投墙倒像、人在暗箱内、成像与固定不同",
+        "source": {
+          "lines": [
+            200,
+            213
+          ]
+        },
+        "note": {
+          "lines": [
+            98,
+            105
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U9",
+        "item": "第二段外语：纸负片、正片、抽象审美与大量复制",
+        "source": {
+          "lines": [
+            214,
+            222
+          ]
+        },
+        "note": {
+          "lines": [
+            106,
+            117
+          ]
+        },
+        "status": "待核",
+        "reason": "原ASR长段空白且尾段失真；英文补录及字幕已补主要知识，原声和插入素材未连续审看，不能标整个素材完成。"
+      },
+      {
+        "id": "U10",
+        "item": "古希腊成像记述、大暗室内部画师逐笔描画",
+        "source": {
+          "lines": [
+            223,
+            248
+          ]
+        },
+        "note": {
+          "lines": [
+            118,
+            129
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U11",
+        "item": "可搬暗箱和上方反光结构，仍不轻便",
+        "source": {
+          "lines": [
+            249,
+            258
+          ]
+        },
+        "note": {
+          "lines": [
+            118,
+            129
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U12",
+        "item": "桌面绘画暗箱、镜头早于自动固定影像",
+        "source": {
+          "lines": [
+            259,
+            292
+          ]
+        },
+        "note": {
+          "lines": [
+            118,
+            129
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U13",
+        "item": "1839达盖尔、法国公布、塔尔博特近同时期与银盐共性",
+        "source": {
+          "lines": [
+            293,
+            308
+          ]
+        },
+        "note": {
+          "lines": [
+            130,
+            139
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U14",
+        "item": "贵族肖像需求、银版工艺与昂贵消费情境",
+        "source": {
+          "lines": [
+            309,
+            334
+          ]
+        },
+        "note": {
+          "lines": [
+            130,
+            139
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U15",
+        "item": "盛夏正午玻璃房、盛装与15分钟属课堂具体举例",
+        "source": {
+          "lines": [
+            335,
+            373
+          ]
+        },
+        "note": {
+          "lines": [
+            130,
+            139
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U16",
+        "item": "颈腰支架、手靠扶手及摄影痛苦和记录愿望的张力",
+        "source": {
+          "lines": [
+            374,
+            397
+          ]
+        },
+        "note": {
+          "lines": [
+            130,
+            139
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U17",
+        "item": "古代至近代长时段与摄影后快速发展对照",
+        "source": {
+          "lines": [
+            398,
+            407
+          ]
+        },
+        "note": {
+          "lines": [
+            130,
+            139
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U18",
+        "item": "长曝光街景无人不等于现场无人",
+        "source": {
+          "lines": [
+            408,
+            431
+          ]
+        },
+        "note": {
+          "lines": [
+            140,
+            147
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U19",
+        "item": "擦鞋二人形态与摆拍推论，不能升级证实史实",
+        "source": {
+          "lines": [
+            432,
+            465
+          ]
+        },
+        "note": {
+          "lines": [
+            140,
+            147
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U20",
+        "item": "连续胶片放映、视觉暂留是课程简化解释",
+        "source": {
+          "lines": [
+            466,
+            485
+          ]
+        },
+        "note": {
+          "lines": [
+            148,
+            157
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U21",
+        "item": "三部早期电影、火车片段及逃厅故事",
+        "source": {
+          "lines": [
+            486,
+            507
+          ]
+        },
+        "note": {
+          "lines": [
+            148,
+            157
+          ]
+        },
+        "status": "待核",
+        "reason": "片名和列车画面已核，半数逃厅已按外部档案标疑；列车运动/切换/声音没有连续实审，属整课关键缺口。"
+      },
+      {
+        "id": "U22",
+        "item": "对光与影像的追求回扣后续技术分析",
+        "source": {
+          "lines": [
+            508,
+            528
+          ]
+        },
+        "note": {
+          "lines": [
+            148,
+            157
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "U7",
+        "item": "第一段外语暗箱演示",
+        "status": "待核",
+        "reason": "旧ASR失真，英文补录与原字幕已恢复主要文本；遮光到成像的连续过程、原声和声画关系未审。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "U9",
+        "item": "第二段外语：纸负片、正片、抽象审美与大量复制",
+        "status": "待核",
+        "reason": "原ASR长段空白且尾段失真；英文补录及字幕已补主要知识，原声和插入素材未连续审看，不能标整个素材完成。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "U21",
+        "item": "三部早期电影、火车片段及逃厅故事",
+        "status": "待核",
+        "reason": "片名和列车画面已核，半数逃厅已按外部档案标疑；列车运动/切换/声音没有连续实审，属整课关键缺口。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "58e116360b65c59f1b0462dd9aa4acc87363814949d4af8d76eb5e87c5979490",
+    "historical_review_sha256": "2bdcfdea8e13ac75a3cec2d04118c760af7df5060ed5c6751c0329d4037897f2",
+    "historical_seal_sha256": "2ae42f9ccb6e64891e2a7cf2bc6d287dc46d4bc785e36f1de26844b6a2991ce0",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-01/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "51db3b85e3558aa0ef7600df7ec347bb9135dc0937cfa4d12b86fe25ad33f351",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/01 - 第一章 影像语言与技术史（P1-P2）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-01/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第一章既有学习记录.md",
+    "personal_sha256": "c450dc75825de2881e7d1d6df4822b063ab704367823399dbaacec78b00cef03",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-01/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-01/review.md",
+  "supplemental_source_registrations": [
+    {
+      "page": 2,
+      "source": ".runtime/raw-cache/course-av-review-20260925/batches/av-01/p2/english-comparison-407-544/transcript.md",
+      "text_sha256": "64a578879cda6ce86cc9f9e216e0e91baac11aa409c29bfa513da09f99a9fa68",
+      "coverage": {
+        "version": 1,
+        "source_sha256": "64a578879cda6ce86cc9f9e216e0e91baac11aa409c29bfa513da09f99a9fa68",
+        "note_sha256": "d8f6ad982487a31f3af4dd7b5dc8ce69a0d7fb4c8bcd1d91d2ea517a7709ae3c",
+        "scope": [
+          [
+            6,
+            28
+          ]
+        ],
+        "items": [
+          {
+            "id": "U1",
+            "item": "达盖尔/塔尔博特固定影像背景，归入后续摄影技术段",
+            "source": {
+              "lines": [
+                6,
+                11
+              ]
+            },
+            "note": {
+              "lines": [
+                130,
+                139
+              ]
+            },
+            "status": "合并",
+            "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+          },
+          {
+            "id": "U2",
+            "item": "演示者、遮光、光线条件和倒像投影",
+            "source": {
+              "lines": [
+                12,
+                28
+              ]
+            },
+            "note": {
+              "lines": [
+                98,
+                105
+              ]
+            },
+            "status": "待核",
+            "reason": "ASR与字幕交叉支持文字；约08:04–08:46原始演示的连续变化未审，不以台词替代观看。"
+          }
+        ]
+      },
+      "note": "原英文定段补录；仍沿用原覆盖状态，未新增听审。"
+    },
+    {
+      "page": 2,
+      "source": ".runtime/raw-cache/course-av-review-20260925/batches/av-01/p2/english-comparison-595-739/transcript.md",
+      "text_sha256": "77a2eaece0f4b7f3b85ae3d0c48575213a4c76c1562be80083dfdf524b9b2fd1",
+      "coverage": {
+        "version": 1,
+        "source_sha256": "77a2eaece0f4b7f3b85ae3d0c48575213a4c76c1562be80083dfdf524b9b2fd1",
+        "note_sha256": "d8f6ad982487a31f3af4dd7b5dc8ce69a0d7fb4c8bcd1d91d2ea517a7709ae3c",
+        "scope": [
+          [
+            6,
+            30
+          ]
+        ],
+        "items": [
+          {
+            "id": "U1",
+            "item": "博学与绘画困难促成纸上固定影像的需求",
+            "source": {
+              "lines": [
+                6,
+                12
+              ]
+            },
+            "note": {
+              "lines": [
+                106,
+                117
+              ]
+            },
+            "status": "合并",
+            "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+          },
+          {
+            "id": "U2",
+            "item": "1834春、暗箱结合化学、银盐纸和小相机",
+            "source": {
+              "lines": [
+                13,
+                17
+              ]
+            },
+            "note": {
+              "lines": [
+                106,
+                117
+              ]
+            },
+            "status": "合并",
+            "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+          },
+          {
+            "id": "U3",
+            "item": "负像与正像、明暗和左右反转、再次印制",
+            "source": {
+              "lines": [
+                18,
+                22
+              ]
+            },
+            "note": {
+              "lines": [
+                106,
+                117
+              ]
+            },
+            "status": "合并",
+            "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+          },
+          {
+            "id": "U4",
+            "item": "负像自身的抽象审美",
+            "source": {
+              "lines": [
+                23,
+                24
+              ]
+            },
+            "note": {
+              "lines": [
+                106,
+                117
+              ]
+            },
+            "status": "合并",
+            "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+          },
+          {
+            "id": "U5",
+            "item": "化学以外的概念创新，大量复制照片和新式印书",
+            "source": {
+              "lines": [
+                25,
+                30
+              ]
+            },
+            "note": {
+              "lines": [
+                106,
+                117
+              ]
+            },
+            "status": "合并",
+            "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+          }
+        ]
+      },
+      "note": "原英文定段补录；仍沿用原覆盖状态，未新增听审。"
+    }
+  ]
+}

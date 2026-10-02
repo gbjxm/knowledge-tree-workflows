@@ -1,6 +1,6 @@
 ---
 name: operate-personal-knowledge-tree
-description: Coordinate and maintain the user's personal Chinese Obsidian film-creation knowledge tree. Use for named control workflows such as 开始学习, 开始整理知识树, 把这条知识放进知识树, 知识收尾, 今天先到这, 知识树周复盘, 修改我的北极星, 备份知识树; for branch routing, maps, lifecycle queues, status surfaces, Obsidian health checks, and confirmation boundaries. Do not use as the source-extraction, topic-fusion, knowledge-retrieval, mastery-test, or relationship-writing worker; hand those to their dedicated Skills.
+description: Coordinate and maintain the user's personal Chinese Obsidian film-creation knowledge tree. Use for named control workflows such as 开始学习, 开始整理知识树, 把这条知识放进知识树, 知识收尾, 今天先到这, 知识树周复盘, 修改我的北极星, 备份知识树, 检查技能同步, 检查安装一致性; for branch routing, maps, lifecycle queues, status surfaces, Obsidian health checks, and confirmation boundaries. Do not use as the source-extraction, topic-fusion, knowledge-retrieval, mastery-test, or relationship-writing worker; hand those to their dedicated Skills.
 ---
 
 # Operate Personal Knowledge Tree
@@ -53,6 +53,19 @@ Read `我的知识树北极星.md`, `知识树状态.md`, and the relevant categ
 9. Validate changed notes and the knowledge-library scope before reporting completion.
 
 ## Named Workflows
+
+### Check Installed Skills
+
+For `检查技能同步` or `检查安装一致性`, run the workspace-level `scripts/verify.ps1 -Mode Installed`. It compares the declared stable modules with the installed copies; use `-SkillNames` for a specifically scoped check and `-TargetSkillsRoot` for an explicit installation. Target discovery follows the existing installer and fails clearly when unavailable.
+
+- Report the actual source, target, selected modules, missing files, changed files, extra files and missing dependency entries. Exit codes are 0 for consistent, 1 for differences, and 2 for an incomplete/failed check.
+- Extra files and differing content require review; do not automatically classify them as customizations or obsolete files. Check existing change records before proposing a scoped correction, preserve confirmed customizations, and do not install, overwrite, delete or push a backup merely because this check found differences.
+- Run on explicit request or at the end of maintenance that changed Skills. Ordinary learning, source intake and conversation do not trigger it. Daily, Release and isolated restore checks remain independent of the machine's installed Skills.
+- This verifies files and required entries, not actual answer quality. No new version registry or recurring task is created.
+
+### Inspect Source Materials and Cache
+
+For `盘点原材料` or `查看缓存`, use the configured workspace's `skills/grow-creative-library/scripts/cache_report.py --details` and the shared [原材料保留与按需盘点](../grow-creative-library/references/durable-source-evidence.md#原材料保留与按需盘点) rules. Report directory sizes, existing source references and uncertainties; do not inspect all note bodies, create a global cleanup task, or equate unregistered files with unused files. Do not move or delete materials, create recurring tasks or push backups as part of a read-only inventory. Raw materials are outside the current GitHub backup scope.
 
 ### Back Up the Knowledge Tree
 

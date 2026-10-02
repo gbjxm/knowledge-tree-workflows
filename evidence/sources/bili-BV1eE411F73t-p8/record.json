@@ -1,0 +1,380 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p8",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 第三课-八要素的实战应用3.2",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=8",
+    "bvid": "BV1eE411F73t",
+    "page": 8,
+    "cid": 167859809,
+    "text_sha256": "af675da8c2264048256bcd340c9f8d3c5afbb48f1dd97af6ab86b5a288160508",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/reused-sources/BV1eE411F73t-p8/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/03 - 第三课 八要素的实战应用（P7-P8）.md",
+    "sha256": "4a6488d54d19c3268945b0060d1bf3d9ed1a98680eeed2a02df3221cf65d124b"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "af675da8c2264048256bcd340c9f8d3c5afbb48f1dd97af6ab86b5a288160508",
+    "note_sha256": "4a6488d54d19c3268945b0060d1bf3d9ed1a98680eeed2a02df3221cf65d124b",
+    "scope": [
+      [
+        6,
+        897
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "朴素主题五价值与立场",
+        "source": {
+          "lines": [
+            6,
+            47
+          ]
+        },
+        "note": {
+          "lines": [
+            120,
+            120
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U2",
+        "item": "邪恶胆小到想殉职的负价值",
+        "source": {
+          "lines": [
+            48,
+            136
+          ]
+        },
+        "note": {
+          "lines": [
+            126,
+            126
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U3",
+        "item": "猎奇失败与合理可信共情",
+        "source": {
+          "lines": [
+            137,
+            177
+          ]
+        },
+        "note": {
+          "lines": [
+            130,
+            130
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U4",
+        "item": "失去何种亲人的选择及性别经验/定价类比",
+        "source": {
+          "lines": [
+            178,
+            241
+          ]
+        },
+        "note": {
+          "lines": [
+            134,
+            134
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U5",
+        "item": "女儿遇害前史和天堂人物信念",
+        "source": {
+          "lines": [
+            242,
+            285
+          ]
+        },
+        "note": {
+          "lines": [
+            138,
+            138
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U6",
+        "item": "保护女儿欲望/寻死动作/死时方式问题",
+        "source": {
+          "lines": [
+            286,
+            334
+          ]
+        },
+        "note": {
+          "lines": [
+            144,
+            144
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U7",
+        "item": "地铁炸弹场面越寻死越立功",
+        "source": {
+          "lines": [
+            335,
+            376
+          ]
+        },
+        "note": {
+          "lines": [
+            148,
+            148
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U8",
+        "item": "核心不断与活着保护更多女儿主题",
+        "source": {
+          "lines": [
+            377,
+            442
+          ]
+        },
+        "note": {
+          "lines": [
+            152,
+            152
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U9",
+        "item": "相反两半转折/三五名受害者/收枪后果",
+        "source": {
+          "lines": [
+            443,
+            512
+          ]
+        },
+        "note": {
+          "lines": [
+            154,
+            154
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U10",
+        "item": "环境对手自身变化及审查课堂顾虑",
+        "source": {
+          "lines": [
+            513,
+            570
+          ]
+        },
+        "note": {
+          "lines": [
+            163,
+            163
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U11",
+        "item": "绕过求死/升职触发/父亲警察/网大评价",
+        "source": {
+          "lines": [
+            571,
+            655
+          ]
+        },
+        "note": {
+          "lines": [
+            167,
+            167
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U12",
+        "item": "结局赠送的本例限度",
+        "source": {
+          "lines": [
+            656,
+            674
+          ]
+        },
+        "note": {
+          "lines": [
+            175,
+            175
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U13",
+        "item": "一箭双雕及主动转变之后揭示",
+        "source": {
+          "lines": [
+            675,
+            741
+          ]
+        },
+        "note": {
+          "lines": [
+            177,
+            177
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U14",
+        "item": "与女儿旧案无关的正常结局",
+        "source": {
+          "lines": [
+            742,
+            749
+          ]
+        },
+        "note": {
+          "lines": [
+            179,
+            179
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U15",
+        "item": "拯救母女/单亲追加/替身/吃饭与拥吻/矫情",
+        "source": {
+          "lines": [
+            750,
+            826
+          ]
+        },
+        "note": {
+          "lines": [
+            181,
+            181
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U16",
+        "item": "同归于尽反讽死得其所",
+        "source": {
+          "lines": [
+            827,
+            844
+          ]
+        },
+        "note": {
+          "lines": [
+            185,
+            185
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U17",
+        "item": "小痞子回收前半后果",
+        "source": {
+          "lines": [
+            845,
+            870
+          ]
+        },
+        "note": {
+          "lines": [
+            187,
+            187
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U18",
+        "item": "结局取舍和课末口诀要求",
+        "source": {
+          "lines": [
+            871,
+            897
+          ]
+        },
+        "note": {
+          "lines": [
+            189,
+            189
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-25",
+    "scope": "来源先行及成稿后完整回读ASR行6–897（3–2026秒）；实际看147张原帧与画内字幕/板书，精确时码见本批清单；未听审、未连续审看。",
+    "summary": "两P合课保存八要素实战口诀、理由与例外，完整展开求死警察的前史、转折因果、结局分支及取舍；补回阻力组合和结局揭示时机，纠正害怕孩子/逃避死亡，保护旧稿学习记录和SVG。",
+    "method": "主代理来源先行，成稿后独立步骤完整回读两P ASR及候选，双向语义检查、旧稿独特内容去向和六项实际使用检查；非盲评、非第二评审者。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看；静帧/板书/字幕不证明动作、语气、节奏或声画同步已核清。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "题材份额、性别类型片经验、审查顾虑、网大评价为讲师判断，天堂规则为虚构人物信念；影片仅按课堂转述保存，没有外部事实验证。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "6553cbf0e042a7e18c9c738a21cf123d3c2080a58bb6f703cf2f16b74a789fd2",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/查理老师的编剧课/03 - 第三课 八要素的实战应用（P7-P8）.md",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第三课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-03/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-03/review.md"
+}

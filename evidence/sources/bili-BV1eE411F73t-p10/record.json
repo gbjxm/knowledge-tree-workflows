@@ -1,0 +1,397 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p10",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 第四课-第一个故事4.2",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=10",
+    "bvid": "BV1eE411F73t",
+    "page": 10,
+    "cid": 167867112,
+    "text_sha256": "55dd214424e1e4529166ff55b500f242c88b4456c58c7adcc2ecd6114d16d809",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/reused-sources/BV1eE411F73t-p10/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/04 - 第四课 第一个故事（P9-P10）.md",
+    "sha256": "47d9578105e03218c88be7911bfa5f13e452a4407e6b38db1cc00df3a5c6e478"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "55dd214424e1e4529166ff55b500f242c88b4456c58c7adcc2ecd6114d16d809",
+    "note_sha256": "47d9578105e03218c88be7911bfa5f13e452a4407e6b38db1cc00df3a5c6e478",
+    "scope": [
+      [
+        6,
+        87
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "过激行为/二次动作及欲望行动失败",
+        "source": {
+          "lines": [
+            6,
+            16
+          ]
+        },
+        "note": {
+          "lines": [
+            118,
+            118
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U2",
+        "item": "追求遭拒到绑架的虚构升级",
+        "source": {
+          "lines": [
+            17,
+            18
+          ]
+        },
+        "note": {
+          "lines": [
+            120,
+            120
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U3",
+        "item": "惯性动作与创意放在失败之后的理由",
+        "source": {
+          "lines": [
+            19,
+            22
+          ]
+        },
+        "note": {
+          "lines": [
+            122,
+            122
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U4",
+        "item": "录取通知书/考学失败/造通知书/家长送学",
+        "source": {
+          "lines": [
+            23,
+            28
+          ]
+        },
+        "note": {
+          "lines": [
+            126,
+            126
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U5",
+        "item": "造大学圆谎与雇师收费学院资质结局",
+        "source": {
+          "lines": [
+            29,
+            31
+          ]
+        },
+        "note": {
+          "lines": [
+            128,
+            128
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U6",
+        "item": "第一次惯性动作/造大学支点/可先行为后人物",
+        "source": {
+          "lines": [
+            32,
+            35
+          ]
+        },
+        "note": {
+          "lines": [
+            132,
+            132
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U7",
+        "item": "哆啦A梦两例/记忆面包排泄失败/棒球手套",
+        "source": {
+          "lines": [
+            36,
+            41
+          ]
+        },
+        "note": {
+          "lines": [
+            138,
+            138
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U8",
+        "item": "悬念对应核心问题与危机灾难",
+        "source": {
+          "lines": [
+            42,
+            43
+          ]
+        },
+        "note": {
+          "lines": [
+            146,
+            146
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U9",
+        "item": "生死时速车速条件及连串问题/可后补人物",
+        "source": {
+          "lines": [
+            44,
+            47
+          ]
+        },
+        "note": {
+          "lines": [
+            148,
+            148
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U10",
+        "item": "假身份及让子弹飞",
+        "source": {
+          "lines": [
+            48,
+            49
+          ]
+        },
+        "note": {
+          "lines": [
+            154,
+            154
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U11",
+        "item": "金装律师详细过程及国内剧借鉴说的限度",
+        "source": {
+          "lines": [
+            50,
+            52
+          ]
+        },
+        "note": {
+          "lines": [
+            158,
+            158
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U12",
+        "item": "未名美剧假警长/片名未讲不猜",
+        "source": {
+          "lines": [
+            53,
+            54
+          ]
+        },
+        "note": {
+          "lines": [
+            160,
+            160
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U13",
+        "item": "时间锁灰姑娘十二点",
+        "source": {
+          "lines": [
+            55,
+            55
+          ]
+        },
+        "note": {
+          "lines": [
+            162,
+            162
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U14",
+        "item": "环境吸引力/荒岛余生侏罗纪修女飞越疯人院",
+        "source": {
+          "lines": [
+            56,
+            61
+          ]
+        },
+        "note": {
+          "lines": [
+            168,
+            168
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U15",
+        "item": "环境在八要素障碍中的归属",
+        "source": {
+          "lines": [
+            62,
+            63
+          ]
+        },
+        "note": {
+          "lines": [
+            175,
+            175
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U16",
+        "item": "五支点回顾/秘密疑问/农场入口/激励分量",
+        "source": {
+          "lines": [
+            64,
+            71
+          ]
+        },
+        "note": {
+          "lines": [
+            179,
+            179
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U17",
+        "item": "强点数量递进和四创意四惯性的讲师经验",
+        "source": {
+          "lines": [
+            72,
+            78
+          ]
+        },
+        "note": {
+          "lines": [
+            185,
+            185
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U18",
+        "item": "黑帮高中生观众期待/承诺/留待后讲的分寸",
+        "source": {
+          "lines": [
+            79,
+            87
+          ]
+        },
+        "note": {
+          "lines": [
+            189,
+            189
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-25",
+    "scope": "来源先行及成稿后完整回读ASR行6–87（2–1521秒）；实际看157张原帧字幕/板书，精确时码见本批清单；未听审、未连续审看。",
+    "summary": "两P合课完整展开五个故事支点的定义、例子、条件与选择理由；恢复第一作训练的两个理由和题材限制、惯性动作失败后的升级、超人日常反例、环境与八要素障碍的关系，以及创新与观众承诺的具体取舍；保护旧稿、学习栏目及SVG。",
+    "method": "主代理来源先行，成稿后另一步骤全文回读两P ASR，核看原帧字幕与板书，反查正文、旧稿独特内容及实际使用；非盲评，非第二评审者。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看；静帧不证明语气、连续动作、节奏或声画同步已核清。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "ASR时间与画内字幕有数秒偏差，正文时码只作回查索引。片例按课堂转述，未另验原片剧情或讲师引用的外部出处；性别经验、强点数量与可拍性仅为讲师判断。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M3",
+        "item": "《逍遥医生》的字幕与板书“潇洒医生 Rush”写法有别，正文如实保留；未名美剧不猜片名，未把临时学院名称、车速举数或修女案例的口头类比补成原片确切事实。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "d0d89f672c9ff314e7f5192f550ff2f2b65751866e3a3dfef4ed473a29e6bb19",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/查理老师的编剧课/04 - 第四课 第一个故事（P9-P10）.md",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第四课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-04/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-04/review.md",
+  "binding_history": [
+    {
+      "utc": "2026-09-28T03:23:32.402189+00:00",
+      "operation": "verified_crlf_to_lf_only",
+      "prior_sha256": "cc67572e5c0fec528249e9ca55c0fe1ff57aeda0900966ae82de7bd919f88e34",
+      "current_sha256": "47d9578105e03218c88be7911bfa5f13e452a4407e6b38db1cc00df3a5c6e478",
+      "bytes_removed": 207,
+      "content_and_line_numbers_unchanged": true,
+      "note_written": false,
+      "evidence": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-23/line-ending-rebind/report.json"
+    }
+  ]
+}

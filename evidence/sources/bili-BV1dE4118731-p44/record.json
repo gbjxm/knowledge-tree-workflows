@@ -1,0 +1,335 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p44",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P44 8.12影像的镜头形态——摇镜头和移镜头",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=44",
+    "bvid": "BV1dE4118731",
+    "page": 44,
+    "cid": 136150162,
+    "text_sha256": "f930d88e8902b768dbf27767c645253d99d6266ec15285f73a1ea496086bc844",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p44-8.12影像的镜头形态——摇镜头和移镜头/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/10 - 第八章 运动镜头（P43-P47）.md",
+    "sha256": "1ceffe41161d01a39b32d061c1dcf5221a4fd9a9b08417b52757b9d90e04bf5c"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "f930d88e8902b768dbf27767c645253d99d6266ec15285f73a1ea496086bc844",
+    "note_sha256": "1ceffe41161d01a39b32d061c1dcf5221a4fd9a9b08417b52757b9d90e04bf5c",
+    "scope": [
+      [
+        6,
+        236
+      ]
+    ],
+    "items": [
+      {
+        "id": "P44-U01",
+        "item": "摇摄机位不变而方向改变，与摄影机位移区分；倾斜方向和旋转轴要看课件，不能仅凭“摇”字推定水平。",
+        "source": {
+          "lines": [
+            6,
+            14
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            88
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U02",
+        "item": "浏览摇、卷轴画与展开观看；ASR作者“SNS”和书名“病非冷漠的大自然”待核，不能凭熟悉感恢复引文，也不能据类比认定中国发明电影摇摄。",
+        "source": {
+          "lines": [
+            15,
+            42
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            88
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U03",
+        "item": "关系摇的假设例子：吃面者转向流口水孩子，运动组织出观看关系。先记为教师举例，不当作本次实际片例。",
+        "source": {
+          "lines": [
+            43,
+            55
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            88
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U04",
+        "item": "教师自己补充：孩子可能看的是另一边切肉者。关系摇可引导甚至误导归因，画面连接不自动证明真实因果或原始视线对象。",
+        "source": {
+          "lines": [
+            56,
+            71
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            88
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U05",
+        "item": "甩摄／甩镜的快速模糊与转场；课中讲两固定画面间插甩摄段的三段构成，不把所有甩镜写成必然独立插入镜头。",
+        "source": {
+          "lines": [
+            72,
+            95
+          ]
+        },
+        "note": {
+          "lines": [
+            89,
+            96
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U06",
+        "item": "北京至广州与客厅至卧室的空间尺度对照；“近距离没必要”是讲者应用偏好，不是甩镜的物理使用限制。",
+        "source": {
+          "lines": [
+            96,
+            107
+          ]
+        },
+        "note": {
+          "lines": [
+            89,
+            96
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U07",
+        "item": "大时间跨度的假设，讲课当时2017至1007等；年份属于课堂例子，不当作当前年份或真实影片事实。",
+        "source": {
+          "lines": [
+            108,
+            120
+          ]
+        },
+        "note": {
+          "lines": [
+            89,
+            96
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U08",
+        "item": "甩摄还可表达紧迫、情绪激变；保留这一功能，不能只归纳为空间／时间跳转。",
+        "source": {
+          "lines": [
+            121,
+            131
+          ]
+        },
+        "note": {
+          "lines": [
+            89,
+            96
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U09",
+        "item": "移镜头的综合运动与推拉摇等功能对比；“摇就是横移／横移可用摇替代”不能当几何等价，旋转与位移改变空间关系的方式不同。简单平移也不因此无效。",
+        "source": {
+          "lines": [
+            132,
+            159
+          ]
+        },
+        "note": {
+          "lines": [
+            97,
+            104
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U10",
+        "item": "行走般的空间进入与主观体验；有移动不等于角色主观镜头，跟拍也不必占据角色视点。",
+        "source": {
+          "lines": [
+            160,
+            176
+          ]
+        },
+        "note": {
+          "lines": [
+            97,
+            104
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U11",
+        "item": "科幻与《蝙蝠侠》等作为视觉张力的口述举例；具体作品版本与实际插片待看，不自行补成已核实的电影镜头。",
+        "source": {
+          "lines": [
+            177,
+            189
+          ]
+        },
+        "note": {
+          "lines": [
+            97,
+            104
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U12",
+        "item": "升镜头由桌面到空间的例子，与拉开、浏览的功能相似；不能写成“升=拉+摇”的普遍机械定义，也不是一升就必然景别变大。",
+        "source": {
+          "lines": [
+            190,
+            210
+          ]
+        },
+        "note": {
+          "lines": [
+            105,
+            112
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U13",
+        "item": "降镜头由环境走向细节的类比；ASR将其称作摇的特殊形式，与后文移的分类不一致，原字幕待核。下降未必就是由大全景到特写。",
+        "source": {
+          "lines": [
+            211,
+            218
+          ]
+        },
+        "note": {
+          "lines": [
+            105,
+            112
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U14",
+        "item": "甩归摇、升降跟归移的课堂归纳；“跟”按跟随对象的功能理解，不能定义为被摄者眼睛的主观镜头。",
+        "source": {
+          "lines": [
+            219,
+            229
+          ]
+        },
+        "note": {
+          "lines": [
+            105,
+            112
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P44-U15",
+        "item": "“现在更常用移、少用推拉摇”等趋势陈述缺乏统计，保留为课堂背景判断，不写成当代行业事实。",
+        "source": {
+          "lines": [
+            230,
+            236
+          ]
+        },
+        "note": {
+          "lines": [
+            105,
+            112
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "5fa0c62cf0069d7b388ed927a9cbbaa69327302bef7f7ea61b3f122b04630bfe",
+    "historical_review_sha256": "524d9fc8acb4ec57da9bfde591db29f48d81c3c73333624e3e53c3eacf3912dc",
+    "historical_seal_sha256": "15d2568673f8262dfab7a2d0d691f539a2a755475d0b3c690527bb2bdc0363ae",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-10/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "7ebb4b8d6338df88fdc9ece797527cd8dc55632a5d98870eefe85304e13c9334",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/10 - 第八章 运动镜头（P43-P47）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-10/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第八章运动镜头既有学习记录.md",
+    "personal_sha256": "746f05c36b802d20d64078affe3d03228f31f07fe38d10f2e4bba3614e188646",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-10/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-10/review.md"
+}

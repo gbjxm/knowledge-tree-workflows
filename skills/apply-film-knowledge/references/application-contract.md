@@ -35,7 +35,10 @@
 
 - `topic` 是主题综合，`source` 是来源笔记。实际读取须覆盖支撑判断的方法及不可分割的条件/反例，不能只读标题、引用表或“使用原则”便声称方法已覆盖。
 - 表格拆出的 `table_row` 保留 `parent_id`；与其一起读取 `context_ids` 中的必要表头、单位、前提和限定。单行命中不授权忽略配套条件。
-- 出现 `truncated` 或 `read_required` 时，按返回的 `continuation` 继续读取，或使用 `knowledge_review.py --config <配置> --read-id <证据ID> --snapshot <返回快照> --scope <返回scope的JSON>` 取得整段。路径章节读取也须检查截断；退出码0不表示全文已读。旧ID失效时重取受影响证据。
+- 快查的 `method_chunks` 与 `reading` 分别说明方法片段及摘要/边界等字段是否截短；摘要不是完整原文。出现 `read_required` 时，将该项的 `continuation` 原样交给 `knowledge_review.py --config <配置> --read-request <JSON>`。工作流也可用 `retrieve_workflow_knowledge.py --read-request <JSON>`，不必再传 query/role/stage；不能同时更换范围或配置。
+- 统一入口支持主题章节和来源证据，返回真实 `kind`，不把来源伪装成主题。首次从摘要补读时从正文开头读取，不把压缩摘要拼在原文前；后续严格使用新 `continuation` 的 offset，直到所需方法和条件完整。长段分页保留文件/快照身份与定位，原文变更后拒绝拼接旧页。只读本地笔记不等于核验了其外部原文。
+- 原接口继续可用：`knowledge_review.py --config <配置> --read-id <证据ID> --snapshot <返回快照> --scope <返回scope的JSON>` 取得完整证据；`read_knowledge_section.py` 按唯一标题读主题或来源章节。重复标题须用准确证据 ID，不能凭同名标题猜位置。退出码0不表示全文已读；旧ID失效时重取受影响证据。
+- `out_of_scope_links` 仅展示本次命中文档的相关导航，省略数量由 `out_of_scope_link_summary` 说明；它不扩张授权，也不代表范围外正文已读。导航先缩减，确需延后正文时仍保留证据身份及补读请求；`budget_exceeded` 如实报告无法在预算内交付的情况。
 - 每个重要判断能反查到“当前材料观察 → 方法/条件 → 实际读取的段落及定位”。直接依据、跨来源综合、模型已有知识和本题推断应可区分；不要求给一般性过渡句逐句贴标签。
 - `references` 中的URL和 `recorded_support` 是本地已有记录；真正访问原文后才能声称本次原文核验。整理日期不冒充原始发布日期。`source_gap: false`、链接存在或 `多源互证` 均不保证该段支持当前主张。
 - 同一作者、同一手册的多页，以及主题、汇编和课程对同一观点的转述，不重复计作独立支持；独立性与该主张是否被支持分别判断。

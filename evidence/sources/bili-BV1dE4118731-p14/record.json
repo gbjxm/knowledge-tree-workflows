@@ -1,0 +1,199 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p14",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P14 4.2曝光要素",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=14",
+    "bvid": "BV1dE4118731",
+    "page": 14,
+    "cid": 128706426,
+    "text_sha256": "20ab24db3e4cc804bd366f381aa04bd17994701690ff86d6c0283055901e0a22",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p14-4.2曝光要素/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/04 - 第四章 曝光控制（P13-P15）.md",
+    "sha256": "5820c0f19c6db6f98e9ae1c16743ac99c25a24597372d6c71168960637f8931d"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "20ab24db3e4cc804bd366f381aa04bd17994701690ff86d6c0283055901e0a22",
+    "note_sha256": "5820c0f19c6db6f98e9ae1c16743ac99c25a24597372d6c71168960637f8931d",
+    "scope": [
+      [
+        6,
+        155
+      ]
+    ],
+    "items": [
+      {
+        "id": "P14-U01",
+        "item": "曝光量光强时间关系及公式",
+        "source": {
+          "lines": [
+            6,
+            18
+          ]
+        },
+        "note": {
+          "lines": [
+            91,
+            98
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P14-U02",
+        "item": "晒太阳类比与有效控制",
+        "source": {
+          "lines": [
+            19,
+            35
+          ]
+        },
+        "note": {
+          "lines": [
+            91,
+            98
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P14-U03",
+        "item": "光圈快门与照度时间区别",
+        "source": {
+          "lines": [
+            36,
+            50
+          ]
+        },
+        "note": {
+          "lines": [
+            91,
+            98
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P14-U04",
+        "item": "圆柱底面积和高度类比",
+        "source": {
+          "lines": [
+            51,
+            70
+          ]
+        },
+        "note": {
+          "lines": [
+            99,
+            104
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P14-U05",
+        "item": "第一行f2与f2.8互易计算及其他行",
+        "source": {
+          "lines": [
+            71,
+            95
+          ]
+        },
+        "note": {
+          "lines": [
+            105,
+            115
+          ]
+        },
+        "status": "待核",
+        "reason": "第一行图文计算已核；课件后两行小字未完整可靠转录，不用推算值冒充读数。"
+      },
+      {
+        "id": "P14-U06",
+        "item": "互易律整档补偿关系与边界",
+        "source": {
+          "lines": [
+            96,
+            128
+          ]
+        },
+        "note": {
+          "lines": [
+            116,
+            125
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P14-U07",
+        "item": "小景深与流水拖影口述应用",
+        "source": {
+          "lines": [
+            129,
+            155
+          ]
+        },
+        "note": {
+          "lines": [
+            116,
+            125
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P14-U05",
+        "item": "第一行f2与f2.8互易计算及其他行",
+        "status": "待核",
+        "reason": "第一行图文计算已核；课件后两行小字未完整可靠转录，不用推算值冒充读数。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "5fea8e7126bb8ec063c224c046462549b7d566a22330ddafd3f46e7d1c723e6a",
+    "historical_review_sha256": "468cef37212812a252344a1272d661235bf80a72b6b18069366f66169d426e14",
+    "historical_seal_sha256": "3e36a168c76c9da2dd2e842efff3bb36721493a44ab95f7ed315f9897f30de3e",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-04/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "dffdd8b10a2f9c3c3d0a43da0952fb5cb0e5b3e350cdc7c00d567ec447373051",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/04 - 第四章 曝光控制（P13-P15）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-04/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第四章既有学习记录.md",
+    "personal_sha256": "f696808c919a78804bd9fa790632bc9d154363d92f10976d8c4953ea52d8f59c",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-04/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-04/review.md"
+}

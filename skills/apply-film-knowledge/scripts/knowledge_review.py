@@ -2,11 +2,67 @@
 from __future__ import annotations
 import argparse
 import json
+import sys
 from pathlib import Path
 from retrieve_knowledge import load_config, resolve_config
 from knowledge_evidence import load_corpus, make_review, full_evidence, validate_application, utf8_streams
 from knowledge_followup import followup
 from knowledge_scope import make_scope, restore_scope, can_expand, zoned, normalize_role
+
+
+def read_request(config, request, config_path):
+    """Consume an emitted reading locator; it never selects a new config or scope."""
+    if isinstance(request, str):
+        request = json.loads(request)
+    if not isinstance(request, dict):
+        raise ValueError("read-request 必须是返回的 JSON 对象")
+    mode = request.get("mode")
+    common = {"mode", "snapshot", "scope", "offset", "max_chars", "config"}
+    required = {"mode", "snapshot", "scope"}
+    if mode == "evidence":
+        required.add("read_id")
+        allowed = common | {"read_id"}
+    elif mode == "section":
+        required.update({"path", "heading", "document_hash"})
+        allowed = common | {"path", "heading", "document_hash"}
+    else:
+        raise ValueError("read-request mode 必须为 evidence 或 section")
+    if set(request) - allowed or required - set(request):
+        raise ValueError("read-request 字段缺失或含未知字段；请原样传入返回对象")
+    for name in required - {"scope"}:
+        if not isinstance(request[name], str) or not request[name]:
+            raise ValueError(f"read-request {name} 必须是非空字符串")
+    if request["scope"] is not None and not isinstance(request["scope"], dict):
+        raise ValueError("read-request scope 必须是原范围对象")
+    if request.get("config") is not None and Path(request["config"]).resolve() != Path(config_path).resolve():
+        raise ValueError("read-request 不能切换配置；请使用当前配置重新检索")
+    offset, max_chars = request.get("offset", 0), request.get("max_chars", 5000)
+    if type(offset) is not int or type(max_chars) is not int or offset < 0 or max_chars < 1:
+        raise ValueError("read-request offset 必须为非负整数，max_chars 必须为正整数")
+    selected = restore_scope(config, request["scope"]) if request["scope"] is not None else None
+    if zoned(config) and selected is None:
+        raise ValueError("分区续读必须携带原 scope 和 snapshot")
+    if mode == "section":
+        from read_knowledge_section import read_section
+        return read_section(config_path, request["path"], request["heading"], max_chars,
+                            offset, request["snapshot"], request["document_hash"], scope=selected)
+    corpus = load_corpus(config, write_index=False, scope=selected)
+    if request["snapshot"] != corpus["snapshot"]:
+        raise ValueError("知识快照或读取范围已变化，请重新检索")
+    item = full_evidence(corpus, request["read_id"])
+    full = item["excerpt"]
+    if offset > len(full):
+        raise ValueError("offset 超过证据长度")
+    stop = min(offset + max_chars, len(full))
+    item.update(excerpt=full[offset:stop], offset=offset, returned_characters=stop-offset,
+                truncated=stop < len(full), read_required=stop < len(full), continuation=None,
+                returned_line_start=item["line_start"] + full.count("\n", 0, offset),
+                returned_line_end=item["line_start"] + full.count("\n", 0, max(offset, stop-1)))
+    if item["truncated"]:
+        item["continuation"] = {"mode": "evidence", "read_id": item["id"],
+                                "snapshot": corpus["snapshot"], "scope": selected,
+                                "offset": stop, "max_chars": max_chars}
+    return {"snapshot": corpus["snapshot"], "scope": selected, "evidence": item}
 
 
 def review_scoped(config, query, questions=(), *, role="", include_paths=(), scope=None,
@@ -29,7 +85,7 @@ def review_scoped(config, query, questions=(), *, role="", include_paths=(), sco
 
 def main():
     utf8_streams()
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description=__doc__, allow_abbrev=False)
     parser.add_argument("--config")
     parser.add_argument("--query", default="")
     parser.add_argument("--question", action="append", default=[])
@@ -42,6 +98,7 @@ def main():
     parser.add_argument("--expected-output", default="")
     parser.add_argument("--budget", type=int, default=9000)
     parser.add_argument("--read-id")
+    parser.add_argument("--read-request", help="原样传入返回的 continuation JSON；主题与来源共用，无需重新查询")
     parser.add_argument("--snapshot")
     parser.add_argument("--review-file")
     parser.add_argument("--application-file")
@@ -50,7 +107,17 @@ def main():
     parser.add_argument("--scope", help="续读或验证时原样携带返回的 scope JSON")
     args = parser.parse_args()
     try:
-        config = load_config(resolve_config(args.config))
+        config_path = resolve_config(args.config)
+        config = load_config(config_path)
+        if args.read_request is not None:
+            forbidden = {"--query", "--question", "--role", "--stage", "--material", "--task-type",
+                         "--object", "--constraints", "--expected-output", "--budget", "--read-id",
+                         "--snapshot", "--review-file", "--application-file", "--include-path", "--scope"}
+            if any(token.split("=", 1)[0] in forbidden for token in sys.argv[1:]):
+                raise ValueError("read-request 使用原身份，不可同时传入查询或范围参数")
+            result = read_request(config, args.read_request, config_path)
+            print(json.dumps(result, ensure_ascii=False, separators=(",", ":")))
+            return 0
         selected = restore_scope(config, args.scope) if args.scope else None
         if args.scope and (args.include_path or args.role and normalize_role(args.role) != selected["role"]):
             raise ValueError("续读使用原 scope，不能同时改变岗位或追加路径")

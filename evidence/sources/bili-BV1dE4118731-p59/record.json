@@ -1,0 +1,417 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p59",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P59 10.8我们要布光（下）",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=59",
+    "bvid": "BV1dE4118731",
+    "page": 59,
+    "cid": 139217924,
+    "text_sha256": "c312f0f33abf80782acf57a11e3f8d32af675f9a4f93fddaf621d631d2f94e89",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p59-10.8我们要布光（下）/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/15 - 第十章 布光实践（P58-P59）.md",
+    "sha256": "42631f93749f49bc4469d94c338cd70f1e036e9891546fb5fcdcf08f13d1bba4"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "c312f0f33abf80782acf57a11e3f8d32af675f9a4f93fddaf621d631d2f94e89",
+    "note_sha256": "42631f93749f49bc4469d94c338cd70f1e036e9891546fb5fcdcf08f13d1bba4",
+    "scope": [
+      [
+        6,
+        287
+      ]
+    ],
+    "items": [
+      {
+        "id": "P59-U01",
+        "item": "明暗、冷暖的对比与统一，光线变化参与流逝、运动与思想表达。",
+        "source": {
+          "lines": [
+            6,
+            23
+          ]
+        },
+        "note": {
+          "lines": [
+            132,
+            135
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并说明适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P59-U02",
+        "item": "取景与内外自然人工场景，结合历史资料作艺术加工，非随意想象。",
+        "source": {
+          "lines": [
+            24,
+            30
+          ]
+        },
+        "note": {
+          "lines": [
+            136,
+            143
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并说明适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P59-U03",
+        "item": "长城场景艺术化重设，取景同时考虑机位、镜头、构图、光和调度；摄影师现场判断执行。",
+        "source": {
+          "lines": [
+            31,
+            42
+          ]
+        },
+        "note": {
+          "lines": [
+            136,
+            143
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并说明适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P59-U04",
+        "item": "被解救的姜戈庄园楼梯镜头，13米摇臂、裙边焦点、两女上楼、建筑与光相互配合；人名器材数字待核。",
+        "source": {
+          "lines": [
+            43,
+            54
+          ]
+        },
+        "note": {
+          "lines": [
+            144,
+            151
+          ]
+        },
+        "status": "待核",
+        "reason": "M6连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P59-U05",
+        "item": "定光作为曝光控制，基准中间灰、感光曲线、其他亮度安排与宽容度；柯达定光示意图必须读图。",
+        "source": {
+          "lines": [
+            55,
+            69
+          ]
+        },
+        "note": {
+          "lines": [
+            152,
+            161
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并说明适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P59-U06",
+        "item": "高亮门窗控制与暗部细节，窗纱、凡士林、烟雾、贴纸等疑词及窗外补光；不能把效果名当统一实操参数。",
+        "source": {
+          "lines": [
+            70,
+            77
+          ]
+        },
+        "note": {
+          "lines": [
+            162,
+            169
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并说明适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P59-U07",
+        "item": "老炮儿门窗片例，零碎台词与05:57–07:28长ASR窗；影片画面不能据空窗跳过。",
+        "source": {
+          "lines": [
+            78,
+            89
+          ]
+        },
+        "note": {
+          "lines": [
+            170,
+            180
+          ]
+        },
+        "status": "待核",
+        "reason": "M7连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P59-U08",
+        "item": "控制光比，末代皇帝伪满宫中大反差夕阳及人物环境关系，政治意味属于讲者分析。",
+        "source": {
+          "lines": [
+            90,
+            105
+          ]
+        },
+        "note": {
+          "lines": [
+            181,
+            188
+          ]
+        },
+        "status": "待核",
+        "reason": "M8连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P59-U09",
+        "item": "末代皇帝押返车站大光比、厚重感与人物情绪，亮一部分压一部分只是简化说法。",
+        "source": {
+          "lines": [
+            106,
+            127
+          ]
+        },
+        "note": {
+          "lines": [
+            181,
+            188
+          ]
+        },
+        "status": "待核",
+        "reason": "M9连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P59-U10",
+        "item": "影调选择中的高低、软硬，结合场景而非只看整体亮暗。",
+        "source": {
+          "lines": [
+            128,
+            142
+          ]
+        },
+        "note": {
+          "lines": [
+            189,
+            196
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并说明适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P59-U11",
+        "item": "末代皇帝车站高亮天空、烟雾、逆光侧逆光、室内暗区和亮门口对比；词与实际画面待核。",
+        "source": {
+          "lines": [
+            143,
+            168
+          ]
+        },
+        "note": {
+          "lines": [
+            189,
+            196
+          ]
+        },
+        "status": "待核",
+        "reason": "M9连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P59-U12",
+        "item": "用内容和摄影机运动衔接不同光线区域，维持整体氛围。",
+        "source": {
+          "lines": [
+            169,
+            184
+          ]
+        },
+        "note": {
+          "lines": [
+            197,
+            204
+          ]
+        },
+        "status": "待核",
+        "reason": "M10连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P59-U13",
+        "item": "同片车站推进，烟散、暗车体面积增加、由车到战犯和散射光；运动及变化真实过程未审。",
+        "source": {
+          "lines": [
+            185,
+            212
+          ]
+        },
+        "note": {
+          "lines": [
+            197,
+            204
+          ]
+        },
+        "status": "待核",
+        "reason": "M10连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P59-U14",
+        "item": "大景别建氛围，近景特写另调人物光比，以大景别氛围为准；近景光比必更大等绝对化需限定。",
+        "source": {
+          "lines": [
+            213,
+            238
+          ]
+        },
+        "note": {
+          "lines": [
+            205,
+            212
+          ]
+        },
+        "status": "待核",
+        "reason": "M11连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P59-U15",
+        "item": "末代皇帝网球到出宫，暖晴转阴冷、士兵进入、所谓光圈收缩、天气拼接及庄士敦黄昏半剪影；拍摄机制未独立核。",
+        "source": {
+          "lines": [
+            239,
+            267
+          ]
+        },
+        "note": {
+          "lines": [
+            213,
+            222
+          ]
+        },
+        "status": "待核",
+        "reason": "M12连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P59-U16",
+        "item": "实践复杂性与斯特拉罗光线书写电影的结束引语，作者原文和出处未另核。",
+        "source": {
+          "lines": [
+            268,
+            287
+          ]
+        },
+        "note": {
+          "lines": [
+            223,
+            228
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并说明适用条件；登记闭合不等于已听原声或连续审看。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P59-U04",
+        "item": "被解救的姜戈庄园楼梯镜头，13米摇臂、裙边焦点、两女上楼、建筑与光相互配合；人名器材数字待核。",
+        "status": "待核",
+        "reason": "M6连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P59-U07",
+        "item": "老炮儿门窗片例，零碎台词与05:57–07:28长ASR窗；影片画面不能据空窗跳过。",
+        "status": "待核",
+        "reason": "M7连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P59-U08",
+        "item": "控制光比，末代皇帝伪满宫中大反差夕阳及人物环境关系，政治意味属于讲者分析。",
+        "status": "待核",
+        "reason": "M8连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P59-U09",
+        "item": "末代皇帝押返车站大光比、厚重感与人物情绪，亮一部分压一部分只是简化说法。",
+        "status": "待核",
+        "reason": "M9连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P59-U11",
+        "item": "末代皇帝车站高亮天空、烟雾、逆光侧逆光、室内暗区和亮门口对比；词与实际画面待核。",
+        "status": "待核",
+        "reason": "M9连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P59-U12",
+        "item": "用内容和摄影机运动衔接不同光线区域，维持整体氛围。",
+        "status": "待核",
+        "reason": "M10连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P59-U13",
+        "item": "同片车站推进，烟散、暗车体面积增加、由车到战犯和散射光；运动及变化真实过程未审。",
+        "status": "待核",
+        "reason": "M10连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P59-U14",
+        "item": "大景别建氛围，近景特写另调人物光比，以大景别氛围为准；近景光比必更大等绝对化需限定。",
+        "status": "待核",
+        "reason": "M11连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P59-U15",
+        "item": "末代皇帝网球到出宫，暖晴转阴冷、士兵进入、所谓光圈收缩、天气拼接及庄士敦黄昏半剪影；拍摄机制未独立核。",
+        "status": "待核",
+        "reason": "M12连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "c9b4fc3f7473116502873be1b0601c9fcd09d8ae7703c2a19f51afa0cf16cf29",
+    "historical_review_sha256": "55c19247917327741a8e91ee08e60fb6c3af317d86b75ed1ce2af231e9b735b4",
+    "historical_seal_sha256": "c58733ee8b3e4d894599199273188ae1469b4fa6bb4e7f4a49a980b1d05d349a",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-15/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "8cda46dcf943a409cec29f9a9d423cff1689c065a2a2862b7732ee549ae62ca2",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/15 - 第十章 布光实践（P58-P59）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-15/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章布光实践既有学习记录.md",
+    "personal_sha256": "4b81da6352be03607ea0c938148836936866d0db0cf1eff2308fcfc72a5fd4d3",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-15/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-15/review.md"
+}

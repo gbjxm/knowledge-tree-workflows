@@ -1,0 +1,245 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p9",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P9 3.1照相机机身结构",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=9",
+    "bvid": "BV1dE4118731",
+    "page": 9,
+    "cid": 127374455,
+    "text_sha256": "c0ffad8c4cc15d40e74aab533519807a157eeb098a4b7291d7d7dbaf473585b8",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p9-3.1照相机机身结构/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/03 - 第三章 摄影机结构、快门与机型（P9-P12）.md",
+    "sha256": "43af824c6009806012047c9bafdadeb4a3942266ee0ed42ebe317541a9bdaf0e"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "c0ffad8c4cc15d40e74aab533519807a157eeb098a4b7291d7d7dbaf473585b8",
+    "note_sha256": "43af824c6009806012047c9bafdadeb4a3942266ee0ed42ebe317541a9bdaf0e",
+    "scope": [
+      [
+        6,
+        322
+      ]
+    ],
+    "items": [
+      {
+        "id": "P9-U01",
+        "item": "机身暗箱与集成功能分工",
+        "source": {
+          "lines": [
+            6,
+            28
+          ]
+        },
+        "note": {
+          "lines": [
+            47,
+            54
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P9-U02",
+        "item": "帘幕及快门装置/时间两义；读音插话合并",
+        "source": {
+          "lines": [
+            29,
+            57
+          ]
+        },
+        "note": {
+          "lines": [
+            47,
+            54
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P9-U03",
+        "item": "秒、两倍/一半档位与光圈配合",
+        "source": {
+          "lines": [
+            58,
+            94
+          ]
+        },
+        "note": {
+          "lines": [
+            47,
+            54
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P9-U04",
+        "item": "皮尺量演员与双影重合测距，酒瓶男孩配图",
+        "source": {
+          "lines": [
+            95,
+            141
+          ]
+        },
+        "note": {
+          "lines": [
+            55,
+            64
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P9-U05",
+        "item": "主动测距、返回时间、雷达/蝙蝠、马达",
+        "source": {
+          "lines": [
+            142,
+            182
+          ]
+        },
+        "note": {
+          "lines": [
+            55,
+            64
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P9-U06",
+        "item": "左右选主体、半按、多点与摩托车图",
+        "source": {
+          "lines": [
+            183,
+            207
+          ]
+        },
+        "note": {
+          "lines": [
+            55,
+            64
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P9-U07",
+        "item": "七点眼控/前后主体清晰对照、检测视线与主动测距分开、厂商动机猜测",
+        "source": {
+          "lines": [
+            208,
+            251
+          ]
+        },
+        "note": {
+          "lines": [
+            65,
+            72
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P9-U08",
+        "item": "取景范围与记录对应",
+        "source": {
+          "lines": [
+            252,
+            265
+          ]
+        },
+        "note": {
+          "lines": [
+            73,
+            87
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P9-U09",
+        "item": "俯视/平视/框式/光学直透取景姿态与结构",
+        "source": {
+          "lines": [
+            266,
+            292
+          ]
+        },
+        "note": {
+          "lines": [
+            73,
+            87
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P9-U10",
+        "item": "集成机壳、8×10皮腔和遮杂光",
+        "source": {
+          "lines": [
+            293,
+            322
+          ]
+        },
+        "note": {
+          "lines": [
+            73,
+            87
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "e96cb356b15ed5c68a3dda669190bd34c4186f7f0bc9632de152d5ec1c13f543",
+    "historical_review_sha256": "18f33f3b22328ddf2fec746795c8658897d26fd39e51aa45e624a2f07e77d29a",
+    "historical_seal_sha256": "8b8a7e3f0bf69b6d576a20c24f3dc9f78755bf2b2306ab482bb543b56bce789e",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-03/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "36f71b7a8a1c0786ee0657c697871a6c70b7a66fbc7ca2f6f72e7075674748fb",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/03 - 第三章 摄影机结构、快门与机型（P9-P12）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-03/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第三章既有学习记录.md",
+    "personal_sha256": "a9e04af77d8f44f06bdf0d2d4556cadf7dfbb4630860b28af715985c0e150c9d",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-03/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-03/review.md"
+}

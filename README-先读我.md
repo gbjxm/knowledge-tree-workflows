@@ -30,6 +30,8 @@
 
 课程和个人学习材料默认在学习区完成整理，不自动进入创作。用户选定具体知识后才转入相应创作岗位，并保留学习来源。默认创作调用先本岗与共用，再按需跨创作岗位；学习笔记仅在本次点名时通过 `--include-path` 加入，链接不扩张读取范围。完整归位和旧配置兼容规则见[分区契约](skills/grow-creative-library/references/library-layout.md)。
 
+按原视频复核已有课程时，使用[课程来源复核流程](docs/课程来源复核流程.md)。已固定的信息取舍规则仍需结合每批实际声画证据验收；小样本文字测试不代表四门课全部通过。
+
 ## 正式核心 Skills 与预览模块
 
 `manifest/modules.json` 是验证、安装和打包共用的模块清单。默认正式集合为以下八个核心 Skills：
@@ -45,6 +47,20 @@
 - `generate-film-breakdown-report` 与 `operate-film-breakdown-library`：作为依赖闭合的拉片 v2 预览单元单独登记，本轮不自动安装或晋升；现有拉片笔记、报告和图片仍保留。本机已有旧拉片入口不因核心更新而删除。
 
 不支持原生 Skills 的 AI，应把 `skills\每个-skill\SKILL.md` 当作工作说明直接读取，不要改写 Skill 语义。
+
+## 检查技能同步
+
+说“检查技能同步”或“检查安装一致性”，即可只读比较工作区正式技能与安装副本：
+
+```powershell
+.\scripts\verify.ps1 -Mode Installed
+# 需要限定范围或指定安装位置时：
+.\scripts\verify.ps1 -Mode Installed -TargetSkillsRoot '<安装目录>' -SkillNames 'grow-creative-library','bilibili-study-notes'
+```
+
+默认只比较模块清单中的八个正式技能，分别报告缺失、内容差异、额外文件和必要依赖入口缺失。目录、日志和缓存按现有安装规则筛选，忽略数量按被跳过的项计数。安装目录沿用已有安装工具的解析规则；其他技能和预览模块不参与比较。
+
+返回码 `0` 为一致、`1` 为发现差异、`2` 为无法完成检查。额外文件或不同内容需要核对，不自动覆盖或删除，也不据此认定实际回答效果。仅在点名或技能维护收尾时运行；默认 Daily、发布与隔离恢复仍不依赖本机安装状态。
 
 ## 按需备份到 GitHub
 
@@ -81,6 +97,19 @@ powershell -ExecutionPolicy Bypass -File .\scripts\package.ps1
 打包暂存与解压自检使用配置的 `raw_cache/release-staging`，不依赖系统 TEMP。本机这些中间产物及默认发布包都放在 D 盘；预览不会创建暂存目录。
 
 长期来源复核记录位于配置的 `source_evidence`（本工作区为 `evidence/sources`）。记录可以随包迁移，完整转写和媒体仍留原缓存；缺原文时只能回看历史结论，不能声称已经重新核验原文。旧缓存与旧证据不会自动删除。
+
+## 原材料与缓存
+
+缓存目录还保存实际整理依据，不能统一视为可删除的临时文件。已取得的原书、音视频、用于整理的转写、人工校正稿和复核依据默认保留；用途不明的先保留。只在确认原件、重建方法及没有独立价值后，才提出清理候选，实际清理另定范围。
+
+说“盘点原材料”或“查看缓存”可按需只读查看；也可在工作区运行：
+
+```powershell
+python -B -X utf8 .\skills\grow-creative-library\scripts\cache_report.py --details
+# 需要机器可读报告时增加 --json；原有不带 --details 的统计用法仍可用。
+```
+
+详细盘点提供目录用量和已有来源记录的文件定位、存在性及哈希状态，不把未登记材料当成未使用，不新增逐文件登记或自动清理任务。原材料仍未纳入 GitHub 备份。完整规则见[共享保留约定](skills/grow-creative-library/references/durable-source-evidence.md#原材料保留与按需盘点)。
 
 ## 当前任务与学习方向
 

@@ -93,6 +93,7 @@ class Topic:
     aliases: list[str] = field(default_factory=list)
     chunks: list[KnowledgeChunk] = field(default_factory=list)
     relations: list[FormalRelation] = field(default_factory=list)
+    document_hash: str = ""
 
 
 @dataclass
@@ -159,18 +160,34 @@ def parse_frontmatter(text: str) -> tuple[dict[str, Any], str]:
     return data, text[match.end():]
 
 
+def _heading_mask(body: str) -> str:
+    """Keep offsets while masking fenced code from structural-heading regexes."""
+    rows, fence = [], None
+    for line in body.splitlines(keepends=True):
+        marker = re.match(r"^\s*(`{3,}|~{3,})", line)
+        inside = fence is not None
+        if marker:
+            token = marker.group(1)
+            if fence is None:
+                fence = token
+            elif token[0] == fence[0] and len(token) >= len(fence) and not line[marker.end():].strip():
+                fence = None
+        rows.append(re.sub(r"[^\r\n]", "x", line) if inside or marker else line)
+    return "".join(rows)
+
+
 def _section(body: str, heading: str, level: int = 2) -> str:
     hashes = "#" * level
     pattern = rf"(?ms)^{re.escape(hashes)}\s+{re.escape(heading)}\s*\n(.*?)(?=^#{{1,{level}}}\s|\Z)"
-    match = re.search(pattern, body)
-    return match.group(1).strip() if match else ""
+    match = re.search(pattern, _heading_mask(body))
+    return body[match.start(1):match.end(1)].strip() if match else ""
 
 
 def _subsections(block: str, parent: str) -> list[KnowledgeChunk]:
     chunks: list[KnowledgeChunk] = []
     pattern = r"(?ms)^###\s+(.+?)\s*\n(.*?)(?=^#{1,3}\s|\Z)"
-    for match in re.finditer(pattern, block):
-        content = match.group(2).strip()
+    for match in re.finditer(pattern, _heading_mask(block)):
+        content = block[match.start(2):match.end(2)].strip()
         if content:
             chunks.append(KnowledgeChunk(match.group(1).strip(), content, parent))
     if block.strip() and not chunks:
@@ -186,7 +203,7 @@ KNOWLEDGE_STOP_SECTIONS = {
 
 def _knowledge_chunks(body: str) -> list[KnowledgeChunk]:
     """Split the method body into H2/H3 chunks without loading source/review tails."""
-    headings = list(re.finditer(r"(?m)^##\s+(.+?)\s*$", body))
+    headings = list(re.finditer(r"(?m)^##\s+(.+?)\s*$", _heading_mask(body)))
     active = False
     chunks: list[KnowledgeChunk] = []
     for index, match in enumerate(headings):
@@ -256,7 +273,8 @@ def _as_list(value: Any) -> list[str]:
 def load_topics(library: Path, *, files=None) -> list[Topic]:
     topics: list[Topic] = []
     for path in (files if files is not None else sorted(library.rglob("*.md"), key=lambda item: str(item).casefold())):
-        text = path.read_text(encoding="utf-8-sig")
+        raw = path.read_bytes()
+        text = raw.decode("utf-8-sig").replace("\r\n", "\n").replace("\r", "\n")
         meta, body = parse_frontmatter(text)
         if meta.get("类型") != "主题笔记":
             continue
@@ -279,6 +297,7 @@ def load_topics(library: Path, *, files=None) -> list[Topic]:
                 aliases=_as_list(meta.get("aliases") or meta.get("检索别名")),
                 chunks=chunks,
                 relations=parse_formal_relations(body),
+                document_hash=hashlib.sha256(raw).hexdigest(),
             )
         )
     return topics
@@ -439,6 +458,71 @@ def _first_action(topic: Topic, chunks: list[KnowledgeChunk]) -> str:
     return first.strip() or f"先按《{topic.title}》完成当前问题的最小检查。"
 
 
+def _reading_info(original: str, shown: str, heading: str) -> dict[str, Any]:
+    normalize_space = lambda value: re.sub(r"\n{3,}", "\n\n", value.replace("\r\n", "\n").replace("\r", "\n").strip())
+    truncated = normalize_space(original) != normalize_space(shown)
+    return {"heading": heading, "characters": len(original), "returned_characters": len(shown),
+            "truncated": truncated, "read_required": truncated, "continuation": None}
+
+
+def _bind_readings(result, corpus):
+    """Bind displayed fragments to exact, versioned sections without changing ranking."""
+    from read_knowledge_section import extract_heading
+    for card in result["candidates"]:
+        path = Path(card["path"])
+        key = path.relative_to(Path(corpus["vault"])).as_posix()
+        doc = corpus["documents"].get(key)
+        if not doc or doc["kind"] != "topic":
+            raise ValueError("快查文章身份已变化，请重新检索")
+        if card.get("document_hash") and card["document_hash"] != doc["hash"]:
+            raise ValueError("快查缓存与当前文章版本不一致，请重新检索")
+        raw = path.read_bytes()
+        if hashlib.sha256(raw).hexdigest() != doc["hash"]:
+            raise ValueError("快查期间文章发生变化，请重新检索")
+        text = raw.decode("utf-8-sig")
+        card.update(kind="topic", document_hash=doc["hash"])
+        entries = [(item, item["content"]) for item in card["method_chunks"]]
+        entries += [(item, card[name]) for name, item in card["reading"].items()]
+        for item, shown in entries:
+            try:
+                _, full = extract_heading(text, item["heading"])
+            except ValueError as exc:
+                # Ambiguous or stale headings must not quietly select another section.
+                item.update(read_required=True, continuation=None, reading_error=str(exc),
+                            reading_hint="用 knowledge_review.py 获取该段准确证据 ID 后续读")
+                continue
+            item.update(_reading_info(full, shown, item["heading"]))
+            if item["read_required"]:
+                item["continuation"] = {"mode": "section", "path": str(path), "heading": item["heading"],
+                    "offset": 0, "max_chars": 5000, "document_hash": doc["hash"],
+                    "snapshot": corpus["snapshot"], "scope": corpus.get("scope")}
+        card["truncated"] = any(item["truncated"] for item, _ in entries)
+        card["read_required"] = any(item["read_required"] for item, _ in entries)
+    for item in result.get("source_candidates", []):
+        item["truncated"] = item["read_required"]
+        item["returned_characters"] = len(item["excerpt"])
+        item["continuation"] = ({"mode": "evidence", "read_id": item["id"],
+                                 "snapshot": corpus["snapshot"], "scope": corpus.get("scope")}
+                                if item["read_required"] else None)
+    result["snapshot"] = corpus["snapshot"]
+    if corpus.get("scope") is not None:
+        result["scope"] = corpus["scope"]
+
+
+def _candidate_navigation(result, corpus, budget=1200):
+    selected_paths = {card["path"] for card in result["candidates"] + result.get("source_candidates", [])}
+    all_links = [{"path": key, **link} for key, doc in corpus["documents"].items() for link in doc.get("scope_links", [])]
+    relevant = [link for link in all_links if str(Path(corpus["vault"]) / link["path"]) in selected_paths]
+    returned = list(relevant)
+    while returned and len(json.dumps(returned, ensure_ascii=False, separators=(",", ":"))) > budget:
+        returned.pop()
+    result["out_of_scope_links"] = returned
+    result["out_of_scope_link_summary"] = {
+        "selection": "evidence_documents_only", "total_in_scope": len(all_links), "relevant": len(relevant),
+        "returned": len(returned), "omitted_unrelated": len(all_links)-len(relevant),
+        "omitted_for_budget": len(relevant)-len(returned), "relevant_complete": len(returned)==len(relevant)}
+
+
 def _topic_score(
     topic: Topic,
     terms: list[str],
@@ -522,6 +606,7 @@ def retrieve(
         card: dict[str, Any] = {
             "title": topic.title,
             "path": str(topic.path),
+            "document_hash": topic.document_hash,
             "category": topic.category,
             "solves": topic.problem,
             "stages": topic.stages,
@@ -560,6 +645,18 @@ def retrieve(
                 for relation in topic.relations[:3]
             ],
         }
+        card["reading"] = {
+            "core": _reading_info(topic.summary or topic.core, card["core"],
+                                  "一分钟核心摘要" if topic.summary else "核心命题"),
+            "boundary": _reading_info(topic.boundary, card["boundary"], "适用边界"),
+            "default_practice": _reading_info(topic.default_practice, card["default_practice"], "我的默认做法"),
+        }
+        card["reading"] = {name: item for name, item in card["reading"].items() if item["characters"]}
+        for item, chunk in zip(card["method_chunks"], selected_chunks):
+            item.update(_reading_info(chunk.content, item["content"], chunk.heading))
+        reading = list(card["reading"].values()) + card["method_chunks"]
+        card["truncated"] = any(item["truncated"] for item in reading)
+        card["read_required"] = any(item["read_required"] for item in reading)
         if debug:
             card.update({"score": round(score, 3), "semantic_score": round(semantic, 3)})
         candidates.append(card)
@@ -606,8 +703,7 @@ def retrieve(
 def _index_signature(library: Path) -> str:
     rows: list[str] = []
     for path in sorted(library.rglob("*.md"), key=lambda item: str(item).casefold()):
-        stat = path.stat()
-        rows.append(f"{path.relative_to(library).as_posix()}|{stat.st_size}|{stat.st_mtime_ns}")
+        rows.append(f"{path.relative_to(library).as_posix()}|{hashlib.sha256(path.read_bytes()).hexdigest()}")
     return hashlib.sha256("\n".join(rows).encode("utf-8")).hexdigest()
 
 
@@ -631,6 +727,7 @@ def _topic_from_json(payload: dict[str, Any]) -> Topic:
         default_practice=payload.get("default_practice", ""),
         summary=payload.get("summary", ""),
         aliases=list(payload.get("aliases", [])),
+        document_hash=payload.get("document_hash", ""),
         chunks=[KnowledgeChunk(**item) for item in payload.get("chunks", [])],
         relations=[FormalRelation(**item) for item in payload.get("relations", [])],
     )
@@ -685,7 +782,7 @@ def load_config(config_path: Path) -> dict[str, Any]:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description=__doc__, allow_abbrev=False)
     parser.add_argument("--query", required=True, help="具体创作问题")
     parser.add_argument("--role", default="", choices=("", "A", "B", "C", "C1", "C2", "D", "E"))
     parser.add_argument("--stage", default="", help="工作流阶段")
@@ -712,6 +809,9 @@ def retrieve_scoped(config, query, *, role="", include_paths=(), stage="", limit
             topics, routes, cache_status = load_or_build_index(library, cache, no_cache=no_cache)
             result = retrieve(topics, query, stage, limit, routes=routes, role=role, **context)
             result["index_cache"] = {"status": cache_status, "path": str(cache / INDEX_RELATIVE)}
+            # Old configurations keep the same candidate set, with bound reading locators added.
+            corpus = load_corpus(config, write_index=False)
+            _bind_readings(result, corpus)
             return result
         corpus = load_corpus(config, write_index=not no_cache, scope=scope)
         files = [Path(corpus["vault"]) / key for key in corpus["files"]]
@@ -723,12 +823,13 @@ def retrieve_scoped(config, query, *, role="", include_paths=(), stage="", limit
         result["source_count"] = len(source_keys)
         result["gap"] = not result["candidates"] and not rows
         result["gap_reason"] = "本次读取范围没有有效主题或来源候选" if result["gap"] else None
-        result.update(scope=scope, snapshot=corpus["snapshot"], index_errors=corpus["errors"],
-                      out_of_scope_links=[{"path": k, **link} for k, d in corpus["documents"].items() for link in d.get("scope_links", [])])
+        result.update(scope=scope, snapshot=corpus["snapshot"], index_errors=corpus["errors"])
         result["index_cache"] = {"status": "disabled" if no_cache else "scoped_discovery_only"}
         if result["gap"] and can_expand(scope):
             scope = make_scope(config, role, include_paths, expanded=True)
             continue
+        _bind_readings(result, corpus)
+        _candidate_navigation(result, corpus)
         return result
 
 

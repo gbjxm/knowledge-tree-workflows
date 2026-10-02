@@ -1,0 +1,308 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p7",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 第三课-八要素的实战应用3.1",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=7",
+    "bvid": "BV1eE411F73t",
+    "page": 7,
+    "cid": 167856598,
+    "text_sha256": "3f22cd7e5d3fd5894924ab2e92cb2018aa01cdc7c317ae187c533dd9f4d3c53a",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/reused-sources/BV1eE411F73t-p7/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/03 - 第三课 八要素的实战应用（P7-P8）.md",
+    "sha256": "4a6488d54d19c3268945b0060d1bf3d9ed1a98680eeed2a02df3221cf65d124b"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "3f22cd7e5d3fd5894924ab2e92cb2018aa01cdc7c317ae187c533dd9f4d3c53a",
+    "note_sha256": "4a6488d54d19c3268945b0060d1bf3d9ed1a98680eeed2a02df3221cf65d124b",
+    "scope": [
+      [
+        6,
+        72
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "八要素回顾/阻力精彩与教学立场",
+        "source": {
+          "lines": [
+            6,
+            17
+          ]
+        },
+        "note": {
+          "lines": [
+            50,
+            50
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U2",
+        "item": "蝌蚪简拆及讲师不记得的范围",
+        "source": {
+          "lines": [
+            18,
+            21
+          ]
+        },
+        "note": {
+          "lines": [
+            52,
+            52
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U3",
+        "item": "完整不等于精彩和未立即套写原因",
+        "source": {
+          "lines": [
+            22,
+            24
+          ]
+        },
+        "note": {
+          "lines": [
+            54,
+            54
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U4",
+        "item": "警察原型八项与朋友不想看",
+        "source": {
+          "lines": [
+            25,
+            26
+          ]
+        },
+        "note": {
+          "lines": [
+            58,
+            58
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U5",
+        "item": "题材份额经验及海外背景未展开",
+        "source": {
+          "lines": [
+            27,
+            29
+          ]
+        },
+        "note": {
+          "lines": [
+            72,
+            72
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U6",
+        "item": "小案树立人物到大案的夏洛克转述",
+        "source": {
+          "lines": [
+            30,
+            37
+          ]
+        },
+        "note": {
+          "lines": [
+            74,
+            74
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U7",
+        "item": "身份吸引力与负价值定语",
+        "source": {
+          "lines": [
+            38,
+            43
+          ]
+        },
+        "note": {
+          "lines": [
+            78,
+            78
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U8",
+        "item": "邪恶仍可追求三种正义",
+        "source": {
+          "lines": [
+            44,
+            45
+          ]
+        },
+        "note": {
+          "lines": [
+            80,
+            80
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U9",
+        "item": "教师正负期待对照及主题负价值",
+        "source": {
+          "lines": [
+            46,
+            50
+          ]
+        },
+        "note": {
+          "lines": [
+            82,
+            82
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U10",
+        "item": "欲望原始/猴子香蕉爱情复仇上位",
+        "source": {
+          "lines": [
+            51,
+            56
+          ]
+        },
+        "note": {
+          "lines": [
+            88,
+            88
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U11",
+        "item": "动作及物与对象",
+        "source": {
+          "lines": [
+            57,
+            57
+          ]
+        },
+        "note": {
+          "lines": [
+            92,
+            92
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U12",
+        "item": "悬念可换可重合但不断/强度",
+        "source": {
+          "lines": [
+            58,
+            60
+          ]
+        },
+        "note": {
+          "lines": [
+            96,
+            96
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U13",
+        "item": "主副大小组合三层阻力及纯正主角取舍",
+        "source": {
+          "lines": [
+            61,
+            67
+          ]
+        },
+        "note": {
+          "lines": [
+            102,
+            102
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U14",
+        "item": "结果绕过动作及偷饼被抓/放弃获赠",
+        "source": {
+          "lines": [
+            68,
+            72
+          ]
+        },
+        "note": {
+          "lines": [
+            110,
+            110
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-25",
+    "scope": "来源先行及成稿后完整回读ASR行6–72（3–1669秒）；实际看146张原帧与画内字幕/板书，精确时码见本批清单；未听审、未连续审看。",
+    "summary": "两P合课保存八要素实战口诀、理由与例外，完整展开求死警察的前史、转折因果、结局分支及取舍；补回阻力组合和结局揭示时机，纠正害怕孩子/逃避死亡，保护旧稿学习记录和SVG。",
+    "method": "主代理来源先行，成稿后独立步骤完整回读两P ASR及候选，双向语义检查、旧稿独特内容去向和六项实际使用检查；非盲评、非第二评审者。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看；静帧/板书/字幕不证明动作、语气、节奏或声画同步已核清。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "题材份额、性别类型片经验、审查顾虑、网大评价为讲师判断，天堂规则为虚构人物信念；影片仅按课堂转述保存，没有外部事实验证。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "6553cbf0e042a7e18c9c738a21cf123d3c2080a58bb6f703cf2f16b74a789fd2",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/查理老师的编剧课/03 - 第三课 八要素的实战应用（P7-P8）.md",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第三课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-03/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-03/review.md"
+}

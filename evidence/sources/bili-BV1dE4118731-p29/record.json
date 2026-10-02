@@ -1,0 +1,299 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p29",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P29 7.6影像的角度选择——正面角度与斜侧角度",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=29",
+    "bvid": "BV1dE4118731",
+    "page": 29,
+    "cid": 134705406,
+    "text_sha256": "262be5b92a1909772677ea6995c21098a2e573de08f0890b5ee03f019e2f1e9f",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p29-7.6影像的角度选择——正面角度与斜侧角度/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/08 - 第七章 拍摄角度与景别（P26-P32）.md",
+    "sha256": "41424109196fc1868c0518a3837c22a27970e218a00ab7e6c64d4745b13567a6"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "262be5b92a1909772677ea6995c21098a2e573de08f0890b5ee03f019e2f1e9f",
+    "note_sha256": "41424109196fc1868c0518a3837c22a27970e218a00ab7e6c64d4745b13567a6",
+    "scope": [
+      [
+        6,
+        253
+      ]
+    ],
+    "items": [
+      {
+        "id": "P29-U01",
+        "item": "方向关系改变形象、主体与陪体/背景关系",
+        "source": {
+          "lines": [
+            6,
+            18
+          ]
+        },
+        "note": {
+          "lines": [
+            163,
+            168
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P29-U02",
+        "item": "正、侧、斜侧、反侧、背五方位",
+        "source": {
+          "lines": [
+            19,
+            27
+          ]
+        },
+        "note": {
+          "lines": [
+            163,
+            168
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P29-U03",
+        "item": "正面、直接交流与形状表达",
+        "source": {
+          "lines": [
+            28,
+            39
+          ]
+        },
+        "note": {
+          "lines": [
+            163,
+            178
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P29-U04",
+        "item": "伞状树冠以正面突出形状",
+        "source": {
+          "lines": [
+            40,
+            58
+          ]
+        },
+        "note": {
+          "lines": [
+            169,
+            178
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P29-U05",
+        "item": "建筑与水中倒影，色块几何平面感",
+        "source": {
+          "lines": [
+            59,
+            88
+          ]
+        },
+        "note": {
+          "lines": [
+            169,
+            178
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P29-U06",
+        "item": "儿童蓬发正面形状，斜侧将增方向",
+        "source": {
+          "lines": [
+            89,
+            109
+          ]
+        },
+        "note": {
+          "lines": [
+            169,
+            178
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P29-U07",
+        "item": "建筑照片“城市使生活平面化”阐释",
+        "source": {
+          "lines": [
+            110,
+            119
+          ]
+        },
+        "note": {
+          "lines": [
+            169,
+            178
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P29-U08",
+        "item": "斜侧、立体、纵深、方向",
+        "source": {
+          "lines": [
+            120,
+            141
+          ]
+        },
+        "note": {
+          "lines": [
+            179,
+            184
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P29-U09",
+        "item": "30°/60°转身示范",
+        "source": {
+          "lines": [
+            142,
+            162
+          ]
+        },
+        "note": {
+          "lines": [
+            179,
+            184
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P29-U10",
+        "item": "柱廊较侧的斜角与假设正面重叠",
+        "source": {
+          "lines": [
+            163,
+            189
+          ]
+        },
+        "note": {
+          "lines": [
+            179,
+            184
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P29-U11",
+        "item": "较正的斜角兼顾脸部、纵深和对话方向",
+        "source": {
+          "lines": [
+            190,
+            212
+          ]
+        },
+        "note": {
+          "lines": [
+            185,
+            190
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P29-U12",
+        "item": "七分面、远眼角与轮廓关系",
+        "source": {
+          "lines": [
+            213,
+            237
+          ]
+        },
+        "note": {
+          "lines": [
+            185,
+            190
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P29-U13",
+        "item": "斜向取景兼纵深与形式",
+        "source": {
+          "lines": [
+            238,
+            253
+          ]
+        },
+        "note": {
+          "lines": [
+            185,
+            190
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "1a2a87d6492dcab43ab50c659d79eca1a247160b3e49bf591d3de42dd5999894",
+    "historical_review_sha256": "b8efe4dee5c875eb5df9edd935f69a3c58b41779b6f7bdb5002785ff8c436573",
+    "historical_seal_sha256": "28427e59be14c7c78b47db059bfc618f1e124a87f9bf1a111e3d6e82570b8576",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-08/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "77c2fd8deb98af639601c9dce13aaf08bb95eeb01d66f5d36883473113bb7644",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/08 - 第七章 拍摄角度与景别（P26-P32）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-08/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第七章拍摄角度与景别既有学习记录.md",
+    "personal_sha256": "ede4bc4d14dd158a07e10d5b91d8c400ca0c3dce0939cd41b3a1f6093ed4bacc",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-08/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-08/review.md"
+}

@@ -1,0 +1,307 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p5",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P5 2.3不同类型的镜头",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=5",
+    "bvid": "BV1dE4118731",
+    "page": 5,
+    "cid": 126008394,
+    "text_sha256": "33be0118334c9f0dce7f0e152c0da952d63c97477c77ffaf868b80d615cab81d",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p5-2.3不同类型的镜头/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/02 - 第二章 镜头原理、类型与光学控制（P3-P8）.md",
+    "sha256": "15899e3b9e24d5e4d6d0877c9f24cfb32bfe8bd6a438fc888c9c9d0a1e7999f8"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "33be0118334c9f0dce7f0e152c0da952d63c97477c77ffaf868b80d615cab81d",
+    "note_sha256": "15899e3b9e24d5e4d6d0877c9f24cfb32bfe8bd6a438fc888c9c9d0a1e7999f8",
+    "scope": [
+      [
+        6,
+        249
+      ]
+    ],
+    "items": [
+      {
+        "id": "P5-U01",
+        "item": "焦距分类回顾、25mm饼干图、相同价格下标准焦段质量经验",
+        "source": {
+          "lines": [
+            6,
+            35
+          ]
+        },
+        "note": {
+          "lines": [
+            112,
+            121
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P5-U02",
+        "item": "巨型长焦体积/口径/成本，蔡司哈苏75kg故事与Leica图不一致",
+        "source": {
+          "lines": [
+            36,
+            57
+          ]
+        },
+        "note": {
+          "lines": [
+            112,
+            121
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P5-U03",
+        "item": "鱼眼极广、凹透镜原字幕、伦敦近百万故事和中等焦段取舍",
+        "source": {
+          "lines": [
+            58,
+            90
+          ]
+        },
+        "note": {
+          "lines": [
+            112,
+            121
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P5-U04",
+        "item": "变焦范围连续选择，28–85/16–35/70–200及另口述100–600",
+        "source": {
+          "lines": [
+            91,
+            130
+          ]
+        },
+        "note": {
+          "lines": [
+            122,
+            127
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P5-U05",
+        "item": "特殊功能引入、近物贴眼类比与共轭关系、近摄成像距离",
+        "source": {
+          "lines": [
+            131,
+            155
+          ]
+        },
+        "note": {
+          "lines": [
+            128,
+            136
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P5-U06",
+        "item": "Canon100mm微距叶片尖端叶脉水滴特写",
+        "source": {
+          "lines": [
+            156,
+            163
+          ]
+        },
+        "note": {
+          "lines": [
+            128,
+            136
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P5-U07",
+        "item": "65mm1–5倍成像放大率，昆虫头、水珠、铅笔尖三个例",
+        "source": {
+          "lines": [
+            164,
+            180
+          ]
+        },
+        "note": {
+          "lines": [
+            128,
+            136
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P5-U08",
+        "item": "近摄接圈位置与低成本原理，任意镜头说法的兼容边界",
+        "source": {
+          "lines": [
+            181,
+            194
+          ]
+        },
+        "note": {
+          "lines": [
+            137,
+            142
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P5-U09",
+        "item": "建筑汇聚/平行线及错开镜体；tilt/shift外部澄清",
+        "source": {
+          "lines": [
+            195,
+            224
+          ]
+        },
+        "note": {
+          "lines": [
+            143,
+            154
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P5-U10",
+        "item": "回看影片寻找移轴的观察题、垂直线和沙盘感不等于制作证明",
+        "source": {
+          "lines": [
+            225,
+            238
+          ]
+        },
+        "note": {
+          "lines": [
+            143,
+            154
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P5-U11",
+        "item": "多元莫斯科片中片的连续声画",
+        "source": {
+          "lines": [
+            239,
+            239
+          ]
+        },
+        "note": {
+          "lines": [
+            143,
+            154
+          ]
+        },
+        "status": "待核",
+        "reason": "已看58帧总样本及定点帧中的城市/清晰带/两类建筑；11:18–13:24连续运动、切点、声音未审，不以静帧解除门槛。"
+      },
+      {
+        "id": "P5-U12",
+        "item": "白天移轴/夜间常规建筑冻结图及多风格衔接的回答",
+        "source": {
+          "lines": [
+            240,
+            244
+          ]
+        },
+        "note": {
+          "lines": [
+            143,
+            154
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P5-U13",
+        "item": "镜头成像特性扩展选择、收束",
+        "source": {
+          "lines": [
+            245,
+            249
+          ]
+        },
+        "note": {
+          "lines": [
+            143,
+            154
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P5-U11",
+        "item": "多元莫斯科片中片的连续声画",
+        "status": "待核",
+        "reason": "已看58帧总样本及定点帧中的城市/清晰带/两类建筑；11:18–13:24连续运动、切点、声音未审，不以静帧解除门槛。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "8022b5da463702e9e02006c43cf635b3fbab78b2268fd0f2b8925d6200ab5d43",
+    "historical_review_sha256": "9851f52275fe2ff61d005ee8787614db42dd15f204e00fea067232d61b39f91a",
+    "historical_seal_sha256": "5830971f3b445dcd6e28549b295ff4acff4f9d93f1cdf5b8ea886ca35c3c02a9",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-02/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "55dfd8c044c541b29615c2452ab902948c31dfb91efb64b7bc4f8b25ac8ebdd9",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/02 - 第二章 镜头原理、类型与光学控制（P3-P8）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-02/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第二章既有学习记录.md",
+    "personal_sha256": "9ed73945cfd87f37d6b06a15a6040176a0d27a7a7f6d78c7ea85faadb5be2fad",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-02/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-02/review.md"
+}

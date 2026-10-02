@@ -1,0 +1,438 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p46",
+  "source": {
+    "kind": "video",
+    "title": "二十二课-G潮上不去？（上）22.1",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=46",
+    "bvid": "BV1eE411F73t",
+    "page": 46,
+    "cid": 252711256,
+    "text_sha256": "44b012c0d372723439a5befad8357e29aaa3b316fdf384a36aabf6c12388c27e",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/new-transcripts/BV1eE411F73t-p46/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/22 - 第二十二课 高潮上不去（P46-P47）.md",
+    "sha256": "f96030b2837dd703658518e19f9d041341b08b9a1d0715b7ffc4f6c3e4c7d82d"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "44b012c0d372723439a5befad8357e29aaa3b316fdf384a36aabf6c12388c27e",
+    "note_sha256": "f96030b2837dd703658518e19f9d041341b08b9a1d0715b7ffc4f6c3e4c7d82d",
+    "scope": [
+      [
+        6,
+        1132
+      ]
+    ],
+    "items": [
+      {
+        "id": "U01",
+        "item": "天冷、帽子、送礼、班委/教务、线下计划属于背景，压缩。练习重要、片尾将布置作业应保留，不能因开场闲话多而整段跳读。",
+        "source": {
+          "lines": [
+            6,
+            157
+          ]
+        },
+        "note": {
+          "lines": [
+            42,
+            42
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U02",
+        "item": "已学前课、自己写过才适合进阶。普遍毛病：高潮只写英雄殊死搏斗战胜坏人，不知道具体怎么决战、分几场；不能把编剧的设计责任全部交给导演/武指。",
+        "source": {
+          "lines": [
+            158,
+            213
+          ]
+        },
+        "note": {
+          "lines": [
+            75,
+            75
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U03",
+        "item": "本课高潮是“解决”的段落：三幕建制/对抗/解决，节拍器危机至高潮，四幕的第四幕/起承转合的合。常约最后20多分钟或长片最后半小时，不机械固定为每部片同样时长。",
+        "source": {
+          "lines": [
+            214,
+            252
+          ]
+        },
+        "note": {
+          "lines": [
+            71,
+            71
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U04",
+        "item": "前面人物、悬念、危机、转折都是为最后兑现；讲师说往往最花钱，观众带此处情绪与满足离场。保存功能原因，性暗喻和重复玩笑压缩，行业经验不是统计规律。",
+        "source": {
+          "lines": [
+            253,
+            305
+          ]
+        },
+        "note": {
+          "lines": [
+            73,
+            73
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U05",
+        "item": "文戏也有高潮；武戏亦非上天入地、水里树上换场战斗即可。作家必须设计解决过程，不能“打得精彩点”一句交给武指。",
+        "source": {
+          "lines": [
+            306,
+            349
+          ]
+        },
+        "note": {
+          "lines": [
+            75,
+            75
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U06",
+        "item": "两条写作路线：先设计高潮可反向铺伏笔，有道理但不绝对；也可从身份、悬念、激励、动作或环境的好支点开始。想殉职的警察例：结局怎么死/谁决战未全想清也能开写，到此再解决，却不能用十来字糊弄第四幕。",
+        "source": {
+          "lines": [
+            350,
+            427
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            81
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U07",
+        "item": "七方面是老师个人总结，不是严整并列、固定整数的“定律”；理解功能而非背七条。",
+        "source": {
+          "lines": [
+            428,
+            452
+          ]
+        },
+        "note": {
+          "lines": [
+            83,
+            83
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U08",
+        "item": "满足观众期待，但用他没想到的方式；先前陪着看95/100分钟，应获得回报。到达预期目的与过程方式出乎意料可以并存。",
+        "source": {
+          "lines": [
+            453,
+            489
+          ]
+        },
+        "note": {
+          "lines": [
+            89,
+            91
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U09",
+        "item": "节奏加快，情绪螺旋上升，圈越来越小/快，类比逐渐收细的弹簧。静帧只核板书与图样，不认证手势运动和实际影片节奏。",
+        "source": {
+          "lines": [
+            490,
+            534
+          ]
+        },
+        "note": {
+          "lines": [
+            95,
+            95
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U10",
+        "item": "兑现前面埋下的伏笔和悬念、填坑。没有补造全类型都必须封闭所有问题的额外理论。",
+        "source": {
+          "lines": [
+            535,
+            543
+          ]
+        },
+        "note": {
+          "lines": [
+            99,
+            99
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U11",
+        "item": "再次出现意外/反转，但不能生反。打错坏人须先埋、至少在提前两趴让观众有依据；精心准备却忘带子弹太无厘头，应有内奸偷换弹药等铺垫。保存失败/成功对照，而非仅写“要反转”。",
+        "source": {
+          "lines": [
+            544,
+            606
+          ]
+        },
+        "note": {
+          "lines": [
+            103,
+            108
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U12",
+        "item": "增加烈度，已教的方法可用，边界是别无厘头。老师提过两次考试烈度题，卷子当时可向班委要；本课未提供题目，不补造试卷/答案。",
+        "source": {
+          "lines": [
+            607,
+            642
+          ]
+        },
+        "note": {
+          "lines": [
+            112,
+            114
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U13",
+        "item": "主角两次抉择：激励后现状不可接受而上路的小抉择，高潮的重大抉择/牺牲。危机与高潮可紧邻/并生，不总有回家谋划的准备段；老师承认有的故事有准备时间。",
+        "source": {
+          "lines": [
+            643,
+            704
+          ]
+        },
+        "note": {
+          "lines": [
+            118,
+            120
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U14",
+        "item": "主角亲自面对最终问题，不能用天外来客、新技能/新道具救场。所谓新能力应早已给予而未领悟；旧秘籍现在悟透，是自我挖潜。外界刺激可激发潜力，与外援代办结局不同。",
+        "source": {
+          "lines": [
+            705,
+            776
+          ]
+        },
+        "note": {
+          "lines": [
+            122,
+            124
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U15",
+        "item": "A外在旅程，B内在成长，外在有时虚/浅、内在反而实/根本。最后给两者关系一个答案：AB都满足或舍A选B，不能结尾还两条分离。",
+        "source": {
+          "lines": [
+            777,
+            824
+          ]
+        },
+        "note": {
+          "lines": [
+            128,
+            130
+          ],
+          "quote": "A故事指外在旅程与目标，B故事指内在成长。讲师进一步比较二者的价值：外在追求有时反而是虚的、肤浅的；内在成长更实，也更根本。这是课堂对两条旅程轻重的判断，不改变A外在、B内在的划分。"
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U16",
+        "item": "七条回顾有新增：男二死亡可刺激主角挖潜，不等于一定安排死人；讲师以高口碑片及“多骗1.5分”强调AB作用，字幕2010秒确认1.5，保留为夸张经验判断而非实证提分承诺。",
+        "source": {
+          "lines": [
+            825,
+            915
+          ]
+        },
+        "note": {
+          "lines": [
+            124,
+            132
+          ],
+          "quote": "他把豆瓣高评分影片作为经验对照，认为把AB写得清晰有力、相互呼应，最后合到一起，会提升整部片子的气质，并用“多骗1.5分”之类的玩笑强调效果。这里应理解为他的经验性强调，不能当成写好AB就能固定提高某个评分的公式。"
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U17",
+        "item": "复用前课已有案例以减少新情境干扰；先看文戏《定制伴郎》，不能把文戏当没有高潮。",
+        "source": {
+          "lines": [
+            916,
+            931
+          ]
+        },
+        "note": {
+          "lines": [
+            136,
+            136
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U18",
+        "item": "影片婚礼从仪式、身份露馅、发现假爱情到选择友情。中文ASR部分英语可读但不全，补英语识别；静态图只确认场景、少量字幕。需要连续复核节奏、表演、事件顺序及声画。",
+        "source": {
+          "lines": [
+            932,
+            1050
+          ]
+        },
+        "note": {
+          "lines": [
+            138,
+            144
+          ]
+        },
+        "status": "待核",
+        "reason": "影片独立声画内容未连续核清；ASR和静态图片只补部分线索"
+      },
+      {
+        "id": "U19",
+        "item": "讲师电影后解说有开头遗漏：孤独男子没朋友而雇伴郎（2374/2379字幕已见）；雇佣关系变真友情，女友爱慕虚荣而他自己决定不结婚。A雇假朋友，B找真朋友，高潮舍A选B；意外是女方开始看穿身份，反转为不结婚，选择/牺牲由主角做。",
+        "source": {
+          "lines": [
+            1051,
+            1132
+          ]
+        },
+        "note": {
+          "lines": [
+            138,
+            144
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md",
+        "additional_source": {
+          "path": "D:\\obsidian\\影视知识树\\.runtime\\raw-cache\\course-full-review-20260924\\batches\\charlie-22\\wedding-commentary-zh\\transcript.md",
+          "lines": [
+            5,
+            84
+          ],
+          "reason": "补回主ASR遗漏的讲师开头"
+        }
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "见本任务逐课review.md的实际范围",
+    "method": "来源与正文双向图文复核；复用历史有效材料并核查本次改动；非原声听审或连续声画审看",
+    "summary": "本课图文知识核清并准确归属，可正式保存；原声与连续声画未核部分如实保留。",
+    "unverified": [
+      {
+        "page": 46,
+        "seconds": [
+          2070,
+          2368
+        ],
+        "example": "定制伴郎",
+        "pending": "original audio, continuous performance, comedic timing, edits and synchronization"
+      },
+      {
+        "page": 47,
+        "seconds": [
+          18,
+          706
+        ],
+        "example": "肖申克的救赎",
+        "pending": "original audio, continuous escape/reveal and editing"
+      },
+      {
+        "page": 47,
+        "seconds": [
+          1004,
+          1770
+        ],
+        "example": "阳光小美女",
+        "pending": "dance and family-response continuity, music, edits and synchronization"
+      },
+      {
+        "page": 47,
+        "seconds": [
+          2064,
+          2570
+        ],
+        "example": "加勒比海盗",
+        "pending": "continuous fighting, precise shot/coin/curse order and synchronization"
+      }
+    ]
+  },
+  "preservation": {
+    "backup_hint": null,
+    "old_note_sha256": null,
+    "personal_note": null,
+    "overview_backup_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/backups/charlie-22/00 - 课程总览.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/batches/charlie-22/review.md",
+  "final_binding_update": {
+    "date": "2026-09-30",
+    "scope": "来源范围、正文定位及待核状态未变；移除工作缓存绝对提示，匹配最终笔记字节。"
+  }
+}

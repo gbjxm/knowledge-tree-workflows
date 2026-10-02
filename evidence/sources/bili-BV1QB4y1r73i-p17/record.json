@@ -1,0 +1,506 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1QB4y1r73i-p17",
+  "source": {
+    "kind": "video",
+    "title": "16 - 第十六课 蒙太奇（P17）",
+    "locator": "https://www.bilibili.com/video/BV1QB4y1r73i?p=17",
+    "bvid": "BV1QB4y1r73i",
+    "page": 17,
+    "cid": 1472076106,
+    "text_sha256": "3a73c10245fd2db1657b150bac37676d1edf2dd627c39b791916564c251b60df",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1QB4y1r73i-p17-第十六课 蒙太奇/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/老白的分镜课/16 - 第十六课 蒙太奇（P17）.md",
+    "sha256": "fe255df15fee2e8222ebe1253ea48c9964d2079d572aa8861f8b07adeb29e435"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "3a73c10245fd2db1657b150bac37676d1edf2dd627c39b791916564c251b60df",
+    "note_sha256": "fe255df15fee2e8222ebe1253ea48c9964d2079d572aa8861f8b07adeb29e435",
+    "scope": [
+      [
+        1,
+        339
+      ]
+    ],
+    "items": [
+      {
+        "id": "P17-U01",
+        "item": "经典和生活两元素同框",
+        "source": {
+          "lines": [
+            1,
+            21
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            50,
+            50
+          ],
+          "quote": "开头用《战舰波将金号》"
+        }
+      },
+      {
+        "id": "P17-U02",
+        "item": "课程词源介绍与并置简记",
+        "source": {
+          "lines": [
+            22,
+            29
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            52,
+            52
+          ],
+          "quote": "课堂文字介绍 Montage"
+        }
+      },
+      {
+        "id": "P17-U03",
+        "item": "同脸汤/死亡女孩/女人三读法",
+        "source": {
+          "lines": [
+            30,
+            52
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            56,
+            56
+          ],
+          "quote": "老师介绍库里肖夫效应："
+        }
+      },
+      {
+        "id": "P17-U04",
+        "item": "希区柯克母子与比基尼原字幕示范",
+        "source": {
+          "lines": [
+            53,
+            55
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            58,
+            58
+          ],
+          "quote": "希区柯克的示范保留观察者的脸"
+        }
+      },
+      {
+        "id": "P17-U05",
+        "item": "中性镜头及坏笑的课堂反例",
+        "source": {
+          "lines": [
+            56,
+            69
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            60,
+            60
+          ],
+          "quote": "老师随后提醒需要**中性镜头**"
+        }
+      },
+      {
+        "id": "P17-U06",
+        "item": "理论分类分歧/砖块相互影响",
+        "source": {
+          "lines": [
+            70,
+            94
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            66,
+            66
+          ],
+          "quote": "蒙太奇分类复杂"
+        }
+      },
+      {
+        "id": "P17-U07",
+        "item": "细胞与碰撞原书页",
+        "source": {
+          "lines": [
+            95,
+            100
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            68,
+            68
+          ],
+          "quote": "书页与讲授进一步用“细胞”"
+        }
+      },
+      {
+        "id": "P17-U08",
+        "item": "简单原理及不只两个镜头/资料卡",
+        "source": {
+          "lines": [
+            101,
+            118
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            72,
+            72
+          ],
+          "quote": "老白随后把本课重心放回简单原理"
+        }
+      },
+      {
+        "id": "P17-U09",
+        "item": "公民凯恩远孩子近母亲",
+        "source": {
+          "lines": [
+            119,
+            130
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            76,
+            76
+          ],
+          "quote": "《公民凯恩》的例子中"
+        }
+      },
+      {
+        "id": "P17-U10",
+        "item": "隐入尘烟喜字遗像",
+        "source": {
+          "lines": [
+            131,
+            139
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            78,
+            78
+          ],
+          "quote": "《隐入尘烟》中，有铁摘下墙上的喜字"
+        }
+      },
+      {
+        "id": "AV-PSYCHO",
+        "item": "惊魂记动作/声音组合与动态限制",
+        "source": {
+          "lines": [
+            140,
+            167
+          ]
+        },
+        "status": "待核",
+        "reason": "课堂讲述/字幕与静态对象已保存，独立连续声画/音乐或合成声音的真实效果未核，不由静帧证明。",
+        "note": {
+          "lines": [
+            82,
+            82
+          ],
+          "quote": "应用范围还包括声与画、声与声。"
+        }
+      },
+      {
+        "id": "AV-GODFATHER-LINES",
+        "item": "教父两故事线/长示范空窗",
+        "source": {
+          "lines": [
+            168,
+            180
+          ]
+        },
+        "status": "待核",
+        "reason": "课堂讲述/字幕与静态对象已保存，独立连续声画/音乐或合成声音的真实效果未核，不由静帧证明。",
+        "note": {
+          "lines": [
+            88,
+            88
+          ],
+          "quote": "老师说这一段不只是两个镜头"
+        }
+      },
+      {
+        "id": "P17-U13",
+        "item": "孩哭声/默奇与书籍建议",
+        "source": {
+          "lines": [
+            181,
+            194
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            90,
+            90
+          ],
+          "quote": "他另提醒其中用小孩哭声不断积累张力"
+        }
+      },
+      {
+        "id": "AV-GODFATHER-SOUND",
+        "item": "教父心理推镜/表演/声音",
+        "source": {
+          "lines": [
+            195,
+            211
+          ]
+        },
+        "status": "待核",
+        "reason": "课堂讲述/字幕与静态对象已保存，独立连续声画/音乐或合成声音的真实效果未核，不由静帧证明。",
+        "note": {
+          "lines": [
+            94,
+            94
+          ],
+          "quote": "下一例中，老师介绍人物准备杀警察与毒贩"
+        }
+      },
+      {
+        "id": "AV-MUSIC-CONTRAST",
+        "item": "音乐正反配说明",
+        "source": {
+          "lines": [
+            212,
+            223
+          ]
+        },
+        "status": "待核",
+        "reason": "课堂讲述/字幕与静态对象已保存，独立连续声画/音乐或合成声音的真实效果未核，不由静帧证明。",
+        "note": {
+          "lines": [
+            100,
+            100
+          ],
+          "quote": "老师设想残酷杀戮画面"
+        }
+      },
+      {
+        "id": "P17-U16",
+        "item": "歌词语言增加一层意义",
+        "source": {
+          "lines": [
+            224,
+            238
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            102,
+            102
+          ],
+          "quote": "该例不止有音乐与画面"
+        }
+      },
+      {
+        "id": "AV-COUNTERPOINT-EFFECT",
+        "item": "风柜送别情境与对位分析目的",
+        "source": {
+          "lines": [
+            239,
+            259
+          ]
+        },
+        "status": "待核",
+        "reason": "课堂讲述/字幕与静态对象已保存，独立连续声画/音乐或合成声音的真实效果未核，不由静帧证明。",
+        "note": {
+          "lines": [
+            106,
+            106
+          ],
+          "quote": "小镇上的年轻人和女孩相识"
+        }
+      },
+      {
+        "id": "P17-U18",
+        "item": "原采访字幕补清赋格/对位与主从",
+        "source": {
+          "lines": [
+            260,
+            277
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            112,
+            112
+          ],
+          "quote": "原访谈标题标“侯孝贤北电讲座”"
+        }
+      },
+      {
+        "id": "P17-U19",
+        "item": "音乐电影同主题平行及合出味道",
+        "source": {
+          "lines": [
+            278,
+            300
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            114,
+            114
+          ],
+          "quote": "他接着谈电影的节奏音乐"
+        }
+      },
+      {
+        "id": "P17-U20",
+        "item": "教师古典配对位未得同效果",
+        "source": {
+          "lines": [
+            301,
+            306
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            120,
+            120
+          ],
+          "quote": "老白说对位很复杂"
+        }
+      },
+      {
+        "id": "AV-SOUND-SOUND",
+        "item": "等红灯女孩与配乐两声音示范",
+        "source": {
+          "lines": [
+            307,
+            328
+          ]
+        },
+        "status": "待核",
+        "reason": "课堂讲述/字幕与静态对象已保存，独立连续声画/音乐或合成声音的真实效果未核，不由静帧证明。",
+        "note": {
+          "lines": [
+            124,
+            124
+          ],
+          "quote": "最后例子是女孩打车"
+        }
+      },
+      {
+        "id": "P17-U22",
+        "item": "嘶吼与手法表达结论/结尾",
+        "source": {
+          "lines": [
+            329,
+            339
+          ]
+        },
+        "status": "合并",
+        "reason": "保全实质观点、理由、独特案例与条件；纯重复/非知识互动合并，原图来源另见visual-review。",
+        "note": {
+          "lines": [
+            126,
+            126
+          ],
+          "quote": "老师最后说，女孩好像在替所有曾经崩溃过的人嘶吼。"
+        }
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "现存P17 ASR339行全文与候选后三向AI复核；全课分布先行后实际查看127静态样本（124请求时点），重点原采访字幕补核心",
+    "summary": "保全镜内/叙事线/声画/声声全部独特案例、理论分歧及中性条件；字幕核遗像、默奇、对位、嘶吼，二查补希克双情境和纯图资料卡；旧个人/框架保护，独立声画效果及历史外核准确限定。",
+    "method": "来源先行清单→全课分布及必要图文→旧稿候选→全文再读查漏/反向来源/旧去向；图文补证不靠重读同ASR，非用户验收或连续声画核验。",
+    "unverified": [
+      {
+        "id": "AV-PSYCHO",
+        "item": "惊魂记动作/声音组合与动态限制的独立声画效果",
+        "reason": "含义和教师选择理由由明确课堂文字/字幕保存；未独立听音/连续观看，不声称实际切点、动作、声音来源听感/同步或音乐情绪体验已证。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "AV-GODFATHER-LINES",
+        "item": "教父两故事线/长示范空窗的独立声画效果",
+        "reason": "含义和教师选择理由由明确课堂文字/字幕保存；未独立听音/连续观看，不声称实际切点、动作、声音来源听感/同步或音乐情绪体验已证。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "AV-GODFATHER-SOUND",
+        "item": "教父心理推镜/表演/声音的独立声画效果",
+        "reason": "含义和教师选择理由由明确课堂文字/字幕保存；未独立听音/连续观看，不声称实际切点、动作、声音来源听感/同步或音乐情绪体验已证。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "AV-MUSIC-CONTRAST",
+        "item": "音乐正反配说明的独立声画效果",
+        "reason": "含义和教师选择理由由明确课堂文字/字幕保存；未独立听音/连续观看，不声称实际切点、动作、声音来源听感/同步或音乐情绪体验已证。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "AV-COUNTERPOINT-EFFECT",
+        "item": "风柜送别情境与对位分析目的的独立声画效果",
+        "reason": "含义和教师选择理由由明确课堂文字/字幕保存；未独立听音/连续观看，不声称实际切点、动作、声音来源听感/同步或音乐情绪体验已证。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "AV-SOUND-SOUND",
+        "item": "等红灯女孩与配乐两声音示范的独立声画效果",
+        "reason": "含义和教师选择理由由明确课堂文字/字幕保存；未独立听音/连续观看，不声称实际切点、动作、声音来源听感/同步或音乐情绪体验已证。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "HISTORY-P17",
+        "item": "课堂词源、实验史和电影理论背景的外部原文核实",
+        "reason": "本轮忠实记录原课堂说明/书页/资料卡；未对历史实证、原实验或指定著作版本做课外核实，正文准确署课堂介绍，不伪装独立事实证明。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "working_review_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-16/review.md",
+  "preservation": {
+    "old_note_sha256": "1bf66d7a73af22942de6d69a66e95442c08aaa0eb08a8a5f7d65e3674756c9cc",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/老白的分镜课/16 - 第十六课 蒙太奇（P17）.md",
+    "old_preservation_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-16/old-preservation.md",
+    "personal_note": "知识库/学习区/个人思考/老白分镜课-第16课历史个人记录-20260930.md"
+  }
+}

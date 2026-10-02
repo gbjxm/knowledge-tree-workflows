@@ -1,0 +1,353 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p30",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P30 7.7影像的角度选择——侧面角度和背面角度",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=30",
+    "bvid": "BV1dE4118731",
+    "page": 30,
+    "cid": 134705637,
+    "text_sha256": "c02e0ac960818aaef4e86b0fa440e2c01c75539e2733dff91452d1ce8996c9dc",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p30-7.7影像的角度选择——侧面角度和背面角度/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/08 - 第七章 拍摄角度与景别（P26-P32）.md",
+    "sha256": "41424109196fc1868c0518a3837c22a27970e218a00ab7e6c64d4745b13567a6"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "c02e0ac960818aaef4e86b0fa440e2c01c75539e2733dff91452d1ce8996c9dc",
+    "note_sha256": "41424109196fc1868c0518a3837c22a27970e218a00ab7e6c64d4745b13567a6",
+    "scope": [
+      [
+        6,
+        311
+      ]
+    ],
+    "items": [
+      {
+        "id": "P30-U01",
+        "item": "侧面突出朝向、轮廓与剪影",
+        "source": {
+          "lines": [
+            6,
+            25
+          ]
+        },
+        "note": {
+          "lines": [
+            193,
+            198
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U02",
+        "item": "两人各半面可能平分注意，偏斜侧可突出主次",
+        "source": {
+          "lines": [
+            26,
+            40
+          ]
+        },
+        "note": {
+          "lines": [
+            193,
+            198
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U03",
+        "item": "孩子隔窗看模特，以视线连接关注对象",
+        "source": {
+          "lines": [
+            41,
+            60
+          ]
+        },
+        "note": {
+          "lines": [
+            193,
+            198
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U04",
+        "item": "赛马照片略偏侧，兼朝向与形象",
+        "source": {
+          "lines": [
+            61,
+            71
+          ]
+        },
+        "note": {
+          "lines": [
+            199,
+            208
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U05",
+        "item": "侧向速度感、正向姿态、斜侧综合",
+        "source": {
+          "lines": [
+            72,
+            95
+          ]
+        },
+        "note": {
+          "lines": [
+            199,
+            208
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U06",
+        "item": "猫透木栅窥视，约60°仍承担侧面引导",
+        "source": {
+          "lines": [
+            96,
+            112
+          ]
+        },
+        "note": {
+          "lines": [
+            199,
+            208
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U07",
+        "item": "未见注视物形成悬念，接视线对象镜头",
+        "source": {
+          "lines": [
+            113,
+            126
+          ]
+        },
+        "note": {
+          "lines": [
+            199,
+            208
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U08",
+        "item": "完全侧面可能被栅遮挡，角度随实况调整",
+        "source": {
+          "lines": [
+            127,
+            142
+          ]
+        },
+        "note": {
+          "lines": [
+            199,
+            208
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U09",
+        "item": "反侧兼立体与朝向，更重朝向之物",
+        "source": {
+          "lines": [
+            143,
+            158
+          ]
+        },
+        "note": {
+          "lines": [
+            209,
+            216
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U10",
+        "item": "海鸟飞向海面，以背侧带入环境",
+        "source": {
+          "lines": [
+            159,
+            171
+          ]
+        },
+        "note": {
+          "lines": [
+            209,
+            216
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U11",
+        "item": "老人喂鱼，以手和鱼的关系为重点",
+        "source": {
+          "lines": [
+            172,
+            184
+          ]
+        },
+        "note": {
+          "lines": [
+            209,
+            216
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U12",
+        "item": "跟随主体交代主体又带入新内容",
+        "source": {
+          "lines": [
+            185,
+            193
+          ]
+        },
+        "note": {
+          "lines": [
+            209,
+            216
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U13",
+        "item": "秦俑回首照片与突然回头的设想，回马枪类比",
+        "source": {
+          "lines": [
+            194,
+            225
+          ]
+        },
+        "note": {
+          "lines": [
+            209,
+            216
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U14",
+        "item": "背面借实写意；母亲鼓励孩子入喷泉",
+        "source": {
+          "lines": [
+            226,
+            267
+          ]
+        },
+        "note": {
+          "lines": [
+            217,
+            224
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U15",
+        "item": "孩子看糕点照片；背拍哭泣以肩动和声音表意",
+        "source": {
+          "lines": [
+            268,
+            292
+          ]
+        },
+        "note": {
+          "lines": [
+            217,
+            224
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P30-U16",
+        "item": "老人相扶背影、陪伴与意境",
+        "source": {
+          "lines": [
+            293,
+            311
+          ]
+        },
+        "note": {
+          "lines": [
+            217,
+            224
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "1a2a87d6492dcab43ab50c659d79eca1a247160b3e49bf591d3de42dd5999894",
+    "historical_review_sha256": "b8efe4dee5c875eb5df9edd935f69a3c58b41779b6f7bdb5002785ff8c436573",
+    "historical_seal_sha256": "28427e59be14c7c78b47db059bfc618f1e124a87f9bf1a111e3d6e82570b8576",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-08/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "77c2fd8deb98af639601c9dce13aaf08bb95eeb01d66f5d36883473113bb7644",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/08 - 第七章 拍摄角度与景别（P26-P32）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-08/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第七章拍摄角度与景别既有学习记录.md",
+    "personal_sha256": "ede4bc4d14dd158a07e10d5b91d8c400ca0c3dce0939cd41b3a1f6093ed4bacc",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-08/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-08/review.md"
+}

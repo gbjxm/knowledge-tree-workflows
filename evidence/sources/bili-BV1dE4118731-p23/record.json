@@ -1,0 +1,223 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p23",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P23 6.4影像语言的画面构成——前景",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=23",
+    "bvid": "BV1dE4118731",
+    "page": 23,
+    "cid": 133174948,
+    "text_sha256": "cf4ff39defe566a604e75d6baf42064f5ccb80557c787a13ff56a8a34fdeea75",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p23-6.4影像语言的画面构成——前景/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/06 - 第六章 影像画面构成（P20-P23）.md",
+    "sha256": "a0e0ef0e20b1aba53638b9d5f6b9cf88f4d6ebf772ff386514dbcddddadde07d"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "cf4ff39defe566a604e75d6baf42064f5ccb80557c787a13ff56a8a34fdeea75",
+    "note_sha256": "a0e0ef0e20b1aba53638b9d5f6b9cf88f4d6ebf772ff386514dbcddddadde07d",
+    "scope": [
+      [
+        6,
+        163
+      ]
+    ],
+    "items": [
+      {
+        "id": "P23-U01",
+        "item": "前景空间位置与多种形态",
+        "source": {
+          "lines": [
+            6,
+            20
+          ]
+        },
+        "note": {
+          "lines": [
+            179,
+            182
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P23-U02",
+        "item": "攀爬儿童主体兼前景，近大远小与估计高度",
+        "source": {
+          "lines": [
+            21,
+            43
+          ]
+        },
+        "note": {
+          "lines": [
+            183,
+            188
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P23-U03",
+        "item": "窗口北京的作者地点、框架内重新构图及交流感",
+        "source": {
+          "lines": [
+            44,
+            69
+          ]
+        },
+        "note": {
+          "lines": [
+            189,
+            196
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P23-U04",
+        "item": "孔洞式遮挡的窥视心理与新闻身份归属边界",
+        "source": {
+          "lines": [
+            70,
+            94
+          ]
+        },
+        "note": {
+          "lines": [
+            197,
+            202
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P23-U05",
+        "item": "漓江柳枝的季节信息及推测边界",
+        "source": {
+          "lines": [
+            95,
+            113
+          ]
+        },
+        "note": {
+          "lines": [
+            203,
+            208
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P23-U06",
+        "item": "苹果枝与已有收获信息的区别",
+        "source": {
+          "lines": [
+            114,
+            123
+          ]
+        },
+        "note": {
+          "lines": [
+            209,
+            218
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P23-U07",
+        "item": "遮挡次要信息与假设电线",
+        "source": {
+          "lines": [
+            124,
+            137
+          ]
+        },
+        "note": {
+          "lines": [
+            209,
+            218
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P23-U08",
+        "item": "减少亮天空面积与曝光、测光条件",
+        "source": {
+          "lines": [
+            138,
+            148
+          ]
+        },
+        "note": {
+          "lines": [
+            209,
+            218
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P23-U09",
+        "item": "前景五功能总结及非必需的适用边界",
+        "source": {
+          "lines": [
+            149,
+            163
+          ]
+        },
+        "note": {
+          "lines": [
+            219,
+            224
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-27",
+    "scope": "完整可用ASR在初稿前及成稿后全文读取；44个原视频帧在联系表中实际查看，核对静态照片、课件标注、裁切与字幕；原声未听审，未连续观看全片。",
+    "summary": "本章四P的静态图文知识通过来源先行、原照片核对、双向语义复核及旧稿保留检查；已校正三分法、历史身份和条件因果，补回原课提问。此结论不表示原声或连续声画验收。",
+    "method": "同一助理在初稿后另一步骤复核；完整ASR两次阅读，195原帧在27张联系表实际查看并做定点核对，41项内容双向检查及8项有界内容使用检查。无独立评审者或用户学习测试。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "原声未听审、全片未连续审看；现有ASR与原图未识别独立运动、剪辑或声画同步教学片段，本次仅验收静态构成知识。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "照片新闻身份、人物亲属关系、季节、部分历史动机及史源未独立认证；正文按课程归属或条件表达，不视为已核事实。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M3",
+        "item": "原教学SVG按原字节保留，仅阅读XML文字；未进行本次渲染布局QA。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "75da65b4a7c0e1a9d3ac360a4b4ef1d30e0fc5e069d885b089b368e386347c7e",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/06 - 第六章 影像画面构成（P20-P23）.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第六章既有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-06/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-06/review.md"
+}

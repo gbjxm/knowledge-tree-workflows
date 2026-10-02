@@ -1,0 +1,381 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p71",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P71 10.20不能忽视的声音3",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=71",
+    "bvid": "BV1dE4118731",
+    "page": 71,
+    "cid": 139218626,
+    "text_sha256": "f815202b8f474991732541eecbb885c77296424a56f01152df67fa56f18fcab2",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p71-10.20不能忽视的声音3/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/18 - 第十章 声音设计（P69-P72）.md",
+    "sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "f815202b8f474991732541eecbb885c77296424a56f01152df67fa56f18fcab2",
+    "note_sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34",
+    "scope": [
+      [
+        6,
+        395
+      ]
+    ],
+    "items": [
+      {
+        "id": "P71-U01",
+        "item": "音响为人声音乐之外的声音，也可把作为背景的人声音乐按音响功能处理；吃饭敲桌示例需原声。",
+        "source": {
+          "lines": [
+            6,
+            28
+          ]
+        },
+        "note": {
+          "lines": [
+            202,
+            220
+          ]
+        },
+        "status": "待核",
+        "reason": "M14连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P71-U02",
+        "item": "动作、自然、背景、机械、特殊五类音响及人物物体、风雨雷、人群杂音、交通机械、神话科幻例子。",
+        "source": {
+          "lines": [
+            29,
+            61
+          ]
+        },
+        "note": {
+          "lines": [
+            202,
+            220
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P71-U03",
+        "item": "纪实/表现功能疑词及有源无源划分，原课把是否看见声源作说明，需区分画外声与叙事世界外声音。",
+        "source": {
+          "lines": [
+            62,
+            78
+          ]
+        },
+        "note": {
+          "lines": [
+            202,
+            220
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P71-U04",
+        "item": "音响速度力度结构节奏对比形成内部外部变化，与画面相互作用。",
+        "source": {
+          "lines": [
+            79,
+            90
+          ]
+        },
+        "note": {
+          "lines": [
+            221,
+            230
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P71-U05",
+        "item": "赎罪开篇打字机、少女布里奥妮完成剧本走动、声源不见后声音持续加快、关门后停止；有源转无源判断需声画及音乐制作证据。",
+        "source": {
+          "lines": [
+            91,
+            135
+          ]
+        },
+        "note": {
+          "lines": [
+            221,
+            230
+          ]
+        },
+        "status": "待核",
+        "reason": "M15连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P71-U06",
+        "item": "打字声与人物工作和急迫心情关联、类心跳；声临其境/以声写情等疑词原字待核。",
+        "source": {
+          "lines": [
+            136,
+            166
+          ]
+        },
+        "note": {
+          "lines": [
+            221,
+            230
+          ]
+        },
+        "status": "待核",
+        "reason": "M15连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P71-U07",
+        "item": "声音速度、强度、音色、空间感；快短音与长音的不同情绪倾向，不写死成所有声音的规律。",
+        "source": {
+          "lines": [
+            167,
+            212
+          ]
+        },
+        "note": {
+          "lines": [
+            231,
+            240
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P71-U08",
+        "item": "拆弹部队警戒聊天转发现白衣持手机者，语言速度声调动作突然加快的例子；不扩展现实拆弹流程。",
+        "source": {
+          "lines": [
+            213,
+            250
+          ]
+        },
+        "note": {
+          "lines": [
+            231,
+            240
+          ]
+        },
+        "status": "待核",
+        "reason": "M16连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P71-U09",
+        "item": "声音强度与力量、威胁、无力、悬疑、神秘或平静的关系，语境决定。",
+        "source": {
+          "lines": [
+            251,
+            268
+          ]
+        },
+        "note": {
+          "lines": [
+            241,
+            250
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P71-U10",
+        "item": "谍影重重3追杀丹尼尔斯、高密噪声暂止突出按钮声后爆炸；静默是否全静音、实际强度转换须听核。",
+        "source": {
+          "lines": [
+            269,
+            311
+          ]
+        },
+        "note": {
+          "lines": [
+            241,
+            250
+          ]
+        },
+        "status": "待核",
+        "reason": "M17连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P71-U11",
+        "item": "音色与人物辨识、风格联想；舌尖上的中国与李立宏疑词需原题/原始资料，不将音色等同科学判定人格。",
+        "source": {
+          "lines": [
+            312,
+            338
+          ]
+        },
+        "note": {
+          "lines": [
+            251,
+            260
+          ]
+        },
+        "status": "待核",
+        "reason": "M18连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P71-U12",
+        "item": "大话西游爱你一万年配音片例，声音标签与氛围；语言版本和配音者未核，不能直接说是演员本人音色。",
+        "source": {
+          "lines": [
+            339,
+            367
+          ]
+        },
+        "note": {
+          "lines": [
+            251,
+            260
+          ]
+        },
+        "status": "待核",
+        "reason": "M18连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P71-U13",
+        "item": "声音空间感，老无所依旅馆莫斯遭追踪、只闻脚步声由远及近推进悬念；叙事与视点待声画。",
+        "source": {
+          "lines": [
+            368,
+            391
+          ]
+        },
+        "note": {
+          "lines": [
+            261,
+            268
+          ]
+        },
+        "status": "待核",
+        "reason": "M19连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P71-U14",
+        "item": "11:55–12:56超过一分钟无转写的老无所依插片及收束；不能漏掉关键脚步声演示。",
+        "source": {
+          "lines": [
+            392,
+            395
+          ]
+        },
+        "note": {
+          "lines": [
+            261,
+            268
+          ]
+        },
+        "status": "待核",
+        "reason": "M19连续声画待核；原课文字和静态图文已分别整理。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P71-U01",
+        "item": "音响为人声音乐之外的声音，也可把作为背景的人声音乐按音响功能处理；吃饭敲桌示例需原声。",
+        "status": "待核",
+        "reason": "M14连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P71-U05",
+        "item": "赎罪开篇打字机、少女布里奥妮完成剧本走动、声源不见后声音持续加快、关门后停止；有源转无源判断需声画及音乐制作证据。",
+        "status": "待核",
+        "reason": "M15连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P71-U06",
+        "item": "打字声与人物工作和急迫心情关联、类心跳；声临其境/以声写情等疑词原字待核。",
+        "status": "待核",
+        "reason": "M15连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P71-U08",
+        "item": "拆弹部队警戒聊天转发现白衣持手机者，语言速度声调动作突然加快的例子；不扩展现实拆弹流程。",
+        "status": "待核",
+        "reason": "M16连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P71-U10",
+        "item": "谍影重重3追杀丹尼尔斯、高密噪声暂止突出按钮声后爆炸；静默是否全静音、实际强度转换须听核。",
+        "status": "待核",
+        "reason": "M17连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P71-U11",
+        "item": "音色与人物辨识、风格联想；舌尖上的中国与李立宏疑词需原题/原始资料，不将音色等同科学判定人格。",
+        "status": "待核",
+        "reason": "M18连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P71-U12",
+        "item": "大话西游爱你一万年配音片例，声音标签与氛围；语言版本和配音者未核，不能直接说是演员本人音色。",
+        "status": "待核",
+        "reason": "M18连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P71-U13",
+        "item": "声音空间感，老无所依旅馆莫斯遭追踪、只闻脚步声由远及近推进悬念；叙事与视点待声画。",
+        "status": "待核",
+        "reason": "M19连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P71-U14",
+        "item": "11:55–12:56超过一分钟无转写的老无所依插片及收束；不能漏掉关键脚步声演示。",
+        "status": "待核",
+        "reason": "M19连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "872867502f8c6b5c7e7f7c6b78845e15bae0392973f0bee3854a9a7ba5bee164",
+    "historical_review_sha256": "c4a0059310c3c0ca40b33238b20f4b00e4b304263a6b4cd323f3fee53bfba008",
+    "historical_seal_sha256": "85e93e721b58d9c7f04840bf1507c4be48232dca9ec021b882424c98dfc432a2",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-18/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "e08612b83829bd762f2cdd6503f46dfa2f3e1edbeb3dbf8585da2ffe27534f89",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/18 - 第十章 声音设计（P69-P72）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-18/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章声音设计既有学习记录.md",
+    "personal_sha256": "f978b3581e467826eb1bb2150261adb9beeee2b770e1d80adfdcbdcbbe4cdff0",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-18/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-18/review.md"
+}

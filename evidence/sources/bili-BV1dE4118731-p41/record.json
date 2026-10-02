@@ -1,0 +1,206 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p41",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P41 8.9影像的镜头形态——固定镜头所适用的内容表现",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=41",
+    "bvid": "BV1dE4118731",
+    "page": 41,
+    "cid": 136149603,
+    "text_sha256": "14c625fd3bfe863a378f3aec6082787337b21042ea9b49173c86de5985d8432f",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p41-8.9影像的镜头形态——固定镜头所适用的内容表现/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/09 - 第八章 固定镜头（P33-P42）.md",
+    "sha256": "8890a3be14e8ae503bbf2b77878e1cd0f8b871e38fa6fd9b9cb0f2051cfd9630"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "14c625fd3bfe863a378f3aec6082787337b21042ea9b49173c86de5985d8432f",
+    "note_sha256": "8890a3be14e8ae503bbf2b77878e1cd0f8b871e38fa6fd9b9cb0f2051cfd9630",
+    "scope": [
+      [
+        6,
+        117
+      ]
+    ],
+    "items": [
+      {
+        "id": "P41-U01",
+        "item": "固定并非万能；稳定框架表现静境与沉浸，静境仍可有细微变化。",
+        "source": {
+          "lines": [
+            6,
+            23
+          ]
+        },
+        "note": {
+          "lines": [
+            243,
+            248
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课知识问题合并；图像与专业边界另行复读。文字登记闭合不证明全课原声、连续运动或独立历史事实已核。"
+      },
+      {
+        "id": "P41-U02",
+        "item": "《黄石公园》冬季复苏氛围、教师称四镜头。",
+        "source": {
+          "lines": [
+            24,
+            31
+          ]
+        },
+        "note": {
+          "lines": [
+            243,
+            248
+          ]
+        },
+        "status": "待核",
+        "reason": "M18连续声画未审；教师分析及实际可见的片名/课件已区别保存，动态判断仍待核。"
+      },
+      {
+        "id": "P41-U03",
+        "item": "实际短片例及回讲边界，需核数量、固定形态与声音营造。",
+        "source": {
+          "lines": [
+            32,
+            32
+          ]
+        },
+        "note": {
+          "lines": [
+            243,
+            248
+          ]
+        },
+        "status": "待核",
+        "reason": "M18连续声画未审；教师分析及实际可见的片名/课件已区别保存，动态判断仍待核。"
+      },
+      {
+        "id": "P41-U04",
+        "item": "讲课、人物、采访适用；“全部采访固定”作为概括要收窄。",
+        "source": {
+          "lines": [
+            33,
+            48
+          ]
+        },
+        "note": {
+          "lines": [
+            243,
+            248
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课知识问题合并；图像与专业边界另行复读。文字登记闭合不证明全课原声、连续运动或独立历史事实已核。"
+      },
+      {
+        "id": "P41-U05",
+        "item": "动作分镜提供环境、关系、细节并组合表演；运动镜头同样可成组，不归固定独有。",
+        "source": {
+          "lines": [
+            49,
+            81
+          ]
+        },
+        "note": {
+          "lines": [
+            249,
+            254
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课知识问题合并；图像与专业边界另行复读。文字登记闭合不证明全课原声、连续运动或独立历史事实已核。"
+      },
+      {
+        "id": "P41-U06",
+        "item": "回忆、情景再现中可形成距离感；没有固定=回忆的必然对应。",
+        "source": {
+          "lines": [
+            82,
+            101
+          ]
+        },
+        "note": {
+          "lines": [
+            249,
+            254
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课知识问题合并；图像与专业边界另行复读。文字登记闭合不证明全课原声、连续运动或独立历史事实已核。"
+      },
+      {
+        "id": "P41-U07",
+        "item": "四方面总结和课下观察要求；保留来源教的观察活动，不生成用户学习任务。",
+        "source": {
+          "lines": [
+            102,
+            117
+          ]
+        },
+        "note": {
+          "lines": [
+            249,
+            254
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课知识问题合并；图像与专业边界另行复读。文字登记闭合不证明全课原声、连续运动或独立历史事实已核。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P41-U02",
+        "item": "《黄石公园》冬季复苏氛围、教师称四镜头。",
+        "status": "待核",
+        "reason": "M18连续声画未审；教师分析及实际可见的片名/课件已区别保存，动态判断仍待核。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P41-U03",
+        "item": "实际短片例及回讲边界，需核数量、固定形态与声音营造。",
+        "status": "待核",
+        "reason": "M18连续声画未审；教师分析及实际可见的片名/课件已区别保存，动态判断仍待核。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "cb79bc4657eb115bb70732aa47ef9aec2a9499668749ba97f310df8e79024a81",
+    "historical_review_sha256": "806f6d03b642bd4d1b3dd54a75be06ce7c187c6d52635f94c82cbefce26cf5ed",
+    "historical_seal_sha256": "e0dfc19f50a60065eaa79e7eaa62b8e1241d51fdae8ce482f54005b6a48e7e8a",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-09/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "0b0e62850881d9caba4584c2f87470dd417adfe14995d0a75c9e837437e5a564",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/09 - 第八章 固定镜头（P33-P42）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-09/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第八章固定镜头既有学习记录.md",
+    "personal_sha256": "993989439414fbff5d1f4fdb3d6bc21d33c2cc67f7295fef398bd865e320fe24",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-09/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-09/review.md"
+}

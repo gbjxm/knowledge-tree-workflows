@@ -1,0 +1,288 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p64",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P64 10.13影视需要有节奏1",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=64",
+    "bvid": "BV1dE4118731",
+    "page": 64,
+    "cid": 139214456,
+    "text_sha256": "1059bde8f9c5972220c4a77d776917053968ce2785eee8cacaadb09aa3ecc61c",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p64-10.13影视需要有节奏1/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/17 - 第十章 视听节奏（P64-P68）.md",
+    "sha256": "2237128c8019f982dfaeaedf9ec4dd6c5a09714dbe1718721571ffdef71437c1"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "1059bde8f9c5972220c4a77d776917053968ce2785eee8cacaadb09aa3ecc61c",
+    "note_sha256": "2237128c8019f982dfaeaedf9ec4dd6c5a09714dbe1718721571ffdef71437c1",
+    "scope": [
+      [
+        6,
+        201
+      ]
+    ],
+    "items": [
+      {
+        "id": "P64-U01",
+        "item": "钟声等生活节奏、音乐中不同长短音符的组合，课程以有规律的变化解释节奏；开场长时码段需原声。",
+        "source": {
+          "lines": [
+            6,
+            19
+          ]
+        },
+        "note": {
+          "lines": [
+            55,
+            64
+          ]
+        },
+        "status": "待核",
+        "reason": "M1的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P64-U02",
+        "item": "不同艺术材料的节奏、电影光声电等疑词、戏剧表演与对白、诗歌和小说、闲聊演讲辩论的风格差异。",
+        "source": {
+          "lines": [
+            20,
+            48
+          ]
+        },
+        "note": {
+          "lines": [
+            55,
+            64
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留原课解释、案例与整理限定；文字覆盖不等于原声或连续观看完成。"
+      },
+      {
+        "id": "P64-U03",
+        "item": "内部节奏含故事、动作、机位运动、声音、色光；外部节奏含镜头组接，内外共同作用。",
+        "source": {
+          "lines": [
+            49,
+            67
+          ]
+        },
+        "note": {
+          "lines": [
+            65,
+            72
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留原课解释、案例与整理限定；文字覆盖不等于原声或连续观看完成。"
+      },
+      {
+        "id": "P64-U04",
+        "item": "叙事节奏与故事情节密度、环节、细节和悬念，不应扩大成事件越多越好。",
+        "source": {
+          "lines": [
+            68,
+            80
+          ]
+        },
+        "note": {
+          "lines": [
+            73,
+            82
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留原课解释、案例与整理限定；文字覆盖不等于原声或连续观看完成。"
+      },
+      {
+        "id": "P64-U05",
+        "item": "罗拉快跑三段二十分钟、相似事件不同结果的叙事组合；04:09–06:35长达146秒单条ASR不可当内容完整。",
+        "source": {
+          "lines": [
+            81,
+            95
+          ]
+        },
+        "note": {
+          "lines": [
+            73,
+            82
+          ]
+        },
+        "status": "待核",
+        "reason": "M2的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P64-U06",
+        "item": "细节结构的张弛、显隐、缓急变化；剧作相关措辞失真待核，不能只靠加快剪辑。",
+        "source": {
+          "lines": [
+            96,
+            106
+          ]
+        },
+        "note": {
+          "lines": [
+            83,
+            92
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留原课解释、案例与整理限定；文字覆盖不等于原声或连续观看完成。"
+      },
+      {
+        "id": "P64-U07",
+        "item": "泰坦尼克号逃生紧张与人性片刻交替；安德鲁斯救生衣、古根海姆绅士赴死例子，姓名和对白原字待核。",
+        "source": {
+          "lines": [
+            107,
+            136
+          ]
+        },
+        "note": {
+          "lines": [
+            83,
+            92
+          ]
+        },
+        "status": "待核",
+        "reason": "M3的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P64-U08",
+        "item": "阿飞正传结尾梁朝伟阁楼整理后出门，教师称无对白长镜头，以情绪而非事件密度组织节奏。",
+        "source": {
+          "lines": [
+            137,
+            158
+          ]
+        },
+        "note": {
+          "lines": [
+            93,
+            102
+          ]
+        },
+        "status": "待核",
+        "reason": "M4的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P64-U09",
+        "item": "阿飞结尾的续集说、结构说与教师自身的另一阿飞/时代群体解读，解释应保留归属而非确认作者意图。",
+        "source": {
+          "lines": [
+            159,
+            188
+          ]
+        },
+        "note": {
+          "lines": [
+            93,
+            102
+          ]
+        },
+        "status": "待核",
+        "reason": "M4的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P64-U10",
+        "item": "节奏不只时长技巧，更与内心情感张力相关；10:00–10:20有演示空窗，结束。",
+        "source": {
+          "lines": [
+            189,
+            201
+          ]
+        },
+        "note": {
+          "lines": [
+            93,
+            102
+          ]
+        },
+        "status": "待核",
+        "reason": "M4的连续声画待核；来源文字与静态补充已分别保留。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P64-U01",
+        "item": "钟声等生活节奏、音乐中不同长短音符的组合，课程以有规律的变化解释节奏；开场长时码段需原声。",
+        "status": "待核",
+        "reason": "M1的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P64-U05",
+        "item": "罗拉快跑三段二十分钟、相似事件不同结果的叙事组合；04:09–06:35长达146秒单条ASR不可当内容完整。",
+        "status": "待核",
+        "reason": "M2的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P64-U07",
+        "item": "泰坦尼克号逃生紧张与人性片刻交替；安德鲁斯救生衣、古根海姆绅士赴死例子，姓名和对白原字待核。",
+        "status": "待核",
+        "reason": "M3的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P64-U08",
+        "item": "阿飞正传结尾梁朝伟阁楼整理后出门，教师称无对白长镜头，以情绪而非事件密度组织节奏。",
+        "status": "待核",
+        "reason": "M4的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P64-U09",
+        "item": "阿飞结尾的续集说、结构说与教师自身的另一阿飞/时代群体解读，解释应保留归属而非确认作者意图。",
+        "status": "待核",
+        "reason": "M4的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P64-U10",
+        "item": "节奏不只时长技巧，更与内心情感张力相关；10:00–10:20有演示空窗，结束。",
+        "status": "待核",
+        "reason": "M4的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "0a24f627001b03b3b9e366c75120962039b71260c7bfbf44ef573508cabf1613",
+    "historical_review_sha256": "1c49bb86a5ee9680aa72ba64aeafe685c3e1c6b14add59e2e0f1b2dbd68c02b4",
+    "historical_seal_sha256": "55cdf4f03b6a5400685655e664b77e662ebcbf5f23c7d9a60f29aa3215c075c9",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-17/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "46328e0b9791cb8ba7ef7bddd188a49d3555efeb3931e5d2783fadaf40671b43",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/17 - 第十章 视听节奏（P64-P68）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-17/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章视听节奏既有学习记录.md",
+    "personal_sha256": "efa1765a3df4aca897a366e9ef375aa31f9cf83989927520ad468dc8324c3fa9",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-17/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-17/review.md"
+}

@@ -1,0 +1,463 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p33",
+  "source": {
+    "kind": "video",
+    "title": "十四课-场景与对白14.2",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=33",
+    "bvid": "BV1eE411F73t",
+    "page": 33,
+    "cid": 181763918,
+    "text_sha256": "850b3d13f7f970dc7e8608f4e4fefff210afc97c4a90b0ac5a23cf98ae69e3dd",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1eE411F73t-p33-十四课-场景与对白14.2/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/14 - 第十四课 场景与对白（P32-P33）.md",
+    "sha256": "0fd72879ef6f0d5f7e711ac522ffb78bc564c6e96ed9424914176ed54355ac6d"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "850b3d13f7f970dc7e8608f4e4fefff210afc97c4a90b0ac5a23cf98ae69e3dd",
+    "note_sha256": "0fd72879ef6f0d5f7e711ac522ffb78bc564c6e96ed9424914176ed54355ac6d",
+    "scope": [
+      [
+        1,
+        1345
+      ]
+    ],
+    "items": [
+      {
+        "id": "P33-01",
+        "item": "对白单列缘由与文学功底焦虑",
+        "source": {
+          "lines": [
+            1,
+            18
+          ]
+        },
+        "note": {
+          "lines": [
+            123,
+            123
+          ],
+          "quote": "对白本来包含在场景里"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-02",
+        "item": "周星驰/王家卫/琼瑶长句模仿、作品成功因果倒置",
+        "source": {
+          "lines": [
+            19,
+            58
+          ]
+        },
+        "note": {
+          "lines": [
+            125,
+            125
+          ],
+          "quote": "周星驰的爱情独白"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-03",
+        "item": "夏洛特烦恼情境与废戏评价、首富发型比喻",
+        "source": {
+          "lines": [
+            59,
+            132
+          ]
+        },
+        "note": {
+          "lines": [
+            127,
+            127
+          ],
+          "quote": "《夏洛特烦恼》中反复听错"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-04",
+        "item": "年轻时文艺句式与装深沉答非所问",
+        "source": {
+          "lines": [
+            133,
+            174
+          ]
+        },
+        "note": {
+          "lines": [
+            129,
+            129
+          ],
+          "quote": "他也批评自己早年写过的两种做法"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-05",
+        "item": "恶犬寓言完整过程与反例理由",
+        "source": {
+          "lines": [
+            175,
+            255
+          ]
+        },
+        "note": {
+          "lines": [
+            131,
+            131
+          ],
+          "quote": "后一种仍用黑老大和小弟举例"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-06",
+        "item": "人物金句定义、楚门礼貌与天真",
+        "source": {
+          "lines": [
+            256,
+            315
+          ]
+        },
+        "note": {
+          "lines": [
+            137,
+            137
+          ],
+          "quote": "《楚门的世界》中"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-07",
+        "item": "幸福父子打球先打击后改口及父亲自我对应",
+        "source": {
+          "lines": [
+            316,
+            362
+          ]
+        },
+        "note": {
+          "lines": [
+            139,
+            139
+          ],
+          "quote": "《当幸福来敲门》的父子打球例子"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-08",
+        "item": "蜘蛛侠、黄晓明、流星花园与人物态度",
+        "source": {
+          "lines": [
+            363,
+            435
+          ]
+        },
+        "note": {
+          "lines": [
+            141,
+            141
+          ],
+          "quote": "老师还举出《蜘蛛侠》"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-09",
+        "item": "泰坦尼克晚餐人物强项/女主短板/全片走向",
+        "source": {
+          "lines": [
+            436,
+            542
+          ]
+        },
+        "note": {
+          "lines": [
+            145,
+            145
+          ],
+          "quote": "这一句在老师的分析里同时做三件事"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-10",
+        "item": "情境让你跳我跳成立",
+        "source": {
+          "lines": [
+            543,
+            594
+          ]
+        },
+        "note": {
+          "lines": [
+            149,
+            149
+          ],
+          "quote": "《泰坦尼克号》男女主初遇"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-11",
+        "item": "短句杀了他吧与冗长寓言对照",
+        "source": {
+          "lines": [
+            595,
+            633
+          ]
+        },
+        "note": {
+          "lines": [
+            151,
+            151
+          ],
+          "quote": "与前面冗长的恶犬寓言相对"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-12",
+        "item": "无间道天台关系与简练准确非随便写",
+        "source": {
+          "lines": [
+            634,
+            712
+          ]
+        },
+        "note": {
+          "lines": [
+            153,
+            153
+          ],
+          "quote": "《无间道》天台上"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-13",
+        "item": "分角色单写及演着写",
+        "source": {
+          "lines": [
+            713,
+            794
+          ]
+        },
+        "note": {
+          "lines": [
+            159,
+            159
+          ],
+          "quote": "甲、乙、丙在一场里说话"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-14",
+        "item": "语言素材、山东倒装与角色差异",
+        "source": {
+          "lines": [
+            795,
+            844
+          ]
+        },
+        "note": {
+          "lines": [
+            165,
+            165
+          ],
+          "quote": "各种人说话的方式"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-15",
+        "item": "问答陷阱成因、老张例、改回环境动作",
+        "source": {
+          "lines": [
+            845,
+            977
+          ]
+        },
+        "note": {
+          "lines": [
+            171,
+            171
+          ],
+          "quote": "一场需要表达很多信息并不必然有错"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-16",
+        "item": "先写潜台词、晚餐刁难与宝马停车示范",
+        "source": {
+          "lines": [
+            978,
+            1032
+          ]
+        },
+        "note": {
+          "lines": [
+            177,
+            177
+          ],
+          "quote": "先明确人物实际上想做什么"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-17",
+        "item": "重要角色日记、男主与未婚夫假写例、不入正文",
+        "source": {
+          "lines": [
+            1033,
+            1104
+          ]
+        },
+        "note": {
+          "lines": [
+            183,
+            183
+          ],
+          "quote": "同一件事，各人物注意和在意的东西不同"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-18",
+        "item": "两类对白与五法回顾、提名者新增案例",
+        "source": {
+          "lines": [
+            1105,
+            1262
+          ]
+        },
+        "note": {
+          "lines": [
+            167,
+            167
+          ],
+          "quote": "在总结时，他又补出一类叫“提名者”"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-19",
+        "item": "引入晚餐影片",
+        "source": {
+          "lines": [
+            1263,
+            1273
+          ]
+        },
+        "note": {
+          "lines": [
+            189,
+            189
+          ],
+          "quote": "老师播放《泰坦尼克号》的晚餐戏"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-20",
+        "item": "晚餐放映失真/空缺及ASR提前错位",
+        "source": {
+          "lines": [
+            1274,
+            1283
+          ]
+        },
+        "note": {
+          "lines": [
+            189,
+            189
+          ],
+          "quote": "约44:54–47:28的放映没有可靠完整转写"
+        },
+        "status": "待核",
+        "reason": "对应原片ASR失真/缺失，未独立听审或连续审看；正文按明确讲师描述和图文证据保留知识，不据此补电影完整声画效果。"
+      },
+      {
+        "id": "P33-21",
+        "item": "片后总结按原字幕校时",
+        "source": {
+          "lines": [
+            1284,
+            1303
+          ]
+        },
+        "note": {
+          "lines": [
+            189,
+            189
+          ],
+          "quote": "原画面字幕显示"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P33-22",
+        "item": "两场反写剧本的原课练习及无书面答案",
+        "source": {
+          "lines": [
+            1304,
+            1345
+          ]
+        },
+        "note": {
+          "lines": [
+            191,
+            191
+          ],
+          "quote": "本课的作业是"
+        },
+        "status": "保留"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "重新读取P32/P33全段ASR原句，逐个案例与限定双向核对，旧稿/个人记录核对，定点原图复看；听审和连续声画未做",
+    "method": "来源与正文双向图文复核；复用历史有效材料并核查本次改动；非原声听审或连续声画审看",
+    "summary": "图文知识通过，讲師复述/评价/假改准确归属，动态效果保留独立待核；正式写入由root执行",
+    "unverified": [
+      {
+        "page": 32,
+        "seconds": [
+          1655,
+          1822
+        ],
+        "content": "风骚律师碰瓷完整对白、动作、反应、切点、节奏，待独立声画核验"
+      },
+      {
+        "page": 33,
+        "seconds": [
+          2694,
+          2848
+        ],
+        "content": "泰坦尼克号晚餐完整对白、表演、反应和节奏，待独立声画核验"
+      }
+    ]
+  },
+  "preservation": {
+    "backup_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/backups/charlie-14/14 - 第十四课 场景与对白（P32-P33）.md",
+    "old_note_sha256": "bf6eb1d889020eb6fe2154ec3b600ef9b42c0cc4847d4422cb06a6c30fcf0019",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第十四课原有学习记录.md",
+    "overview_backup_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/backups/charlie-14/00 - 课程总览.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/batches/charlie-14/review.md",
+  "final_binding_update": {
+    "date": "2026-09-30",
+    "scope": "来源范围、正文定位及待核状态未变；移除工作缓存绝对提示，匹配最终笔记字节。"
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p36",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 十五课-节拍器15.3",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=36",
+    "bvid": "BV1eE411F73t",
+    "page": 36,
+    "cid": 190316428,
+    "text_sha256": "55ad5f38ad50e88eea1cb44df4c72aa8f63e47b67ae032c7af12075fb4a8688e",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1eE411F73t-p36-十五课-节拍器15.3/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/15 - 第十五课 节拍器（P34-P37）.md",
+    "sha256": "9e1c9a583eecb7b29de2a9104f96071c2072d617517293045de7858e0df6b3d4"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "55ad5f38ad50e88eea1cb44df4c72aa8f63e47b67ae032c7af12075fb4a8688e",
+    "note_sha256": "9e1c9a583eecb7b29de2a9104f96071c2072d617517293045de7858e0df6b3d4",
+    "scope": [
+      [
+        6,
+        638
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "A/B主副易误解、外在内在和逐步完整",
+        "source": {
+          "lines": [
+            6,
+            99
+          ]
+        },
+        "note": {
+          "lines": [
+            177,
+            177
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U2",
+        "item": "追事件大纲易漏B、单拉内心节点",
+        "source": {
+          "lines": [
+            100,
+            138
+          ]
+        },
+        "note": {
+          "lines": [
+            179,
+            179
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U3",
+        "item": "Want以为想要、Need真实内在需求与小蝌蚪",
+        "source": {
+          "lines": [
+            139,
+            207
+          ]
+        },
+        "note": {
+          "lines": [
+            181,
+            181
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U4",
+        "item": "小蝌蚪不同版本Need、胆怯自卑封闭的设定",
+        "source": {
+          "lines": [
+            208,
+            279
+          ]
+        },
+        "note": {
+          "lines": [
+            185,
+            185
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U5",
+        "item": "小蝌蚪怕黑交友助人获得价值、节点承载于A",
+        "source": {
+          "lines": [
+            280,
+            344
+          ]
+        },
+        "note": {
+          "lines": [
+            187,
+            187
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U6",
+        "item": "殉职警察求抚恤方案与女儿爱、立功生活履职B节点",
+        "source": {
+          "lines": [
+            345,
+            447
+          ]
+        },
+        "note": {
+          "lines": [
+            198,
+            198
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U7",
+        "item": "17岁篮球奖学金外部方案与关注妻儿内在节点",
+        "source": {
+          "lines": [
+            448,
+            552
+          ]
+        },
+        "note": {
+          "lines": [
+            206,
+            206
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U8",
+        "item": "伴郎新郎境况、买朋友对真朋友、双男主侧重",
+        "source": {
+          "lines": [
+            553,
+            638
+          ]
+        },
+        "note": {
+          "lines": [
+            214,
+            214
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-27",
+    "scope": "完整ASR来源先行及成稿后独立回读行1–638；实际看30图像条目/30不同原帧，覆盖首尾、板书与定点字幕。完整视频取得；未听审、未连续审看。",
+    "summary": "保留规律与例外、素材来源、十五拍功能及完整因果案例、A/B与Want/Need和分线构思取舍；原板书与字幕确认30–50游戏及85–110高潮；个人历史整理和量化练习另存，原图、路径及关联保留。",
+    "method": "先核四P身份并完整读来源形成提纲，后读旧稿；成稿后完整回读四P并逐段反查正文、旧稿去向，实际执行五项内容使用检查。201图像条目/197不同原帧均实际查看。由同一主代理独立步骤进行，非第二评审者、非盲评。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看；静帧仅证明所列字幕、板书与画面状态，不能证明连续动作、剪接节奏或声画同步。作品场景与行为按讲师复述保存。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "编剧教育和行业看法、周星驰心理推想按讲师观点保存，未外部查证。十五拍数值是本课转述尺度，不作为全部影片或原书所有版本的强制标准。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M3",
+        "item": "P35卖场决战片名未核清，正文注明旧稿作伸冤人但保留明确场景；花生酱猎鹰有原字幕，摔跤/拳击口头修正未听审，保留最终比赛，不强填具体运动项目。高潮下方粉笔首数字形疑似95，按34:05字幕85到110、上方分界与末25分钟反复口述保存。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M4",
+        "item": "小蝌蚪、受虐孩子、旅途和路线取舍属于讲师假设；不补影片真实剧情或完整剧本答案。老师建议积累素材、重看B节点和试用分线，没有旧稿二十字/110格/至少三个节点等量化作业。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "1df398d677e884cebe7af217e0fb5d9184f1648c3ae133ad181e57b2d3478cb6",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/查理老师的编剧课/15 - 第十五课 节拍器（P34-P37）.md",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第十五课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-15/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-15/review.md"
+}

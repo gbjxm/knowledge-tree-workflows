@@ -1,0 +1,299 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1QB4y1r73i-p14",
+  "source": {
+    "kind": "video",
+    "title": "13 - 第十三课 运动（P14）",
+    "locator": "https://www.bilibili.com/video/BV1QB4y1r73i?p=14",
+    "bvid": "BV1QB4y1r73i",
+    "page": 14,
+    "cid": 1091930629,
+    "text_sha256": "08ae0a48197eea24501a65ff7ae3053c8af6965b0746836cc829003656927dff",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1QB4y1r73i-p14-第十三课 运动/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/老白的分镜课/13 - 第十三课 运动（P14）.md",
+    "sha256": "2bba87f6d0694dacc9d944166c2206d355edbcaa2a9cb32c5bc99e3a9fde03e5"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "08ae0a48197eea24501a65ff7ae3053c8af6965b0746836cc829003656927dff",
+    "note_sha256": "2bba87f6d0694dacc9d944166c2206d355edbcaa2a9cb32c5bc99e3a9fde03e5",
+    "scope": [
+      [
+        1,
+        316
+      ]
+    ],
+    "items": [
+      {
+        "id": "P14-U01",
+        "item": "动势认识方法与打斗色块",
+        "source": {
+          "lines": [
+            1,
+            31
+          ]
+        },
+        "status": "合并",
+        "reason": "保留独特案例/条件/过程，压缩同义重复和非知识互动；实际三向依据见review.md。",
+        "note": {
+          "lines": [
+            52,
+            52
+          ],
+          "quote": "开头示范两人打斗"
+        }
+      },
+      {
+        "id": "P14-U02",
+        "item": "看麦子、风救本救布下楼情境",
+        "source": {
+          "lines": [
+            32,
+            49
+          ]
+        },
+        "status": "合并",
+        "reason": "保留独特案例/条件/过程，压缩同义重复和非知识互动；实际三向依据见review.md。",
+        "note": {
+          "lines": [
+            58,
+            58
+          ],
+          "quote": "老师用自己导演的短片《看麦子》说明。"
+        }
+      },
+      {
+        "id": "P14-U03",
+        "item": "相邻右/左与镜内转向链",
+        "source": {
+          "lines": [
+            50,
+            83
+          ]
+        },
+        "status": "合并",
+        "reason": "保留独特案例/条件/过程，压缩同义重复和非知识互动；实际三向依据见review.md。",
+        "note": {
+          "lines": [
+            60,
+            60
+          ],
+          "quote": "下面是**讲师对片段的方向解释**"
+        }
+      },
+      {
+        "id": "P14-U04",
+        "item": "删拐弯改变切出时机的反例",
+        "source": {
+          "lines": [
+            84,
+            108
+          ]
+        },
+        "status": "合并",
+        "reason": "保留独特案例/条件/过程，压缩同义重复和非知识互动；实际三向依据见review.md。",
+        "note": {
+          "lines": [
+            75,
+            75
+          ],
+          "quote": "老师改其中一个接点"
+        }
+      },
+      {
+        "id": "P14-U05",
+        "item": "完整顺势方向回顾",
+        "source": {
+          "lines": [
+            109,
+            127
+          ]
+        },
+        "status": "合并",
+        "reason": "保留独特案例/条件/过程，压缩同义重复和非知识互动；实际三向依据见review.md。",
+        "note": {
+          "lines": [
+            77,
+            77
+          ],
+          "quote": "原方案再次回顾为"
+        }
+      },
+      {
+        "id": "P14-U06",
+        "item": "为何用体系及自己作品说明初始意图",
+        "source": {
+          "lines": [
+            128,
+            154
+          ]
+        },
+        "status": "合并",
+        "reason": "保留独特案例/条件/过程，压缩同义重复和非知识互动；实际三向依据见review.md。",
+        "note": {
+          "lines": [
+            81,
+            81
+          ],
+          "quote": "第二个作用是帮助创作"
+        }
+      },
+      {
+        "id": "P14-U07",
+        "item": "打斗先色块后具体动作",
+        "source": {
+          "lines": [
+            155,
+            176
+          ]
+        },
+        "status": "合并",
+        "reason": "保留独特案例/条件/过程，压缩同义重复和非知识互动；实际三向依据见review.md。",
+        "note": {
+          "lines": [
+            83,
+            83
+          ],
+          "quote": "两人打斗草图看起来复杂"
+        }
+      },
+      {
+        "id": "P14-U08",
+        "item": "雨危机、完整展现失效和只剪短不足",
+        "source": {
+          "lines": [
+            177,
+            200
+          ]
+        },
+        "status": "合并",
+        "reason": "保留独特案例/条件/过程，压缩同义重复和非知识互动；实际三向依据见review.md。",
+        "note": {
+          "lines": [
+            89,
+            89
+          ],
+          "quote": "前面的救本、追布反复跑动"
+        }
+      },
+      {
+        "id": "P14-U09",
+        "item": "危机段相邻反接与左右下",
+        "source": {
+          "lines": [
+            201,
+            231
+          ]
+        },
+        "status": "合并",
+        "reason": "保留独特案例/条件/过程，压缩同义重复和非知识互动；实际三向依据见review.md。",
+        "note": {
+          "lines": [
+            91,
+            91
+          ],
+          "quote": "他的另一种处理是改变相邻动势的关系"
+        }
+      },
+      {
+        "id": "P14-U10",
+        "item": "画框方向与跨主体总结增量",
+        "source": {
+          "lines": [
+            232,
+            264
+          ]
+        },
+        "status": "合并",
+        "reason": "保留独特案例/条件/过程，压缩同义重复和非知识互动；实际三向依据见review.md。",
+        "note": {
+          "lines": [
+            97,
+            97
+          ],
+          "quote": "动势再次概括为"
+        }
+      },
+      {
+        "id": "P14-U11",
+        "item": "色块再POSE回顾",
+        "source": {
+          "lines": [
+            265,
+            271
+          ]
+        },
+        "status": "合并",
+        "reason": "保留独特案例/条件/过程，压缩同义重复和非知识互动；实际三向依据见review.md。",
+        "note": {
+          "lines": [
+            99,
+            99
+          ],
+          "quote": "简化创作是先色块移动、再做姿势"
+        }
+      },
+      {
+        "id": "P14-U12",
+        "item": "节奏复杂多因素及顺反起伏",
+        "source": {
+          "lines": [
+            272,
+            291
+          ]
+        },
+        "status": "合并",
+        "reason": "保留独特案例/条件/过程，压缩同义重复和非知识互动；实际三向依据见review.md。",
+        "note": {
+          "lines": [
+            99,
+            99
+          ],
+          "quote": "节奏则更复杂"
+        }
+      },
+      {
+        "id": "P14-U13",
+        "item": "简单原理、2018自述与对比形式",
+        "source": {
+          "lines": [
+            292,
+            316
+          ]
+        },
+        "status": "合并",
+        "reason": "保留独特案例/条件/过程，压缩同义重复和非知识互动；实际三向依据见review.md。",
+        "note": {
+          "lines": [
+            101,
+            101
+          ],
+          "quote": "老白最后强调用简单原理做复杂应用"
+        }
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "现存P14 ASR316行全文、19分布+26必要静帧及实际三向AI复核",
+    "summary": "保全救本救布方向链和改切反例、打斗两层设计、雨危机不同方向的节奏取舍；核清看麦子/遮雨布/POSE；旧附件和主题入口保留，个人/额外归纳另存。",
+    "method": "AI先来源后旧稿；候选后重读全部来源查遗漏、反查新增及旧稿保护；静态范围见visual-review，不冒充独立声画或用户验收。",
+    "unverified": [
+      {
+        "id": "AV-P14",
+        "item": "原声、连续运动及实际切点和节奏效果",
+        "reason": "未独立听音或连续看示范，方向动作按讲师清楚描述及原字幕标注保存，不用静帧证明实际动态效果。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "working_review_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-13/review.md",
+  "preservation": {
+    "old_note_sha256": "3d0fb7ffe2d45d8bb1a23ffc0034c895d9d0d1be099d3cf191721c84e2ebb98d",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/老白的分镜课/13 - 第十三课 运动（P14）.md",
+    "old_preservation_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-13/old-preservation.md",
+    "personal_note": "知识库/学习区/个人思考/老白分镜课-第13课历史个人记录-20260930.md"
+  }
+}

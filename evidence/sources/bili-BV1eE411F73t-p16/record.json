@@ -1,0 +1,323 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p16",
+  "source": {
+    "kind": "video",
+    "title": "第八课-勾勒画面8.2",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=16",
+    "bvid": "BV1eE411F73t",
+    "page": 16,
+    "cid": 168276930,
+    "text_sha256": "0ddb1b8ff57580552cd8509bbafe49889951cfb2f7d8891e6b834dd95da0d120",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/reused-sources/BV1eE411F73t-p16/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/08 - 第八课 勾勒画面（P15-P17）.md",
+    "sha256": "02679c7d6c92491ba50b65ae8fd7ac1cc10f308fd7ed97b5441cb8ceea9e8b1b"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "0ddb1b8ff57580552cd8509bbafe49889951cfb2f7d8891e6b834dd95da0d120",
+    "note_sha256": "02679c7d6c92491ba50b65ae8fd7ac1cc10f308fd7ed97b5441cb8ceea9e8b1b",
+    "scope": [
+      [
+        1,
+        900
+      ]
+    ],
+    "items": [
+      {
+        "id": "P16-01",
+        "item": "现场将警察八要素填入十序列",
+        "source": {
+          "lines": [
+            1,
+            31
+          ]
+        },
+        "note": {
+          "lines": [
+            105,
+            105
+          ],
+          "quote": "这是老师当堂构思的虚构故事"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-02",
+        "item": "钱欲望与结尾好警察反推烂开场",
+        "source": {
+          "lines": [
+            32,
+            68
+          ]
+        },
+        "note": {
+          "lines": [
+            109,
+            109
+          ],
+          "quote": "这个警察想通过殉职给妻女留下钱"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-03",
+        "item": "先一主角/事生配角、搭档可拆分",
+        "source": {
+          "lines": [
+            69,
+            133
+          ]
+        },
+        "note": {
+          "lines": [
+            111,
+            111
+          ],
+          "quote": "P16 03:27–05:14还回应了"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-04",
+        "item": "协警身份两个理由、夜市不作为、对讲机揭身份",
+        "source": {
+          "lines": [
+            134,
+            242
+          ]
+        },
+        "note": {
+          "lines": [
+            113,
+            113
+          ],
+          "quote": "主角被设为协警"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-05",
+        "item": "荒诞信息、妻女电话几个构思",
+        "source": {
+          "lines": [
+            243,
+            310
+          ]
+        },
+        "note": {
+          "lines": [
+            125,
+            125
+          ],
+          "quote": "家庭信息可以夹在这场里"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-06",
+        "item": "宿醉登门、不能只重复冷落、女儿/前妻初案否定",
+        "source": {
+          "lines": [
+            311,
+            404
+          ]
+        },
+        "note": {
+          "lines": [
+            129,
+            129
+          ],
+          "quote": "次日一早，主角宿醉未醒"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-07",
+        "item": "父子替代、陪伴理由与哈尔滨啤酒屈辱",
+        "source": {
+          "lines": [
+            405,
+            477
+          ]
+        },
+        "note": {
+          "lines": [
+            133,
+            133
+          ],
+          "quote": "后来提出的是一对父子"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-08",
+        "item": "女儿音乐学费、拿不出与李叔的铺钱",
+        "source": {
+          "lines": [
+            478,
+            544
+          ]
+        },
+        "note": {
+          "lines": [
+            135,
+            135
+          ],
+          "quote": "女儿想读音乐或艺术学校"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-09",
+        "item": "回所延续身份、捐100/150万/不自愿、念头产生",
+        "source": {
+          "lines": [
+            545,
+            661
+          ]
+        },
+        "note": {
+          "lines": [
+            143,
+            143
+          ],
+          "quote": "这时所里为邻县因公牺牲的警察募捐"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-10",
+        "item": "追悼会与捐款两种方案的选择理由",
+        "source": {
+          "lines": [
+            662,
+            698
+          ]
+        },
+        "note": {
+          "lines": [
+            147,
+            147
+          ],
+          "quote": "老师也比较了另一方案"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-11",
+        "item": "炸弹威胁事件求死失败救人成功",
+        "source": {
+          "lines": [
+            699,
+            776
+          ]
+        },
+        "note": {
+          "lines": [
+            151,
+            151
+          ],
+          "quote": "主角开始主动找危险"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-12",
+        "item": "升职加薪撤回、表彰不解决钱",
+        "source": {
+          "lines": [
+            777,
+            794
+          ]
+        },
+        "note": {
+          "lines": [
+            155,
+            155
+          ],
+          "quote": "老师顺手提出“升职加薪”"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-13",
+        "item": "多次尝试和大事件后移",
+        "source": {
+          "lines": [
+            795,
+            855
+          ]
+        },
+        "note": {
+          "lines": [
+            157,
+            157
+          ],
+          "quote": "只有这一场事件又太薄"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-14",
+        "item": "虚假胜利与开场过失回收铺垫",
+        "source": {
+          "lines": [
+            856,
+            900
+          ]
+        },
+        "note": {
+          "lines": [
+            161,
+            161
+          ],
+          "quote": "几次冒险为主角赢来表彰"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P16-AV",
+        "item": "末段原声语气/连续声画独立核验仍缺，图文已核与声画分开",
+        "source": {
+          "lines": [
+            900,
+            900
+          ]
+        },
+        "note": {
+          "lines": [
+            235,
+            235
+          ],
+          "quote": "原声语气与连续声画未听审/审看"
+        },
+        "status": "待核",
+        "reason": "未听审原声或连续审看；这是独立声画范围，不否定已按ASR/字幕/板书支持的图文知识。P15全原件及最后0.327秒未取，尾部宣传卡取得范围详gap-recovery.md。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "重新读取P15/16/17全段原ASR1190/900/977行，逐例双向/旧稿去向核对；本次实际看24个字幕/板书静帧，复用历史535不同时间点；原声/连续未审",
+    "method": "来源与正文双向图文复核；复用历史有效材料并核查本次改动；非原声听审或连续声画审看",
+    "summary": "尾段核心图文已补清，三P图文内容通过；保留现场候选/否定/暂用方案，恢复往往限定；个人旧记录已直接另存，不再依赖缓存正文链接",
+    "unverified": [
+      "P15/P16/P17课堂原声语气与连续声画未独立听审/审看；不以静帧代替",
+      "P15完整原件仍未取得，补段至2317秒，末0.327秒未取；已见2313–2316秒宣传卡，无核心图文阻塞"
+    ]
+  },
+  "preservation": {
+    "backup_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/backups/charlie-08/08 - 第八课 勾勒画面（P15-P17）.md",
+    "old_note_sha256": "4f3376137bfa67c8a77e2e5121fd2f4f7d8bc79d04f93dbc1df279b97743ebc7",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第八课原有学习记录.md",
+    "overview_backup_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/backups/charlie-08/00 - 课程总览.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/batches/charlie-08/review.md",
+  "final_binding_update": {
+    "date": "2026-09-30",
+    "scope": "来源范围、正文定位及待核状态未变；移除工作缓存绝对提示，匹配最终笔记字节。"
+  }
+}

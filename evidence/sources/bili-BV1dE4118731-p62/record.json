@@ -1,0 +1,403 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p62",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P62 10.11动作片的门道3",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=62",
+    "bvid": "BV1dE4118731",
+    "page": 62,
+    "cid": 139218154,
+    "text_sha256": "b8dfe2e1083df8993f554f752d2a1e8d2fb276b03fc77ecc82cf8078106158d0",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p62-10.11动作片的门道3/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/16 - 第十章 动作片视听设计（P60-P63）.md",
+    "sha256": "1b4192ab0568b2b812af36baf981573d29dd0366f94ae2ef2f79490b9f33d4d8"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "b8dfe2e1083df8993f554f752d2a1e8d2fb276b03fc77ecc82cf8078106158d0",
+    "note_sha256": "1b4192ab0568b2b812af36baf981573d29dd0366f94ae2ef2f79490b9f33d4d8",
+    "scope": [
+      [
+        6,
+        373
+      ]
+    ],
+    "items": [
+      {
+        "id": "P62-U01",
+        "item": "不是为摇而摇：环境、人物、轨迹与关系；水平、垂直、变轴等疑词需原课核。",
+        "source": {
+          "lines": [
+            6,
+            27
+          ]
+        },
+        "note": {
+          "lines": [
+            137,
+            142
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P62-U02",
+        "item": "卧虎藏龙玉娇龙李慕白竹海，横向摇摄、动静刚柔、有限/无限空间词失真，人物自然关系为教师解读。",
+        "source": {
+          "lines": [
+            28,
+            51
+          ]
+        },
+        "note": {
+          "lines": [
+            143,
+            150
+          ]
+        },
+        "status": "待核",
+        "reason": "M10的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P62-U03",
+        "item": "追逐类型、人车关系及经费难度，不提供真实追车执行方案。",
+        "source": {
+          "lines": [
+            52,
+            70
+          ]
+        },
+        "note": {
+          "lines": [
+            151,
+            158
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P62-U04",
+        "item": "未明片名的追车插片约56秒，教师请结合片例研究技巧；必须识别原画面，不能按空窗略去。",
+        "source": {
+          "lines": [
+            71,
+            78
+          ]
+        },
+        "note": {
+          "lines": [
+            151,
+            158
+          ]
+        },
+        "status": "待核",
+        "reason": "M11的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P62-U05",
+        "item": "机位丰富受到场景、拍摄许可、预算、车内狭小空间等限制；保留课程层级不当当期法规指导。",
+        "source": {
+          "lines": [
+            79,
+            101
+          ]
+        },
+        "note": {
+          "lines": [
+            159,
+            164
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P62-U06",
+        "item": "快速运动机位受限，多角度多机位多次拍摄及方向盘、车轮、档位细节，不等于镜头越多越好。",
+        "source": {
+          "lines": [
+            102,
+            141
+          ]
+        },
+        "note": {
+          "lines": [
+            165,
+            170
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P62-U07",
+        "item": "多样设备和汽车平台、连接车辆的教学概述，增加视点和控制；同步与合焦关系需限定。",
+        "source": {
+          "lines": [
+            142,
+            165
+          ]
+        },
+        "note": {
+          "lines": [
+            171,
+            176
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P62-U08",
+        "item": "车上摇臂与航拍建立宏观视点，航拍必需论是教师随后明确的戏言，不能当标准。",
+        "source": {
+          "lines": [
+            166,
+            190
+          ]
+        },
+        "note": {
+          "lines": [
+            177,
+            182
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P62-U09",
+        "item": "小设备GoPro、车载稳定器/吸盘、斯坦尼康等疑词；作用与设备固定不作未核实操作指南。",
+        "source": {
+          "lines": [
+            191,
+            219
+          ]
+        },
+        "note": {
+          "lines": [
+            183,
+            188
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P62-U10",
+        "item": "辅助信息：反应、尖叫、特写、喜剧小设计丰富追逐，不只堆车辆动作。",
+        "source": {
+          "lines": [
+            220,
+            229
+          ]
+        },
+        "note": {
+          "lines": [
+            189,
+            192
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P62-U11",
+        "item": "抠像、绿幕、谍影重重棚内拍摄说法，撞车爆炸与合成，主观镜头快剪共同参与；片名和实拍机制需核。",
+        "source": {
+          "lines": [
+            230,
+            256
+          ]
+        },
+        "note": {
+          "lines": [
+            193,
+            198
+          ]
+        },
+        "status": "待核",
+        "reason": "M12的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P62-U12",
+        "item": "杜琪峰大事件片头约七分钟长镜头，高楼到小巷的开端；长度与原片段关系待核。",
+        "source": {
+          "lines": [
+            257,
+            264
+          ]
+        },
+        "note": {
+          "lines": [
+            199,
+            216
+          ]
+        },
+        "status": "待核",
+        "reason": "M13的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P62-U13",
+        "item": "大事件匪徒、楼道房间、下望到便衣/警察等叙述与长插片混合，ASR空缺与疑词多，不按文字补镜头。",
+        "source": {
+          "lines": [
+            265,
+            284
+          ]
+        },
+        "note": {
+          "lines": [
+            199,
+            216
+          ]
+        },
+        "status": "待核",
+        "reason": "M13的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P62-U14",
+        "item": "同片街道交涉及对抗的对白长段，ASR失真严重，需真实画面、原声和连续空间关系。",
+        "source": {
+          "lines": [
+            285,
+            336
+          ]
+        },
+        "note": {
+          "lines": [
+            199,
+            216
+          ]
+        },
+        "status": "待核",
+        "reason": "M13的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P62-U15",
+        "item": "纵横垂直摇等综合运动，升降机滑轨稳定器组合、数次升降及360度回旋原说法；工程机制和真实节奏待核。",
+        "source": {
+          "lines": [
+            337,
+            357
+          ]
+        },
+        "note": {
+          "lines": [
+            199,
+            216
+          ]
+        },
+        "status": "待核",
+        "reason": "M13的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P62-U16",
+        "item": "长镜头双刃剑：动作过程与真实感、穿帮和节奏风险；技巧作为参照，非追求越长越好。",
+        "source": {
+          "lines": [
+            358,
+            373
+          ]
+        },
+        "note": {
+          "lines": [
+            217,
+            220
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P62-U02",
+        "item": "卧虎藏龙玉娇龙李慕白竹海，横向摇摄、动静刚柔、有限/无限空间词失真，人物自然关系为教师解读。",
+        "status": "待核",
+        "reason": "M10的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P62-U04",
+        "item": "未明片名的追车插片约56秒，教师请结合片例研究技巧；必须识别原画面，不能按空窗略去。",
+        "status": "待核",
+        "reason": "M11的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P62-U11",
+        "item": "抠像、绿幕、谍影重重棚内拍摄说法，撞车爆炸与合成，主观镜头快剪共同参与；片名和实拍机制需核。",
+        "status": "待核",
+        "reason": "M12的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P62-U12",
+        "item": "杜琪峰大事件片头约七分钟长镜头，高楼到小巷的开端；长度与原片段关系待核。",
+        "status": "待核",
+        "reason": "M13的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P62-U13",
+        "item": "大事件匪徒、楼道房间、下望到便衣/警察等叙述与长插片混合，ASR空缺与疑词多，不按文字补镜头。",
+        "status": "待核",
+        "reason": "M13的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P62-U14",
+        "item": "同片街道交涉及对抗的对白长段，ASR失真严重，需真实画面、原声和连续空间关系。",
+        "status": "待核",
+        "reason": "M13的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P62-U15",
+        "item": "纵横垂直摇等综合运动，升降机滑轨稳定器组合、数次升降及360度回旋原说法；工程机制和真实节奏待核。",
+        "status": "待核",
+        "reason": "M13的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "697ddb0d5836254aacf6adb3168aa183f491ba70989b7bce8cc48aefebd259e4",
+    "historical_review_sha256": "017f79aa6f51a31338e4ed0658782e43463a1f6ba367e78e173588fc95484b88",
+    "historical_seal_sha256": "6d88604ed89d1d13e57c6aeb81188c06a5a228f5170adadac92eea59a4fb749c",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-16/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "61c8c30b7ae17abc1ce9dd95bba2b2d5846cda6fbac93e5b43c593f1c5be1731",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/16 - 第十章 动作片视听设计（P60-P63）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-16/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章动作片视听设计既有学习记录.md",
+    "personal_sha256": "151d29689b32b056a3c467d092473df390ecf25aa35b7e5e8c44d86445d633a3",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-16/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-16/review.md"
+}

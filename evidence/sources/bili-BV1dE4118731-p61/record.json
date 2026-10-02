@@ -1,0 +1,320 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p61",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P61 10.10动作片的门道2",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=61",
+    "bvid": "BV1dE4118731",
+    "page": 61,
+    "cid": 139216319,
+    "text_sha256": "b42c65e3cdfd0b7c8f4a894453706668f0fcca37cac9bb8f48de8f6b2bc8c60d",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p61-10.10动作片的门道2/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/16 - 第十章 动作片视听设计（P60-P63）.md",
+    "sha256": "1b4192ab0568b2b812af36baf981573d29dd0366f94ae2ef2f79490b9f33d4d8"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "b42c65e3cdfd0b7c8f4a894453706668f0fcca37cac9bb8f48de8f6b2bc8c60d",
+    "note_sha256": "1b4192ab0568b2b812af36baf981573d29dd0366f94ae2ef2f79490b9f33d4d8",
+    "scope": [
+      [
+        6,
+        204
+      ]
+    ],
+    "items": [
+      {
+        "id": "P61-U01",
+        "item": "走出你的世界：拉镜头与推进相对，Zoom Out与Dolly Out英文ASR失真，参照上节理解。",
+        "source": {
+          "lines": [
+            6,
+            22
+          ]
+        },
+        "note": {
+          "lines": [
+            91,
+            94
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P61-U02",
+        "item": "伴你同行：横向追随、伴随、跟拍等形式；01:40后有长时码段，具体示例需图文识别。",
+        "source": {
+          "lines": [
+            23,
+            40
+          ]
+        },
+        "note": {
+          "lines": [
+            95,
+            102
+          ]
+        },
+        "status": "待核",
+        "reason": "M7的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P61-U03",
+        "item": "马永贞货场，金城武与元奎追随拍摄，近景和大全景体现爆发力、速度感。",
+        "source": {
+          "lines": [
+            41,
+            50
+          ]
+        },
+        "note": {
+          "lines": [
+            95,
+            102
+          ]
+        },
+        "status": "待核",
+        "reason": "M7的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P61-U04",
+        "item": "同步运动与焦点、前景参照物：木桩和人群；同步不应被扩大为自动保证合焦。",
+        "source": {
+          "lines": [
+            51,
+            72
+          ]
+        },
+        "note": {
+          "lines": [
+            95,
+            102
+          ]
+        },
+        "status": "待核",
+        "reason": "M7的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P61-U05",
+        "item": "同片马车打斗，跟、追、固定结合，光影闪动与快剪形成你追我打；连续声画需核。",
+        "source": {
+          "lines": [
+            73,
+            91
+          ]
+        },
+        "note": {
+          "lines": [
+            103,
+            108
+          ]
+        },
+        "status": "待核",
+        "reason": "M7的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P61-U06",
+        "item": "围绕在你身旁：绕摄的扇形弧形运动，动作起势与高大形象；不把绕摄都限定360度。",
+        "source": {
+          "lines": [
+            92,
+            115
+          ]
+        },
+        "note": {
+          "lines": [
+            109,
+            112
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P61-U07",
+        "item": "石破天惊追车尾声，Stanley/Mason、法拉利报废、仰角近一周绕摄与不是我的车笑点；原声身份与运动待核。",
+        "source": {
+          "lines": [
+            116,
+            136
+          ]
+        },
+        "note": {
+          "lines": [
+            113,
+            118
+          ]
+        },
+        "status": "待核",
+        "reason": "M8的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P61-U08",
+        "item": "绕摄与主观寻找对象，教师转头示范；原分类可能混有摇摄，需区分摄影机绕行与转向。",
+        "source": {
+          "lines": [
+            137,
+            156
+          ]
+        },
+        "note": {
+          "lines": [
+            119,
+            124
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P61-U09",
+        "item": "黑客帝国子弹时间，多机围绕、高度可变、稳定平滑；台数、类型与拍摄时序不据概述当完整工程事实。",
+        "source": {
+          "lines": [
+            157,
+            172
+          ]
+        },
+        "note": {
+          "lines": [
+            125,
+            134
+          ]
+        },
+        "status": "待核",
+        "reason": "M9的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P61-U10",
+        "item": "每机一两帧顺序组合的教学解释、CG补充和练习建议；同时拍与时序拍的实际机制需原始制作资料。",
+        "source": {
+          "lines": [
+            173,
+            195
+          ]
+        },
+        "note": {
+          "lines": [
+            125,
+            134
+          ]
+        },
+        "status": "待核",
+        "reason": "M9的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P61-U11",
+        "item": "25秒左右长插片窗口、绿幕抠像及动作连贯，结束；未转写媒体需看，课上建议不自动激活。",
+        "source": {
+          "lines": [
+            196,
+            204
+          ]
+        },
+        "note": {
+          "lines": [
+            125,
+            134
+          ]
+        },
+        "status": "待核",
+        "reason": "M9的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P61-U02",
+        "item": "伴你同行：横向追随、伴随、跟拍等形式；01:40后有长时码段，具体示例需图文识别。",
+        "status": "待核",
+        "reason": "M7的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P61-U03",
+        "item": "马永贞货场，金城武与元奎追随拍摄，近景和大全景体现爆发力、速度感。",
+        "status": "待核",
+        "reason": "M7的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P61-U04",
+        "item": "同步运动与焦点、前景参照物：木桩和人群；同步不应被扩大为自动保证合焦。",
+        "status": "待核",
+        "reason": "M7的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P61-U05",
+        "item": "同片马车打斗，跟、追、固定结合，光影闪动与快剪形成你追我打；连续声画需核。",
+        "status": "待核",
+        "reason": "M7的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P61-U07",
+        "item": "石破天惊追车尾声，Stanley/Mason、法拉利报废、仰角近一周绕摄与不是我的车笑点；原声身份与运动待核。",
+        "status": "待核",
+        "reason": "M8的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P61-U09",
+        "item": "黑客帝国子弹时间，多机围绕、高度可变、稳定平滑；台数、类型与拍摄时序不据概述当完整工程事实。",
+        "status": "待核",
+        "reason": "M9的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P61-U10",
+        "item": "每机一两帧顺序组合的教学解释、CG补充和练习建议；同时拍与时序拍的实际机制需原始制作资料。",
+        "status": "待核",
+        "reason": "M9的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P61-U11",
+        "item": "25秒左右长插片窗口、绿幕抠像及动作连贯，结束；未转写媒体需看，课上建议不自动激活。",
+        "status": "待核",
+        "reason": "M9的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "697ddb0d5836254aacf6adb3168aa183f491ba70989b7bce8cc48aefebd259e4",
+    "historical_review_sha256": "017f79aa6f51a31338e4ed0658782e43463a1f6ba367e78e173588fc95484b88",
+    "historical_seal_sha256": "6d88604ed89d1d13e57c6aeb81188c06a5a228f5170adadac92eea59a4fb749c",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-16/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "61c8c30b7ae17abc1ce9dd95bba2b2d5846cda6fbac93e5b43c593f1c5be1731",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/16 - 第十章 动作片视听设计（P60-P63）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-16/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章动作片视听设计既有学习记录.md",
+    "personal_sha256": "151d29689b32b056a3c467d092473df390ecf25aa35b7e5e8c44d86445d633a3",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-16/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-16/review.md"
+}

@@ -1,0 +1,345 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p58",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P58 10.7我们要布光（上）",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=58",
+    "bvid": "BV1dE4118731",
+    "page": 58,
+    "cid": 139214015,
+    "text_sha256": "a92db30df7dc099370599a2e18283c572f7f0544c6259e10629373f0305d25b8",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p58-10.7我们要布光（上）/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/15 - 第十章 布光实践（P58-P59）.md",
+    "sha256": "42631f93749f49bc4469d94c338cd70f1e036e9891546fb5fcdcf08f13d1bba4"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "a92db30df7dc099370599a2e18283c572f7f0544c6259e10629373f0305d25b8",
+    "note_sha256": "42631f93749f49bc4469d94c338cd70f1e036e9891546fb5fcdcf08f13d1bba4",
+    "scope": [
+      [
+        6,
+        244
+      ]
+    ],
+    "items": [
+      {
+        "id": "P58-U01",
+        "item": "两位摄影理论人物的影像三要素与照明，姓名及原词不清；光参与造型、叙事和表意。",
+        "source": {
+          "lines": [
+            6,
+            23
+          ]
+        },
+        "note": {
+          "lines": [
+            44,
+            51
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并说明适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P58-U02",
+        "item": "布光先考虑时空，氛围、情绪、象征与时间空间流逝及组合。",
+        "source": {
+          "lines": [
+            24,
+            38
+          ]
+        },
+        "note": {
+          "lines": [
+            44,
+            51
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并说明适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P58-U03",
+        "item": "闪灵初访酒店，大堂、过厅、经理办公室三种色调；现场光、移动与空间衔接待核。",
+        "source": {
+          "lines": [
+            39,
+            80
+          ]
+        },
+        "note": {
+          "lines": [
+            52,
+            67
+          ]
+        },
+        "status": "待核",
+        "reason": "M1连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P58-U04",
+        "item": "不同色温、颜色及环境人物关系共同构成空间，连续摄影串联时空避免过度跳跃。",
+        "source": {
+          "lines": [
+            81,
+            89
+          ]
+        },
+        "note": {
+          "lines": [
+            52,
+            67
+          ]
+        },
+        "status": "待核",
+        "reason": "M1连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P58-U05",
+        "item": "沉默的羔羊地下室较量：顶光、熄灯、绿色夜视、枪光、日光与不同情绪；动态原声和主观视点需核。",
+        "source": {
+          "lines": [
+            90,
+            120
+          ]
+        },
+        "note": {
+          "lines": [
+            68,
+            83
+          ]
+        },
+        "status": "待核",
+        "reason": "M2连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P58-U06",
+        "item": "同片更早进门段落，正常亮度、进入暗区、再出暗区后脸部明暗改变；三段变化与长镜头需核。",
+        "source": {
+          "lines": [
+            121,
+            150
+          ]
+        },
+        "note": {
+          "lines": [
+            84,
+            91
+          ]
+        },
+        "status": "待核",
+        "reason": "M3连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P58-U07",
+        "item": "红的兽医院段落，女子为被撞狗就医，角色名ASR为朱利疑误；光按情绪串联多个空间。",
+        "source": {
+          "lines": [
+            151,
+            161
+          ]
+        },
+        "note": {
+          "lines": [
+            92,
+            108
+          ]
+        },
+        "status": "待核",
+        "reason": "M4连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P58-U08",
+        "item": "红的候诊、房门、窗光、手术室门、医生及反打等光照变化；侧光修饰光疑词、剪影及人物善良的讲者阐释。",
+        "source": {
+          "lines": [
+            162,
+            185
+          ]
+        },
+        "note": {
+          "lines": [
+            92,
+            108
+          ]
+        },
+        "status": "待核",
+        "reason": "M4连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P58-U09",
+        "item": "末代皇帝现实和插入回忆的套层结构，以光设计大段落的时空顺序。",
+        "source": {
+          "lines": [
+            186,
+            203
+          ]
+        },
+        "note": {
+          "lines": [
+            109,
+            125
+          ]
+        },
+        "status": "待核",
+        "reason": "M5连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P58-U10",
+        "item": "当下自然光效、冷调日景大光比与回忆戏剧光效、暖调室内较小光比等比较；原表格术语及适用范围待核。",
+        "source": {
+          "lines": [
+            204,
+            224
+          ]
+        },
+        "note": {
+          "lines": [
+            109,
+            125
+          ]
+        },
+        "status": "待核",
+        "reason": "M5连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P58-U11",
+        "item": "末代皇帝插片，ASR稀疏且大段失真，不据文字补造台词或镜头，需图文与声画。",
+        "source": {
+          "lines": [
+            225,
+            235
+          ]
+        },
+        "note": {
+          "lines": [
+            109,
+            125
+          ]
+        },
+        "status": "待核",
+        "reason": "M5连续声画或制作语境待核；课堂解释与图文观察已分开。"
+      },
+      {
+        "id": "P58-U12",
+        "item": "回忆与现实界线的开放思考及本节结束；不把讲者阐释写成影片唯一解释。",
+        "source": {
+          "lines": [
+            236,
+            244
+          ]
+        },
+        "note": {
+          "lines": [
+            126,
+            129
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并说明适用条件；登记闭合不等于已听原声或连续审看。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P58-U03",
+        "item": "闪灵初访酒店，大堂、过厅、经理办公室三种色调；现场光、移动与空间衔接待核。",
+        "status": "待核",
+        "reason": "M1连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P58-U04",
+        "item": "不同色温、颜色及环境人物关系共同构成空间，连续摄影串联时空避免过度跳跃。",
+        "status": "待核",
+        "reason": "M1连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P58-U05",
+        "item": "沉默的羔羊地下室较量：顶光、熄灯、绿色夜视、枪光、日光与不同情绪；动态原声和主观视点需核。",
+        "status": "待核",
+        "reason": "M2连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P58-U06",
+        "item": "同片更早进门段落，正常亮度、进入暗区、再出暗区后脸部明暗改变；三段变化与长镜头需核。",
+        "status": "待核",
+        "reason": "M3连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P58-U07",
+        "item": "红的兽医院段落，女子为被撞狗就医，角色名ASR为朱利疑误；光按情绪串联多个空间。",
+        "status": "待核",
+        "reason": "M4连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P58-U08",
+        "item": "红的候诊、房门、窗光、手术室门、医生及反打等光照变化；侧光修饰光疑词、剪影及人物善良的讲者阐释。",
+        "status": "待核",
+        "reason": "M4连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P58-U09",
+        "item": "末代皇帝现实和插入回忆的套层结构，以光设计大段落的时空顺序。",
+        "status": "待核",
+        "reason": "M5连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P58-U10",
+        "item": "当下自然光效、冷调日景大光比与回忆戏剧光效、暖调室内较小光比等比较；原表格术语及适用范围待核。",
+        "status": "待核",
+        "reason": "M5连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P58-U11",
+        "item": "末代皇帝插片，ASR稀疏且大段失真，不据文字补造台词或镜头，需图文与声画。",
+        "status": "待核",
+        "reason": "M5连续声画或制作语境待核；课堂解释与图文观察已分开。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "c9b4fc3f7473116502873be1b0601c9fcd09d8ae7703c2a19f51afa0cf16cf29",
+    "historical_review_sha256": "55c19247917327741a8e91ee08e60fb6c3af317d86b75ed1ce2af231e9b735b4",
+    "historical_seal_sha256": "c58733ee8b3e4d894599199273188ae1469b4fa6bb4e7f4a49a980b1d05d349a",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-15/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "8cda46dcf943a409cec29f9a9d423cff1689c065a2a2862b7732ee549ae62ca2",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/15 - 第十章 布光实践（P58-P59）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-15/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章布光实践既有学习记录.md",
+    "personal_sha256": "4b81da6352be03607ea0c938148836936866d0db0cf1eff2308fcfc72a5fd4d3",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-15/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-15/review.md"
+}

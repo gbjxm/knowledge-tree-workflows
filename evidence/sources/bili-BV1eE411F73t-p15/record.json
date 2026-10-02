@@ -1,0 +1,395 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p15",
+  "source": {
+    "kind": "video",
+    "title": "第八课-勾勒画面8.1",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=15",
+    "bvid": "BV1eE411F73t",
+    "page": 15,
+    "cid": 167884665,
+    "text_sha256": "3ed7a663cb280bea05f12e1b34cf111f5edb4aea002a68ac21ab25a79af6a0a7",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/reused-sources/BV1eE411F73t-p15/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/08 - 第八课 勾勒画面（P15-P17）.md",
+    "sha256": "02679c7d6c92491ba50b65ae8fd7ac1cc10f308fd7ed97b5441cb8ceea9e8b1b"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "3ed7a663cb280bea05f12e1b34cf111f5edb4aea002a68ac21ab25a79af6a0a7",
+    "note_sha256": "02679c7d6c92491ba50b65ae8fd7ac1cc10f308fd7ed97b5441cb8ceea9e8b1b",
+    "scope": [
+      [
+        1,
+        1190
+      ]
+    ],
+    "items": [
+      {
+        "id": "P15-01",
+        "item": "梗概/大纲/剧本体量、大纲自己的工作用途、模拟质疑",
+        "source": {
+          "lines": [
+            1,
+            54
+          ]
+        },
+        "note": {
+          "lines": [
+            50,
+            50
+          ],
+          "quote": "老师回顾的工作顺序是梗概、大纲、剧本"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-02",
+        "item": "老李外冷内热与过去拍不拍、照片/母亲口述",
+        "source": {
+          "lines": [
+            55,
+            126
+          ]
+        },
+        "note": {
+          "lines": [
+            54,
+            54
+          ],
+          "quote": "老李“外表冷漠、内心狂热”"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-03",
+        "item": "环境/动作/对白及随性生活、夫妻貌合神离",
+        "source": {
+          "lines": [
+            127,
+            213
+          ]
+        },
+        "note": {
+          "lines": [
+            56,
+            56
+          ],
+          "quote": "老师把基本承载手段归为三种"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-04",
+        "item": "四幕起承转合与开场激励转折危机高潮五骨架",
+        "source": {
+          "lines": [
+            214,
+            312
+          ]
+        },
+        "note": {
+          "lines": [
+            82,
+            82
+          ],
+          "quote": "五个骨架事件是"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-05",
+        "item": "幕/场间序列单位及其他节拍叫法边界",
+        "source": {
+          "lines": [
+            313,
+            362
+          ]
+        },
+        "note": {
+          "lines": [
+            78,
+            78
+          ],
+          "quote": "老师在“幕”和“场”之间引入“序列”"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-06",
+        "item": "技术艺术/刘翔体操/文武比试/张伟丽/多派非唯一",
+        "source": {
+          "lines": [
+            363,
+            500
+          ]
+        },
+        "note": {
+          "lines": [
+            80,
+            80
+          ],
+          "quote": "老师特别说明，编剧是技术与艺术的结合"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-07",
+        "item": "路标服务关系、四过渡和结局组合十序列",
+        "source": {
+          "lines": [
+            501,
+            608
+          ]
+        },
+        "note": {
+          "lines": [
+            82,
+            82
+          ],
+          "quote": "在相邻事件之间"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-08",
+        "item": "开场信息及兴趣、激励发端、切入铺垫",
+        "source": {
+          "lines": [
+            609,
+            661
+          ]
+        },
+        "note": {
+          "lines": [
+            86,
+            95
+          ],
+          "quote": "开场 | 交代主角身份"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-09",
+        "item": "转折重要因素改变与进展往往无效",
+        "source": {
+          "lines": [
+            662,
+            700
+          ]
+        },
+        "note": {
+          "lines": [
+            89,
+            95
+          ],
+          "quote": "进展 | 激励之后的行动"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-10",
+        "item": "危机最大考验、再转应对与常见铤险",
+        "source": {
+          "lines": [
+            701,
+            739
+          ]
+        },
+        "note": {
+          "lines": [
+            92,
+            95
+          ],
+          "quote": "危机 | 主角最大的考验"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-11",
+        "item": "高潮解决、导入情绪烈度、结局气口",
+        "source": {
+          "lines": [
+            740,
+            808
+          ]
+        },
+        "note": {
+          "lines": [
+            93,
+            95
+          ],
+          "quote": "导入 | 在最大危机"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-12",
+        "item": "旁白闪回当前阶段限制、海鲜/小碟正例",
+        "source": {
+          "lines": [
+            809,
+            879
+          ]
+        },
+        "note": {
+          "lines": [
+            72,
+            72
+          ],
+          "quote": "他的餐厅类比有两面"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-13",
+        "item": "空大盘小碟炒蛋反例、年代变迁与改编条件",
+        "source": {
+          "lines": [
+            880,
+            947
+          ]
+        },
+        "note": {
+          "lines": [
+            74,
+            74
+          ],
+          "quote": "环境、年代的跨度也可能需要旁白"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-14",
+        "item": "回忆可用与机械闪一下的区别",
+        "source": {
+          "lines": [
+            948,
+            962
+          ]
+        },
+        "note": {
+          "lines": [
+            74,
+            74
+          ],
+          "quote": "他又说回忆可以用"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-15",
+        "item": "夫妻刚吵过的抽象判断/内心独白问题",
+        "source": {
+          "lines": [
+            963,
+            1012
+          ]
+        },
+        "note": {
+          "lines": [
+            60,
+            60
+          ],
+          "quote": "你去一对夫妻朋友家"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-16",
+        "item": "观察细节方向、招呼对照、血刀反例",
+        "source": {
+          "lines": [
+            1013,
+            1096
+          ]
+        },
+        "note": {
+          "lines": [
+            62,
+            62
+          ],
+          "quote": "老师要求回到触发感觉的具体细节"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-17",
+        "item": "横纵关系、八要素各自作用",
+        "source": {
+          "lines": [
+            1097,
+            1175
+          ]
+        },
+        "note": {
+          "lines": [
+            99,
+            99
+          ],
+          "quote": "**十序列是横轴，八要素是纵轴。**"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-18",
+        "item": "梗概结合十序列形成表格式大纲、尾段原字幕补核",
+        "source": {
+          "lines": [
+            1176,
+            1190
+          ]
+        },
+        "note": {
+          "lines": [
+            99,
+            99
+          ],
+          "quote": "表格帮助同时看见事件向前走"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P15-AV",
+        "item": "末段原声语气/连续声画独立核验仍缺，图文已核与声画分开",
+        "source": {
+          "lines": [
+            1190,
+            1190
+          ]
+        },
+        "note": {
+          "lines": [
+            235,
+            235
+          ],
+          "quote": "原声语气与连续声画未听审/审看"
+        },
+        "status": "待核",
+        "reason": "未听审原声或连续审看；这是独立声画范围，不否定已按ASR/字幕/板书支持的图文知识。P15全原件及最后0.327秒未取，尾部宣传卡取得范围详gap-recovery.md。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "重新读取P15/16/17全段原ASR1190/900/977行，逐例双向/旧稿去向核对；本次实际看24个字幕/板书静帧，复用历史535不同时间点；原声/连续未审",
+    "method": "来源与正文双向图文复核；复用历史有效材料并核查本次改动；非原声听审或连续声画审看",
+    "summary": "尾段核心图文已补清，三P图文内容通过；保留现场候选/否定/暂用方案，恢复往往限定；个人旧记录已直接另存，不再依赖缓存正文链接",
+    "unverified": [
+      "P15/P16/P17课堂原声语气与连续声画未独立听审/审看；不以静帧代替",
+      "P15完整原件仍未取得，补段至2317秒，末0.327秒未取；已见2313–2316秒宣传卡，无核心图文阻塞"
+    ]
+  },
+  "preservation": {
+    "backup_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/backups/charlie-08/08 - 第八课 勾勒画面（P15-P17）.md",
+    "old_note_sha256": "4f3376137bfa67c8a77e2e5121fd2f4f7d8bc79d04f93dbc1df279b97743ebc7",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第八课原有学习记录.md",
+    "overview_backup_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/backups/charlie-08/00 - 课程总览.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/batches/charlie-08/review.md",
+  "final_binding_update": {
+    "date": "2026-09-30",
+    "scope": "来源范围、正文定位及待核状态未变；移除工作缓存绝对提示，匹配最终笔记字节。"
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1FR4y1M73U-p8",
+  "source": {
+    "kind": "video",
+    "title": "讲故事的艺术 - 第八课 短篇小说案例分析之《三月童话》",
+    "locator": "https://www.bilibili.com/video/BV1FR4y1M73U?p=8",
+    "bvid": "BV1FR4y1M73U",
+    "page": 8,
+    "cid": 498717002,
+    "text_sha256": "25014d31dddbd859ca02dbe67119ec468af78bd32c5bdccf8ddc749b6aa7278b",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/reused-sources/BV1FR4y1M73U-p8/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/讲故事的艺术/08 - 第八课 短篇小说案例分析之《三月童话》（P8）.md",
+    "sha256": "2af6a67ba10bc1b58e0eebf74fb08e7a2033d271be9ee9927ac7637331be9f27"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "25014d31dddbd859ca02dbe67119ec468af78bd32c5bdccf8ddc749b6aa7278b",
+    "note_sha256": "2af6a67ba10bc1b58e0eebf74fb08e7a2033d271be9ee9927ac7637331be9f27",
+    "scope": [
+      [
+        6,
+        203
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "项目与橱窗写作可见过程",
+        "source": {
+          "lines": [
+            6,
+            24
+          ]
+        },
+        "note": {
+          "lines": [
+            51,
+            51
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U2",
+        "item": "12问及取小起点不取完稿",
+        "source": {
+          "lines": [
+            25,
+            34
+          ]
+        },
+        "note": {
+          "lines": [
+            53,
+            53
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U3",
+        "item": "三月人物回复和空白书月序",
+        "source": {
+          "lines": [
+            35,
+            50
+          ]
+        },
+        "note": {
+          "lines": [
+            55,
+            55
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U4",
+        "item": "门廊母女英国烟草与海盗",
+        "source": {
+          "lines": [
+            51,
+            66
+          ]
+        },
+        "note": {
+          "lines": [
+            59,
+            59
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U5",
+        "item": "童年男装家庭与11岁爱船",
+        "source": {
+          "lines": [
+            67,
+            82
+          ]
+        },
+        "note": {
+          "lines": [
+            61,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U6",
+        "item": "回家婴儿父亲双名及传闻",
+        "source": {
+          "lines": [
+            83,
+            98
+          ]
+        },
+        "note": {
+          "lines": [
+            63,
+            63
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U7",
+        "item": "当前外表女儿双重命名及炮火",
+        "source": {
+          "lines": [
+            99,
+            108
+          ]
+        },
+        "note": {
+          "lines": [
+            65,
+            65
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U8",
+        "item": "雨中想象船长红甲板劫船亲吻",
+        "source": {
+          "lines": [
+            109,
+            122
+          ]
+        },
+        "note": {
+          "lines": [
+            67,
+            67
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U9",
+        "item": "秘密昵称父亲实话风中疯狂",
+        "source": {
+          "lines": [
+            123,
+            128
+          ]
+        },
+        "note": {
+          "lines": [
+            69,
+            69
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U10",
+        "item": "长篇首尾价值及隐藏能力代价",
+        "source": {
+          "lines": [
+            129,
+            142
+          ]
+        },
+        "note": {
+          "lines": [
+            75,
+            75
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U11",
+        "item": "童年至此尾或旧来客起篇",
+        "source": {
+          "lines": [
+            143,
+            156
+          ]
+        },
+        "note": {
+          "lines": [
+            77,
+            77
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U12",
+        "item": "设定还不够须about及原字幕jeopardy",
+        "source": {
+          "lines": [
+            157,
+            166
+          ]
+        },
+        "note": {
+          "lines": [
+            81,
+            81
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U13",
+        "item": "补原字幕secrets和其他about不废",
+        "source": {
+          "lines": [
+            167,
+            174
+          ]
+        },
+        "note": {
+          "lines": [
+            83,
+            83
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U14",
+        "item": "about决定更大危险",
+        "source": {
+          "lines": [
+            175,
+            177
+          ]
+        },
+        "note": {
+          "lines": [
+            85,
+            85
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U15",
+        "item": "首来客善恶未知与真威胁延后候选",
+        "source": {
+          "lines": [
+            178,
+            188
+          ]
+        },
+        "note": {
+          "lines": [
+            89,
+            89
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U16",
+        "item": "女儿无知到危险营救唤能力候选",
+        "source": {
+          "lines": [
+            189,
+            192
+          ]
+        },
+        "note": {
+          "lines": [
+            91,
+            91
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U17",
+        "item": "候选不是情节及未定生死黑暗",
+        "source": {
+          "lines": [
+            193,
+            197
+          ]
+        },
+        "note": {
+          "lines": [
+            95,
+            95
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U18",
+        "item": "逐选择缩路末1到3条必然",
+        "source": {
+          "lines": [
+            198,
+            203
+          ]
+        },
+        "note": {
+          "lines": [
+            97,
+            97
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-25",
+    "scope": "来源先行与成稿后完整回读198条ASR行6–203（00:00–14:51，末标略超890.453秒媒体），实际看118图（112主/6定点）0–890.251秒，补核故事原文卡及09:30–10:06关键缺句；未听审原声、未连续审看。",
+    "summary": "完整保存短篇情境与转折、两种长篇用法、secrets等about候选、先兆/真威胁/女儿风险的推演与未完成边界，校正想象/传闻及末尾一至三路；个人记录和旧SVG保留。",
+    "method": "主代理来源先行、成稿后独立步骤完整双向回读、旧稿去向及5项使用检查；非盲评。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看；静帧不证明连续动作、语气或声画同步。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "Annie/Anne Riley、Rackam/Rackham原文与字幕拼写不同；约07:53时代短语仍不清，不据此加年代。故事生平及孕身避死按课堂叙述，未外核史实。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "5deae907d69f7c9d54fd3d033c5fbe89e3086da3c07794873466c1f467e8d33e",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/讲故事的艺术/08 - 第八课 短篇小说案例分析之《三月童话》（P8）.md",
+    "personal_note": "知识库/学习区/个人思考/讲故事的艺术 - 第八课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/story-08/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/story-08/review.md"
+}

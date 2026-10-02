@@ -1,0 +1,546 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p14",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 第七课-拿事儿说话7",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=14",
+    "bvid": "BV1eE411F73t",
+    "page": 14,
+    "cid": 167881562,
+    "text_sha256": "5d3131ff1ec30aea04124362cab8ff3a0e23d206878d992eb9fa645d5ce0ea55",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/reused-sources/BV1eE411F73t-p14/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/07 - 第七课 拿事儿说话（P14）.md",
+    "sha256": "3dc4d5ec9ce3948461a18b8b21b543ea95316bd3e365af5eaa50ae6fd4374243"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "5d3131ff1ec30aea04124362cab8ff3a0e23d206878d992eb9fa645d5ce0ea55",
+    "note_sha256": "3dc4d5ec9ce3948461a18b8b21b543ea95316bd3e365af5eaa50ae6fd4374243",
+    "scope": [
+      [
+        6,
+        367
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "插讲格式后回到顺序/八要素故事作业为梗概",
+        "source": {
+          "lines": [
+            6,
+            21
+          ]
+        },
+        "note": {
+          "lines": [
+            46,
+            46
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U2",
+        "item": "创意五入口回顾/创意梗概大纲剧本/万字纲通常体量",
+        "source": {
+          "lines": [
+            22,
+            30
+          ]
+        },
+        "note": {
+          "lines": [
+            50,
+            50
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U3",
+        "item": "1500扩到10000反问/质的区别/离剧本更近",
+        "source": {
+          "lines": [
+            31,
+            50
+          ]
+        },
+        "note": {
+          "lines": [
+            52,
+            52
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U4",
+        "item": "拿事儿说话要求/老李外表冷淡内心狂热",
+        "source": {
+          "lines": [
+            51,
+            65
+          ]
+        },
+        "note": {
+          "lines": [
+            56,
+            56
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U5",
+        "item": "小说读者与影视观众/事件使设定成立/未表达即无效",
+        "source": {
+          "lines": [
+            66,
+            91
+          ]
+        },
+        "note": {
+          "lines": [
+            58,
+            58
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U6",
+        "item": "主角主要设定基本第一场办好",
+        "source": {
+          "lines": [
+            92,
+            95
+          ]
+        },
+        "note": {
+          "lines": [
+            60,
+            60
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U7",
+        "item": "老李碰老王自报性格反例/外表嘻哈内心踏实",
+        "source": {
+          "lines": [
+            96,
+            105
+          ]
+        },
+        "note": {
+          "lines": [
+            62,
+            62
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U8",
+        "item": "如何构建这些事转入结构/没有老李正面成例",
+        "source": {
+          "lines": [
+            106,
+            110
+          ]
+        },
+        "note": {
+          "lines": [
+            64,
+            64
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U9",
+        "item": "三幕古老戏剧背景/建置对抗解决定义/环境等对抗拉锯",
+        "source": {
+          "lines": [
+            111,
+            130
+          ]
+        },
+        "note": {
+          "lines": [
+            68,
+            68
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U10",
+        "item": "100分钟25/50/25/对抗拆推进转折/四段25",
+        "source": {
+          "lines": [
+            131,
+            141
+          ]
+        },
+        "note": {
+          "lines": [
+            72,
+            72
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U11",
+        "item": "三幕四幕同结构细分/起承转合",
+        "source": {
+          "lines": [
+            142,
+            154
+          ]
+        },
+        "note": {
+          "lines": [
+            81,
+            81
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U12",
+        "item": "分幕为了事放在哪/线性故事四段三分界",
+        "source": {
+          "lines": [
+            155,
+            179
+          ]
+        },
+        "note": {
+          "lines": [
+            85,
+            85
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U13",
+        "item": "三分界激励转折危机/从起承转合推进",
+        "source": {
+          "lines": [
+            180,
+            192
+          ]
+        },
+        "note": {
+          "lines": [
+            90,
+            90
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U14",
+        "item": "开场事件与高潮事件/高潮在末端/爆炸英雄示意",
+        "source": {
+          "lines": [
+            193,
+            209
+          ]
+        },
+        "note": {
+          "lines": [
+            97,
+            97
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U15",
+        "item": "四段五点形成五件事/不是只扩字数",
+        "source": {
+          "lines": [
+            210,
+            219
+          ]
+        },
+        "note": {
+          "lines": [
+            99,
+            99
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U16",
+        "item": "转折一般一次动作失败后二次/老师自述非统一定义",
+        "source": {
+          "lines": [
+            220,
+            228
+          ]
+        },
+        "note": {
+          "lines": [
+            95,
+            95
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U17",
+        "item": "危机强烈例句/高潮解决与绝地大反击",
+        "source": {
+          "lines": [
+            229,
+            234
+          ]
+        },
+        "note": {
+          "lines": [
+            92,
+            92
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U18",
+        "item": "以五事件为万字纲骨架",
+        "source": {
+          "lines": [
+            235,
+            239
+          ]
+        },
+        "note": {
+          "lines": [
+            99,
+            99
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U19",
+        "item": "八要素与五事件不替代/梗概可直接描述",
+        "source": {
+          "lines": [
+            240,
+            255
+          ]
+        },
+        "note": {
+          "lines": [
+            103,
+            103
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U20",
+        "item": "警察想殉职/开场要找死/非他人传闻",
+        "source": {
+          "lines": [
+            256,
+            267
+          ]
+        },
+        "note": {
+          "lines": [
+            105,
+            105
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U21",
+        "item": "八要素纵轴五事件横轴/人物事件主题各项",
+        "source": {
+          "lines": [
+            268,
+            298
+          ]
+        },
+        "note": {
+          "lines": [
+            111,
+            111
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U22",
+        "item": "在每个事件的状态/开场警察到转折父亲",
+        "source": {
+          "lines": [
+            299,
+            317
+          ]
+        },
+        "note": {
+          "lines": [
+            121,
+            121
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U23",
+        "item": "负价值想死一死了之/何时正价值主导是问题",
+        "source": {
+          "lines": [
+            318,
+            328
+          ]
+        },
+        "note": {
+          "lines": [
+            123,
+            123
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U24",
+        "item": "五大骨架中还有小事件/后续细分/第二阶段最长",
+        "source": {
+          "lines": [
+            329,
+            337
+          ]
+        },
+        "note": {
+          "lines": [
+            127,
+            127
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U25",
+        "item": "逐格填发展变化/欲望动作阻力悬念/更接近剧本",
+        "source": {
+          "lines": [
+            338,
+            361
+          ]
+        },
+        "note": {
+          "lines": [
+            125,
+            125
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U26",
+        "item": "课尾记表格回去比划/下课无完整答案",
+        "source": {
+          "lines": [
+            362,
+            367
+          ]
+        },
+        "note": {
+          "lines": [
+            131,
+            131
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-25",
+    "scope": "完整来源先行及成稿后独立步骤回读ASR行6–367（3–1178秒）；实际看161张原帧，含片尾表格和疑点字幕；未听审、未连续审看。",
+    "summary": "恢复梗概至大纲的质变理由、老李与老王的生硬说明反例、三幕/四幕/起承转合与五事件的对应和限定、求死警察的开场要求、警察至父亲的身份对照、八要素横纵格及原课练习；旧学习记录和SVG全部保留并注明归属。",
+    "method": "主代理来源先行；候选后另一步骤完整回读P14全文ASR，实际查看161帧板书与字幕，反查正文和旧稿独特内容并作实际使用检查；同一代理，非盲评，非第二评审者。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看；静帧不能证明课堂语气、对白表演、连续运动、剪接节奏或声画同步已核清。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "三幕起源等理论史简述按讲师说法保存，未作外部核实；25/50/25及五事件对应为本课教学示意，不作为所有影片的统一规范。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M3",
+        "item": "本P没有完整填写八要素与五事件的标准答案，也未提供老李的成功场面或警察身份变化的完整事件；正文不补造。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M4",
+        "item": "ASR时码与画内字幕可有数秒差异；老王、建置、绝地大反击和父亲等疑点已用实际查看的字幕或板书核清。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "e3673eaec903efb70011fecae6bbf4ef0ae4b19460cbe44bddfd6af02cf5cfc2",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/查理老师的编剧课/07 - 第七课 拿事儿说话（P14）.md",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第七课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-07/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-07/review.md",
+  "binding_history": [
+    {
+      "utc": "2026-09-28T03:23:32.408195+00:00",
+      "operation": "verified_crlf_to_lf_only",
+      "prior_sha256": "921200aaa55b98044a39dc7acee46779c0f3daafc220e3ce63806e16a4d5aa2a",
+      "current_sha256": "3dc4d5ec9ce3948461a18b8b21b543ea95316bd3e365af5eaa50ae6fd4374243",
+      "bytes_removed": 142,
+      "content_and_line_numbers_unchanged": true,
+      "note_written": false,
+      "evidence": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-23/line-ending-rebind/report.json"
+    }
+  ]
+}

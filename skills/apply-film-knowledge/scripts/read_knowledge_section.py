@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read a precisely located topic section with explicit completeness and continuation."""
+"""Read a source or topic section with explicit identity, completeness and continuation."""
 from __future__ import annotations
 
 import argparse
@@ -24,7 +24,7 @@ def section_bounds(text: str, heading: str) -> tuple[int, int, int]:
             token = marker.group(1)
             if fence is None:
                 fence = token
-            elif token[0] == fence[0] and len(token) >= len(fence):
+            elif token[0] == fence[0] and len(token) >= len(fence) and not line[marker.end():].strip():
                 fence = None
         match = re.match(r"^(#{1,6})\s+(.+?)\s*$", line) if fence is None else None
         if match:
@@ -59,7 +59,8 @@ def read_section(config_path, topic_path, heading, max_chars=5000, offset=0,
     config = load_config(config_path)
     library = Path(config["knowledge_library"]).resolve(strict=True)
     path = Path(topic_path).resolve(strict=True)
-    path.relative_to(library)
+    if not any(path.is_relative_to(root) for root in (library, Path(config["source_notes"]).resolve(strict=True))):
+        raise ValueError("目标不在配置的知识库或来源根内")
     if zoned(config) and snapshot and scope is None:
         raise ValueError("分区续读必须携带原 scope")
     selected = (restore_scope(config, scope) if scope is not None else
@@ -75,16 +76,18 @@ def read_section(config_path, topic_path, heading, max_chars=5000, offset=0,
         raise ValueError("目标文章已变化，请重新检索；不能拼接不同版本的章节")
     text = raw.decode("utf-8-sig")
     meta, _ = parse_frontmatter(text)
-    if meta.get("类型") != "主题笔记":
-        raise ValueError("目标不是主题笔记")
     if str(meta.get("状态", "")) in {"撤回", "已撤回", "停用", "已失效"}:
-        raise ValueError("目标主题已撤回或停用，请重新检索")
+        raise ValueError("目标笔记已撤回或停用，请重新检索")
     corpus = load_corpus(config, write_index=False, scope=selected)
     if corpus["errors"]:
         raise ValueError("知识索引存在读取错误，请先核对错误来源")
     if snapshot and snapshot != corpus["snapshot"]:
         raise ValueError("知识快照已变化，请重新检索，不能沿用旧的续读位置")
     key = path.relative_to(Path(config["vault"])).as_posix()
+    document = corpus["documents"].get(key)
+    if document is None:
+        raise ValueError("目标不是本次范围内可调用的主题或来源笔记")
+    kind = document["kind"]
     if corpus["files"].get(key) != actual_hash or path.read_bytes() != raw:
         raise ValueError("读取期间目标文章发生变化，请重试")
     level, start, end = section_bounds(text, heading)
@@ -98,6 +101,8 @@ def read_section(config_path, topic_path, heading, max_chars=5000, offset=0,
     last_line = text.count("\n", 0, max(start, end - 1)) + 1
     result = {
         "path": str(path), "heading": heading, "level": level, "content": content,
+        "kind": kind, "source_type": meta.get("材料类型", "未标注"),
+        "attribution": "local_note_excerpt",
         "evidence_status": meta.get("证据状态", "未标注"),
         "mastery_status": meta.get("掌握状态", "未检验"),
         "document_hash": actual_hash, "snapshot": corpus["snapshot"], "scope": selected,
@@ -110,6 +115,7 @@ def read_section(config_path, topic_path, heading, max_chars=5000, offset=0,
     }
     if truncated:
         result["continuation"] = {
+            "mode": "section",
             "config": str(config_path), "path": str(path), "heading": heading,
             "offset": stop, "max_chars": max_chars,
             "snapshot": corpus["snapshot"], "document_hash": actual_hash, "scope": selected,
@@ -121,7 +127,7 @@ def main() -> int:
     for stream in (sys.stdout, sys.stderr):
         if hasattr(stream, "reconfigure"):
             stream.reconfigure(encoding="utf-8")
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser(description=__doc__, allow_abbrev=False)
     parser.add_argument("--config")
     parser.add_argument("--path", required=True)
     parser.add_argument("--heading", required=True, help="精确且唯一的 H2–H6 标题")

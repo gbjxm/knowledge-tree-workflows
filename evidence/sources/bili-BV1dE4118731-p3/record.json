@@ -1,0 +1,263 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p3",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P3 2.1照相机的原理及结构",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=3",
+    "bvid": "BV1dE4118731",
+    "page": 3,
+    "cid": 126007929,
+    "text_sha256": "dffac3cccd631c3d2852db6c42dc4e87852a959008ae36fa9f15af79ab151d63",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p3-2.1照相机的原理及结构/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/02 - 第二章 镜头原理、类型与光学控制（P3-P8）.md",
+    "sha256": "15899e3b9e24d5e4d6d0877c9f24cfb32bfe8bd6a438fc888c9c9d0a1e7999f8"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "dffac3cccd631c3d2852db6c42dc4e87852a959008ae36fa9f15af79ab151d63",
+    "note_sha256": "15899e3b9e24d5e4d6d0877c9f24cfb32bfe8bd6a438fc888c9c9d0a1e7999f8",
+    "scope": [
+      [
+        6,
+        333
+      ]
+    ],
+    "items": [
+      {
+        "id": "P3-U01",
+        "item": "小孔/房间到镜头/机身，毛玻璃承接与记录功能",
+        "source": {
+          "lines": [
+            6,
+            40
+          ]
+        },
+        "note": {
+          "lines": [
+            49,
+            54
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P3-U02",
+        "item": "镜片汇聚更多光；用焦距理解镜头群而非镜片数量判优",
+        "source": {
+          "lines": [
+            41,
+            60
+          ]
+        },
+        "note": {
+          "lines": [
+            49,
+            54
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P3-U03",
+        "item": "小相机与托举巨型长焦的体积及使用对照",
+        "source": {
+          "lines": [
+            61,
+            73
+          ]
+        },
+        "note": {
+          "lines": [
+            49,
+            54
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P3-U04",
+        "item": "O/F/f单凸透镜定义、平行光/光轴/焦点",
+        "source": {
+          "lines": [
+            74,
+            97
+          ]
+        },
+        "note": {
+          "lines": [
+            55,
+            60
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P3-U05",
+        "item": "放大镜聚光使报纸/枯叶焦化的记忆类比与定义边界",
+        "source": {
+          "lines": [
+            98,
+            119
+          ]
+        },
+        "note": {
+          "lines": [
+            55,
+            60
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P3-U06",
+        "item": "同系统/同距离焦距与像大小、手机双指放大类比",
+        "source": {
+          "lines": [
+            120,
+            166
+          ]
+        },
+        "note": {
+          "lines": [
+            61,
+            71
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P3-U07",
+        "item": "红伞表与蓝帽紫伞模特两组原图、同距离条件、环境退出",
+        "source": {
+          "lines": [
+            167,
+            224
+          ]
+        },
+        "note": {
+          "lines": [
+            61,
+            71
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P3-U08",
+        "item": "认识多人/深入一友类比集中细节和范围取舍",
+        "source": {
+          "lines": [
+            225,
+            241
+          ]
+        },
+        "note": {
+          "lines": [
+            61,
+            71
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P3-U09",
+        "item": "短焦广角/长焦望远命名与分类参照",
+        "source": {
+          "lines": [
+            242,
+            276
+          ]
+        },
+        "note": {
+          "lines": [
+            72,
+            79
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P3-U10",
+        "item": "海湾城市第三组图、50mm和人眼视野的课堂类比及画幅条件",
+        "source": {
+          "lines": [
+            277,
+            310
+          ]
+        },
+        "note": {
+          "lines": [
+            72,
+            79
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P3-U11",
+        "item": "鱼眼圆/矩形与8至1600mm示例；世界最长归属授课叙述",
+        "source": {
+          "lines": [
+            311,
+            333
+          ]
+        },
+        "note": {
+          "lines": [
+            72,
+            79
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "8022b5da463702e9e02006c43cf635b3fbab78b2268fd0f2b8925d6200ab5d43",
+    "historical_review_sha256": "9851f52275fe2ff61d005ee8787614db42dd15f204e00fea067232d61b39f91a",
+    "historical_seal_sha256": "5830971f3b445dcd6e28549b295ff4acff4f9d93f1cdf5b8ea886ca35c3c02a9",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-02/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "55dfd8c044c541b29615c2452ab902948c31dfb91efb64b7bc4f8b25ac8ebdd9",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/02 - 第二章 镜头原理、类型与光学控制（P3-P8）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-02/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第二章既有学习记录.md",
+    "personal_sha256": "9ed73945cfd87f37d6b06a15a6040176a0d27a7a7f6d78c7ea85faadb5be2fad",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-02/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-02/review.md"
+}

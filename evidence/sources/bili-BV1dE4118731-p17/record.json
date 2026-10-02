@@ -1,0 +1,263 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p17",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P17 5.2侧光与侧逆光",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=17",
+    "bvid": "BV1dE4118731",
+    "page": 17,
+    "cid": 130187016,
+    "text_sha256": "f1c6e12ec7e26fda30fb3cd6662d5a7b9a44f2fba2646b4e4408918ebda39c10",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p17-5.2侧光与侧逆光/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/05 - 第五章 光线方向与造型（P16-P19）.md",
+    "sha256": "60877e6562a645d9a27bf2b627ca7753820b8e951abef6f09a80c50b8c5922da"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "f1c6e12ec7e26fda30fb3cd6662d5a7b9a44f2fba2646b4e4408918ebda39c10",
+    "note_sha256": "60877e6562a645d9a27bf2b627ca7753820b8e951abef6f09a80c50b8c5922da",
+    "scope": [
+      [
+        6,
+        235
+      ]
+    ],
+    "items": [
+      {
+        "id": "P17-U01",
+        "item": "90度侧光位置关系",
+        "source": {
+          "lines": [
+            6,
+            30
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            93
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P17-U02",
+        "item": "石膏明暗分割与阴阳脸信息",
+        "source": {
+          "lines": [
+            31,
+            55
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            93
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P17-U03",
+        "item": "远景人像和新闻近照",
+        "source": {
+          "lines": [
+            56,
+            78
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            93
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P17-U04",
+        "item": "伊斯特伍德和竖指肖像",
+        "source": {
+          "lines": [
+            79,
+            94
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            93
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P17-U05",
+        "item": "暗部细节保留与戏剧尺度",
+        "source": {
+          "lines": [
+            95,
+            105
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            93
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P17-U06",
+        "item": "斜后侧逆光轮廓少量细节",
+        "source": {
+          "lines": [
+            106,
+            122
+          ]
+        },
+        "note": {
+          "lines": [
+            94,
+            101
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P17-U07",
+        "item": "终结者3海报人的外形和机械身份",
+        "source": {
+          "lines": [
+            123,
+            143
+          ]
+        },
+        "note": {
+          "lines": [
+            94,
+            101
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P17-U08",
+        "item": "骑摩托肌肉形象及女性机械海报",
+        "source": {
+          "lines": [
+            144,
+            159
+          ]
+        },
+        "note": {
+          "lines": [
+            94,
+            101
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P17-U09",
+        "item": "两幅伦勃朗绘画的明暗组织",
+        "source": {
+          "lines": [
+            160,
+            184
+          ]
+        },
+        "note": {
+          "lines": [
+            102,
+            113
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P17-U10",
+        "item": "毛领女性与口琴男子头向光位",
+        "source": {
+          "lines": [
+            185,
+            212
+          ]
+        },
+        "note": {
+          "lines": [
+            102,
+            113
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P17-U11",
+        "item": "三角光特征与继续探索建议",
+        "source": {
+          "lines": [
+            213,
+            235
+          ]
+        },
+        "note": {
+          "lines": [
+            102,
+            113
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "c089c6339920e82302e0772388aa944672c85d654d59c9f10c6baa627ec05884",
+    "historical_review_sha256": "9b2d011613ab952fe5f7c6d0e889663cb880d5c2f3c8eeff9b2fb31b9068aeb6",
+    "historical_seal_sha256": "006733b47e9713b94f9132c3601991dd4a3d7d44a81c363db12ce9cdbd0d9c93",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-05/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "240d27353deddc0e0431fb61b088be4e9f8b02356aa78b85b13ec55bf2626441",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/05 - 第五章 光线方向与造型（P16-P19）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-05/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第五章既有学习记录.md",
+    "personal_sha256": "ff03c8593d96a4876788557d558e158896da967acd829a8663f368ffff8d17f8",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-05/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-05/review.md"
+}

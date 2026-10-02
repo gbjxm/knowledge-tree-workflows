@@ -1,0 +1,236 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p4",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 第一课-劝学1.3",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=4",
+    "bvid": "BV1eE411F73t",
+    "page": 4,
+    "cid": 167849613,
+    "text_sha256": "f81a53d4634584ea939dc0cbc0f0c8a2727ef8fe77e4713d8301742c7d1f9695",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1eE411F73t-p4-第一课-劝学1.3/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/01 - 第一课 劝学（P2-P4）.md",
+    "sha256": "8e67c1d223d9f6a69f8380b55493cb3a2f045ac5295f72c7a469beba04503ff2"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "f81a53d4634584ea939dc0cbc0f0c8a2727ef8fe77e4713d8301742c7d1f9695",
+    "note_sha256": "8e67c1d223d9f6a69f8380b55493cb3a2f045ac5295f72c7a469beba04503ff2",
+    "scope": [
+      [
+        6,
+        239
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "键盘及大量写作理由",
+        "source": {
+          "lines": [
+            6,
+            23
+          ]
+        },
+        "note": {
+          "lines": [
+            150,
+            150
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U2",
+        "item": "口袋本/两种素材/杀手例",
+        "source": {
+          "lines": [
+            24,
+            49
+          ]
+        },
+        "note": {
+          "lines": [
+            152,
+            152
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U3",
+        "item": "聚会动作及旧情人",
+        "source": {
+          "lines": [
+            50,
+            70
+          ]
+        },
+        "note": {
+          "lines": [
+            156,
+            156
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U4",
+        "item": "裁员谈话次序与记录",
+        "source": {
+          "lines": [
+            71,
+            87
+          ]
+        },
+        "note": {
+          "lines": [
+            158,
+            158
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U5",
+        "item": "长期素材习惯与丧亲具体经历",
+        "source": {
+          "lines": [
+            88,
+            128
+          ]
+        },
+        "note": {
+          "lines": [
+            162,
+            162
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U6",
+        "item": "日常情侣反应与人物细节",
+        "source": {
+          "lines": [
+            129,
+            143
+          ]
+        },
+        "note": {
+          "lines": [
+            170,
+            170
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U7",
+        "item": "共情定义与老板五员工换位",
+        "source": {
+          "lines": [
+            144,
+            169
+          ]
+        },
+        "note": {
+          "lines": [
+            174,
+            174
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U8",
+        "item": "空调夫妻分离/衰败/重逢悲喜",
+        "source": {
+          "lines": [
+            170,
+            205
+          ]
+        },
+        "note": {
+          "lines": [
+            180,
+            180
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U9",
+        "item": "宣传过渡与真实幻想作业",
+        "source": {
+          "lines": [
+            206,
+            227
+          ]
+        },
+        "note": {
+          "lines": [
+            188,
+            188
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U10",
+        "item": "作业具体花法/关系及后课用途",
+        "source": {
+          "lines": [
+            228,
+            239
+          ]
+        },
+        "note": {
+          "lines": [
+            190,
+            190
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-25",
+    "scope": "来源先行及成稿后完整回读ASR行6–239（3–722秒）；实际看61张原帧及画内字幕/板书，精确时间见本批帧清单；未听审、未连续审看。",
+    "summary": "第一课三P共同复核，保存教学取舍、完整案例与论证、讲者行业及历史转述的性质、原课幻想作业；修正旧稿误词，扩写方法与学习栏目另存，SVG及既有主题链接保留。",
+    "method": "主代理来源先行、候选成稿后另一步骤完整回读三份ASR并反向检查正文，再查旧稿去向与六项实际使用问题；非盲评、非第二评审者。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看。已看原帧不能证明连续动作、语气或声画同步；拳脚和哭声模仿只保存文字明确描述的内容。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "行业比例、市场和审美判断以及人类演化年代/能力差异为讲师当时观点或转述，未外核为当前统计或学术结论。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "5bddfa59c1e524e04ec9dbcf0dd01717820ca8472dc886f0a67d0a7d2eea6170",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/查理老师的编剧课/01 - 第一课 劝学（P2-P4）.md",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第一课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-01/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-01/review.md"
+}

@@ -1,0 +1,259 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p21",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P21 6.2影像语言的画面构成——背景",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=21",
+    "bvid": "BV1dE4118731",
+    "page": 21,
+    "cid": 133174510,
+    "text_sha256": "8e2fa1559fa0d88e2f3fdca49344b09ec14d012ec4e8a251e8a1ccac5ffad7da",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p21-6.2影像语言的画面构成——背景/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/06 - 第六章 影像画面构成（P20-P23）.md",
+    "sha256": "a0e0ef0e20b1aba53638b9d5f6b9cf88f4d6ebf772ff386514dbcddddadde07d"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "8e2fa1559fa0d88e2f3fdca49344b09ec14d012ec4e8a251e8a1ccac5ffad7da",
+    "note_sha256": "a0e0ef0e20b1aba53638b9d5f6b9cf88f4d6ebf772ff386514dbcddddadde07d",
+    "scope": [
+      [
+        6,
+        182
+      ]
+    ],
+    "items": [
+      {
+        "id": "P21-U01",
+        "item": "背景、后景及主体背景必有说法的适用范围",
+        "source": {
+          "lines": [
+            6,
+            28
+          ]
+        },
+        "note": {
+          "lines": [
+            103,
+            108
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P21-U02",
+        "item": "环境身份与构图层次三个功能",
+        "source": {
+          "lines": [
+            29,
+            35
+          ]
+        },
+        "note": {
+          "lines": [
+            103,
+            108
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P21-U03",
+        "item": "冬泳者、冰面、水面、人群的内容与层次关系",
+        "source": {
+          "lines": [
+            36,
+            63
+          ]
+        },
+        "note": {
+          "lines": [
+            109,
+            114
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P21-U04",
+        "item": "背景的相关、衬托与层次选择",
+        "source": {
+          "lines": [
+            64,
+            77
+          ]
+        },
+        "note": {
+          "lines": [
+            109,
+            114
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P21-U05",
+        "item": "钢厂工人局部与环境的实际裁切对照",
+        "source": {
+          "lines": [
+            78,
+            91
+          ]
+        },
+        "note": {
+          "lines": [
+            115,
+            120
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P21-U06",
+        "item": "小雕塑与暗背景、留白、长影的孤独解读",
+        "source": {
+          "lines": [
+            92,
+            109
+          ]
+        },
+        "note": {
+          "lines": [
+            121,
+            126
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P21-U07",
+        "item": "你的名字海报与环境塑造情绪的联系",
+        "source": {
+          "lines": [
+            110,
+            115
+          ]
+        },
+        "note": {
+          "lines": [
+            121,
+            126
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P21-U08",
+        "item": "球员背景虚化与冬泳丰富信息的对照",
+        "source": {
+          "lines": [
+            116,
+            134
+          ]
+        },
+        "note": {
+          "lines": [
+            127,
+            132
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P21-U09",
+        "item": "江南小镇现代生活与传统屋顶的对照",
+        "source": {
+          "lines": [
+            135,
+            150
+          ]
+        },
+        "note": {
+          "lines": [
+            133,
+            140
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P21-U10",
+        "item": "左下屋檐遮挡、背景秩序、前景尺度与背景纵深差异",
+        "source": {
+          "lines": [
+            151,
+            170
+          ]
+        },
+        "note": {
+          "lines": [
+            133,
+            140
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P21-U11",
+        "item": "环境身份形式空间情绪总结",
+        "source": {
+          "lines": [
+            171,
+            182
+          ]
+        },
+        "note": {
+          "lines": [
+            133,
+            140
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-27",
+    "scope": "完整可用ASR在初稿前及成稿后全文读取；45个原视频帧在联系表中实际查看，核对静态照片、课件标注、裁切与字幕；原声未听审，未连续观看全片。",
+    "summary": "本章四P的静态图文知识通过来源先行、原照片核对、双向语义复核及旧稿保留检查；已校正三分法、历史身份和条件因果，补回原课提问。此结论不表示原声或连续声画验收。",
+    "method": "同一助理在初稿后另一步骤复核；完整ASR两次阅读，195原帧在27张联系表实际查看并做定点核对，41项内容双向检查及8项有界内容使用检查。无独立评审者或用户学习测试。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "原声未听审、全片未连续审看；现有ASR与原图未识别独立运动、剪辑或声画同步教学片段，本次仅验收静态构成知识。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "照片新闻身份、人物亲属关系、季节、部分历史动机及史源未独立认证；正文按课程归属或条件表达，不视为已核事实。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M3",
+        "item": "原教学SVG按原字节保留，仅阅读XML文字；未进行本次渲染布局QA。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "75da65b4a7c0e1a9d3ac360a4b4ef1d30e0fc5e069d885b089b368e386347c7e",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/06 - 第六章 影像画面构成（P20-P23）.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第六章既有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-06/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-06/review.md"
+}

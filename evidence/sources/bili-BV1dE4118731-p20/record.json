@@ -1,0 +1,277 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p20",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P20 6.1影像的构成",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=20",
+    "bvid": "BV1dE4118731",
+    "page": 20,
+    "cid": 133174322,
+    "text_sha256": "c6abb6ef3e5ecf2ebb80cf445eba20849f45f3cbda77ea7e381fd24fb275b4b7",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p20-6.1影像的构成/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/06 - 第六章 影像画面构成（P20-P23）.md",
+    "sha256": "a0e0ef0e20b1aba53638b9d5f6b9cf88f4d6ebf772ff386514dbcddddadde07d"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "c6abb6ef3e5ecf2ebb80cf445eba20849f45f3cbda77ea7e381fd24fb275b4b7",
+    "note_sha256": "a0e0ef0e20b1aba53638b9d5f6b9cf88f4d6ebf772ff386514dbcddddadde07d",
+    "scope": [
+      [
+        6,
+        241
+      ]
+    ],
+    "items": [
+      {
+        "id": "P20-U01",
+        "item": "汉字类比与七种构成面向",
+        "source": {
+          "lines": [
+            6,
+            26
+          ]
+        },
+        "note": {
+          "lines": [
+            46,
+            51
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P20-U02",
+        "item": "主体为内容与结构中心，不是几何中心",
+        "source": {
+          "lines": [
+            27,
+            40
+          ]
+        },
+        "note": {
+          "lines": [
+            46,
+            51
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P20-U03",
+        "item": "郁金香位置、0.618与三分法及史源归属",
+        "source": {
+          "lines": [
+            41,
+            61
+          ]
+        },
+        "note": {
+          "lines": [
+            52,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P20-U04",
+        "item": "三等分网格、四个交点及非万能美学条件",
+        "source": {
+          "lines": [
+            62,
+            78
+          ]
+        },
+        "note": {
+          "lines": [
+            52,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P20-U05",
+        "item": "亮花暗背景与明暗法适用条件",
+        "source": {
+          "lines": [
+            79,
+            91
+          ]
+        },
+        "note": {
+          "lines": [
+            52,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P20-U06",
+        "item": "父婴虚实与非中心反例",
+        "source": {
+          "lines": [
+            92,
+            108
+          ]
+        },
+        "note": {
+          "lines": [
+            62,
+            69
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P20-U07",
+        "item": "先见父亲再循目光向婴儿的视线引导",
+        "source": {
+          "lines": [
+            109,
+            130
+          ]
+        },
+        "note": {
+          "lines": [
+            62,
+            69
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P20-U08",
+        "item": "看台女孩三分位置与明暗组合",
+        "source": {
+          "lines": [
+            131,
+            147
+          ]
+        },
+        "note": {
+          "lines": [
+            70,
+            77
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P20-U09",
+        "item": "曲线直线对比及室内设计类比",
+        "source": {
+          "lines": [
+            148,
+            163
+          ]
+        },
+        "note": {
+          "lines": [
+            70,
+            77
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P20-U10",
+        "item": "橙衣蓝背景及移到橙背景的设想",
+        "source": {
+          "lines": [
+            164,
+            182
+          ]
+        },
+        "note": {
+          "lines": [
+            70,
+            77
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P20-U11",
+        "item": "电视辩论服装与背景，历史校正及因果边界",
+        "source": {
+          "lines": [
+            183,
+            225
+          ]
+        },
+        "note": {
+          "lines": [
+            78,
+            85
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P20-U12",
+        "item": "六方法总结及原课实践建议",
+        "source": {
+          "lines": [
+            226,
+            241
+          ]
+        },
+        "note": {
+          "lines": [
+            86,
+            100
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-27",
+    "scope": "完整可用ASR在初稿前及成稿后全文读取；55个原视频帧在联系表中实际查看，核对静态照片、课件标注、裁切与字幕；原声未听审，未连续观看全片。",
+    "summary": "本章四P的静态图文知识通过来源先行、原照片核对、双向语义复核及旧稿保留检查；已校正三分法、历史身份和条件因果，补回原课提问。此结论不表示原声或连续声画验收。",
+    "method": "同一助理在初稿后另一步骤复核；完整ASR两次阅读，195原帧在27张联系表实际查看并做定点核对，41项内容双向检查及8项有界内容使用检查。无独立评审者或用户学习测试。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "原声未听审、全片未连续审看；现有ASR与原图未识别独立运动、剪辑或声画同步教学片段，本次仅验收静态构成知识。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "照片新闻身份、人物亲属关系、季节、部分历史动机及史源未独立认证；正文按课程归属或条件表达，不视为已核事实。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M3",
+        "item": "原教学SVG按原字节保留，仅阅读XML文字；未进行本次渲染布局QA。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "75da65b4a7c0e1a9d3ac360a4b4ef1d30e0fc5e069d885b089b368e386347c7e",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/06 - 第六章 影像画面构成（P20-P23）.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第六章既有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-06/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-06/review.md"
+}

@@ -1,0 +1,676 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p42",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 十九课-怎么撰写项目提案19",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=42",
+    "bvid": "BV1eE411F73t",
+    "page": 42,
+    "cid": 212090316,
+    "text_sha256": "fb9e9b274625dee80f71d1148a398f05579e7306acabd1c6dd362d3f7d6d95ca",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/new-transcripts/BV1eE411F73t-p42/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/19 - 第十九课 怎么撰写项目提案（P42）.md",
+    "sha256": "fe6041578bac988c0a292497a32e261d501c21ab4bd000985ceab71d4dc3abef"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "fb9e9b274625dee80f71d1148a398f05579e7306acabd1c6dd362d3f7d6d95ca",
+    "note_sha256": "fe6041578bac988c0a292497a32e261d501c21ab4bd000985ceab71d4dc3abef",
+    "scope": [
+      [
+        6,
+        119
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "片场降温及闲谈压缩",
+        "source": {
+          "lines": [
+            6,
+            12
+          ]
+        },
+        "note": {
+          "lines": [
+            45,
+            45
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U2",
+        "item": "提案用途和三种情境",
+        "source": {
+          "lines": [
+            13,
+            15
+          ]
+        },
+        "note": {
+          "lines": [
+            49,
+            49
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U3",
+        "item": "杂乱提交、仅前史和随意三场戏失败",
+        "source": {
+          "lines": [
+            16,
+            20
+          ]
+        },
+        "note": {
+          "lines": [
+            51,
+            51
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U4",
+        "item": "剧本提案与后续影视方案边界",
+        "source": {
+          "lines": [
+            21,
+            29
+          ]
+        },
+        "note": {
+          "lines": [
+            53,
+            53
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U5",
+        "item": "逻辑重点共情与Word/PDF",
+        "source": {
+          "lines": [
+            30,
+            34
+          ]
+        },
+        "note": {
+          "lines": [
+            55,
+            55
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U6",
+        "item": "甲方时间有限及描述语境",
+        "source": {
+          "lines": [
+            35,
+            38
+          ]
+        },
+        "note": {
+          "lines": [
+            57,
+            57
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U7",
+        "item": "六部分与避免多余图树",
+        "source": {
+          "lines": [
+            39,
+            42
+          ]
+        },
+        "note": {
+          "lines": [
+            61,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U8",
+        "item": "标题媒介及体量",
+        "source": {
+          "lines": [
+            43,
+            43
+          ]
+        },
+        "note": {
+          "lines": [
+            63,
+            63
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U9",
+        "item": "人物事件一句话、两案例与非机械句数",
+        "source": {
+          "lines": [
+            44,
+            49
+          ]
+        },
+        "note": {
+          "lines": [
+            67,
+            67
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U10",
+        "item": "标签墙用途",
+        "source": {
+          "lines": [
+            50,
+            51
+          ]
+        },
+        "note": {
+          "lines": [
+            73,
+            73
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U11",
+        "item": "警察四标签及来由",
+        "source": {
+          "lines": [
+            52,
+            54
+          ]
+        },
+        "note": {
+          "lines": [
+            75,
+            75
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U12",
+        "item": "蝌蚪舞蹈演员和歌舞音乐兄弟冒险",
+        "source": {
+          "lines": [
+            55,
+            57
+          ]
+        },
+        "note": {
+          "lines": [
+            77,
+            77
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U13",
+        "item": "小传自用演员合作与服化",
+        "source": {
+          "lines": [
+            58,
+            63
+          ]
+        },
+        "note": {
+          "lines": [
+            81,
+            81
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U14",
+        "item": "片酬夸张对照与经验归属",
+        "source": {
+          "lines": [
+            60,
+            62
+          ]
+        },
+        "note": {
+          "lines": [
+            83,
+            83
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U15",
+        "item": "五层及静态分组",
+        "source": {
+          "lines": [
+            63,
+            64
+          ]
+        },
+        "note": {
+          "lines": [
+            87,
+            87
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U16",
+        "item": "外在关系血统与背景例",
+        "source": {
+          "lines": [
+            65,
+            68
+          ]
+        },
+        "note": {
+          "lines": [
+            89,
+            89
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U17",
+        "item": "内在价值信仰对照",
+        "source": {
+          "lines": [
+            68,
+            70
+          ]
+        },
+        "note": {
+          "lines": [
+            91,
+            91
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U18",
+        "item": "状态、暴躁、应激和语言常态",
+        "source": {
+          "lines": [
+            70,
+            75
+          ]
+        },
+        "note": {
+          "lines": [
+            93,
+            93
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U19",
+        "item": "目标资源及缺陷两力",
+        "source": {
+          "lines": [
+            76,
+            79
+          ]
+        },
+        "note": {
+          "lines": [
+            95,
+            95
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U20",
+        "item": "弧光大部分与起终状态",
+        "source": {
+          "lines": [
+            79,
+            83
+          ]
+        },
+        "note": {
+          "lines": [
+            97,
+            97
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U21",
+        "item": "程勇外在年龄身份与两处儿子判断",
+        "source": {
+          "lines": [
+            84,
+            87
+          ]
+        },
+        "note": {
+          "lines": [
+            103,
+            103
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U22",
+        "item": "家暴、鞋钱、售药推责与责任依据",
+        "source": {
+          "lines": [
+            88,
+            92
+          ]
+        },
+        "note": {
+          "lines": [
+            105,
+            105
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U23",
+        "item": "赖拖躲与警察小舅子",
+        "source": {
+          "lines": [
+            91,
+            95
+          ]
+        },
+        "note": {
+          "lines": [
+            107,
+            107
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U24",
+        "item": "印度资源及贪财胆小拉扯",
+        "source": {
+          "lines": [
+            96,
+            97
+          ]
+        },
+        "note": {
+          "lines": [
+            109,
+            109
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U25",
+        "item": "三组人物变化",
+        "source": {
+          "lines": [
+            98,
+            99
+          ]
+        },
+        "note": {
+          "lines": [
+            111,
+            111
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U26",
+        "item": "五标签是草稿交稿擦除",
+        "source": {
+          "lines": [
+            99,
+            101
+          ]
+        },
+        "note": {
+          "lines": [
+            115,
+            115
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U27",
+        "item": "梗概八要素和三类阻力",
+        "source": {
+          "lines": [
+            101,
+            104
+          ]
+        },
+        "note": {
+          "lines": [
+            119,
+            119
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U28",
+        "item": "创意切入和一二三处",
+        "source": {
+          "lines": [
+            104,
+            106
+          ]
+        },
+        "note": {
+          "lines": [
+            121,
+            121
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U29",
+        "item": "海水火焰、遐想及价值主题",
+        "source": {
+          "lines": [
+            107,
+            110
+          ]
+        },
+        "note": {
+          "lines": [
+            123,
+            123
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U30",
+        "item": "样场是实操证明、环境动作对白",
+        "source": {
+          "lines": [
+            111,
+            112
+          ]
+        },
+        "note": {
+          "lines": [
+            129,
+            129
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U31",
+        "item": "文戏关系同场与武戏反例",
+        "source": {
+          "lines": [
+            113,
+            114
+          ]
+        },
+        "note": {
+          "lines": [
+            131,
+            131
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U32",
+        "item": "主要角色四类及合并",
+        "source": {
+          "lines": [
+            114,
+            116
+          ]
+        },
+        "note": {
+          "lines": [
+            133,
+            133
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U33",
+        "item": "达叔等假设场与非完整范文",
+        "source": {
+          "lines": [
+            116,
+            117
+          ]
+        },
+        "note": {
+          "lines": [
+            135,
+            135
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U34",
+        "item": "课内要求与未提供内容",
+        "source": {
+          "lines": [
+            118,
+            119
+          ]
+        },
+        "note": {
+          "lines": [
+            139,
+            139
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-27",
+    "scope": "完整ASR119行来源先行及成稿后全文回读；实际查看171不同原帧，涵盖首尾、六部分提案/人物五层/梗概与样场板书和疑词字幕；未听审、未连续审看。",
+    "summary": "新增漏课P42，保存六部分提案的用途、失败对照、人物小传完整方法与程勇依据、草稿标签和交稿的区别、梗概创意遐想价值、样场选取理由和实践边界。",
+    "method": "29项来源先行梳理；成稿后同一主代理另一步骤进行双向复核、旧稿不存在核查及五项使用检查；工具只核登记与身份。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看；完整ASR及171静态原帧核对只支持所记录文字/板书知识，不证明连续动作或声画同步。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "14:05–14:39警察细分警种、32:56–33:19另一个状态词、37:56–38:20第一创意例原词待核；已概括或标明，清楚的情境、方法和其他案例保留。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M3",
+        "item": "作品情节及行业经验按讲师叙述保存，未外部独立查证；没有补造完整提案、样场答案、字数或评分标准。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "operation": "create_missing_lesson",
+    "old_note_sha256": null,
+    "backup_hint": null,
+    "personal_note": null,
+    "reason": "当前目标不存在，来源链接和课号搜索无旧笔记；不生成空个人记录",
+    "overview_backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/before-charlie-19-overview.md",
+    "overview_old_sha256": "0c30c0a809b48608b0cf78c7e1eb37e3bdab3aac5acf11230a1c69ab967adeb6"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-19/review.md"
+}

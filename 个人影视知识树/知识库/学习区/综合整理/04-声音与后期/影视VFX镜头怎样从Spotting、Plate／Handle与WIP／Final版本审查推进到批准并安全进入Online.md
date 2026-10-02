@@ -636,3 +636,11 @@ VFX完成是一条对象生命周期，不是收到一个Final文件。先在当
 - [ ] #创作练习 人工插入旧WIP，测试版本绑定、自动检查和上下文审片分别能否发现。
 - [ ] #创作练习 改一个切点，判断应只修改Version、Reconform，还是同时Repull Plate。
 - [ ] #创作练习 对一次AI Cleanup记录父Plate、输入、模型／版本、原始输出、人工修改和最终Version，并判断是否改变创作事实。
+
+
+## 创作区专业正文入口（2026-10-02）
+
+本页继续保留原有来源综合、个人理解与学习记录。用于工作流中“结合知识树”的专业方法见 [[知识库/创作区/D-声音与后期/后期方法-影视VFX镜头怎样从Spotting、Plate／Handle与WIP／Final版本审查推进到批准并安全进入Online|后期方法-影视VFX镜头怎样从Spotting、Plate／Handle与WIP／Final版本审查推进到批准并安全进入Online]]。
+
+- 主要岗位：D；解决问题：怎样在VFX被真实触发时，为每个镜头建立稳定Shot身份、清楚的Plate／Element／Handle与Turnover，审查WIP和Final版本，经过用户批准后插回当前CUT，并与DI／Grade／Online核对到PIC冻结。
+- 创作正文记录本轮岗位转译；来源与本页不计为两份独立证据。既有正式知识关系、个人检验与项目状态继续按本页原记录理解。

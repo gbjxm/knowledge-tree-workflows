@@ -1,0 +1,162 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1FR4y1M73U-p1",
+  "source": {
+    "kind": "video",
+    "title": "讲故事的艺术 - 第一课 课程介绍",
+    "locator": "https://www.bilibili.com/video/BV1FR4y1M73U?p=1",
+    "text_sha256": "b9cb6d191096e12d28bbb485dc14d14995a7787f205bbcfc8d65fe5e86c9ffee",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/reused-sources/BV1FR4y1M73U-p1/transcript.md",
+    "bvid": "BV1FR4y1M73U",
+    "page": 1,
+    "cid": 499105970
+  },
+  "note": {
+    "path": "知识库/学习区/课程/讲故事的艺术/01 - 第一课 课程介绍（P1）.md",
+    "sha256": "d4bd67ab38163c4fdfb139bd6d4700ce8fc386e5c1153cbb06912e77cd05d846"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "b9cb6d191096e12d28bbb485dc14d14995a7787f205bbcfc8d65fe5e86c9ffee",
+    "note_sha256": "d4bd67ab38163c4fdfb139bd6d4700ce8fc386e5c1153cbb06912e77cd05d846",
+    "scope": [
+      [
+        6,
+        36
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "任教背景与喜欢教学/深入学习",
+        "source": {
+          "lines": [
+            6,
+            10
+          ]
+        },
+        "note": {
+          "lines": [
+            53,
+            53
+          ]
+        },
+        "status": "合并",
+        "reason": "按连续知识关系合并口语与重复；实际含义已在独立步骤回读核对。"
+      },
+      {
+        "id": "U2",
+        "item": "人数限制、写作愿望、三种答疑渠道和线上动机",
+        "source": {
+          "lines": [
+            11,
+            18
+          ]
+        },
+        "note": {
+          "lines": [
+            55,
+            55
+          ]
+        },
+        "status": "合并",
+        "reason": "按连续知识关系合并口语与重复；实际含义已在独立步骤回读核对。"
+      },
+      {
+        "id": "U3",
+        "item": "工具房、辨认不同工具和用途",
+        "source": {
+          "lines": [
+            19,
+            24
+          ]
+        },
+        "note": {
+          "lines": [
+            59,
+            59
+          ]
+        },
+        "status": "合并",
+        "reason": "按连续知识关系合并口语与重复；实际含义已在独立步骤回读核对。"
+      },
+      {
+        "id": "U4",
+        "item": "陷阱、混合比喻和改善写作认识的目标",
+        "source": {
+          "lines": [
+            25,
+            30
+          ]
+        },
+        "note": {
+          "lines": [
+            61,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "按连续知识关系合并口语与重复；实际含义已在独立步骤回读核对。"
+      },
+      {
+        "id": "U5",
+        "item": "故事重要性、定义、建构、意义及后续练习和推动力",
+        "source": {
+          "lines": [
+            31,
+            35
+          ]
+        },
+        "note": {
+          "lines": [
+            67,
+            67
+          ]
+        },
+        "status": "合并",
+        "reason": "按连续知识关系合并口语与重复；实际含义已在独立步骤回读核对。"
+      },
+      {
+        "id": "U6",
+        "item": "自报姓名与课程品牌收尾",
+        "source": {
+          "lines": [
+            36,
+            36
+          ]
+        },
+        "note": {
+          "lines": [
+            30,
+            30
+          ]
+        },
+        "status": "合并",
+        "reason": "按连续知识关系合并口语与重复；实际含义已在独立步骤回读核对。"
+      }
+    ],
+    "scope_note": "完整现存英文ASR讲述范围；画内字幕57个时间点单独记录，片头和原声未连续审听。登记不证明语义或声画完整。"
+  },
+  "review": {
+    "date": "2026-09-24",
+    "scope": "读取01:49-04:32完整31条ASR；0-120秒另作同模型局部分段识别；查看57张不同时间点原帧，其中35张定位、22张字幕补核；未听审原音，未连续审看。",
+    "summary": "讲述知识正文双向复核通过，已移出本集无依据的跨课归纳和整理者练习。片头仅作引入影像定位，不分析其运动、剪辑和音乐。",
+    "method": "同一主代理成稿后独立步骤重读原转写并追加22帧字幕核对；旧稿逐段对照；4个实际使用问题。不是盲评或人工验收。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "片头连续声画与全片原声",
+        "reason": "当前可用工具的实际审查为转写与原帧；未直接听审或连续审看。不影响本文所保留的可核讲述；不据此声称全视频声画验收。",
+        "blocks_knowledge_body": false
+      }
+    ],
+    "limitations": "未检验小陌掌握、实践效果，也未重审关联综合主题。"
+  },
+  "preservation": {
+    "old_note_sha256": "08978ccf2afc2315fb9cf9fa0de1ec0c9b895d6e720de278e3e61a4e08d2bdd6",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/讲故事的艺术/01 - 第一课 课程介绍（P1）.md",
+    "personal_note": "知识库/学习区/个人思考/讲故事的艺术 - 第一课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/story-01/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/story-01/review.md"
+}

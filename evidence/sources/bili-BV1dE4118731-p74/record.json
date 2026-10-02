@@ -1,0 +1,367 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p74",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P74 10.23影调有层次（下）",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=74",
+    "bvid": "BV1dE4118731",
+    "page": 74,
+    "cid": 139216727,
+    "text_sha256": "94bd83f0a89dc94ae63b8ab8cd4c6edea34eb410736c37e870b68cb6c8512556",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p74-10.23影调有层次（下）/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/19 - 第十章 影调层次（P73-P74）.md",
+    "sha256": "10f6867d50a7ed302c75e1523a27c25e1f8e2e40fa500a95b362838e363da019"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "94bd83f0a89dc94ae63b8ab8cd4c6edea34eb410736c37e870b68cb6c8512556",
+    "note_sha256": "10f6867d50a7ed302c75e1523a27c25e1f8e2e40fa500a95b362838e363da019",
+    "scope": [
+      [
+        6,
+        226
+      ]
+    ],
+    "items": [
+      {
+        "id": "P74-U01",
+        "item": "软调反差低、过渡柔和、散射光、投影淡；细腻温柔质感松弛等效果及女性表述的范围限定。",
+        "source": {
+          "lines": [
+            6,
+            29
+          ]
+        },
+        "note": {
+          "lines": [
+            135,
+            142
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留解释与限定；文字覆盖不等于实际原声与连续视频审看。"
+      },
+      {
+        "id": "P74-U02",
+        "item": "四月物语卯月搬家疑词，樱花/室内舒适、柔光低反差；01:29–02:13长无ASR插片，姓名须原字。",
+        "source": {
+          "lines": [
+            30,
+            42
+          ]
+        },
+        "note": {
+          "lines": [
+            143,
+            152
+          ]
+        },
+        "status": "待核",
+        "reason": "M5连续声画待核；原课文字与静态观察已分层整理。"
+      },
+      {
+        "id": "P74-U03",
+        "item": "中间影调两种含义：明暗在高低之间、反差过渡缓；均匀曝光、反差小、色温稳定/变化不大等疑词和三条题卡。",
+        "source": {
+          "lines": [
+            43,
+            61
+          ]
+        },
+        "note": {
+          "lines": [
+            153,
+            160
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留解释与限定；文字覆盖不等于实际原声与连续视频审看。"
+      },
+      {
+        "id": "P74-U04",
+        "item": "四月物语卯月加入钓鱼社团疑词，平均柔暖光、自然穿着、没有过亮过暗、过渡顺；03:20–03:44空窗。",
+        "source": {
+          "lines": [
+            62,
+            69
+          ]
+        },
+        "note": {
+          "lines": [
+            161,
+            168
+          ]
+        },
+        "status": "待核",
+        "reason": "M6连续声画待核；原课文字与静态观察已分层整理。"
+      },
+      {
+        "id": "P74-U05",
+        "item": "外景8–10时/14–17时光稳柔和暖、室内外光平衡和光比；钟点不能脱离地点季节天气作通用摄影规则。",
+        "source": {
+          "lines": [
+            70,
+            88
+          ]
+        },
+        "note": {
+          "lines": [
+            169,
+            176
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留解释与限定；文字覆盖不等于实际原声与连续视频审看。"
+      },
+      {
+        "id": "P74-U06",
+        "item": "影调创作因素一善用光线：种类色温强度位置方向距离；产生/消除透视疑表述须区分造型与几何透视。",
+        "source": {
+          "lines": [
+            89,
+            109
+          ]
+        },
+        "note": {
+          "lines": [
+            177,
+            184
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留解释与限定；文字覆盖不等于实际原声与连续视频审看。"
+      },
+      {
+        "id": "P74-U07",
+        "item": "布鲁克林姑娘初到纽约与房东吃饭、昏暗环境与孤独茫然；人名房东名ASR不清、05:26–05:52插片空窗。",
+        "source": {
+          "lines": [
+            110,
+            123
+          ]
+        },
+        "note": {
+          "lines": [
+            185,
+            194
+          ]
+        },
+        "status": "待核",
+        "reason": "M7连续声画待核；原课文字与静态观察已分层整理。"
+      },
+      {
+        "id": "P74-U08",
+        "item": "布鲁克林后期考试通过、熟悉环境、同场景更暖更亮；06:11起那些反复为识别失败，须核同场景对比与曝光/色彩。",
+        "source": {
+          "lines": [
+            124,
+            149
+          ]
+        },
+        "note": {
+          "lines": [
+            185,
+            194
+          ]
+        },
+        "status": "待核",
+        "reason": "M7连续声画待核；原课文字与静态观察已分层整理。"
+      },
+      {
+        "id": "P74-U09",
+        "item": "因素二熟悉物体：结构色彩明度反光率；木头粗糙玻璃透射水面反射、色彩浓淡深浅的差异；不当绝对材质归类。",
+        "source": {
+          "lines": [
+            150,
+            163
+          ]
+        },
+        "note": {
+          "lines": [
+            195,
+            202
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留解释与限定；文字覆盖不等于实际原声与连续视频审看。"
+      },
+      {
+        "id": "P74-U10",
+        "item": "陈凯歌黄土地插片，方言/歌声转写失真且长空窗；真实环境服装肤色与土地画面、对白不得猜抄。",
+        "source": {
+          "lines": [
+            164,
+            173
+          ]
+        },
+        "note": {
+          "lines": [
+            203,
+            212
+          ]
+        },
+        "status": "待核",
+        "reason": "M8连续声画待核；原课文字与静态观察已分层整理。"
+      },
+      {
+        "id": "P74-U11",
+        "item": "讲述黄土地摄制组初春拔草保暖色土地的轶事，支撑物色设计；不是已查证制作史，也不当现实生态处理建议。",
+        "source": {
+          "lines": [
+            174,
+            187
+          ]
+        },
+        "note": {
+          "lines": [
+            203,
+            212
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留解释与限定；文字覆盖不等于实际原声与连续视频审看。"
+      },
+      {
+        "id": "P74-U12",
+        "item": "因素三其他调整：拍摄曝光洗印、数字中间片/数字暗房、镜头品牌质量/效果、道具烟雾，软硬层次控制；后期能力不可无条件扩大。",
+        "source": {
+          "lines": [
+            188,
+            206
+          ]
+        },
+        "note": {
+          "lines": [
+            213,
+            224
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留解释与限定；文字覆盖不等于实际原声与连续视频审看。"
+      },
+      {
+        "id": "P74-U13",
+        "item": "刺客聂隐娘环境光、氛围、道具、镜头运动服务人物与叙事；11:08–12:26长ASR空窗，需要完整画面。",
+        "source": {
+          "lines": [
+            207,
+            216
+          ]
+        },
+        "note": {
+          "lines": [
+            225,
+            234
+          ]
+        },
+        "status": "待核",
+        "reason": "M9连续声画待核；原课文字与静态观察已分层整理。"
+      },
+      {
+        "id": "P74-U14",
+        "item": "人和物在有限空间中呈现层次、创作意图，刺客聂隐娘插片结尾与外语/人名转写失败，实际片尾范围待媒体。",
+        "source": {
+          "lines": [
+            217,
+            226
+          ]
+        },
+        "note": {
+          "lines": [
+            225,
+            234
+          ]
+        },
+        "status": "待核",
+        "reason": "M9连续声画待核；原课文字与静态观察已分层整理。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P74-U02",
+        "item": "四月物语卯月搬家疑词，樱花/室内舒适、柔光低反差；01:29–02:13长无ASR插片，姓名须原字。",
+        "status": "待核",
+        "reason": "M5连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P74-U04",
+        "item": "四月物语卯月加入钓鱼社团疑词，平均柔暖光、自然穿着、没有过亮过暗、过渡顺；03:20–03:44空窗。",
+        "status": "待核",
+        "reason": "M6连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P74-U07",
+        "item": "布鲁克林姑娘初到纽约与房东吃饭、昏暗环境与孤独茫然；人名房东名ASR不清、05:26–05:52插片空窗。",
+        "status": "待核",
+        "reason": "M7连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P74-U08",
+        "item": "布鲁克林后期考试通过、熟悉环境、同场景更暖更亮；06:11起那些反复为识别失败，须核同场景对比与曝光/色彩。",
+        "status": "待核",
+        "reason": "M7连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P74-U10",
+        "item": "陈凯歌黄土地插片，方言/歌声转写失真且长空窗；真实环境服装肤色与土地画面、对白不得猜抄。",
+        "status": "待核",
+        "reason": "M8连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P74-U13",
+        "item": "刺客聂隐娘环境光、氛围、道具、镜头运动服务人物与叙事；11:08–12:26长ASR空窗，需要完整画面。",
+        "status": "待核",
+        "reason": "M9连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P74-U14",
+        "item": "人和物在有限空间中呈现层次、创作意图，刺客聂隐娘插片结尾与外语/人名转写失败，实际片尾范围待媒体。",
+        "status": "待核",
+        "reason": "M9连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "390db7e591d154964f11c655eec40c3e0a04f4072debcb4284b680e4a1c1bdd0",
+    "historical_review_sha256": "fe17d9a616929d50d07cfda7b279e5cc6f0b73ca63e52de0c57cb621d9dbbb57",
+    "historical_seal_sha256": "b08212c5e83d67d06d32e9632b8a7c880c15ec245d6fb2ada62d4b824f79c4f7",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-19/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "4244aefeefe54e491ed3df3650e2f55c846caec2f3a8513fb95fced4e2ccbcd6",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/19 - 第十章 影调层次（P73-P74）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-19/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章影调层次既有学习记录.md",
+    "personal_sha256": "7015b9f61118437797062ad0d1a941a89b7d004fddd4e00f62ff850acd2c88cf",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-19/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-19/review.md"
+}

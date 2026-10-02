@@ -1,0 +1,335 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p1",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P1 1.1序言：影像语言的作用",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=1",
+    "bvid": "BV1dE4118731",
+    "page": 1,
+    "cid": 126008992,
+    "text_sha256": "3207b78c21a7b657c9347206f906a97ff49979187eca90926ad6d62983893d63",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p1-1.1序言：影像语言的作用/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/01 - 第一章 影像语言与技术史（P1-P2）.md",
+    "sha256": "d8f6ad982487a31f3af4dd7b5dc8ce69a0d7fb4c8bcd1d91d2ea517a7709ae3c"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "3207b78c21a7b657c9347206f906a97ff49979187eca90926ad6d62983893d63",
+    "note_sha256": "d8f6ad982487a31f3af4dd7b5dc8ce69a0d7fb4c8bcd1d91d2ea517a7709ae3c",
+    "scope": [
+      [
+        6,
+        344
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "记录原理—控制系统—表达的课程目的",
+        "source": {
+          "lines": [
+            6,
+            21
+          ]
+        },
+        "note": {
+          "lines": [
+            44,
+            49
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U2",
+        "item": "青年/晚年爱因斯坦对照、创造期、原课任职错误与外部纠正分离",
+        "source": {
+          "lines": [
+            22,
+            69
+          ]
+        },
+        "note": {
+          "lines": [
+            44,
+            49
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U3",
+        "item": "孩子借父亲肩膀取得角度优势；全民拍摄与专业性问题",
+        "source": {
+          "lines": [
+            70,
+            100
+          ]
+        },
+        "note": {
+          "lines": [
+            50,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U4",
+        "item": "银颗粒及冲洗温度/时间；保留胶片时代条件",
+        "source": {
+          "lines": [
+            101,
+            116
+          ]
+        },
+        "note": {
+          "lines": [
+            50,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U5",
+        "item": "四片三组镜头与物理化学积累；不补型号和设计者",
+        "source": {
+          "lines": [
+            117,
+            135
+          ]
+        },
+        "note": {
+          "lines": [
+            50,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U6",
+        "item": "颗粒街景马车、《利物浦印象》与莫奈作品的情绪比较",
+        "source": {
+          "lines": [
+            136,
+            151
+          ]
+        },
+        "note": {
+          "lines": [
+            50,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U7",
+        "item": "摄影颗粒与点彩的可能联系，保留未经完全考证",
+        "source": {
+          "lines": [
+            152,
+            169
+          ]
+        },
+        "note": {
+          "lines": [
+            50,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U8",
+        "item": "新闻、人文、动物、地貌与Discovery/国家地理记录传递",
+        "source": {
+          "lines": [
+            170,
+            199
+          ]
+        },
+        "note": {
+          "lines": [
+            62,
+            73
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U9",
+        "item": "解海龙《大眼睛》、三种募捐沟通与可能而非实测效果",
+        "source": {
+          "lines": [
+            200,
+            238
+          ]
+        },
+        "note": {
+          "lines": [
+            62,
+            73
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U10",
+        "item": "广告、婚纱、婚礼短片作为日常艺术创作",
+        "source": {
+          "lines": [
+            239,
+            254
+          ]
+        },
+        "note": {
+          "lines": [
+            62,
+            73
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U11",
+        "item": "医生朋友、徕卡与光学跨专业价值；品牌赞赏归属",
+        "source": {
+          "lines": [
+            255,
+            273
+          ]
+        },
+        "note": {
+          "lines": [
+            62,
+            73
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U12",
+        "item": "专业业余/古今/学科联系、日常设备例示",
+        "source": {
+          "lines": [
+            274,
+            288
+          ]
+        },
+        "note": {
+          "lines": [
+            62,
+            73
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U13",
+        "item": "家庭相册、国家历史对照及分享接纳过程",
+        "source": {
+          "lines": [
+            289,
+            314
+          ]
+        },
+        "note": {
+          "lines": [
+            74,
+            87
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U14",
+        "item": "同一照片一年/十年/五十年不同价值",
+        "source": {
+          "lines": [
+            315,
+            333
+          ]
+        },
+        "note": {
+          "lines": [
+            74,
+            87
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      },
+      {
+        "id": "U15",
+        "item": "回到人本需求并预告后续控制技术",
+        "source": {
+          "lines": [
+            334,
+            344
+          ]
+        },
+        "note": {
+          "lines": [
+            74,
+            87
+          ]
+        },
+        "status": "合并",
+        "reason": "按同一知识问题连读组织；已做来源到正文、正文到来源及旧稿去向复核，详见review.md。文本登记不代表连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "58e116360b65c59f1b0462dd9aa4acc87363814949d4af8d76eb5e87c5979490",
+    "historical_review_sha256": "2bdcfdea8e13ac75a3cec2d04118c760af7df5060ed5c6751c0329d4037897f2",
+    "historical_seal_sha256": "2ae42f9ccb6e64891e2a7cf2bc6d287dc46d4bc785e36f1de26844b6a2991ce0",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-01/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "51db3b85e3558aa0ef7600df7ec347bb9135dc0937cfa4d12b86fe25ad33f351",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/01 - 第一章 影像语言与技术史（P1-P2）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-01/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第一章既有学习记录.md",
+    "personal_sha256": "c450dc75825de2881e7d1d6df4822b063ab704367823399dbaacec78b00cef03",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-01/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-01/review.md"
+}

@@ -1,0 +1,320 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p60",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P60 10.9动作片的门道1",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=60",
+    "bvid": "BV1dE4118731",
+    "page": 60,
+    "cid": 139214250,
+    "text_sha256": "f84b126bfd2db6f9a22baee74ba11f84fc21c57210d2beb6900d3753ca26a70e",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p60-10.9动作片的门道1/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/16 - 第十章 动作片视听设计（P60-P63）.md",
+    "sha256": "1b4192ab0568b2b812af36baf981573d29dd0366f94ae2ef2f79490b9f33d4d8"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "f84b126bfd2db6f9a22baee74ba11f84fc21c57210d2beb6900d3753ca26a70e",
+    "note_sha256": "1b4192ab0568b2b812af36baf981573d29dd0366f94ae2ef2f79490b9f33d4d8",
+    "scope": [
+      [
+        6,
+        201
+      ]
+    ],
+    "items": [
+      {
+        "id": "P60-U01",
+        "item": "开场江湖诗句ASR失真；动作、武侠、功夫的关系，精神境界与家国情怀，不只有打斗。",
+        "source": {
+          "lines": [
+            6,
+            19
+          ]
+        },
+        "note": {
+          "lines": [
+            43,
+            48
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P60-U02",
+        "item": "动作、动势、情感、情境和节奏，寻找观众释放点与合适表达形式。",
+        "source": {
+          "lines": [
+            20,
+            31
+          ]
+        },
+        "note": {
+          "lines": [
+            43,
+            48
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P60-U03",
+        "item": "迅速来到你面前：急推快推，变焦Zoom In与机位前移Dolly In的区别，英文原字待图核。",
+        "source": {
+          "lines": [
+            32,
+            67
+          ]
+        },
+        "note": {
+          "lines": [
+            49,
+            56
+          ]
+        },
+        "status": "待核",
+        "reason": "M1的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P60-U04",
+        "item": "两类推进的对照片例；主观/客观感受属教师解释，透视与运动需连续验证；课上建议练习。",
+        "source": {
+          "lines": [
+            68,
+            82
+          ]
+        },
+        "note": {
+          "lines": [
+            49,
+            56
+          ]
+        },
+        "status": "待核",
+        "reason": "M1的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P60-U05",
+        "item": "黄飞鸿二男儿当自强重要人物登场、救十三姨、自报身份、数次仰角快推，次数及具体过程待核。",
+        "source": {
+          "lines": [
+            83,
+            108
+          ]
+        },
+        "note": {
+          "lines": [
+            57,
+            62
+          ]
+        },
+        "status": "待核",
+        "reason": "M2的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P60-U06",
+        "item": "方世玉二结尾与于镇海对抗，主观飞向对手、问母亲死穴及喜剧节奏；人物和穴名ASR不稳。",
+        "source": {
+          "lines": [
+            109,
+            125
+          ]
+        },
+        "note": {
+          "lines": [
+            63,
+            68
+          ]
+        },
+        "status": "待核",
+        "reason": "M3的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P60-U07",
+        "item": "醉拳黄飞鸿与苏乞儿对抗，急推突出亮相、追打前状态与动作威力；原片版本和师傅名待核。",
+        "source": {
+          "lines": [
+            126,
+            145
+          ]
+        },
+        "note": {
+          "lines": [
+            69,
+            74
+          ]
+        },
+        "status": "待核",
+        "reason": "M4的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P60-U08",
+        "item": "英雄无名长空棋馆，兵器、围棋、雨滴、建筑、古琴与京剧等文化元素；音乐原声和原词需核。",
+        "source": {
+          "lines": [
+            146,
+            177
+          ]
+        },
+        "note": {
+          "lines": [
+            75,
+            82
+          ]
+        },
+        "status": "待核",
+        "reason": "M5的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P60-U09",
+        "item": "英雄意念打斗，跟无名与推长空组合表现动势；08:18后插片大段无转写，不能以ASR代动态。",
+        "source": {
+          "lines": [
+            178,
+            190
+          ]
+        },
+        "note": {
+          "lines": [
+            75,
+            82
+          ]
+        },
+        "status": "待核",
+        "reason": "M5的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P60-U10",
+        "item": "无极击中/踢落例子，鬼狼、光明、昆仑所指混乱，树上打斗到跌落，推跟组合需核。",
+        "source": {
+          "lines": [
+            191,
+            199
+          ]
+        },
+        "note": {
+          "lines": [
+            83,
+            88
+          ]
+        },
+        "status": "待核",
+        "reason": "M6的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P60-U11",
+        "item": "本节快到跟前五类用途的收束与下回预告。",
+        "source": {
+          "lines": [
+            200,
+            201
+          ]
+        },
+        "note": {
+          "lines": [
+            83,
+            88
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P60-U03",
+        "item": "迅速来到你面前：急推快推，变焦Zoom In与机位前移Dolly In的区别，英文原字待图核。",
+        "status": "待核",
+        "reason": "M1的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P60-U04",
+        "item": "两类推进的对照片例；主观/客观感受属教师解释，透视与运动需连续验证；课上建议练习。",
+        "status": "待核",
+        "reason": "M1的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P60-U05",
+        "item": "黄飞鸿二男儿当自强重要人物登场、救十三姨、自报身份、数次仰角快推，次数及具体过程待核。",
+        "status": "待核",
+        "reason": "M2的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P60-U06",
+        "item": "方世玉二结尾与于镇海对抗，主观飞向对手、问母亲死穴及喜剧节奏；人物和穴名ASR不稳。",
+        "status": "待核",
+        "reason": "M3的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P60-U07",
+        "item": "醉拳黄飞鸿与苏乞儿对抗，急推突出亮相、追打前状态与动作威力；原片版本和师傅名待核。",
+        "status": "待核",
+        "reason": "M4的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P60-U08",
+        "item": "英雄无名长空棋馆，兵器、围棋、雨滴、建筑、古琴与京剧等文化元素；音乐原声和原词需核。",
+        "status": "待核",
+        "reason": "M5的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P60-U09",
+        "item": "英雄意念打斗，跟无名与推长空组合表现动势；08:18后插片大段无转写，不能以ASR代动态。",
+        "status": "待核",
+        "reason": "M5的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P60-U10",
+        "item": "无极击中/踢落例子，鬼狼、光明、昆仑所指混乱，树上打斗到跌落，推跟组合需核。",
+        "status": "待核",
+        "reason": "M6的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "697ddb0d5836254aacf6adb3168aa183f491ba70989b7bce8cc48aefebd259e4",
+    "historical_review_sha256": "017f79aa6f51a31338e4ed0658782e43463a1f6ba367e78e173588fc95484b88",
+    "historical_seal_sha256": "6d88604ed89d1d13e57c6aeb81188c06a5a228f5170adadac92eea59a4fb749c",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-16/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "61c8c30b7ae17abc1ce9dd95bba2b2d5846cda6fbac93e5b43c593f1c5be1731",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/16 - 第十章 动作片视听设计（P60-P63）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-16/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章动作片视听设计既有学习记录.md",
+    "personal_sha256": "151d29689b32b056a3c467d092473df390ecf25aa35b7e5e8c44d86445d633a3",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-16/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-16/review.md"
+}

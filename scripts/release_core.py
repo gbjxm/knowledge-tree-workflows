@@ -425,6 +425,127 @@ def daily_check(root: Path, *, skip_audits: bool = False) -> dict[str, Any]:
             "evidence": evidence_result, "audits": audit_results, "errors": errors,
             "migration_baseline": "not_compared"}
 
+def installed_target(explicit: Path | None) -> Path:
+    """Match install-skills.ps1's existing target precedence, without creating it."""
+    if explicit is not None:
+        return explicit
+    if os.environ.get("CODEX_HOME"):
+        return Path(os.environ["CODEX_HOME"]) / "skills"
+    profile = os.environ.get("USERPROFILE")
+    if profile and (Path(profile) / ".codex").exists():
+        return Path(profile) / ".codex" / "skills"
+    raise ReleaseError("Pass -TargetSkillsRoot explicitly; no Codex Skills root was found.")
+
+
+def checked_directory(path: Path, *, required: bool = False) -> Path:
+    """Inspect the root and every ancestor before resolving any directory link."""
+    if ".." in path.parts:
+        raise ReleaseError("Installed comparison paths must not contain '..'.")
+    path = path.absolute()
+    for parent in reversed((path, *path.parents)):
+        try:
+            if reparse(parent):
+                raise ReleaseError(f"Directory links are not comparison inputs: {parent}")
+        except FileNotFoundError:
+            continue
+    if path.exists() and not path.is_dir():
+        raise ReleaseError(f"Expected a directory: {path}")
+    if required and not path.is_dir():
+        raise ReleaseError(f"Required comparison directory is missing: {path}")
+    return path
+
+
+def skill_inventory(base: Path) -> tuple[dict[str, str], list[str]]:
+    """Same install exclusions; ignored directories are counted once, not traversed."""
+    files: dict[str, str] = {}
+    ignored: list[str] = []
+    checked_directory(base)
+    if not base.exists():
+        return files, ignored
+
+    def visit(folder: Path) -> None:
+        for path in sorted(folder.iterdir(), key=lambda p: p.name.casefold()):
+            name = path.relative_to(base).as_posix()
+            if excluded_reason(name):
+                ignored.append(name)
+                continue
+            bounded_path(base, name)
+            if path.is_dir():
+                visit(path)
+            elif path.is_file():
+                before = path.stat()
+                digest = sha256(path)
+                after = path.stat()
+                if (before.st_size, before.st_mtime_ns, before.st_ino) != (
+                        after.st_size, after.st_mtime_ns, after.st_ino):
+                    raise ReleaseError(f"File changed while comparing: {path}")
+                files[name] = digest
+            else:
+                raise ReleaseError(f"Not a regular comparison file: {path}")
+    visit(base)
+    return files, ignored
+
+
+def verify_installed(root: Path, target: Path | None = None,
+                     names: list[str] | None = None) -> dict[str, Any]:
+    root = checked_directory(root, required=True)
+    # The shared loader validates paths; inspect the declared path too, before its
+    # resolution could hide a junction leading to another directory in the workspace.
+    config_paths(root)
+    raw_config = load_json(bounded_path(root, ".codex/knowledge-tree.json"))
+    source_root = checked_directory(root / raw_config["skills_root"], required=True)
+    target = checked_directory(installed_target(target))
+    if target.is_relative_to(source_root) or source_root.is_relative_to(target):
+        raise ReleaseError("Canonical and installed skill roots must not overlap.")
+    catalog = load_modules(bounded_path(root, MODULE_MANIFEST))
+    selected = select_modules(catalog, names)
+    if any(item["channel"] != "stable" for item in selected):
+        raise ReleaseError("Installed mode accepts only declared stable modules.")
+    lookup = {item["name"]: item for item in catalog["modules"]}
+    required: set[str] = set()
+    pending = [item["name"] for item in selected]
+    while pending:
+        name = pending.pop()
+        if name in required:
+            continue
+        required.add(name)
+        if lookup[name]["channel"] != "stable":
+            raise ReleaseError(f"Stable comparison depends on a preview module: {name}")
+        pending.extend(lookup[name]["requires"])
+    # Only dependency entry existence is checked, without loading their code/body.
+    available = {name for name in required
+                 if bounded_path(target, name + "/SKILL.md", exists=False).is_file()}
+    dependencies = dependency_errors(selected, available, catalog["modules"])
+    reports = []
+    for item in selected:
+        name = item["name"]
+        source = bounded_path(source_root, name)
+        entry = bounded_path(source_root, name + "/SKILL.md")
+        if not entry.is_file():
+            raise ReleaseError(f"Canonical Skill entry is missing: {name}")
+        destination = bounded_path(target, name, exists=False)
+        expected, source_ignored = skill_inventory(source)
+        actual, target_ignored = skill_inventory(destination)
+        missing = sorted(expected.keys() - actual.keys())
+        changed = sorted(p for p in expected.keys() & actual.keys() if expected[p] != actual[p])
+        extra = sorted(actual.keys() - expected.keys())
+        reports.append({"module": name, "source_files": len(expected), "installed_files": len(actual),
+                        "matching_files": len(expected.keys() & actual.keys()) - len(changed),
+                        "missing": missing, "changed": changed, "extra": extra,
+                        "ignored": {"source": source_ignored, "installed": target_ignored,
+                                    "count": len(source_ignored) + len(target_ignored)}})
+    consistent = not dependencies and not any(r["missing"] or r["changed"] or r["extra"] for r in reports)
+    return {"ok": consistent, "mode": "Installed",
+            "status": "consistent" if consistent else "differences",
+            "workspace": str(root), "source": str(source_root), "target": str(target),
+            "target_exists": target.is_dir(), "selected": [m["name"] for m in selected],
+            "source_files": sum(r["source_files"] for r in reports),
+            "ignored_entries": sum(r["ignored"]["count"] for r in reports),
+            "modules": reports, "dependency_errors": dependencies, "writes": False,
+            "interpretation": "差异须核对来源；额外文件待判断，不自动认定定制或废弃。"
+                              "忽略数量按被跳过的目录或文件计数，未递归展开。仅验证文件与入口，不验证实际使用效果。"}
+
+
 def install_modules(root: Path, target: Path, names: list[str] | None, apply: bool) -> dict[str, Any]:
     data = load_modules(bounded_path(root, MODULE_MANIFEST))
     config = config_paths(root)
@@ -564,6 +685,10 @@ def main() -> int:
     release = subs.add_parser("verify-release")
     release.add_argument("--root", required=True, type=Path)
     release.add_argument("--manifest", required=True, type=Path)
+    installed = subs.add_parser("verify-installed")
+    installed.add_argument("--root", required=True, type=Path)
+    installed.add_argument("--target", type=Path)
+    installed.add_argument("--skill-names", nargs="+")
     package = subs.add_parser("package")
     package.add_argument("--root", required=True, type=Path)
     package.add_argument("--output", required=True, type=Path)
@@ -586,6 +711,8 @@ def main() -> int:
             return verify_manifest(config.vault, args.manifest, {".obsidian/workspace.json"})
         elif args.command == "verify-release":
             result = verify_release(args.root, args.manifest)
+        elif args.command == "verify-installed":
+            result = verify_installed(args.root, args.target, args.skill_names)
         elif args.command == "package":
             result = make_package(args.root, args.output, args.module_manifest, args.preview)
         else:
@@ -593,7 +720,10 @@ def main() -> int:
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0 if result["ok"] else 1
     except (OSError, ValueError, json.JSONDecodeError) as exc:
-        print(json.dumps({"ok": False, "error": str(exc)}, ensure_ascii=False))
+        result = {"ok": False, "error": str(exc)}
+        if args.command == "verify-installed":
+            result.update(mode="Installed", status="check_failed", writes=False)
+        print(json.dumps(result, ensure_ascii=False))
         return 2
 
 if __name__ == "__main__":

@@ -1,0 +1,280 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p48",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 二十三课-怎么写喜剧？(上）23.1",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=48",
+    "bvid": "BV1eE411F73t",
+    "page": 48,
+    "cid": 254049644,
+    "text_sha256": "d5805cf66c6fe522bac915f472e2a281615f6a4a545b8eb7acc59c0d1b9dd8ee",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/new-transcripts/BV1eE411F73t-p48/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/23 - 第二十三课 怎么写喜剧（P48-P49）.md",
+    "sha256": "d587b122df0e0c23f877ba15f3446a47eb5ff7af8ca70641a3aec52baafb71e7"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "d5805cf66c6fe522bac915f472e2a281615f6a4a545b8eb7acc59c0d1b9dd8ee",
+    "note_sha256": "d587b122df0e0c23f877ba15f3446a47eb5ff7af8ca70641a3aec52baafb71e7",
+    "scope": [
+      [
+        6,
+        1256
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "减重自述对应坚持行动；生活分享压缩",
+        "source": {
+          "lines": [
+            6,
+            205
+          ]
+        },
+        "note": {
+          "lines": [
+            60,
+            60
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U2",
+        "item": "喜剧学习诉求与浅谈界限",
+        "source": {
+          "lines": [
+            206,
+            295
+          ]
+        },
+        "note": {
+          "lines": [
+            62,
+            62
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U3",
+        "item": "知识树差异与设定成本收益",
+        "source": {
+          "lines": [
+            296,
+            437
+          ]
+        },
+        "note": {
+          "lines": [
+            64,
+            64
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U4",
+        "item": "定义历史媒介背景及亚里士多德鲁迅转述",
+        "source": {
+          "lines": [
+            438,
+            530
+          ]
+        },
+        "note": {
+          "lines": [
+            68,
+            68
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U5",
+        "item": "主体客体俯视及雨中反应的条件",
+        "source": {
+          "lines": [
+            531,
+            661
+          ]
+        },
+        "note": {
+          "lines": [
+            72,
+            72
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U6",
+        "item": "喜剧地位经验与范伟角色范围",
+        "source": {
+          "lines": [
+            662,
+            749
+          ]
+        },
+        "note": {
+          "lines": [
+            88,
+            88
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U7",
+        "item": "故事类型上叠加喜剧与周星驰转述",
+        "source": {
+          "lines": [
+            750,
+            838
+          ]
+        },
+        "note": {
+          "lines": [
+            84,
+            84
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U8",
+        "item": "人物身份欲望动作与劳斯莱斯反例",
+        "source": {
+          "lines": [
+            839,
+            975
+          ]
+        },
+        "note": {
+          "lines": [
+            92,
+            92
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U9",
+        "item": "附加值定语不合格老师及马大帅递问",
+        "source": {
+          "lines": [
+            976,
+            1057
+          ]
+        },
+        "note": {
+          "lines": [
+            98,
+            98
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U10",
+        "item": "标签花钱与捕快外化",
+        "source": {
+          "lines": [
+            1058,
+            1129
+          ]
+        },
+        "note": {
+          "lines": [
+            102,
+            102
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U11",
+        "item": "身份与欲望落差导致荒唐选择",
+        "source": {
+          "lines": [
+            1130,
+            1171
+          ]
+        },
+        "note": {
+          "lines": [
+            108,
+            108
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U12",
+        "item": "动作压力下新选择与观众许可边界",
+        "source": {
+          "lines": [
+            1172,
+            1256
+          ]
+        },
+        "note": {
+          "lines": [
+            112,
+            112
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-28",
+    "scope": "完整ASR1256行来源先行及成稿后全文阅读；实际查看89个不同静态原帧中的板书/字幕；原声未听审，未连续审看。",
+    "summary": "补建第23课两P；保存喜悲观看立场、知识树与成本收益、人物事件主题、反转排比解构、台词两路径及无厘头限制，保留条件、反例和课堂建议。",
+    "method": "29项来源梳理；成稿后主代理另一步骤全文双向复核、旧稿不存在核查、六项实际使用检查。工具只核结构身份与登记。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "原声未听审、未连续审看；184个不同静态原帧只证明所记录的板书与字幕，不证明连续动作、节奏、声画同步或所有未采样瞬间。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "《老友记》语言幽默角色名、教室读物具体名词未定点核清，保留清楚的角色功能、动作及对照，不强补专名；未命名影片也不自行配片名。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M3",
+        "item": "影片情节、名人观点和行业经验按课堂复述保存，未独立外查；未把地域/性别/族群的角色认知写为现实事实，未自加课程作业和答案。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "operation": "create_missing_lesson",
+    "old_note_sha256": null,
+    "backup_hint": null,
+    "personal_note": null,
+    "reason": "当前目标不存在，来源链接和课号搜索无旧笔记；不生成空个人记录",
+    "overview_backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/before-charlie-23-overview.md",
+    "overview_old_sha256": "40c5fb0ddc1dd63c069e0688151d9113efc15c401672016a42ab675834dc6695"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-23/review.md"
+}

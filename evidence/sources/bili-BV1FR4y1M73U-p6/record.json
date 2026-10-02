@@ -1,0 +1,344 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1FR4y1M73U-p6",
+  "source": {
+    "kind": "video",
+    "title": "讲故事的艺术 - 第六课 案例分析之《坟场之书》",
+    "locator": "https://www.bilibili.com/video/BV1FR4y1M73U?p=6",
+    "bvid": "BV1FR4y1M73U",
+    "page": 6,
+    "cid": 498715655,
+    "text_sha256": "280da173d6a4dfb16057cf2a6edfaee463a703efc2e72bfefe589b14fe631b31",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/reused-sources/BV1FR4y1M73U-p6/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/讲故事的艺术/06 - 第六课 案例分析之《坟场之书》（P6）.md",
+    "sha256": "cd14aa75d40dbe6dc9186b6e579b695f2560046ebf97153d9f1ab3fdfb86101d"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "280da173d6a4dfb16057cf2a6edfaee463a703efc2e72bfefe589b14fe631b31",
+    "note_sha256": "cd14aa75d40dbe6dc9186b6e579b695f2560046ebf97153d9f1ab3fdfb86101d",
+    "scope": [
+      [
+        6,
+        103
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "欲求与需要推动行为互动，拿书作例",
+        "source": {
+          "lines": [
+            6,
+            9
+          ]
+        },
+        "note": {
+          "lines": [
+            53,
+            53
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U2",
+        "item": "黑暗刀具的属性及行动状态",
+        "source": {
+          "lines": [
+            10,
+            13
+          ]
+        },
+        "note": {
+          "lines": [
+            55,
+            55
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U3",
+        "item": "三受害者与未完成的杀婴任务",
+        "source": {
+          "lines": [
+            14,
+            24
+          ]
+        },
+        "note": {
+          "lines": [
+            57,
+            57
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U4",
+        "item": "婴儿活动习惯、醒来无聊、寻找踏脚",
+        "source": {
+          "lines": [
+            25,
+            31
+          ]
+        },
+        "note": {
+          "lines": [
+            61,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U5",
+        "item": "无意逃命、楼梯门与上山的路径",
+        "source": {
+          "lines": [
+            32,
+            36
+          ]
+        },
+        "note": {
+          "lines": [
+            63,
+            63
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U6",
+        "item": "墓地夫妇出场与正式称谓",
+        "source": {
+          "lines": [
+            37,
+            44
+          ]
+        },
+        "note": {
+          "lines": [
+            67,
+            67
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U7",
+        "item": "奶嘴拳手与夫妇的初步反应",
+        "source": {
+          "lines": [
+            45,
+            49
+          ]
+        },
+        "note": {
+          "lines": [
+            69,
+            69
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U8",
+        "item": "不属死者世界与笑，夫妇介入分歧",
+        "source": {
+          "lines": [
+            50,
+            56
+          ]
+        },
+        "note": {
+          "lines": [
+            71,
+            71
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U9",
+        "item": "追杀者到、新鬼与常住鬼区别、亡母请求",
+        "source": {
+          "lines": [
+            57,
+            68
+          ]
+        },
+        "note": {
+          "lines": [
+            75,
+            75
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U10",
+        "item": "拖垃圾桶到高砖墙及认出母亲",
+        "source": {
+          "lines": [
+            69,
+            72
+          ]
+        },
+        "note": {
+          "lines": [
+            77,
+            77
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U11",
+        "item": "多方欲求及婴儿不自知的需要",
+        "source": {
+          "lines": [
+            73,
+            76
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            79
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U12",
+        "item": "Silas似消记忆、死者集会的分歧",
+        "source": {
+          "lines": [
+            77,
+            86
+          ]
+        },
+        "note": {
+          "lines": [
+            83,
+            83
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U13",
+        "item": "死亡要求仁慈及监护取食承诺",
+        "source": {
+          "lines": [
+            87,
+            94
+          ]
+        },
+        "note": {
+          "lines": [
+            85,
+            85
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U14",
+        "item": "第一章收养结果",
+        "source": {
+          "lines": [
+            95,
+            97
+          ]
+        },
+        "note": {
+          "lines": [
+            87,
+            87
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U15",
+        "item": "读者后续三问",
+        "source": {
+          "lines": [
+            98,
+            99
+          ]
+        },
+        "note": {
+          "lines": [
+            93,
+            93
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U16",
+        "item": "欲求需要及互斥追求碰撞的结论",
+        "source": {
+          "lines": [
+            100,
+            103
+          ]
+        },
+        "note": {
+          "lines": [
+            95,
+            95
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-24",
+    "scope": "全文读98条英文ASR并于成稿后重新对照；实际核看67帧（0–485.167秒），含四组小说原文和14个补充字幕帧。未听审原声、未连续审看。",
+    "summary": "讲述知识双向复核通过，补全夫妇分歧、亡母请求、死者集会及仁慈和监护条件；原有个人记录与独特扩写另存。",
+    "method": "主代理来源先行成稿后独立步骤全文复核，核对字幕纠错、旧稿去向及4项实际使用问题；非盲评。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声或连续审看；静帧不证明朗读表演、连续动作或声画节奏。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "灰马等背景注释明确属于画内译制补注，未作外部准确性核查。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "2053354ffce739eb671e47c558256ad4fa11ea247f79b3f5d6576e04b6903e32",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/讲故事的艺术/06 - 第六课 案例分析之《坟场之书》（P6）.md",
+    "personal_note": "知识库/学习区/个人思考/讲故事的艺术 - 第六课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/story-06/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/story-06/review.md"
+}

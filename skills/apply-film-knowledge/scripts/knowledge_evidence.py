@@ -74,7 +74,7 @@ def section_blocks(text):
             token = marker.group(1)
             if fence is None:
                 fence = token
-            elif token[0] == fence[0] and len(token) >= len(fence):
+            elif token[0] == fence[0] and len(token) >= len(fence) and not lines[i][marker.end():].strip():
                 fence = None
         match = re.match(r"^(#{1,6})\s+(.+?)\s*$", lines[i]) if fence is None else None
         if match:
@@ -143,7 +143,7 @@ def split_table_sections(block):
             token = marker.group(1)
             if fence is None:
                 fence = token
-            elif token[0] == fence[0] and len(token) >= len(fence):
+            elif token[0] == fence[0] and len(token) >= len(fence) and not lines[i][marker.end():].strip():
                 fence = None
             i += 1
             continue
@@ -495,12 +495,26 @@ def make_review(corpus, query, questions, role="", stage="", material="", budget
                        "alternative_ids": alternatives, "context_ids": sorted(set(context_ids)),
                        "status": "needs_semantic_review" if items else "gap",
                        "source_gap": not support and not any(corpus["documents"][r["key"]]["kind"] == "source" for r in top)})
+    # Navigation is a scope reminder, not evidence. Only attach links belonging
+    # to documents selected for this response (including support/context and
+    # alternatives); never spend a reading budget on every indexed document.
+    selected_paths = {str(Path(e["path"]).relative_to(corpus["vault"]).as_posix())
+                      for e in records.values()}
+    all_scope_links = [{"path": k, **link} for k, d in corpus["documents"].items()
+                       for link in d.get("scope_links", [])]
+    relevant_scope_links = [link for link in all_scope_links if link["path"] in selected_paths]
+    link_summary = {
+        "selection": "evidence_documents_only", "total_in_scope": len(all_scope_links),
+        "relevant": len(relevant_scope_links), "returned": len(relevant_scope_links),
+        "omitted_unrelated": len(all_scope_links) - len(relevant_scope_links),
+        "omitted_for_budget": 0, "relevant_complete": True,
+    }
     review = {
         "schema": "knowledge-review-v1", "query": query, "role": role, "stage": stage,
         "context": {"task_type": task_type or None, "object": object_name or None,
                     "constraints": constraints or None, "expected_output": expected_output or None},
         "project_material": material, "snapshot": corpus["snapshot"], "scope": corpus.get("scope"),
-        "out_of_scope_links": [{"path": k, **link} for k, d in corpus["documents"].items() for link in d.get("scope_links", [])],
+        "out_of_scope_links": relevant_scope_links, "out_of_scope_link_summary": link_summary,
         "checklist_explicit": explicit, "coverage_status": "awaiting_application_review",
         "checklist_scope": "caller_defined_not_automatically_exhaustive",
         "facets": facets, "evidence": list(records.values()), "index_errors": corpus["errors"],
@@ -519,15 +533,50 @@ def make_review(corpus, query, questions, role="", stage="", material="", budget
         for k in document_fields:
             del e[k]
         e["document_id"] = document_id
-    while len(json.dumps(review, ensure_ascii=False, separators=(",", ":"))) > budget:
+    primary_ids = {e for f in facets for e in f["evidence_ids"] + f["support_ids"] + f["boundary_ids"] + f.get("context_ids", [])}
+    review["budget_exceeded"] = False
+    review["requires_more_reading"] = False
+
+    def continuation(item):
+        return {"mode": "evidence", "read_id": item["id"],
+                "snapshot": corpus["snapshot"], "scope": corpus.get("scope")}
+
+    def update_reading_status():
+        for item in review["evidence"]:
+            if item["read_required"]:
+                item["continuation"] = continuation(item)
+        review["requires_more_reading"] = any(e["read_required"] for e in review["evidence"]
+                                              if e["id"] in primary_ids)
+
+    def serialized_size():
+        return len(json.dumps(review, ensure_ascii=False, separators=(",", ":")))
+
+    update_reading_status()
+    # Remove navigation before deferring any evidence body. Counts make this
+    # omission explicit; an absent link never means that it is authorized or
+    # that no cross-scope relationship exists.
+    while relevant_scope_links and serialized_size() > budget:
+        relevant_scope_links.pop()
+        link_summary["returned"] = len(relevant_scope_links)
+        link_summary["omitted_for_budget"] += 1
+        link_summary["relevant_complete"] = False
+    while serialized_size() > budget:
         items = [e for e in review["evidence"] if e["excerpt"]]
         if not items:
             break
         largest = max(items, key=lambda e: len(e["excerpt"]))
+        deferred = {**largest, "excerpt": "", "read_required": True,
+                    "continuation": continuation(largest)}
+        # A short body can be smaller than a usable read request. Deferring it
+        # would enlarge the response and force a pointless extra tool call.
+        if (len(json.dumps(deferred, ensure_ascii=False, separators=(",", ":"))) >=
+                len(json.dumps(largest, ensure_ascii=False, separators=(",", ":")))):
+            break
         largest["excerpt"], largest["read_required"] = "", True
-    review["budget_exceeded"] = len(json.dumps(review, ensure_ascii=False, separators=(",", ":"))) > budget
-    primary_ids = {e for f in facets for e in f["evidence_ids"] + f["support_ids"] + f["boundary_ids"] + f.get("context_ids", [])}
-    review["requires_more_reading"] = any(e["read_required"] for e in review["evidence"] if e["id"] in primary_ids)
+        update_reading_status()
+    # Required locators, table-context IDs and same-scope continuation tokens
+    # survive even when the requested budget is smaller than that metadata.
+    review["budget_exceeded"] = serialized_size() > budget
     return review
 
 

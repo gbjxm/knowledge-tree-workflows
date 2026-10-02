@@ -1,0 +1,381 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p49",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P49 9.2蒙太奇的微观层次",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=49",
+    "bvid": "BV1dE4118731",
+    "page": 49,
+    "cid": 137440053,
+    "text_sha256": "b2607cf9395c20ef12800df17c94c63a0ebed27c3d9087dbd1a9333ce124489a",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p49-9.2蒙太奇的微观层次/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/11 - 第九章 后期剪辑与蒙太奇层次（P48-P51）.md",
+    "sha256": "5a8203f2fac596b7341c89c20b8ec71fe0b4a26b36c736eaf1cb9f4ff93c03c8"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "b2607cf9395c20ef12800df17c94c63a0ebed27c3d9087dbd1a9333ce124489a",
+    "note_sha256": "5a8203f2fac596b7341c89c20b8ec71fe0b4a26b36c736eaf1cb9f4ff93c03c8",
+    "scope": [
+      [
+        6,
+        297
+      ]
+    ],
+    "items": [
+      {
+        "id": "P49-U01",
+        "item": "从镜头组织理解蒙太奇，微观层面处理相邻镜头；建筑学来源说属于课堂词源概述，未核实不当作词源史定论。",
+        "source": {
+          "lines": [
+            6,
+            25
+          ]
+        },
+        "note": {
+          "lines": [
+            78,
+            85
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P49-U02",
+        "item": "动作起止可作剪辑依据，举手前后的例子要求拍摄有完整余量；不是动作必须完整播放或只能在首尾剪。",
+        "source": {
+          "lines": [
+            26,
+            48
+          ]
+        },
+        "note": {
+          "lines": [
+            78,
+            85
+          ]
+        },
+        "status": "待核",
+        "reason": "M2连续声画待核；讲者分析与实际所见图文已区别保存。"
+      },
+      {
+        "id": "P49-U03",
+        "item": "画框使人物出现与消失成为出画入画依据；方向、空间和时长的实际连接仍要看前后镜。",
+        "source": {
+          "lines": [
+            49,
+            61
+          ]
+        },
+        "note": {
+          "lines": [
+            78,
+            85
+          ]
+        },
+        "status": "待核",
+        "reason": "M2连续声画待核；讲者分析与实际所见图文已区别保存。"
+      },
+      {
+        "id": "P49-U04",
+        "item": "举手又转头的组合动作，停顿与转折也能提供剪点；是注意力转移的选择，不是逢停顿必剪。",
+        "source": {
+          "lines": [
+            62,
+            75
+          ]
+        },
+        "note": {
+          "lines": [
+            78,
+            85
+          ]
+        },
+        "status": "待核",
+        "reason": "M2连续声画待核；讲者分析与实际所见图文已区别保存。"
+      },
+      {
+        "id": "P49-U05",
+        "item": "幼儿园两男孩因玩具损坏争执的约一分钟案例；讲解递玩具、发现损坏与哭泣的动作剪点。片名、实际播放形式、动作边界和剪点尚待核。",
+        "source": {
+          "lines": [
+            76,
+            104
+          ]
+        },
+        "note": {
+          "lines": [
+            86,
+            91
+          ]
+        },
+        "status": "待核",
+        "reason": "M3连续声画待核；讲者分析与实际所见图文已区别保存。"
+      },
+      {
+        "id": "P49-U06",
+        "item": "拍摄应取得动作起止、间隙和出入画，给后期选择；动作依据不等于只有信息量，也不排斥情绪和节奏。",
+        "source": {
+          "lines": [
+            105,
+            117
+          ]
+        },
+        "note": {
+          "lines": [
+            86,
+            91
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P49-U07",
+        "item": "山区孩子被问想不想出去的假设：删去低头搓衣角与等待会改变回答含义。沉默与身体行为本身有信息，不能照搬没说话就没动作或情绪不含信息的二分法；人物无奈是教师设例解释。",
+        "source": {
+          "lines": [
+            118,
+            159
+          ]
+        },
+        "note": {
+          "lines": [
+            92,
+            101
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P49-U08",
+        "item": "《新闻调查》候选一期《第二次生命》，借母亲为孩子筹款的采访引入情绪剪点；标题、真实片例与讲解位置待原画核定。",
+        "source": {
+          "lines": [
+            160,
+            177
+          ]
+        },
+        "note": {
+          "lines": [
+            92,
+            101
+          ]
+        },
+        "status": "待核",
+        "reason": "M4连续声画待核；讲者分析与实际所见图文已区别保存。"
+      },
+      {
+        "id": "P49-U09",
+        "item": "母亲采访连续声画窗口，多个长停顿和严重失真的ASR。不可按转写恢复逐字对白，需听审语气、沉默、问答、表情及实际切镜。",
+        "source": {
+          "lines": [
+            178,
+            216
+          ]
+        },
+        "note": {
+          "lines": [
+            92,
+            101
+          ]
+        },
+        "status": "待核",
+        "reason": "M4连续声画待核；讲者分析与实际所见图文已区别保存。 长ASR合并段只作回查定位，不视为完整声画转写。"
+      },
+      {
+        "id": "P49-U10",
+        "item": "情感长度的讲解：话前话后留白为情绪提供观看时间。长短需依据具体人物与语境，不自动等于越长越感人。",
+        "source": {
+          "lines": [
+            217,
+            231
+          ]
+        },
+        "note": {
+          "lines": [
+            92,
+            101
+          ]
+        },
+        "status": "待核",
+        "reason": "M4连续声画待核；讲者分析与实际所见图文已区别保存。"
+      },
+      {
+        "id": "P49-U11",
+        "item": "节奏剪辑点，以若干等长镜头说明规律；两秒三秒是示意，不能把节奏全归为镜头秒数或排除信息情绪。",
+        "source": {
+          "lines": [
+            232,
+            256
+          ]
+        },
+        "note": {
+          "lines": [
+            102,
+            109
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P49-U12",
+        "item": "Michael Jackson演唱会片头候选案例，10:12–11:56长ASR合并段。作品名、实际起止、音乐及镜头节奏必须连续声画核对，不由单行转写证明。",
+        "source": {
+          "lines": [
+            257,
+            264
+          ]
+        },
+        "note": {
+          "lines": [
+            102,
+            109
+          ]
+        },
+        "status": "待核",
+        "reason": "M5连续声画待核；讲者分析与实际所见图文已区别保存。 长ASR合并段只作回查定位，不视为完整声画转写。"
+      },
+      {
+        "id": "P49-U13",
+        "item": "从等长规律走向有规律的变化，以2、2、2、5秒等作示意；信息量与剪辑率都能变化。字典归引未对读，不写成精确原文引证。",
+        "source": {
+          "lines": [
+            265,
+            288
+          ]
+        },
+        "note": {
+          "lines": [
+            102,
+            109
+          ]
+        },
+        "status": "待核",
+        "reason": "M5连续声画待核；讲者分析与实际所见图文已区别保存。"
+      },
+      {
+        "id": "P49-U14",
+        "item": "动作、情绪、节奏三类微观依据回收，实际剪点可以兼顾多项而非互斥分类。",
+        "source": {
+          "lines": [
+            289,
+            297
+          ]
+        },
+        "note": {
+          "lines": [
+            102,
+            109
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P49-U02",
+        "item": "动作起止可作剪辑依据，举手前后的例子要求拍摄有完整余量；不是动作必须完整播放或只能在首尾剪。",
+        "status": "待核",
+        "reason": "M2连续声画待核；讲者分析与实际所见图文已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P49-U03",
+        "item": "画框使人物出现与消失成为出画入画依据；方向、空间和时长的实际连接仍要看前后镜。",
+        "status": "待核",
+        "reason": "M2连续声画待核；讲者分析与实际所见图文已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P49-U04",
+        "item": "举手又转头的组合动作，停顿与转折也能提供剪点；是注意力转移的选择，不是逢停顿必剪。",
+        "status": "待核",
+        "reason": "M2连续声画待核；讲者分析与实际所见图文已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P49-U05",
+        "item": "幼儿园两男孩因玩具损坏争执的约一分钟案例；讲解递玩具、发现损坏与哭泣的动作剪点。片名、实际播放形式、动作边界和剪点尚待核。",
+        "status": "待核",
+        "reason": "M3连续声画待核；讲者分析与实际所见图文已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P49-U08",
+        "item": "《新闻调查》候选一期《第二次生命》，借母亲为孩子筹款的采访引入情绪剪点；标题、真实片例与讲解位置待原画核定。",
+        "status": "待核",
+        "reason": "M4连续声画待核；讲者分析与实际所见图文已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P49-U09",
+        "item": "母亲采访连续声画窗口，多个长停顿和严重失真的ASR。不可按转写恢复逐字对白，需听审语气、沉默、问答、表情及实际切镜。",
+        "status": "待核",
+        "reason": "M4连续声画待核；讲者分析与实际所见图文已区别保存。 长ASR合并段只作回查定位，不视为完整声画转写。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P49-U10",
+        "item": "情感长度的讲解：话前话后留白为情绪提供观看时间。长短需依据具体人物与语境，不自动等于越长越感人。",
+        "status": "待核",
+        "reason": "M4连续声画待核；讲者分析与实际所见图文已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P49-U12",
+        "item": "Michael Jackson演唱会片头候选案例，10:12–11:56长ASR合并段。作品名、实际起止、音乐及镜头节奏必须连续声画核对，不由单行转写证明。",
+        "status": "待核",
+        "reason": "M5连续声画待核；讲者分析与实际所见图文已区别保存。 长ASR合并段只作回查定位，不视为完整声画转写。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P49-U13",
+        "item": "从等长规律走向有规律的变化，以2、2、2、5秒等作示意；信息量与剪辑率都能变化。字典归引未对读，不写成精确原文引证。",
+        "status": "待核",
+        "reason": "M5连续声画待核；讲者分析与实际所见图文已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "1368e59bf20bfe4fbf468a9a7831c8ba38d38b4ef8595d7c8bc2f0bc9b5ceb53",
+    "historical_review_sha256": "da60e5135ad2338653799c4d0116ab997c497871860c69c943904c5f26a57b5b",
+    "historical_seal_sha256": "51978591c112ddf9690d9546d1e72962b78b255f7684798ae8c357885472c39f",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-11/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "2139a14617994d608bbca216f8db4534fdd410217e7a910d24ee02badcf9f5ee",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/11 - 第九章 后期剪辑与蒙太奇层次（P48-P51）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-11/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第九章剪辑与蒙太奇既有学习记录.md",
+    "personal_sha256": "f9eb4b631ffda5eed9cdb3f87d6085575497e2ae6ca2bff702362923de7a1d15",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-11/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-11/review.md"
+}

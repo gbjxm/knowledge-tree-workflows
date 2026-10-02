@@ -1,0 +1,262 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p45",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 二十一课-谈几个进阶问题（下）21.2",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=45",
+    "bvid": "BV1eE411F73t",
+    "page": 45,
+    "cid": 239868634,
+    "text_sha256": "daed8dd966235f419f9cf7e2f9945ad36a2a922d55c9c6f04e86aeefb2a6bbfe",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/new-transcripts/BV1eE411F73t-p45/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/21 - 第二十一课 谈几个进阶问题（P44-P45）.md",
+    "sha256": "2074270d6c5e7266bf23f84d36f1634b6f23bd8deb9ef2a4c03be861e8d602d4"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "daed8dd966235f419f9cf7e2f9945ad36a2a922d55c9c6f04e86aeefb2a6bbfe",
+    "note_sha256": "2074270d6c5e7266bf23f84d36f1634b6f23bd8deb9ef2a4c03be861e8d602d4",
+    "scope": [
+      [
+        6,
+        967
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "低开血统含教育家庭与药神冲突",
+        "source": {
+          "lines": [
+            6,
+            94
+          ]
+        },
+        "note": {
+          "lines": [
+            129,
+            129
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U2",
+        "item": "特纳主角及藏金牌送剑束胸欲望变化",
+        "source": {
+          "lines": [
+            95,
+            273
+          ]
+        },
+        "note": {
+          "lines": [
+            135,
+            135
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U3",
+        "item": "两次真实选择与动作表述边界",
+        "source": {
+          "lines": [
+            274,
+            340
+          ]
+        },
+        "note": {
+          "lines": [
+            145,
+            145
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U4",
+        "item": "蜕变重生牺牲脱俗及武侠散例",
+        "source": {
+          "lines": [
+            341,
+            420
+          ]
+        },
+        "note": {
+          "lines": [
+            151,
+            151
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U5",
+        "item": "药神未发生关系与舍财自由解释",
+        "source": {
+          "lines": [
+            421,
+            495
+          ]
+        },
+        "note": {
+          "lines": [
+            157,
+            157
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U6",
+        "item": "伙伴A相辅B相克与偷猴子",
+        "source": {
+          "lines": [
+            496,
+            589
+          ]
+        },
+        "note": {
+          "lines": [
+            163,
+            163
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U7",
+        "item": "反派具体计划压迫与编剧处理",
+        "source": {
+          "lines": [
+            590,
+            658
+          ]
+        },
+        "note": {
+          "lines": [
+            173,
+            173
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U8",
+        "item": "小道理大道理及主题从属人物事件",
+        "source": {
+          "lines": [
+            659,
+            744
+          ]
+        },
+        "note": {
+          "lines": [
+            183,
+            183
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U9",
+        "item": "场景作为信息与高尔夫对照",
+        "source": {
+          "lines": [
+            745,
+            820
+          ]
+        },
+        "note": {
+          "lines": [
+            191,
+            191
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U10",
+        "item": "对白势能三版本与人设条件",
+        "source": {
+          "lines": [
+            821,
+            906
+          ]
+        },
+        "note": {
+          "lines": [
+            199,
+            199
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U11",
+        "item": "写作练习未来命题未给答案",
+        "source": {
+          "lines": [
+            907,
+            967
+          ]
+        },
+        "note": {
+          "lines": [
+            211,
+            211
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-28",
+    "scope": "完整ASR967行来源先行及成稿后全文阅读；实际查看102不同静态原帧中的板书/字幕；原声未听审，未连续审看。",
+    "summary": "补建第21课上下两P，保留天赋与艺术真实等课前论证、十类返修问题及中点/人物/血统/选择/蜕变/支线/反派/主题/场景/对白的条件、案例和练习。",
+    "method": "28项来源先行梳理；成稿后主代理另一步骤全文双向复核、旧稿不存在核查、五项实际使用检查。工具只核结构身份与登记。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "原声未听审、未连续审看；207个静态原帧只证明所记录板书/字幕，不证明连续动作、节奏及同步或所有未采样瞬间。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "两次选择中的动作表述、脱俗格言异词已概括其清楚功能；反派例名疑似灭霸而未听核，正文明确标疑。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M3",
+        "item": "电影情节、郭德纲观点、美学三分法及行业经验按课堂复述保存，未独立外查；没有补造完整剧本、命题和答案。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "operation": "create_missing_lesson",
+    "old_note_sha256": null,
+    "backup_hint": null,
+    "personal_note": null,
+    "reason": "当前目标不存在，来源链接和课号搜索无旧笔记；不生成空个人记录",
+    "overview_backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/before-charlie-21-overview.md",
+    "overview_old_sha256": "e817463a5a0ecc290d4cf28caa3d93cdb36e5713273b56007a3319d973aaf439"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-21/review.md"
+}

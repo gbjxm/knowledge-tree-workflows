@@ -1,0 +1,416 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1FR4y1M73U-p19",
+  "source": {
+    "kind": "video",
+    "title": "讲故事的艺术 - 第十九课 作家的责任",
+    "locator": "https://www.bilibili.com/video/BV1FR4y1M73U?p=19",
+    "bvid": "BV1FR4y1M73U",
+    "page": 19,
+    "cid": 498728319,
+    "text_sha256": "e45a8536e670ebed81cff37f007d6cf17cdc8863e06d2b32e5b25b6b0f4367da",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/reused-sources/BV1FR4y1M73U-p19/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/讲故事的艺术/19 - 第十九课 作家的责任（P19）.md",
+    "sha256": "a88e056b1bf08fcdebdebc9b1e00568b873130bf8f4f22fd4ec86d0b23e5dbcd"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "e45a8536e670ebed81cff37f007d6cf17cdc8863e06d2b32e5b25b6b0f4367da",
+    "note_sha256": "a88e056b1bf08fcdebdebc9b1e00568b873130bf8f4f22fd4ec86d0b23e5dbcd",
+    "scope": [
+      [
+        6,
+        56
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "多年责任起初未思考",
+        "source": {
+          "lines": [
+            6,
+            8
+          ]
+        },
+        "note": {
+          "lines": [
+            51,
+            51
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U2",
+        "item": "疑自杀纸条与原字幕漏句及自问坏周末",
+        "source": {
+          "lines": [
+            9,
+            12
+          ]
+        },
+        "note": {
+          "lines": [
+            53,
+            53
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U3",
+        "item": "数天后男友谋杀伪装并自杀栽赃感",
+        "source": {
+          "lines": [
+            13,
+            17
+          ]
+        },
+        "note": {
+          "lines": [
+            55,
+            55
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U4",
+        "item": "真相后问题仍重要",
+        "source": {
+          "lines": [
+            18,
+            18
+          ]
+        },
+        "note": {
+          "lines": [
+            57,
+            57
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U5",
+        "item": "好诚实尽力尽多与价值",
+        "source": {
+          "lines": [
+            19,
+            21
+          ]
+        },
+        "note": {
+          "lines": [
+            61,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U6",
+        "item": "他观点及不交往人物公正",
+        "source": {
+          "lines": [
+            22,
+            23
+          ]
+        },
+        "note": {
+          "lines": [
+            63,
+            63
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U7",
+        "item": "所有创作底部",
+        "source": {
+          "lines": [
+            24,
+            24
+          ]
+        },
+        "note": {
+          "lines": [
+            65,
+            65
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U8",
+        "item": "好兆头闹剧人负责修世界避免战争少获赞",
+        "source": {
+          "lines": [
+            25,
+            27
+          ]
+        },
+        "note": {
+          "lines": [
+            69,
+            69
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U9",
+        "item": "胜利悲剧非本善本恶而人是人",
+        "source": {
+          "lines": [
+            28,
+            29
+          ]
+        },
+        "note": {
+          "lines": [
+            71,
+            71
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U10",
+        "item": "可以支持闹剧的真实信念",
+        "source": {
+          "lines": [
+            30,
+            30
+          ]
+        },
+        "note": {
+          "lines": [
+            73,
+            73
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U11",
+        "item": "Coraline恐怖反对意见",
+        "source": {
+          "lines": [
+            31,
+            33
+          ]
+        },
+        "note": {
+          "lines": [
+            77,
+            77
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U12",
+        "item": "隔绝黑暗缺工具个人观点",
+        "source": {
+          "lines": [
+            34,
+            34
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            79
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U13",
+        "item": "勇敢继续7岁质疑与有儿童需",
+        "source": {
+          "lines": [
+            35,
+            37
+          ]
+        },
+        "note": {
+          "lines": [
+            81,
+            81
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U14",
+        "item": "课程告别想当作者写严肃建议",
+        "source": {
+          "lines": [
+            38,
+            41
+          ]
+        },
+        "note": {
+          "lines": [
+            87,
+            87
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U15",
+        "item": "已写则完成两种反应",
+        "source": {
+          "lines": [
+            42,
+            43
+          ]
+        },
+        "note": {
+          "lines": [
+            89,
+            89
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U16",
+        "item": "Brian作品及年轻求教",
+        "source": {
+          "lines": [
+            44,
+            45
+          ]
+        },
+        "note": {
+          "lines": [
+            93,
+            93
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U17",
+        "item": "查清会写完成无话说与生活具体建议",
+        "source": {
+          "lines": [
+            46,
+            49
+          ]
+        },
+        "note": {
+          "lines": [
+            95,
+            95
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U18",
+        "item": "做后回来问每人吗及适用条件",
+        "source": {
+          "lines": [
+            50,
+            51
+          ]
+        },
+        "note": {
+          "lines": [
+            97,
+            97
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U19",
+        "item": "读写生活与所见所遇皆需",
+        "source": {
+          "lines": [
+            52,
+            54
+          ]
+        },
+        "note": {
+          "lines": [
+            101,
+            101
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U20",
+        "item": "中国山顶小个男人兜售雪白蜂蜜",
+        "source": {
+          "lines": [
+            55,
+            56
+          ]
+        },
+        "note": {
+          "lines": [
+            103,
+            103
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-25",
+    "scope": "全文来源先行及成稿后复读51条ASR行6–56（00:00–07:47），实际看102张帧图（77主/25定点），0–470.875秒；未听审原声、未连续审看。",
+    "summary": "恢复被伪装死亡事件前后反转、容不同人物与公正呈现、好兆头避免战争少获赞、Coraline儿童勇气理由、特定人去生活条件及中国山顶雪白蜂蜜结尾；保护个人旧文。",
+    "method": "主代理来源先行、成稿后独立步骤完整双向回读、旧稿去向及5项使用检查；非盲评。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看；静帧不证明连续手势、语气或声画同步。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "死亡事件及作者求教均按盖曼课堂转述；Brian姓氏画内英文Vaughn与旧稿Vaughan不一，正文用中文姓名和Brian，未另做外部人物史实核查。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "9920cd459f206b53b605d985cc3f93374a24f3ee56ed23ba542f5cafd9e69e57",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/讲故事的艺术/19 - 第十九课 作家的责任（P19）.md",
+    "personal_note": "知识库/学习区/个人思考/讲故事的艺术 - 第十九课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/story-19/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/story-19/review.md"
+}

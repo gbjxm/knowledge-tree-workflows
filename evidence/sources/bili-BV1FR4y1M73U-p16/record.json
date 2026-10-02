@@ -1,0 +1,470 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1FR4y1M73U-p16",
+  "source": {
+    "kind": "video",
+    "title": "讲故事的艺术 - 第十六课 写作困境",
+    "locator": "https://www.bilibili.com/video/BV1FR4y1M73U?p=16",
+    "bvid": "BV1FR4y1M73U",
+    "page": 16,
+    "cid": 498726185,
+    "text_sha256": "a1771cbc9ba3e3c90c9867ea33c0b96cfe8cdf7d542f5476464a7425efd89416",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/reused-sources/BV1FR4y1M73U-p16/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/讲故事的艺术/16 - 第十六课 写作困境（P16）.md",
+    "sha256": "5620ac197e613c6c40e0de0df29eb0c5f3ce0c1a4be0b2bbb5b2d6b9350f500d"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "a1771cbc9ba3e3c90c9867ea33c0b96cfe8cdf7d542f5476464a7425efd89416",
+    "note_sha256": "5620ac197e613c6c40e0de0df29eb0c5f3ce0c1a4be0b2bbb5b2d6b9350f500d",
+    "scope": [
+      [
+        6,
+        84
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "空白绝望天意香料说法",
+        "source": {
+          "lines": [
+            6,
+            10
+          ]
+        },
+        "note": {
+          "lines": [
+            53,
+            53
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U2",
+        "item": "否定无能为力长信和特定卡点",
+        "source": {
+          "lines": [
+            11,
+            14
+          ]
+        },
+        "note": {
+          "lines": [
+            55,
+            55
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U3",
+        "item": "离开与活动",
+        "source": {
+          "lines": [
+            15,
+            18
+          ]
+        },
+        "note": {
+          "lines": [
+            59,
+            59
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U4",
+        "item": "假陌生从头与岔路前几街镇",
+        "source": {
+          "lines": [
+            19,
+            24
+          ]
+        },
+        "note": {
+          "lines": [
+            61,
+            61
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U5",
+        "item": "跟错人物丢半章及初稿",
+        "source": {
+          "lines": [
+            25,
+            28
+          ]
+        },
+        "note": {
+          "lines": [
+            63,
+            63
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U6",
+        "item": "只是卡住浅与更诚实",
+        "source": {
+          "lines": [
+            29,
+            32
+          ]
+        },
+        "note": {
+          "lines": [
+            67,
+            67
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U7",
+        "item": "为什么不愿写痛与后果",
+        "source": {
+          "lines": [
+            33,
+            35
+          ]
+        },
+        "note": {
+          "lines": [
+            69,
+            69
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U8",
+        "item": "Anansi过半女访男效率杀",
+        "source": {
+          "lines": [
+            35,
+            39
+          ]
+        },
+        "note": {
+          "lines": [
+            73,
+            73
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U9",
+        "item": "Wodehouse烟灰缸反例",
+        "source": {
+          "lines": [
+            40,
+            41
+          ]
+        },
+        "note": {
+          "lines": [
+            75,
+            75
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U10",
+        "item": "几月停笔余剧情悲喜恐喜",
+        "source": {
+          "lines": [
+            42,
+            45
+          ]
+        },
+        "note": {
+          "lines": [
+            77,
+            77
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U11",
+        "item": "需要包括坏人坏结果",
+        "source": {
+          "lines": [
+            45,
+            48
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            79
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U12",
+        "item": "接受重规划内化重开",
+        "source": {
+          "lines": [
+            49,
+            51
+          ]
+        },
+        "note": {
+          "lines": [
+            81,
+            81
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U13",
+        "item": "派对科幻约稿外星思维日记",
+        "source": {
+          "lines": [
+            51,
+            56
+          ]
+        },
+        "note": {
+          "lines": [
+            85,
+            85
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U14",
+        "item": "兴趣碎片不成故事电话退稿",
+        "source": {
+          "lines": [
+            57,
+            60
+          ]
+        },
+        "note": {
+          "lines": [
+            87,
+            87
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U15",
+        "item": "24h和Kelly12h激将",
+        "source": {
+          "lines": [
+            61,
+            62
+          ]
+        },
+        "note": {
+          "lines": [
+            89,
+            89
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U16",
+        "item": "错视角人类16和标题",
+        "source": {
+          "lines": [
+            63,
+            65
+          ]
+        },
+        "note": {
+          "lines": [
+            93,
+            93
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U17",
+        "item": "青春期异部落前后对照",
+        "source": {
+          "lines": [
+            66,
+            68
+          ]
+        },
+        "note": {
+          "lines": [
+            95,
+            95
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U18",
+        "item": "派对不会说不听真外星误解",
+        "source": {
+          "lines": [
+            69,
+            71
+          ]
+        },
+        "note": {
+          "lines": [
+            97,
+            97
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U19",
+        "item": "花园一天与碎片回收",
+        "source": {
+          "lines": [
+            72,
+            73
+          ]
+        },
+        "note": {
+          "lines": [
+            103,
+            103
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U20",
+        "item": "期限可能专注抓有效绞刑比喻",
+        "source": {
+          "lines": [
+            74,
+            76
+          ]
+        },
+        "note": {
+          "lines": [
+            105,
+            105
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U21",
+        "item": "长篇未知多无论大纲",
+        "source": {
+          "lines": [
+            77,
+            78
+          ]
+        },
+        "note": {
+          "lines": [
+            109,
+            109
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U22",
+        "item": "Doctorow一灯雾纽约洛城",
+        "source": {
+          "lines": [
+            79,
+            81
+          ]
+        },
+        "note": {
+          "lines": [
+            111,
+            111
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      },
+      {
+        "id": "U23",
+        "item": "雾暂清复现与个人限定",
+        "source": {
+          "lines": [
+            81,
+            84
+          ]
+        },
+        "note": {
+          "lines": [
+            113,
+            113
+          ]
+        },
+        "status": "合并",
+        "reason": "连续组织同一知识与案例，语义判断见本批独立步骤复核；登记自身不证明完整。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-25",
+    "scope": "全文两次阅读79条ASR行6–84（00:11–13:34），实际查看99帧（87主帧、12定点字幕，0–814.709秒）。未听审原声、未连续审看。",
+    "summary": "补足离开重读回退条件、喜剧谋杀触发的停笔与重规划、派对人类视角和不倾听机制、旧材料回收、时限条件、雾中长篇；旧个人及学习记录另存。",
+    "method": "主代理来源先行、成稿后独立步骤双向核查、旧稿去向和5项实际使用检查；非盲评。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看；静帧不证明语气手势与声画同步。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "开头biggest…give in to despair措辞衔接未定，正文保留后续明确反对无能为力及方法。编辑姓氏字幕Strong/ASR Strand不一致，仅保留Jonathan。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "43e8924f389d6c8a973d21f703c57a9bbd3a5f515f664bd0b96fafd258344da6",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/讲故事的艺术/16 - 第十六课 写作困境（P16）.md",
+    "personal_note": "知识库/学习区/个人思考/讲故事的艺术 - 第十六课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/story-16/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/story-16/review.md"
+}

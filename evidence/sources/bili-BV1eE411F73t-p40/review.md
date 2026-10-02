@@ -1,0 +1,10 @@
+# 十八课-拿人的开场18.1 图文来源复核
+
+- [原课程P40](https://www.bilibili.com/video/BV1eE411F73t?p=40)，CID 207918303。
+- [正式课文](<../../../个人影视知识树/知识库/学习区/课程/查理老师的编剧课/18 - 第十八课 拿人的开场（P40-P41）.md>)。
+- 2026-09-30：图文知识通过，讲師复述/评价/假改准确归属，动态效果保留独立待核；正式写入由root执行
+- 实际范围：重新读取P40/P41全段ASR原句，逐个案例与限定双向核对，旧稿/个人记录核对，定点原图复看；听审和连续声画未做
+- 待核：{'page': 40, 'seconds': [290, 402], 'content': '隐秘的角落独立声画'}；{'page': 40, 'seconds': [843, 1216], 'content': '药神建制片例独立声画'}；{'page': 40, 'seconds': [1483, 1672], 'content': '寄生虫独立声画'}；{'page': 40, 'seconds': [1782, 1882], 'content': '逍遥医生独立声画'}；{'page': 40, 'seconds': [1922, 1967], 'content': '衰女翻身独立声画'}；{'page': 40, 'seconds': [2109, 2156], 'content': '橘子郡男孩独立声画'}；{'page': 40, 'seconds': [2260, 2358], 'content': '纸牌屋独立声画与砸砖前因'}；{'page': 40, 'seconds': [2443, 2781], 'content': '风骚律师法庭独立声画'}；{'page': 41, 'seconds': [308, 416], 'content': '外包服务独立声画'}；{'page': 41, 'seconds': [469, 746], 'content': '保镖火车连续过程与节奏'}；{'page': 41, 'seconds': [920, 982], 'content': '金氏漂流记独立声画'}；{'page': 41, 'seconds': [1188, 1276], 'content': '泰迪熊独立声画'}；{'page': 41, 'seconds': [1339, 1402], 'content': '拉丁情人独立声画'}；{'page': 41, 'seconds': [1406, 1709], 'content': '银河护卫队独立声画'}；{'page': 41, 'seconds': [1769, 2185], 'content': '爸爸的儿子长示范尚无静态采样，独立声画待核'}；{'page': 41, 'seconds': [2286, 2422], 'content': '暴君独立声画'}；{'page': 41, 'seconds': [2607, 2715], 'content': '宿醉独立声画'}；{'page': 41, 'seconds': [2739, 2792], 'content': '盗梦空间独立声画与妻儿具体镜头'}；{'page': 41, 'seconds': [2910, 3001], 'content': '黑色星期一独立声画'}；{'page': 41, 'seconds': [3092, 3138], 'content': '最响亮的声音独立声画形式'}；{'page': 41, 'seconds': [3301, 3622], 'content': '还珠格格独立声画'}；{'page': 41, 'seconds': [3698, 3864], 'content': '触不可及英语版独立声画'}；{'page': 41, 'seconds': [3946, 4176], 'content': '绝命毒师独立声画'}；{'page': 41, 'seconds': [4338, 4352], 'content': '狱前教育哭声与节奏'}；{'page': 41, 'seconds': [4469, 4543], 'content': '情侣们采访混剪独立声画'}
+- [本任务详细复核](../../../.runtime/raw-cache/course-charlie-continuation-20260930/batches/charlie-18/review.md)。
+
+图文验收不代表全课原声、连续动作、精确切点、节奏及声画同步完成。

@@ -1,0 +1,299 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p11",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P11 3.3照相机的基本类型",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=11",
+    "bvid": "BV1dE4118731",
+    "page": 11,
+    "cid": 127375141,
+    "text_sha256": "64703f5719705d293b332e64940b3048c9dd3f818a7e758641ec2626d2ae54a9",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p11-3.3照相机的基本类型/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/03 - 第三章 摄影机结构、快门与机型（P9-P12）.md",
+    "sha256": "43af824c6009806012047c9bafdadeb4a3942266ee0ed42ebe317541a9bdaf0e"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "64703f5719705d293b332e64940b3048c9dd3f818a7e758641ec2626d2ae54a9",
+    "note_sha256": "43af824c6009806012047c9bafdadeb4a3942266ee0ed42ebe317541a9bdaf0e",
+    "scope": [
+      [
+        6,
+        428
+      ]
+    ],
+    "items": [
+      {
+        "id": "P11-U01",
+        "item": "多样外观、135的35mm胶片和手机/小数码分类边界",
+        "source": {
+          "lines": [
+            6,
+            53
+          ]
+        },
+        "note": {
+          "lines": [
+            173,
+            180
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P11-U02",
+        "item": "135单镜头反光结构、当时价格",
+        "source": {
+          "lines": [
+            54,
+            80
+          ]
+        },
+        "note": {
+          "lines": [
+            173,
+            180
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P11-U03",
+        "item": "独立光学取景、自动便携相机与小数码联系、Nikon红圈错误",
+        "source": {
+          "lines": [
+            81,
+            123
+          ]
+        },
+        "note": {
+          "lines": [
+            181,
+            190
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P11-U04",
+        "item": "徕卡M6反例、旅游笑谈、按功能判断与135相对小巧",
+        "source": {
+          "lines": [
+            124,
+            187
+          ]
+        },
+        "note": {
+          "lines": [
+            181,
+            190
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P11-U05",
+        "item": "120名义画幅、135尺寸、面积潜力与大箱子携带代价",
+        "source": {
+          "lines": [
+            188,
+            224
+          ]
+        },
+        "note": {
+          "lines": [
+            191,
+            198
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P11-U06",
+        "item": "120腰平单反、旁轴提及而配图仍为单反退出",
+        "source": {
+          "lines": [
+            225,
+            244
+          ]
+        },
+        "note": {
+          "lines": [
+            191,
+            198
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P11-U07",
+        "item": "数码化、4000万/8000万、3–4倍价格和50–60/100英寸输出",
+        "source": {
+          "lines": [
+            245,
+            279
+          ]
+        },
+        "note": {
+          "lines": [
+            199,
+            204
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P11-U08",
+        "item": "ALPA镜头/机身/取景/后背模块、裸机价格和专业措辞",
+        "source": {
+          "lines": [
+            280,
+            316
+          ]
+        },
+        "note": {
+          "lines": [
+            205,
+            210
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P11-U09",
+        "item": "双反上取景下拍摄、联动与视差边界",
+        "source": {
+          "lines": [
+            317,
+            335
+          ]
+        },
+        "note": {
+          "lines": [
+            211,
+            218
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P11-U10",
+        "item": "右禄来左Yashica-44及127纠正、海鸥4A/4B价格与画幅",
+        "source": {
+          "lines": [
+            336,
+            357
+          ]
+        },
+        "note": {
+          "lines": [
+            211,
+            218
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P11-U11",
+        "item": "照相馆黑布/快门线口述情境、座机名称",
+        "source": {
+          "lines": [
+            358,
+            388
+          ]
+        },
+        "note": {
+          "lines": [
+            219,
+            226
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P11-U12",
+        "item": "4×5/8×10英寸、相对120粗略比例和输出用途",
+        "source": {
+          "lines": [
+            389,
+            406
+          ]
+        },
+        "note": {
+          "lines": [
+            219,
+            226
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P11-U13",
+        "item": "器材选择视野收束，末段ASR重复合并",
+        "source": {
+          "lines": [
+            407,
+            428
+          ]
+        },
+        "note": {
+          "lines": [
+            219,
+            226
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "e96cb356b15ed5c68a3dda669190bd34c4186f7f0bc9632de152d5ec1c13f543",
+    "historical_review_sha256": "18f33f3b22328ddf2fec746795c8658897d26fd39e51aa45e624a2f07e77d29a",
+    "historical_seal_sha256": "8b8a7e3f0bf69b6d576a20c24f3dc9f78755bf2b2306ab482bb543b56bce789e",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-03/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "36f71b7a8a1c0786ee0657c697871a6c70b7a66fbc7ca2f6f72e7075674748fb",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/03 - 第三章 摄影机结构、快门与机型（P9-P12）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-03/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第三章既有学习记录.md",
+    "personal_sha256": "a9e04af77d8f44f06bdf0d2d4556cadf7dfbb4630860b28af715985c0e150c9d",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-03/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-03/review.md"
+}

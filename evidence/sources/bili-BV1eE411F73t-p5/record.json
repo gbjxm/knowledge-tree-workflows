@@ -1,0 +1,290 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p5",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 第二课-故事的要素2.1",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=5",
+    "bvid": "BV1eE411F73t",
+    "page": 5,
+    "cid": 167850841,
+    "text_sha256": "905ebcbdb93f058817cb429bba63e2870dc620e1252c5183ea7d9204f823462e",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/reused-sources/BV1eE411F73t-p5/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/02 - 第二课 故事的要素（P5-P6）.md",
+    "sha256": "cbadcccca110527db9900bb9f91606dee2e810a49a012220b8250c7e7d581f2b"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "905ebcbdb93f058817cb429bba63e2870dc620e1252c5183ea7d9204f823462e",
+    "note_sha256": "cbadcccca110527db9900bb9f91606dee2e810a49a012220b8250c7e7d581f2b",
+    "scope": [
+      [
+        6,
+        603
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "零到一卡点与第一课回顾",
+        "source": {
+          "lines": [
+            6,
+            101
+          ]
+        },
+        "note": {
+          "lines": [
+            50,
+            50
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U2",
+        "item": "灵感可训练",
+        "source": {
+          "lines": [
+            102,
+            156
+          ]
+        },
+        "note": {
+          "lines": [
+            52,
+            52
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U3",
+        "item": "始于心成于脑及幻想作业用途",
+        "source": {
+          "lines": [
+            157,
+            183
+          ]
+        },
+        "note": {
+          "lines": [
+            54,
+            54
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U4",
+        "item": "自身欲望幻想恐惧及面对运用",
+        "source": {
+          "lines": [
+            184,
+            250
+          ]
+        },
+        "note": {
+          "lines": [
+            58,
+            58
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U5",
+        "item": "共情及自身他人真实差异",
+        "source": {
+          "lines": [
+            251,
+            270
+          ]
+        },
+        "note": {
+          "lines": [
+            60,
+            60
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U6",
+        "item": "第一故事自身经验及处女作经验论",
+        "source": {
+          "lines": [
+            271,
+            324
+          ]
+        },
+        "note": {
+          "lines": [
+            62,
+            62
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U7",
+        "item": "先基础后精彩及两亿愿望缺冲突",
+        "source": {
+          "lines": [
+            325,
+            380
+          ]
+        },
+        "note": {
+          "lines": [
+            66,
+            66
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U8",
+        "item": "贫穷嫉妒偷窃记忆与父母钱对照",
+        "source": {
+          "lines": [
+            381,
+            438
+          ]
+        },
+        "note": {
+          "lines": [
+            68,
+            68
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U9",
+        "item": "两亿加偷钱恐惧和银行构思",
+        "source": {
+          "lines": [
+            439,
+            459
+          ]
+        },
+        "note": {
+          "lines": [
+            70,
+            70
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U10",
+        "item": "非亲生身份危机多可能性",
+        "source": {
+          "lines": [
+            460,
+            502
+          ]
+        },
+        "note": {
+          "lines": [
+            72,
+            72
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U11",
+        "item": "朋友追问后来呢及欲望恐惧组合",
+        "source": {
+          "lines": [
+            503,
+            536
+          ]
+        },
+        "note": {
+          "lines": [
+            76,
+            76
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U12",
+        "item": "日常积累已在打基础",
+        "source": {
+          "lines": [
+            537,
+            574
+          ]
+        },
+        "note": {
+          "lines": [
+            78,
+            78
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U13",
+        "item": "素材矩阵收集方向与下课衔接",
+        "source": {
+          "lines": [
+            575,
+            603
+          ]
+        },
+        "note": {
+          "lines": [
+            80,
+            80
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-25",
+    "scope": "来源先行及成稿后完整回读ASR行6–603（2–1273秒）；实际看87张原帧与画内字幕/板书，精确时码见本批清单；未听审、未连续审看。",
+    "summary": "两P合课保存灵感来源/素材矩阵、三八要素、完整构思分支和影片课堂拆解，补回真假多主的篇幅取舍、线性故事例外及老师前十篇练习；修正目标/成为明星的混淆，保护原记录及SVG。",
+    "method": "主代理来源先行，成稿后另一步骤完整回读两份ASR及候选，双向语义检查、旧稿独特内容去向和六项实际使用检查；非盲评、非第二评审者。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看；静帧/板书/字幕不证明动作、语气、节奏或声画同步已核清。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "所举电影与西游对白、经书/佛教解释按课堂转述保存，未核作品原片/原著版本与引句归属；95%以上及25分钟点题等为讲师经验说法，不是本次外部事实验证。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "2c11c36a4fa0bc0292ba34a65405a5e446cdb81ca3b10ff1dab4a19e90df5a89",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/查理老师的编剧课/02 - 第二课 故事的要素（P5-P6）.md",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第二课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-02/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-02/review.md"
+}

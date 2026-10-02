@@ -1,0 +1,336 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p22",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 十一课-类型片11.1",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=22",
+    "bvid": "BV1eE411F73t",
+    "page": 22,
+    "cid": 173862838,
+    "text_sha256": "fcbcab437a0f53f722efbf10aa6144ca570147b32c4c8200c823af9c29529cee",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1eE411F73t-p22-十一课-类型片11.1/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/11 - 第十一课 类型片（P22-P24）.md",
+    "sha256": "dd2c14e2726629b42fd02d720ec8375bd945febb21cdbac5c153c020d43ddb57"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "fcbcab437a0f53f722efbf10aa6144ca570147b32c4c8200c823af9c29529cee",
+    "note_sha256": "dd2c14e2726629b42fd02d720ec8375bd945febb21cdbac5c153c020d43ddb57",
+    "scope": [
+      [
+        6,
+        909
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "分类目的、类型反类型与无统一分法",
+        "source": {
+          "lines": [
+            6,
+            24
+          ]
+        },
+        "note": {
+          "lines": [
+            46,
+            46
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U2",
+        "item": "商业与文艺按创作目的而非好坏",
+        "source": {
+          "lines": [
+            25,
+            88
+          ]
+        },
+        "note": {
+          "lines": [
+            48,
+            48
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U3",
+        "item": "量产与概念车／探索尊重／先基本能力",
+        "source": {
+          "lines": [
+            89,
+            159
+          ]
+        },
+        "note": {
+          "lines": [
+            50,
+            50
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U4",
+        "item": "不以文艺遮羞／照搬非探索／卡梅隆兼容",
+        "source": {
+          "lines": [
+            160,
+            236
+          ]
+        },
+        "note": {
+          "lines": [
+            52,
+            52
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U5",
+        "item": "海报预告与市场观看承诺",
+        "source": {
+          "lines": [
+            237,
+            329
+          ]
+        },
+        "note": {
+          "lines": [
+            56,
+            56
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U6",
+        "item": "成龙周星驰交叉标签",
+        "source": {
+          "lines": [
+            330,
+            348
+          ]
+        },
+        "note": {
+          "lines": [
+            58,
+            58
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U7",
+        "item": "恐怖惊悚／情爱打趣／剧情兜底",
+        "source": {
+          "lines": [
+            349,
+            401
+          ]
+        },
+        "note": {
+          "lines": [
+            60,
+            60
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U8",
+        "item": "动作明星转型动机与承诺／未名父子片",
+        "source": {
+          "lines": [
+            402,
+            444
+          ]
+        },
+        "note": {
+          "lines": [
+            62,
+            62
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U9",
+        "item": "奥利奥轮胎假设／能力不等于接受",
+        "source": {
+          "lines": [
+            445,
+            485
+          ]
+        },
+        "note": {
+          "lines": [
+            64,
+            64
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U10",
+        "item": "斯奈德／徐峥宁浩为观察／适用熟练者",
+        "source": {
+          "lines": [
+            486,
+            548
+          ]
+        },
+        "note": {
+          "lines": [
+            68,
+            68
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U11",
+        "item": "认可手艺发展／不迷信／华佗与刘医生、易孔比喻",
+        "source": {
+          "lines": [
+            549,
+            737
+          ]
+        },
+        "note": {
+          "lines": [
+            70,
+            70
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U12",
+        "item": "十种创作思路、规矩、不互斥",
+        "source": {
+          "lines": [
+            738,
+            789
+          ]
+        },
+        "note": {
+          "lines": [
+            74,
+            74
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U13",
+        "item": "十类板书与译名／顺序可调",
+        "source": {
+          "lines": [
+            790,
+            831
+          ]
+        },
+        "note": {
+          "lines": [
+            78,
+            78
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U14",
+        "item": "金羊毛寻宝神话、公路盗墓银行／无统计",
+        "source": {
+          "lines": [
+            832,
+            892
+          ]
+        },
+        "note": {
+          "lines": [
+            80,
+            80
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U15",
+        "item": "八要素、四幕、十序列仍适用",
+        "source": {
+          "lines": [
+            893,
+            909
+          ]
+        },
+        "note": {
+          "lines": [
+            86,
+            86
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-25",
+    "scope": "完整来源先行及成稿后独立步骤回读ASR行6–909（4–1895秒）；实际看151帧，覆盖首尾、板书与定点字幕；未听审、未连续审看。",
+    "summary": "保留分类目的、市场观看承诺、十种写法及其条件、相似类型的区别、爱情与鬼屋正反例；补回恐怖片缺一项仍可能靠另两项成立的程度区别，核正板书及名词；旧整理方法、图、附加练习与历史状态另存保留。",
+    "method": "主代理来源先行、成稿后独立步骤完整回读三P ASR、反查正文及旧稿去向，做五项实际使用检查；实际查看469个不同P/帧身份。为同一代理、非盲评、非第二评审者。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看；静帧不能证明语气、连续运动、剪接节奏或声画同步。已知讲授内容为板书与口头案例，未把口头讲电影当成看片段分析。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "影片情节、爱情观念史、市场数量、演员动机及恐怖片内容限制按讲师课堂判断保存，未外部核验，不作为现行规则或事实调查。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M3",
+        "item": "救子案例字幕写生死营救，具体影片版本未确认；李连杰父子片和苏有朋别墅片未在课堂明确片名，未凭记忆补全。梅花烙宫廷称谓混用，保留清楚换婴关系与牵连后果。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M4",
+        "item": "侦探自我牺牲预告的具体抉择例在本课三P中未展开；原课只有故事类型要素自查，没有旧稿五组练习的标准作业或答案。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "69e6de18d07b78c57414ac2ace2e80c60ba89520d7a52d5f5913386186afe08d",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/查理老师的编剧课/11 - 第十一课 类型片（P22-P24）.md",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第十一课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-11/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-11/review.md"
+}

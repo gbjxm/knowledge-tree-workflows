@@ -11,6 +11,7 @@ description: 为当前影视创作或制作问题主动检索知识、核对依�
 
 - **材料审查、逐步检查或综合补充**：读取[调用与反馈契约](references/application-contract.md)的“主动审查”与“证据读取”，由当前材料确定必要问题，使用 `scripts/knowledge_review.py`。不要求用户先报文章名、章节或检索词。
 - **单个明确问题的快查**：使用 `scripts/retrieve_knowledge.py`；调用卡不能支持关键判断时按需补读，涉及多个问题时转综合审查。
+- **已找到材料后的补读**：将返回的 `continuation` 原样传给 `scripts/knowledge_review.py --read-request <JSON>`；主题和来源共用此入口，沿用原范围和版本，不重新查询。细节见契约“证据读取”。
 - **来源入库后的增量补查、关联复核或知识收尾**：读取[新增材料补查](references/incremental-followup.md)。
 - **明确要求记录实践反馈**：读取契约的“反馈写回”和[项目应用模板](assets/project-application-template.md)。普通讨论、调用缓存或来源核查不自动写回。
 

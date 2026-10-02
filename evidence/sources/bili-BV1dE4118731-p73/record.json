@@ -1,0 +1,331 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p73",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P73 10.22影调有层次（上）",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=73",
+    "bvid": "BV1dE4118731",
+    "page": 73,
+    "cid": 139218876,
+    "text_sha256": "3247c25584c2835ee1500fa99f880ccc1e76a367e77f535514434046d1bf2338",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p73-10.22影调有层次（上）/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/19 - 第十章 影调层次（P73-P74）.md",
+    "sha256": "10f6867d50a7ed302c75e1523a27c25e1f8e2e40fa500a95b362838e363da019"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "3247c25584c2835ee1500fa99f880ccc1e76a367e77f535514434046d1bf2338",
+    "note_sha256": "10f6867d50a7ed302c75e1523a27c25e1f8e2e40fa500a95b362838e363da019",
+    "scope": [
+      [
+        6,
+        160
+      ]
+    ],
+    "items": [
+      {
+        "id": "P73-U01",
+        "item": "影调定义为画面明暗层次；轮廓造型、气氛情绪主题质感；更换教师背景的高低调/不同颜色演示须看实际画面。",
+        "source": {
+          "lines": [
+            6,
+            21
+          ]
+        },
+        "note": {
+          "lines": [
+            57,
+            64
+          ]
+        },
+        "status": "待核",
+        "reason": "M1连续声画待核；原课文字与静态观察已分层整理。"
+      },
+      {
+        "id": "P73-U02",
+        "item": "黑白影调与彩色影调，后者也涉及色调关系；黑白也是色彩为教学口语，不写成完整早期电影色彩史。",
+        "source": {
+          "lines": [
+            22,
+            32
+          ]
+        },
+        "note": {
+          "lines": [
+            57,
+            64
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留解释与限定；文字覆盖不等于实际原声与连续视频审看。"
+      },
+      {
+        "id": "P73-U03",
+        "item": "按明暗比例分高低中间；高调白浅灰浅色大面积、明亮通透及明暗反差小的课堂描述；须区分总体亮度与对比两个轴。",
+        "source": {
+          "lines": [
+            33,
+            47
+          ]
+        },
+        "note": {
+          "lines": [
+            65,
+            78
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留解释与限定；文字覆盖不等于实际原声与连续视频审看。"
+      },
+      {
+        "id": "P73-U04",
+        "item": "高调三做法：亮背景/景物、散射光、少量暗物对比突出中心；背景切换演示待图文。",
+        "source": {
+          "lines": [
+            48,
+            53
+          ]
+        },
+        "note": {
+          "lines": [
+            65,
+            78
+          ]
+        },
+        "status": "待核",
+        "reason": "M1连续声画待核；原课文字与静态观察已分层整理。"
+      },
+      {
+        "id": "P73-U05",
+        "item": "泰坦尼克号船头兴奋、大海风海豚阳光，暗衣对比亮环境；04:09–04:51长ASR空窗，人物身份场景待画面，不能套成另一著名船头戏。",
+        "source": {
+          "lines": [
+            54,
+            67
+          ]
+        },
+        "note": {
+          "lines": [
+            79,
+            86
+          ]
+        },
+        "status": "待核",
+        "reason": "M2连续声画待核；原课文字与静态观察已分层整理。"
+      },
+      {
+        "id": "P73-U06",
+        "item": "低调深灰黑低亮度颜色大面积、压抑沉闷紧张恐怖悬疑等效果；暗调/深调称谓，非固定情绪规律。",
+        "source": {
+          "lines": [
+            68,
+            81
+          ]
+        },
+        "note": {
+          "lines": [
+            87,
+            96
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留解释与限定；文字覆盖不等于实际原声与连续视频审看。"
+      },
+      {
+        "id": "P73-U07",
+        "item": "低调四做法：深暗背景，侧光逆光斜侧侧逆，剪影半剪影投影，以少量浅亮主体对比；光向不等于硬度。",
+        "source": {
+          "lines": [
+            82,
+            96
+          ]
+        },
+        "note": {
+          "lines": [
+            87,
+            96
+          ]
+        },
+        "status": "待核",
+        "reason": "M1连续声画待核；原课文字与静态观察已分层整理。"
+      },
+      {
+        "id": "P73-U08",
+        "item": "老炮儿六爷擦刀与白毛巾，深暗环境对照亮物、时间与心理；插刀/擦刀疑词、人物动作须原课。",
+        "source": {
+          "lines": [
+            97,
+            107
+          ]
+        },
+        "note": {
+          "lines": [
+            97,
+            104
+          ]
+        },
+        "status": "待核",
+        "reason": "M3连续声画待核；原课文字与静态观察已分层整理。"
+      },
+      {
+        "id": "P73-U09",
+        "item": "按阶调反差分硬软中间；硬调明暗/色彩对比大、过渡少，多种光向举例，粗犷/男人战争等创作倾向不固化性别。",
+        "source": {
+          "lines": [
+            108,
+            129
+          ]
+        },
+        "note": {
+          "lines": [
+            105,
+            116
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留解释与限定；文字覆盖不等于实际原声与连续视频审看。"
+      },
+      {
+        "id": "P73-U10",
+        "item": "谍中谍5疑片名，伊森亨特受审/挨打、顶光硬光、受光背光投影及肌肉感；需要原片名和画面。",
+        "source": {
+          "lines": [
+            130,
+            137
+          ]
+        },
+        "note": {
+          "lines": [
+            117,
+            126
+          ]
+        },
+        "status": "待核",
+        "reason": "M4连续声画待核；原课文字与静态观察已分层整理。"
+      },
+      {
+        "id": "P73-U11",
+        "item": "外语片例大量我会在那里打的重复错识别、09:23–10:16长空窗；环境压抑与后段搏斗；完整光线连续性和声音/动作未核。",
+        "source": {
+          "lines": [
+            138,
+            157
+          ]
+        },
+        "note": {
+          "lines": [
+            117,
+            126
+          ]
+        },
+        "status": "待核",
+        "reason": "M4连续声画待核；原课文字与静态观察已分层整理。"
+      },
+      {
+        "id": "P73-U12",
+        "item": "软调中间调自学邀请与下集预告，不自动创建任务。",
+        "source": {
+          "lines": [
+            158,
+            160
+          ]
+        },
+        "note": {
+          "lines": [
+            127,
+            132
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留解释与限定；文字覆盖不等于实际原声与连续视频审看。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P73-U01",
+        "item": "影调定义为画面明暗层次；轮廓造型、气氛情绪主题质感；更换教师背景的高低调/不同颜色演示须看实际画面。",
+        "status": "待核",
+        "reason": "M1连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P73-U04",
+        "item": "高调三做法：亮背景/景物、散射光、少量暗物对比突出中心；背景切换演示待图文。",
+        "status": "待核",
+        "reason": "M1连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P73-U05",
+        "item": "泰坦尼克号船头兴奋、大海风海豚阳光，暗衣对比亮环境；04:09–04:51长ASR空窗，人物身份场景待画面，不能套成另一著名船头戏。",
+        "status": "待核",
+        "reason": "M2连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P73-U07",
+        "item": "低调四做法：深暗背景，侧光逆光斜侧侧逆，剪影半剪影投影，以少量浅亮主体对比；光向不等于硬度。",
+        "status": "待核",
+        "reason": "M1连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P73-U08",
+        "item": "老炮儿六爷擦刀与白毛巾，深暗环境对照亮物、时间与心理；插刀/擦刀疑词、人物动作须原课。",
+        "status": "待核",
+        "reason": "M3连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P73-U10",
+        "item": "谍中谍5疑片名，伊森亨特受审/挨打、顶光硬光、受光背光投影及肌肉感；需要原片名和画面。",
+        "status": "待核",
+        "reason": "M4连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P73-U11",
+        "item": "外语片例大量我会在那里打的重复错识别、09:23–10:16长空窗；环境压抑与后段搏斗；完整光线连续性和声音/动作未核。",
+        "status": "待核",
+        "reason": "M4连续声画待核；原课文字与静态观察已分层整理。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "390db7e591d154964f11c655eec40c3e0a04f4072debcb4284b680e4a1c1bdd0",
+    "historical_review_sha256": "fe17d9a616929d50d07cfda7b279e5cc6f0b73ca63e52de0c57cb621d9dbbb57",
+    "historical_seal_sha256": "b08212c5e83d67d06d32e9632b8a7c880c15ec245d6fb2ada62d4b824f79c4f7",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-19/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "4244aefeefe54e491ed3df3650e2f55c846caec2f3a8513fb95fced4e2ccbcd6",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/19 - 第十章 影调层次（P73-P74）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-19/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章影调层次既有学习记录.md",
+    "personal_sha256": "7015b9f61118437797062ad0d1a941a89b7d004fddd4e00f62ff850acd2c88cf",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-19/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-19/review.md"
+}

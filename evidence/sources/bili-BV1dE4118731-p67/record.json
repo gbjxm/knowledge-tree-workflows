@@ -1,0 +1,288 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p67",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P67 10.16影视需要有节奏4",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=67",
+    "bvid": "BV1dE4118731",
+    "page": 67,
+    "cid": 139215287,
+    "text_sha256": "f2dce5d431334d4fdd0b7278951af939c37f12532b72103e7859f6640ef06844",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p67-10.16影视需要有节奏4/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/17 - 第十章 视听节奏（P64-P68）.md",
+    "sha256": "2237128c8019f982dfaeaedf9ec4dd6c5a09714dbe1718721571ffdef71437c1"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "f2dce5d431334d4fdd0b7278951af939c37f12532b72103e7859f6640ef06844",
+    "note_sha256": "2237128c8019f982dfaeaedf9ec4dd6c5a09714dbe1718721571ffdef71437c1",
+    "scope": [
+      [
+        6,
+        216
+      ]
+    ],
+    "items": [
+      {
+        "id": "P67-U01",
+        "item": "宿舍出门、路上、进教室各五分钟示例，符合生活逻辑但可能叙述迟缓，时长是示意非规定。",
+        "source": {
+          "lines": [
+            6,
+            31
+          ]
+        },
+        "note": {
+          "lines": [
+            195,
+            204
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留原课解释、案例与整理限定；文字覆盖不等于原声或连续观看完成。"
+      },
+      {
+        "id": "P67-U02",
+        "item": "关宿舍门接推教室门、省略路途的时间压缩；ASR整体停下来疑词需原课核。",
+        "source": {
+          "lines": [
+            32,
+            47
+          ]
+        },
+        "note": {
+          "lines": [
+            195,
+            204
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留原课解释、案例与整理限定；文字覆盖不等于原声或连续观看完成。"
+      },
+      {
+        "id": "P67-U03",
+        "item": "只突出路上奇遇并扩大信息，同一事件可不同节奏；正常加快放慢强化弱化可在一场并存。",
+        "source": {
+          "lines": [
+            48,
+            73
+          ]
+        },
+        "note": {
+          "lines": [
+            195,
+            204
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留原课解释、案例与整理限定；文字覆盖不等于原声或连续观看完成。"
+      },
+      {
+        "id": "P67-U04",
+        "item": "石破天惊/勇闯夺命岛迈克尔贝，从序曲到墓地的风格开端，常态镜头与少量升格。",
+        "source": {
+          "lines": [
+            74,
+            98
+          ]
+        },
+        "note": {
+          "lines": [
+            205,
+            214
+          ]
+        },
+        "status": "待核",
+        "reason": "M11的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P67-U05",
+        "item": "墓地段落比心理预期慢，矛盾推进与观众认知；单纯后期加速被称假节奏，不能当通用速度禁令。",
+        "source": {
+          "lines": [
+            99,
+            123
+          ]
+        },
+        "note": {
+          "lines": [
+            205,
+            214
+          ]
+        },
+        "status": "待核",
+        "reason": "M11的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P67-U06",
+        "item": "视听双轨：画面慢而战斗螺旋桨炮火人喊短促声音快；闭眼听是原课建议，实际声音未听。",
+        "source": {
+          "lines": [
+            124,
+            144
+          ]
+        },
+        "note": {
+          "lines": [
+            215,
+            222
+          ]
+        },
+        "status": "待核",
+        "reason": "M12的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P67-U07",
+        "item": "影片开场音乐风格、悲凉与气势并存，06:30–07:08长音乐演示不能由转写代替。",
+        "source": {
+          "lines": [
+            145,
+            164
+          ]
+        },
+        "note": {
+          "lines": [
+            223,
+            232
+          ]
+        },
+        "status": "待核",
+        "reason": "M13的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P67-U08",
+        "item": "体育节目配乐类比，出线激励或失利悲情由语境构成；并非确认某具体央视节目使用史。",
+        "source": {
+          "lines": [
+            165,
+            188
+          ]
+        },
+        "note": {
+          "lines": [
+            223,
+            232
+          ]
+        },
+        "status": "待核",
+        "reason": "M13的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P67-U09",
+        "item": "军火库偷毒气弹例子快慢组合，08:31–09:31媒体窗；节奏联系事件规律与观众心理习惯。",
+        "source": {
+          "lines": [
+            189,
+            211
+          ]
+        },
+        "note": {
+          "lines": [
+            233,
+            242
+          ]
+        },
+        "status": "待核",
+        "reason": "M14的连续声画待核；来源文字与静态补充已分别保留。"
+      },
+      {
+        "id": "P67-U10",
+        "item": "原课作业：回看该段并分析技巧，下节揭示；保留为课程作业，不激活用户学习任务。",
+        "source": {
+          "lines": [
+            212,
+            216
+          ]
+        },
+        "note": {
+          "lines": [
+            233,
+            242
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留原课解释、案例与整理限定；文字覆盖不等于原声或连续观看完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P67-U04",
+        "item": "石破天惊/勇闯夺命岛迈克尔贝，从序曲到墓地的风格开端，常态镜头与少量升格。",
+        "status": "待核",
+        "reason": "M11的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P67-U05",
+        "item": "墓地段落比心理预期慢，矛盾推进与观众认知；单纯后期加速被称假节奏，不能当通用速度禁令。",
+        "status": "待核",
+        "reason": "M11的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P67-U06",
+        "item": "视听双轨：画面慢而战斗螺旋桨炮火人喊短促声音快；闭眼听是原课建议，实际声音未听。",
+        "status": "待核",
+        "reason": "M12的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P67-U07",
+        "item": "影片开场音乐风格、悲凉与气势并存，06:30–07:08长音乐演示不能由转写代替。",
+        "status": "待核",
+        "reason": "M13的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P67-U08",
+        "item": "体育节目配乐类比，出线激励或失利悲情由语境构成；并非确认某具体央视节目使用史。",
+        "status": "待核",
+        "reason": "M13的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P67-U09",
+        "item": "军火库偷毒气弹例子快慢组合，08:31–09:31媒体窗；节奏联系事件规律与观众心理习惯。",
+        "status": "待核",
+        "reason": "M14的连续声画待核；来源文字与静态补充已分别保留。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "0a24f627001b03b3b9e366c75120962039b71260c7bfbf44ef573508cabf1613",
+    "historical_review_sha256": "1c49bb86a5ee9680aa72ba64aeafe685c3e1c6b14add59e2e0f1b2dbd68c02b4",
+    "historical_seal_sha256": "55cdf4f03b6a5400685655e664b77e662ebcbf5f23c7d9a60f29aa3215c075c9",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-17/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "46328e0b9791cb8ba7ef7bddd188a49d3555efeb3931e5d2783fadaf40671b43",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/17 - 第十章 视听节奏（P64-P68）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-17/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章视听节奏既有学习记录.md",
+    "personal_sha256": "efa1765a3df4aca897a366e9ef375aa31f9cf83989927520ad468dc8324c3fa9",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-17/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-17/review.md"
+}

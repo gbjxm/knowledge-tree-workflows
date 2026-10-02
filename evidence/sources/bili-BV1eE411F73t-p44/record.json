@@ -1,0 +1,370 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p44",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 二十一课-谈几个进阶问题（上）21.1",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=44",
+    "bvid": "BV1eE411F73t",
+    "page": 44,
+    "cid": 239866710,
+    "text_sha256": "8e9d5ee94618a45e40c0d602f9fe5d2f09c466f37e43724e90de67e4bba4a17a",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/new-transcripts/BV1eE411F73t-p44/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/21 - 第二十一课 谈几个进阶问题（P44-P45）.md",
+    "sha256": "2074270d6c5e7266bf23f84d36f1634b6f23bd8deb9ef2a4c03be861e8d602d4"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "8e9d5ee94618a45e40c0d602f9fe5d2f09c466f37e43724e90de67e4bba4a17a",
+    "note_sha256": "2074270d6c5e7266bf23f84d36f1634b6f23bd8deb9ef2a4c03be861e8d602d4",
+    "scope": [
+      [
+        6,
+        1161
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "开场立flag与寒暄压缩",
+        "source": {
+          "lines": [
+            6,
+            48
+          ]
+        },
+        "note": {
+          "lines": [
+            66,
+            66
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U2",
+        "item": "天赋努力及顶尖目标与贡献区别",
+        "source": {
+          "lines": [
+            49,
+            140
+          ]
+        },
+        "note": {
+          "lines": [
+            60,
+            60
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U3",
+        "item": "篮球行业多路径及天赋判断边界",
+        "source": {
+          "lines": [
+            141,
+            196
+          ]
+        },
+        "note": {
+          "lines": [
+            64,
+            64
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U4",
+        "item": "产品与艺术属性并存",
+        "source": {
+          "lines": [
+            197,
+            245
+          ]
+        },
+        "note": {
+          "lines": [
+            70,
+            70
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U5",
+        "item": "规范品控及格律创造情感",
+        "source": {
+          "lines": [
+            246,
+            341
+          ]
+        },
+        "note": {
+          "lines": [
+            72,
+            72
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U6",
+        "item": "外貌类比与流水线反例及自限",
+        "source": {
+          "lines": [
+            342,
+            421
+          ]
+        },
+        "note": {
+          "lines": [
+            78,
+            78
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U7",
+        "item": "长寿反例及强口径范围",
+        "source": {
+          "lines": [
+            422,
+            456
+          ]
+        },
+        "note": {
+          "lines": [
+            82,
+            82
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U8",
+        "item": "生活事实不等于艺术成立与照片绘画",
+        "source": {
+          "lines": [
+            457,
+            575
+          ]
+        },
+        "note": {
+          "lines": [
+            88,
+            88
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U9",
+        "item": "变形金刚与逻辑情感内涵真实",
+        "source": {
+          "lines": [
+            576,
+            631
+          ]
+        },
+        "note": {
+          "lines": [
+            92,
+            92
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U10",
+        "item": "视觉真实及神仙特效对照",
+        "source": {
+          "lines": [
+            632,
+            693
+          ]
+        },
+        "note": {
+          "lines": [
+            101,
+            101
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U11",
+        "item": "本课适用对象与既有剧稿",
+        "source": {
+          "lines": [
+            694,
+            765
+          ]
+        },
+        "note": {
+          "lines": [
+            40,
+            40
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U12",
+        "item": "头大身子小与中点伪胜败",
+        "source": {
+          "lines": [
+            766,
+            838
+          ]
+        },
+        "note": {
+          "lines": [
+            105,
+            105
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U13",
+        "item": "菊次郎找到母亲没有母爱",
+        "source": {
+          "lines": [
+            839,
+            908
+          ]
+        },
+        "note": {
+          "lines": [
+            109,
+            109
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U14",
+        "item": "阿凡达中点及梗概大纲自检",
+        "source": {
+          "lines": [
+            909,
+            972
+          ]
+        },
+        "note": {
+          "lines": [
+            111,
+            111
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U15",
+        "item": "人物具体化与观点行动板书",
+        "source": {
+          "lines": [
+            973,
+            1028
+          ]
+        },
+        "note": {
+          "lines": [
+            117,
+            117
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U16",
+        "item": "肖申克希望对照及600年20年",
+        "source": {
+          "lines": [
+            1029,
+            1105
+          ]
+        },
+        "note": {
+          "lines": [
+            121,
+            121
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      },
+      {
+        "id": "U17",
+        "item": "图书馆五年三年200元与少形容词",
+        "source": {
+          "lines": [
+            1106,
+            1161
+          ]
+        },
+        "note": {
+          "lines": [
+            123,
+            123
+          ]
+        },
+        "status": "合并",
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-28",
+    "scope": "完整ASR1161行来源先行及成稿后全文阅读；实际查看105不同静态原帧中的板书/字幕；原声未听审，未连续审看。",
+    "summary": "补建第21课上下两P，保留天赋与艺术真实等课前论证、十类返修问题及中点/人物/血统/选择/蜕变/支线/反派/主题/场景/对白的条件、案例和练习。",
+    "method": "28项来源先行梳理；成稿后主代理另一步骤全文双向复核、旧稿不存在核查、五项实际使用检查。工具只核结构身份与登记。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "原声未听审、未连续审看；207个静态原帧只证明所记录板书/字幕，不证明连续动作、节奏及同步或所有未采样瞬间。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "两次选择中的动作表述、脱俗格言异词已概括其清楚功能；反派例名疑似灭霸而未听核，正文明确标疑。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M3",
+        "item": "电影情节、郭德纲观点、美学三分法及行业经验按课堂复述保存，未独立外查；没有补造完整剧本、命题和答案。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "operation": "create_missing_lesson",
+    "old_note_sha256": null,
+    "backup_hint": null,
+    "personal_note": null,
+    "reason": "当前目标不存在，来源链接和课号搜索无旧笔记；不生成空个人记录",
+    "overview_backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/before-charlie-21-overview.md",
+    "overview_old_sha256": "e817463a5a0ecc290d4cf28caa3d93cdb36e5713273b56007a3319d973aaf439"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-21/review.md"
+}

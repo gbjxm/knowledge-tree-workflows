@@ -2,7 +2,7 @@
   "version": 2,
   "purpose": "portable-release",
   "root_name": "影视知识树",
-  "generated_at": "2026-09-23T00:56:11.084676+00:00",
+  "generated_at": "2026-10-02T15:45:48.700437+00:00",
   "manifest_path": "manifest/package-files.json",
   "module_manifest": "manifest/modules.json",
   "modules": [
@@ -23,10 +23,175 @@
     "evidence",
     "evidence/sources",
     "evidence/sources/bili-BV183V46oEPz-p1",
+    "evidence/sources/bili-BV1FR4y1M73U-p1",
+    "evidence/sources/bili-BV1FR4y1M73U-p10",
+    "evidence/sources/bili-BV1FR4y1M73U-p11",
+    "evidence/sources/bili-BV1FR4y1M73U-p12",
+    "evidence/sources/bili-BV1FR4y1M73U-p13",
+    "evidence/sources/bili-BV1FR4y1M73U-p14",
+    "evidence/sources/bili-BV1FR4y1M73U-p15",
+    "evidence/sources/bili-BV1FR4y1M73U-p16",
+    "evidence/sources/bili-BV1FR4y1M73U-p17",
+    "evidence/sources/bili-BV1FR4y1M73U-p18",
+    "evidence/sources/bili-BV1FR4y1M73U-p19",
+    "evidence/sources/bili-BV1FR4y1M73U-p2",
+    "evidence/sources/bili-BV1FR4y1M73U-p3",
+    "evidence/sources/bili-BV1FR4y1M73U-p4",
+    "evidence/sources/bili-BV1FR4y1M73U-p5",
+    "evidence/sources/bili-BV1FR4y1M73U-p6",
+    "evidence/sources/bili-BV1FR4y1M73U-p7",
+    "evidence/sources/bili-BV1FR4y1M73U-p8",
+    "evidence/sources/bili-BV1FR4y1M73U-p9",
     "evidence/sources/bili-BV1QB4y1r73i-p1",
+    "evidence/sources/bili-BV1QB4y1r73i-p10",
+    "evidence/sources/bili-BV1QB4y1r73i-p11",
+    "evidence/sources/bili-BV1QB4y1r73i-p12",
+    "evidence/sources/bili-BV1QB4y1r73i-p13",
+    "evidence/sources/bili-BV1QB4y1r73i-p14",
     "evidence/sources/bili-BV1QB4y1r73i-p15",
+    "evidence/sources/bili-BV1QB4y1r73i-p16",
+    "evidence/sources/bili-BV1QB4y1r73i-p17",
+    "evidence/sources/bili-BV1QB4y1r73i-p2",
+    "evidence/sources/bili-BV1QB4y1r73i-p3",
+    "evidence/sources/bili-BV1QB4y1r73i-p4",
+    "evidence/sources/bili-BV1QB4y1r73i-p5",
+    "evidence/sources/bili-BV1QB4y1r73i-p6",
+    "evidence/sources/bili-BV1QB4y1r73i-p7",
+    "evidence/sources/bili-BV1QB4y1r73i-p8",
+    "evidence/sources/bili-BV1QB4y1r73i-p9",
+    "evidence/sources/bili-BV1dE4118731-p1",
+    "evidence/sources/bili-BV1dE4118731-p10",
+    "evidence/sources/bili-BV1dE4118731-p11",
+    "evidence/sources/bili-BV1dE4118731-p12",
+    "evidence/sources/bili-BV1dE4118731-p13",
+    "evidence/sources/bili-BV1dE4118731-p14",
+    "evidence/sources/bili-BV1dE4118731-p15",
+    "evidence/sources/bili-BV1dE4118731-p16",
+    "evidence/sources/bili-BV1dE4118731-p17",
+    "evidence/sources/bili-BV1dE4118731-p18",
+    "evidence/sources/bili-BV1dE4118731-p19",
+    "evidence/sources/bili-BV1dE4118731-p2",
+    "evidence/sources/bili-BV1dE4118731-p20",
+    "evidence/sources/bili-BV1dE4118731-p21",
+    "evidence/sources/bili-BV1dE4118731-p22",
+    "evidence/sources/bili-BV1dE4118731-p23",
+    "evidence/sources/bili-BV1dE4118731-p24",
+    "evidence/sources/bili-BV1dE4118731-p25",
+    "evidence/sources/bili-BV1dE4118731-p26",
+    "evidence/sources/bili-BV1dE4118731-p27",
+    "evidence/sources/bili-BV1dE4118731-p28",
+    "evidence/sources/bili-BV1dE4118731-p29",
+    "evidence/sources/bili-BV1dE4118731-p3",
+    "evidence/sources/bili-BV1dE4118731-p30",
+    "evidence/sources/bili-BV1dE4118731-p31",
+    "evidence/sources/bili-BV1dE4118731-p32",
+    "evidence/sources/bili-BV1dE4118731-p33",
+    "evidence/sources/bili-BV1dE4118731-p34",
+    "evidence/sources/bili-BV1dE4118731-p35",
+    "evidence/sources/bili-BV1dE4118731-p36",
+    "evidence/sources/bili-BV1dE4118731-p37",
+    "evidence/sources/bili-BV1dE4118731-p38",
+    "evidence/sources/bili-BV1dE4118731-p39",
+    "evidence/sources/bili-BV1dE4118731-p4",
+    "evidence/sources/bili-BV1dE4118731-p40",
+    "evidence/sources/bili-BV1dE4118731-p41",
+    "evidence/sources/bili-BV1dE4118731-p42",
+    "evidence/sources/bili-BV1dE4118731-p43",
+    "evidence/sources/bili-BV1dE4118731-p44",
+    "evidence/sources/bili-BV1dE4118731-p45",
+    "evidence/sources/bili-BV1dE4118731-p46",
+    "evidence/sources/bili-BV1dE4118731-p47",
+    "evidence/sources/bili-BV1dE4118731-p48",
+    "evidence/sources/bili-BV1dE4118731-p49",
+    "evidence/sources/bili-BV1dE4118731-p5",
+    "evidence/sources/bili-BV1dE4118731-p50",
+    "evidence/sources/bili-BV1dE4118731-p51",
+    "evidence/sources/bili-BV1dE4118731-p52",
+    "evidence/sources/bili-BV1dE4118731-p53",
+    "evidence/sources/bili-BV1dE4118731-p54",
+    "evidence/sources/bili-BV1dE4118731-p55",
+    "evidence/sources/bili-BV1dE4118731-p56",
+    "evidence/sources/bili-BV1dE4118731-p57",
+    "evidence/sources/bili-BV1dE4118731-p58",
+    "evidence/sources/bili-BV1dE4118731-p59",
+    "evidence/sources/bili-BV1dE4118731-p6",
+    "evidence/sources/bili-BV1dE4118731-p60",
+    "evidence/sources/bili-BV1dE4118731-p61",
+    "evidence/sources/bili-BV1dE4118731-p62",
+    "evidence/sources/bili-BV1dE4118731-p63",
+    "evidence/sources/bili-BV1dE4118731-p64",
+    "evidence/sources/bili-BV1dE4118731-p65",
+    "evidence/sources/bili-BV1dE4118731-p66",
+    "evidence/sources/bili-BV1dE4118731-p67",
+    "evidence/sources/bili-BV1dE4118731-p68",
+    "evidence/sources/bili-BV1dE4118731-p69",
+    "evidence/sources/bili-BV1dE4118731-p7",
+    "evidence/sources/bili-BV1dE4118731-p70",
+    "evidence/sources/bili-BV1dE4118731-p71",
+    "evidence/sources/bili-BV1dE4118731-p72",
+    "evidence/sources/bili-BV1dE4118731-p73",
+    "evidence/sources/bili-BV1dE4118731-p74",
+    "evidence/sources/bili-BV1dE4118731-p8",
+    "evidence/sources/bili-BV1dE4118731-p9",
+    "evidence/sources/bili-BV1eE411F73t-p10",
+    "evidence/sources/bili-BV1eE411F73t-p11",
+    "evidence/sources/bili-BV1eE411F73t-p12",
+    "evidence/sources/bili-BV1eE411F73t-p13",
+    "evidence/sources/bili-BV1eE411F73t-p14",
+    "evidence/sources/bili-BV1eE411F73t-p15",
+    "evidence/sources/bili-BV1eE411F73t-p16",
+    "evidence/sources/bili-BV1eE411F73t-p17",
     "evidence/sources/bili-BV1eE411F73t-p18",
     "evidence/sources/bili-BV1eE411F73t-p19",
+    "evidence/sources/bili-BV1eE411F73t-p2",
+    "evidence/sources/bili-BV1eE411F73t-p20",
+    "evidence/sources/bili-BV1eE411F73t-p21",
+    "evidence/sources/bili-BV1eE411F73t-p22",
+    "evidence/sources/bili-BV1eE411F73t-p23",
+    "evidence/sources/bili-BV1eE411F73t-p24",
+    "evidence/sources/bili-BV1eE411F73t-p25",
+    "evidence/sources/bili-BV1eE411F73t-p26",
+    "evidence/sources/bili-BV1eE411F73t-p27",
+    "evidence/sources/bili-BV1eE411F73t-p28",
+    "evidence/sources/bili-BV1eE411F73t-p29",
+    "evidence/sources/bili-BV1eE411F73t-p3",
+    "evidence/sources/bili-BV1eE411F73t-p30",
+    "evidence/sources/bili-BV1eE411F73t-p31",
+    "evidence/sources/bili-BV1eE411F73t-p32",
+    "evidence/sources/bili-BV1eE411F73t-p33",
+    "evidence/sources/bili-BV1eE411F73t-p34",
+    "evidence/sources/bili-BV1eE411F73t-p35",
+    "evidence/sources/bili-BV1eE411F73t-p36",
+    "evidence/sources/bili-BV1eE411F73t-p37",
+    "evidence/sources/bili-BV1eE411F73t-p38",
+    "evidence/sources/bili-BV1eE411F73t-p39",
+    "evidence/sources/bili-BV1eE411F73t-p4",
+    "evidence/sources/bili-BV1eE411F73t-p40",
+    "evidence/sources/bili-BV1eE411F73t-p41",
+    "evidence/sources/bili-BV1eE411F73t-p42",
+    "evidence/sources/bili-BV1eE411F73t-p43",
+    "evidence/sources/bili-BV1eE411F73t-p44",
+    "evidence/sources/bili-BV1eE411F73t-p45",
+    "evidence/sources/bili-BV1eE411F73t-p46",
+    "evidence/sources/bili-BV1eE411F73t-p47",
+    "evidence/sources/bili-BV1eE411F73t-p48",
+    "evidence/sources/bili-BV1eE411F73t-p49",
+    "evidence/sources/bili-BV1eE411F73t-p5",
+    "evidence/sources/bili-BV1eE411F73t-p50",
+    "evidence/sources/bili-BV1eE411F73t-p51",
+    "evidence/sources/bili-BV1eE411F73t-p52",
+    "evidence/sources/bili-BV1eE411F73t-p53",
+    "evidence/sources/bili-BV1eE411F73t-p54",
+    "evidence/sources/bili-BV1eE411F73t-p55",
+    "evidence/sources/bili-BV1eE411F73t-p56",
+    "evidence/sources/bili-BV1eE411F73t-p57",
+    "evidence/sources/bili-BV1eE411F73t-p58",
+    "evidence/sources/bili-BV1eE411F73t-p59",
+    "evidence/sources/bili-BV1eE411F73t-p6",
+    "evidence/sources/bili-BV1eE411F73t-p60",
+    "evidence/sources/bili-BV1eE411F73t-p7",
+    "evidence/sources/bili-BV1eE411F73t-p8",
+    "evidence/sources/bili-BV1eE411F73t-p9",
     "evidence/sources/resolve20-editors-ch03",
     "evidence/sources/resolve20-editors-ch07",
     "manifest",
@@ -40,6 +205,7 @@
     "skills/bilibili-study-notes",
     "skills/bilibili-study-notes/agents",
     "skills/bilibili-study-notes/assets",
+    "skills/bilibili-study-notes/references",
     "skills/bilibili-study-notes/scripts",
     "skills/curate-ai-prompt-treasure-box",
     "skills/curate-ai-prompt-treasure-box/agents",
@@ -176,13 +342,28 @@
     },
     {
       "path": "README-先读我.md",
-      "size": 8310,
-      "sha256": "7d72806b31a9f09b9bffadf2468a2274c5fac645d4b80dfb0c29133492d5f1b6"
+      "size": 10683,
+      "sha256": "98156c75a6b87b1d692cd0bb5ced3f262c2ffce4819e3c932101fa0ff2d4ffe0"
+    },
+    {
+      "path": "docs/创作区治理-执行与验收-2026-10-02.md",
+      "size": 7718,
+      "sha256": "03e884c24d9f074ec749fb0d9e4d616b5a85be1cfbb7f39d03e542476bed5d17"
+    },
+    {
+      "path": "docs/创作区治理-逐篇对应清单-2026-10-02.md",
+      "size": 19895,
+      "sha256": "08605c32212506bc69c400cfb4d1aa831449320b0fa72075e2a0eb6599c70e9d"
+    },
+    {
+      "path": "docs/创作区治理方案-2026-10-02.md",
+      "size": 5621,
+      "sha256": "cd66782505299071d1faba06cb3ba0046a8b8ec1a3d02f915c2623115c99ce8d"
     },
     {
       "path": "docs/故障恢复.md",
-      "size": 5508,
-      "sha256": "8d5bfe6e3eb7cd4d1a4b0ed1a3bcd18a1e8f6cceed4bb24cae92a64486ffd11c"
+      "size": 6408,
+      "sha256": "d048dd9e0e47f908fcaf5c938fe0cad57dff065f337c599dfcbce1625b89cbe3"
     },
     {
       "path": "docs/知识树优化-暂停与投入判断.md",
@@ -198,6 +379,11 @@
       "path": "docs/知识树体系优化-续接记录.md",
       "size": 13759,
       "sha256": "c283e729581591343e98b469369e7613dd926ceb4d6d3f1f8ec01d8b0c85255c"
+    },
+    {
+      "path": "docs/课程来源复核流程.md",
+      "size": 4661,
+      "sha256": "da4ef92bf7f1f80bb86c7581f39645e624da6fb831f178431cbfc32113e8e879"
     },
     {
       "path": "docs/迁移与路径映射.md",
@@ -220,44 +406,1699 @@
       "sha256": "44e6ddb3acec7d1c1ea06efc91943e1b5d234c47dc2d58501744a9cc900c3179"
     },
     {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p1/record.json",
+      "size": 5600,
+      "sha256": "956801b781de4c6d127d5ec9a01b7212fb4db01fecdd9f3e177a520ac7b94630"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p1/review.md",
+      "size": 1195,
+      "sha256": "06f15149fe525e8b82290365502a54b6ed5c3fba2497b1386bf08f368a6af989"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p10/record.json",
+      "size": 13351,
+      "sha256": "83f8dddb5924a46f54d1c3198aa05cee90679ae3fdf82f4ec3ac421c4a7e39f8"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p10/review.md",
+      "size": 990,
+      "sha256": "0fce21860e22d50e625b7399250ca25768759865bee7404bf9932c843d570e70"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p11/record.json",
+      "size": 16796,
+      "sha256": "fba4f6bc76c7160cb768493789f910ebabba0f2e7a9ff681235274cc51896938"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p11/review.md",
+      "size": 1029,
+      "sha256": "8d602aa29c86ac2918f545b76c17a3ee15e1a1f5380ef2a68642438de820e684"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p12/record.json",
+      "size": 12261,
+      "sha256": "b9a9eec5473637bd718812d13cad941422b478056b1ccd75c5e21607cae785f5"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p12/review.md",
+      "size": 984,
+      "sha256": "6705672175dd7d35298dc330848f2accde127f21dd89a85184e99a9268ad8f57"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p13/record.json",
+      "size": 16223,
+      "sha256": "b5b310d97ebc8accf83d170a36737364aceb55d5cb8757daf2185776607b9692"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p13/review.md",
+      "size": 1049,
+      "sha256": "08f8cddaae54549b1e3a042bb96fde9d001f53642a58d65fc65d6d1363c0d3a0"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p14/record.json",
+      "size": 12705,
+      "sha256": "68f254159e2f598829f6c88965e8201f134a4a0ae16cbcf3ed1b63b617815ac8"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p14/review.md",
+      "size": 989,
+      "sha256": "e96e29df05356a127686f8bb63e73ddc2e89e553150ea6c3acd22a59bca2f264"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p15/record.json",
+      "size": 20255,
+      "sha256": "df98e13d2cdf0427b86f138f886a16bb4f6b12b34d1a50c613dbed6ba14ad7f4"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p15/review.md",
+      "size": 1146,
+      "sha256": "36ace694266254df7c2305228093d67f6965c01f0a7b38d7e3340338e286c584"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p16/record.json",
+      "size": 12628,
+      "sha256": "88d9c07e2f9481af3e58089edd252f0927d0a2a7e428eac38d15a5e4e8c759a9"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p16/review.md",
+      "size": 1020,
+      "sha256": "9c9c64656aca632a8c76818fe861b6e540e4fa9b84a4b5a700faaa2921fb219b"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p17/record.json",
+      "size": 11779,
+      "sha256": "3f79040cda813013fd0c46f99d8d70d8e0a5dde9f6ce41a0b7b2e84c71e8abb5"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p17/review.md",
+      "size": 1004,
+      "sha256": "2cadf1f41aa8f68c87322eb7ff5354c0746eb00d0d05ab800104a8d436c3ff40"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p18/record.json",
+      "size": 14071,
+      "sha256": "db295e91edce3f2e645cf8990bdd189ce086fe6510348a45906d4bde6b11d069"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p18/review.md",
+      "size": 1085,
+      "sha256": "a3b8496fd965ca7c8e463cd6c85605955791871d297a2962b7162d95a7b842b0"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p19/record.json",
+      "size": 11483,
+      "sha256": "644cdcad529668da8716abad57b669db641c3e1fefe9c073e3bdb1a59d83989a"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p19/review.md",
+      "size": 1066,
+      "sha256": "4283854d834753d16316f7b98156b9bb97049dae0ee1038a6bd63ffbe2a9cd28"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p2/record.json",
+      "size": 11054,
+      "sha256": "14c522abc529a2340eb81e9386d926946b988bd119fb9ff43dffd0932d406d66"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p2/review.md",
+      "size": 928,
+      "sha256": "f398da49eab8c9f5b65c9bb24a1c17dd78c869749d3ce3f3ee189f09eb88b3a8"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p3/record.json",
+      "size": 12047,
+      "sha256": "a377bdaf3db1f9cad47f160872c48a0abf86ab4acf9b2a2bfc9d801f38bb2aba"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p3/review.md",
+      "size": 1070,
+      "sha256": "22bcdc19a24e50d89010598ac2660ab6bf2900862f0dbba53c079a166b427a06"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p4/record.json",
+      "size": 11367,
+      "sha256": "5e63190843a966d10b241f966e1fdcac05e1e0205ff9f20a1111061a45872d85"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p4/review.md",
+      "size": 918,
+      "sha256": "e38a954100ecce5326fca461e0caf2d3408bb7ede9da39b7f9cc32283bbb6333"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p5/record.json",
+      "size": 12779,
+      "sha256": "ea9a5b410bcd37f7e17c23153714b31d59b609a1d028d14d49e9ae384fe4f65f"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p5/review.md",
+      "size": 980,
+      "sha256": "334b9ee275ae942fd2a5be1449181b41f559bc7dbdeb8f435b6daf8508f84c41"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p6/record.json",
+      "size": 9688,
+      "sha256": "bf10f376f5f7477c89274e18b3dd4289a233a68e8831c955aa42da4854b66900"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p6/review.md",
+      "size": 926,
+      "sha256": "c671afbf35924b89c77743e559300f634f977a937f69b8d966e6ecab0a0667a6"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p7/record.json",
+      "size": 12700,
+      "sha256": "8ae0a2014067f31af4a66fc1868e9d22bd4b10c294474f8203a63e27eedbbc04"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p7/review.md",
+      "size": 945,
+      "sha256": "398e2432689bc11fcb0fb9806e36668ebc4c573e1c35832f7e867afd5ce22f1a"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p8/record.json",
+      "size": 10789,
+      "sha256": "00972a3bf196f1f67fd55d16d809282f4e8a0c3717ae57025090f2d162edc731"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p8/review.md",
+      "size": 1165,
+      "sha256": "fe09a46550e3cd511444ad7ad82590edd7cc45921e2c587b6cd9f3666b2d8704"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p9/record.json",
+      "size": 16483,
+      "sha256": "49fbd6f2a1c86ecd884e4d486683178f98f1042c9a16b18f9a8bdc003548e654"
+    },
+    {
+      "path": "evidence/sources/bili-BV1FR4y1M73U-p9/review.md",
+      "size": 1054,
+      "sha256": "1f59df6c66a1fd7de3cfea4cb2b9f65fff9dc67e87355971f4fb944b57f9d35f"
+    },
+    {
       "path": "evidence/sources/bili-BV1QB4y1r73i-p1/record.json",
-      "size": 13784,
-      "sha256": "0f2b59bcc9ba2a4bf9039e9d770b68a622a830cf11c27469eb0f04c1e025f96a"
+      "size": 18915,
+      "sha256": "40f99d915b560d5e43498447f7db493841d092be73b088a3ba5fe3b77b0d02b3"
     },
     {
       "path": "evidence/sources/bili-BV1QB4y1r73i-p1/review.md",
-      "size": 3383,
-      "sha256": "7c4516ae35b320ec5fb274b261f3c7b6a0d373c1a3d96c49c07f1e1209d61de0"
+      "size": 1845,
+      "sha256": "ec7814b2d174a2888c2c9566509d7b774222a1d899ba41cb6952fb6bd644df87"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p10/record.json",
+      "size": 14986,
+      "sha256": "d82071c7dada3f9bb69559d62ca9255ce45901c06659d4fc2068a4a422623c67"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p10/review.md",
+      "size": 1978,
+      "sha256": "a5f02346223f9ee932e881724142a302ce975f081f3f468cc2d55c1561d95ad7"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p11/record.json",
+      "size": 14152,
+      "sha256": "d830e57e71201d71ea7bf403abc9acd8876495410a5ac4130f1d6a40bdd41d70"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p11/review.md",
+      "size": 1736,
+      "sha256": "a8616db277f428ec495057b829316e99a109a6858d76bd7f347c737e03f67ee6"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p12/record.json",
+      "size": 17688,
+      "sha256": "335c090bd62787651e3023d0e12bbcd7208c7ec30d1884709f46c3bd38a7dfad"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p12/review.md",
+      "size": 2100,
+      "sha256": "0500b20852076b75322b6c6d8e10cedf082df61d58ed06fc32f31d9c7240c3d8"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p13/record.json",
+      "size": 11865,
+      "sha256": "ad4240faf224b25558ca3478336388b5c8e6352a39fa64eab8a05da1ff1f0d35"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p13/review.md",
+      "size": 1184,
+      "sha256": "e572970e5dc12baeb54b7cdffcd4c54ebc61d4b32ee3c78fd5b14c73af593b7c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p14/record.json",
+      "size": 8974,
+      "sha256": "f9dff22838e4def4a3cd4e282e23637a1d38873317c9a3cf3337b8c17868a135"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p14/review.md",
+      "size": 1208,
+      "sha256": "186eb6b888310b12e7775263afcf435ed401ecf339788abb36ef7a57f50d30f5"
     },
     {
       "path": "evidence/sources/bili-BV1QB4y1r73i-p15/record.json",
-      "size": 9986,
-      "sha256": "ed1e4c6522fb0714e44ba3644b5ddc2c218049d6607c9636e77ba54f4697ed47"
+      "size": 12674,
+      "sha256": "f1fe740be4db3ba188d229a513971ee334aa2c6c92d84a47fc663471dda64c3d"
     },
     {
       "path": "evidence/sources/bili-BV1QB4y1r73i-p15/review.md",
-      "size": 2746,
-      "sha256": "3d677070df355ff3a51f14008ed2f68676db1ea9862c890c6e3ee0e21499d975"
+      "size": 1438,
+      "sha256": "2ae52b4eff81a50f4ceeaca91c7563bf3e44de0e4a6edaf7a94791e3048ba81d"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p16/record.json",
+      "size": 12653,
+      "sha256": "64766367f07fda59475cbb43ad5ee8bcd63675f62a1d2ccd3485165b7078348c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p16/review.md",
+      "size": 1703,
+      "sha256": "b73fbc995b630ef6c442c2d8628d3d6a4a7be037415b051a30c6c94234143167"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p17/record.json",
+      "size": 16465,
+      "sha256": "ebb1deeff250b2d052b6b3d1655d15fe1ed01b8525a370214f0f6c7421f05f6b"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p17/review.md",
+      "size": 3018,
+      "sha256": "0ed9e5dc4f34632dd9528613faeb28babd9a919ce080b036c4a1a83dcdfbea8b"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p2/record.json",
+      "size": 9818,
+      "sha256": "37b3b1ab367eb0538daa89aa3ae3a39a108b3065280cd21537dc5abd4a99d090"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p2/review.md",
+      "size": 1136,
+      "sha256": "4ae4793231bdc481f7660dad91fa717cd3ea51cfbf353fe484407832d16f2f21"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p3/record.json",
+      "size": 8847,
+      "sha256": "92b50b812b0dc59389858a7a8ea792672d68cb61188261f34db2b2fef37c6638"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p3/review.md",
+      "size": 1136,
+      "sha256": "d8ab56d99ab83cb974efab477d3659936199053381cb5b2099d533591c02356a"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p4/record.json",
+      "size": 11014,
+      "sha256": "f137ce74d07efd102974e524b8f74054fdbbf1340e041d015ee64acd6a7c5e55"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p4/review.md",
+      "size": 1182,
+      "sha256": "1d961aff79c40813a26da34a93b49f03b88d68963ec603a7a72ce97705c01de6"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p5/record.json",
+      "size": 11527,
+      "sha256": "5bf13981e784ee2592c370c53201144dba30a6a6cf06dc624f04ca1170de49e7"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p5/review.md",
+      "size": 1307,
+      "sha256": "414046d79c8197e8280e16d681f67b56aa022889425cefebc0c547dfe4423de6"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p6/record.json",
+      "size": 10763,
+      "sha256": "c814a15840dfc1e5b29f5e7f1ebdaf41e9e1ed405b1b03082c1c13c331710795"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p6/review.md",
+      "size": 1251,
+      "sha256": "1243f1126c649763e3d05ba0a43811b36d5516d145b09f339cf30092d4299632"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p7/record.json",
+      "size": 9816,
+      "sha256": "2af98a62cbcc893f90ced7a985529798d7ff479235782043a67a1056ae7ffc2e"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p7/review.md",
+      "size": 1207,
+      "sha256": "865e0540d93d0ad3cd3c0a54f9a52cdc70851b5382fd0083f04bae7dd3056116"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p8/record.json",
+      "size": 9754,
+      "sha256": "20c7d3ea9595c79806e85a7125a12fe64683aa8edb68a84abee78c3f1941e380"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p8/review.md",
+      "size": 1607,
+      "sha256": "009d235d1ec1b42f297318788f57f8225c24d60cb9823870aea27614c0db1473"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p9/record.json",
+      "size": 13281,
+      "sha256": "45e80736edfc2e3708622f13b828b99a5376117506868223a771c7f5c04f89a3"
+    },
+    {
+      "path": "evidence/sources/bili-BV1QB4y1r73i-p9/review.md",
+      "size": 1808,
+      "sha256": "6ee1ef7152803896de05ee2fa0e16d4e7a6623b593e0f84a917a89afcc68eb66"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p1/record.json",
+      "size": 11187,
+      "sha256": "8c8d0c73b310cc8c584175892f0685cff80bc4df414a9afc3e91dd7c88849d61"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p1/review.md",
+      "size": 853,
+      "sha256": "de13a0774089972adec8866155b7dae77c05c9bdebe72b344de50a67b7c181f1"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p10/record.json",
+      "size": 12882,
+      "sha256": "0a9efe1732888c260e247bc61e77cf3bcc0fcf81f8e562bb025cacfa26bded81"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p10/review.md",
+      "size": 1034,
+      "sha256": "2046494851f056aa60f2658cdb0a68737b308bc349fa30f8c68edf19bda868a3"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p11/record.json",
+      "size": 9787,
+      "sha256": "b9a6ecd339ed1de358e23330b6e2104db51a9847300a3a5aa8a9f851292028f4"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p11/review.md",
+      "size": 860,
+      "sha256": "a811888b3164e69e740e5271d826e9f8bb856095078db34ebb66b0ab9ab8fa1a"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p12/record.json",
+      "size": 8779,
+      "sha256": "124b0b1b8801f77c6ff92bf61b554d8369066877a884ec3d7ca07d2c9499305e"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p12/review.md",
+      "size": 857,
+      "sha256": "4d8d1e281edadc9db3acacdc4bd34e23b18a129acce937a5b186b7e8dfe0557b"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p13/record.json",
+      "size": 9582,
+      "sha256": "3d9b3fed3b3c340339c6936041003f18230259854da393ae12189c42635f68c0"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p13/review.md",
+      "size": 977,
+      "sha256": "deab1a60ca805d225790205e16d9a6ecd92e78bfd3c7281bad735e2c6c423ed5"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p14/record.json",
+      "size": 6903,
+      "sha256": "9fc8fda4ab4f6320604751489b76859d903b4af264c4702b80092f50f5ec21ba"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p14/review.md",
+      "size": 1019,
+      "sha256": "b70fce8eceb56287cf0b9115b06532a770f1b5d7d17856ccf7926647405ec166"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p15/record.json",
+      "size": 8380,
+      "sha256": "fdbb5e171c496910a8fbe8ce4a4f09a4074fb504df16f1cbe93ca6fe6317908d"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p15/review.md",
+      "size": 1060,
+      "sha256": "38eec1d9d044a2ef7e7e043a1dcc4ecd355873bfcb97ed7bd57380fbee8e3571"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p16/record.json",
+      "size": 8953,
+      "sha256": "dd89eb921ce815976caeab16274ff5d6d17667b4e682fff8c9070d48dbd2047e"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p16/review.md",
+      "size": 846,
+      "sha256": "44adf2985d80446082313cef120e01baab0a5ab65976de539c989ec7a7874f98"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p17/record.json",
+      "size": 8487,
+      "sha256": "bbf1f796eb1578ad84a557feefca487588410393f149fc514a33a2df61fea641"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p17/review.md",
+      "size": 843,
+      "sha256": "fc0b70948bd4d59bb5f3460829c065a882676dbb9f55401e907eee1d84807e84"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p18/record.json",
+      "size": 7544,
+      "sha256": "58004e243dc84552acb295aaaf2ca47a7b77c5e9644fa0daa8d87d891f0e51f9"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p18/review.md",
+      "size": 831,
+      "sha256": "1310c32c3e0abe6e2d8a38a7fd97876806c565f081cbc6f5baf0bb4f8c74e0ec"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p19/record.json",
+      "size": 8918,
+      "sha256": "9cb9838a7308d73a22d3da42f7b8e27f816be29b9006de6785ef6bbf60328b1a"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p19/review.md",
+      "size": 1083,
+      "sha256": "6e014ad954121ee4edb0e3f3472bfe20ed517fe1d63140b899f5443fbf2f7eb1"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p2/record.json",
+      "size": 21025,
+      "sha256": "c709ec165676a720ac006c1eb7bccdbefe5d7b537d02a67e85fb22c9d3d0732f"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p2/review.md",
+      "size": 1472,
+      "sha256": "faa53557337c6fef8198ccc9386817600ed8ff172eebb9c3512b162b820575b5"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p20/record.json",
+      "size": 8761,
+      "sha256": "19847c91635ecbfeb7dd27a0053f01a12466a5849e3d7095aabb435c882c0890"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p20/review.md",
+      "size": 1336,
+      "sha256": "fa5eadfd6f27eb1547a481a9f4ec97d54cbdced0b4b6b617492194ed4804b414"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p21/record.json",
+      "size": 8431,
+      "sha256": "875da3649511c8c5482e60d9fc03e48fd2c2c6810e2b98d6a2352e34bb36f08f"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p21/review.md",
+      "size": 1360,
+      "sha256": "b5df181faac58816786df8c14c53780beca17fe1da5adeeed845eb5c0f47cbee"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p22/record.json",
+      "size": 7447,
+      "sha256": "d21dbd44aba4b431fb04443a36e9f59b4fd719aa6de49bb32b207b6459359e78"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p22/review.md",
+      "size": 1360,
+      "sha256": "878beffc020e476495e487b1288bb02383c43d4e4cfb8be8d5e7681630fea0cd"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p23/record.json",
+      "size": 7446,
+      "sha256": "4ce04bb3e1e4c12f0abf517b915e8445a30feffb29265aca2888ec3f98d63222"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p23/review.md",
+      "size": 1360,
+      "sha256": "bede19e6107277d5d44b90a1862649a3627f68bd84767594f40f20f8e17d7cb5"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p24/record.json",
+      "size": 9623,
+      "sha256": "6c1c29ae80a5f1e7861e26292e2a2e3e781f8c216aecd4c3c370eb2f878e3dee"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p24/review.md",
+      "size": 1309,
+      "sha256": "8d7d73129d1bb7af299f47dc04508dd98f72520350ec8ce3dcf1d2caf5966b66"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p25/record.json",
+      "size": 10115,
+      "sha256": "21d0971a3b2780c3555fafe041a931fd6f2817a0212426527cd62c1b3fec4abc"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p25/review.md",
+      "size": 1309,
+      "sha256": "fc4077d59823aa48bae5dc118a51071c95e91e8350ddc1ce51ad0b96cddff8f8"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p26/record.json",
+      "size": 11889,
+      "sha256": "b05bca545ca0f479f77c4a1f06e29ecb05b3c44044516c0fc22cebd2373765aa"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p26/review.md",
+      "size": 1666,
+      "sha256": "9b06801f20542b3cad7f29047ef972e7b4a7d00a3839abda7e587ae0007a3528"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p27/record.json",
+      "size": 11777,
+      "sha256": "06f46173d07e2aa584067f7817cae6de8f9f9013bf62b69c30c5773d36886ae6"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p27/review.md",
+      "size": 1834,
+      "sha256": "2e487bbd671abd38a019ff7d81de8ebb59a0657490cece22514083e6a42e4d9e"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p28/record.json",
+      "size": 10756,
+      "sha256": "8dee892e3b0ac3ebadfd2b8ff81bcfd8fd7915472b1ffbfb78cbf29bafee1651"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p28/review.md",
+      "size": 1522,
+      "sha256": "a1a5e579413bcf3507fb56085563927d61d52c848eb175a120d46e5024770edd"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p29/record.json",
+      "size": 9588,
+      "sha256": "3a77f9873e44f11179bd545ebdfed5165875c265a484eb12cea2e654d1b6b80f"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p29/review.md",
+      "size": 879,
+      "sha256": "9872630ac44bf68c3f4672163ee03640db8bd442f35949915ab9e1c5563518a3"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p3/record.json",
+      "size": 8819,
+      "sha256": "788dd6b5f5e648b08a64e23b51a5b06b3311c26699f7a64d028e3139fe6155d2"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p3/review.md",
+      "size": 862,
+      "sha256": "f0ce0e20623c0be35670d2258868db10d2ef2e8a1a7df3011543cb4c4aa22e56"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p30/record.json",
+      "size": 11124,
+      "sha256": "8a6dd11c91ef44e70936e4b1220e0c029574053a5a7b31bc97e7db3e983beab5"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p30/review.md",
+      "size": 879,
+      "sha256": "38e7ca771dbcfd12be3e1dedb5979fb09e4c5594b8c7fc38a43f8b2b965d3cd9"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p31/record.json",
+      "size": 9376,
+      "sha256": "db56e2ae2de90f0c96bae9fca63dd30aa1ade1aca116c99565c8294464ccbd08"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p31/review.md",
+      "size": 1039,
+      "sha256": "32297a7daa784012cd43d80dce67a262d9e06fce11d980593d26caddce1d700f"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p32/record.json",
+      "size": 8355,
+      "sha256": "885b57f1b84220489bdd8f1a0811efc16aead7ce5b4691f26e4df07e3f3e32f1"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p32/review.md",
+      "size": 1224,
+      "sha256": "ae4f0a0688e8a8af1b6a54114dd1b62bb78bccdc67365791b9fd0aa5cd64ebc0"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p33/record.json",
+      "size": 13365,
+      "sha256": "b82653cd7cabb872d7bd1c7af5f1c67cc53952187eadd60b5ce59f24e1fceceb"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p33/review.md",
+      "size": 2255,
+      "sha256": "9389f26ffb063f044c4040d51a8b29b07307c82feaa2c50c8981bdd8633be356"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p34/record.json",
+      "size": 10276,
+      "sha256": "5a867df1f02b7156be6fefa3d6420fa18bd3f0dfd0609b58d7756c69eb3b7d87"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p34/review.md",
+      "size": 1818,
+      "sha256": "10de5a6468e29244718dc89b0698744e0dd1d0c4d2bbef13e5b3b7006fe73002"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p35/record.json",
+      "size": 9193,
+      "sha256": "e3db4edfeb53bd5b6c5141998ba58039bc275aab50d9dbe336921d9f3f3fbb0c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p35/review.md",
+      "size": 1806,
+      "sha256": "c3a393889d4b3b79ba55fb472ee19709c0fe31280090080f28f22cbed6c97115"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p36/record.json",
+      "size": 10837,
+      "sha256": "0bcd27b4c01d511f9a86eac07ce6ad202406027204ae8d78e67cb9677445d1e1"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p36/review.md",
+      "size": 1791,
+      "sha256": "ceee59464a76aabda89492725dceebe2a487f6b6145e08384c67b6db8a455c38"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p37/record.json",
+      "size": 10252,
+      "sha256": "c7221c9e34be80a568900befcb609ccd1139962e1a45fbe4a3015c866552a9ca"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p37/review.md",
+      "size": 1335,
+      "sha256": "7464c418c8d74bd61d7189e3a561534bff9e39b8200efbea782c442e1588da7c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p38/record.json",
+      "size": 15472,
+      "sha256": "5979a3c50c1cab3fac2e71ebd120860ff25a5bf69ef8726cd144bd4c78eab683"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p38/review.md",
+      "size": 3043,
+      "sha256": "f956bff58cb647c3c47286f995d87022857502de2c7a4d33d934e0255afc1139"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p39/record.json",
+      "size": 14027,
+      "sha256": "778a72d456a26ce571179d8ee353f72ee20b2dbd4c364b32ef44cb35dd32d3a8"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p39/review.md",
+      "size": 2363,
+      "sha256": "ecaa75ae98e7311ed59bd3633eb458b123b08f399f195a18c5e0d683e2d31b74"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p4/record.json",
+      "size": 8249,
+      "sha256": "a2d16601b2f4ab358e626f466a388b8037ec295157292a8e741e3088ed1f3bbd"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p4/review.md",
+      "size": 1074,
+      "sha256": "476f19505cf952a322ef0641daacd7ec4e6faf6eba05ecd72c6bf36343a6efd2"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p40/record.json",
+      "size": 11781,
+      "sha256": "c51c6310a2618d7bd541ca6242e1265d4b6bab5622ca9557a860b7ed751b424f"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p40/review.md",
+      "size": 2010,
+      "sha256": "a40dccbdc12a71ead10df7083fc5bec154daf3fed7f3fad4f81fba7d065ad145"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p41/record.json",
+      "size": 7861,
+      "sha256": "05cc25457470a7d47a6f75192b509d267b317068f6eafe0983017c814184abc0"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p41/review.md",
+      "size": 1295,
+      "sha256": "b65a16f93dd59afb665f099668c7779fa888d979d5406427d6dcf5c931517d2c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p42/record.json",
+      "size": 12436,
+      "sha256": "e85a7e879db962f90d48fdb2ea3cf48066b93247a96ebe565ad7b101319a0ba0"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p42/review.md",
+      "size": 2156,
+      "sha256": "e71235e159dc9961ce2cef15a4cc348fe55f11b7178484ef824d259de4268a45"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p43/record.json",
+      "size": 10852,
+      "sha256": "4cf6ba9eff7a4a954854d1900f94a3b7f94d45525ebb05717e2c3147db62863e"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p43/review.md",
+      "size": 871,
+      "sha256": "86e60ababde6092d13d8508b68ae2173d75f71122fe5c1d05bba11834280910c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p44/record.json",
+      "size": 12157,
+      "sha256": "a2843843e85226fdee26724634bffa2533103b054af13d4ab0097257557dcf49"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p44/review.md",
+      "size": 865,
+      "sha256": "df780b96ad2237b54b1ec79d351033ae2d2cca50eeb5421f0c50fda4c4a0f8c3"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p45/record.json",
+      "size": 10685,
+      "sha256": "b2d678b5dde47f15935ec79657304df75ae2bc931184d5697b3a14a9e5d50ce7"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p45/review.md",
+      "size": 1914,
+      "sha256": "a263d3fb31fa7764e1285ba83bddf291f451af1ad70cf3777770b1e058a213e5"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p46/record.json",
+      "size": 14042,
+      "sha256": "6b89cf0b78236e4ff0dbed706e838822bb77d3886cf74e2adb40d31ee7e1934c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p46/review.md",
+      "size": 3002,
+      "sha256": "17099e58350fcd2e83a2381526fee9f185eacfefce39ef88e3301d5de44970b9"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p47/record.json",
+      "size": 13064,
+      "sha256": "8a6db03f71423085b1058f5cbefb5f01e04f1bec4cca6409910eb907543e7cbf"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p47/review.md",
+      "size": 2694,
+      "sha256": "bc44e46b185b3af75945a314bf1bcfca845add55c8012ba854b119bfd1234cb1"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p48/record.json",
+      "size": 11426,
+      "sha256": "7e8c6d9a04f255153258df432d1135a8bef0402cd8c1699fc6ff3c50a586d919"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p48/review.md",
+      "size": 1393,
+      "sha256": "29f7dfe055fdbe057deab5d7d39064f2a6eaa19399322b8d553a5cc0b418e4b8"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p49/record.json",
+      "size": 14784,
+      "sha256": "75714e527e5e71b6ec64cb906ae087011937f4813075cb55d9043f066e9cab5b"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p49/review.md",
+      "size": 3209,
+      "sha256": "1c2fa36ca91088f9d122fedcaf867dbe2749dd6db8eea8063c55b437b656af50"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p5/record.json",
+      "size": 10226,
+      "sha256": "6a64c0ea9309e22373287415c45def67a77bc113fec939d6464b9018a3473179"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p5/review.md",
+      "size": 1087,
+      "sha256": "2756ac3710f1c0cdcb963a165d8591056868a570ec334541ef1ba54e75e9f75e"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p50/record.json",
+      "size": 18535,
+      "sha256": "8c83197223f3f72263f61112211abaeb92236ae4a073e691c49e11f24ce8b3a7"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p50/review.md",
+      "size": 3209,
+      "sha256": "e2a70fbec4c84ec00787cc16f396f0affc48c921f4bc15eb03da98ff48be9226"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p51/record.json",
+      "size": 14181,
+      "sha256": "b3c707badcf81efff9efecc28379ee54ac6ea55a391eb3bf6f4defae08f568c5"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p51/review.md",
+      "size": 2037,
+      "sha256": "e32505feef487969ae62309610f8e55b33c7cbcc0fb0dc2657b16747db769932"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p52/record.json",
+      "size": 21883,
+      "sha256": "64aee52cb7ef35cd24099ecd7b5a866f17f13183f64c11737deeb6852dfae727"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p52/review.md",
+      "size": 2256,
+      "sha256": "28053d404e56adfd903eb142ea77886c5576be3552eb1c0eaa7cfea95705070c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p53/record.json",
+      "size": 17594,
+      "sha256": "3500ba44461e45abd22e630589a9c43a84c5f004924b56f2a67e007cb5f124c3"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p53/review.md",
+      "size": 3332,
+      "sha256": "8e4dff7446063996860de9cb2627db80a4466d18eaa00b0e303264028003e3ed"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p54/record.json",
+      "size": 21345,
+      "sha256": "7514e5f1842fbe0b169f0d9c0a8baef9985f1b870267d8bbcb36458185ec4f73"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p54/review.md",
+      "size": 4735,
+      "sha256": "1c6d1fb994c663d976b917363cd894289ab63d9d0d16e10157dc8cec0cda9ea1"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p55/record.json",
+      "size": 14661,
+      "sha256": "ab922c1aecc4a49522017c83974105fea8b610b4750906f6ec127dca634b184f"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p55/review.md",
+      "size": 2435,
+      "sha256": "7388c5841dbf804319ba92ea47439ff1891cf7a237f9bdf714008d4858b9b4e4"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p56/record.json",
+      "size": 9368,
+      "sha256": "a2213f8a34e025394ed3353e6eca54e97ca33cdfe66d9619273a35935efd89a4"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p56/review.md",
+      "size": 1815,
+      "sha256": "2186403e91f20a00457f0fe97aca71356010bd4dff1a24a707b4954595f0fff1"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p57/record.json",
+      "size": 12032,
+      "sha256": "7ed4a7df378ed3342fb657f1d20c4f981e92b7b060a55cd120e96fd657f55087"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p57/review.md",
+      "size": 2216,
+      "sha256": "2c7be826ea4ee4a91d214117de39949a44ff0d7416b1e041a30bc6875202fd9f"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p58/record.json",
+      "size": 12602,
+      "sha256": "838182be444182519ce2f3337baef118de11e3516afb0ef6c5b24b3f3486ae03"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p58/review.md",
+      "size": 2780,
+      "sha256": "327c00370ecddf7625444ab9699186a36700496c9bbf912376b3022f0f1db194"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p59/record.json",
+      "size": 14589,
+      "sha256": "77d46d99dec761d9d0f20ac84ea98d84452430782520a9a1bc06126bc0e41a66"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p59/review.md",
+      "size": 2760,
+      "sha256": "bd08207346a588968bad0bb97598d66f55f8fd947f2f9e86378f7ea803367a03"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p6/record.json",
+      "size": 7849,
+      "sha256": "8794e60507d43f33efe51e041196034e3c9e376a22febeff340009201a1026d9"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p6/review.md",
+      "size": 859,
+      "sha256": "42909f30f7f9947fd6ab4608fba3f777634d9777d2ddbd69783c0084b25a46f2"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p60/record.json",
+      "size": 11720,
+      "sha256": "f710a0dd4a631569354d7a48ffc69392669b2d03e98175e25e219a2f2adebd2c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p60/review.md",
+      "size": 2554,
+      "sha256": "08fd89b652f2b276f9dbab0ee10dd19b65285837a6f20f7d46dba45513cbf4a3"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p61/record.json",
+      "size": 11805,
+      "sha256": "aa423912b21a9ea59e38e525f31d8d092fc91566533736a8aa29eb1d8d3eef0c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p61/review.md",
+      "size": 2552,
+      "sha256": "7d299dd202a3e4bd10122a55991e1f26fc951ca1c8165228205cd3e038a4620c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p62/record.json",
+      "size": 14162,
+      "sha256": "84b8c10c0f3ffd7363ec5acd39f3446c3f0788514ee5f2d9e1f4e1cca51c3491"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p62/review.md",
+      "size": 2400,
+      "sha256": "683ca0a2f0b8778829b77184eb83e66d24b23a06d01c6305de29375863819c66"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p63/record.json",
+      "size": 8633,
+      "sha256": "ee02171fe72782176f7c170ce06ae02a1ee7e5b0b550d26368b960633d8b4513"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p63/review.md",
+      "size": 1550,
+      "sha256": "3e62ae70db473c00e7f887d09840b02a99ece268322155fb31775649aeeb28d6"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p64/record.json",
+      "size": 10723,
+      "sha256": "7f577d56f4a90dd26a38dabd7e9eab392ec57b0f6d079f978cb8e554593d6d0f"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p64/review.md",
+      "size": 2155,
+      "sha256": "a1553d1e88b1955167a35b0290fc4847a1ded690c24de8910d59f169d7c8b575"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p65/record.json",
+      "size": 8854,
+      "sha256": "8fc5c9baa2a999f9f697b2165ef5443de27bee04f50fc82404b67b505dabcfd6"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p65/review.md",
+      "size": 1952,
+      "sha256": "c95e5ffeed2c9b15fb7d79a12220e13117f140d2e9a40f5bad4589cc7a21de72"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p66/record.json",
+      "size": 8222,
+      "sha256": "22e26064152196699d55aef6df9410ae950bc355a926c305969476d4c8a265bb"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p66/review.md",
+      "size": 1584,
+      "sha256": "67490c04892509ea05c27289a202e6bcaa60a4c4baa449fea91a247ff83fcec8"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p67/record.json",
+      "size": 10607,
+      "sha256": "a4e626191cd77af364d8df8f0f9185928f0246fba11916f6cf85091d50d7aae8"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p67/review.md",
+      "size": 2089,
+      "sha256": "859e6c09999d3b3cea74ef608b860372bfcfc7384a6e685c690d33e44b99c48d"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p68/record.json",
+      "size": 10584,
+      "sha256": "f973fd6b10c6748d3ad49d9dad03d877255a2d1a57e79b1c1c473fb4ca6bc1bb"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p68/review.md",
+      "size": 2097,
+      "sha256": "51f891e270edfbdc2d3ff6c72041f72809ec430207c15fc9b3d2914d76cede12"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p69/record.json",
+      "size": 11504,
+      "sha256": "3f76c1ca38375a489d0f2b901032808798731c568f3f5aa11f313ff85df142a7"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p69/review.md",
+      "size": 1761,
+      "sha256": "091a26565f5a40cc42deebd95f5d41d53882ff1d5ee8daf7ed6de2320cfbb7b6"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p7/record.json",
+      "size": 7813,
+      "sha256": "7e2646e2a6a14e7089caf0a6a7a75f7e516ce89357a2704c6a71642af90117ef"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p7/review.md",
+      "size": 841,
+      "sha256": "5bae9eec2c842e1329636505531be8ac619e83cdc8132e668cefaa72d1abb644"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p70/record.json",
+      "size": 14264,
+      "sha256": "647794323445456a578d4c07900ce8998c34961d354d3cf4b58224769f564bcd"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p70/review.md",
+      "size": 3094,
+      "sha256": "fa386c6eea15ef4f446e86bd7b30873fb1105728f8108ec6cfad204658385527"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p71/record.json",
+      "size": 13820,
+      "sha256": "104ca15bae487fe51654aa07dff4b00b06cdfa0dfc7d87040a41f64b47a9057f"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p71/review.md",
+      "size": 2813,
+      "sha256": "45e99d7620937522ba23121ff570fe076bec51ce117296633989d9d17d5b1a36"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p72/record.json",
+      "size": 10769,
+      "sha256": "5ca88ea14fb36a0f02ebed7d5de9b17fbef4c0a230ddb1e2b6634a838a043804"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p72/review.md",
+      "size": 2236,
+      "sha256": "d877112f91303d89e49f1baa7ff16b84b0a1da538f15e07a25c8fc9b73bf5990"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p73/record.json",
+      "size": 12249,
+      "sha256": "ad1a26932a42781d8f993f61c1c23cc6cf677dc983f1002ee932e0651f125481"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p73/review.md",
+      "size": 2438,
+      "sha256": "874e245d529e8058d883c766243115b9e94c08640061b8beb937e3330596e7cd"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p74/record.json",
+      "size": 13385,
+      "sha256": "2de9ff16a24c08e9c46aba2c1ca829f9fe4c5ad09192fc1fab449847fd6ff518"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p74/review.md",
+      "size": 2401,
+      "sha256": "cbfced674222c5707c95345adf54b5f72a13b12ffcf217f274410801fd0760c7"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p8/record.json",
+      "size": 7375,
+      "sha256": "200525538c8ba8ae2e27c19450fdceaf6f71f6b54ecb0448207341a638422b06"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p8/review.md",
+      "size": 844,
+      "sha256": "c5916061d5c2acc47df60aa9aef6646c9d476484d2a94d7317a2d42afde1df6c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p9/record.json",
+      "size": 8186,
+      "sha256": "ad925dbe9383b468b244d88d896d2e28c72a0a878abb4baa56a58ceba1c645f2"
+    },
+    {
+      "path": "evidence/sources/bili-BV1dE4118731-p9/review.md",
+      "size": 854,
+      "sha256": "5761eb71075b9ebd4a4b11411b9ae5f57f85e8fdd903f7f1d114a79891743303"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p10/record.json",
+      "size": 12481,
+      "sha256": "0c2d3c874c41a3a7208be7c12e1312cd700e3635e2707870bed654a0349ad136"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p10/review.md",
+      "size": 1507,
+      "sha256": "58ed46895bbe295883eb2858be08e54c10bf836b1a6ec14f300fcc3cd7794f48"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p11/record.json",
+      "size": 9687,
+      "sha256": "fc95f837ac112605a1333368e4a470527f6b3a188d815de58d99678a800f097e"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p11/review.md",
+      "size": 1516,
+      "sha256": "90c3378cb3be991c8f4371996e69459f8fd510fa576e95089c575577257ba1f8"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p12/record.json",
+      "size": 13104,
+      "sha256": "c00b445084498168fabc4ad9203d5a9d32654cdc68eeb08c4224575a31c77e74"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p12/review.md",
+      "size": 1516,
+      "sha256": "a17b6a91d1ebcf0ad912f2ececb8e066a8bf6cec48b8fdf4628abc1b26ac71f0"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p13/record.json",
+      "size": 18129,
+      "sha256": "8443793695b41941ce4a74d14f4d6f65c4b90f867b32e44785be8fb33c212486"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p13/review.md",
+      "size": 1644,
+      "sha256": "06c71fcebaf724c42c8d2a4e6c209e98308033d5929dad0065b7dbfbd459e851"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p14/record.json",
+      "size": 16682,
+      "sha256": "c4b7d15eba1ed69ab46c8bb00474ad28362c70812aa74988e79d8d7369d3c4a4"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p14/review.md",
+      "size": 1559,
+      "sha256": "489b4578a62608683339dfde507ccbf724e0d709769548c410e41af0a5dfafc9"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p15/record.json",
+      "size": 10301,
+      "sha256": "ef62722c9216c169109e6938d33c87a1fdaea0b281854ffaf997a6ac9c51b6a7"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p15/review.md",
+      "size": 1133,
+      "sha256": "084f3d4fa295318e0cc37ce8d640af139d56d2121312341c62e3b825e657e2a6"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p16/record.json",
+      "size": 8626,
+      "sha256": "be73cf3a3f5005a09825584f75aa808c00f55b534130a391cca6b73e44e49b31"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p16/review.md",
+      "size": 1133,
+      "sha256": "57ac76a5699ba9229ed6646b371c3cac26af6afee297e4d8927b15f50e6200dd"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p17/record.json",
+      "size": 11431,
+      "sha256": "66724a12657450d8d4ac75135d955de1f29891839ed73ff242d4f89a9c620b3d"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p17/review.md",
+      "size": 1133,
+      "sha256": "5f3bbef5757ebc2a1ae9b9e337955d235152bed32328cbb1810e0ab543ae3a5e"
     },
     {
       "path": "evidence/sources/bili-BV1eE411F73t-p18/record.json",
-      "size": 23286,
-      "sha256": "067ec0391323e7fa6bf8605399415711f9bb0af7ccac6643e7b9ad57a9f8a51e"
+      "size": 15283,
+      "sha256": "7fdb4ca62640e226977c4fecd54f19d1ea910f0e24cec22edce2e8c1de1fe1d2"
     },
     {
       "path": "evidence/sources/bili-BV1eE411F73t-p18/review.md",
-      "size": 2429,
-      "sha256": "340b607bb4917d4333a716b94045bf071dd5ab28287e48b60750009804f390bf"
+      "size": 1672,
+      "sha256": "b8c3039c0f7d748a2ab77a784867e98dc181507b200808a7ffe237d1c4bf78f5"
     },
     {
       "path": "evidence/sources/bili-BV1eE411F73t-p19/record.json",
-      "size": 18404,
-      "sha256": "47484fb58b83fe10edebb23b82667739473ee04a967ebf3bdbe241ec2650501d"
+      "size": 13455,
+      "sha256": "5fa04b4cb661a9ee6085af04dda3848fc19cb641d4679959b698165df9f022f1"
     },
     {
       "path": "evidence/sources/bili-BV1eE411F73t-p19/review.md",
-      "size": 1878,
-      "sha256": "3f1708b27fa4064a239232613dfce086bea91da95c680455973654f1d9abe3f7"
+      "size": 1671,
+      "sha256": "4fea53d2a8294833f9ccd8280fc1bed8c5bba807f85a2bc020baf82784312bb6"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p2/record.json",
+      "size": 8834,
+      "sha256": "f6032d871a7de3fe03495f871e5c657ce71f12809bf3c609569b7a53bcd8b8df"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p2/review.md",
+      "size": 1186,
+      "sha256": "1f6e194fe4847e70b525d229d6e5fbf2d58576358f13cce581049b638cbf1daf"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p20/record.json",
+      "size": 12885,
+      "sha256": "b806681c951cab62882f850f442d42c612f5607abdd5c081bd2606a4d7d48490"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p20/review.md",
+      "size": 1486,
+      "sha256": "63157c7c819f9b0387cb273ae7a32f3c5c35e150d494794afd70fb1f649fcb8c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p21/record.json",
+      "size": 10006,
+      "sha256": "7f7ca81419f8c01740aa0d24c59e043646151867903e20609a7008ebe57c6c06"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p21/review.md",
+      "size": 1484,
+      "sha256": "a4ed6ef196da870b67572d07ed93e798f4a468720af33fb620c17dd6405059d3"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p22/record.json",
+      "size": 10767,
+      "sha256": "7aa274e439fe6ee72a78f7e5915aa700793f3b22692e54f520cbde9400a8752f"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p22/review.md",
+      "size": 1708,
+      "sha256": "2368919734934378b10b00d0f9c3b84771c1e5155290ccc62dda1180f3c5993e"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p23/record.json",
+      "size": 13278,
+      "sha256": "44b6599e29f432fc159f8ca9962363e65989d2b8dc26c2bce693568f74974c7d"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p23/review.md",
+      "size": 1708,
+      "sha256": "18aa189bfd8d21ac039a8af4af737ef68cf3ddb0177a19f3ee2e6b02e25b3346"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p24/record.json",
+      "size": 12341,
+      "sha256": "d4ce66d17709f3fb4832990c6553086b5b6a61a75c6454581b3a647bf010cd6b"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p24/review.md",
+      "size": 1708,
+      "sha256": "0ceebfa1daf5b8421df706e7982da47d5af534ea83832c0b9fa3a3e15087d46a"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p25/record.json",
+      "size": 13144,
+      "sha256": "b8f31164399a25bcdfe1a97cd0f79de569928a3208ec3ab1e8599a5eadc7de68"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p25/review.md",
+      "size": 1850,
+      "sha256": "8c31d8314e0a84d93090b97c22ae90ba4397fa8c21d795186711277e653e8360"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p26/record.json",
+      "size": 13646,
+      "sha256": "4e66403062ad96a903282080a94b388114921b42845f5e69cd2516980e99c7f1"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p26/review.md",
+      "size": 1850,
+      "sha256": "45e93773d4f3119db09820ca1d91437807cfa5589aa92c579ecad50521ccef9e"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p27/record.json",
+      "size": 14213,
+      "sha256": "67299ca655cd074820cdc4115b72641cdeb3dfe9c219588bf212bab0de3507cc"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p27/review.md",
+      "size": 1850,
+      "sha256": "f74097b13704d1c4c5255a21f8519c777cead6913ec02dc4370854ec0358be7b"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p28/record.json",
+      "size": 14525,
+      "sha256": "3d53dc0deeb90afdb6628462d71901c276374b9c15aef148e7f1a12f7fb69037"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p28/review.md",
+      "size": 2157,
+      "sha256": "1e687c9d155a053e754367fe543cd89eddbe4a574da4446660206289fb5eb57a"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p29/record.json",
+      "size": 12593,
+      "sha256": "23562da436147161003addd43b0d093cb5960a419825b5d8557577d22d452f26"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p29/review.md",
+      "size": 2157,
+      "sha256": "2c7c5722c0eaa5a03e8b9acb5d5deaa4d7e7af1a4283076fbc19f8e3622f5a5b"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p3/record.json",
+      "size": 12122,
+      "sha256": "7614c05e8dbf663fcda89918d1a9493585c6b59b6d9075fa07f73a6622849b60"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p3/review.md",
+      "size": 1186,
+      "sha256": "1d66282d25336e8319a7448c286e847374f9b3b2c6c573ff3045b010654445ee"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p30/record.json",
+      "size": 16001,
+      "sha256": "bb451c3c9205227c90c662be74976802de6e96b55b6096c47269ad4491129528"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p30/review.md",
+      "size": 2157,
+      "sha256": "b468b12b23dc671002cdd57c064160c5d0ef9115572b15c66dddaddea81e34ae"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p31/record.json",
+      "size": 15621,
+      "sha256": "b1e7fc785377fbd6f467ff0b8c52a3fdf1c164dd2f83c6d60017dc73ce88e742"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p31/review.md",
+      "size": 2157,
+      "sha256": "125951c59fa300b0ed06286b634f5663d0ef9c3e86ec58ac4c48bcef0e820a33"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p32/record.json",
+      "size": 9598,
+      "sha256": "d5e0fa8199a311eebd2873d9686dc8e02de630b18ce00c63ccc3f38c4fbdbdb1"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p32/review.md",
+      "size": 1122,
+      "sha256": "0e47d83ac50810b09ecd904a15558e1732e823c643dad239b96a1124aa5311aa"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p33/record.json",
+      "size": 11389,
+      "sha256": "568e9eac1c141dab057bef4af9ffaca4278b1d1b5285d4a28b07b3454e25fe30"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p33/review.md",
+      "size": 1122,
+      "sha256": "60af476c2dc41d5fdcd9d04da1d37c18ed502d4ef3ed7426f0326fcda7acc5fe"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p34/record.json",
+      "size": 9698,
+      "sha256": "57d565bfd29cb182605344238080d4a7da1cbd93e72955defdd4f70460fc6582"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p34/review.md",
+      "size": 1888,
+      "sha256": "4bfe81cf13fd4f272f5bf5738ff62d55c826fd9def7161206fa3d4031e8a2e35"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p35/record.json",
+      "size": 12154,
+      "sha256": "817388020da69f9f7602e5b52e747265edc91283b65e820a752eda700138900a"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p35/review.md",
+      "size": 1888,
+      "sha256": "900a57791129d9f456b3a0e8aef8a549aa8ffe353e38cbb41d59b734b34391a6"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p36/record.json",
+      "size": 7757,
+      "sha256": "291994680c4e7ac93218fe6e7e495e2f2d8700261678e5b8863a86d66a35bb6c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p36/review.md",
+      "size": 1887,
+      "sha256": "b0fa4a0570fca4d3315b0a04b59c13df885a7dfec0664a370a4ce462f4b022f9"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p37/record.json",
+      "size": 10260,
+      "sha256": "66e8bf1e687b8766822793b1440778697d4134764e4acada0581582b3c7d1de3"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p37/review.md",
+      "size": 1887,
+      "sha256": "392fdca2b8ab14ffc3ce53b3f7eca2cfc1d379126b908dde8fc7fc97335ab92b"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p38/record.json",
+      "size": 17564,
+      "sha256": "3f0aa51e9177b305ba124988b74809ba015817d14d317ae064d8e527280646b0"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p38/review.md",
+      "size": 1786,
+      "sha256": "ca4b9fcfdb49ffe47e6e80ea80a6c009bde485edacb0c4ac4a66301572c67682"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p39/record.json",
+      "size": 18077,
+      "sha256": "b42987decf5472488caefe1e1dc5e7b837d2fce1c045c5d6e6b144c9bbf420c3"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p39/review.md",
+      "size": 1132,
+      "sha256": "d8f21831559cfe77a064f7556f33f799e8eca123d46b5c33c9b742e76d1773e0"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p4/record.json",
+      "size": 7501,
+      "sha256": "f4b41bd5eeac112cd4ab8a808a1346d7aff7eb6a3d706b3fbf732a82d6644363"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p4/review.md",
+      "size": 1185,
+      "sha256": "f78d9b2e039feebbbc24ff6d26460e01158962808bfcfb5ae2140268c57996e3"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p40/record.json",
+      "size": 18249,
+      "sha256": "39cbdcc6d0702528bb64e8a99b0055b83dd5235f60190e2d7c01a0b2829826f0"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p40/review.md",
+      "size": 2927,
+      "sha256": "c29018ff2d7d80930593604e3bfb15a291c402c4beabb5385a638c62985bdfa7"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p41/record.json",
+      "size": 25021,
+      "sha256": "8197935021a8ecbab69772f1d3d3bdd03e5c3446e83f892e516b56f6bb43a165"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p41/review.md",
+      "size": 2927,
+      "sha256": "ffcc87300064ccda3b3950f89d0f12ecb584d888c330b266d9c436ecdc9f6d87"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p42/record.json",
+      "size": 17170,
+      "sha256": "05ae176b01974c219db7addbed606c31850e1a53eb59e5d8c3de3f062b0ec333"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p42/review.md",
+      "size": 1317,
+      "sha256": "f36d1153f121459113fd57370dbda0409b0b1aa050b4bcf5da232d65eee8d1dc"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p43/record.json",
+      "size": 22022,
+      "sha256": "7ba42b2f9e926ae062fabf3c43e6956c6230bd151b843492f218475b4cc0fe13"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p43/review.md",
+      "size": 1127,
+      "sha256": "1f130abb55eea2e1a53a436f497be129ae1f956f0f727b6fa45c71e58b1b1253"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p44/record.json",
+      "size": 10137,
+      "sha256": "6917a0203db9eff2c093118859099f157f26dbf606e65f27bf40330e0eb04c56"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p44/review.md",
+      "size": 1238,
+      "sha256": "2bf908659f7014a90640997246134b220b253f69ecc48c725b396b28ba2a4a93"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p45/record.json",
+      "size": 7659,
+      "sha256": "8f9bda846d5bbb0783971adfc4bc217e2011354098ddaab1a366925eaeb3a16f"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p45/review.md",
+      "size": 1237,
+      "sha256": "a145673b05ebc1e1b5a394fab3f5e266e76de63034ac37351916c6992afd19e4"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p46/record.json",
+      "size": 14910,
+      "sha256": "bd9f4dcb76b007295c28d313eac98404962ffb6d2146b57442913bc986ac140c"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p46/review.md",
+      "size": 1345,
+      "sha256": "189e6800188656b988fd853913b823811a6d46b8a4459eb61daf3cf3f5e6f754"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p47/record.json",
+      "size": 11587,
+      "sha256": "01a15ee6c2ac6982cdce6ff1827108a471155a62bee8782a20c1dae010fbf041"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p47/review.md",
+      "size": 1345,
+      "sha256": "e14896ccdb74d36391c861061be7a30eca926e4fad35a76b35683d1ed5bc7c82"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p48/record.json",
+      "size": 8187,
+      "sha256": "43daec94790ab10fb66271a43e91fc2cfab46a71302cae01b99e287c1eb1b78d"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p48/review.md",
+      "size": 1329,
+      "sha256": "9d92eb9baf152527553a78bad461a4343ce4c96fe326f7b9f9905f4266d45696"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p49/record.json",
+      "size": 10317,
+      "sha256": "2c846bfe056f8bef333922517bfd1b51c083110d43489dab2bb3b8f6751b7ba1"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p49/review.md",
+      "size": 1331,
+      "sha256": "8a78f81d554c5e55896e24e28aef3f252289a682e4c7727c461299eb992f9735"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p5/record.json",
+      "size": 9015,
+      "sha256": "2a990a6f2c35f5cd830704bc5f1700b6fbdf0585808479d5e3d583cf7ac1427a"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p5/review.md",
+      "size": 1229,
+      "sha256": "a6bf6edb5d1c3abeb5f5531e9f741912343f2eff3603b9633198b0febd9865be"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p50/record.json",
+      "size": 18673,
+      "sha256": "5541471e43787a950141f029335d00c4324eb6715be097a9c7cebeb6db607bab"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p50/review.md",
+      "size": 1270,
+      "sha256": "5f4fabe8039e670ff8eb14a8f0f403aadc8b9bf370110c267136c2d22129fe86"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p51/record.json",
+      "size": 17412,
+      "sha256": "9d5261cade09c6f3b4488a3d6971f84fb872cdba87a57bc1701769b963bdaddf"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p51/review.md",
+      "size": 1275,
+      "sha256": "85aa7bc50f2285d6dd93a85086fcc016ccc40e97cd046de6ccbcaecfc6e6592d"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p52/record.json",
+      "size": 20084,
+      "sha256": "46328d09490660e93a845a13615a4ada547117389563fa536317e3a0414f101e"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p52/review.md",
+      "size": 1017,
+      "sha256": "bd2f1e850ecba02d1591b6ba89ac9f658e48113b102b47c7621e61f7e043d7d2"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p53/record.json",
+      "size": 17915,
+      "sha256": "dc97ec380fa41b9478b1d15e12cb44edb8ad4259cf3249f19c36cf9f3c355e88"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p53/review.md",
+      "size": 1350,
+      "sha256": "056c3f4bd8f9069c2eb09c16129fdd952ba41b4ae720eacee320b7dbc5202525"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p54/record.json",
+      "size": 26079,
+      "sha256": "0a9d04d78b2c4bab1b1430df732dfe312c8dcad238d65f81a5dc1683c047a289"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p54/review.md",
+      "size": 1511,
+      "sha256": "be40af9250cd04f3563896c27b3e70fa505103fb0f3ffdc0c7875d0060e01869"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p55/record.json",
+      "size": 12051,
+      "sha256": "7bc09d231521559c8b2fa9142ef63def56871c1e0018d459d63c4f3d70ea2e11"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p55/review.md",
+      "size": 1052,
+      "sha256": "adddc6c9c32d19d5ba9886d087b321ad568ff47478494a1c614d151c6280688b"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p56/record.json",
+      "size": 26831,
+      "sha256": "3556ff33a80b84ba43f29d450ea0488ecde18ae192978c0526f5d59288997424"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p56/review.md",
+      "size": 1625,
+      "sha256": "1e45d641088a8009db548d95ea975e35bfc4ce30999244788dcbc2eb3eb6f064"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p57/record.json",
+      "size": 26111,
+      "sha256": "4a0b2014c4a6d561025be337de264cae91cea02416e4dcfa856f3ac9e09e495e"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p57/review.md",
+      "size": 1887,
+      "sha256": "d2dc8b33a1f9d8fa5d72c485f88e7495361c8a8141c64c3aabb5e22231cdefba"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p58/record.json",
+      "size": 32740,
+      "sha256": "7582d4e5546485360fe91532e843a1b13ea81d40ee636c89e1f905b59acf5ab7"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p58/review.md",
+      "size": 2069,
+      "sha256": "0347f8ebb90f4391c64e1366e8baab0da22700394960b78851570fae2cf29177"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p59/record.json",
+      "size": 16091,
+      "sha256": "81603f6ab53ae0f9279fc0accc7d8e0a6e3132593380baac16685c7d8a0db1aa"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p59/review.md",
+      "size": 1843,
+      "sha256": "7ff64464b12fd998c4eb038506521a11807af2e4bd535c611b5e083f3ea4f7dc"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p6/record.json",
+      "size": 17544,
+      "sha256": "ac00b33ee721ac005fc7f70ea3b47276f7a206c6f2f3f915c94efd220141b42f"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p6/review.md",
+      "size": 1230,
+      "sha256": "73aa746e57a674c6f2eb0aa72c0c1d42d7f4b2ca26a7d635e53982ab643297e9"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p60/record.json",
+      "size": 16676,
+      "sha256": "d9a6788cffc60872e34c8af11905e23c13db8742b387c48142db887a23c567a8"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p60/review.md",
+      "size": 1171,
+      "sha256": "e32d76fc76cb9aa4263bff6483d02621e331d51fff4cc42d67cdf01a740902bb"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p7/record.json",
+      "size": 9511,
+      "sha256": "ee3432fab33dd87c98fca48e6cedd690314943c68fa142f4bab700fcb7a0c11a"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p7/review.md",
+      "size": 1209,
+      "sha256": "d2ff65aca099f567b677bbc61b2c9385575b5f963ba96057b9c66cb4d8455639"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p8/record.json",
+      "size": 11474,
+      "sha256": "e44590c9a561a9b6f11f8e224c93f9a56ec83afb4ce4375e47934efc23f198d7"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p8/review.md",
+      "size": 1210,
+      "sha256": "da139b29f6a6128beaab63eb718fc345f786028c6b840160405aac8ac43c6618"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p9/record.json",
+      "size": 12349,
+      "sha256": "9a2f8585792b6616dc0420396a6de423c01b2c849410fe7385e2b1a9cd5a11c6"
+    },
+    {
+      "path": "evidence/sources/bili-BV1eE411F73t-p9/review.md",
+      "size": 1506,
+      "sha256": "3cb3dbea1c6c437071e16eed94a637a8a1054c553bf359d848828fb6d573869b"
+    },
+    {
+      "path": "evidence/sources/charlie-p60-pending-20260930.md",
+      "size": 2575,
+      "sha256": "02e50fa56f7e94c25e014963705828f738f9fae511281e5cedc9a0eccfd45b4f"
     },
     {
       "path": "evidence/sources/resolve20-editors-ch03/record.json",
@@ -331,8 +2172,8 @@
     },
     {
       "path": "scripts/release_core.py",
-      "size": 33399,
-      "sha256": "9b3cf33c9e949bc9f636eabf95dad80f549bba190037dc9be6d21d3580b6812a"
+      "size": 40223,
+      "sha256": "823894f419dc3beecc7e7740e5038c208d710aa46aa2bd5c942a0d2e1569fdbb"
     },
     {
       "path": "scripts/test_github_backup.py",
@@ -341,8 +2182,8 @@
     },
     {
       "path": "scripts/test_install_skills.py",
-      "size": 3313,
-      "sha256": "4b03e137bd3c85f8862d79fc4d8d4690bcaa96e9c66976023e4b7b61d804fdad"
+      "size": 14421,
+      "sha256": "4f1bd193bb0949f4fc76c4d994def7345d5bcba356703e2fd2a61fd7dbcc3db3"
     },
     {
       "path": "scripts/test_release.py",
@@ -351,13 +2192,13 @@
     },
     {
       "path": "scripts/verify.ps1",
-      "size": 1458,
-      "sha256": "13aaa4e4809b5bfda77ec6367c396cd54daa625d4c2451a9f4f2fb2a23da846e"
+      "size": 3091,
+      "sha256": "3ca2b985b4a704e6c8aedc079be8485d945d2f1c2882066197ee7537578913bd"
     },
     {
       "path": "skills/apply-film-knowledge/SKILL.md",
-      "size": 4087,
-      "sha256": "954da27eb0f61f11905350694d5f0ddf6e49dae7e2f2a9445f5b2553e9ad15b1"
+      "size": 4333,
+      "sha256": "9201a9c8e47f6d487257cd2fccaa5b14057a9f1f297bfb4e2d6ce8b414998263"
     },
     {
       "path": "skills/apply-film-knowledge/agents/openai.yaml",
@@ -371,8 +2212,8 @@
     },
     {
       "path": "skills/apply-film-knowledge/references/application-contract.md",
-      "size": 10303,
-      "sha256": "f3f56e86ddfe6e8858f0356df3db6a5ad44e69598618cc851c42937c267cac5d"
+      "size": 11482,
+      "sha256": "0ebc9ba2964cf68e985db4afa13229ac17a84780686668956702158056f3b95d"
     },
     {
       "path": "skills/apply-film-knowledge/references/eval-cases-v2.json",
@@ -396,8 +2237,8 @@
     },
     {
       "path": "skills/apply-film-knowledge/scripts/knowledge_evidence.py",
-      "size": 30962,
-      "sha256": "9692ac5b884d507f80e5db4ff9ff610979e770072c5d4b409f8607d7d8474a55"
+      "size": 33577,
+      "sha256": "aa7a6e3a659e609bc1059539efb163cbe6ae3add6979c636b674546fbcd585d8"
     },
     {
       "path": "skills/apply-film-knowledge/scripts/knowledge_followup.py",
@@ -406,8 +2247,8 @@
     },
     {
       "path": "skills/apply-film-knowledge/scripts/knowledge_review.py",
-      "size": 6239,
-      "sha256": "3785d3ee02ae57e6b3d9f5124c7b5917943888fcc92e9dbec21dcd74166db1fa"
+      "size": 10539,
+      "sha256": "19b1bb0caeb052e6ec2ac75f3e69510cb6ed763ff2dc4e9e86cc3c0e52b384c3"
     },
     {
       "path": "skills/apply-film-knowledge/scripts/knowledge_scope.py",
@@ -416,8 +2257,8 @@
     },
     {
       "path": "skills/apply-film-knowledge/scripts/read_knowledge_section.py",
-      "size": 7350,
-      "sha256": "70891583469f7b97ce9d2b0b88c8c4329ea24a0ee3ff7ef05740990d0c6de50b"
+      "size": 7808,
+      "sha256": "3623116b3595efd1d2d2392f9df0a9052468dc84629b63d838d671e96ed0b499"
     },
     {
       "path": "skills/apply-film-knowledge/scripts/record_application.py",
@@ -426,8 +2267,8 @@
     },
     {
       "path": "skills/apply-film-knowledge/scripts/retrieve_knowledge.py",
-      "size": 31854,
-      "sha256": "3d4d9d61b26647df25a85e86a432539d8ddd8b43d398146679562bf90cbe08fb"
+      "size": 37898,
+      "sha256": "f3779f6c4d0e511220a4f0040dcd787c144502629b25b4233511324f4a8b1d5d"
     },
     {
       "path": "skills/apply-film-knowledge/scripts/run_eval.py",
@@ -450,6 +2291,16 @@
       "sha256": "6632609bc176a39305dd4be943ad7831c7a50fdf8e20f668e5c83b8edee96148"
     },
     {
+      "path": "skills/apply-film-knowledge/scripts/test_read_requests.py",
+      "size": 6432,
+      "sha256": "700de0f0b36b21933f2bff3a34801f26aed1e5bd99359e6c74e6f3eab7bac990"
+    },
+    {
+      "path": "skills/apply-film-knowledge/scripts/test_reading_identity.py",
+      "size": 8523,
+      "sha256": "11bfe46b3245f28ae2789457fd3ad2ca5f37e41dcfb03949420b45138181c656"
+    },
+    {
       "path": "skills/apply-film-knowledge/scripts/test_record_application.py",
       "size": 5346,
       "sha256": "b97651284df83e3c27ec96b180426b61c2db3ab243dd4c065d876d82ae7a07a1"
@@ -460,14 +2311,19 @@
       "sha256": "ecc53c334a4a3409ff4a21e7cde41734d5296e89213841759a924968b6a2723e"
     },
     {
+      "path": "skills/apply-film-knowledge/scripts/test_review_budget.py",
+      "size": 10128,
+      "sha256": "0b6a8c2560f360a83430910636e4ca10e889b8935cf3bb6dcdef477783179bbf"
+    },
+    {
       "path": "skills/apply-film-knowledge/scripts/test_zone_scopes.py",
       "size": 12435,
       "sha256": "d2c42aee0ea636b5a92b58c9ce3733d8e6e58fd0361d8f24e7df5340b1233be6"
     },
     {
       "path": "skills/bilibili-study-notes/SKILL.md",
-      "size": 20179,
-      "sha256": "6bfc667339085ccc42f3ac5002d2438b312d9b35a5822acb89fe6c5e71062ae4"
+      "size": 22904,
+      "sha256": "9a4620e78a18ea84e41e387f29143b099809b02d472685ca3115f13832c1f541"
     },
     {
       "path": "skills/bilibili-study-notes/agents/openai.yaml",
@@ -495,14 +2351,29 @@
       "sha256": "641832b79a00f5319b9957e635fcfbff7387fe513284a078c65f9adf08c3b55a"
     },
     {
+      "path": "skills/bilibili-study-notes/references/media-evidence.md",
+      "size": 3447,
+      "sha256": "936d8518d5051820340e2b54d2226d132d6d6dc70f764e471e659bb74fb6a7ee"
+    },
+    {
       "path": "skills/bilibili-study-notes/scripts/bilibili_extract.py",
-      "size": 10452,
-      "sha256": "4c4a7e6eee48e8b14504642e69aaa72fb5556bd9d529534464e73a04425eea1f"
+      "size": 20117,
+      "sha256": "24d795611cc57d7fb3a105ed2cdfd43cd96d725cc9f085a7ed75c7ec6f8a5c4e"
+    },
+    {
+      "path": "skills/bilibili-study-notes/scripts/bilibili_media_excerpt.py",
+      "size": 21726,
+      "sha256": "014be2d7ada7ecaa7023065538246e3e74ff431092772c524123103d9542de3b"
     },
     {
       "path": "skills/bilibili-study-notes/scripts/test_bilibili_extract.py",
-      "size": 8093,
-      "sha256": "04fa4ec0dab8c0764a3d27ce0d67078b7b01480bdbe0c5bfc74d454ce50ea96d"
+      "size": 39811,
+      "sha256": "060e31dbef56790c10671984f12de417f88d1508e49cec8e57f04b526dcc91de"
+    },
+    {
+      "path": "skills/bilibili-study-notes/scripts/test_bilibili_media_excerpt.py",
+      "size": 7958,
+      "sha256": "f1f2111d772731be0c27a737a0e9f30f3cfec5d600c73ac8c43546d8b348c023"
     },
     {
       "path": "skills/bilibili-study-notes/scripts/test_validate_course_structure.py",
@@ -541,8 +2412,8 @@
     },
     {
       "path": "skills/douyin-study-notes/SKILL.md",
-      "size": 5734,
-      "sha256": "aca8140600d6819ff3a7f0b15a8778db22cc38c81003b76c52fe5a6929cf112b"
+      "size": 6164,
+      "sha256": "a40967a182d587dd3848b51da44cde91658bd3ced8b84e24d7b0f270c087839e"
     },
     {
       "path": "skills/douyin-study-notes/agents/openai.yaml",
@@ -581,8 +2452,8 @@
     },
     {
       "path": "skills/grow-creative-library/SKILL.md",
-      "size": 21448,
-      "sha256": "a7bc30b2f1df2423fe8beecd9e8a1232ce0d218d93c289847d292808ea95c40e"
+      "size": 21987,
+      "sha256": "55a84fe22fd710d432cc44f4ece6f256d46637dcb3d6eb8321e16c316ffee14b"
     },
     {
       "path": "skills/grow-creative-library/agents/openai.yaml",
@@ -606,13 +2477,13 @@
     },
     {
       "path": "skills/grow-creative-library/references/accuracy-and-merging.md",
-      "size": 7828,
-      "sha256": "244f88a16324f734ca557b096e90aa552b6e3cc1564ec360fb712571f090d6c3"
+      "size": 9119,
+      "sha256": "23948121a79ede89e3e75683e1d761d551377480712a73f5374658fed112a5f5"
     },
     {
       "path": "skills/grow-creative-library/references/durable-source-evidence.md",
-      "size": 3654,
-      "sha256": "f3f7a8be052838d6e1fb40c0003be2e5d07f8736437e160f3d194cb1d6e0b15f"
+      "size": 5084,
+      "sha256": "99e3b93d829acf964ff1ab3edd4e993b978de785ba5fb5d3de1d2b4363bd99e1"
     },
     {
       "path": "skills/grow-creative-library/references/knowledge-system.md",
@@ -646,8 +2517,8 @@
     },
     {
       "path": "skills/grow-creative-library/scripts/cache_report.py",
-      "size": 2111,
-      "sha256": "ee2e9a56d4ac2967a89c6a56b7be2dac667756d3fb88a47293d31fc776737ad2"
+      "size": 12867,
+      "sha256": "75e3996fe9efc2f31a7f26c28ae0466cc6c9894f85c2b39f022a4a045517203e"
     },
     {
       "path": "skills/grow-creative-library/scripts/check_source_coverage.py",
@@ -658,6 +2529,11 @@
       "path": "skills/grow-creative-library/scripts/inventory_vault.py",
       "size": 2233,
       "sha256": "186386390dfaafb6df58498246c8c4687d060c19524aa1c7e51001a3497a63fd"
+    },
+    {
+      "path": "skills/grow-creative-library/scripts/test_cache_report.py",
+      "size": 9214,
+      "sha256": "efb389b7fbe1a520ee57638faab70134cf4492bd8eaa050c533f38fe5f37fe9d"
     },
     {
       "path": "skills/grow-creative-library/scripts/test_check_source_coverage.py",
@@ -726,8 +2602,8 @@
     },
     {
       "path": "skills/operate-personal-knowledge-tree/SKILL.md",
-      "size": 15265,
-      "sha256": "296648a79c4997a4b1c57328c203eb00f7c234cf1fe539a5b546817756eb3871"
+      "size": 17293,
+      "sha256": "ee6ed2e0ca60664cada5c76d2804053debcb4e9817d7e0943636dccbdec2d3ad"
     },
     {
       "path": "skills/operate-personal-knowledge-tree/agents/openai.yaml",
@@ -1021,8 +2897,8 @@
     },
     {
       "path": "个人影视知识树/.obsidian/workspace.json",
-      "size": 10582,
-      "sha256": "7b1f89df67892b2a07e89b842ef3839e1acebcb0383b3fd4ff67e6319c86b4c5"
+      "size": 10960,
+      "sha256": "84df83a7670cde0d86318bfa806e0bc90bab1536774b3dc6756ce52097a513ce"
     },
     {
       "path": "个人影视知识树/AI任务执行与Agent工作流官方规范.md",
@@ -3016,33 +4892,33 @@
     },
     {
       "path": "个人影视知识树/知识库/00-待归档与知识地图/专业索引/00-创作实践与项目复盘地图.md",
-      "size": 6688,
-      "sha256": "f68088a7ea7daea3c426205c8b8367d8ff942f576aec29296bcc12d73cace021"
+      "size": 7727,
+      "sha256": "76f95aa5095fb361bacbf0f6af4a6bdd08684d2fdcbeefeb53f8dfa552743178"
     },
     {
       "path": "个人影视知识树/知识库/00-待归档与知识地图/专业索引/00-声音与后期地图.md",
-      "size": 22866,
-      "sha256": "1910797b8656c49b4ec03d5c0addf8a7b2a03df41c02c624f9cb202c4b2de7f5"
+      "size": 31294,
+      "sha256": "12ef6de62d37da52c3bb5b3ce738ee8591924ab89a3b4579d6d76b513e5bc696"
     },
     {
       "path": "个人影视知识树/知识库/00-待归档与知识地图/专业索引/00-导演与视听语言地图.md",
-      "size": 17748,
-      "sha256": "6db0bea602a93d0fcb2c2bbbef88023f5a938fc997c9cf8077d9c2e8810bc824"
+      "size": 19705,
+      "sha256": "64c7fbaa9b18b05a7749e71f6c5db1a60b43fa638be10f8cf994a260a51f10e5"
     },
     {
       "path": "个人影视知识树/知识库/00-待归档与知识地图/专业索引/00-摄影美术与现场制作地图.md",
-      "size": 11952,
-      "sha256": "2ca4a308a78a248a1b5cc27054f99b6a2a325ea89f8c8d05a90e1be4786adadf"
+      "size": 14483,
+      "sha256": "94aa17ec906994e91b12920d90649bc6d8c2a3c194663732c5dde7077c3af690"
     },
     {
       "path": "个人影视知识树/知识库/00-待归档与知识地图/专业索引/00-故事与剧本地图.md",
-      "size": 13301,
-      "sha256": "575cd891b0d8ef2c443413c2366acb4aa0e301a6ac627edb6cb98067054b614d"
+      "size": 14997,
+      "sha256": "2cf006ee3229133d8206604faca79dea02ba1fb7389a02429ad4f68aa86bea94"
     },
     {
       "path": "个人影视知识树/知识库/00-待归档与知识地图/专业索引/00-行业观察与灵感素材地图.md",
-      "size": 4455,
-      "sha256": "506a02ae21ee3d22df67ff1dd297f0a380a56ac497024248a85c553fda0289a3"
+      "size": 5283,
+      "sha256": "abefda626da3cc78d8b1f68fee3d10cf42a0dd5318e0f9ec7e992e524125dd46"
     },
     {
       "path": "个人影视知识树/知识库/00-待归档与知识地图/兼容入口/大纲写作与事件化.md",
@@ -3071,13 +4947,13 @@
     },
     {
       "path": "个人影视知识树/知识库/00-待归档与知识地图/知识库主页.md",
-      "size": 2605,
-      "sha256": "3778a00cb53d0e426686f4bbd5122b72bfab48df8bf068bb07f68c69c30781d4"
+      "size": 3423,
+      "sha256": "127617ced8c5fbc8c5be8ae4a867604b53fb237eee70e847eeb2a8be68fb633c"
     },
     {
       "path": "个人影视知识树/知识库/00-待归档与知识地图/知识树变更记录.md",
-      "size": 9425,
-      "sha256": "5acc1783a0020e5cdf8cb636c19bd7bf261639ab28b7cc88ed34d2a876ba856f"
+      "size": 9920,
+      "sha256": "648a4306e7f636fd572a0691f77d3be1be91265e3baf7784253ea13f30b81a43"
     },
     {
       "path": "个人影视知识树/知识库/00-待归档与知识地图/知识树收件箱.md",
@@ -3086,8 +4962,8 @@
     },
     {
       "path": "个人影视知识树/知识库/00-待归档与知识地图/知识树状态.md",
-      "size": 26813,
-      "sha256": "a02788ff8af23ed6fa43031e088f2694a03f7c8ab3d959e29bcc1f56eabfc353"
+      "size": 28225,
+      "sha256": "a8e1974f21f31a6b4c80e695a0256387446ce71eaf55dfdcbd0c1fc3aaa26bf6"
     },
     {
       "path": "个人影视知识树/知识库/_assets/查理老师的编剧课/00-course-roadmap.svg",
@@ -3271,8 +5147,13 @@
     },
     {
       "path": "个人影视知识树/知识库/创作区/00-创作区首页.md",
-      "size": 5517,
-      "sha256": "77dd96b9adf6113c4280f6e7714633ea2db266545514542c535489ab39c0ed20"
+      "size": 8035,
+      "sha256": "92a01e850aeb3e3c138600dd60bc32b5835f5e5cc827eff7d7e0ac8dbf26853a"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/A-制片与协作/00-A制片统筹知识入口.md",
+      "size": 9111,
+      "sha256": "03af5fe638caa4dca9065de8ad93c6ba96256f47d709d8e3955199fec56d8cae"
     },
     {
       "path": "个人影视知识树/知识库/创作区/A-制片与协作/从影视公司架构到 AI 影视数字制片责任中心.md",
@@ -3280,29 +5161,99 @@
       "sha256": "287256faff401b60cc527c7aa9725aff33f4eb14476c9a0481ce67c3d8feb7c9"
     },
     {
+      "path": "个人影视知识树/知识库/创作区/A-制片与协作/创作愿景怎样通过风险试样、取舍与对象化反馈落成作品.md",
+      "size": 17489,
+      "sha256": "c068b8215afad5ad6edaeb21f3d061a86335d7444ff844f511ffcffefa287f3e"
+    },
+    {
       "path": "个人影视知识树/知识库/创作区/A-制片与协作/行业观察专业优化/01-制片责任、数字协作与作品反馈.md",
-      "size": 5199,
-      "sha256": "f769af9c561845479f19d80ea33440f56014602d21c417683401ddc2b13e9432"
+      "size": 5941,
+      "sha256": "b12a79088c47ace2d5b8391f8f592e21904aabad778a927965a57b31a471c544"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/B-故事与剧本/00-B编剧开发知识入口.md",
+      "size": 14325,
+      "sha256": "3cd758619539b8f206428996ec0d2b7c662f3d4fa89fa659e2200a6ce60b90e2"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/B-故事与剧本/人物怎样通过目标、关系、选择与对白成立.md",
+      "size": 32215,
+      "sha256": "b5ced29cf411541ecb3106a583f208d17bc6ba40672f91a3567361e111872067"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/B-故事与剧本/剧本怎样定位卡点、处理反馈并完成最小有效改写.md",
+      "size": 23236,
+      "sha256": "7e4e54fa1c78c08a4efae3ae9160ffee86dceb41393333fadfeeb3b341d02bd1"
     },
     {
       "path": "个人影视知识树/知识库/创作区/B-故事与剧本/故事与剧本专业优化/01-故事开发、人物、叙事形式与改写.md",
-      "size": 12150,
-      "sha256": "5e2e74fb41adb2b9aba9592bc7ae68019ca213dc07e974ea2c8a16c099e26f39"
+      "size": 14842,
+      "sha256": "625460dc726b94faaa50d8af10d0da48f58ff144b1bb6e93f627fbe5044207a3"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/B-故事与剧本/故事前提怎样从灵感发展为可持续因果.md",
+      "size": 26143,
+      "sha256": "1d449bb5ed7a6c4edb66a6d6513608038df3d3bbd67e7ecd8fe23b5a824cb7ff"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/B-故事与剧本/故事怎样选择篇幅、类型承诺与媒介结构.md",
+      "size": 25157,
+      "sha256": "4fafe8ae4e09aa3a142df3af8ede6a7099d8ab53eb3366835499bb383d68e7ff"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/B-故事与剧本/梗概怎样事件化为可开发的大纲与分场.md",
+      "size": 20949,
+      "sha256": "5970362178218d2b271a5e1fe2841ff722590b7d2c6665a14b2fc885fb059bec"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/B-故事与剧本/虚构世界怎样通过规则、细节与信息分配获得可信度.md",
+      "size": 15449,
+      "sha256": "8381a1e2d8d0c2053d0b373848b7e70b4187fe69398189c484a5f071cb3e8911"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/C-导演与视觉/00-C1美术与资产知识入口.md",
+      "size": 13006,
+      "sha256": "caa389773c059474d3aff8a8960218f45b45c44f1b12eee7e7a3d7951fa5fd55"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/C-导演与视觉/00-C2导演与视听制作知识入口.md",
+      "size": 23906,
+      "sha256": "b07f32a6edd58438efb9664905b7fe22189633b5b41716789012c00ae8f02d53"
     },
     {
       "path": "个人影视知识树/知识库/创作区/C-导演与视觉/C视觉拍摄知识建设/02-生产设计、服化道与色彩系统.md",
-      "size": 16657,
-      "sha256": "94936bf6b4a18012c254c759b9abc39a250e1224eae6235c2c1a07fdf532ee25"
+      "size": 17809,
+      "sha256": "194a765f477a5b57900626ac0d137b464e870a7a345e2c2b84dc20f31af27d8e"
     },
     {
       "path": "个人影视知识树/知识库/创作区/C-导演与视觉/C视觉拍摄知识建设/04-场记连续性与现场拍摄流程.md",
-      "size": 14179,
-      "sha256": "98cb552fbabc7c7f6e12c0c1fb35e31182b3d2ad5b176a8a5c669b1d53be1e72"
+      "size": 14887,
+      "sha256": "eb3a0f663638a0361a78b468d4183c326fb8698eeb774f9caaa2245802f826e9"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/C-导演与视觉/制作连续性：记录真实take、差异与剪辑交接.md",
+      "size": 22081,
+      "sha256": "3a39bf5ec509650305afef3649ecebfdf5a9d38e45c2835c255b900a3d2a3e28"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/C-导演与视觉/前期色彩：区分资产本色、光源与最终Look.md",
+      "size": 23053,
+      "sha256": "4c4d91062ab9e51135bcffd03a9794b7e9a29ac0f2db8841b0ebcf5d22985861"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/C-导演与视觉/叙事布光：设计可见度、过灯区与跨镜影调.md",
+      "size": 24470,
+      "sha256": "0d72140dbba1d9fdac33482b8dff75ba928d5ad294c18b0e2c79775f22b77ec1"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/C-导演与视觉/场景导演：统一已采用事实、观众路径与部门执行.md",
+      "size": 27347,
+      "sha256": "fc78cb0692e16798d58d488f3a44d135b562f03a53e3cfe9cd014dd84a6f6d7d"
     },
     {
       "path": "个人影视知识树/知识库/创作区/C-导演与视觉/导演与视听语言专业优化/01-场景判断、镜头、连续性与节奏.md",
-      "size": 11083,
-      "sha256": "d451f3b1071d0b34b2fd9dd13ca24a46e2c569c687fe68595dc3b4f34192a128"
+      "size": 13130,
+      "sha256": "7ca63ce92de30bdbf5afcf3ab6ee3943bdc02f45c0c0510cbea06322d4d2e92c"
     },
     {
       "path": "个人影视知识树/知识库/创作区/C-导演与视觉/摄影机质感参考：AI创作的 Camera Layer.md",
@@ -3311,8 +5262,13 @@
     },
     {
       "path": "个人影视知识树/知识库/创作区/C-导演与视觉/摄影美术与现场专业优化/01-光色、生产设计、连续性与拍摄系统.md",
-      "size": 13323,
-      "sha256": "b68e06d7b7f577c8cc6ef81764bbc71ccb9794f6f225c19e749f63a028b60708"
+      "size": 15461,
+      "sha256": "caf71f2bb180fa18b5ea678ab35ac52d2b6756e7c265af3e900084bbe1a36a58"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/C-导演与视觉/摄影选择：联合确定机位、光学、曝光与运动.md",
+      "size": 29274,
+      "sha256": "88adaa6151ff36478d8848e15874752329397a9b60c12866964f6a9bba6e3111"
     },
     {
       "path": "个人影视知识树/知识库/创作区/C-导演与视觉/现场拍摄怎样通过勘景、排练、部门协同与执行记录保持可控.md",
@@ -3320,39 +5276,154 @@
       "sha256": "aaf26116c7fc8f13a7b2d77e1afaf48bee258acaf56e8c9e7874bf3b8637f4d8"
     },
     {
+      "path": "个人影视知识树/知识库/创作区/C-导演与视觉/生产设计：建立视觉世界、可用空间与资产状态.md",
+      "size": 22920,
+      "sha256": "f58911841102355f0a95a11394835034384b29409937a297d402bfbeb5867602"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/C-导演与视觉/表演导演：用行动、聆听与刺激组织镜头表演.md",
+      "size": 26831,
+      "sha256": "e717e4ee7544b91150387538b7d0d5b0096ae3cdfc841b248409e99e6c4a9d85"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/C-导演与视觉/视听节奏：组织镜头组、时间、声音与停顿.md",
+      "size": 27333,
+      "sha256": "9b3becc31c427e41207724356e785229333c8a5c4e56fcf7daf67791e35b756e"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/C-导演与视觉/调度与覆盖：组织人物空间并保留有效剪辑选择.md",
+      "size": 24656,
+      "sha256": "4a5d9f5fd91b741c8c70941614f777ca9776f7bff1bb53ebc0b2612dc176ffa3"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/C-导演与视觉/镜头衔接：检查轴线、动作、视线与状态接口.md",
+      "size": 24119,
+      "sha256": "838fcf19ee5cc779f3892aa09cbf4696a1d9fd8c48843467eeea784d11f87999"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/C-导演与视觉/镜头设计：从观看任务到单镜方案与技术词典.md",
+      "size": 81753,
+      "sha256": "db030545268e5d4be542af808440e5ee4fe484089802821de43462b00a53f003"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/00-D剪辑与声音后期知识入口.md",
+      "size": 31348,
+      "sha256": "8d194efe3aa3590d2b8b85a79efee11ea579f7737f7d804ef5712610c1fda51e"
+    },
+    {
       "path": "个人影视知识树/知识库/创作区/D-声音与后期/D后期知识建设/01-后期控制系统.md",
       "size": 26998,
       "sha256": "ae0565adb1a1b9c0c5afbe6dbde934a8bece25ac0ec34146bf3e234f67f8b4fa"
     },
     {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-AI生成素材怎样建立可追溯身份并通过时间与技术可用性检查.md",
+      "size": 28438,
+      "sha256": "addf765491c740a4668969772f3ddfefbd17d45887de9c1ac5d2829b04b372e2"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-创作调色怎样从技术平衡、镜头匹配推进到叙事Look并正确路由生成缺陷.md",
+      "size": 45924,
+      "sha256": "e0de6546810814643e55e71cf4d6046437816eaae61e4c0795ddf2a3a9c167ed"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-声音设计怎样通过Cue、听觉视点与素材分层组织叙事并推进到可混音交付.md",
+      "size": 33804,
+      "sha256": "24ae675732f5ebda9c4c7cd8b2a7568eb71f13dcfa1c74192a42f77a116997f5"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-对白编辑怎样在保留表演的同时获得清晰、连续与空间可信的对白.md",
+      "size": 27511,
+      "sha256": "385486069f37acc54d408650af2aece2a3e3c1a4d60e110f9ff905f6decb1102"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-影视VFX镜头怎样从Spotting、Plate／Handle与WIP／Final版本审查推进到批准并安全进入Online.md",
+      "size": 44638,
+      "sha256": "6ed27a1ac7f4543a6559d880c3892e70220d7e7c28472f392d40083bfd66d274"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-影视后期怎样从源色彩身份建立Input、Working、View与Output管线并形成可验证调色输出.md",
+      "size": 41532,
+      "sha256": "d9a7ac7e5ba1abd8d30cc212f7271aa3b8bebeabc11b4bbf17309eb72071102a"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-影视声音怎样从Printmaster、D／M／E与M&E推进到满足响度、声道、版本和最终QC的可验证交付.md",
+      "size": 35034,
+      "sha256": "246e5d714647c43ab2c34a6a39c8a3052de53d6dc096a90d7ec5e5cc9ce13960"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-影视字幕怎样区分对白、翻译、SDH与Forced Narrative并通过版本绑定、人工校对和Timed Text交接进入母版.md",
+      "size": 43546,
+      "sha256": "097908dc102d87f108c1090b4e68c5cd3c161c6e804052119541bb8fd8093008"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-影视成片怎样把画面、声音、字幕与图文汇合为版本冻结、QC通过且可恢复的母版.md",
+      "size": 52462,
+      "sha256": "818bc9b7d2051e8ada90b4c24ed60f6381d9440b7cd2c12a374e9c2c120ea9ae"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-影视最终混音怎样通过监看基线、分组预混与终混层级确定对白、音效和音乐的最终注意力与动态.md",
+      "size": 31135,
+      "sha256": "244c44be0b8993109dd4fd6dffa4ba2d06e91b138906a79ce9cefe42df7a7396"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-影视配乐制作怎样从Composer Brief、Mockup与版本反馈推进到可混音交付.md",
+      "size": 34064,
+      "sha256": "30deec4836561b89ae1cfbefbe270eefe6d0b6a8b6e83367b7a68934e42425ce"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-影视音乐怎样通过Spotting、Cue入退、主题动机与无配乐段落服务叙事而不替代戏剧行动.md",
+      "size": 36036,
+      "sha256": "84f63df94d525d6f4c6a15917401691e4843789fb1697c2c6cc9e538fead647b"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-新增与替代对白怎样选对ADR、旁白或角色配音模式并保持表演与同步.md",
+      "size": 30644,
+      "sha256": "c0842ae7b4c961a4bbb2b22dc1b11281ae78c5d0d2653f1a35d9ad94f831fbc9"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-既有、曲库与AI音乐怎样建立作品录音双身份、权利证据与可追溯采用门.md",
+      "size": 36858,
+      "sha256": "b9193db60c71ba233ac245817ae1b9afb606ccf8a68d93e7438f1e69ebea05fa"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-片头片尾与屏幕文字怎样通过文本批准、无字版、字体权利、色彩管线和语言版本进入Online.md",
+      "size": 44350,
+      "sha256": "bb3919c66dc9c4ff90434ffb0a3150a43e4167871da5c4062fa1122c4817e999"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/D-声音与后期/后期方法-画面剪辑怎样从真实素材选择推进到可锁画候选.md",
+      "size": 35969,
+      "sha256": "d66b85a4e4af58c9f0c94ac26207d05c5ffe3d8da922edc8de99df205769258e"
+    },
+    {
       "path": "个人影视知识树/知识库/创作区/D-声音与后期/声音与后期专业优化/01-后期控制、素材时间与画面剪辑.md",
-      "size": 9470,
-      "sha256": "ff4ca1384bad8c0158e00b788b3a1eb01f3e57312a472636675e0ef4328f2f03"
+      "size": 10929,
+      "sha256": "6966fd61ac1eea054c5ef76c97a76d62e81856d3b45af8846ea6f5c62c17137c"
     },
     {
       "path": "个人影视知识树/知识库/创作区/D-声音与后期/声音与后期专业优化/02-对白连续、声音表演与听觉叙事.md",
-      "size": 11207,
-      "sha256": "81ce7c25d514a76ff74dd3c3ab1c35cde4291a04322ab17eedf8eafb1b327cfc"
+      "size": 13594,
+      "sha256": "4c57daf0b732fdd9af6616dbf26621c83e3b825e622632252110ae7dd0cb32ba"
     },
     {
       "path": "个人影视知识树/知识库/创作区/D-声音与后期/声音与后期专业优化/03-音乐叙事、配乐时间与许可边界.md",
-      "size": 9919,
-      "sha256": "1e35a6d2401af0dbf1182055e61cf03dc389a2cdd9735fc3eb3c263787b02112"
+      "size": 12375,
+      "sha256": "a468fd5cd969a3d68eed97c97cec259ad0fa48b6809df1e3fe7c2fab1c841578"
     },
     {
       "path": "个人影视知识树/知识库/创作区/D-声音与后期/声音与后期专业优化/04-色彩运算、调色判断与VFX往返.md",
-      "size": 9039,
-      "sha256": "74bb279f0f1b9a3a5d39cd987beef10817b8bdfe015040f71369f0cc78220628"
+      "size": 11587,
+      "sha256": "16938d8940b6ae7aa7e71b1dfea56817552b039c7f9b93fc42c95ac8c0d0da18"
     },
     {
       "path": "个人影视知识树/知识库/创作区/D-声音与后期/声音与后期专业优化/05-字幕阅读、文字呈现与字体交接.md",
-      "size": 8520,
-      "sha256": "69f022dbdcfb8052bbde8ec0d6567de78e1f4b2aaa8dcc5cc0c25ddf619ff203"
+      "size": 10471,
+      "sha256": "90d7c7478cbe165e06ee24c6ce79703eb2e9949bd763562e848c44ab5f56dab7"
     },
     {
       "path": "个人影视知识树/知识库/创作区/D-声音与后期/声音与后期专业优化/06-终混处理、声音交付与母版验证.md",
-      "size": 5637,
-      "sha256": "cf2fc91b5ce92cf6273d7b5ec4f7ae3df7c97476cd837807157183b1a78fc7ea"
+      "size": 8390,
+      "sha256": "e3af277f99e87ceb484359c1333435ce1ae07f28826c40c6faa0ce50deb04a09"
     },
     {
       "path": "个人影视知识树/知识库/创作区/D-声音与后期/影视后期如何通过前置规划、阶段门、版本基线与专业交接保持可控.md",
@@ -3360,14 +5431,29 @@
       "sha256": "5a6fee55e85bf4ffcfdfe2b2d57e049a37048babbf3a515219e1fbe008d33558"
     },
     {
+      "path": "个人影视知识树/知识库/创作区/岗位共用/00-E发行与复盘知识入口.md",
+      "size": 8774,
+      "sha256": "f1b84a6878fdd8ed629693c6021dc1e5c5109ff10a37ab2d2e092d19364f3d2c"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/岗位共用/创作决策怎样结合事前依据、结果与反证复盘.md",
+      "size": 13712,
+      "sha256": "113e6d31f6e0967030de648d6135e006bfb2126a15406577d3d08f683d135a32"
+    },
+    {
       "path": "个人影视知识树/知识库/创作区/岗位共用/创作实践专业优化/01-知识迁移、实验比较与决策复盘.md",
-      "size": 4885,
-      "sha256": "d6e64d84e04d165feabe3ed962ea7f04ad2f44c9f9180142b6e0b2ae540956dd"
+      "size": 6030,
+      "sha256": "96c7c2235e51ea478ba70467cdade282b029e141ee8ee303307a3742d3d07423"
     },
     {
       "path": "个人影视知识树/知识库/创作区/岗位共用/把外部知识转化为可调用的创作方法.md",
       "size": 16058,
       "sha256": "33b75f08fb2cce132d5dd8d15367886785ed528f9731ae394c79207b008b9e87"
+    },
+    {
+      "path": "个人影视知识树/知识库/创作区/岗位共用/生成与提示词迭代怎样保留基线并区分可用结果与方法证据.md",
+      "size": 12116,
+      "sha256": "60ddb81212275dcdfca9b201de88f69ebe708eda091f2729e1ca2a7fa6dbe97e"
     },
     {
       "path": "个人影视知识树/知识库/创作区/岗位共用/项目经验/项目应用/回家-第一条提示词迭代记录.md",
@@ -3421,13 +5507,378 @@
     },
     {
       "path": "个人影视知识树/知识库/学习区/00-学习区首页.md",
-      "size": 11677,
-      "sha256": "1d9241b65cd4dc2ca9a8bb921bde697593a0c1c05d663501c46c34815284d23e"
+      "size": 11577,
+      "sha256": "ff32ad286297a74652e358a8e26a73f9265398eefbfb8482106266cd75f7cb27"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第一课原有学习记录.md",
+      "size": 1563,
+      "sha256": "aa24ba0800a91b6edd9bbe5c4398dc2789dbffe27c08902f1a5f51fadc9c5fcd"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第七课原有学习记录.md",
+      "size": 1774,
+      "sha256": "546e7d343f9d6de6f1ef090035e58747e1e25085c34160527ce50c70c066effb"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第三课原有学习记录.md",
+      "size": 1798,
+      "sha256": "b2a56e16742d35a1dc41631eae094ca1aea86aebe8ed05945ec0f3cb180eb3cc"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第九课原有学习记录.md",
+      "size": 2354,
+      "sha256": "6b144da958ba0cc0eea7e50259af7b4bc5815bd62921a31fb356a71bc7aaa2b3"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第二课原有学习记录.md",
+      "size": 1728,
+      "sha256": "8df51bd4ca74afa089a57132b0965619a1386cb4a3e217a62024547a17e288e9"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第五课原有学习记录.md",
+      "size": 1633,
+      "sha256": "c339a88f00395ac366522c2740eba855df781225a92c92901d196e9b5545a48d"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第八课原有学习记录.md",
+      "size": 14613,
+      "sha256": "1bc12fc3d38c4b2380fb1d97cf21f987bfb55af3a2b9669590f78fceb0d8d4f4"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第六课原有学习记录.md",
+      "size": 1719,
+      "sha256": "ab5090bc4d3c53448b8a8bb747407a488746e292c1ec6ba6481d1d524e97357a"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第十一课原有学习记录.md",
+      "size": 15036,
+      "sha256": "17cbd938d7df87275731cb54d1ead68a981cc595c58681339d321cfe5b2147dc"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第十七课原有学习记录.md",
+      "size": 10166,
+      "sha256": "1595f65d2c5e41bc80dac5deec9f2fd9cba0505c8be836966824a73187a4a9b7"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第十三课原有学习记录.md",
+      "size": 39112,
+      "sha256": "fb2d8ac834f8a400289cde19416fb2cf7232835f83d9ca30398c9a773fdcb69a"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第十二课原有学习记录.md",
+      "size": 23853,
+      "sha256": "8ba71a213cee4c8fc43a9ba79891b82e5befb863bfe80567df1155e0f4a64780"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第十五课原有学习记录.md",
+      "size": 26941,
+      "sha256": "827ee51b80b5f743e108945e811885c61a40eb6838ce5fd0b808d436bc4c831f"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第十八课原有学习记录.md",
+      "size": 11355,
+      "sha256": "fe095009b8403a4e3715115f5f8aa68b7d3a8f08e32c3bf7cdc73a52b6038029"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第十六课原有学习记录.md",
+      "size": 8568,
+      "sha256": "7827cdd4359b3d846396bff49a8f35143764f90475e7062456ab9d9c70ccea16"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第十四课原有学习记录.md",
+      "size": 24094,
+      "sha256": "664ed3eb7e4e1ffa193b6061198c8616217b1babf4ae10a8d2751113da890113"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第十课原有学习记录.md",
+      "size": 6838,
+      "sha256": "9172330c9c30b5dacb99ebcad56c26530bca201385006950f50740e37192c7c1"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/查理老师的编剧课 - 第四课原有学习记录.md",
+      "size": 1642,
+      "sha256": "8c5babd299b60dbf7a022873847ee4b9e3f12589e173291bf9ff30419e1ccd2b"
     },
     {
       "path": "个人影视知识树/知识库/学习区/个人思考/流程记录与复盘习惯.md",
       "size": 644,
       "sha256": "c029d18ba930de04ca999da263c03f8aecd87fbb2c50003a99f6ea43f104ba00"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课-第01课历史个人记录-20260930.md",
+      "size": 2724,
+      "sha256": "671657c9c690fdb06fe8778d6bb19fa77d3dae2c21a16039f4c0632dfd6cac59"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课-第11课历史个人记录-20260930.md",
+      "size": 4423,
+      "sha256": "710140b2922a332a2a3b82851062d08465a457c09f9321a0fe715d4c53b0a71b"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课-第12课历史个人记录-20260930.md",
+      "size": 2692,
+      "sha256": "4940b4703b421698a1b648688b10ccf884839d0f2e1184d49d492b410223597a"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课-第13课历史个人记录-20260930.md",
+      "size": 3681,
+      "sha256": "71416302613ec24c3c9bfc8aee3e4191723ee410d5fcf71d85dc5aa47ee250cb"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课-第14课历史个人记录-20260930.md",
+      "size": 4815,
+      "sha256": "f73e01b3cb2a4c5bf328867743ceaef0476ee82da33554adb8142e5b07cec830"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课-第15课历史个人记录-20260930.md",
+      "size": 3566,
+      "sha256": "8954e8f673a3c1b9adf89622bcf0bda78fdc1518962c0dde4f8af04bda555880"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课-第16课历史个人记录-20260930.md",
+      "size": 4177,
+      "sha256": "159768193dd61be70417d863ef96dba3c5b81ee580c5b4b4e15a98e0b7b7b272"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课-课程总览历史个人记录-20260930.md",
+      "size": 938,
+      "sha256": "7962004e6ff74f10316784cf64c45f1aa632a625963d40d9e7e0a543bb65e411"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课第07课历史个人记录-20260930.md",
+      "size": 2804,
+      "sha256": "cd56fadb7d79dcbbed7a13c59241a11ce72a9a3a743a5948e5278d7ec827d11e"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课第08课历史个人记录-20260930.md",
+      "size": 2801,
+      "sha256": "51c341cee709923b23408452f3fb76ba0d7f80b358c8ef8ab41cc52c4ca5b11e"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课第09课历史个人记录-20260930.md",
+      "size": 2994,
+      "sha256": "1785978b0f0b14f8f61bcbc8438aabc74238cfa033b2a69096e4f52f122ae5f1"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课第10课历史个人记录-20260930.md",
+      "size": 2840,
+      "sha256": "bae14688dd4bef404897cb5b20be83d7c7b7e86931bba4895b0e79767d472e23"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课第2课-历史个人记录保留.md",
+      "size": 3327,
+      "sha256": "cbf090eb58963949ad8534bf04560db8c5be3a9dcc3158f904008334b698656f"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课第3课-历史个人记录保留.md",
+      "size": 4347,
+      "sha256": "90b92660dfe4080354a6222dc3a07dd82c3241f4cc35112cca16fcf4548e3919"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课第4课-历史个人记录保留.md",
+      "size": 3605,
+      "sha256": "f613a2f8d96b4b7a986d7cdf4dfe8b8c5184180c63df90875cf1a7456612a3e8"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课第5课-历史个人记录保留.md",
+      "size": 3323,
+      "sha256": "22a991a3e128f3df553c82b7ce32546b7017df820b1d38747ac9eae0b2e72917"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/老白分镜课第6课-历史个人记录保留.md",
+      "size": 3280,
+      "sha256": "50c32c67fc34113f9f10199f417f9d19bec809f238897710be32a67798ce72f8"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第一章既有学习记录.md",
+      "size": 1254,
+      "sha256": "c450dc75825de2881e7d1d6df4822b063ab704367823399dbaacec78b00cef03"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第七章拍摄角度与景别既有学习记录.md",
+      "size": 3430,
+      "sha256": "ede4bc4d14dd158a07e10d5b91d8c400ca0c3dce0939cd41b3a1f6093ed4bacc"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第七章既有学习记录.md",
+      "size": 1543,
+      "sha256": "74babcf4d1b94db191b7638f85f6bf6492f5a5d0271fc4cc5ae781dde8e65c89"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第三章既有学习记录.md",
+      "size": 1361,
+      "sha256": "a9e04af77d8f44f06bdf0d2d4556cadf7dfbb4630860b28af715985c0e150c9d"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第九章剪辑与蒙太奇既有学习记录.md",
+      "size": 5480,
+      "sha256": "f9eb4b631ffda5eed9cdb3f87d6085575497e2ae6ca2bff702362923de7a1d15"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第二章既有学习记录.md",
+      "size": 1364,
+      "sha256": "9ed73945cfd87f37d6b06a15a6040176a0d27a7a7f6d78c7ea85faadb5be2fad"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第五章既有学习记录.md",
+      "size": 1383,
+      "sha256": "ff03c8593d96a4876788557d558e158896da967acd829a8663f368ffff8d17f8"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第八章固定镜头既有学习记录.md",
+      "size": 3698,
+      "sha256": "993989439414fbff5d1f4fdb3d6bc21d33c2cc67f7295fef398bd865e320fe24"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第八章运动镜头既有学习记录.md",
+      "size": 5492,
+      "sha256": "746f05c36b802d20d64078affe3d03228f31f07fe38d10f2e4bba3614e188646"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第六章既有学习记录.md",
+      "size": 1571,
+      "sha256": "d0e54e66b0e86ed68e2e0ef9209c5576d5dcda09ea52c093037ffa31446645a7"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第十章动作片视听设计既有学习记录.md",
+      "size": 4949,
+      "sha256": "151d29689b32b056a3c467d092473df390ecf25aa35b7e5e8c44d86445d633a3"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第十章场景既有学习记录.md",
+      "size": 5118,
+      "sha256": "24a678edb0cb1bb4a6e8196d145a036deab476218cb8b984915bc6caf12f70cc"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第十章声音设计既有学习记录.md",
+      "size": 7019,
+      "sha256": "f978b3581e467826eb1bb2150261adb9beeee2b770e1d80adfdcbdcbbe4cdff0"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第十章布光实践既有学习记录.md",
+      "size": 4852,
+      "sha256": "4b81da6352be03607ea0c938148836936866d0db0cf1eff2308fcfc72a5fd4d3"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第十章影视时间既有学习记录.md",
+      "size": 4738,
+      "sha256": "1b291bdda7da2c710847179db0b42031eb3608ff56708846a8faeb4834ca463d"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第十章影调层次既有学习记录.md",
+      "size": 7442,
+      "sha256": "7015b9f61118437797062ad0d1a941a89b7d004fddd4e00f62ff850acd2c88cf"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第十章空镜头既有学习记录.md",
+      "size": 4856,
+      "sha256": "3403f0918dd39302d98fbc8d6cf6a6a734aaec8f393beeac9489c23104cc6f18"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第十章视听节奏既有学习记录.md",
+      "size": 6217,
+      "sha256": "efa1765a3df4aca897a366e9ef375aa31f9cf83989927520ad468dc8324c3fa9"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/视听语言第四章既有学习记录.md",
+      "size": 1317,
+      "sha256": "f696808c919a78804bd9fa790632bc9d154363d92f10976d8c4953ea52d8f59c"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第一课原有学习记录.md",
+      "size": 1685,
+      "sha256": "bda42b958c8a45512675287126d15c1fbd7e5bf0ca0817d2bdfad60e69e83763"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第七课原有学习记录.md",
+      "size": 1754,
+      "sha256": "f2bb38d7fbe32b37b1d26c1e919b19cd397ab0bb250dce9be7e16e9f4cc45ba9"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第三课原有学习记录.md",
+      "size": 1386,
+      "sha256": "a6a2ba64c176cd48eb1ce037e13ab21dd78e74955f024608f12cfe9bc7c13fc0"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第九课原有学习记录.md",
+      "size": 1371,
+      "sha256": "3c683f0ac55e5f10270a4fe7ed5e62f12854147e4a639a3ac6d29d3534825af1"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第二课原有学习记录.md",
+      "size": 1699,
+      "sha256": "f335b624efec3b6272553511ccff92b8559d74dec29da436b6180572bec5da98"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第五课原有学习记录.md",
+      "size": 6849,
+      "sha256": "1af2bf6b346047e0afc8de2ca4a4297fade9ce0d109366ab8d66ea38c30106c7"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第八课原有学习记录.md",
+      "size": 1356,
+      "sha256": "71a1e69ff26105e8f7b6bcaa1579372de11e8560f67940e99147fca29b00dc46"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第六课原有学习记录.md",
+      "size": 1395,
+      "sha256": "6507f3e8c0e742eecdea60134acf91e4bf669dc08248156f0f70a31c479afe56"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第十一课原有学习记录.md",
+      "size": 1396,
+      "sha256": "e7b295e2714ebdc744d8de9ab5c6290a706004ad125442c27f5e467b3cc59424"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第十七课原有学习记录.md",
+      "size": 1381,
+      "sha256": "6dc04de28710b03589c445dbf4b2bba5d6cb9556b6fa33c9b277a1ecf04113d2"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第十三课原有学习记录.md",
+      "size": 1465,
+      "sha256": "0397252528c93e45e6bf31746be8e281b3d3fe6b1a7460f9bf2123dac6872419"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第十九课原有学习记录.md",
+      "size": 1453,
+      "sha256": "0fc292450a37b12f4799d0cd7359c67a19820faf8f7ad94bde2944477ce2bdd5"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第十二课原有学习记录.md",
+      "size": 1381,
+      "sha256": "7105fddc245440e7406fd6dfb192f038ea30d61c04babe5f1ffd45d653aa6086"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第十五课原有学习记录.md",
+      "size": 1414,
+      "sha256": "ddd86feb711682b31cef4102028e072830809f974f84bdcf8f82c5dddc92797a"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第十八课原有学习记录.md",
+      "size": 1384,
+      "sha256": "11436136f433f00d77f75c86e6d526319786a4f10f3404eddfef9634ef353fde"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第十六课原有学习记录.md",
+      "size": 1390,
+      "sha256": "86c3f8b752fa1fc446ac9f62c70eec705c2f145c2d7b690921bd1d02a7768e2d"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第十四课原有学习记录.md",
+      "size": 1462,
+      "sha256": "fe388b0c78a512b6ca4df6e4fae3f2f4a62c762df74094598cc912b4c2a21d3c"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第十课原有学习记录.md",
+      "size": 1381,
+      "sha256": "50b3a9257afa14235bfd2669546489f6331bbe131e755f9637015e1fd949b4d1"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/个人思考/讲故事的艺术 - 第四课原有学习记录.md",
+      "size": 1407,
+      "sha256": "755f290a8c5f2e2442bbed8cc82263458bda13ebd21a561f9e2906d1ec4c411b"
     },
     {
       "path": "个人影视知识树/知识库/学习区/书籍/DaVinci Resolve 20剪辑师指南/00 - DaVinci Resolve 20剪辑师指南全书总览.md",
@@ -3491,33 +5942,33 @@
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/01-故事与剧本/从人物共情到人物弧光.md",
-      "size": 40004,
-      "sha256": "50ab82ca3e94df0692a9e69df229935a84f8a64e0e5324d2a0160416309f6d6f"
+      "size": 40635,
+      "sha256": "d34ed5ad18b54f0e50d5e86f176cfa627f7cd239faf05362b99f308bc127c843"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/01-故事与剧本/从写作困境到编辑完成.md",
-      "size": 27102,
-      "sha256": "0c81d1b1cacf798ca24c259ef6b0b10e56b6e0aaec521d7943c6b618b1ef9e31"
+      "size": 27772,
+      "sha256": "92e9646a91c4cd1437cadb716f47a12c15bf01fa2d28a4829246702661fec2d4"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/01-故事与剧本/从梗概到可拍大纲.md",
-      "size": 23917,
-      "sha256": "fc45ea9a8b1a3d106021af4b99c3bde46c1c74e4a9a2858075a6146507258c55"
+      "size": 24530,
+      "sha256": "dd0553d1461978e115bea6571a29c08ade9a8925aba2c3f05aa67c395df8b34c"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/01-故事与剧本/从灵感到完整故事.md",
-      "size": 33788,
-      "sha256": "bad593fda8c43e3632dc8a4071f36be5b2187a3387c016f17fc0a44d40e9e52f"
+      "size": 34398,
+      "sha256": "42d08b3b3f609913525bfebb512f12a81de24e224d732f54ef2d317fddcca9d4"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/01-故事与剧本/用描述与世界构建让虚构可信.md",
-      "size": 14907,
-      "sha256": "ac8acf21e05d1b515fb12eae65d82af733120f282eedffe985338a13feb75ee4"
+      "size": 15568,
+      "sha256": "58741ab53788b3e460775111c982362e6c1613b1ad2fb15eb1b95944534377d1"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/01-故事与剧本/短篇、类型与媒介的叙事选择.md",
-      "size": 27809,
-      "sha256": "74588cfa7106322743314f11d2058cda7b02c114417ed9ad4ecb14d57a324514"
+      "size": 28452,
+      "sha256": "1f5a37798b1d99eee328f22a16709bb9358de8c6398e40409ce13fb88974b01c"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/02-导演与视听语言/C视觉拍摄知识建设/01-场景导演与表演排练.md",
@@ -3526,33 +5977,33 @@
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/02-导演与视听语言/场景导演怎样把剧本事件统一成观众体验与部门执行.md",
-      "size": 28859,
-      "sha256": "babef0ce360f9a7d06db8b6e63b7fb8cef5347d32c9e57af544f22402c3118d6"
+      "size": 29606,
+      "sha256": "b2553d2322ba12760a0b26135586799ccffc36ffdc90a71c6427a70132279e65"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/02-导演与视听语言/场面调度与镜头覆盖.md",
-      "size": 23223,
-      "sha256": "797794f0bc0966645dc801651c9b03775b3bf6dcf62efeac842d70105fe8fb6e"
+      "size": 23897,
+      "sha256": "686e93fa71521e92e0831248f75a251c8e172ea9a53e660a448c60715c07f6d2"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/02-导演与视听语言/表演导演怎样把人物关系转成行动、聆听、反应与镜头表演.md",
-      "size": 27236,
-      "sha256": "1b1701f1e4ef475bffbfbe95f29dbf48e8f1897edfbfa2433c6e5d069da4cad5"
+      "size": 27962,
+      "sha256": "8d55e5166d03bf4f0764f60e63fbd34155d5ed8d7a3c571f4dd9d39fae03cdf1"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/02-导演与视听语言/连续性剪辑与镜头衔接.md",
-      "size": 22206,
-      "sha256": "ec8d667ca7ef62f0dcdb46ed567cb5f224d64bdcc5d270957596ff60a4ba21eb"
+      "size": 22898,
+      "sha256": "eee9b1d9df84c72531dcdff9d8465bc1ebec653116deaf53b8271200710eb1f9"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/02-导演与视听语言/镜头组与视听节奏.md",
-      "size": 25818,
-      "sha256": "d934cecf6f5174a21a7fc3b95bf9ad820d339366377cd753d8e4bd1923f1b101"
+      "size": 26482,
+      "sha256": "952a1dbaee96b6a6defa198ac12db0dd426bd0793b4a5b8daea7e05ae477197d"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/02-导演与视听语言/镜头语言专业总表.md",
-      "size": 83797,
-      "sha256": "1116b56e84b2add94b1d647c9b0cf42e93c236760fe4e4de132e377ab5f06db4"
+      "size": 84450,
+      "sha256": "5b1bbf73624e48b675b7a2ee8c3dadd3a12b4d1c6f05944192d8a1087b67a28f"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/03-摄影美术与现场制作/C视觉拍摄知识建设/03-摄影与灯光专业补充.md",
@@ -3561,33 +6012,33 @@
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/03-摄影美术与现场制作/叙事布光怎样通过光源、方向、光质、反差与影调塑造人物和空间.md",
-      "size": 25187,
-      "sha256": "184b92baa6ed1c8ffd630c55618d49cbfc83e359410aeffb9c5ca6a355c17a08"
+      "size": 25909,
+      "sha256": "fae2b57102a5927cc81d121c1432048124a7541cc1d74ce53e44ddb924f74bff"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/03-摄影美术与现场制作/场记与制作连续性怎样让跨镜、跨拍摄顺序和跨版本保持可追溯.md",
-      "size": 20035,
-      "sha256": "6a173d3a763d55a52f3c91a31f38ff9c73cfded636c9a0136d1a94cf903c6ffc"
+      "size": 20773,
+      "sha256": "8c9f6118ed71c37c902fb4291163caf6a46cb59f8b14a40258de1b4417d852df"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/03-摄影美术与现场制作/影视色彩怎样区分资产本色、光源影响与最终Look并保持连续性.md",
-      "size": 23182,
-      "sha256": "31fbbaf33c84453f0a3643128b4ecd0e0efdacd87a3db7df1bd31cded34c1d4c"
+      "size": 23877,
+      "sha256": "f30009d93e7605615b41e1718b37cba2bdd914eb9a521214e4a4dfe5fa41df31"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/03-摄影美术与现场制作/摄影选择怎样通过镜头、距离、景深、曝光与运动控制观看.md",
-      "size": 30222,
-      "sha256": "0b63a9b8d8726975b7c8ec42e942525787ed8b161c46f302334891d268605d7a"
+      "size": 30947,
+      "sha256": "7dbeb24e5d287a2a0da9160339300ea2e76d102102825e63402ce2995853c8d3"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/03-摄影美术与现场制作/生产设计怎样让空间、陈设、服化道与材质共同表达人物和世界.md",
-      "size": 22752,
-      "sha256": "89693436d7980ae7f607cc765fa28eea76a4e1d2a11a7ae721d95f4722075b1e"
+      "size": 23469,
+      "sha256": "6a22eab42f38a3007152e82b79a49d039d5745d8644df3435419eaec56a74d34"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/AI生成素材怎样建立可追溯身份并通过时间与技术可用性检查.md",
-      "size": 28543,
-      "sha256": "2c40f163bf2d649d10b8195ee29283dee140fef6cc7d4446f10a9ddc580464ef"
+      "size": 29350,
+      "sha256": "a335f71f68bdea1c6ad0ea4ae55087561ce62c21de4ab1fb5150216096a5a21c"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/D后期知识建设/02-素材技术基础与画面剪辑.md",
@@ -3621,93 +6072,93 @@
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/创作调色怎样从技术平衡、镜头匹配推进到叙事Look并正确路由生成缺陷.md",
-      "size": 46649,
-      "sha256": "164911edc41fd4afa5a5e8d9c68802d38427d48ba68e4349f22127dc265af78e"
+      "size": 47518,
+      "sha256": "90d5a17e5937551a74ccc0bf83efb41e5ef14cf08c6d41563d5db3beca9163c5"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/声音设计怎样通过Cue、听觉视点与素材分层组织叙事并推进到可混音交付.md",
-      "size": 33041,
-      "sha256": "84e8691e5fc60560930b3ad9a2ea5c1aeab2263be5ca14fd9abee1e057c3cb2e"
+      "size": 33927,
+      "sha256": "2a29ab14b806d0bf4ab51734d3696d004ea55b05481a6a28fdd6246c93368a62"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/对白编辑怎样在保留表演的同时获得清晰、连续与空间可信的对白.md",
-      "size": 26713,
-      "sha256": "9be91a64d9cafe096804e229231b63be1ea58b9ee1a10c0a487925f3deac6b51"
+      "size": 27560,
+      "sha256": "71ba978ddb4f62cc694ecd994d0ae30902e9dea05ad211bd1197d5311ac43411"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/影视VFX镜头怎样从Spotting、Plate／Handle与WIP／Final版本审查推进到批准并安全进入Online.md",
-      "size": 45602,
-      "sha256": "73cbb792ad79b7fd775d9ce7eb6cbef8d11182756f1c69bec1493e1da0cfe2ee"
+      "size": 46517,
+      "sha256": "8c85c71b857a35330b249c25d8299e6595b6ddaa748e6490c7e2e42b5e3d02e3"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/影视后期怎样从源色彩身份建立Input、Working、View与Output管线并形成可验证调色输出.md",
-      "size": 42431,
-      "sha256": "6f78fcd45189e5b49cf0ccfbbc8549f08406b9e2d6c55e0a4712ed077a1b00cc"
+      "size": 43301,
+      "sha256": "75f96e1203a5ea70d686a91a0db3ff3f73363779a41e6f74672e688eb5f32dda"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/影视声音怎样从Printmaster、D／M／E与M&E推进到满足响度、声道、版本和最终QC的可验证交付.md",
-      "size": 35827,
-      "sha256": "36d31f913fc9ee011036b322afac6dff554a44e651eda7b387ed8f688374b643"
+      "size": 36755,
+      "sha256": "a4823d724730469f706f1ed447ff5ba68133d67e1ef0f71035a94876cb99c44a"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/影视字幕怎样区分对白、翻译、SDH与Forced Narrative并通过版本绑定、人工校对和Timed Text交接进入母版.md",
-      "size": 43662,
-      "sha256": "5c0e8480a9f59443014d9d4c82acd76408cc6781d31fe755b0b89e0c1cb8c0df"
+      "size": 44594,
+      "sha256": "212a57fa22aec869fb3abd5bcd571fd8450422f59ddf0a4b42098981df86f8b5"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/影视成片怎样把画面、声音、字幕与图文汇合为版本冻结、QC通过且可恢复的母版.md",
-      "size": 54150,
-      "sha256": "3f0520813244534add81528a8368317636b6456ca892d03341d87fcc94ecf6c2"
+      "size": 55063,
+      "sha256": "7b53c4ff4152722df77cb2ae1da622a9247a0e3822f114f750dc731bacdf8af6"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/影视最终混音怎样通过监看基线、分组预混与终混层级确定对白、音效和音乐的最终注意力与动态.md",
-      "size": 31687,
-      "sha256": "b53f5969b8094793723b95d111dc81bd500eb5a9c5cdb84e675c7d5c3c17a14a"
+      "size": 32625,
+      "sha256": "a4094d36b28038f45889ccf09ede09a8cb050d5b0d8302e66cf720fae0557487"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/影视配乐制作怎样从Composer Brief、Mockup与版本反馈推进到可混音交付.md",
-      "size": 34245,
-      "sha256": "4433ace00d8661691b4c6b405ebfca8630db4268d287c171ce2682ac2e80fab7"
+      "size": 35052,
+      "sha256": "30ee2977fdd8ef2a08186bf8cb7f4561b2e5b483104bda9db371d699edfe8188"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/影视音乐怎样通过Spotting、Cue入退、主题动机与无配乐段落服务叙事而不替代戏剧行动.md",
-      "size": 35854,
-      "sha256": "bba4d4aabd0526e5ba5d564c3ac3b1426ce14947ad39c32168ef6a7b195f3396"
+      "size": 36806,
+      "sha256": "f7a598d2bcc59026effc83df6102ce7fadbe3994a7db6d6e3f6394ac347abd8e"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/新增与替代对白怎样选对ADR、旁白或角色配音模式并保持表演与同步.md",
-      "size": 29974,
-      "sha256": "ed4b737596a0d067cd503b1c3d69b12ac8f68bc2ca9b3c013131f1a52455a63f"
+      "size": 30816,
+      "sha256": "d6a3f65925eaa0f2665544eb603dd704d3c2e6a051494643f3603cce398da567"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/既有、曲库与AI音乐怎样建立作品录音双身份、权利证据与可追溯采用门.md",
-      "size": 36437,
-      "sha256": "39157c6cc3b2ce3763513531863abb6a91913be0b309f72893b35319bed70333"
+      "size": 37274,
+      "sha256": "880cc0b08bc52cc5e6f07cf6bcad1b77ebd7b274f88caf3e50f6c18934f0e79e"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/片头片尾与屏幕文字怎样通过文本批准、无字版、字体权利、色彩管线和语言版本进入Online.md",
-      "size": 44729,
-      "sha256": "72712c97cd2b532329555825d126d288b78505f40a4dbc01f905742e6935cf1f"
+      "size": 45666,
+      "sha256": "2c8be70df93c9c51b74f63f34199f7c09f90075ea885393d5883e5d2fdaaa1aa"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/04-声音与后期/画面剪辑怎样从真实素材选择推进到可锁画候选.md",
-      "size": 36956,
-      "sha256": "8220c544d4103c79c0c699fd9aebc2e7a7d8c43f4375ef545c3731c0fc0b6f2d"
+      "size": 37742,
+      "sha256": "f9d743735b367553d808e2dea454828d9a9240728e0b8984486134525c75feb2"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/05-创作实践与项目复盘/创作流程复盘与提示词迭代.md",
-      "size": 12733,
-      "sha256": "077c00215b0dda4730b544bfa92cef6b2b135c9dad67b7ee6a24c1f1f16d65ed"
+      "size": 13430,
+      "sha256": "eb1119a43110c230de3036e4e53a3800e0bf6414e14710b8333d1bed71ef3e39"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/05-创作实践与项目复盘/用过程质量而不是单次结果复盘创作决策.md",
-      "size": 14934,
-      "sha256": "2fc38b09c038e8e4344e22508eeec0701bca9cced5b0f94a376f5c5d61102238"
+      "size": 15610,
+      "sha256": "e67bc03f8e688068e56951df4eea479d9c2a4c5e6b03d9460339e608ced320a2"
     },
     {
       "path": "个人影视知识树/知识库/学习区/综合整理/06-行业观察与灵感素材/怎样让创作愿景在工艺、取舍与团队磨合中落成作品.md",
-      "size": 20462,
-      "sha256": "434c3489f97113ac6371a7b3fbcea1a760d2cbb8648a0deaf95d3abc650cd356"
+      "size": 21186,
+      "sha256": "d5f532ff088205b9b942b14e070d5596ed57e204aae91ec420aea80ee6acdd1a"
     },
     {
       "path": "个人影视知识树/知识库/学习区/访谈与专题/大学生在校资源与机会清单.md",
@@ -3756,103 +6207,108 @@
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/00 - 课程总览.md",
-      "size": 24163,
-      "sha256": "ca11ff80b9f423ed1d75260dcec2344e8c2d2dbeecd61e4798d032d95c10eb96"
+      "size": 28319,
+      "sha256": "394ad1318cc7d42b300ebeb6090635c184775bdff07b0d677d527aae256500f5"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/01 - 第一章 影像语言与技术史（P1-P2）.md",
-      "size": 11400,
-      "sha256": "51db3b85e3558aa0ef7600df7ec347bb9135dc0937cfa4d12b86fe25ad33f351"
+      "size": 22912,
+      "sha256": "d8f6ad982487a31f3af4dd7b5dc8ce69a0d7fb4c8bcd1d91d2ea517a7709ae3c"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/02 - 第二章 镜头原理、类型与光学控制（P3-P8）.md",
-      "size": 15984,
-      "sha256": "55dfd8c044c541b29615c2452ab902948c31dfb91efb64b7bc4f8b25ac8ebdd9"
+      "size": 35418,
+      "sha256": "15899e3b9e24d5e4d6d0877c9f24cfb32bfe8bd6a438fc888c9c9d0a1e7999f8"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/03 - 第三章 摄影机结构、快门与机型（P9-P12）.md",
-      "size": 14456,
-      "sha256": "36f71b7a8a1c0786ee0657c697871a6c70b7a66fbc7ca2f6f72e7075674748fb"
+      "size": 38592,
+      "sha256": "43af824c6009806012047c9bafdadeb4a3942266ee0ed42ebe317541a9bdaf0e"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/04 - 第四章 曝光控制（P13-P15）.md",
-      "size": 12735,
-      "sha256": "dffdd8b10a2f9c3c3d0a43da0952fb5cb0e5b3e350cdc7c00d567ec447373051"
+      "size": 24615,
+      "sha256": "5820c0f19c6db6f98e9ae1c16743ac99c25a24597372d6c71168960637f8931d"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/05 - 第五章 光线方向与造型（P16-P19）.md",
-      "size": 14262,
-      "sha256": "240d27353deddc0e0431fb61b088be4e9f8b02356aa78b85b13ec55bf2626441"
+      "size": 23671,
+      "sha256": "60877e6562a645d9a27bf2b627ca7753820b8e951abef6f09a80c50b8c5922da"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/06 - 第六章 影像画面构成（P20-P23）.md",
-      "size": 12800,
-      "sha256": "75da65b4a7c0e1a9d3ac360a4b4ef1d30e0fc5e069d885b089b368e386347c7e"
+      "size": 24906,
+      "sha256": "a0e0ef0e20b1aba53638b9d5f6b9cf88f4d6ebf772ff386514dbcddddadde07d"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/07 - 第七章 色调与线条（P24-P25）.md",
-      "size": 10125,
-      "sha256": "a8b96ace8933b1ef95edccc26caed34fad58faab81ecb907f45a3d89800f0ad9"
+      "size": 20722,
+      "sha256": "e33be6246fc8be4e32304f8d9cb2e331393b5c3cfe61715cd80200ea4d863201"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/08 - 第七章 拍摄角度与景别（P26-P32）.md",
-      "size": 16654,
-      "sha256": "77c2fd8deb98af639601c9dce13aaf08bb95eeb01d66f5d36883473113bb7644"
+      "size": 38390,
+      "sha256": "41424109196fc1868c0518a3837c22a27970e218a00ab7e6c64d4745b13567a6"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/09 - 第八章 固定镜头（P33-P42）.md",
-      "size": 18686,
-      "sha256": "0b0e62850881d9caba4584c2f87470dd417adfe14995d0a75c9e837437e5a564"
+      "size": 36066,
+      "sha256": "8890a3be14e8ae503bbf2b77878e1cd0f8b871e38fa6fd9b9cb0f2051cfd9630"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/10 - 第八章 运动镜头（P43-P47）.md",
-      "size": 14332,
-      "sha256": "7ebb4b8d6338df88fdc9ece797527cd8dc55632a5d98870eefe85304e13c9334"
+      "size": 26494,
+      "sha256": "1ceffe41161d01a39b32d061c1dcf5221a4fd9a9b08417b52757b9d90e04bf5c"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/11 - 第九章 后期剪辑与蒙太奇层次（P48-P51）.md",
-      "size": 12595,
-      "sha256": "2139a14617994d608bbca216f8db4534fdd410217e7a910d24ee02badcf9f5ee"
+      "size": 29681,
+      "sha256": "5a8203f2fac596b7341c89c20b8ec71fe0b4a26b36c736eaf1cb9f4ff93c03c8"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/12 - 第十章 场景的有限与无限（P52）.md",
-      "size": 8989,
-      "sha256": "3f33dad4db757101269a93f9f29b03c6d251e9363f9d46e079f0337cee749b75"
+      "size": 19603,
+      "sha256": "22091d4e93402ef9b704119950501c8bc287ba72a3f23c71f36fb63c1fba5b7e"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/13 - 第十章 空镜头的叙事作用（P53-P54）.md",
-      "size": 9907,
-      "sha256": "8375c15d2a8aef9f8ef44c34e34ef8348d90aa5f95be6aa61da14a86c1f0339b"
+      "size": 22504,
+      "sha256": "08ee04760598b992ba09f11b63a950a67c2761800cb7487886b5ca33da15678b"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/14 - 第十章 影视时间组织（P55-P57）.md",
-      "size": 10159,
-      "sha256": "20aa5debc1dc9186da7a3e10ed0406c5ed4c2303b0a5fe6fdc9fa905cb3e516c"
+      "size": 28483,
+      "sha256": "69a7d4f2090af4289f8782bcb9a6de1d773722e59bbec877b0de2f88d3728bb2"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/15 - 第十章 布光实践（P58-P59）.md",
-      "size": 9539,
-      "sha256": "8cda46dcf943a409cec29f9a9d423cff1689c065a2a2862b7732ee549ae62ca2"
+      "size": 25008,
+      "sha256": "42631f93749f49bc4469d94c338cd70f1e036e9891546fb5fcdcf08f13d1bba4"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/16 - 第十章 动作片视听设计（P60-P63）.md",
-      "size": 11381,
-      "sha256": "61c8c30b7ae17abc1ce9dd95bba2b2d5846cda6fbac93e5b43c593f1c5be1731"
+      "size": 32025,
+      "sha256": "1b4192ab0568b2b812af36baf981573d29dd0366f94ae2ef2f79490b9f33d4d8"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/17 - 第十章 视听节奏（P64-P68）.md",
-      "size": 12047,
-      "sha256": "46328e0b9791cb8ba7ef7bddd188a49d3555efeb3931e5d2783fadaf40671b43"
+      "size": 28596,
+      "sha256": "2237128c8019f982dfaeaedf9ec4dd6c5a09714dbe1718721571ffdef71437c1"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/18 - 第十章 声音设计（P69-P72）.md",
-      "size": 12701,
-      "sha256": "e08612b83829bd762f2cdd6503f46dfa2f3e1edbeb3dbf8585da2ffe27534f89"
+      "size": 31941,
+      "sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/19 - 第十章 影调层次（P73-P74）.md",
-      "size": 11044,
-      "sha256": "4244aefeefe54e491ed3df3650e2f55c846caec2f3a8513fb95fced4e2ccbcd6"
+      "size": 23034,
+      "sha256": "10f6867d50a7ed302c75e1523a27c25e1f8e2e40fa500a95b362838e363da019"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/99 - 整理交接与待核事项.md",
+      "size": 2773,
+      "sha256": "4f3fe88f1830f3a9c05f6e98096a6db16b9b7e01af6f395c9af51116462a6677"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/_assets/teaching-visuals/01-image-technology-chain.svg",
@@ -3956,298 +6412,378 @@
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/中国传媒大学《视听语言》.md",
-      "size": 20769,
-      "sha256": "8632080e16693defaea5704c0aec41e0a0a5149f4cab063378cdd49f2de088ad"
+      "size": 21436,
+      "sha256": "eb2d116de4430bddf4e18e64315c1663936a5b9d4bf29147e75968f8b392dbd2"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/00 - 课程总览.md",
-      "size": 20002,
-      "sha256": "0c30c0a809b48608b0cf78c7e1eb37e3bdab3aac5acf11230a1c69ab967adeb6"
+      "size": 36291,
+      "sha256": "03ec067e1c09ebbd771b287c34b1ecd6d00e6260ac49c9b879af45f5da167077"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/01 - 第一课 劝学（P2-P4）.md",
-      "size": 30514,
-      "sha256": "5bddfa59c1e524e04ec9dbcf0dd01717820ca8472dc886f0a67d0a7d2eea6170"
+      "size": 23547,
+      "sha256": "8e67c1d223d9f6a69f8380b55493cb3a2f045ac5295f72c7a469beba04503ff2"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/02 - 第二课 故事的要素（P5-P6）.md",
-      "size": 8006,
-      "sha256": "2c11c36a4fa0bc0292ba34a65405a5e446cdb81ca3b10ff1dab4a19e90df5a89"
+      "size": 20202,
+      "sha256": "cbadcccca110527db9900bb9f91606dee2e810a49a012220b8250c7e7d581f2b"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/03 - 第三课 八要素的实战应用（P7-P8）.md",
-      "size": 8675,
-      "sha256": "6553cbf0e042a7e18c9c738a21cf123d3c2080a58bb6f703cf2f16b74a789fd2"
+      "size": 21026,
+      "sha256": "4a6488d54d19c3268945b0060d1bf3d9ed1a98680eeed2a02df3221cf65d124b"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/04 - 第四课 第一个故事（P9-P10）.md",
-      "size": 7805,
-      "sha256": "d0d89f672c9ff314e7f5192f550ff2f2b65751866e3a3dfef4ed473a29e6bb19"
+      "size": 20070,
+      "sha256": "47d9578105e03218c88be7911bfa5f13e452a4407e6b38db1cc00df3a5c6e478"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/05 - 第五课 剧本的正义（P11-P12）.md",
-      "size": 7831,
-      "sha256": "876f1d97b08977046492493ffb827d603c320703a38063e0c9a123fe0f173b3a"
+      "size": 20795,
+      "sha256": "956da938f3041a3209ae51d85485c39a164581b3e47d432db031a24078feac96"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/06 - 第六课 剧本的格式（P13）.md",
-      "size": 6224,
-      "sha256": "fd5142f29c0a8099b04b3137ab19f37f193053c732ab174ddce8c4fef989420c"
+      "size": 15882,
+      "sha256": "ce36cdf8e183f9bcf96e57f1b2281503f7a712fff962e3dd51fe18916b97df7c"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/07 - 第七课 拿事儿说话（P14）.md",
-      "size": 5744,
-      "sha256": "e3673eaec903efb70011fecae6bbf4ef0ae4b19460cbe44bddfd6af02cf5cfc2"
+      "size": 11001,
+      "sha256": "3dc4d5ec9ce3948461a18b8b21b543ea95316bd3e365af5eaa50ae6fd4374243"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/08 - 第八课 勾勒画面（P15-P17）.md",
-      "size": 19322,
-      "sha256": "4f3376137bfa67c8a77e2e5121fd2f4f7d8bc79d04f93dbc1df279b97743ebc7"
+      "size": 29188,
+      "sha256": "02679c7d6c92491ba50b65ae8fd7ac1cc10f308fd7ed97b5441cb8ceea9e8b1b"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/09 - 第九课 谈谈人物（P18-P19）.md",
-      "size": 33464,
-      "sha256": "3cdeae0ebd70b87a3310aa413a9d6cdbe59e9a901330dbec48f1dc1da478754f"
+      "size": 25351,
+      "sha256": "5ef6e16bd0690fd7f2bdba61761d76067fd6049964f8fed1bcd0a9b87660850d"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/10 - 第十课 复杂叙事（P20-P21）.md",
-      "size": 23538,
-      "sha256": "62a536a664e679866b054545479363d7fc78305917684e7b79d72ecf10fb6e9b"
+      "size": 21545,
+      "sha256": "67cebfd9574e4bdffc8e80a616b5e1fcb3e92b19375619bab20155c9fa0696bd"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/11 - 第十一课 类型片（P22-P24）.md",
-      "size": 32033,
-      "sha256": "69e6de18d07b78c57414ac2ace2e80c60ba89520d7a52d5f5913386186afe08d"
+      "size": 29075,
+      "sha256": "dd2c14e2726629b42fd02d720ec8375bd945febb21cdbac5c153c020d43ddb57"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/12 - 第十二课 小蝌蚪找妈妈（P25-P27）.md",
-      "size": 31696,
-      "sha256": "cdddbc9d206ca95ee35cde1b1784524b672cbbcb6a06a6a6c93ea74e92c83d05"
+      "size": 27936,
+      "sha256": "3b0f9903934bbbb29a81db4ef730195e78754ab7a24705d2e6a7dd38b1623053"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/13 - 第十三课 电视剧（P28-P31）.md",
-      "size": 41332,
-      "sha256": "7eca0389665b734b2ef03b1815d4473344518ce38b1abc0a64f429b81cae4ca6"
+      "size": 32123,
+      "sha256": "d26902d1eb0cd490c844088e86b4d86df09911f005c03902c19eb4d26f5cd9e6"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/14 - 第十四课 场景与对白（P32-P33）.md",
-      "size": 36486,
-      "sha256": "bf6eb1d889020eb6fe2154ec3b600ef9b42c0cc4847d4422cb06a6c30fcf0019"
+      "size": 24427,
+      "sha256": "0fd72879ef6f0d5f7e711ac522ffb78bc564c6e96ed9424914176ed54355ac6d"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/15 - 第十五课 节拍器（P34-P37）.md",
-      "size": 39336,
-      "sha256": "1df398d677e884cebe7af217e0fb5d9184f1648c3ae133ad181e57b2d3478cb6"
+      "size": 27692,
+      "sha256": "9e1c9a583eecb7b29de2a9104f96071c2072d617517293045de7858e0df6b3d4"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/16 - 第十六课 悬念与反转（P38）.md",
-      "size": 12567,
-      "sha256": "a769b4ec33f81c4c743e2c370db2d466e46607f614e08cb57bdadefbfb727839"
+      "size": 17471,
+      "sha256": "dd3bafb9e26d54042214c4fc4c5fa4f91cf2d66d6bc2bb0f700b071019773323"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/17 - 第十七课 新手跳坑（P39）.md",
-      "size": 12855,
-      "sha256": "d1841de63fb104a31bad045087ac3f1e19a091f4c35313d3893618519d5b8970"
+      "size": 18588,
+      "sha256": "d3dff540a074cfd9dd5eda83784f485e863f4a45da2cabb0685fcfdd6fb52a12"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/18 - 第十八课 拿人的开场（P40-P41）.md",
-      "size": 17860,
-      "sha256": "03fa065409f451b1e7ca1d8f36d2513516bf42192cea9a165b1071ab0b0440b1"
+      "size": 28126,
+      "sha256": "34b655fe62a45e0c542014b31206488e5399cbc9d1e85241831b03d4ffc5d619"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/19 - 第十九课 怎么撰写项目提案（P42）.md",
+      "size": 16930,
+      "sha256": "fe6041578bac988c0a292497a32e261d501c21ab4bd000985ceab71d4dc3abef"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/20 - 第二十课 编剧拉片（P43）.md",
+      "size": 21112,
+      "sha256": "53ea8cc299d312c44d48b597d7f7b3bdf95aee54bd071d7488c4df98426ab5d1"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/21 - 第二十一课 谈几个进阶问题（P44-P45）.md",
+      "size": 22730,
+      "sha256": "2074270d6c5e7266bf23f84d36f1634b6f23bd8deb9ef2a4c03be861e8d602d4"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/22 - 第二十二课 高潮上不去（P46-P47）.md",
+      "size": 21726,
+      "sha256": "f96030b2837dd703658518e19f9d041341b08b9a1d0715b7ffc4f6c3e4c7d82d"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/23 - 第二十三课 怎么写喜剧（P48-P49）.md",
+      "size": 25469,
+      "sha256": "d587b122df0e0c23f877ba15f3446a47eb5ff7af8ca70641a3aec52baafb71e7"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/24 - 第二十四课 剖析烂片（P50）.md",
+      "size": 22412,
+      "sha256": "553c80beff179babb2f493129a7d626a9a61b552cd59d5ef824500cfbdc7eb5f"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/25 - 第二十五课 观影情绪节拍表（P51）.md",
+      "size": 21134,
+      "sha256": "19d2dc4f399a1229881a68306721d180bf3886b88c13c398d995c97e13521fc3"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/26 - 第二十六课 从容应对文艺凡尔赛（P52）.md",
+      "size": 21370,
+      "sha256": "77119f321b42f391b55a77864ef2b33b8c47a4145b9df2884eb7abbfe7cf877e"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/27 - 第二十七课 剧本的叙事视角（P53）.md",
+      "size": 19694,
+      "sha256": "b9c517bf5f8b1c9323484aff4955e1479ea01a5a7f93999d256efafbd7f4616a"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/28 - 第二十八课 编剧课科目三（P54）.md",
+      "size": 24842,
+      "sha256": "5a80432fd0422e6ad2dfa59617aa61bc6784eff2797fcd7ca68aef8ee5e47461"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/29 - 第二十九课 剧情要有攻击性（P55）.md",
+      "size": 13642,
+      "sha256": "08be6c925c503bbc1d54ff6d151bdfca8fea104caef5eb6dfa1454d81b301213"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/30 - 第三十课 人类为什么需要影视剧（P56）.md",
+      "size": 22445,
+      "sha256": "8afb0c53937e5c191316aa42ca2882ed4721d4e0850d93f1aae2b32af7968fbb"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/31 - 第三十一课 单元剧的创作理念（P57）.md",
+      "size": 22120,
+      "sha256": "d652e753185405cc6ceffeb6d8307a50e12e93abaec560902075f9264f6a760f"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/32 - 第三十二课 跟《鱿鱼游戏》学写强设定（P58）.md",
+      "size": 24094,
+      "sha256": "cb6090940b04c3bf7f7ebfe8dbb5d41459302a7a0507e3e63aba334e67596639"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/33 - 第三十三课 怎样克服拖延症（P59）.md",
+      "size": 13217,
+      "sha256": "3039e3dc0601d1a8926cd5b0d3471b28252a63cd2ce2f0994e95d77dbc2fc1db"
+    },
+    {
+      "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/34 - 第三十四课 查理小三角创作法（P60）.md",
+      "size": 15026,
+      "sha256": "9c109165e9ee5f307284c9a5f99890bd117e26f5588d2d6ff851bb3a67398782"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/查理老师的编剧课/查理老师的编剧课.md",
-      "size": 70964,
-      "sha256": "9962d1f54716918d90ff147fc0a5245b893b647732a9aab4dc02a34ae1f08dd5"
+      "size": 72902,
+      "sha256": "e58e8efe536d722609b54ec7abd30b993b27aab87ee016c6013d1e5219bd41c5"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/00 - 课程总览.md",
-      "size": 9812,
-      "sha256": "2cd4814aad2d3609743adb94642861ed666ef8eb50b9f59e2005c6c16492ce6f"
+      "size": 14013,
+      "sha256": "d11fb2eded3f97bd0a563677662640a6f5eb22d98d630b353f176c0fffe0ebb6"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/01 - 第一课 正反打（P1）.md",
-      "size": 14495,
-      "sha256": "c894659af3c0fb31ced1e890146d6b9f4fd63610ac12e9de91f80d5eb244daf2"
+      "size": 16792,
+      "sha256": "0cde29f9fb5b30462b0d087e022ad71a498d816417d17d5c664dd76eca20cdba"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/02 - 第二课 轴向（P2-P3）.md",
-      "size": 6297,
-      "sha256": "4d23957bce2fb9fe203cecadf0251c899c97a15f44e8fccd3260fa8a1d7de824"
+      "size": 14023,
+      "sha256": "2c546ed76f700b575aabc3359cebdc61c8840a4cef0b6add7f780dae6c910fe0"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/03 - 第三课 范例一《老板，大门忘关了》（P4）.md",
-      "size": 5282,
-      "sha256": "0fac1e91d25463aaf8ee07a7a27bf8e8d09bb2c1f9dc9cb8ea700168c93cee76"
+      "size": 13508,
+      "sha256": "07c4ee457ea0b16204e630eb7da676db4cb2fdd1e841cac3a7155da8e1be1261"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/04 - 第四课 透视基础（P5）.md",
-      "size": 5263,
-      "sha256": "3d854c5e14e434fb6fbd01eae28fb4a42fbb81066717738134470c49efac9371"
+      "size": 12940,
+      "sha256": "bf14c27b5023f5863bb9ce1eea4f703c4313242a1d71a7d2d252357c588b9159"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/05 - 第五课 主镜的概念（P6）.md",
-      "size": 5435,
-      "sha256": "0976f368cdb81931bfe034ee71cb1af4b00eb98235e15dbaae063b26de9c7c80"
+      "size": 11245,
+      "sha256": "f49bb2a9e25fbdf165ab97673272161c6fc09ec1c9169d587a45011a007cffd3"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/06 - 第六课 用画面推导机位（P7）.md",
-      "size": 5299,
-      "sha256": "6d6e7ee03d95b516305962ad3ee28e5174fd181e66a86730525ffb5eeac32cd5"
+      "size": 13068,
+      "sha256": "70e779f886416710047a27b50304d0a1c3f840c5dd9a073c345008d0074727e7"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/07 - 第七课 讲故事的基础三原则（P8）.md",
-      "size": 5420,
-      "sha256": "f580e3cfab8a12e71096b51836bc4d10ec3bd863ec7447843232f34f2f3506b7"
+      "size": 15432,
+      "sha256": "592659966746aba7f1fbca1737006b08e71b0fe0c62fc0c1c67ec6467934fcfa"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/08 - 第八课 决定景别的六个原则（P9）.md",
-      "size": 5772,
-      "sha256": "9fa657d5419de1e7d3ab0685f1a9ae1f9136111d8b2ccc607195780d27935845"
+      "size": 17372,
+      "sha256": "f25c17b5b02fe7b82910e8bafdc9ec56a72006e6dd244fa4728e24e811517a85"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/09 - 第九课 决定机位高度的六个原则（P10）.md",
-      "size": 5683,
-      "sha256": "73987740de618a9e8e580df112810b4d991c596188d4448beb20776e9d44b514"
+      "size": 17865,
+      "sha256": "3fdcad64caecba77f8ff3e55567712f6cc6ff321f8dfa63dfb95813ff7088c8c"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/10 - 第十课 构图的两种思路（P11）.md",
-      "size": 5476,
-      "sha256": "1ef673660b4d507fc8bed953097b95013d8d3c917af06aa7996a394484e0ca23"
+      "size": 16799,
+      "sha256": "86e79ca68f923b6b4ce07df0a3a9b4120d91368ebdf3c677079fc02b1912d07e"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/11 - 第十一课 视觉焦点的实际应用（P12）.md",
-      "size": 5607,
-      "sha256": "23ef05816a453531d3764dabb95eec4d54895618501e8b874593c5c2aa9921bc"
+      "size": 17535,
+      "sha256": "d6a9808358703184d78d1880f06aa2d6fc5d05a9c13f7c3e81155c9c45273825"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/12 - 第十二课 空间感（P13）.md",
-      "size": 4772,
-      "sha256": "bcb4ddf5c0ea836fcfe31a46d30fcf7bd2105b359cfc272080ba3d6cd26f2e63"
+      "size": 11318,
+      "sha256": "72705ba304e0414ff4aa3a7a27c8ccf58b54f62c8368646e4c7b2376304b7b00"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/13 - 第十三课 运动（P14）.md",
-      "size": 5332,
-      "sha256": "3d0fb7ffe2d45d8bb1a23ffc0034c895d9d0d1be099d3cf191721c84e2ebb98d"
+      "size": 10530,
+      "sha256": "2bba87f6d0694dacc9d944166c2206d355edbcaa2a9cb32c5bc99e3a9fde03e5"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/14 - 第十四课 什么时候能跳轴（P15）.md",
-      "size": 15001,
-      "sha256": "ce3cc30ccc7cfa12a4d355ea2836ffe1f093042e526626d0209a12b1e00bc358"
+      "size": 11429,
+      "sha256": "dc2a199680e2d97627db056ea2d2aa59c0dc7931324e3407d0bb4f33a135d5a1"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/15 - 第十五课 视角（P16）.md",
-      "size": 4992,
-      "sha256": "4c448343072b0345673c0a19744dccf49da242fed6303e0ce8ab4965f3cece97"
+      "size": 11647,
+      "sha256": "0407911d2d4e48631082971767823d18f210319fcefa367412c4a1f8502a292a"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/16 - 第十六课 蒙太奇（P17）.md",
-      "size": 6255,
-      "sha256": "1bf66d7a73af22942de6d69a66e95442c08aaa0eb08a8a5f7d65e3674756c9cc"
+      "size": 15497,
+      "sha256": "fe255df15fee2e8222ebe1253ea48c9964d2079d572aa8861f8b07adeb29e435"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/老白的分镜课/老白的分镜课.md",
-      "size": 15267,
-      "sha256": "ea755df172e343fb4abb567a78eb17b13c9f93c3da1f5bc7d30a631a09b01407"
+      "size": 15964,
+      "sha256": "468fe419988c04aec5477db765c62c5072aeefded3f75b859c7a673d82a52ff3"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/00 - 课程总览.md",
-      "size": 11226,
-      "sha256": "7fa4e7688203c524e95d9a498f72ded1bf2dd8b301c472cd7759b02bd9da4042"
+      "size": 11929,
+      "sha256": "4281837f554ec0f0231248b192a4b09c584afff1076c08229feece8c5a43f802"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/01 - 第一课 课程介绍（P1）.md",
-      "size": 9840,
-      "sha256": "08978ccf2afc2315fb9cf9fa0de1ec0c9b895d6e720de278e3e61a4e08d2bdd6"
+      "size": 5692,
+      "sha256": "d4bd67ab38163c4fdfb139bd6d4700ce8fc386e5c1153cbb06912e77cd05d846"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/02 - 第二课 虚构中的真实（P2）.md",
-      "size": 12532,
-      "sha256": "90440dd5875a46050a6ba90fe33a05b1e74fc3df1a15a368e8c64f95fdc2762f"
+      "size": 11135,
+      "sha256": "082f62a03b6923f3a9ed2e953b430898e6a8d637dbacfcc04433678a0c53fd40"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/03 - 第三课 灵感的来源（P3）.md",
-      "size": 9849,
-      "sha256": "1d33acdbb68e8c931ea19f793b0d081f3ea3f1ecfcb553196aea2a2fddec1174"
+      "size": 11291,
+      "sha256": "2733a89798f312459fac2733424d1eb5d78ae6b1a7bbe32008f7075ccb2da3db"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/04 - 第四课 寻找你的风格（P4）.md",
-      "size": 9879,
-      "sha256": "489c28e064f2ddab0660400c4b47e357ac5b3c8e6a156c56f177006cf0d90749"
+      "size": 11133,
+      "sha256": "11cd6edb7afb96ef58815ce486a3535bf09785aa3e34eb93214f9ad851c5bba9"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/05 - 第五课 故事情节的展开（P5）.md",
-      "size": 14786,
-      "sha256": "05c491347992a44f28e6a57ac5ce107a7c3c6f0d2b57720d7a29da64af122db9"
+      "size": 12800,
+      "sha256": "5b8e4456df79f7b69506217c7318567cdcb5a902ae2e145ca8d4305a81ad849f"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/06 - 第六课 案例分析之《坟场之书》（P6）.md",
-      "size": 9667,
-      "sha256": "2053354ffce739eb671e47c558256ad4fa11ea247f79b3f5d6576e04b6903e32"
+      "size": 9542,
+      "sha256": "cd14aa75d40dbe6dc9186b6e579b695f2560046ebf97153d9f1ab3fdfb86101d"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/07 - 第七课 短篇小说（P7）.md",
-      "size": 9211,
-      "sha256": "dd89c3abcc157b264ecc536648a37de1fced45485271e1f1a181d834bf8f97e7"
+      "size": 11546,
+      "sha256": "ef272a803147950407c3e95b1a38da756f3f854235f97155e2bc1919211d95b4"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/08 - 第八课 短篇小说案例分析之《三月童话》（P8）.md",
-      "size": 12617,
-      "sha256": "5deae907d69f7c9d54fd3d033c5fbe89e3086da3c07794873466c1f467e8d33e"
+      "size": 12032,
+      "sha256": "2af6a67ba10bc1b58e0eebf74fb08e7a2033d271be9ee9927ac7637331be9f27"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/09 - 第九课 对白与角色（P9）.md",
-      "size": 9628,
-      "sha256": "cdc9977eb42cde2f544912dce652a283e7e810f62eb875a9acb7e4df0aaacb08"
+      "size": 15794,
+      "sha256": "c11fdd6bf0713253463fe0238b62c5afb5d0922ba125656a736aecb766489471"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/10 - 第十课 角色塑造案例分析《十月童话》（P10）.md",
-      "size": 10183,
-      "sha256": "367afa6537509735b1372e99344aa216180778e34add38483fc0519659c8aaad"
+      "size": 12744,
+      "sha256": "a6e78e3368886b4825a95234b4afe0295765d8a5e29954bb5e3873d23801ddb2"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/11 - 第十一课 构建世界（P11）.md",
-      "size": 9727,
-      "sha256": "960ef979dd66061c3f2e613a71cf3661e05aaa67dfef885525a866fcae1d5e03"
+      "size": 14874,
+      "sha256": "4866e900f7b46a37b8960c19502eb54e79e137133f92b07451f77d00fc7eb153"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/12 - 第十二课 描述（P12）.md",
-      "size": 8636,
-      "sha256": "42f34172f051585b70a4aa810fdfc76f620276b069a50a31dcc521aad062a9ed"
+      "size": 9969,
+      "sha256": "686ee8d4b0ffa91545527d55d0733616372b825b9f99d919d7a89fcc5726425d"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/13 - 第十三课 幽默（P13）.md",
-      "size": 9250,
-      "sha256": "0f0924daf1ef0535d11df17510b0bb1a81ca03a89c629c230520daba29e9070f"
+      "size": 13987,
+      "sha256": "eb5befee4ccf54af40658ceda1fd3a0c34702177f6c2a747e667f55dcf2b02ff"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/14 - 第十四课 题材类型（P14）.md",
-      "size": 9262,
-      "sha256": "4deab9b5dad8742a103c82c695ea4f98cf7e9b11b3f9e5a1f653d4c0b4830c3d"
+      "size": 11241,
+      "sha256": "38112149bb9b2cfe5a7ae50fc0685649424b7c80be24e71f2c80e00e508d00df"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/15 - 第十五课 漫画（P15）.md",
-      "size": 9947,
-      "sha256": "5a062bc15c74a73e884ba5de9977f60035fbe4a95efe51dba49aad179e93b873"
+      "size": 19054,
+      "sha256": "ea2d06c5269f04240f9ffd4fc522e6992f2ebb30a53b8b1dd8131b4d5811b5f6"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/16 - 第十六课 写作困境（P16）.md",
-      "size": 9810,
-      "sha256": "43e8924f389d6c8a973d21f703c57a9bbd3a5f515f664bd0b96fafd258344da6"
+      "size": 11535,
+      "sha256": "5620ac197e613c6c40e0de0df29eb0c5f3ce0c1a4be0b2bbb5b2d6b9350f500d"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/17 - 第十七课 编辑修改（P17）.md",
-      "size": 9386,
-      "sha256": "8ed6eb4f688560d7764c0b8268fd83351665ab72b8304049e09ea58c38ece3a9"
+      "size": 10099,
+      "sha256": "16c4958f2208309621ebbbb04db89791a10dbc156316a0b93cca201fc84f5e43"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/18 - 第十八课 作家的规则（P18）.md",
-      "size": 9366,
-      "sha256": "993e0c68e20f18eeffe04bc9f46ec5c1332d30717940ca04952ee050e0ca183e"
+      "size": 11629,
+      "sha256": "2c8664a872626a047cf7bc40e99665a58906efca6c17888acd90cb3b69859044"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/19 - 第十九课 作家的责任（P19）.md",
-      "size": 11561,
-      "sha256": "9920cd459f206b53b605d985cc3f93374a24f3ee56ed23ba542f5cafd9e69e57"
+      "size": 9609,
+      "sha256": "a88e056b1bf08fcdebdebc9b1e00568b873130bf8f4f22fd4ec86d0b23e5dbcd"
     },
     {
       "path": "个人影视知识树/知识库/学习区/课程/讲故事的艺术/_assets/01-课程全景.svg",

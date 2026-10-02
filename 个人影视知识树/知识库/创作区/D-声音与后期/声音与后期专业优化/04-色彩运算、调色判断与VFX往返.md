@@ -23,6 +23,9 @@
   - "[[知识库/学习区/综合整理/04-声音与后期/影视后期怎样从源色彩身份建立Input、Working、View与Output管线并形成可验证调色输出]]"
   - "[[知识库/学习区/综合整理/04-声音与后期/创作调色怎样从技术平衡、镜头匹配推进到叙事Look并正确路由生成缺陷]]"
   - "[[知识库/学习区/综合整理/04-声音与后期/影视VFX镜头怎样从Spotting、Plate／Handle与WIP／Final版本审查推进到批准并安全进入Online]]"
+  - "[[知识库/创作区/D-声音与后期/后期方法-影视后期怎样从源色彩身份建立Input、Working、View与Output管线并形成可验证调色输出|后期方法-影视后期怎样从源色彩身份建立Input、Working、View与Output管线并形成可验证调色输出]]"
+  - "[[知识库/创作区/D-声音与后期/后期方法-创作调色怎样从技术平衡、镜头匹配推进到叙事Look并正确路由生成缺陷|后期方法-创作调色怎样从技术平衡、镜头匹配推进到叙事Look并正确路由生成缺陷]]"
+  - "[[知识库/创作区/D-声音与后期/后期方法-影视VFX镜头怎样从Spotting、Plate／Handle与WIP／Final版本审查推进到批准并安全进入Online|后期方法-影视VFX镜头怎样从Spotting、Plate／Handle与WIP／Final版本审查推进到批准并安全进入Online]]"
 待沉淀主题: []
 理解状态: 待理解
 关键问题状态: 待回答
@@ -119,3 +122,12 @@ Scene-linear、AP0／AP1、ACEScct、Rendering／Display Encoding、Premult、is
 ### 创作练习
 
 - [ ] #创作练习 在获授权的真实项目中，选一个带半透明边缘的镜头，分别记录像素解释、范围、View与实际回片比较，不先套固定修复方案。
+
+
+## 工作流创作正文入口（2026-10-02）
+
+本汇编保留专业来源身份；下列方法正文已按岗位问题重组，引用共享同一批来源，未增加独立证据或实际项目验证。
+
+- [[知识库/创作区/D-声音与后期/后期方法-影视后期怎样从源色彩身份建立Input、Working、View与Output管线并形成可验证调色输出|后期方法-影视后期怎样从源色彩身份建立Input、Working、View与Output管线并形成可验证调色输出]]：怎样先证明源素材应如何解释，再用可追溯的Input、Working、View与Output管线完成代理、在线和VFX往返，并形成绑定CUT、能被回读验证的调色输出
+- [[知识库/创作区/D-声音与后期/后期方法-创作调色怎样从技术平衡、镜头匹配推进到叙事Look并正确路由生成缺陷|后期方法-创作调色怎样从技术平衡、镜头匹配推进到叙事Look并正确路由生成缺陷]]：怎样在不抹掉摄影与美术意图的前提下，从正确解释素材、技术平衡和镜头匹配推进到叙事Look，并把调色无法解决的AI生成缺陷准确路由给VFX、Online或上游重新生成
+- [[知识库/创作区/D-声音与后期/后期方法-影视VFX镜头怎样从Spotting、Plate／Handle与WIP／Final版本审查推进到批准并安全进入Online|后期方法-影视VFX镜头怎样从Spotting、Plate／Handle与WIP／Final版本审查推进到批准并安全进入Online]]：怎样在VFX被真实触发时，为每个镜头建立稳定Shot身份、清楚的Plate／Element／Handle与Turnover，审查WIP和Final版本，经过用户批准后插回当前CUT，并与DI／Grade／Online核对到PIC冻结

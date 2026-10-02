@@ -1,0 +1,314 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p48",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P48 9.1影像的后期剪辑——后期剪辑的基本层次",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=48",
+    "bvid": "BV1dE4118731",
+    "page": 48,
+    "cid": 137439998,
+    "text_sha256": "97c60e013c14a22863621092f2593fcb8dc1dd84b75c83989536239b3534ffe9",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p48-9.1影像的后期剪辑——后期剪辑的基本层次/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/11 - 第九章 后期剪辑与蒙太奇层次（P48-P51）.md",
+    "sha256": "5a8203f2fac596b7341c89c20b8ec71fe0b4a26b36c736eaf1cb9f4ff93c03c8"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "97c60e013c14a22863621092f2593fcb8dc1dd84b75c83989536239b3534ffe9",
+    "note_sha256": "5a8203f2fac596b7341c89c20b8ec71fe0b4a26b36c736eaf1cb9f4ff93c03c8",
+    "scope": [
+      [
+        6,
+        218
+      ]
+    ],
+    "items": [
+      {
+        "id": "P48-U01",
+        "item": "前期拍摄与后期剪辑配合，本段从镜头间连接及其理由进入，不把后期视为与拍摄无关的补救。",
+        "source": {
+          "lines": [
+            6,
+            18
+          ]
+        },
+        "note": {
+          "lines": [
+            44,
+            49
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P48-U02",
+        "item": "单镜头剪辑及基本技巧：课程暂从形式讨论相邻镜头连接，不表示内容、语境和观众注意力永远无关。",
+        "source": {
+          "lines": [
+            19,
+            34
+          ]
+        },
+        "note": {
+          "lines": [
+            44,
+            49
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P48-U03",
+        "item": "动接动、静接静术语和固定接固定的例子；ASR镜／静需原字幕确认，不写成整个影片只能固定或只能运动的禁令。",
+        "source": {
+          "lines": [
+            35,
+            46
+          ]
+        },
+        "note": {
+          "lines": [
+            50,
+            57
+          ]
+        },
+        "status": "待核",
+        "reason": "M1连续声画待核；讲者分析与实际所见图文已区别保存。"
+      },
+      {
+        "id": "P48-U04",
+        "item": "用运动镜头起幅、落幅衔接固定画面的做法；拍摄保留余量与成片必须停稳分开，属于一种平顺衔接方案。",
+        "source": {
+          "lines": [
+            47,
+            67
+          ]
+        },
+        "note": {
+          "lines": [
+            50,
+            57
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P48-U05",
+        "item": "摇接推例中去前镜落幅、后镜起幅，以运动接运动保持流动；方向、速度、内容和节奏仍影响结果，不能机械全部去停顿。",
+        "source": {
+          "lines": [
+            68,
+            88
+          ]
+        },
+        "note": {
+          "lines": [
+            50,
+            57
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P48-U06",
+        "item": "同一采访画面中删话造成跳切；问题涉及构图近似而人物状态突变，不等于任何同景别镜头都不能相接，也不把可见跳切一律当错误。",
+        "source": {
+          "lines": [
+            89,
+            102
+          ]
+        },
+        "note": {
+          "lines": [
+            58,
+            65
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P48-U07",
+        "item": "相隔景别的课堂经验：近景接全景、特写接中景等；所谓国外经验与采访趋势未有独立依据，不写成强制标准。",
+        "source": {
+          "lines": [
+            103,
+            123
+          ]
+        },
+        "note": {
+          "lines": [
+            58,
+            65
+          ]
+        },
+        "status": "待核",
+        "reason": "M1连续声画待核；讲者分析与实际所见图文已区别保存。"
+      },
+      {
+        "id": "P48-U08",
+        "item": "相邻景别组成前进／后退的逐步式句型；三镜以上是课堂介绍的成组范式，不是两枚相邻景别不能连接的普遍门槛。",
+        "source": {
+          "lines": [
+            124,
+            152
+          ]
+        },
+        "note": {
+          "lines": [
+            58,
+            65
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P48-U09",
+        "item": "迟到学生推门发现教室空无一人的假设，以全中近特表达错愕；尚未核定有无现场示范，不当作已观看的独立影片。",
+        "source": {
+          "lines": [
+            153,
+            168
+          ]
+        },
+        "note": {
+          "lines": [
+            66,
+            75
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P48-U10",
+        "item": "环境、关系、细节三种功能组织镜头组。功能不必与固定景别一一对应，也不要求每一场都齐备三类。",
+        "source": {
+          "lines": [
+            169,
+            178
+          ]
+        },
+        "note": {
+          "lines": [
+            66,
+            75
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P48-U11",
+        "item": "用录课场景说明成组拍摄能补充环境和表情。课程单镜不能叙事的绝对说法需限定；单个固定长镜头也可能提供完整信息。",
+        "source": {
+          "lines": [
+            179,
+            192
+          ]
+        },
+        "note": {
+          "lines": [
+            66,
+            75
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P48-U12",
+        "item": "一镜到底以内部运动、角度和景别变化形成组织关系；这是所举的运动式长镜头，不代表所有无切镜拍摄都必须不断换机位。",
+        "source": {
+          "lines": [
+            193,
+            209
+          ]
+        },
+        "note": {
+          "lines": [
+            66,
+            75
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P48-U13",
+        "item": "外部剪辑与镜头内部组织的共同任务：拍摄时给观看过程和后续剪辑提供依据；内部调度不等于已经发生外部切镜。",
+        "source": {
+          "lines": [
+            210,
+            218
+          ]
+        },
+        "note": {
+          "lines": [
+            66,
+            75
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P48-U03",
+        "item": "动接动、静接静术语和固定接固定的例子；ASR镜／静需原字幕确认，不写成整个影片只能固定或只能运动的禁令。",
+        "status": "待核",
+        "reason": "M1连续声画待核；讲者分析与实际所见图文已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P48-U07",
+        "item": "相隔景别的课堂经验：近景接全景、特写接中景等；所谓国外经验与采访趋势未有独立依据，不写成强制标准。",
+        "status": "待核",
+        "reason": "M1连续声画待核；讲者分析与实际所见图文已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "1368e59bf20bfe4fbf468a9a7831c8ba38d38b4ef8595d7c8bc2f0bc9b5ceb53",
+    "historical_review_sha256": "da60e5135ad2338653799c4d0116ab997c497871860c69c943904c5f26a57b5b",
+    "historical_seal_sha256": "51978591c112ddf9690d9546d1e72962b78b255f7684798ae8c357885472c39f",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-11/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "2139a14617994d608bbca216f8db4534fdd410217e7a910d24ee02badcf9f5ee",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/11 - 第九章 后期剪辑与蒙太奇层次（P48-P51）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-11/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第九章剪辑与蒙太奇既有学习记录.md",
+    "personal_sha256": "f9eb4b631ffda5eed9cdb3f87d6085575497e2ae6ca2bff702362923de7a1d15",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-11/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-11/review.md"
+}

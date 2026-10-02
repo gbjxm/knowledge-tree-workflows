@@ -1,0 +1,373 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p32",
+  "source": {
+    "kind": "video",
+    "title": "十四课-场景与对白14.1",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=32",
+    "bvid": "BV1eE411F73t",
+    "page": 32,
+    "cid": 181727234,
+    "text_sha256": "09a01b9626c83ce1bb93b8f4b553bab10c345a6d710b4ef7b653440d9720f903",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1eE411F73t-p32-十四课-场景与对白14.1/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/14 - 第十四课 场景与对白（P32-P33）.md",
+    "sha256": "0fd72879ef6f0d5f7e711ac522ffb78bc564c6e96ed9424914176ed54355ac6d"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "09a01b9626c83ce1bb93b8f4b553bab10c345a6d710b4ef7b653440d9720f903",
+    "note_sha256": "0fd72879ef6f0d5f7e711ac522ffb78bc564c6e96ed9424914176ed54355ac6d",
+    "scope": [
+      [
+        1,
+        1148
+      ]
+    ],
+    "items": [
+      {
+        "id": "P32-01",
+        "item": "格式提问的实际困难与从梗概/幕/序列到场",
+        "source": {
+          "lines": [
+            1,
+            79
+          ]
+        },
+        "note": {
+          "lines": [
+            58,
+            58
+          ],
+          "quote": "学员反复问“剧本格式”"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-02",
+        "item": "场的时空定义；办公室阳台、功夫穿房和追逐三例",
+        "source": {
+          "lines": [
+            80,
+            167
+          ]
+        },
+        "note": {
+          "lines": [
+            62,
+            62
+          ],
+          "quote": "“统一空间”不能机械理解为同一个房间"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-03",
+        "item": "先大纲后分场、一般小故事限定",
+        "source": {
+          "lines": [
+            168,
+            199
+          ]
+        },
+        "note": {
+          "lines": [
+            64,
+            64
+          ],
+          "quote": "单场一般又像一个小故事"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-04",
+        "item": "有效信息、家庭不出场、环境动作对白与抽象抠门判断",
+        "source": {
+          "lines": [
+            200,
+            294
+          ]
+        },
+        "note": {
+          "lines": [
+            70,
+            70
+          ],
+          "quote": "传达信息时，先问什么信息对故事有用"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-05",
+        "item": "所属序列渐增危险、丢枪与无信号两步",
+        "source": {
+          "lines": [
+            295,
+            360
+          ]
+        },
+        "note": {
+          "lines": [
+            74,
+            74
+          ],
+          "quote": "推进，是让单场替上一级事件群办事"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-06",
+        "item": "变化/二稿删并/丢枪三作用",
+        "source": {
+          "lines": [
+            361,
+            455
+          ]
+        },
+        "note": {
+          "lines": [
+            76,
+            76
+          ],
+          "quote": "“丢枪”还可以同时承担三项作用"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-07",
+        "item": "吃面状态与动作、侵吞/坏话/勾结/马子累积、拍桌收场",
+        "source": {
+          "lines": [
+            456,
+            605
+          ]
+        },
+        "note": {
+          "lines": [
+            88,
+            88
+          ],
+          "quote": "修改时，让小弟突然冲入"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-08",
+        "item": "环境/对手/自我对抗、摔碗另一复述",
+        "source": {
+          "lines": [
+            606,
+            658
+          ]
+        },
+        "note": {
+          "lines": [
+            96,
+            96
+          ],
+          "quote": "老师要求一场戏至少有一种对抗"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-09",
+        "item": "仅交代童穷吃面的信息迁移与减法",
+        "source": {
+          "lines": [
+            659,
+            737
+          ]
+        },
+        "note": {
+          "lines": [
+            98,
+            98
+          ],
+          "quote": "如果某场只想交代“老大爱吃面，因为小时候穷”"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-10",
+        "item": "场景小结并引入风骚律师",
+        "source": {
+          "lines": [
+            738,
+            762
+          ]
+        },
+        "note": {
+          "lines": [
+            104,
+            104
+          ],
+          "quote": "老师认为《风骚律师》虽是美剧"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-11",
+        "item": "风骚律师原片放映转写失真，独立声画未审",
+        "source": {
+          "lines": [
+            763,
+            827
+          ]
+        },
+        "note": {
+          "lines": [
+            104,
+            104
+          ],
+          "quote": "约27:35–30:22的放映范围仍待连续声画核验"
+        },
+        "status": "待核",
+        "reason": "对应原片ASR失真/缺失，未独立听审或连续审看；正文按明确讲师描述和图文证据保留知识，不据此补电影完整声画效果。"
+      },
+      {
+        "id": "P32-12",
+        "item": "片后过程与小故事完整性",
+        "source": {
+          "lines": [
+            828,
+            853
+          ]
+        },
+        "note": {
+          "lines": [
+            106,
+            106
+          ],
+          "quote": "律师边开车边打电话"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-13",
+        "item": "订花/客户/破车及驾驶细节与推论前提",
+        "source": {
+          "lines": [
+            854,
+            893
+          ]
+        },
+        "note": {
+          "lines": [
+            110,
+            115
+          ],
+          "quote": "**信息有前后关系。**"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-14",
+        "item": "信用卡推论与反制体现江湖经验",
+        "source": {
+          "lines": [
+            894,
+            955
+          ]
+        },
+        "note": {
+          "lines": [
+            111,
+            115
+          ],
+          "quote": "**细节还承载人物判断。**"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-15",
+        "item": "后来雇碰瓷者争取客户的推进因果",
+        "source": {
+          "lines": [
+            956,
+            1000
+          ]
+        },
+        "note": {
+          "lines": [
+            112,
+            115
+          ],
+          "quote": "**本场为后来准备条件。**"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-16",
+        "item": "反转、开车进入/逃走即结束、对抗来源",
+        "source": {
+          "lines": [
+            1001,
+            1088
+          ]
+        },
+        "note": {
+          "lines": [
+            114,
+            115
+          ],
+          "quote": "**进出简洁。**"
+        },
+        "status": "保留"
+      },
+      {
+        "id": "P32-17",
+        "item": "不要从第一场盲写，先有大纲的复述增量",
+        "source": {
+          "lines": [
+            1089,
+            1148
+          ]
+        },
+        "note": {
+          "lines": [
+            64,
+            64
+          ],
+          "quote": "老师坚持先把故事和大纲写出来"
+        },
+        "status": "保留"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "重新读取P32/P33全段ASR原句，逐个案例与限定双向核对，旧稿/个人记录核对，定点原图复看；听审和连续声画未做",
+    "method": "来源与正文双向图文复核；复用历史有效材料并核查本次改动；非原声听审或连续声画审看",
+    "summary": "图文知识通过，讲師复述/评价/假改准确归属，动态效果保留独立待核；正式写入由root执行",
+    "unverified": [
+      {
+        "page": 32,
+        "seconds": [
+          1655,
+          1822
+        ],
+        "content": "风骚律师碰瓷完整对白、动作、反应、切点、节奏，待独立声画核验"
+      },
+      {
+        "page": 33,
+        "seconds": [
+          2694,
+          2848
+        ],
+        "content": "泰坦尼克号晚餐完整对白、表演、反应和节奏，待独立声画核验"
+      }
+    ]
+  },
+  "preservation": {
+    "backup_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/backups/charlie-14/14 - 第十四课 场景与对白（P32-P33）.md",
+    "old_note_sha256": "bf6eb1d889020eb6fe2154ec3b600ef9b42c0cc4847d4422cb06a6c30fcf0019",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第十四课原有学习记录.md",
+    "overview_backup_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/backups/charlie-14/00 - 课程总览.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/batches/charlie-14/review.md",
+  "final_binding_update": {
+    "date": "2026-09-30",
+    "scope": "来源范围、正文定位及待核状态未变；移除工作缓存绝对提示，匹配最终笔记字节。"
+  }
+}

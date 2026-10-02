@@ -1,0 +1,274 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p45",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P45 8.13影像的镜头形态——运动镜头的空间调度",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=45",
+    "bvid": "BV1dE4118731",
+    "page": 45,
+    "cid": 136150333,
+    "text_sha256": "31e457cca3f0afa70a4e0cbb575812f4db0ff81045a5d3b797aefe4857b8653d",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p45-8.13影像的镜头形态——运动镜头的空间调度/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/10 - 第八章 运动镜头（P43-P47）.md",
+    "sha256": "1ceffe41161d01a39b32d061c1dcf5221a4fd9a9b08417b52757b9d90e04bf5c"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "31e457cca3f0afa70a4e0cbb575812f4db0ff81045a5d3b797aefe4857b8653d",
+    "note_sha256": "1ceffe41161d01a39b32d061c1dcf5221a4fd9a9b08417b52757b9d90e04bf5c",
+    "scope": [
+      [
+        6,
+        134
+      ]
+    ],
+    "items": [
+      {
+        "id": "P45-U01",
+        "item": "运动拓展画框所呈现的空间；“不调度便浪费”是练习强调，固定镜头也能由走位、声音与画外空间组织空间。",
+        "source": {
+          "lines": [
+            6,
+            17
+          ]
+        },
+        "note": {
+          "lines": [
+            115,
+            122
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P45-U02",
+        "item": "空间运用服务表现与节奏，避免只展示空间；“运动不提供信息”须与P47的信息组织对读，不能抹除其叙事作用。",
+        "source": {
+          "lines": [
+            18,
+            36
+          ]
+        },
+        "note": {
+          "lines": [
+            115,
+            122
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P45-U03",
+        "item": "前景—主体—后景的层次及运动中的相对位移；“景深”在这里混含纵深层次，不要求三层始终同样清晰。",
+        "source": {
+          "lines": [
+            37,
+            46
+          ]
+        },
+        "note": {
+          "lines": [
+            115,
+            122
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P45-U04",
+        "item": "“穿”过前景对象形成显隐与变化；ASR川／背色需校为合适术语，不把机械穿越当运动的唯一目的。",
+        "source": {
+          "lines": [
+            47,
+            56
+          ]
+        },
+        "note": {
+          "lines": [
+            115,
+            122
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P45-U05",
+        "item": "候选《云水谣》长镜头及播放。ASR“元水遥”、03:22–06:10长合并段不能确定实际切点，路径与连续性必须原片复核。",
+        "source": {
+          "lines": [
+            57,
+            63
+          ]
+        },
+        "note": {
+          "lines": [
+            123,
+            132
+          ]
+        },
+        "status": "待核",
+        "reason": "M1连续声画待核，课堂说法与实际查看的静态画面已区别保存。"
+      },
+      {
+        "id": "P45-U06",
+        "item": "讲者回述擦鞋店、街道、楼上唱戏、茶社、晾衣／里弄、婚庆等场所；确切空间和顺序不能仅据ASR填写成观察事实。",
+        "source": {
+          "lines": [
+            64,
+            82
+          ]
+        },
+        "note": {
+          "lines": [
+            123,
+            132
+          ]
+        },
+        "status": "待核",
+        "reason": "M1连续声画待核，课堂说法与实际查看的静态画面已区别保存。"
+      },
+      {
+        "id": "P45-U07",
+        "item": "位移、升降、摇、推、跟等结合而变化的运动样式；具体动作与设备需分开，不从画面反推实际轨道或起重设备。",
+        "source": {
+          "lines": [
+            83,
+            97
+          ]
+        },
+        "note": {
+          "lines": [
+            123,
+            132
+          ]
+        },
+        "status": "待核",
+        "reason": "M1连续声画待核，课堂说法与实际查看的静态画面已区别保存。"
+      },
+      {
+        "id": "P45-U08",
+        "item": "调度需有可追随线索；线索可换而逻辑不断，作为本类复杂空间镜头的方法，不设为全部实验性运动的禁令。",
+        "source": {
+          "lines": [
+            98,
+            107
+          ]
+        },
+        "note": {
+          "lines": [
+            123,
+            132
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P45-U09",
+        "item": "篮子／付戏钱、卖货郎、送信人、放风筝孩子等接力线索；ASR多处失真，人物、道具、转交先后和视点转移均待动态核对。",
+        "source": {
+          "lines": [
+            108,
+            126
+          ]
+        },
+        "note": {
+          "lines": [
+            123,
+            132
+          ]
+        },
+        "status": "待核",
+        "reason": "M1连续声画待核，课堂说法与实际查看的静态画面已区别保存。"
+      },
+      {
+        "id": "P45-U10",
+        "item": "三点回收：可调度空间、运动样式变化、贯穿线索。整理保留作用及适用场景，不变成镜头越长越复杂越好。",
+        "source": {
+          "lines": [
+            127,
+            134
+          ]
+        },
+        "note": {
+          "lines": [
+            123,
+            132
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P45-U05",
+        "item": "候选《云水谣》长镜头及播放。ASR“元水遥”、03:22–06:10长合并段不能确定实际切点，路径与连续性必须原片复核。",
+        "status": "待核",
+        "reason": "M1连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P45-U06",
+        "item": "讲者回述擦鞋店、街道、楼上唱戏、茶社、晾衣／里弄、婚庆等场所；确切空间和顺序不能仅据ASR填写成观察事实。",
+        "status": "待核",
+        "reason": "M1连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P45-U07",
+        "item": "位移、升降、摇、推、跟等结合而变化的运动样式；具体动作与设备需分开，不从画面反推实际轨道或起重设备。",
+        "status": "待核",
+        "reason": "M1连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P45-U09",
+        "item": "篮子／付戏钱、卖货郎、送信人、放风筝孩子等接力线索；ASR多处失真，人物、道具、转交先后和视点转移均待动态核对。",
+        "status": "待核",
+        "reason": "M1连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "5fa0c62cf0069d7b388ed927a9cbbaa69327302bef7f7ea61b3f122b04630bfe",
+    "historical_review_sha256": "524d9fc8acb4ec57da9bfde591db29f48d81c3c73333624e3e53c3eacf3912dc",
+    "historical_seal_sha256": "15d2568673f8262dfab7a2d0d691f539a2a755475d0b3c690527bb2bdc0363ae",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-10/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "7ebb4b8d6338df88fdc9ece797527cd8dc55632a5d98870eefe85304e13c9334",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/10 - 第八章 运动镜头（P43-P47）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-10/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第八章运动镜头既有学习记录.md",
+    "personal_sha256": "746f05c36b802d20d64078affe3d03228f31f07fe38d10f2e4bba3614e188646",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-10/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-10/review.md"
+}

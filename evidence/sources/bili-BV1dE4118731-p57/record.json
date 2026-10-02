@@ -1,0 +1,349 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p57",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P57 10.6我们的时间（下）",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=57",
+    "bvid": "BV1dE4118731",
+    "page": 57,
+    "cid": 139217737,
+    "text_sha256": "5d0cdd21f578ef2dc69377ec8ff764ffc20df576bb319d2bdb4965d7e89f52ea",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p57-10.6我们的时间（下）/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/14 - 第十章 影视时间组织（P55-P57）.md",
+    "sha256": "69a7d4f2090af4289f8782bcb9a6de1d773722e59bbec877b0de2f88d3728bb2"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "5d0cdd21f578ef2dc69377ec8ff764ffc20df576bb319d2bdb4965d7e89f52ea",
+    "note_sha256": "69a7d4f2090af4289f8782bcb9a6de1d773722e59bbec877b0de2f88d3728bb2",
+    "scope": [
+      [
+        6,
+        217
+      ]
+    ],
+    "items": [
+      {
+        "id": "P57-U01",
+        "item": "引导回忆，物体、相似环境及熟悉声音从当下接入过去。",
+        "source": {
+          "lines": [
+            6,
+            35
+          ]
+        },
+        "note": {
+          "lines": [
+            170,
+            175
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P57-U02",
+        "item": "美国往事鸦片馆电话铃、人物反应及油灯到街灯，引导主观回忆；专名、铃声及声画关系未审。",
+        "source": {
+          "lines": [
+            36,
+            67
+          ]
+        },
+        "note": {
+          "lines": [
+            176,
+            183
+          ]
+        },
+        "status": "待核",
+        "reason": "M10连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P57-U03",
+        "item": "细节引出闪现，罗拉快跑相遇人物生活片段；过去或未来、形式与节奏需核。",
+        "source": {
+          "lines": [
+            68,
+            94
+          ]
+        },
+        "note": {
+          "lines": [
+            184,
+            189
+          ]
+        },
+        "status": "待核",
+        "reason": "M11连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P57-U04",
+        "item": "寻找关联的时间段，单段意义由相邻段相互解释，死神来了作回扣。",
+        "source": {
+          "lines": [
+            95,
+            104
+          ]
+        },
+        "note": {
+          "lines": [
+            190,
+            195
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P57-U05",
+        "item": "天使爱美丽自我哀悼幻想、电视黑白与床上彩色，黛安娜比较是讲者解释。",
+        "source": {
+          "lines": [
+            105,
+            123
+          ]
+        },
+        "note": {
+          "lines": [
+            196,
+            203
+          ]
+        },
+        "status": "待核",
+        "reason": "M12连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P57-U06",
+        "item": "影像经验与受众接受时间跳跃的差异，代际概括不是普遍实证结论。",
+        "source": {
+          "lines": [
+            124,
+            133
+          ]
+        },
+        "note": {
+          "lines": [
+            196,
+            203
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P57-U07",
+        "item": "时间与空间交织，盗梦空间作为多层案例。",
+        "source": {
+          "lines": [
+            134,
+            139
+          ]
+        },
+        "note": {
+          "lines": [
+            204,
+            215
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P57-U08",
+        "item": "现实五分钟梦中一小时、20倍、梦层与老者十年等原说法互有疑点，须分开核，不当科学事实。",
+        "source": {
+          "lines": [
+            140,
+            151
+          ]
+        },
+        "note": {
+          "lines": [
+            204,
+            215
+          ]
+        },
+        "status": "待核",
+        "reason": "M13连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P57-U09",
+        "item": "现实及四层梦、迷失域六层说法，层级实际设定需核。",
+        "source": {
+          "lines": [
+            152,
+            165
+          ]
+        },
+        "note": {
+          "lines": [
+            204,
+            215
+          ]
+        },
+        "status": "待核",
+        "reason": "M13连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P57-U10",
+        "item": "电影图景与绵延时间等原词待字幕，时间比和空间关系产生勾连。",
+        "source": {
+          "lines": [
+            166,
+            171
+          ]
+        },
+        "note": {
+          "lines": [
+            204,
+            215
+          ]
+        },
+        "status": "待核",
+        "reason": "M13连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P57-U11",
+        "item": "分析时空数量、人物、时差及跨层节点，投射抽取植入迷失域悖论建筑等概念；不等于现实科学。",
+        "source": {
+          "lines": [
+            172,
+            193
+          ]
+        },
+        "note": {
+          "lines": [
+            216,
+            221
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P57-U12",
+        "item": "梦层表：飞机、车、酒店、雪山、柯布家和迷失域；需读取课件图表并检查层级解释。",
+        "source": {
+          "lines": [
+            194,
+            207
+          ]
+        },
+        "note": {
+          "lines": [
+            222,
+            227
+          ]
+        },
+        "status": "待核",
+        "reason": "M13连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P57-U13",
+        "item": "未明电影的上帝做梦引语及课程结束；不补猜出处，简述意旨。",
+        "source": {
+          "lines": [
+            208,
+            217
+          ]
+        },
+        "note": {
+          "lines": [
+            228,
+            231
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P57-U02",
+        "item": "美国往事鸦片馆电话铃、人物反应及油灯到街灯，引导主观回忆；专名、铃声及声画关系未审。",
+        "status": "待核",
+        "reason": "M10连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P57-U03",
+        "item": "细节引出闪现，罗拉快跑相遇人物生活片段；过去或未来、形式与节奏需核。",
+        "status": "待核",
+        "reason": "M11连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P57-U05",
+        "item": "天使爱美丽自我哀悼幻想、电视黑白与床上彩色，黛安娜比较是讲者解释。",
+        "status": "待核",
+        "reason": "M12连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P57-U08",
+        "item": "现实五分钟梦中一小时、20倍、梦层与老者十年等原说法互有疑点，须分开核，不当科学事实。",
+        "status": "待核",
+        "reason": "M13连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P57-U09",
+        "item": "现实及四层梦、迷失域六层说法，层级实际设定需核。",
+        "status": "待核",
+        "reason": "M13连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P57-U10",
+        "item": "电影图景与绵延时间等原词待字幕，时间比和空间关系产生勾连。",
+        "status": "待核",
+        "reason": "M13连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P57-U12",
+        "item": "梦层表：飞机、车、酒店、雪山、柯布家和迷失域；需读取课件图表并检查层级解释。",
+        "status": "待核",
+        "reason": "M13连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "deb7f554abf5daa6ca69599ae4b7458c3305c0c9daf13bf3e286328de0dba699",
+    "historical_review_sha256": "d4bc1bf666a6f7de4241a8b1fe3159d6abe5d10a4435f5db83c0d1c2cd2efafa",
+    "historical_seal_sha256": "d2641a8ea1f303bdfa1b6c71c1256410471f7cbb7b33c6cd27dba9474edf174d",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-14/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "20aa5debc1dc9186da7a3e10ed0406c5ed4c2303b0a5fe6fdc9fa905cb3e516c",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/14 - 第十章 影视时间组织（P55-P57）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-14/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章影视时间既有学习记录.md",
+    "personal_sha256": "1b291bdda7da2c710847179db0b42031eb3608ff56708846a8faeb4834ca463d",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-14/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-14/review.md"
+}

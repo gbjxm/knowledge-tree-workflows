@@ -1,0 +1,307 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p13",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P13 4.1正确曝光的标准",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=13",
+    "bvid": "BV1dE4118731",
+    "page": 13,
+    "cid": 128705530,
+    "text_sha256": "ec31597b42d82f994f2b6ccac562a1f0c6dc426d3719277be39072e0738f4a8b",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p13-4.1正确曝光的标准/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/04 - 第四章 曝光控制（P13-P15）.md",
+    "sha256": "5820c0f19c6db6f98e9ae1c16743ac99c25a24597372d6c71168960637f8931d"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "ec31597b42d82f994f2b6ccac562a1f0c6dc426d3719277be39072e0738f4a8b",
+    "note_sha256": "5820c0f19c6db6f98e9ae1c16743ac99c25a24597372d6c71168960637f8931d",
+    "scope": [
+      [
+        6,
+        308
+      ]
+    ],
+    "items": [
+      {
+        "id": "P13-U01",
+        "item": "镜头机身协作与整体记录",
+        "source": {
+          "lines": [
+            6,
+            29
+          ]
+        },
+        "note": {
+          "lines": [
+            47,
+            52
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P13-U02",
+        "item": "胶片受光潜影与曝光并非直晒",
+        "source": {
+          "lines": [
+            30,
+            50
+          ]
+        },
+        "note": {
+          "lines": [
+            47,
+            52
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P13-U03",
+        "item": "密度、层次、影纹三标准",
+        "source": {
+          "lines": [
+            51,
+            66
+          ]
+        },
+        "note": {
+          "lines": [
+            53,
+            60
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P13-U04",
+        "item": "银颗粒与照片密度及正负像区分",
+        "source": {
+          "lines": [
+            67,
+            103
+          ]
+        },
+        "note": {
+          "lines": [
+            53,
+            60
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P13-U05",
+        "item": "士兵车辆照片的明暗阶次",
+        "source": {
+          "lines": [
+            104,
+            129
+          ]
+        },
+        "note": {
+          "lines": [
+            61,
+            68
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P13-U06",
+        "item": "阴影与强光腿部迷彩影纹",
+        "source": {
+          "lines": [
+            130,
+            163
+          ]
+        },
+        "note": {
+          "lines": [
+            61,
+            68
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P13-U07",
+        "item": "广告观察邀请与判断问题",
+        "source": {
+          "lines": [
+            164,
+            170
+          ]
+        },
+        "note": {
+          "lines": [
+            69,
+            80
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P13-U08",
+        "item": "广告片中片",
+        "source": {
+          "lines": [
+            171,
+            171
+          ]
+        },
+        "note": {
+          "lines": [
+            69,
+            80
+          ]
+        },
+        "status": "待核",
+        "reason": "M1 原图已核部分构图与对象；原声、动作及剪接未连续审看。"
+      },
+      {
+        "id": "P13-U09",
+        "item": "鼓手正面定格逐项检验三标准",
+        "source": {
+          "lines": [
+            172,
+            212
+          ]
+        },
+        "note": {
+          "lines": [
+            69,
+            80
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P13-U10",
+        "item": "传统指标与表达的反转",
+        "source": {
+          "lines": [
+            213,
+            232
+          ]
+        },
+        "note": {
+          "lines": [
+            69,
+            80
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P13-U11",
+        "item": "女模特定格的影调层次",
+        "source": {
+          "lines": [
+            233,
+            265
+          ]
+        },
+        "note": {
+          "lines": [
+            81,
+            88
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P13-U12",
+        "item": "两种风格与人物定位",
+        "source": {
+          "lines": [
+            266,
+            300
+          ]
+        },
+        "note": {
+          "lines": [
+            81,
+            88
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P13-U13",
+        "item": "多看作品比较的原课建议",
+        "source": {
+          "lines": [
+            301,
+            308
+          ]
+        },
+        "note": {
+          "lines": [
+            81,
+            88
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P13-U08",
+        "item": "广告片中片",
+        "status": "待核",
+        "reason": "M1 原图已核部分构图与对象；原声、动作及剪接未连续审看。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "5fea8e7126bb8ec063c224c046462549b7d566a22330ddafd3f46e7d1c723e6a",
+    "historical_review_sha256": "468cef37212812a252344a1272d661235bf80a72b6b18069366f66169d426e14",
+    "historical_seal_sha256": "3e36a168c76c9da2dd2e842efff3bb36721493a44ab95f7ed315f9897f30de3e",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-04/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "dffdd8b10a2f9c3c3d0a43da0952fb5cb0e5b3e350cdc7c00d567ec447373051",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/04 - 第四章 曝光控制（P13-P15）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-04/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第四章既有学习记录.md",
+    "personal_sha256": "f696808c919a78804bd9fa790632bc9d154363d92f10976d8c4953ea52d8f59c",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-04/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-04/review.md"
+}

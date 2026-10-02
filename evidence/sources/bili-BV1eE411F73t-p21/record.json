@@ -1,0 +1,318 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p21",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 第十课-复杂叙事10.2",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=21",
+    "bvid": "BV1eE411F73t",
+    "page": 21,
+    "cid": 171668148,
+    "text_sha256": "42fbfb512814403c38639fec190e66a839e78e128bb151a29543286dec27561b",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1eE411F73t-p21-第十课-复杂叙事10.2/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/10 - 第十课 复杂叙事（P20-P21）.md",
+    "sha256": "67cebfd9574e4bdffc8e80a616b5e1fcb3e92b19375619bab20155c9fa0696bd"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "42fbfb512814403c38639fec190e66a839e78e128bb151a29543286dec27561b",
+    "note_sha256": "67cebfd9574e4bdffc8e80a616b5e1fcb3e92b19375619bab20155c9fa0696bd",
+    "scope": [
+      [
+        6,
+        71
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "非线性问题/情侣们观影推荐",
+        "source": {
+          "lines": [
+            6,
+            11
+          ]
+        },
+        "note": {
+          "lines": [
+            116,
+            116
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U2",
+        "item": "倒叙课堂分类/成片前置动机",
+        "source": {
+          "lines": [
+            12,
+            18
+          ]
+        },
+        "note": {
+          "lines": [
+            118,
+            118
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U3",
+        "item": "五势力/视角非主角/凭记忆",
+        "source": {
+          "lines": [
+            19,
+            25
+          ]
+        },
+        "note": {
+          "lines": [
+            126,
+            126
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U4",
+        "item": "郭涛排尿困境/欠薪共情",
+        "source": {
+          "lines": [
+            26,
+            28
+          ]
+        },
+        "note": {
+          "lines": [
+            132,
+            132
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U5",
+        "item": "翡翠护卫/欲望钱动作护石/不知真石",
+        "source": {
+          "lines": [
+            29,
+            32
+          ]
+        },
+        "note": {
+          "lines": [
+            134,
+            134
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U6",
+        "item": "四股阻力/假设第三波/提前出场",
+        "source": {
+          "lines": [
+            33,
+            36
+          ]
+        },
+        "note": {
+          "lines": [
+            140,
+            140
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U7",
+        "item": "偷箱得知石头/旅馆隔壁公共厕所/聘港",
+        "source": {
+          "lines": [
+            37,
+            40
+          ]
+        },
+        "note": {
+          "lines": [
+            144,
+            144
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U8",
+        "item": "BMW金杯索赔/可乐/厂长儿子与道女友",
+        "source": {
+          "lines": [
+            41,
+            44
+          ]
+        },
+        "note": {
+          "lines": [
+            146,
+            146
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U9",
+        "item": "巧合好处及失信/王子乔丹虚构反例",
+        "source": {
+          "lines": [
+            45,
+            48
+          ]
+        },
+        "note": {
+          "lines": [
+            154,
+            154
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U10",
+        "item": "连接与切换/全局知情/上帝视角",
+        "source": {
+          "lines": [
+            49,
+            53
+          ]
+        },
+        "note": {
+          "lines": [
+            162,
+            162
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U11",
+        "item": "主角共情代价/工作妻子道哥女友",
+        "source": {
+          "lines": [
+            54,
+            60
+          ]
+        },
+        "note": {
+          "lines": [
+            164,
+            164
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U12",
+        "item": "主线加四阻力/镜头表演流畅/风险",
+        "source": {
+          "lines": [
+            61,
+            66
+          ]
+        },
+        "note": {
+          "lines": [
+            168,
+            168
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U13",
+        "item": "化繁为简/生长副作用/课尾反派分爱",
+        "source": {
+          "lines": [
+            67,
+            70
+          ]
+        },
+        "note": {
+          "lines": [
+            170,
+            170
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U14",
+        "item": "课堂收束/无新增提交作业",
+        "source": {
+          "lines": [
+            71,
+            71
+          ]
+        },
+        "note": {
+          "lines": [
+            174,
+            174
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-25",
+    "scope": "完整来源先行及成稿后独立步骤回读ASR行6–71（3–1420秒）；实际看111帧，覆盖首尾、板书与定点字幕；未听审、未连续审看。",
+    "summary": "恢复简单四项、复合型与团队、双人物弧线的共享场面、五势力与主角、阻力提前出场及具体连接、巧合反例、全局知情与共情分散的完整论证和限制；核对板书与字幕。旧整理工具、学习记录及图另存或原样保留。",
+    "method": "主代理先完整来源梳理，再成稿；独立步骤完整回读两P ASR、逐段反查正文和旧稿，做三项实际使用检查；实际查看257帧。同一代理、非盲评、非第二评审者。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看；静帧不能证明语气、连续运动、剪接节奏或声画同步。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "影片情节、实际创作过程、教材分类及观众心理按讲师的记忆、假设和经验保存，未外部核验。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M3",
+        "item": "P21徐峥一方简称迅的人物全名及王子虚构反例的具体名字不确定；清楚的身份、关系和行动仍保留，未补造专名。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M4",
+        "item": "本课只含观影推荐与局部结构分析，没有完整单线改多线剧本答案或旧稿十道提交练习；时码仅供回查。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "62a536a664e679866b054545479363d7fc78305917684e7b79d72ecf10fb6e9b",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/查理老师的编剧课/10 - 第十课 复杂叙事（P20-P21）.md",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第十课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-10/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-10/review.md"
+}

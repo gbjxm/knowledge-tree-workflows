@@ -1,0 +1,382 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p51",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P51 9.4蒙太奇的宏观层次",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=51",
+    "bvid": "BV1dE4118731",
+    "page": 51,
+    "cid": 137440166,
+    "text_sha256": "2ab7d5ac2566ab3617c0faafb133edfe1ac217bafc4d7aa9c823706d61686b40",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p51-9.4蒙太奇的宏观层次/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/11 - 第九章 后期剪辑与蒙太奇层次（P48-P51）.md",
+    "sha256": "5a8203f2fac596b7341c89c20b8ec71fe0b4a26b36c736eaf1cb9f4ff93c03c8"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "2ab7d5ac2566ab3617c0faafb133edfe1ac217bafc4d7aa9c823706d61686b40",
+    "note_sha256": "5a8203f2fac596b7341c89c20b8ec71fe0b4a26b36c736eaf1cb9f4ff93c03c8",
+    "scope": [
+      [
+        6,
+        235
+      ]
+    ],
+    "items": [
+      {
+        "id": "P51-U01",
+        "item": "宏观／结构蒙太奇处理全片谋篇布局，叙事与表意两类按主要任务区分，不意味着情节不能表意、情绪不能提供信息。",
+        "source": {
+          "lines": [
+            6,
+            20
+          ]
+        },
+        "note": {
+          "lines": [
+            172,
+            183
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P51-U02",
+        "item": "平行蒙太奇／并列组织，以《水浒传》人物章节作类比。多线可无同一时空，仍须结构上的联系；不是只要多人便自然形成丰富性。",
+        "source": {
+          "lines": [
+            21,
+            40
+          ]
+        },
+        "note": {
+          "lines": [
+            172,
+            183
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P51-U03",
+        "item": "交叉蒙太奇多线交替及最后一分钟营救。格里菲斯首次使用的历史断言尚无核查，不照写首创。",
+        "source": {
+          "lines": [
+            41,
+            50
+          ]
+        },
+        "note": {
+          "lines": [
+            172,
+            183
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P51-U04",
+        "item": "刑场与骑马救人的假设不断交替形成紧迫，最后汇合。汇合是本例策略，不是全部交叉剪辑都必须在同一地点相见。",
+        "source": {
+          "lines": [
+            51,
+            70
+          ]
+        },
+        "note": {
+          "lines": [
+            172,
+            183
+          ]
+        },
+        "status": "待核",
+        "reason": "M11连续声画待核；讲者分析与实际所见图文已区别保存。"
+      },
+      {
+        "id": "P51-U05",
+        "item": "复现式候选术语：当下与过去穿插，睹物回忆及《阿甘正传》长椅叙事例子；原课术语与片名待画面核对，不以ASR负现实时定字。",
+        "source": {
+          "lines": [
+            71,
+            96
+          ]
+        },
+        "note": {
+          "lines": [
+            184,
+            191
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P51-U06",
+        "item": "叫板式蒙太奇：不同场景的声音或内容形成问答呼应；连接不表示人物在真实时空互相对话。",
+        "source": {
+          "lines": [
+            97,
+            105
+          ]
+        },
+        "note": {
+          "lines": [
+            184,
+            191
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P51-U07",
+        "item": "《小兵张嘎》炮楼起火、问谁干的与另一场回答的例子；05:20–05:41长合并段含可能播放，声音主体、问答与切换必须连续核对。",
+        "source": {
+          "lines": [
+            106,
+            122
+          ]
+        },
+        "note": {
+          "lines": [
+            184,
+            191
+          ]
+        },
+        "status": "待核",
+        "reason": "M12连续声画待核；讲者分析与实际所见图文已区别保存。 长ASR合并段只作回查定位，不视为完整声画转写。"
+      },
+      {
+        "id": "P51-U08",
+        "item": "叫板方式跨时空连接及叙事四法回收；使用频度高只是讲者判断，无统计不作行业结论。",
+        "source": {
+          "lines": [
+            123,
+            129
+          ]
+        },
+        "note": {
+          "lines": [
+            184,
+            191
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P51-U09",
+        "item": "表意服务情绪或观点；隐喻／象征借一事物表达另一事物，保留课堂命名但不将两个概念在所有理论中无条件等同。",
+        "source": {
+          "lines": [
+            130,
+            145
+          ]
+        },
+        "note": {
+          "lines": [
+            192,
+            199
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P51-U10",
+        "item": "孩子与花的假设以并置形成生机等寓意；意涵仍受上下文、文化与声音影响，不是固定符号字典。",
+        "source": {
+          "lines": [
+            146,
+            152
+          ]
+        },
+        "note": {
+          "lines": [
+            192,
+            199
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P51-U11",
+        "item": "对比蒙太奇借差异场景表达观点，杜甫诗句作类比；ASR严重失真，原课引用待课件核对，两个画面差异大不自动证明同一社会判断。",
+        "source": {
+          "lines": [
+            153,
+            163
+          ]
+        },
+        "note": {
+          "lines": [
+            192,
+            199
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P51-U12",
+        "item": "积累蒙太奇，反复细节或举枪动作累积情绪；重复呈现与故事中发生多次是两回事，也不等于只能重复同一幅素材。",
+        "source": {
+          "lines": [
+            164,
+            179
+          ]
+        },
+        "note": {
+          "lines": [
+            192,
+            199
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P51-U13",
+        "item": "心理蒙太奇将内心状态影像化，与旁白表达比较；ASR螃蚁应按语境候选旁白待画面核词。声音和画面可共同表意，不把旁白认定为落后手段。",
+        "source": {
+          "lines": [
+            180,
+            193
+          ]
+        },
+        "note": {
+          "lines": [
+            200,
+            209
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      },
+      {
+        "id": "P51-U14",
+        "item": "《真实的谎言》二手车商片例：主人公愤怒并想象打人，随后回到正常驾驶。09:57–10:21长ASR合并段，片名、具体动作和回现实切点待核。",
+        "source": {
+          "lines": [
+            194,
+            207
+          ]
+        },
+        "note": {
+          "lines": [
+            200,
+            209
+          ]
+        },
+        "status": "待核",
+        "reason": "M13连续声画待核；讲者分析与实际所见图文已区别保存。 长ASR合并段只作回查定位，不视为完整声画转写。"
+      },
+      {
+        "id": "P51-U15",
+        "item": "心理画面传达怒火，不当作故事现实已发生事件；观众痛快是教师反应，不推广为每个观众或对现实暴力的评价。",
+        "source": {
+          "lines": [
+            208,
+            223
+          ]
+        },
+        "note": {
+          "lines": [
+            200,
+            209
+          ]
+        },
+        "status": "待核",
+        "reason": "M13连续声画待核；讲者分析与实际所见图文已区别保存。"
+      },
+      {
+        "id": "P51-U16",
+        "item": "叙事为基础、表意提升的课堂回收，适用于所讲叙事作品的教学次序；不规定所有实验、诗性或非叙事作品必须先讲完整故事。",
+        "source": {
+          "lines": [
+            224,
+            235
+          ]
+        },
+        "note": {
+          "lines": [
+            200,
+            209
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并并补充适用条件；文字登记闭合不等于原声或连续视频审看通过。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P51-U04",
+        "item": "刑场与骑马救人的假设不断交替形成紧迫，最后汇合。汇合是本例策略，不是全部交叉剪辑都必须在同一地点相见。",
+        "status": "待核",
+        "reason": "M11连续声画待核；讲者分析与实际所见图文已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P51-U07",
+        "item": "《小兵张嘎》炮楼起火、问谁干的与另一场回答的例子；05:20–05:41长合并段含可能播放，声音主体、问答与切换必须连续核对。",
+        "status": "待核",
+        "reason": "M12连续声画待核；讲者分析与实际所见图文已区别保存。 长ASR合并段只作回查定位，不视为完整声画转写。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P51-U14",
+        "item": "《真实的谎言》二手车商片例：主人公愤怒并想象打人，随后回到正常驾驶。09:57–10:21长ASR合并段，片名、具体动作和回现实切点待核。",
+        "status": "待核",
+        "reason": "M13连续声画待核；讲者分析与实际所见图文已区别保存。 长ASR合并段只作回查定位，不视为完整声画转写。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P51-U15",
+        "item": "心理画面传达怒火，不当作故事现实已发生事件；观众痛快是教师反应，不推广为每个观众或对现实暴力的评价。",
+        "status": "待核",
+        "reason": "M13连续声画待核；讲者分析与实际所见图文已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "1368e59bf20bfe4fbf468a9a7831c8ba38d38b4ef8595d7c8bc2f0bc9b5ceb53",
+    "historical_review_sha256": "da60e5135ad2338653799c4d0116ab997c497871860c69c943904c5f26a57b5b",
+    "historical_seal_sha256": "51978591c112ddf9690d9546d1e72962b78b255f7684798ae8c357885472c39f",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-11/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "2139a14617994d608bbca216f8db4534fdd410217e7a910d24ee02badcf9f5ee",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/11 - 第九章 后期剪辑与蒙太奇层次（P48-P51）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-11/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第九章剪辑与蒙太奇既有学习记录.md",
+    "personal_sha256": "f9eb4b631ffda5eed9cdb3f87d6085575497e2ae6ca2bff702362923de7a1d15",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-11/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-11/review.md"
+}

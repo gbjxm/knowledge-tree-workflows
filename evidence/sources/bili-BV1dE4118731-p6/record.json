@@ -1,0 +1,227 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p6",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P6 2.4光圈与镜头的选择",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=6",
+    "bvid": "BV1dE4118731",
+    "page": 6,
+    "cid": 126008646,
+    "text_sha256": "01e2a263376b0f6dbe9fcedf1e7e3c71036c9497a28589aa8f56b8a223e97eaf",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p6-2.4光圈与镜头的选择/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/02 - 第二章 镜头原理、类型与光学控制（P3-P8）.md",
+    "sha256": "15899e3b9e24d5e4d6d0877c9f24cfb32bfe8bd6a438fc888c9c9d0a1e7999f8"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "01e2a263376b0f6dbe9fcedf1e7e3c71036c9497a28589aa8f56b8a223e97eaf",
+    "note_sha256": "15899e3b9e24d5e4d6d0877c9f24cfb32bfe8bd6a438fc888c9c9d0a1e7999f8",
+    "scope": [
+      [
+        6,
+        269
+      ]
+    ],
+    "items": [
+      {
+        "id": "P6-U01",
+        "item": "杯子纳光类比、口径与曝光时间机会",
+        "source": {
+          "lines": [
+            6,
+            28
+          ]
+        },
+        "note": {
+          "lines": [
+            157,
+            169
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P6-U02",
+        "item": "口径/焦距的课件比值与同通光长焦需要较大有效口径",
+        "source": {
+          "lines": [
+            29,
+            55
+          ]
+        },
+        "note": {
+          "lines": [
+            157,
+            169
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P6-U03",
+        "item": "光圈叶片控制通光孔及f5.6/f8离散状态",
+        "source": {
+          "lines": [
+            56,
+            64
+          ]
+        },
+        "note": {
+          "lines": [
+            157,
+            169
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P6-U04",
+        "item": "1:N只留分母、f数大小与孔径相反；Nikon公式分归属",
+        "source": {
+          "lines": [
+            65,
+            89
+          ]
+        },
+        "note": {
+          "lines": [
+            157,
+            169
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P6-U05",
+        "item": "f11/f8/f5.6对照、整档1至16含8、平方关系与根号二",
+        "source": {
+          "lines": [
+            90,
+            134
+          ]
+        },
+        "note": {
+          "lines": [
+            170,
+            175
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P6-U06",
+        "item": "已有28–85想扩焦段，同学成本解释/问常用、人像85定焦答案",
+        "source": {
+          "lines": [
+            135,
+            198
+          ]
+        },
+        "note": {
+          "lines": [
+            176,
+            183
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P6-U07",
+        "item": "报道/采访/远行变焦机动性例外，与质量取舍",
+        "source": {
+          "lines": [
+            199,
+            208
+          ]
+        },
+        "note": {
+          "lines": [
+            176,
+            183
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P6-U08",
+        "item": "风光云层色彩、85–135人像、35纪实人物环境三个例",
+        "source": {
+          "lines": [
+            209,
+            243
+          ]
+        },
+        "note": {
+          "lines": [
+            184,
+            191
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P6-U09",
+        "item": "苹果黄桃偏好类比、用途判断与下节景深衔接",
+        "source": {
+          "lines": [
+            244,
+            269
+          ]
+        },
+        "note": {
+          "lines": [
+            184,
+            191
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "8022b5da463702e9e02006c43cf635b3fbab78b2268fd0f2b8925d6200ab5d43",
+    "historical_review_sha256": "9851f52275fe2ff61d005ee8787614db42dd15f204e00fea067232d61b39f91a",
+    "historical_seal_sha256": "5830971f3b445dcd6e28549b295ff4acff4f9d93f1cdf5b8ea886ca35c3c02a9",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-02/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "55dfd8c044c541b29615c2452ab902948c31dfb91efb64b7bc4f8b25ac8ebdd9",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/02 - 第二章 镜头原理、类型与光学控制（P3-P8）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-02/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第二章既有学习记录.md",
+    "personal_sha256": "9ed73945cfd87f37d6b06a15a6040176a0d27a7a7f6d78c7ea85faadb5be2fad",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-02/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-02/review.md"
+}

@@ -1,0 +1,388 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p70",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P70 10.19不能忽视的声音2",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=70",
+    "bvid": "BV1dE4118731",
+    "page": 70,
+    "cid": 139215722,
+    "text_sha256": "796e4edbe852673a10a89c4e27d525e95175f1f57fad1d1a5699bce87c135b70",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p70-10.19不能忽视的声音2/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/18 - 第十章 声音设计（P69-P72）.md",
+    "sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "796e4edbe852673a10a89c4e27d525e95175f1f57fad1d1a5699bce87c135b70",
+    "note_sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34",
+    "scope": [
+      [
+        6,
+        302
+      ]
+    ],
+    "items": [
+      {
+        "id": "P70-U01",
+        "item": "音乐与情绪，同一句我爱你配不同音乐的演示，不能凭ASR知道真实配乐差异；主题内心与气氛作用。",
+        "source": {
+          "lines": [
+            6,
+            23
+          ]
+        },
+        "note": {
+          "lines": [
+            122,
+            129
+          ]
+        },
+        "status": "待核",
+        "reason": "M5连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P70-U02",
+        "item": "红高粱九儿贴窗花、唢呐和欢快祥和气氛；服装动作、音色需原片核对。",
+        "source": {
+          "lines": [
+            24,
+            31
+          ]
+        },
+        "note": {
+          "lines": [
+            130,
+            139
+          ]
+        },
+        "status": "待核",
+        "reason": "M6连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P70-U03",
+        "item": "音乐时代民族地域的特殊艺术性，印度歌舞片例子，02:59–03:38转写空窗；不扩大所有印度电影都带歌舞。",
+        "source": {
+          "lines": [
+            32,
+            40
+          ]
+        },
+        "note": {
+          "lines": [
+            130,
+            139
+          ]
+        },
+        "status": "待核",
+        "reason": "M7连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P70-U04",
+        "item": "深化主题，开国大典/建国大业疑词，熟悉音乐触发情感的课堂概括。",
+        "source": {
+          "lines": [
+            41,
+            50
+          ]
+        },
+        "note": {
+          "lines": [
+            130,
+            139
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P70-U05",
+        "item": "人鬼情未了莫莉感受山姆、音乐承载生死相爱；ASR我的爱人不直接当曲名；片段位置和内容原声待核。",
+        "source": {
+          "lines": [
+            51,
+            65
+          ]
+        },
+        "note": {
+          "lines": [
+            140,
+            147
+          ]
+        },
+        "status": "待核",
+        "reason": "M8连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P70-U06",
+        "item": "现实性/客观性音乐与功能性铺垫，留声机播放例子；归属分类不能只以声源画内可见判断。",
+        "source": {
+          "lines": [
+            66,
+            83
+          ]
+        },
+        "note": {
+          "lines": [
+            148,
+            155
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P70-U07",
+        "item": "五种音乐画面关系概览：同步、平行、逆行、游离、对位原字待核；同步指情绪节奏吻合，非只有口型同步。",
+        "source": {
+          "lines": [
+            84,
+            100
+          ]
+        },
+        "note": {
+          "lines": [
+            156,
+            163
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P70-U08",
+        "item": "阿甘正传猫王房客与腿部支架舞步的电影戏仿示例；不作真实猫王舞步起源；插片中英ASR失真。",
+        "source": {
+          "lines": [
+            101,
+            126
+          ]
+        },
+        "note": {
+          "lines": [
+            156,
+            163
+          ]
+        },
+        "status": "待核",
+        "reason": "M9连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P70-U09",
+        "item": "疑似音画平行定义严重混入英文错识别；阿甘与珍妮从压抑到轻松欢快的三段音乐，需原课题卡和原声。",
+        "source": {
+          "lines": [
+            127,
+            158
+          ]
+        },
+        "note": {
+          "lines": [
+            164,
+            173
+          ]
+        },
+        "status": "待核",
+        "reason": "M10连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P70-U10",
+        "item": "阿甘珍妮相识、玩耍成长插片；09分多大量我会用我的脸重复，明显ASR失败，不能照抄或以旧稿补当已核。",
+        "source": {
+          "lines": [
+            159,
+            201
+          ]
+        },
+        "note": {
+          "lines": [
+            164,
+            173
+          ]
+        },
+        "status": "待核",
+        "reason": "M10连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P70-U11",
+        "item": "音画逆行疑词，以入殓师夫妻询问工作、丈夫纠结和妻子高兴对照音乐；美香/大悟、音乐情绪与人物层次待核。",
+        "source": {
+          "lines": [
+            202,
+            227
+          ]
+        },
+        "note": {
+          "lines": [
+            174,
+            181
+          ]
+        },
+        "status": "待核",
+        "reason": "M11连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P70-U12",
+        "item": "音画游离定义，音乐相对独立扩展时空/内涵；阿甘开篇羽毛、钢琴小提琴和情怀；13:07–13:36媒体空窗。",
+        "source": {
+          "lines": [
+            228,
+            267
+          ]
+        },
+        "note": {
+          "lines": [
+            182,
+            189
+          ]
+        },
+        "status": "待核",
+        "reason": "M12连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P70-U13",
+        "item": "音画对位如两个声部，同步或不一致形成潜台词；辛德勒名单山坡目睹驱赶屠杀与红衣女孩、童声合唱；15:03–15:28空窗，声音和具体位置待核。",
+        "source": {
+          "lines": [
+            268,
+            298
+          ]
+        },
+        "note": {
+          "lines": [
+            190,
+            199
+          ]
+        },
+        "status": "待核",
+        "reason": "M13连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P70-U14",
+        "item": "回顾五种关系并建议看其他片例，不自动创建学习任务。",
+        "source": {
+          "lines": [
+            299,
+            302
+          ]
+        },
+        "note": {
+          "lines": [
+            190,
+            199
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P70-U01",
+        "item": "音乐与情绪，同一句我爱你配不同音乐的演示，不能凭ASR知道真实配乐差异；主题内心与气氛作用。",
+        "status": "待核",
+        "reason": "M5连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P70-U02",
+        "item": "红高粱九儿贴窗花、唢呐和欢快祥和气氛；服装动作、音色需原片核对。",
+        "status": "待核",
+        "reason": "M6连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P70-U03",
+        "item": "音乐时代民族地域的特殊艺术性，印度歌舞片例子，02:59–03:38转写空窗；不扩大所有印度电影都带歌舞。",
+        "status": "待核",
+        "reason": "M7连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P70-U05",
+        "item": "人鬼情未了莫莉感受山姆、音乐承载生死相爱；ASR我的爱人不直接当曲名；片段位置和内容原声待核。",
+        "status": "待核",
+        "reason": "M8连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P70-U08",
+        "item": "阿甘正传猫王房客与腿部支架舞步的电影戏仿示例；不作真实猫王舞步起源；插片中英ASR失真。",
+        "status": "待核",
+        "reason": "M9连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P70-U09",
+        "item": "疑似音画平行定义严重混入英文错识别；阿甘与珍妮从压抑到轻松欢快的三段音乐，需原课题卡和原声。",
+        "status": "待核",
+        "reason": "M10连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P70-U10",
+        "item": "阿甘珍妮相识、玩耍成长插片；09分多大量我会用我的脸重复，明显ASR失败，不能照抄或以旧稿补当已核。",
+        "status": "待核",
+        "reason": "M10连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P70-U11",
+        "item": "音画逆行疑词，以入殓师夫妻询问工作、丈夫纠结和妻子高兴对照音乐；美香/大悟、音乐情绪与人物层次待核。",
+        "status": "待核",
+        "reason": "M11连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P70-U12",
+        "item": "音画游离定义，音乐相对独立扩展时空/内涵；阿甘开篇羽毛、钢琴小提琴和情怀；13:07–13:36媒体空窗。",
+        "status": "待核",
+        "reason": "M12连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P70-U13",
+        "item": "音画对位如两个声部，同步或不一致形成潜台词；辛德勒名单山坡目睹驱赶屠杀与红衣女孩、童声合唱；15:03–15:28空窗，声音和具体位置待核。",
+        "status": "待核",
+        "reason": "M13连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "872867502f8c6b5c7e7f7c6b78845e15bae0392973f0bee3854a9a7ba5bee164",
+    "historical_review_sha256": "c4a0059310c3c0ca40b33238b20f4b00e4b304263a6b4cd323f3fee53bfba008",
+    "historical_seal_sha256": "85e93e721b58d9c7f04840bf1507c4be48232dca9ec021b882424c98dfc432a2",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-18/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "e08612b83829bd762f2cdd6503f46dfa2f3e1edbeb3dbf8585da2ffe27534f89",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/18 - 第十章 声音设计（P69-P72）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-18/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章声音设计既有学习记录.md",
+    "personal_sha256": "f978b3581e467826eb1bb2150261adb9beeee2b770e1d80adfdcbdcbbe4cdff0",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-18/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-18/review.md"
+}

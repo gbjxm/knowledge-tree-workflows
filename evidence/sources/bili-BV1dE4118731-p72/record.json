@@ -1,0 +1,288 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p72",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P72 10.21不能忽视的声音4",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=72",
+    "bvid": "BV1dE4118731",
+    "page": 72,
+    "cid": 139216085,
+    "text_sha256": "ad2fe03d60caf29caf20157b7c81de1c7e9854544d2d26aefdff3df22865f21f",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p72-10.21不能忽视的声音4/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/18 - 第十章 声音设计（P69-P72）.md",
+    "sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "ad2fe03d60caf29caf20157b7c81de1c7e9854544d2d26aefdff3df22865f21f",
+    "note_sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34",
+    "scope": [
+      [
+        6,
+        210
+      ]
+    ],
+    "items": [
+      {
+        "id": "P72-U01",
+        "item": "声音元素按音高音色力度节奏相似性模仿剪接转化，音乐音响化与音响音乐化。",
+        "source": {
+          "lines": [
+            6,
+            21
+          ]
+        },
+        "note": {
+          "lines": [
+            271,
+            280
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P72-U02",
+        "item": "贫民窟的百万富翁警察追孩子、塑料瓶跌落与电子打击乐融合；实际声音层、02:10–02:23演示及转换方向需核。",
+        "source": {
+          "lines": [
+            22,
+            39
+          ]
+        },
+        "note": {
+          "lines": [
+            271,
+            280
+          ]
+        },
+        "status": "待核",
+        "reason": "M20连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P72-U03",
+        "item": "莫扎特传岳母指责转花腔女高音舞台、语调口型与转场、人物主观创作联想；歌剧名未出现不硬补，不能当传记事实。",
+        "source": {
+          "lines": [
+            40,
+            74
+          ]
+        },
+        "note": {
+          "lines": [
+            281,
+            288
+          ]
+        },
+        "status": "待核",
+        "reason": "M21连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P72-U04",
+        "item": "声音视角从观众听觉创作，可转入人物主观听觉；术语与前述分类区分。",
+        "source": {
+          "lines": [
+            75,
+            85
+          ]
+        },
+        "note": {
+          "lines": [
+            289,
+            298
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P72-U05",
+        "item": "现代启示录开场丛林直升机、人物面部叠画、风扇、百叶窗到现实环境声；连续转换与音乐原声待核。",
+        "source": {
+          "lines": [
+            86,
+            117
+          ]
+        },
+        "note": {
+          "lines": [
+            289,
+            298
+          ]
+        },
+        "status": "待核",
+        "reason": "M22连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P72-U06",
+        "item": "教师把声音解释为主人公回忆与心理体验；延长放大替换变速的课堂分析不当已知声音制作流程。",
+        "source": {
+          "lines": [
+            118,
+            152
+          ]
+        },
+        "note": {
+          "lines": [
+            289,
+            298
+          ]
+        },
+        "status": "待核",
+        "reason": "M22连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P72-U07",
+        "item": "美国往事鸦片馆电话铃跨回忆和空间、可见电话非真实声源到另一电话拿起后变化；三分钟与电子声须原片核对。",
+        "source": {
+          "lines": [
+            153,
+            177
+          ]
+        },
+        "note": {
+          "lines": [
+            299,
+            306
+          ]
+        },
+        "status": "待核",
+        "reason": "M23连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P72-U08",
+        "item": "声音的叙事活力、情感表现与感染力，没有不对的声音只有位置不对是创作倡议非免责定律。",
+        "source": {
+          "lines": [
+            178,
+            186
+          ]
+        },
+        "note": {
+          "lines": [
+            307,
+            316
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P72-U09",
+        "item": "入殓师结尾大悟为父亲入殓、白石子落下放大、回忆与钢琴大提琴主题；怀恨/悔恨疑词；09:49–10:52长空窗。",
+        "source": {
+          "lines": [
+            187,
+            206
+          ]
+        },
+        "note": {
+          "lines": [
+            307,
+            316
+          ]
+        },
+        "status": "待核",
+        "reason": "M24连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P72-U10",
+        "item": "以该段声音收束四集，不能忽视声音的总结。",
+        "source": {
+          "lines": [
+            207,
+            210
+          ]
+        },
+        "note": {
+          "lines": [
+            307,
+            316
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P72-U02",
+        "item": "贫民窟的百万富翁警察追孩子、塑料瓶跌落与电子打击乐融合；实际声音层、02:10–02:23演示及转换方向需核。",
+        "status": "待核",
+        "reason": "M20连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P72-U03",
+        "item": "莫扎特传岳母指责转花腔女高音舞台、语调口型与转场、人物主观创作联想；歌剧名未出现不硬补，不能当传记事实。",
+        "status": "待核",
+        "reason": "M21连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P72-U05",
+        "item": "现代启示录开场丛林直升机、人物面部叠画、风扇、百叶窗到现实环境声；连续转换与音乐原声待核。",
+        "status": "待核",
+        "reason": "M22连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P72-U06",
+        "item": "教师把声音解释为主人公回忆与心理体验；延长放大替换变速的课堂分析不当已知声音制作流程。",
+        "status": "待核",
+        "reason": "M22连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P72-U07",
+        "item": "美国往事鸦片馆电话铃跨回忆和空间、可见电话非真实声源到另一电话拿起后变化；三分钟与电子声须原片核对。",
+        "status": "待核",
+        "reason": "M23连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P72-U09",
+        "item": "入殓师结尾大悟为父亲入殓、白石子落下放大、回忆与钢琴大提琴主题；怀恨/悔恨疑词；09:49–10:52长空窗。",
+        "status": "待核",
+        "reason": "M24连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "872867502f8c6b5c7e7f7c6b78845e15bae0392973f0bee3854a9a7ba5bee164",
+    "historical_review_sha256": "c4a0059310c3c0ca40b33238b20f4b00e4b304263a6b4cd323f3fee53bfba008",
+    "historical_seal_sha256": "85e93e721b58d9c7f04840bf1507c4be48232dca9ec021b882424c98dfc432a2",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-18/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "e08612b83829bd762f2cdd6503f46dfa2f3e1edbeb3dbf8585da2ffe27534f89",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/18 - 第十章 声音设计（P69-P72）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-18/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章声音设计既有学习记录.md",
+    "personal_sha256": "f978b3581e467826eb1bb2150261adb9beeee2b770e1d80adfdcbdcbbe4cdff0",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-18/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-18/review.md"
+}

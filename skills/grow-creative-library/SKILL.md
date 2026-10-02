@@ -190,8 +190,9 @@ Only place a wikilink in `已沉淀主题`, `来源材料`, `相关主题`, or�
 
 - Store video, audio, OCR, ASR transcripts, subtitles, frames, working coverage records, and temporary downloads under the configured `raw_cache`, outside the Vault. Adopted compact review records belong to configured `source_evidence` under [durable-source-evidence.md](references/durable-source-evidence.md); do not copy raw source media into that durable store.
 - Never store cookies, credentials, or authentication exports in the cache.
-- Never delete cache automatically. The recurring check reports size every 14 days and asks the user before cleanup.
-- Use `scripts/cache_report.py` to calculate cache usage.
+- Follow the shared [原材料保留与按需盘点](references/durable-source-evidence.md#原材料保留与按需盘点) rules. Cache location does not imply reproducibility; retain acquired source inputs, used transcripts, corrections and review evidence without asking again on each deposit.
+- Never delete cache automatically. This workflow reports on request and does not create or change recurring tasks; cleanup requires a separately specified file scope.
+- Use `scripts/cache_report.py` for existing size statistics, or `--details` for directory groups and existing source references (`--json` remains available). Unregistered material stays unassessed and retained; no new per-file registry is required.
 
 ## Validation
 

@@ -24,8 +24,8 @@ Use the cache for `metadata.json`, `transcript.md`, `subtitle.json`, `audio.m4s`
 2. Inventory existing notes before editing. Read any recorded `笔记架构`, `聚合单位`, and `架构状态`, plus filenames, YAML properties, index links, prior content, and whether the user wants Chinese-only output.
 3. Before full extraction, invoke the `grow-creative-library` source-architecture gate. Recommend one of `课程分层`, `系列分层`, or `单篇材料`, identify the semantic aggregation unit, and include the purpose-selected zone/role plus professional category. Already explicit architecture and destination count as confirmation. Do not download full media, run ASR, draft final notes, or mutate the vault until confirmed. Reuse an established `架构状态: 已确认` without asking again.
 4. After confirmation, run `scripts/bilibili_extract.py` for each requested page. Its default output is the configured `raw_cache\bilibili`; never write extraction artifacts to the final source folder.
-5. Prefer Bilibili or external subtitles. If subtitle text is empty or only hardcoded subtitles exist, use `--transcribe` to download audio and transcribe locally with `faster-whisper`.
-6. Before writing, use the shared [source-content contract](../grow-creative-library/references/accuracy-and-merging.md): inventory substantive points from the source, preserve reasoning and distinctive examples, then perform both directions of review. Check whether knowledge depends on pictures, edits, demonstrations, or sound; inspect the relevant original media when required and obtainable through the permitted extraction tools. Keep raw evidence outside the Vault and explicitly report unseen/unheard or damaged portions. Transcripts and explanatory redraws do not prove that original visuals were inspected.
+5. Prefer usable Bilibili or supplied subtitles. An empty downloadable-subtitle list does not establish whether subtitles are embedded in the picture; an inaccessible API does not establish absence either. With `--transcribe`, unavailable or empty subtitle text falls back to public audio and local multilingual `base` ASR. ASR output remains an unverified transcription.
+6. Before writing, use the shared [source-content contract](../grow-creative-library/references/accuracy-and-merging.md): inventory substantive points from the source, preserve reasoning and distinctive examples, then perform both directions of review. Check whether knowledge depends on pictures, edits, demonstrations, or sound; inspect the relevant original media when required and obtainable through the permitted extraction tools. For doubtful ASR words, embedded captions or diagrams, follow [按需核对原画面与转写](references/media-evidence.md). Keep raw evidence outside the Vault and explicitly report unseen/unheard or damaged portions. Transcripts and explanatory redraws do not prove that original visuals were inspected.
 7. For a structured course, first map requested pages to real lessons or modules. Create `00 - 课程总览.md`, one grouped `分集笔记` per semantic lesson using `assets/lesson-note-template.md`, and a unified course knowledge summary using `assets/course-knowledge-summary-template.md` only when real cross-lesson knowledge exists. Multiple pages may belong to one lesson; one page is not automatically one note.
 8. For an independent video, interview, conversation, roundtable, or podcast episode, create one source note using `assets/episode-note-template.md`. For a stable multi-episode interview or podcast series, create a series overview and one note per independent session.
 9. A complete learning source note is a valid deliverable. After writing, hand any authorized in-zone synthesis to `grow-creative-library`; Bilibili does not own topic fusion. Do not automatically deposit course knowledge into creation; the user must select specific knowledge first. Do not automatically hand off to internalization or generate a course question. Learning is user-initiated; saving a learning result needs an explicit request. Hand maps and status to `operate-personal-knowledge-tree`. A skipped answer never blocks completion, and formal relationship proposals wait until `知识收尾` and are owned by `weave-film-knowledge-connections`.
@@ -46,17 +46,21 @@ Useful options:
 
 - `--page N`: override the video page/episode when the URL lacks `p=`.
 - `--out DIR`: explicitly override where extraction artifacts are written. Without it, use configured `raw_cache\bilibili`; a path inside the active vault is rejected before any network request or directory creation.
-- `--transcribe`: enable local ASR fallback when Bilibili subtitle list is empty.
-- `--model MODEL`: choose a faster-whisper model. Use `base.en` for English lectures, `base` for mixed Chinese/English, and `small` or larger only when quality matters more than speed.
-- `--language LANG`: force ASR language, for example `en` or `zh`.
-- `--clip START,END`: transcribe only a time range for quick tests, for example `0,180`.
+- `--transcribe`: enable local ASR fallback when subtitle text is empty or subtitle access fails.
+- `--model MODEL`: defaults to multilingual `base`, suitable for Chinese. `base.en` is English-only and rejects an explicit non-English language. A larger model is an optional comparison when actual errors justify it; do not automatically download a new model or treat size as proof of accuracy.
+- `--language LANG`: specify the known ASR language, for example `en` or `zh`; omit for detection. Specified language is labeled separately from detection, and a detected-language probability is not transcription accuracy.
+- `--clip START,END`: one finite nonnegative time range with START < END, for example `0,180`. The output is marked partial. ASR processes that interval; subtitles retain overlapping whole cues with their original timestamps, so boundary cues can extend slightly beyond the interval. This option does not limit the audio download to that interval.
 
 The script writes:
 
-- `metadata.json`: title, bvid, aid, page, cid, source URL, and subtitle availability.
+- `metadata.json`: source identity, metadata route, subtitle access state, extraction status, transcript source and full/partial processing scope. Processing scope is not a content-completeness verdict.
 - `transcript.md`: subtitle text or ASR transcript with timestamps.
 - `audio.m4s`: audio stream when subtitle fallback is needed.
 - `subtitle.json`: raw subtitle payload when Bilibili subtitles exist.
+
+Re-running the same page creates a new attempt directory when the original page directory already exists. Use the returned `out_dir`; do not assume a fixed path or combine an old transcript with a new attempt's audio or metadata. Failed attempts remain separate and do not replace earlier source packages.
+
+When an original diagram or embedded caption is needed, use `scripts/bilibili_media_excerpt.py` for a bounded video-only excerpt and timestamped preview frames. It requires existing `ffmpeg`/`ffprobe`, creates a new directory inside configured `raw_cache`, and never substitutes a full-video download when a byte range fails. Read [media evidence](references/media-evidence.md) for usage and limits. Generated images must actually be viewed before recording visual findings.
 
 After grouped course notes are written, validate cross-note page assignment:
 
@@ -207,6 +211,7 @@ Treat existing user notes as content to preserve.
 - Write source video URLs in Markdown link form, never as naked URLs in the note body. Prefer `视频：[打开原视频](https://...)` for single-episode notes, or `[P15 标题](https://...)` when listing multiple sources.
 - If the user requests Chinese-only notes, keep only Chinese Markdown notes. Do not create an English duplicate.
 - Keep transcripts, audio, metadata, subtitles, frames, and temporary downloads in configured `raw_cache\bilibili`.
+- Follow the shared [原材料保留与按需盘点](../grow-creative-library/references/durable-source-evidence.md#原材料保留与按需盘点) rules: retain acquired source inputs, used transcripts, corrections and review evidence; do not infer deletability from cache location or a live URL, download additional full videos just for archiving, or ask for repeated retention confirmation. Inventory is on request and does not delete files.
 - Preserve unrelated user files and changes.
 - Use relative Obsidian links from the course index.
 - Set `沉淀状态` to `未沉淀`, `部分沉淀`, or `已沉淀`; update it only after the corresponding topic content and bidirectional links exist.
@@ -241,10 +246,10 @@ Before reporting completion, verify:
 
 ## Fallback Guidance
 
-- If `x/player/v2` returns no subtitles, assume subtitles may be hardcoded and proceed with ASR.
-- If `yt-dlp` fails with HTTP 412, continue with the bundled script's Bilibili public metadata and playurl APIs.
-- If transcription is slow, run `--clip 0,180` first to verify audio and model quality.
-- For Chinese or bilingual material, use `base` and omit `--language` unless detection fails.
+- If `x/player/v2` returns no usable subtitle text, use authorized ASR fallback and inspect relevant pictures when embedded captions or visual teaching matter. API failure is recorded as unavailable, not as zero subtitles.
+- On metadata API HTTP 412 or code -412, the bundled script can read the same public page's `__INITIAL_STATE__.videoData`; it accepts only the requested BV, a unique page and a valid CID. If that public identity is unavailable, stop rather than guessing another page or bypassing login/access requirements.
+- A short `--clip` run checks the selected interval only. Compare doubtful content with the actual source; a nonempty transcript or successful exit is insufficient.
+- For Chinese or bilingual material, use multilingual `base`; specify `--language zh` only when that matches the actual speech. Preserve the original transcript and record corrections with their evidence and time locations.
 - Keep outputs as personal derived study notes and avoid reproducing full transcripts in the response.
 
 ## Done / Partial / Stop

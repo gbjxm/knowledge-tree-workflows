@@ -1,0 +1,326 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p47",
+  "source": {
+    "kind": "video",
+    "title": "二十二课-G潮上不去？（下）22.2",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=47",
+    "bvid": "BV1eE411F73t",
+    "page": 47,
+    "cid": 252782284,
+    "text_sha256": "263757938d162c42d2867af737d63c1556db78d6dcd97a5eedf0ffb418e8d0d5",
+    "local_text_hint": ".runtime/raw-cache/course-full-review-20260924/new-transcripts/BV1eE411F73t-p47/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/22 - 第二十二课 高潮上不去（P46-P47）.md",
+    "sha256": "f96030b2837dd703658518e19f9d041341b08b9a1d0715b7ffc4f6c3e4c7d82d"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "263757938d162c42d2867af737d63c1556db78d6dcd97a5eedf0ffb418e8d0d5",
+    "note_sha256": "f96030b2837dd703658518e19f9d041341b08b9a1d0715b7ffc4f6c3e4c7d82d",
+    "scope": [
+      [
+        6,
+        546
+      ]
+    ],
+    "items": [
+      {
+        "id": "U20",
+        "item": "《肖申克的救赎》结尾几场戏。实际图像22–702秒为影片、706秒回讲师；影片对白补英语转写，连续声画仍待核。片中698/702字幕为小锤600年/不到20年对照，不能把此处原片字幕与上课讲师20年的概述混成同一证据。",
+        "source": {
+          "lines": [
+            6,
+            9
+          ]
+        },
+        "note": {
+          "lines": [
+            148,
+            158
+          ]
+        },
+        "status": "待核",
+        "reason": "影片独立声画内容未连续核清；ASR和静态图片只补部分线索"
+      },
+      {
+        "id": "U21",
+        "item": "A追求外在/肉体自由、越狱；B赎罪而得心灵自由。安迪认为没亲手杀妻，但冷漠有责任；越狱前已付代价、罪赎完，于是先完成B再做A。老师对年数自己有19/20犹疑，不擅自改成确定数字。",
+        "source": {
+          "lines": [
+            10,
+            80
+          ]
+        },
+        "note": {
+          "lines": [
+            148,
+            152
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U22",
+        "item": "对照《摇滚校园》：A利用贵族孩子组乐队拿奖金，B自己成长；往往A碰壁才认识B价值。《肖申克》次序相反但仍符合外/内关系。某一“好歌手/老师”原词须再看字幕，不能凭熟悉电影纠正。",
+        "source": {
+          "lines": [
+            81,
+            115
+          ]
+        },
+        "note": {
+          "lines": [
+            154,
+            154
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U23",
+        "item": "赎罪不只安迪：瑞德付代价变好、赴海边找朋友，狱长/狱警付代价也被讲师纳入主题解释。特别区分电影道德解读与现实自伤评价。举此例说明AB合体及抉择、烈度、意外并存。",
+        "source": {
+          "lines": [
+            116,
+            146
+          ]
+        },
+        "note": {
+          "lines": [
+            156,
+            158
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U24",
+        "item": "《阳光小美女》选美片段；主ASR错误语言和重复大量存在，并延伸覆盖电影后解说。补英语片段和中文解说。连续表演、剪接、音乐及现场反应仍待核，静图不补成完整舞蹈说明。",
+        "source": {
+          "lines": [
+            147,
+            246
+          ]
+        },
+        "note": {
+          "lines": [
+            164,
+            182
+          ]
+        },
+        "status": "待核",
+        "reason": "影片独立声画内容未连续核清；ASR和静态图片只补部分线索"
+      },
+      {
+        "id": "U25",
+        "item": "小女孩参赛动机，一家人的失意状态、各自的问题、旅程与隐喻。字幕已见“她家一家人全是loser”“讲成功学”“哥哥”“然后去的路上还死了”；不得把这些孤立词自行拼成未核详细生平，等待中文补识别。",
+        "source": {
+          "lines": [
+            234,
+            247
+          ]
+        },
+        "note": {
+          "lines": [
+            164,
+            166
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md",
+        "additional_source": {
+          "path": "D:\\obsidian\\影视知识树\\.runtime\\raw-cache\\course-full-review-20260924\\batches\\charlie-22\\sunshine-commentary-zh\\transcript.md",
+          "lines": [
+            5,
+            22
+          ],
+          "reason": "主ASR234–246是错误语言，家庭背景实际取自本补识别并核对字幕"
+        }
+      },
+      {
+        "id": "U26",
+        "item": "一家努力使女孩登台，满足期待；用不按常规选美套路的舞蹈制造意外。爷爷教舞而此前未展示具体舞姿，是伏笔兑现。讲师对爷爷的性格/经历解释归其课堂解读；不扩写未成年人舞蹈中的性化动作。",
+        "source": {
+          "lines": [
+            247,
+            275
+          ]
+        },
+        "note": {
+          "lines": [
+            170,
+            172
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U27",
+        "item": "主角群是一家人，车、衣着、住房、食物、遭遇提示底层处境。舅舅曾割腕、手缠绷带却先支持女孩，随后家人都站起，为女孩梦想也为自己做选择。A参加选美/求他人认可，B自我认可；讲师允许“B胜A”或“自我认可后获部分观众认可”的两种AB合体解释。",
+        "source": {
+          "lines": [
+            276,
+            340
+          ]
+        },
+        "note": {
+          "lines": [
+            166,
+            182
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U28",
+        "item": "文戏结局不同但可由上述功能检查；转到武戏《加勒比海盗》。主ASR电影部分基本是乱码，补英语文本。实际2068–2565秒为影片，2570秒回讲师；完整动作、月光变形及剪接先后都不能用静帧认证。",
+        "source": {
+          "lines": [
+            341,
+            365
+          ]
+        },
+        "note": {
+          "lines": [
+            186,
+            194
+          ]
+        },
+        "status": "待核",
+        "reason": "影片独立声画内容未连续核清；ASR和静态图片只补部分线索"
+      },
+      {
+        "id": "U29",
+        "item": "藏宝洞打斗不是纯动作：特纳抉择直面海盗身份，将沾自身血的金币放回，解除不死之身，反派才可被枪杀。杰克受刺却也有不死之身为大意外。A寻被绑爱人，B找自己/承认海盗之子，爱人中点已找到，最后关键是内在问题；血统身份同时成为外部解决手段。",
+        "source": {
+          "lines": [
+            366,
+            485
+          ]
+        },
+        "note": {
+          "lines": [
+            186,
+            194
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md",
+        "additional_source": {
+          "path": "D:\\obsidian\\影视知识树\\.runtime\\raw-cache\\course-full-review-20260924\\batches\\charlie-22\\pirates-commentary-zh\\transcript.md",
+          "lines": [
+            5,
+            112
+          ],
+          "reason": "补正电影结束至讲师回归的时间与识别，节奏原词以字幕核对"
+        }
+      },
+      {
+        "id": "U30",
+        "item": "多写才知道高潮一笔带过的毛病。原课明确作业：写一个家人，不写自己或镜花水月的人；基于耳闻目见，可艺术加工，以第三人称写，不以“我的舅舅”第一人称介绍。假设叫李现就写这个人物的故事。未给篇幅、格式指标或答案。",
+        "source": {
+          "lines": [
+            486,
+            546
+          ]
+        },
+        "note": {
+          "lines": [
+            196,
+            204
+          ]
+        },
+        "status": "合并",
+        "reason": "保留情境、论证、条件和对照；口头重复合并；详见独立步骤review.md"
+      },
+      {
+        "id": "U25-term",
+        "item": "母亲Y瘾原词未明",
+        "source": {
+          "lines": [
+            234,
+            247
+          ]
+        },
+        "additional_source": {
+          "path": "D:\\obsidian\\影视知识树\\.runtime\\raw-cache\\course-full-review-20260924\\batches\\charlie-22\\sunshine-commentary-zh\\transcript.md",
+          "lines": [
+            13,
+            13
+          ],
+          "image_seconds": 1790
+        },
+        "note": {
+          "lines": [
+            164,
+            164
+          ]
+        },
+        "status": "待核",
+        "reason": "原字幕为Y瘾；不猜烟瘾；不妨碍保存家庭前提及主论证"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "见本任务逐课review.md的实际范围",
+    "method": "来源与正文双向图文复核；复用历史有效材料并核查本次改动；非原声听审或连续声画审看",
+    "summary": "本课图文知识核清并准确归属，可正式保存；原声与连续声画未核部分如实保留。",
+    "unverified": [
+      {
+        "page": 46,
+        "seconds": [
+          2070,
+          2368
+        ],
+        "example": "定制伴郎",
+        "pending": "original audio, continuous performance, comedic timing, edits and synchronization"
+      },
+      {
+        "page": 47,
+        "seconds": [
+          18,
+          706
+        ],
+        "example": "肖申克的救赎",
+        "pending": "original audio, continuous escape/reveal and editing"
+      },
+      {
+        "page": 47,
+        "seconds": [
+          1004,
+          1770
+        ],
+        "example": "阳光小美女",
+        "pending": "dance and family-response continuity, music, edits and synchronization"
+      },
+      {
+        "page": 47,
+        "seconds": [
+          2064,
+          2570
+        ],
+        "example": "加勒比海盗",
+        "pending": "continuous fighting, precise shot/coin/curse order and synchronization"
+      }
+    ]
+  },
+  "preservation": {
+    "backup_hint": null,
+    "old_note_sha256": null,
+    "personal_note": null,
+    "overview_backup_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/backups/charlie-22/00 - 课程总览.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-charlie-continuation-20260930/batches/charlie-22/review.md",
+  "final_binding_update": {
+    "date": "2026-09-30",
+    "scope": "来源范围、正文定位及待核状态未变；移除工作缓存绝对提示，匹配最终笔记字节。"
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p10",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P10 3.2玩转时间（快门的造型作用）",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=10",
+    "bvid": "BV1dE4118731",
+    "page": 10,
+    "cid": 127374708,
+    "text_sha256": "36a88b594f4da12f1e10b68f5e02ecb3a7f562d4ba94801c1a165359d7c033fb",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p10-3.2玩转时间（快门的造型作用）/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/03 - 第三章 摄影机结构、快门与机型（P9-P12）.md",
+    "sha256": "43af824c6009806012047c9bafdadeb4a3942266ee0ed42ebe317541a9bdaf0e"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "36a88b594f4da12f1e10b68f5e02ecb3a7f562d4ba94801c1a165359d7c033fb",
+    "note_sha256": "43af824c6009806012047c9bafdadeb4a3942266ee0ed42ebe317541a9bdaf0e",
+    "scope": [
+      [
+        6,
+        436
+      ]
+    ],
+    "items": [
+      {
+        "id": "P10-U01",
+        "item": "卡帕诺曼底照片、防水与模糊问题，人物评价/刊载史分开",
+        "source": {
+          "lines": [
+            6,
+            51
+          ]
+        },
+        "note": {
+          "lines": [
+            90,
+            97
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U02",
+        "item": "快门装置/时间复习和秒的档位",
+        "source": {
+          "lines": [
+            52,
+            72
+          ]
+        },
+        "note": {
+          "lines": [
+            98,
+            110
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U03",
+        "item": "焦平面位置、1/16000课堂数值及声音",
+        "source": {
+          "lines": [
+            73,
+            106
+          ]
+        },
+        "note": {
+          "lines": [
+            98,
+            110
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U04",
+        "item": "林间快门声音短片",
+        "source": {
+          "lines": [
+            107,
+            107
+          ]
+        },
+        "note": {
+          "lines": [
+            98,
+            110
+          ]
+        },
+        "status": "待核",
+        "reason": "04:21–05:11原声、动作节奏与声画配合未实审；原静帧不能关闭此项。"
+      },
+      {
+        "id": "P10-U05",
+        "item": "夸张短片回评、摄影者快门声感受",
+        "source": {
+          "lines": [
+            108,
+            114
+          ]
+        },
+        "note": {
+          "lines": [
+            98,
+            110
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U06",
+        "item": "镜间结构、1/1000课堂值、低声响及唐师曾军人伸掌故事",
+        "source": {
+          "lines": [
+            115,
+            162
+          ]
+        },
+        "note": {
+          "lines": [
+            98,
+            110
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U07",
+        "item": "卡努杜/时空艺术、构图/快门、《星际穿越》类比的条件",
+        "source": {
+          "lines": [
+            163,
+            195
+          ]
+        },
+        "note": {
+          "lines": [
+            111,
+            120
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U08",
+        "item": "曝光期间成像位移、清晰/模糊相对关系",
+        "source": {
+          "lines": [
+            196,
+            225
+          ]
+        },
+        "note": {
+          "lines": [
+            111,
+            120
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U09",
+        "item": "静物手抖、长焦窄视角、焦距倒数经验",
+        "source": {
+          "lines": [
+            226,
+            271
+          ]
+        },
+        "note": {
+          "lines": [
+            121,
+            128
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U10",
+        "item": "滑雪1/8000、足球1/2000、篮球1/500示例",
+        "source": {
+          "lines": [
+            272,
+            288
+          ]
+        },
+        "note": {
+          "lines": [
+            121,
+            128
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U11",
+        "item": "泳池怒吼与水花、水膜、两张卷浪的情绪/质感",
+        "source": {
+          "lines": [
+            289,
+            310
+          ]
+        },
+        "note": {
+          "lines": [
+            129,
+            134
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U12",
+        "item": "布列松与主体/辅助人物/环境关系",
+        "source": {
+          "lines": [
+            311,
+            327
+          ]
+        },
+        "note": {
+          "lines": [
+            135,
+            146
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U13",
+        "item": "买酒归来男孩与女孩，读图心理归属",
+        "source": {
+          "lines": [
+            328,
+            342
+          ]
+        },
+        "note": {
+          "lines": [
+            135,
+            146
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U14",
+        "item": "跃过水坑与海报姿态呼应",
+        "source": {
+          "lines": [
+            343,
+            353
+          ]
+        },
+        "note": {
+          "lines": [
+            135,
+            146
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U15",
+        "item": "未命名办公室遮挡照片、早晚半秒失去关系",
+        "source": {
+          "lines": [
+            354,
+            365
+          ]
+        },
+        "note": {
+          "lines": [
+            135,
+            146
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U16",
+        "item": "网球拍/脸对照，课称蜗牛而图未见壳，模糊轨迹",
+        "source": {
+          "lines": [
+            366,
+            382
+          ]
+        },
+        "note": {
+          "lines": [
+            147,
+            154
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U17",
+        "item": "体操一秒过程、1/15至分钟、制作方法未讲",
+        "source": {
+          "lines": [
+            383,
+            397
+          ]
+        },
+        "note": {
+          "lines": [
+            147,
+            154
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U18",
+        "item": "滑雪/体操/拳击清晰与模糊三对照，护齿细节",
+        "source": {
+          "lines": [
+            398,
+            412
+          ]
+        },
+        "note": {
+          "lines": [
+            155,
+            170
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      },
+      {
+        "id": "P10-U19",
+        "item": "印象派类比、莫奈配图与日出印象分开、原课尝试邀请",
+        "source": {
+          "lines": [
+            413,
+            436
+          ]
+        },
+        "note": {
+          "lines": [
+            155,
+            170
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题与案例连读合并；同一助理另一步骤复核见review.md。登记闭合不证明连续视听完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P10-U04",
+        "item": "林间快门声音短片",
+        "status": "待核",
+        "reason": "04:21–05:11原声、动作节奏与声画配合未实审；原静帧不能关闭此项。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "e96cb356b15ed5c68a3dda669190bd34c4186f7f0bc9632de152d5ec1c13f543",
+    "historical_review_sha256": "18f33f3b22328ddf2fec746795c8658897d26fd39e51aa45e624a2f07e77d29a",
+    "historical_seal_sha256": "8b8a7e3f0bf69b6d576a20c24f3dc9f78755bf2b2306ab482bb543b56bce789e",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-03/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "36f71b7a8a1c0786ee0657c697871a6c70b7a66fbc7ca2f6f72e7075674748fb",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/03 - 第三章 摄影机结构、快门与机型（P9-P12）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-03/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第三章既有学习记录.md",
+    "personal_sha256": "a9e04af77d8f44f06bdf0d2d4556cadf7dfbb4630860b28af715985c0e150c9d",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-03/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-03/review.md"
+}

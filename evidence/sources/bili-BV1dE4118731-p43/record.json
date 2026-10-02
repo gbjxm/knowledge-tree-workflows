@@ -1,0 +1,299 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p43",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P43 8.11影像的镜头形态——运动镜头的概念分类",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=43",
+    "bvid": "BV1dE4118731",
+    "page": 43,
+    "cid": 136150010,
+    "text_sha256": "9569f4d34c293f61ea693d64c703fa1757de5514c13a8edf331cb10c38214913",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p43-8.11影像的镜头形态——运动镜头的概念分类/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/10 - 第八章 运动镜头（P43-P47）.md",
+    "sha256": "1ceffe41161d01a39b32d061c1dcf5221a4fd9a9b08417b52757b9d90e04bf5c"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "9569f4d34c293f61ea693d64c703fa1757de5514c13a8edf331cb10c38214913",
+    "note_sha256": "1ceffe41161d01a39b32d061c1dcf5221a4fd9a9b08417b52757b9d90e04bf5c",
+    "scope": [
+      [
+        6,
+        215
+      ]
+    ],
+    "items": [
+      {
+        "id": "P43-U01",
+        "item": "推、拉、摇、移及升、降、甩、跟的分类。物理运动方向、速度和跟随功能不是同一层级，不把八类写成互斥且穷尽的唯一分类。",
+        "source": {
+          "lines": [
+            6,
+            17
+          ]
+        },
+        "note": {
+          "lines": [
+            43,
+            48
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P43-U02",
+        "item": "推镜头由较大范围走向局部细节，引导注意与强调；具体情绪取决于内容和速度。",
+        "source": {
+          "lines": [
+            18,
+            26
+          ]
+        },
+        "note": {
+          "lines": [
+            43,
+            48
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P43-U03",
+        "item": "拉镜头由局部走向环境；推拉可由变焦或机位移动实现，外观相近不表示空间效果等同。",
+        "source": {
+          "lines": [
+            27,
+            35
+          ]
+        },
+        "note": {
+          "lines": [
+            43,
+            48
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P43-U04",
+        "item": "光学变焦：广角至长焦及反向；区分焦距、视角与主体成像大小。原课字幕术语待核。",
+        "source": {
+          "lines": [
+            36,
+            43
+          ]
+        },
+        "note": {
+          "lines": [
+            49,
+            62
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P43-U05",
+        "item": "摄影机实际前后移动、轨道辅助；不把课堂历史叙述写成未经核实的发明史。",
+        "source": {
+          "lines": [
+            44,
+            55
+          ]
+        },
+        "note": {
+          "lines": [
+            49,
+            62
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P43-U06",
+        "item": "同机位变焦与后期放大对照。视点不变不等于画面信息完全不变，数字裁切也不无条件等于光学变焦；需限定取景、分辨率及光学效果。",
+        "source": {
+          "lines": [
+            56,
+            69
+          ]
+        },
+        "note": {
+          "lines": [
+            49,
+            62
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P43-U07",
+        "item": "移动后遮挡、物体关系与可见范围改变。转写“视角不变／越来越宽”混杂，不能写成定焦前推必然增大镜头视场角；区分视点、透视、视差、画框范围。",
+        "source": {
+          "lines": [
+            70,
+            83
+          ]
+        },
+        "note": {
+          "lines": [
+            49,
+            62
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P43-U08",
+        "item": "以人走近的体验解释偏好移动式推拉；“电影禁用变焦”等是课堂概括，不是行业禁令，眼睛类比也不当作生理学论证。",
+        "source": {
+          "lines": [
+            84,
+            106
+          ]
+        },
+        "note": {
+          "lines": [
+            49,
+            62
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P43-U09",
+        "item": "推近的细节强调应有表达必要；不提升为“只有原先不可辨细节才准推”的硬规则。",
+        "source": {
+          "lines": [
+            107,
+            121
+          ]
+        },
+        "note": {
+          "lines": [
+            63,
+            70
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P43-U10",
+        "item": "哭泣采访中推向眼泪的例子：主观强调、干预观看与节制，属于新闻采访语境的取舍，不概括全部采访或当下行业统计。",
+        "source": {
+          "lines": [
+            122,
+            151
+          ]
+        },
+        "note": {
+          "lines": [
+            63,
+            70
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P43-U11",
+        "item": "拉开揭示环境与新信息；单衣者周围皆穿冬衣是课堂假设，不能写成已经看到的示范画面。",
+        "source": {
+          "lines": [
+            152,
+            174
+          ]
+        },
+        "note": {
+          "lines": [
+            63,
+            70
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P43-U12",
+        "item": "推进入、拉退出与段落开合的常见表达；不是开场必须推、结尾必须拉。",
+        "source": {
+          "lines": [
+            175,
+            191
+          ]
+        },
+        "note": {
+          "lines": [
+            63,
+            70
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P43-U13",
+        "item": "起幅—运动—落幅及最终信息落点。ASR“起伏／落伏”需校词；拍摄规划不等于每个成片镜头必须保留静止的起落幅。",
+        "source": {
+          "lines": [
+            192,
+            215
+          ]
+        },
+        "note": {
+          "lines": [
+            71,
+            76
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "5fa0c62cf0069d7b388ed927a9cbbaa69327302bef7f7ea61b3f122b04630bfe",
+    "historical_review_sha256": "524d9fc8acb4ec57da9bfde591db29f48d81c3c73333624e3e53c3eacf3912dc",
+    "historical_seal_sha256": "15d2568673f8262dfab7a2d0d691f539a2a755475d0b3c690527bb2bdc0363ae",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-10/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "7ebb4b8d6338df88fdc9ece797527cd8dc55632a5d98870eefe85304e13c9334",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/10 - 第八章 运动镜头（P43-P47）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-10/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第八章运动镜头既有学习记录.md",
+    "personal_sha256": "746f05c36b802d20d64078affe3d03228f31f07fe38d10f2e4bba3614e188646",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-10/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-10/review.md"
+}

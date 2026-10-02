@@ -1,0 +1,328 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p69",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P69 10.18不能忽视的声音1",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=69",
+    "bvid": "BV1dE4118731",
+    "page": 69,
+    "cid": 139218466,
+    "text_sha256": "ffe704e0129d47e1c8dac4aa31c775003f7d6e8f15d5e95eec83489acb5588bf",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p69-10.18不能忽视的声音1/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/18 - 第十章 声音设计（P69-P72）.md",
+    "sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "ffe704e0129d47e1c8dac4aa31c775003f7d6e8f15d5e95eec83489acb5588bf",
+    "note_sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34",
+    "scope": [
+      [
+        6,
+        271
+      ]
+    ],
+    "items": [
+      {
+        "id": "P69-U01",
+        "item": "声音易被视觉吸引遮蔽，人声音乐音响交替互补；作品魅力不只视觉效果。",
+        "source": {
+          "lines": [
+            6,
+            31
+          ]
+        },
+        "note": {
+          "lines": [
+            56,
+            63
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P69-U02",
+        "item": "声音多种分类、人声三类对白独白旁白；对白推进剧情、解释人物。",
+        "source": {
+          "lines": [
+            32,
+            60
+          ]
+        },
+        "note": {
+          "lines": [
+            56,
+            63
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P69-U03",
+        "item": "空军一号顾问与总统讨论公开反恐发言，为危机铺垫；死期演讲等词及对白语境待原课。",
+        "source": {
+          "lines": [
+            61,
+            70
+          ]
+        },
+        "note": {
+          "lines": [
+            64,
+            71
+          ]
+        },
+        "status": "待核",
+        "reason": "M1连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P69-U04",
+        "item": "戏剧对白与生活聊天的区别，凝练而不失真；不把生活化口语一律排除。",
+        "source": {
+          "lines": [
+            71,
+            91
+          ]
+        },
+        "note": {
+          "lines": [
+            72,
+            79
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P69-U05",
+        "item": "落水狗开篇桌边闲谈、非线性风格、人物与基调，命运预示属教师解读，不作每句台词必然预测。",
+        "source": {
+          "lines": [
+            92,
+            112
+          ]
+        },
+        "note": {
+          "lines": [
+            72,
+            79
+          ]
+        },
+        "status": "待核",
+        "reason": "M2连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P69-U06",
+        "item": "独白的交流对象：自我、剧中其他人物、面对镜头观众；演讲祈祷例子与定义边界。",
+        "source": {
+          "lines": [
+            113,
+            145
+          ]
+        },
+        "note": {
+          "lines": [
+            80,
+            87
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P69-U07",
+        "item": "独白参与感、情感渗透、主观性与评论意味；课堂功能概括。",
+        "source": {
+          "lines": [
+            146,
+            157
+          ]
+        },
+        "note": {
+          "lines": [
+            80,
+            87
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P69-U08",
+        "item": "阳光灿烂的日子马小军钥匙、开锁和主观回忆例子，第一人称与第三人称替换的语气差异；不展开现实开锁。",
+        "source": {
+          "lines": [
+            158,
+            178
+          ]
+        },
+        "note": {
+          "lines": [
+            88,
+            95
+          ]
+        },
+        "status": "待核",
+        "reason": "M3连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P69-U09",
+        "item": "旁白串联镜头，画外人物语言、第一人称自述和第三人称介绍议论评说，分类和独白可有交叠须不硬造互斥。",
+        "source": {
+          "lines": [
+            179,
+            198
+          ]
+        },
+        "note": {
+          "lines": [
+            96,
+            103
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P69-U10",
+        "item": "旁白凝练删繁就简、与画面相辅相成、有独立风格，不是千人一面。",
+        "source": {
+          "lines": [
+            199,
+            217
+          ]
+        },
+        "note": {
+          "lines": [
+            96,
+            103
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P69-U11",
+        "item": "倚天屠龙记之魔教教主开场旁白加图画交代背景；王晶、金庸等ASR疑词和三分多钟/一本半书的修辞边界；08:47–09:06插片空窗。",
+        "source": {
+          "lines": [
+            218,
+            242
+          ]
+        },
+        "note": {
+          "lines": [
+            104,
+            111
+          ]
+        },
+        "status": "待核",
+        "reason": "M4连续声画待核；原课文字和静态图文已分别整理。"
+      },
+      {
+        "id": "P69-U12",
+        "item": "人声设计三对关系：个人感觉与公众兴趣、真与秀、深与浅；原题卡待核。",
+        "source": {
+          "lines": [
+            243,
+            260
+          ]
+        },
+        "note": {
+          "lines": [
+            112,
+            119
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      },
+      {
+        "id": "P69-U13",
+        "item": "台词独白旁白设计不易，课程回顾人声魅力与思考建议，非本次自动学习任务。",
+        "source": {
+          "lines": [
+            261,
+            271
+          ]
+        },
+        "note": {
+          "lines": [
+            112,
+            119
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，保留来源解释、例子与整理限定；文字覆盖不等于实际听看。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P69-U03",
+        "item": "空军一号顾问与总统讨论公开反恐发言，为危机铺垫；死期演讲等词及对白语境待原课。",
+        "status": "待核",
+        "reason": "M1连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P69-U05",
+        "item": "落水狗开篇桌边闲谈、非线性风格、人物与基调，命运预示属教师解读，不作每句台词必然预测。",
+        "status": "待核",
+        "reason": "M2连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P69-U08",
+        "item": "阳光灿烂的日子马小军钥匙、开锁和主观回忆例子，第一人称与第三人称替换的语气差异；不展开现实开锁。",
+        "status": "待核",
+        "reason": "M3连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P69-U11",
+        "item": "倚天屠龙记之魔教教主开场旁白加图画交代背景；王晶、金庸等ASR疑词和三分多钟/一本半书的修辞边界；08:47–09:06插片空窗。",
+        "status": "待核",
+        "reason": "M4连续声画待核；原课文字和静态图文已分别整理。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "872867502f8c6b5c7e7f7c6b78845e15bae0392973f0bee3854a9a7ba5bee164",
+    "historical_review_sha256": "c4a0059310c3c0ca40b33238b20f4b00e4b304263a6b4cd323f3fee53bfba008",
+    "historical_seal_sha256": "85e93e721b58d9c7f04840bf1507c4be48232dca9ec021b882424c98dfc432a2",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-18/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "e08612b83829bd762f2cdd6503f46dfa2f3e1edbeb3dbf8585da2ffe27534f89",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/18 - 第十章 声音设计（P69-P72）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-18/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章声音设计既有学习记录.md",
+    "personal_sha256": "f978b3581e467826eb1bb2150261adb9beeee2b770e1d80adfdcbdcbbe4cdff0",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-18/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-18/review.md"
+}

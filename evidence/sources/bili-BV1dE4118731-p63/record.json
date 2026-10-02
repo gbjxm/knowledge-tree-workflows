@@ -1,0 +1,231 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p63",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P63 10.12动作片的门道4",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=63",
+    "bvid": "BV1dE4118731",
+    "page": 63,
+    "cid": 139216546,
+    "text_sha256": "6e349b31b8fd28a1bdb4edbdf56b153982c621012068de791fe7f1a1fa664f45",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p63-10.12动作片的门道4/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/16 - 第十章 动作片视听设计（P60-P63）.md",
+    "sha256": "1b4192ab0568b2b812af36baf981573d29dd0366f94ae2ef2f79490b9f33d4d8"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "6e349b31b8fd28a1bdb4edbdf56b153982c621012068de791fe7f1a1fa664f45",
+    "note_sha256": "1b4192ab0568b2b812af36baf981573d29dd0366f94ae2ef2f79490b9f33d4d8",
+    "scope": [
+      [
+        6,
+        157
+      ]
+    ],
+    "items": [
+      {
+        "id": "P63-U01",
+        "item": "动作魅力连着观众认同、张力、情感与故事推进，延续前课非只谈设备。",
+        "source": {
+          "lines": [
+            6,
+            12
+          ]
+        },
+        "note": {
+          "lines": [
+            223,
+            226
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P63-U02",
+        "item": "两极镜头：远全/较大中景与近特交替，环境、动作、节奏，时间预算有限时的可用组织方法。",
+        "source": {
+          "lines": [
+            13,
+            36
+          ]
+        },
+        "note": {
+          "lines": [
+            227,
+            232
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P63-U03",
+        "item": "英雄藏书阁无名剑法、毛笔与假死设定，全特交替的叙事冲击节奏；穴位只作电影虚构，不转成现实伤害知识。",
+        "source": {
+          "lines": [
+            37,
+            65
+          ]
+        },
+        "note": {
+          "lines": [
+            233,
+            238
+          ]
+        },
+        "status": "待核",
+        "reason": "M14的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P63-U04",
+        "item": "回到动作初始点：叙事和动作顺序、起点终点、镜头组接脉络，“哪来哪去”疑词核原题。",
+        "source": {
+          "lines": [
+            66,
+            92
+          ]
+        },
+        "note": {
+          "lines": [
+            239,
+            244
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P63-U05",
+        "item": "卧虎藏龙酒楼玉娇龙桌前，挑战者动作与回返坐姿表现实力差距，人物名对白动作及剪接待核。",
+        "source": {
+          "lines": [
+            93,
+            114
+          ]
+        },
+        "note": {
+          "lines": [
+            245,
+            250
+          ]
+        },
+        "status": "待核",
+        "reason": "M15的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P63-U06",
+        "item": "动加动三类：画内运动连接、镜头运动连接、内外运动结合；原图示、定义边界待核。",
+        "source": {
+          "lines": [
+            115,
+            143
+          ]
+        },
+        "note": {
+          "lines": [
+            251,
+            262
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      },
+      {
+        "id": "P63-U07",
+        "item": "笑傲江湖风清扬令狐冲与东厂太监夜战原说法，人物身份存疑；06:40–08:13无转写插片需完整声画。",
+        "source": {
+          "lines": [
+            144,
+            153
+          ]
+        },
+        "note": {
+          "lines": [
+            263,
+            270
+          ]
+        },
+        "status": "待核",
+        "reason": "M16的连续声画或制作语境仍缺；文字与静态观察均保留。"
+      },
+      {
+        "id": "P63-U08",
+        "item": "本节结束与后续技巧预告，不补造课程未讲内容。",
+        "source": {
+          "lines": [
+            154,
+            157
+          ]
+        },
+        "note": {
+          "lines": [
+            263,
+            270
+          ]
+        },
+        "status": "合并",
+        "reason": "按专业问题合并，课堂解释与整理限定分开；文字登记不等于连续声画已审。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P63-U03",
+        "item": "英雄藏书阁无名剑法、毛笔与假死设定，全特交替的叙事冲击节奏；穴位只作电影虚构，不转成现实伤害知识。",
+        "status": "待核",
+        "reason": "M14的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P63-U05",
+        "item": "卧虎藏龙酒楼玉娇龙桌前，挑战者动作与回返坐姿表现实力差距，人物名对白动作及剪接待核。",
+        "status": "待核",
+        "reason": "M15的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P63-U07",
+        "item": "笑傲江湖风清扬令狐冲与东厂太监夜战原说法，人物身份存疑；06:40–08:13无转写插片需完整声画。",
+        "status": "待核",
+        "reason": "M16的连续声画或制作语境仍缺；文字与静态观察均保留。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "697ddb0d5836254aacf6adb3168aa183f491ba70989b7bce8cc48aefebd259e4",
+    "historical_review_sha256": "017f79aa6f51a31338e4ed0658782e43463a1f6ba367e78e173588fc95484b88",
+    "historical_seal_sha256": "6d88604ed89d1d13e57c6aeb81188c06a5a228f5170adadac92eea59a4fb749c",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-16/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "61c8c30b7ae17abc1ce9dd95bba2b2d5846cda6fbac93e5b43c593f1c5be1731",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/16 - 第十章 动作片视听设计（P60-P63）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-16/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章动作片视听设计既有学习记录.md",
+    "personal_sha256": "151d29689b32b056a3c467d092473df390ecf25aa35b7e5e8c44d86445d633a3",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-16/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-16/review.md"
+}

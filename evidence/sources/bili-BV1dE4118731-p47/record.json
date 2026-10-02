@@ -1,0 +1,331 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p47",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P47 8.15运动镜头的关系构建",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=47",
+    "bvid": "BV1dE4118731",
+    "page": 47,
+    "cid": 136150624,
+    "text_sha256": "3675cdacf72bfdeea2c6be954928ac4ca292ae25ebee8ebc90cb5d11307d2f8d",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p47-8.15运动镜头的关系构建/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/10 - 第八章 运动镜头（P43-P47）.md",
+    "sha256": "1ceffe41161d01a39b32d061c1dcf5221a4fd9a9b08417b52757b9d90e04bf5c"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "3675cdacf72bfdeea2c6be954928ac4ca292ae25ebee8ebc90cb5d11307d2f8d",
+    "note_sha256": "1ceffe41161d01a39b32d061c1dcf5221a4fd9a9b08417b52757b9d90e04bf5c",
+    "scope": [
+      [
+        6,
+        160
+      ]
+    ],
+    "items": [
+      {
+        "id": "P47-U01",
+        "item": "起落幅及镜头内部运动连接关系，与剪辑连接对照；“固定只能剪／运动才拍出逻辑”过强，固定机位也能以纵深和演员调度建立内部关系。",
+        "source": {
+          "lines": [
+            6,
+            20
+          ]
+        },
+        "note": {
+          "lines": [
+            169,
+            172
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P47-U02",
+        "item": "敦刻尔克撤退背景与等待船只的引入；先记录课堂提供的叙事背景，不能把片例名称误写成《敦刻尔克》。",
+        "source": {
+          "lines": [
+            21,
+            31
+          ]
+        },
+        "note": {
+          "lines": [
+            173,
+            186
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P47-U03",
+        "item": "候选《赎罪》海滩片段，ASR“熟悉／熟罪”及02:27–06:23合并跨度无法证明起止。实际海滩人物组织与声音待连续核对。",
+        "source": {
+          "lines": [
+            31,
+            32
+          ]
+        },
+        "note": {
+          "lines": [
+            173,
+            186
+          ]
+        },
+        "status": "待核",
+        "reason": "M5连续声画待核，课堂说法与实际查看的静态画面已区别保存。 此长时间窗的ASR行仅作邻接或合并段定位，不代表已转写出整段影片的声画内容。"
+      },
+      {
+        "id": "P47-U04",
+        "item": "主人公作线索组织海滩众生相，信息组织是本课论点；与前几P“运动不提供信息”并列解释其侧重。",
+        "source": {
+          "lines": [
+            33,
+            45
+          ]
+        },
+        "note": {
+          "lines": [
+            173,
+            186
+          ]
+        },
+        "status": "待核",
+        "reason": "M5连续声画待核，课堂说法与实际查看的静态画面已区别保存。"
+      },
+      {
+        "id": "P47-U05",
+        "item": "跟随对象共同经历事件；讲者回述杀马、欲乘船离开、醉酒、歌唱士兵等，动作、顺序、声音及角色身份待看。重点是沿途关系而非只维持人物居中。",
+        "source": {
+          "lines": [
+            46,
+            64
+          ]
+        },
+        "note": {
+          "lines": [
+            173,
+            186
+          ]
+        },
+        "status": "待核",
+        "reason": "M5连续声画待核，课堂说法与实际查看的静态画面已区别保存。"
+      },
+      {
+        "id": "P47-U06",
+        "item": "“只跟未得信息”的批评及带贬义的课堂说法；不由此否定以时长、身体体验、氛围为目的的跟拍，也不把俗称变成专业分类。",
+        "source": {
+          "lines": [
+            65,
+            77
+          ]
+        },
+        "note": {
+          "lines": [
+            173,
+            186
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P47-U07",
+        "item": "三个线索人物分开关注马、船、歌唱者的讲者描述；具体线索交接不等于一直机械追同一人，原画面连续性待核。",
+        "source": {
+          "lines": [
+            78,
+            88
+          ]
+        },
+        "note": {
+          "lines": [
+            173,
+            186
+          ]
+        },
+        "status": "待核",
+        "reason": "M5连续声画待核，课堂说法与实际查看的静态画面已区别保存。"
+      },
+      {
+        "id": "P47-U08",
+        "item": "更换线索人物呈现更丰富环境与性格、人物关系；适用复杂群像，不把“必须换主角”写成每个跟镜头的规则。",
+        "source": {
+          "lines": [
+            89,
+            107
+          ]
+        },
+        "note": {
+          "lines": [
+            173,
+            186
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      },
+      {
+        "id": "P47-U09",
+        "item": "国产谍战片开场群像引入；片例真正起点待核，不能把ASR的教师整句跨度当镜头时长。",
+        "source": {
+          "lines": [
+            108,
+            122
+          ]
+        },
+        "note": {
+          "lines": [
+            187,
+            194
+          ]
+        },
+        "status": "待核",
+        "reason": "M6连续声画待核，课堂说法与实际查看的静态画面已区别保存。"
+      },
+      {
+        "id": "P47-U10",
+        "item": "《风声》候选片名、手中递送电报作为线索。电报本身、递送方向、人物身份与镜头接力不能靠口述补全。",
+        "source": {
+          "lines": [
+            123,
+            129
+          ]
+        },
+        "note": {
+          "lines": [
+            187,
+            194
+          ]
+        },
+        "status": "待核",
+        "reason": "M6连续声画待核，课堂说法与实际查看的静态画面已区别保存。"
+      },
+      {
+        "id": "P47-U11",
+        "item": "递送中呈现人物形象、关系及群像；转写11:58–12:27无词段仍需看，是否插片／回播不由ASR决定。",
+        "source": {
+          "lines": [
+            130,
+            140
+          ]
+        },
+        "note": {
+          "lines": [
+            187,
+            194
+          ]
+        },
+        "status": "待核",
+        "reason": "M6连续声画待核，课堂说法与实际查看的静态画面已区别保存。"
+      },
+      {
+        "id": "P47-U12",
+        "item": "关系构建的两点归纳：线索带出信息，内容串联形成逻辑；广告宣传片的使用属于应用例，不自动生成新练习或创作区内容。",
+        "source": {
+          "lines": [
+            141,
+            160
+          ]
+        },
+        "note": {
+          "lines": [
+            195,
+            198
+          ]
+        },
+        "status": "合并",
+        "reason": "按课程知识问题合并；概念限定及原帧文字另记。文字登记闭合不证明原声或全课连续视频已审。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P47-U03",
+        "item": "候选《赎罪》海滩片段，ASR“熟悉／熟罪”及02:27–06:23合并跨度无法证明起止。实际海滩人物组织与声音待连续核对。",
+        "status": "待核",
+        "reason": "M5连续声画待核，课堂说法与实际查看的静态画面已区别保存。 此长时间窗的ASR行仅作邻接或合并段定位，不代表已转写出整段影片的声画内容。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P47-U04",
+        "item": "主人公作线索组织海滩众生相，信息组织是本课论点；与前几P“运动不提供信息”并列解释其侧重。",
+        "status": "待核",
+        "reason": "M5连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P47-U05",
+        "item": "跟随对象共同经历事件；讲者回述杀马、欲乘船离开、醉酒、歌唱士兵等，动作、顺序、声音及角色身份待看。重点是沿途关系而非只维持人物居中。",
+        "status": "待核",
+        "reason": "M5连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P47-U07",
+        "item": "三个线索人物分开关注马、船、歌唱者的讲者描述；具体线索交接不等于一直机械追同一人，原画面连续性待核。",
+        "status": "待核",
+        "reason": "M5连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P47-U09",
+        "item": "国产谍战片开场群像引入；片例真正起点待核，不能把ASR的教师整句跨度当镜头时长。",
+        "status": "待核",
+        "reason": "M6连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P47-U10",
+        "item": "《风声》候选片名、手中递送电报作为线索。电报本身、递送方向、人物身份与镜头接力不能靠口述补全。",
+        "status": "待核",
+        "reason": "M6连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P47-U11",
+        "item": "递送中呈现人物形象、关系及群像；转写11:58–12:27无词段仍需看，是否插片／回播不由ASR决定。",
+        "status": "待核",
+        "reason": "M6连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "5fa0c62cf0069d7b388ed927a9cbbaa69327302bef7f7ea61b3f122b04630bfe",
+    "historical_review_sha256": "524d9fc8acb4ec57da9bfde591db29f48d81c3c73333624e3e53c3eacf3912dc",
+    "historical_seal_sha256": "15d2568673f8262dfab7a2d0d691f539a2a755475d0b3c690527bb2bdc0363ae",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-10/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "7ebb4b8d6338df88fdc9ece797527cd8dc55632a5d98870eefe85304e13c9334",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/10 - 第八章 运动镜头（P43-P47）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-10/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第八章运动镜头既有学习记录.md",
+    "personal_sha256": "746f05c36b802d20d64078affe3d03228f31f07fe38d10f2e4bba3614e188646",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-10/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-10/review.md"
+}

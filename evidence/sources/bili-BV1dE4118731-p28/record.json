@@ -1,0 +1,328 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p28",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P28 7.5影像的角度选择——近景和特写",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=28",
+    "bvid": "BV1dE4118731",
+    "page": 28,
+    "cid": 134705100,
+    "text_sha256": "3ca6074160979a2e558bd6b5ef8a96244323996e9ec4d47eba9b9d99e1db2a14",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p28-7.5影像的角度选择——近景和特写/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/08 - 第七章 拍摄角度与景别（P26-P32）.md",
+    "sha256": "41424109196fc1868c0518a3837c22a27970e218a00ab7e6c64d4745b13567a6"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "3ca6074160979a2e558bd6b5ef8a96244323996e9ec4d47eba9b9d99e1db2a14",
+    "note_sha256": "41424109196fc1868c0518a3837c22a27970e218a00ab7e6c64d4745b13567a6",
+    "scope": [
+      [
+        6,
+        347
+      ]
+    ],
+    "items": [
+      {
+        "id": "P28-U01",
+        "item": "近景胸部以上、颈部作为构图分界的课堂说明",
+        "source": {
+          "lines": [
+            6,
+            46
+          ]
+        },
+        "note": {
+          "lines": [
+            127,
+            134
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P28-U02",
+        "item": "单人近景看神态，双人中景看关系",
+        "source": {
+          "lines": [
+            47,
+            59
+          ]
+        },
+        "note": {
+          "lines": [
+            127,
+            134
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P28-U03",
+        "item": "紧张受访者可先放宽景别",
+        "source": {
+          "lines": [
+            60,
+            77
+          ]
+        },
+        "note": {
+          "lines": [
+            127,
+            134
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P28-U04",
+        "item": "《身边的感动》女孩照顾家人短片",
+        "source": {
+          "lines": [
+            78,
+            169
+          ]
+        },
+        "note": {
+          "lines": [
+            135,
+            144
+          ]
+        },
+        "status": "待核",
+        "reason": "M7连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。"
+      },
+      {
+        "id": "P28-U05",
+        "item": "多次笑容细节与“感动”主题",
+        "source": {
+          "lines": [
+            170,
+            213
+          ]
+        },
+        "note": {
+          "lines": [
+            135,
+            144
+          ]
+        },
+        "status": "待核",
+        "reason": "M7连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。"
+      },
+      {
+        "id": "P28-U06",
+        "item": "假设换成哭泣细节可能转向“募捐”",
+        "source": {
+          "lines": [
+            214,
+            232
+          ]
+        },
+        "note": {
+          "lines": [
+            135,
+            144
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P28-U07",
+        "item": "特写提取细节、作者态度；《黄石公园》幼兽",
+        "source": {
+          "lines": [
+            233,
+            254
+          ]
+        },
+        "note": {
+          "lines": [
+            145,
+            152
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P28-U08",
+        "item": "《黄石公园》天气与新生动物片段",
+        "source": {
+          "lines": [
+            255,
+            257
+          ]
+        },
+        "note": {
+          "lines": [
+            145,
+            152
+          ]
+        },
+        "status": "待核",
+        "reason": "M8连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。"
+      },
+      {
+        "id": "P28-U09",
+        "item": "突然降雪与幼兽遭遇，细节承载环境后果",
+        "source": {
+          "lines": [
+            258,
+            272
+          ]
+        },
+        "note": {
+          "lines": [
+            145,
+            152
+          ]
+        },
+        "status": "待核",
+        "reason": "M8连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。"
+      },
+      {
+        "id": "P28-U10",
+        "item": "特写信息与风光欣赏的比较",
+        "source": {
+          "lines": [
+            273,
+            289
+          ]
+        },
+        "note": {
+          "lines": [
+            153,
+            160
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P28-U11",
+        "item": "特写/大特写的强调，细节数量建议",
+        "source": {
+          "lines": [
+            290,
+            306
+          ]
+        },
+        "note": {
+          "lines": [
+            153,
+            160
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P28-U12",
+        "item": "《舌尖上的中国》细节叙事举例",
+        "source": {
+          "lines": [
+            307,
+            318
+          ]
+        },
+        "note": {
+          "lines": [
+            153,
+            160
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      },
+      {
+        "id": "P28-U13",
+        "item": "环境—关系—细节三层；景别变化服务信息",
+        "source": {
+          "lines": [
+            319,
+            347
+          ]
+        },
+        "note": {
+          "lines": [
+            153,
+            160
+          ]
+        },
+        "status": "合并",
+        "reason": "按知识问题及案例合并；原图补充和解释边界经另一步骤复读。登记闭合不证明连续声画完成。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P28-U04",
+        "item": "《身边的感动》女孩照顾家人短片",
+        "status": "待核",
+        "reason": "M7连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P28-U05",
+        "item": "多次笑容细节与“感动”主题",
+        "status": "待核",
+        "reason": "M7连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P28-U08",
+        "item": "《黄石公园》天气与新生动物片段",
+        "status": "待核",
+        "reason": "M8连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P28-U09",
+        "item": "突然降雪与幼兽遭遇，细节承载环境后果",
+        "status": "待核",
+        "reason": "M8连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "1a2a87d6492dcab43ab50c659d79eca1a247160b3e49bf591d3de42dd5999894",
+    "historical_review_sha256": "b8efe4dee5c875eb5df9edd935f69a3c58b41779b6f7bdb5002785ff8c436573",
+    "historical_seal_sha256": "28427e59be14c7c78b47db059bfc618f1e124a87f9bf1a111e3d6e82570b8576",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-08/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "77c2fd8deb98af639601c9dce13aaf08bb95eeb01d66f5d36883473113bb7644",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/08 - 第七章 拍摄角度与景别（P26-P32）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-08/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第七章拍摄角度与景别既有学习记录.md",
+    "personal_sha256": "ede4bc4d14dd158a07e10d5b91d8c400ca0c3dce0939cd41b3a1f6093ed4bacc",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-08/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-08/review.md"
+}

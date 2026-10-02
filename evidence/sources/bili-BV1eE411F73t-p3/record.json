@@ -1,0 +1,416 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1eE411F73t-p3",
+  "source": {
+    "kind": "video",
+    "title": "查理老师的编剧课 - 第一课-劝学1.2",
+    "locator": "https://www.bilibili.com/video/BV1eE411F73t?p=3",
+    "bvid": "BV1eE411F73t",
+    "page": 3,
+    "cid": 167847370,
+    "text_sha256": "fa13edafdd8c98becacd0ee81c8ee57d7b62080ef07b838547020fa7bf1b54e0",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1eE411F73t-p3-第一课-劝学1.2/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/查理老师的编剧课/01 - 第一课 劝学（P2-P4）.md",
+    "sha256": "8e67c1d223d9f6a69f8380b55493cb3a2f045ac5295f72c7a469beba04503ff2"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "fa13edafdd8c98becacd0ee81c8ee57d7b62080ef07b838547020fa7bf1b54e0",
+    "note_sha256": "8e67c1d223d9f6a69f8380b55493cb3a2f045ac5295f72c7a469beba04503ff2",
+    "scope": [
+      [
+        6,
+        697
+      ]
+    ],
+    "items": [
+      {
+        "id": "U1",
+        "item": "当时行业评价及成因不展开",
+        "source": {
+          "lines": [
+            6,
+            27
+          ]
+        },
+        "note": {
+          "lines": [
+            96,
+            96
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U2",
+        "item": "食堂限制及承包考量",
+        "source": {
+          "lines": [
+            28,
+            49
+          ]
+        },
+        "note": {
+          "lines": [
+            98,
+            98
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U3",
+        "item": "创作者当前可做之事",
+        "source": {
+          "lines": [
+            50,
+            72
+          ]
+        },
+        "note": {
+          "lines": [
+            100,
+            100
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U4",
+        "item": "观众重看旧剧",
+        "source": {
+          "lines": [
+            73,
+            99
+          ]
+        },
+        "note": {
+          "lines": [
+            104,
+            104
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U5",
+        "item": "铡美已知过程反例",
+        "source": {
+          "lines": [
+            100,
+            124
+          ]
+        },
+        "note": {
+          "lines": [
+            106,
+            106
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U6",
+        "item": "海外内容与审美归因",
+        "source": {
+          "lines": [
+            125,
+            157
+          ]
+        },
+        "note": {
+          "lines": [
+            108,
+            108
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U7",
+        "item": "文化责任不责观众",
+        "source": {
+          "lines": [
+            158,
+            169
+          ]
+        },
+        "note": {
+          "lines": [
+            110,
+            110
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U8",
+        "item": "原材料/厨师责任",
+        "source": {
+          "lines": [
+            170,
+            207
+          ]
+        },
+        "note": {
+          "lines": [
+            114,
+            114
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U9",
+        "item": "电影电视剧差距及握手事件",
+        "source": {
+          "lines": [
+            208,
+            251
+          ]
+        },
+        "note": {
+          "lines": [
+            116,
+            116
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U10",
+        "item": "板书事件/人物及两个记忆测试",
+        "source": {
+          "lines": [
+            252,
+            301
+          ]
+        },
+        "note": {
+          "lines": [
+            120,
+            120
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U11",
+        "item": "预算及播放条件影响",
+        "source": {
+          "lines": [
+            302,
+            339
+          ]
+        },
+        "note": {
+          "lines": [
+            122,
+            122
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U12",
+        "item": "恋爱/付费服务比喻",
+        "source": {
+          "lines": [
+            340,
+            368
+          ]
+        },
+        "note": {
+          "lines": [
+            124,
+            124
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U13",
+        "item": "美剧电影化规格与变化条件",
+        "source": {
+          "lines": [
+            369,
+            407
+          ]
+        },
+        "note": {
+          "lines": [
+            126,
+            126
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U14",
+        "item": "选载体与编剧定义",
+        "source": {
+          "lines": [
+            408,
+            441
+          ]
+        },
+        "note": {
+          "lines": [
+            130,
+            130
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U15",
+        "item": "人类简史/认知革命的课堂转述",
+        "source": {
+          "lines": [
+            442,
+            456
+          ]
+        },
+        "note": {
+          "lines": [
+            134,
+            134
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U16",
+        "item": "动物工具例",
+        "source": {
+          "lines": [
+            457,
+            480
+          ]
+        },
+        "note": {
+          "lines": [
+            136,
+            136
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U17",
+        "item": "地区演化旧观与非洲智人/虚构",
+        "source": {
+          "lines": [
+            481,
+            568
+          ]
+        },
+        "note": {
+          "lines": [
+            138,
+            138
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U18",
+        "item": "河谷资源/血缘与共同身份",
+        "source": {
+          "lines": [
+            569,
+            627
+          ]
+        },
+        "note": {
+          "lines": [
+            140,
+            140
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U19",
+        "item": "假设能力及两边战术对照",
+        "source": {
+          "lines": [
+            628,
+            688
+          ]
+        },
+        "note": {
+          "lines": [
+            142,
+            142
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      },
+      {
+        "id": "U20",
+        "item": "历史意义的劝学收束",
+        "source": {
+          "lines": [
+            689,
+            697
+          ]
+        },
+        "note": {
+          "lines": [
+            144,
+            144
+          ]
+        },
+        "status": "合并",
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-25",
+    "scope": "来源先行及成稿后完整回读ASR行6–697（3–1339秒）；实际看90张原帧及画内字幕/板书，精确时间见本批帧清单；未听审、未连续审看。",
+    "summary": "第一课三P共同复核，保存教学取舍、完整案例与论证、讲者行业及历史转述的性质、原课幻想作业；修正旧稿误词，扩写方法与学习栏目另存，SVG及既有主题链接保留。",
+    "method": "主代理来源先行、候选成稿后另一步骤完整回读三份ASR并反向检查正文，再查旧稿去向与六项实际使用问题；非盲评、非第二评审者。",
+    "unverified": [
+      {
+        "id": "M1",
+        "item": "未听审原声、未连续审看。已看原帧不能证明连续动作、语气或声画同步；拳脚和哭声模仿只保存文字明确描述的内容。",
+        "blocks_knowledge_body": false
+      },
+      {
+        "id": "M2",
+        "item": "行业比例、市场和审美判断以及人类演化年代/能力差异为讲师当时观点或转述，未外核为当前统计或学术结论。",
+        "blocks_knowledge_body": false
+      }
+    ]
+  },
+  "preservation": {
+    "old_note_sha256": "5bddfa59c1e524e04ec9dbcf0dd01717820ca8472dc886f0a67d0a7d2eea6170",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/查理老师的编剧课/01 - 第一课 劝学（P2-P4）.md",
+    "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第一课原有学习记录.md",
+    "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-01/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-01/review.md"
+}

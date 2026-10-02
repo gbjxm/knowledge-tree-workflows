@@ -1,0 +1,446 @@
+{
+  "schema": "source-evidence-v1",
+  "source_id": "bili-BV1dE4118731-p55",
+  "source": {
+    "kind": "video",
+    "title": "中国传媒大学《视听语言》 P55 10.4我们的时间（上）",
+    "locator": "https://www.bilibili.com/video/BV1dE4118731?p=55",
+    "bvid": "BV1dE4118731",
+    "page": 55,
+    "cid": 139213404,
+    "text_sha256": "547a7f13da0f6b04aabc43ae36e31f1b094e6aa43170c96533f0ad9d9bbb77b3",
+    "local_text_hint": ".runtime/raw-cache/bilibili/BV1dE4118731-p55-10.4我们的时间（上）/transcript.md"
+  },
+  "note": {
+    "path": "知识库/学习区/课程/中国传媒大学《视听语言》/14 - 第十章 影视时间组织（P55-P57）.md",
+    "sha256": "69a7d4f2090af4289f8782bcb9a6de1d773722e59bbec877b0de2f88d3728bb2"
+  },
+  "coverage": {
+    "version": 1,
+    "source_sha256": "547a7f13da0f6b04aabc43ae36e31f1b094e6aa43170c96533f0ad9d9bbb77b3",
+    "note_sha256": "69a7d4f2090af4289f8782bcb9a6de1d773722e59bbec877b0de2f88d3728bb2",
+    "scope": [
+      [
+        6,
+        410
+      ]
+    ],
+    "items": [
+      {
+        "id": "P55-U01",
+        "item": "时间主题与影视时间特点的引入。",
+        "source": {
+          "lines": [
+            6,
+            18
+          ]
+        },
+        "note": {
+          "lines": [
+            43,
+            52
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P55-U02",
+        "item": "时空相连，影片相对独立时空内的故事发展。",
+        "source": {
+          "lines": [
+            19,
+            27
+          ]
+        },
+        "note": {
+          "lines": [
+            43,
+            52
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P55-U03",
+        "item": "时间由心而出，观看中的现在感不同于拍摄年代。",
+        "source": {
+          "lines": [
+            28,
+            46
+          ]
+        },
+        "note": {
+          "lines": [
+            43,
+            52
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P55-U04",
+        "item": "影视时间可省略、跳跃、延滞、浓缩，顺序与长度可改造。",
+        "source": {
+          "lines": [
+            47,
+            73
+          ]
+        },
+        "note": {
+          "lines": [
+            43,
+            52
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P55-U05",
+        "item": "两次五秒体验，停顿与影视片段的感受对比；原声、内容和时长需核。",
+        "source": {
+          "lines": [
+            74,
+            97
+          ]
+        },
+        "note": {
+          "lines": [
+            53,
+            58
+          ]
+        },
+        "status": "待核",
+        "reason": "M1连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P55-U06",
+        "item": "放映时间是作品播放整体时长；给定版本及播放条件下固定。",
+        "source": {
+          "lines": [
+            98,
+            110
+          ]
+        },
+        "note": {
+          "lines": [
+            59,
+            68
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P55-U07",
+        "item": "原词疑为叙述时间，讲者以事件跨度和最后一分钟被拉长解释；术语需核。",
+        "source": {
+          "lines": [
+            111,
+            130
+          ]
+        },
+        "note": {
+          "lines": [
+            59,
+            68
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P55-U08",
+        "item": "阳光灿烂的日子扔书包转场，前三次与第四次、儿童到后续时空及跨年；次数和段落需连续核。",
+        "source": {
+          "lines": [
+            131,
+            171
+          ]
+        },
+        "note": {
+          "lines": [
+            69,
+            76
+          ]
+        },
+        "status": "待核",
+        "reason": "M2连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P55-U09",
+        "item": "观赏心理时间由放映及事件时间共同形成，与节奏有关。",
+        "source": {
+          "lines": [
+            172,
+            190
+          ]
+        },
+        "note": {
+          "lines": [
+            77,
+            82
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P55-U10",
+        "item": "等长时间，放映与事件时长相等；不能无条件把长镜头或整个电影都作绝对判断。",
+        "source": {
+          "lines": [
+            191,
+            214
+          ]
+        },
+        "note": {
+          "lines": [
+            83,
+            88
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P55-U11",
+        "item": "北方的纳努克捕海豹长镜头及1922、最早纪录片、人类学开创等表述；两段长ASR窗需看片，历史断言另核。",
+        "source": {
+          "lines": [
+            215,
+            242
+          ]
+        },
+        "note": {
+          "lines": [
+            89,
+            101
+          ]
+        },
+        "status": "待核",
+        "reason": "M3连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P55-U12",
+        "item": "省略时间，删去生活琐事；剪切、字幕、空镜、特技和声音等方法。",
+        "source": {
+          "lines": [
+            243,
+            282
+          ]
+        },
+        "note": {
+          "lines": [
+            102,
+            107
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      },
+      {
+        "id": "P55-U13",
+        "item": "泰坦尼克号获救与老年回忆者转场，人脸与声音联接、省略几十年；连续声画需核。",
+        "source": {
+          "lines": [
+            283,
+            305
+          ]
+        },
+        "note": {
+          "lines": [
+            108,
+            113
+          ]
+        },
+        "status": "待核",
+        "reason": "M4连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P55-U14",
+        "item": "扩展时间，抬手多角度重复、辅助镜头、升格与定格；区分记录与成片重叠呈现。",
+        "source": {
+          "lines": [
+            306,
+            340
+          ]
+        },
+        "note": {
+          "lines": [
+            114,
+            121
+          ]
+        },
+        "status": "待核",
+        "reason": "M5连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P55-U15",
+        "item": "黑客帝国子弹时间，动作和空间观察延展；90多度、用一分钟是讲者说法待核。",
+        "source": {
+          "lines": [
+            341,
+            370
+          ]
+        },
+        "note": {
+          "lines": [
+            122,
+            127
+          ]
+        },
+        "status": "待核",
+        "reason": "M6连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P55-U16",
+        "item": "英雄本色枪战、周润发、小马哥与地点待原字幕确认；升格及人物气度。",
+        "source": {
+          "lines": [
+            371,
+            386
+          ]
+        },
+        "note": {
+          "lines": [
+            128,
+            135
+          ]
+        },
+        "status": "待核",
+        "reason": "M7连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P55-U17",
+        "item": "升格与正常速度交替形成节奏张力；实际切点、速度、声音未审。",
+        "source": {
+          "lines": [
+            387,
+            404
+          ]
+        },
+        "note": {
+          "lines": [
+            128,
+            135
+          ]
+        },
+        "status": "待核",
+        "reason": "M7连续声画或原说法语境待核；图文及课堂解释分开。"
+      },
+      {
+        "id": "P55-U18",
+        "item": "时间感提问与下节衔接。",
+        "source": {
+          "lines": [
+            405,
+            410
+          ]
+        },
+        "note": {
+          "lines": [
+            128,
+            135
+          ]
+        },
+        "status": "合并",
+        "reason": "按问题合并，限定适用条件；登记闭合不等于已听原声或连续审看。"
+      }
+    ]
+  },
+  "review": {
+    "date": "2026-09-30",
+    "scope": "既有完整可用ASR与原帧图文复核结果的采用；本次只复核采用措辞、保留关系与最终文件对应。",
+    "method": "复用本课封存的双向语义复核；核对候选与来源指纹，并逐项检查采用状态修改。没有新增听审或连续视频审看。",
+    "summary": "按用户2026-09-30明确确认的图文范围保存。来源讲述、静帧所见、外部校核及整理者解释保持区分；待核项未被关闭。",
+    "original_audio_heard": false,
+    "continuous_video_reviewed": false,
+    "unverified": [
+      {
+        "id": "P55-U05",
+        "item": "两次五秒体验，停顿与影视片段的感受对比；原声、内容和时长需核。",
+        "status": "待核",
+        "reason": "M1连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P55-U08",
+        "item": "阳光灿烂的日子扔书包转场，前三次与第四次、儿童到后续时空及跨年；次数和段落需连续核。",
+        "status": "待核",
+        "reason": "M2连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P55-U11",
+        "item": "北方的纳努克捕海豹长镜头及1922、最早纪录片、人类学开创等表述；两段长ASR窗需看片，历史断言另核。",
+        "status": "待核",
+        "reason": "M3连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P55-U13",
+        "item": "泰坦尼克号获救与老年回忆者转场，人脸与声音联接、省略几十年；连续声画需核。",
+        "status": "待核",
+        "reason": "M4连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P55-U14",
+        "item": "扩展时间，抬手多角度重复、辅助镜头、升格与定格；区分记录与成片重叠呈现。",
+        "status": "待核",
+        "reason": "M5连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P55-U15",
+        "item": "黑客帝国子弹时间，动作和空间观察延展；90多度、用一分钟是讲者说法待核。",
+        "status": "待核",
+        "reason": "M6连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P55-U16",
+        "item": "英雄本色枪战、周润发、小马哥与地点待原字幕确认；升格及人物气度。",
+        "status": "待核",
+        "reason": "M7连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      },
+      {
+        "id": "P55-U17",
+        "item": "升格与正常速度交替形成节奏张力；实际切点、速度、声音未审。",
+        "status": "待核",
+        "reason": "M7连续声画或原说法语境待核；图文及课堂解释分开。",
+        "blocks_full_audiovisual_acceptance": true
+      }
+    ],
+    "limits": [
+      "完整原声与连续声画未审，图文采用不代表整课声画验收。",
+      "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ]
+  },
+  "adoption": {
+    "date": "2026-09-30",
+    "scope": "transcript_original_frames_source_labels",
+    "user_scope_changed": true,
+    "candidate_sha256": "deb7f554abf5daa6ca69599ae4b7458c3305c0c9daf13bf3e286328de0dba699",
+    "historical_review_sha256": "d4bc1bf666a6f7de4241a8b1fe3159d6abe5d10a4435f5db83c0d1c2cd2efafa",
+    "historical_seal_sha256": "d2641a8ea1f303bdfa1b6c71c1256410471f7cbb7b33c6cd27dba9474edf174d",
+    "adoption_changes_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-14/adoption-changes.json",
+    "all_original_line_numbers_preserved": true,
+    "no_knowledge_claims_changed": true,
+    "media_pending_statuses_preserved": true
+  },
+  "preservation": {
+    "old_note_sha256": "20aa5debc1dc9186da7a3e10ed0406c5ed4c2303b0a5fe6fdc9fa905cb3e516c",
+    "backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/initial/知识库/学习区/课程/中国传媒大学《视听语言》/14 - 第十章 影视时间组织（P55-P57）.md",
+    "delivery_backup_hint": ".runtime/raw-cache/course-av-review-20260925/delivery-20260930/av-14/old-formal.md",
+    "personal_note": "知识库/学习区/个人思考/视听语言第十章影视时间既有学习记录.md",
+    "personal_sha256": "1b291bdda7da2c710847179db0b42031eb3608ff56708846a8faeb4834ca463d",
+    "old_unique_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-14/old-unique-and-learning.md"
+  },
+  "working_review_hint": ".runtime/raw-cache/course-av-review-20260925/batches/av-14/review.md"
+}
