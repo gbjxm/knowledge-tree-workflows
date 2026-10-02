@@ -1,6 +1,6 @@
 {
   "schema": "xiaomo.cloud-readable-release/v1",
-  "created_at": "2026-10-02T15:55:29.074967+00:00",
+  "created_at": "2026-10-02T16:07:55.568937+00:00",
   "system": "knowledge",
   "formal_source_unchanged": true,
   "cloud_candidates_are_formally_adopted": false,
@@ -552,8 +552,8 @@
     },
     {
       "path": "cloud/tools/README.md",
-      "bytes": 5086,
-      "sha256": "559eda973c4eebc68ba504001ffaa80b0d7fd2ada0d87ebbd0213cf6bdbd83a8"
+      "bytes": 5083,
+      "sha256": "d764a7cc68aa08be588cc2b3c24d0d9def229862cb4e5005e18a695d9b757911"
     },
     {
       "path": "CLOUD-START.md",

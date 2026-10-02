@@ -5,16 +5,16 @@
 ## 分支与正式范围
 
 - `main`：原有白名单、`manifest/package-files.json` 与 `verified-backup-*` 标签组成的正式验证快照。
-- `cloud-work`：云端候选与 `.cloud/` 启动说明、工具、`.agents/skills` 镜像。候选不代表本机正式内容已更新。
+- `cloud-work`：云端候选与 `cloud/` 启动说明、工具、`.agents/skills` 镜像。候选不代表本机正式内容已更新。
 - 云端提交不要直接合并到 `main`。本机原有备份会拒绝未知远端提交，直接修改也会令正式文件清单过期。
 - 本工具只处理已存在的 Vault `.md` 文件的内容变化；新增、删除、移动、附件变更、配置和 Skills 变更需要原有专门流程，不进入本候选包。
 
 ## 云端导出
 
-先读取项目 `AGENTS.md` 和 `.cloud/CLOUD-START.md`。在 `cloud-work` 保留未采纳内容，只提交本次明确的 Markdown 候选；提交是本地 Git 操作，推送由工作环境授权执行。
+先读取项目 `AGENTS.md` 和 `cloud/CLOUD-START.md`。在 `cloud-work` 保留未采纳内容，只提交本次明确的 Markdown 候选；提交是本地 Git 操作，推送由工作环境授权执行。
 
 ```bash
-python3 .cloud/tools/cloud_changes.py export --root . --base origin/main --head HEAD --output /tmp/knowledge-change.json
+python3 cloud/tools/cloud_changes.py export --root . --base origin/main --head HEAD --output /tmp/knowledge-change.json
 ```
 
 `origin/main` 必须已指向本次采用的正式基线；本工具不执行 fetch。`--base` 与 `--head` 也可使用明确的完整提交 ID，base 必须是 head 的祖先。导出来源是冻结提交中的文件，不是未提交编辑。Vault 有未提交或未跟踪文件时会阻止导出；同一范围出现新增、删除、移动或附件变更也会阻止导出，避免静默丢失工作。
