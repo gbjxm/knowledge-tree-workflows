@@ -1,0 +1,575 @@
+{
+  "schema": "xiaomo.cloud-acceptance-receipt/v1",
+  "acceptance_date": "2026-10-03",
+  "timezone": "Asia/Shanghai",
+  "prepared_at": "2026-10-03T02:25:34.234150+08:00",
+  "environment": {
+    "publication": "published_as_reported_by_user",
+    "task": "post-publication-first-new-task-light-acceptance",
+    "publication_operation_repeated": false
+  },
+  "acceptance": {
+    "passed": true,
+    "verify_alignment_exit_code": 0,
+    "errors": [],
+    "checks_passed": 8,
+    "existing_211": "retained_not_rerun",
+    "full_validator_rerun": false
+  },
+  "repositories": {
+    "knowledge": {
+      "path": "/workspace/knowledge-tree-workflows",
+      "repository": "gbjxm/knowledge-tree-workflows",
+      "role": "formal-main-baseline/current-task-work",
+      "formal_source_ref": "refs/heads/main",
+      "current_ref": "refs/heads/work",
+      "HEAD": "b77ad8ea6c23921dc5a1c787e8d32a729e2f046b",
+      "local_origin_main": "b77ad8ea6c23921dc5a1c787e8d32a729e2f046b",
+      "remote_main_confirmed": "b77ad8ea6c23921dc5a1c787e8d32a729e2f046b",
+      "git_status_porcelain_v1": "",
+      "index_sha256_before": "614ee8dfa7a5ee6e2fc6fb9c46a580f3466cc98047e27951863c66eff03fe46b",
+      "preservation_before_save": {
+        "work_files_bytes_modes_unchanged": true,
+        "index_bytes_unchanged": true,
+        "branch_unchanged": true,
+        "head_unchanged": true,
+        "status_unchanged": true,
+        "file_count": 1303
+      }
+    },
+    "learning": {
+      "path": "/workspace/xiaomo-learning-system",
+      "repository": "gbjxm/xiaomo-learning-system",
+      "role": "formal-main-baseline/current-task-work",
+      "formal_source_ref": "refs/heads/main",
+      "current_ref": "refs/heads/work",
+      "HEAD": "bfa69016c41ef88d9bfd81eb959fd4d0de18a9b1",
+      "local_origin_main": null,
+      "remote_main_confirmed": "bfa69016c41ef88d9bfd81eb959fd4d0de18a9b1",
+      "git_status_porcelain_v1": "",
+      "index_sha256_before": "5f6a9075baa74009037ebba04bb14af6c5bdee92aebe076765ad03f0b5ee4a77",
+      "preservation_before_save": {
+        "work_files_bytes_modes_unchanged": true,
+        "index_bytes_unchanged": true,
+        "branch_unchanged": true,
+        "head_unchanged": true,
+        "status_unchanged": true,
+        "file_count": 339
+      }
+    },
+    "workflow": {
+      "path": "/workspace/xiaomo-film-workspace",
+      "repository": "gbjxm/xiaomo-film-workspace",
+      "role": "formal-main-baseline/current-task-work",
+      "formal_source_ref": "refs/heads/main",
+      "current_ref": "refs/heads/work",
+      "HEAD": "189444bbc5625a4963a4cc87c3c45d665f20f8d2",
+      "local_origin_main": null,
+      "remote_main_confirmed": "189444bbc5625a4963a4cc87c3c45d665f20f8d2",
+      "git_status_porcelain_v1": "",
+      "index_sha256_before": "6bef1a17e5e856059e0f3776cf9d5690eb38f30fa48ac77c3397a43958b55067",
+      "preservation_before_save": {
+        "work_files_bytes_modes_unchanged": true,
+        "index_bytes_unchanged": true,
+        "branch_unchanged": true,
+        "head_unchanged": true,
+        "status_unchanged": true,
+        "file_count": 1465
+      }
+    }
+  },
+  "restored_helpers": {
+    "ok": true,
+    "restored_bundle_files_checked": 116,
+    "bundle_sha256": "b05f0383a7c2f301ddefc08599d92e3b0f83b87c5169352cfedcfc38d0da7fb1",
+    "bundle_sha256_matches_saved": true,
+    "errors": [],
+    "start_skill_matches_saved_field": true,
+    "start_skill_sha256": "e9a028ba86f7fd1a205e5c7f150a35bcfa2da3dcc349fcaa909baf5ba918ed08",
+    "verify_alignment_sha256": "b065bb8fdd7dbef01348ce43098ea306f4ba9d2f7b625873b1461544baf18c7c",
+    "old_validation_record_sha256": "8ad3f8dac853ea14d3ff25463b65a808d4f032a1ca7d2a1f3939f21dd9ce7cb3",
+    "old_211_rerun": false
+  },
+  "versions": {
+    "python": "Python 3.12.14",
+    "node": "v24.19.0",
+    "git": "git version 2.52.0",
+    "rg": "ripgrep 15.2.0 (rev e89fff89ac)",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 7.1.5-0+deb13u1 Copyright (c) 2007-2026 the FFmpeg developers"
+  },
+  "alignment_checks": {
+    "core_entries": {
+      "ok": true,
+      "entries": [
+        {
+          "path": "/workspace/knowledge-tree-workflows/AGENTS.md",
+          "bytes": 10988,
+          "sha256": "8cbfafcf71364fdbc7fd56fb881e216f2c3d2240de336f53633800b6a70838c8"
+        },
+        {
+          "path": "/workspace/knowledge-tree-workflows/README-先读我.md",
+          "bytes": 10683,
+          "sha256": "98156c75a6b87b1d692cd0bb5ced3f262c2ffce4819e3c932101fa0ff2d4ffe0"
+        },
+        {
+          "path": "/workspace/cloud-candidates/knowledge-tree-entry/AGENTS.md",
+          "bytes": 1402,
+          "sha256": "2141b1007529a971a397e8e90d8fed7d73b87590d200a7f915dc05651e4ccc2b"
+        },
+        {
+          "path": "/workspace/cloud-candidates/knowledge-tree-entry/CLOUD-START.md",
+          "bytes": 1274,
+          "sha256": "a493ef09638796cdb799ac514e737dd65663dcddede7f7296a26b557df53eac9"
+        },
+        {
+          "path": "/workspace/xiaomo-learning-system/AGENTS.md",
+          "bytes": 1600,
+          "sha256": "bbe45e9a741920ff0e68f120b25a341b94a853527254efe07f3b3bdd4ab0c8b1"
+        },
+        {
+          "path": "/workspace/xiaomo-learning-system/CLOUD-START.md",
+          "bytes": 924,
+          "sha256": "940368991cff32cd8f2d1aceeb162e1d7fa394ea08dadbcdfe1e15e23c66d0a5"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/AGENTS.md",
+          "bytes": 1641,
+          "sha256": "c63c1a461e89be3035d7a8db8d0eefc7d1cc5d1c6f0ee5e441ecd614447c88d4"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/CLOUD-START.md",
+          "bytes": 2722,
+          "sha256": "66c74090b8a2501e00f83ec6b972953cc21f498faf541623c7b25f6b03d37606"
+        },
+        {
+          "path": "/workspace/cloud-candidates/knowledge-tree-entry/cloud/systems.json",
+          "bytes": 746,
+          "sha256": "e120b3ff571a5136ef67e9a532d6fbe1cd4386030b41284c73650d2e786e67c1",
+          "json_readable": true
+        },
+        {
+          "path": "/workspace/xiaomo-learning-system/cloud/systems.json",
+          "bytes": 746,
+          "sha256": "e120b3ff571a5136ef67e9a532d6fbe1cd4386030b41284c73650d2e786e67c1",
+          "json_readable": true
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/cloud/systems.json",
+          "bytes": 746,
+          "sha256": "e120b3ff571a5136ef67e9a532d6fbe1cd4386030b41284c73650d2e786e67c1",
+          "json_readable": true
+        }
+      ],
+      "formal_content_root": "/workspace/knowledge-tree-workflows"
+    },
+    "candidate_inventory": {
+      "ok": true,
+      "source_repository": "gbjxm/knowledge-tree-workflows",
+      "source_ref": "origin/cloud-work",
+      "source_commit": "f3d754c92c81d9925f1847e2c5b59687a683407a",
+      "role": "candidate-entry-and-tools-only",
+      "formal_knowledge_root": "/workspace/knowledge-tree-workflows",
+      "source_files_checked": 107,
+      "expected_selected_source_files": 107,
+      "omitted_source_file": "cloud/cloud-release.json",
+      "formal_vault_copied": false
+    },
+    "skill_mirrors": {
+      "ok": true,
+      "skills": [
+        "apply-film-knowledge",
+        "bilibili-study-notes",
+        "curate-ai-prompt-treasure-box",
+        "douyin-study-notes",
+        "grow-creative-library",
+        "internalize-film-knowledge",
+        "operate-personal-knowledge-tree",
+        "weave-film-knowledge-connections"
+      ],
+      "files_checked": 99,
+      "stale_mirror": false,
+      "canonical_root": "/workspace/knowledge-tree-workflows/skills"
+    },
+    "knowledge_bridge": {
+      "ok": true,
+      "bridge": {
+        "path": "/workspace/cloud-onboarding/film-workflow.json",
+        "bytes": 238,
+        "sha256": "4be0fcad26e8aaaf95f1c92ed8afe07650d84ead6522646d5e505f721cf169ff"
+      },
+      "formal_configuration": {
+        "path": "/workspace/knowledge-tree-workflows/.codex/knowledge-tree.json",
+        "bytes": 684,
+        "sha256": "16041137531a7d03db3c4cf13b795f5a571497ba63ee3db66b919f923266f347"
+      }
+    },
+    "candidate_return_tool": {
+      "ok": true,
+      "path": "/workspace/cloud-candidates/knowledge-tree-entry/cloud/tools/cloud_changes.py",
+      "bytes": 17264,
+      "sha256": "7ee4726bfc391be1390d381777e215600c7fef66fc410e409ee4eec9ae818bec",
+      "syntax_compiles": true,
+      "help_checks": [
+        {
+          "arguments": [
+            "--help"
+          ],
+          "exit_code": 0
+        },
+        {
+          "arguments": [
+            "import",
+            "--help"
+          ],
+          "exit_code": 0
+        }
+      ],
+      "vault_writes": false,
+      "candidate_package_created": false
+    },
+    "formal_course_first_read": {
+      "ok": true,
+      "path": "/workspace/knowledge-tree-workflows/个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/01 - 第一章 影像语言与技术史（P1-P2）.md",
+      "bytes": 22912,
+      "sha256": "d8f6ad982487a31f3af4dd7b5dc8ce69a0d7fb4c8bcd1d91d2ea517a7709ae3c",
+      "role": "formal-main/current-task-work",
+      "relative_path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/01 - 第一章 影像语言与技术史（P1-P2）.md",
+      "read_from_candidate_overlay": false,
+      "original_media_reverified": false
+    },
+    "learning_first_read": {
+      "ok": true,
+      "snapshots": {
+        "observatory": {
+          "path": "/workspace/xiaomo-learning-system/cloud-data/snapshots/素材观察室/data/observatory.sqlite3",
+          "table": "materials",
+          "count": 8,
+          "expected_count": 8,
+          "uri_mode": "mode=ro&immutable=1",
+          "query_only": true
+        },
+        "information": {
+          "path": "/workspace/xiaomo-learning-system/cloud-data/snapshots/信息收集/data/opportunities.sqlite3",
+          "table": "opportunities",
+          "count": 46,
+          "expected_count": 46,
+          "uri_mode": "mode=ro&immutable=1",
+          "query_only": true
+        }
+      },
+      "single_export_record": {
+        "path": "/workspace/xiaomo-learning-system/cloud-data/exports/information/opportunities.json",
+        "bytes": 195406,
+        "sha256": "460db954839624fbbd6e15fbaafaecd7b0e3c96c1a2652c1628af6ee8a521e96",
+        "table": "opportunities",
+        "id": "c67dc9fa57e4d56782e5056b",
+        "record_sha256": "085ad301653ef9a2d1c10a75b6474d56debd32ee1b35d61a5108fb2f31d70634",
+        "matches_snapshot": true
+      },
+      "integrity_check_rerun": false,
+      "full_export_comparison_rerun": false
+    },
+    "film_project_first_read": {
+      "ok": true,
+      "count": 8,
+      "entries": [
+        {
+          "project": "2026-09-20_消失？消失了！_v2",
+          "path": "/workspace/xiaomo-film-workspace/项目/2026-09-20_消失？消失了！_v2/开始这里.md",
+          "bytes": 17014,
+          "sha256": "0712a965b94c7a96d83e96db827cd36439094626423776c34ff92960b57d0464"
+        },
+        {
+          "project": "2026-09-21_30s_v1",
+          "path": "/workspace/xiaomo-film-workspace/项目/2026-09-21_30s_v1/开始这里.md",
+          "bytes": 15505,
+          "sha256": "0810f031974d1058f901e5cd47cc7c764197fac257d9ab75442fa2b79be5119a"
+        },
+        {
+          "project": "v0.8测试项目_v1",
+          "path": "/workspace/xiaomo-film-workspace/项目/v0.8测试项目_v1/开始这里.md",
+          "bytes": 21053,
+          "sha256": "0152acf2b6dac5523c8876f450874cf5a139d4b070203e74b2b60e5816e56133"
+        },
+        {
+          "project": "旧壳_v1",
+          "path": "/workspace/xiaomo-film-workspace/项目/旧壳_v1/开始这里.md",
+          "bytes": 8097,
+          "sha256": "268c22f276525ebb625f51f8188251226109a2f8fcec8b1883e3f5aa65784810"
+        },
+        {
+          "project": "止血_v1",
+          "path": "/workspace/xiaomo-film-workspace/项目/止血_v1/开始这里.md",
+          "bytes": 8003,
+          "sha256": "27f9d80718608c9c04451c939d3a2a74b0c6e457b4280e8d3bed4b7d7711e8cd"
+        },
+        {
+          "project": "毫无意义的工作_v1",
+          "path": "/workspace/xiaomo-film-workspace/项目/毫无意义的工作_v1/开始这里.md",
+          "bytes": 25393,
+          "sha256": "8277b1c3240982cf868cfb4aedde890943a62deb3545a8d0b5769e57203d82f9"
+        },
+        {
+          "project": "测试项目_v1",
+          "path": "/workspace/xiaomo-film-workspace/项目/测试项目_v1/开始这里.md",
+          "bytes": 8115,
+          "sha256": "4c5731992a0c1d02bee8c3c43f9a09adbec0d2fa2658fe0bd4f9f2838c9a554f"
+        },
+        {
+          "project": "消失？消失了！_v1",
+          "path": "/workspace/xiaomo-film-workspace/项目/消失？消失了！_v1/开始这里.md",
+          "bytes": 12714,
+          "sha256": "a4e84da0a47ffd88c4b04391ebeec14f01b0c7142e7acee3330f661275c4bc26"
+        }
+      ],
+      "windows_role_claim_started": false,
+      "resolve_started": false,
+      "local_web_started": false
+    }
+  },
+  "actual_content_read": {
+    "formal_course": {
+      "path": "/workspace/knowledge-tree-workflows/个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/01 - 第一章 影像语言与技术史（P1-P2）.md",
+      "relative_path": "个人影视知识树/知识库/学习区/课程/中国传媒大学《视听语言》/01 - 第一章 影像语言与技术史（P1-P2）.md",
+      "bytes": 22912,
+      "sha256": "d8f6ad982487a31f3af4dd7b5dc8ce69a0d7fb4c8bcd1d91d2ea517a7709ae3c",
+      "source_role": "formal main baseline/current work checkout",
+      "sourceCommit": "b77ad8ea6c23921dc5a1c787e8d32a729e2f046b",
+      "title": "中国传媒大学《视听语言》 - 第一章 影像语言与技术史（P1-P2）",
+      "BV": "BV1dE4118731",
+      "segments": [
+        1,
+        2
+      ],
+      "read_scope": "complete lesson text",
+      "content_evidence": [
+        "P1：影像的作用与专业性，记录/表达/专业应用、家庭相册随时间改变的价值。",
+        "P2：小孔成像区分“看见”与“保存”；塔尔博特纸负片增加复制传播；长曝光限制人物清晰留影；连续放映改变观看经验。",
+        "正文区分课堂说法、整理归纳与外部史实核验；爱因斯坦银行说法纠正为专利局，火车恐慌故事不当确定史实。"
+      ],
+      "original_media_reverified": false,
+      "HEAD_blob_sha256": "d8f6ad982487a31f3af4dd7b5dc8ce69a0d7fb4c8bcd1d91d2ea517a7709ae3c",
+      "matches_HEAD_blob": true
+    },
+    "learning_export_record": {
+      "path": "/workspace/xiaomo-learning-system/cloud-data/exports/information/opportunities.json",
+      "sha256": "460db954839624fbbd6e15fbaafaecd7b0e3c96c1a2652c1628af6ee8a521e96",
+      "table": "opportunities",
+      "sourceSnapshot": "/workspace/xiaomo-learning-system/cloud-data/snapshots/信息收集/data/opportunities.sqlite3",
+      "sourceCommit": "bfa69016c41ef88d9bfd81eb959fd4d0de18a9b1",
+      "source_role": "read-only derived export from formal learning SQLite snapshot",
+      "selection": "rows[0]",
+      "id": "c67dc9fa57e4d56782e5056b",
+      "version": 4,
+      "record_sha256": "085ad301653ef9a2d1c10a75b6474d56debd32ee1b35d61a5108fb2f31d70634",
+      "title": "王者无界剧场计划",
+      "summary": "王者 IP AI 影像征集。现金、奖励积分和启动算力分开；获奖作品版权转让及排他授权需重点审阅。",
+      "verification_in_record": "partial",
+      "record_verified_at": "2026-09-30T02:51:32+00:00",
+      "personal_eligibility": "not_checked",
+      "new_official_source_verification_performed": false,
+      "HEAD_blob_sha256": "460db954839624fbbd6e15fbaafaecd7b0e3c96c1a2652c1628af6ee8a521e96",
+      "matches_HEAD_blob": true
+    },
+    "film_project_entries": {
+      "schema": "xiaomo.acceptance-film-read/v1",
+      "date_client_timezone": "2026-10-03 Asia/Shanghai",
+      "checked_at_utc": "2026-10-02T18:24:35.080817+00:00",
+      "ok": true,
+      "root": "/workspace/xiaomo-film-workspace",
+      "source_identity": {
+        "role": "formal_read_only_snapshot",
+        "repository": "https://github.com/gbjxm/xiaomo-film-workspace.git",
+        "current_ref": "refs/heads/work",
+        "head": "189444bbc5625a4963a4cc87c3c45d665f20f8d2",
+        "declared_formal_source_ref": "main",
+        "saved_start_formal_source_head": "189444bbc5625a4963a4cc87c3c45d665f20f8d2",
+        "matches_saved_start_formal_source_head": true,
+        "origin_main_tracking_ref_present": false,
+        "remote_main_verification": "delegated_to_root_task",
+        "actual_local_refs": [
+          "189444bbc5625a4963a4cc87c3c45d665f20f8d2 refs/heads/work"
+        ]
+      },
+      "read_documents": [
+        {
+          "path": "/workspace/xiaomo-film-workspace/AGENTS.md",
+          "sha256": "c63c1a461e89be3035d7a8db8d0eefc7d1cc5d1c6f0ee5e441ecd614447c88d4"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/CLOUD-START.md",
+          "sha256": "66c74090b8a2501e00f83ec6b972953cc21f498faf541623c7b25f6b03d37606"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/cloud/README.md",
+          "sha256": "8f4a6ec0d264737c9113e60174e7371e1325d42d02774b9c571e73db8be14b05"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/cloud/systems.json",
+          "sha256": "e120b3ff571a5136ef67e9a532d6fbe1cd4386030b41284c73650d2e786e67c1"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/cloud/media-index.json",
+          "sha256": "581731cf2b53863f238a6926b07f83ff8c4b0045117ee24f3f8bffc16e72b9a2"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/cloud/local-AGENTS.source.md",
+          "sha256": "1e4bce0e625be7ac53b7e5305e28e384accff9c8d64937eef695a892e4f119d6"
+        }
+      ],
+      "project_entries": [
+        {
+          "path": "/workspace/xiaomo-film-workspace/项目/2026-09-20_消失？消失了！_v2/开始这里.md",
+          "relative_path": "项目/2026-09-20_消失？消失了！_v2/开始这里.md",
+          "title": "# 开始这里",
+          "project": "2026-09-20_消失？消失了！_v2",
+          "sha256": "0712a965b94c7a96d83e96db827cd36439094626423776c34ff92960b57d0464",
+          "bytes_read": 17014,
+          "full_file_read": true,
+          "content_evidence": "来源模板 v1.0；workflowRelease: 1.0、studio-v0.9、media-layout-v2、production-docs-v1。旧故事 S01—S32 保留，B_STAGE_READY NOT_PASS；C 候选及 14 秒试验未采用；无 CUT/Master/PUB，旧授权不继承。"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/项目/2026-09-21_30s_v1/开始这里.md",
+          "relative_path": "项目/2026-09-21_30s_v1/开始这里.md",
+          "title": "# 开始这里",
+          "project": "2026-09-21_30s_v1",
+          "sha256": "0810f031974d1058f901e5cd47cc7c764197fac257d9ab75442fa2b79be5119a",
+          "bytes_read": 15505,
+          "full_file_read": true,
+          "content_evidence": "项目名 30s；来源模板 v1.0，workflowRelease: 1.0、studio-v0.9、media-layout-v2、production-docs-v1；六部门轻量启动须显式请求，media_execution 关闭。"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/项目/v0.8测试项目_v1/开始这里.md",
+          "relative_path": "项目/v0.8测试项目_v1/开始这里.md",
+          "title": "# 开始这里",
+          "project": "v0.8测试项目_v1",
+          "sha256": "0152acf2b6dac5523c8876f450874cf5a139d4b070203e74b2b60e5816e56133",
+          "bytes_read": 21053,
+          "full_file_read": true,
+          "content_evidence": "来源模板 v0.8；workflowPatch: single-foreground-micropatch-v1；A 分配完整阶段，B/C/D/E 唯一目标；采用、记录写入及外部动作分别授权。"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/项目/旧壳_v1/开始这里.md",
+          "relative_path": "项目/旧壳_v1/开始这里.md",
+          "title": "# 开始这里",
+          "project": "旧壳_v1",
+          "sha256": "268c22f276525ebb625f51f8188251226109a2f8fcec8b1883e3f5aa65784810",
+          "bytes_read": 8097,
+          "full_file_read": true,
+          "content_evidence": "本项目使用工作流 v0.7；A/B/C/D 路线，独占写入，草案零写入；真实生成/剪辑/上传/发布分别授权，无工具交 manual-copy。"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/项目/止血_v1/开始这里.md",
+          "relative_path": "项目/止血_v1/开始这里.md",
+          "title": "# 开始这里",
+          "project": "止血_v1",
+          "sha256": "27f9d80718608c9c04451c939d3a2a74b0c6e457b4280e8d3bed4b7d7711e8cd",
+          "bytes_read": 8003,
+          "full_file_read": true,
+          "content_evidence": "项目名 止血；来源模板 v0.5；A/B/C/D 四岗，A 每次一个当前任务，状态待定/采用/停用，生成素材与剪辑成片目录分离。"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/项目/毫无意义的工作_v1/开始这里.md",
+          "relative_path": "项目/毫无意义的工作_v1/开始这里.md",
+          "title": "# 开始这里",
+          "project": "毫无意义的工作_v1",
+          "sha256": "8277b1c3240982cf868cfb4aedde890943a62deb3545a8d0b5769e57203d82f9",
+          "bytes_read": 25393,
+          "full_file_read": true,
+          "content_evidence": "来源模板 v0.8（由 v0.7 原位迁移），迁移日期 2026-08-23；workflowPatch、workflowResume、workflowScript 三标识；同岗缓存非权威，B_STAGE_READY 和已保存 Word 作为受控证据。"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/项目/测试项目_v1/开始这里.md",
+          "relative_path": "项目/测试项目_v1/开始这里.md",
+          "title": "# 开始这里",
+          "project": "测试项目_v1",
+          "sha256": "4c5731992a0c1d02bee8c3c43f9a09adbec0d2fa2658fe0bd4f9f2838c9a554f",
+          "bytes_read": 8115,
+          "full_file_read": true,
+          "content_evidence": "项目名 测试项目；来源模板 v0.6；A/B/C/D 四岗，编号 S/A/V/CUT/PUB 分工；写前哈希复核；真实外部动作单独授权。"
+        },
+        {
+          "path": "/workspace/xiaomo-film-workspace/项目/消失？消失了！_v1/开始这里.md",
+          "relative_path": "项目/消失？消失了！_v1/开始这里.md",
+          "title": "# 开始这里",
+          "project": "消失？消失了！_v1",
+          "sha256": "a4e84da0a47ffd88c4b04391ebeec14f01b0c7142e7acee3330f661275c4bc26",
+          "bytes_read": 12714,
+          "full_file_read": true,
+          "content_evidence": "当前显式 studio-v0.9、media-layout-v1；从 v0.8 接入；C2 c2-alley-redesign 为 needs_redesign_discussion，14 秒测试未采用/未生成/未组接；B_STAGE_READY NOT_PASS，无采用 CUT/Master，D 音频暂停。"
+        }
+      ],
+      "media_index": {
+        "schema": "xiaomo.cloud-media-index/v1",
+        "generated_at_utc": "2026-10-02T15:54:10.742260+00:00",
+        "source_alias": "workflow",
+        "bulk_media_included": false,
+        "small_referenced_illustration_max_file_bytes": 2097152,
+        "small_referenced_illustration_budget_bytes": 33554432,
+        "duplicate_illustrations": "one_original_byte_copy_with_explicit_equivalent_path",
+        "inventory_scope": "selected workflow/project/knowledge engineering source scopes; maintenance tests and backups were not scanned",
+        "items_count": 707,
+        "items_status_counts": {
+          "unavailable_in_repository_local_source_only": 576,
+          "included_small_referenced_illustration": 99,
+          "byte_identical_illustration_available_at_another_repository_path": 32
+        },
+        "unavailable_references_count": 1326,
+        "unavailable_reference_status_counts": {
+          "unavailable_in_package_source": 1326
+        },
+        "sha256": "581731cf2b53863f238a6926b07f83ff8c4b0045117ee24f3f8bffc16e72b9a2"
+      },
+      "unverified": [
+        "未审看缺失媒体像素或核听缺失声音，未验证真实可剪或媒体 QC。",
+        "未启动或验证 Resolve、MCP、本机网页、Windows 岗位运行时、生成服务、发布及外部认证。",
+        "未重新运行原 211 项或全套 validator；仅为本轮八个入口实际读取证据。"
+      ],
+      "preserved_boundaries": {
+        "repository_files_written": false,
+        "git_index_ref_head_mutated": false,
+        "web_windows_claim_resolve_started": false
+      }
+    }
+  },
+  "sqlite": {
+    "uri": "mode=ro&immutable=1",
+    "query_only": true,
+    "selected_table_counts": {
+      "materials": 8,
+      "opportunities": 46
+    },
+    "single_export_record_matches_snapshot": true,
+    "integrity_check_rerun": false,
+    "full_export_comparison_rerun": false
+  },
+  "preservation": {
+    "current_work_ref_HEAD_index_and_all_work_files_unchanged": true,
+    "formal_notes_learning_records_film_projects_modified": false,
+    "services_started": false,
+    "windows_claim_started": false,
+    "resolve_started": false,
+    "main_merge_or_push_authorized": false
+  },
+  "save": {
+    "repository": "gbjxm/knowledge-tree-workflows",
+    "branch": "cloud/acceptance-20261003",
+    "base_ref": "refs/heads/main",
+    "sourceCommit": "b77ad8ea6c23921dc5a1c787e8d32a729e2f046b",
+    "only_added_path": "cloud/drafts/acceptance/20261003.json",
+    "formal_adoption": false,
+    "method": "temporary GIT_INDEX_FILE / commit-tree / create-only update-ref",
+    "local_and_remote_branch_preexisting": false,
+    "remote_push_requires_branch_still_absent": true,
+    "remote_confirmation": "verify exact branch SHA and receipt blob after push; verification evidence is outside this self-referential receipt"
+  },
+  "unverified": [
+    "原 211 项、完整导出比对与 SQLite integrity_check 本次未重跑。",
+    "课程原媒体未重新核听或审看；只核验正式正文的实际可读性与版本。",
+    "学习机会官方网页、授权全文、个人主体资格与未注明时区未重新核验。",
+    "影视本机媒体、外部路径媒体、真实剪辑和音画 QC 未验证；入口历史 runtime/lease 字段不代表当前能力。",
+    "Windows Claim、Resolve、本机网页和 Obsidian 正式写入能力未启动或验证。",
+    "环境发布状态依据用户本次说明；本次完成发布后的新任务轻量验收，未重新执行发布。"
+  ]
+}
