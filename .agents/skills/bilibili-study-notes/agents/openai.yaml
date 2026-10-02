@@ -1,0 +1,4 @@
+interface:
+  display_name: "B站课程学习笔记"
+  short_description: "将 B 站课程转成可理解、可追溯、可沉淀的影视知识来源"
+  default_prompt: "使用 $bilibili-study-notes 先判断课程、系列或单篇架构；确认后按真实语义单元整理中文 Obsidian 来源笔记，原始产物只写入 Vault 外缓存。"

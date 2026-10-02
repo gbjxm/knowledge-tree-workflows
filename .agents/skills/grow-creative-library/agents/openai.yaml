@@ -1,0 +1,4 @@
+interface:
+  display_name: "影像创作学习库"
+  short_description: "把多来源学习材料融合为可理解、可追溯、可验证的影视知识"
+  default_prompt: "使用 $grow-creative-library 先判断材料类型、笔记架构、聚合单位和知识树分类，经我首次确认并记住后，再读取材料、保留可核查来源并融合进我的 Obsidian 影视创作知识树。"

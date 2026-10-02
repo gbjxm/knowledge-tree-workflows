@@ -1,0 +1,34 @@
+# 新增材料与知识调用补查
+
+补查发现变化与遗漏，不能凭相似度自动补正文、建立正式关系或升级证据。范围遵守[分区契约](../../grow-creative-library/references/library-layout.md)：创作调用的补查默认限创作区，学习文件只经本次点名加入；学习整理不因此自动进入创作。检查点和显示条数均不代表内容已处理。
+
+## 触发与执行
+
+- 已授权的来源入库或实质更新完成后，以及知识收尾时，运行 `knowledge_followup.py --config <唯一配置> --suggest --checkpoint`。
+- 知识树复盘由 `weekly_review.py` 附只读摘要；`--full` 仅展开完整 issues，阅读候选数量另由 `--suggest --limit N` 控制（上限50）。综合审查由 `knowledge_review.py` 附当前变化摘要。
+- 不创建后台任务。`--checkpoint` 仅在配置的 Vault 外 `raw_cache` 保存扫描指纹和来源依赖，不写Vault，也不清除未解决的问题。只读任务不执行检查点写入。
+
+## 解释返回结果
+
+对照 `added/modified/removed/renamed/revoked` 与 `affected_topics`，确认变化及其实际影响；同名文件不能代替版本核对。
+
+- **存在、导航与沉淀分开**：文件存在或从地图可到达，只证明有入口；有效来源到主题的沉淀关系还需实质内容及对应回链。`exists_outside_index` 表示文件可能合法存在于索引范围外，不等于断链，不自行扩大读取范围。
+- `broken_link` 与 `one_way_source_link` 的口径不同：前者包括缺失、歧义等解析失败，应检查 reason；后者只说明声明的来源/主题关系是一向。`link_role: navigation` 的来源地图可能承担正常导航职责，先核对用途，不因此强补反链；材料来源回链的缺失也不能用普通导航替代。
+- `source_not_integrated` 提醒检查本次范围内来源尚未形成有效主题沉淀；先读内容再判断可融合、需另题或合理独立。学习来源没有创作主题是正常状态，不据此跨区读取或自动融合。不能只因来源已有普通链接就判定已沉淀。明确授权独立保留后，才可写“关联检查: 独立保留”和具体理由；工具不自动代写。
+- `exact_duplicates` 仅表示正文相同；`same_origin_groups` 表示共享原始URL，不算多个独立来源。汇编共享一个URL也不证明整个汇编重复。
+- `comparisons` 和 `unconfirmed_reading_candidate` 只是阅读建议，不扩张分区及本次点名范围。读双方有关内容后，才能判断重复、补充、案例、条件变化、冲突或无关系；命中词不作为融合或正式关系依据。
+- 区分问题总量、本次显示量、显示限制之外的条目和延后比较。`deferred_comparisons`、未显示项或未完成复核仍需保留；减少显示、调整过滤或保存checkpoint不能被报告成处理完成。
+
+`issue_summary` 按原 kind 和单向关系的用途汇总，受影响主题另计；`comparison_scope` 明示本次 eligible/shown/deferred。重复同一限额的调用不会自动翻页或推进复核；展示了候选也不表示读过。
+
+`grow-creative-library` 承担已授权的来源融合和双向来源入口；`weave-film-knowledge-connections` 承担正式主题关系的预览、确认和双向写回。冲突不自动覆盖旧结论；未确认关系不写Vault、Tasks或隐藏队列。
+
+## 复核确认与失效
+
+来源变化形成的 `affected_topics` 跨检查点保留，直到实际读过变化与主题、完成内容复核。在允许更新运行状态的任务中，可用：
+
+`--checkpoint --reviewed-topic <Vault相对路径> --expected-snapshot <本轮快照> --review-reason <具体结论>`
+
+多个已复核主题可重复该参数。它只确认本次确已完成的运行队列项，不提升证据、不改正式关系，也不清除其他未处理来源、单向链接或pending项。未读内容不得确认。
+
+旧证据身份随相关源文件或解析行为变化而失效；重新核对受影响片段和依赖，不自动改写既有项目采用。验收关注新内容能否被自然问题找到、实际补充什么判断、来源是否对应、变化后旧证据是否失效，以及无关/重复/冲突是否正确处理。索引刷新、链接增加、字段非空或退出码0均不代替这些检查。

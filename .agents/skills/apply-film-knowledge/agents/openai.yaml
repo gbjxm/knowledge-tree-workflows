@@ -1,0 +1,7 @@
+interface:
+  display_name: "影视知识调用"
+  short_description: "结合影视知识主动检查当前材料，核对依据与条件并形成具体判断"
+  default_prompt: "使用 $apply-film-knowledge 结合我的知识树检查当前材料，主动发现影响目标的问题，核对依据与事实，并说明实际取舍和下一步。"
+
+policy:
+  allow_implicit_invocation: true

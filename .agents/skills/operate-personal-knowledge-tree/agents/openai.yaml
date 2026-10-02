@@ -1,0 +1,4 @@
+interface:
+  display_name: "个人影视知识树"
+  short_description: "以北极星、知识生命周期和周复盘运行个人影视创作知识树"
+  default_prompt: "使用 $operate-personal-knowledge-tree 读取北极星和当前状态，协调本次知识树路由、地图、队列或周复盘，并把具体工作交给对应 Skill。"

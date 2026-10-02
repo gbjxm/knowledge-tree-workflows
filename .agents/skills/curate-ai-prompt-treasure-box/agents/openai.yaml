@@ -1,0 +1,4 @@
+interface:
+  display_name: "整理小陌的AI百宝箱"
+  short_description: "收录、去重、分类并优化网上找到的 AI 提示词到个人百宝箱"
+  default_prompt: "使用 $curate-ai-prompt-treasure-box 把这条提示词整理并收录到我的 Obsidian《小陌的AI百宝箱》。"
