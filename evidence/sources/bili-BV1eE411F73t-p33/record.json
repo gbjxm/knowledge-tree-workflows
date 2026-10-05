@@ -459,5 +459,305 @@
   "final_binding_update": {
     "date": "2026-09-30",
     "scope": "来源范围、正文定位及待核状态未变；移除工作缓存绝对提示，匹配最终笔记字节。"
-  }
+  },
+  "incremental_reviews": [
+    {
+      "date": "2026-10-03",
+      "kind": "new_asr_to_existing_lesson_note",
+      "asr_source": {
+        "local_text_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第14课-场景与对白/P33-十四课-场景与对白14.2-3bb9908e/large-v3-5ef88b2b6b/P33-十四课-场景与对白14.2.raw.txt",
+        "text_sha256": "ef8b16c860197011af980966ba48a5304ebbdc8aaa245fb2bbfe0e3ac48f8d81"
+      },
+      "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/09-15/14/P33-new-raw-coverage.json",
+      "scope": {
+        "page": 33,
+        "raw_lines": [
+          1,
+          1409
+        ],
+        "lesson": 14
+      },
+      "note_sha256": "0fd72879ef6f0d5f7e711ac522ffb78bc564c6e96ed9424914176ed54355ac6d",
+      "method": "完整读新raw→按源序列语义清单→完整读现行课级正文→双向核对；保留历史图文已核内容；正文→新raw及旧稿保全复核",
+      "summary": "P32—P33新ASR全文与现行第十四课逐项对照完成；讲师授课知识和独特案例已保存，正文不强凑修改。两段影片放映的失真ASR及后续报价数字明确保留待核，不能称本课已完成原声/连续声画核验。",
+      "changes": [],
+      "unverified": [
+        "P32 raw818—871（约27:35—30:22）《风骚律师》原片放映为中英混杂失真/机械重复，完整对白、表演及切点仍待核。",
+        "P32 raw1021—1022新ASR识为‘想挣五百块钱/给你们一千’，仅登记为新候选，不替换现行35:22后一报价数额未核清的限制；需原字幕或原声定点证据。",
+        "P33 raw1311—1357（约44:54—47:28）《泰坦尼克号》晚餐放映有严重翻译/识别错词，未用其补造官方对白。",
+        "未回听原音、未连续审看；‘人性/人气’等错词不覆盖历史原字幕已经核对的正文归属。"
+      ],
+      "heard_audio": false,
+      "continuous_av_reviewed": false,
+      "raw_modified": false,
+      "primary_source_preserved": true,
+      "coverage_check_returncode": 1,
+      "old_note_mapping_rechecked": [
+        {
+          "id": "P33-01",
+          "old_note_lines": [
+            123,
+            123
+          ],
+          "current_note_lines": [
+            123,
+            123
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-02",
+          "old_note_lines": [
+            125,
+            125
+          ],
+          "current_note_lines": [
+            125,
+            125
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-03",
+          "old_note_lines": [
+            127,
+            127
+          ],
+          "current_note_lines": [
+            127,
+            127
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-04",
+          "old_note_lines": [
+            129,
+            129
+          ],
+          "current_note_lines": [
+            129,
+            129
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-05",
+          "old_note_lines": [
+            131,
+            131
+          ],
+          "current_note_lines": [
+            131,
+            131
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-06",
+          "old_note_lines": [
+            137,
+            137
+          ],
+          "current_note_lines": [
+            137,
+            137
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-07",
+          "old_note_lines": [
+            139,
+            139
+          ],
+          "current_note_lines": [
+            139,
+            139
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-08",
+          "old_note_lines": [
+            141,
+            141
+          ],
+          "current_note_lines": [
+            141,
+            141
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-09",
+          "old_note_lines": [
+            145,
+            145
+          ],
+          "current_note_lines": [
+            145,
+            145
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-10",
+          "old_note_lines": [
+            149,
+            149
+          ],
+          "current_note_lines": [
+            149,
+            149
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-11",
+          "old_note_lines": [
+            151,
+            151
+          ],
+          "current_note_lines": [
+            151,
+            151
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-12",
+          "old_note_lines": [
+            153,
+            153
+          ],
+          "current_note_lines": [
+            153,
+            153
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-13",
+          "old_note_lines": [
+            159,
+            159
+          ],
+          "current_note_lines": [
+            159,
+            159
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-14",
+          "old_note_lines": [
+            165,
+            165
+          ],
+          "current_note_lines": [
+            165,
+            165
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-15",
+          "old_note_lines": [
+            171,
+            171
+          ],
+          "current_note_lines": [
+            171,
+            171
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-16",
+          "old_note_lines": [
+            177,
+            177
+          ],
+          "current_note_lines": [
+            177,
+            177
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-17",
+          "old_note_lines": [
+            183,
+            183
+          ],
+          "current_note_lines": [
+            183,
+            183
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-18",
+          "old_note_lines": [
+            167,
+            167
+          ],
+          "current_note_lines": [
+            167,
+            167
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-19",
+          "old_note_lines": [
+            189,
+            189
+          ],
+          "current_note_lines": [
+            189,
+            189
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-20",
+          "old_note_lines": [
+            189,
+            189
+          ],
+          "current_note_lines": [
+            189,
+            189
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-21",
+          "old_note_lines": [
+            189,
+            189
+          ],
+          "current_note_lines": [
+            189,
+            189
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P33-22",
+          "old_note_lines": [
+            191,
+            191
+          ],
+          "current_note_lines": [
+            191,
+            191
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        }
+      ]
+    }
+  ]
 }

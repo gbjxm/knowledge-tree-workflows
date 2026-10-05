@@ -8,3 +8,12 @@
 - [双向复核及实际使用检查](../../../.runtime/raw-cache/course-full-review-20260924/batches/charlie-09/review.md)。
 - 最终文件、原稿备份、个人记录路径和SHA见record.json。
 - 本次替换前的来源记录保留于[备份清单](../../../.runtime/raw-cache/course-full-review-20260924/batches/charlie-09/prior-evidence-manifest.json)。
+
+
+## 2026-10-03 新ASR正文增量复核
+
+P18—P19新ASR全文与现行第九课双向对照完成；现行正文已保留主角共情、独特场面、英雄极限、配角功能、人物关系、弧光例外和命名操作细节，无需强行增补正文。
+
+新raw全文行1—1004按源序列逐项对照当前课级正文，覆盖登记30项；[本轮逐项记录](../../../.runtime/raw-cache/course-note-reconcile-20261003-47files/09-15/09/P19-new-raw-coverage.json)。原primary来源身份、SHA和旧coverage继续保留，已有原帧/板书结论未被ASR错词覆盖。
+
+未回听原声，未连续审看；本次ASR文字不是原声准确金标准。未回听原音、未连续审看；新ASR专名错词不覆盖历史原帧/板书已核字形。；性侵许可、明星效应等是讲师的争议/夸张论述，现行整理者判断继续保留；影片设定与名人引语未作外部事实核验。；P19约13:22历史时码失配仍未用新raw行号伪装成精确原声定位。

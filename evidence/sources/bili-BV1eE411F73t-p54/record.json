@@ -708,5 +708,51 @@
     "overview_backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/before-charlie-28-overview.md",
     "overview_old_sha256": "0c4b9d2c269d17596f587102c4c5901927fe9c4d69294f7f697aaf1365225a22"
   },
-  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-28/review.md"
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-28/review.md",
+  "incremental_reviews": [
+    {
+      "review_id": "course-note-reconcile-20261003-next-p54",
+      "date": "2026-10-03",
+      "operation": "review_without_note_change",
+      "source": {
+        "text_sha256": "175b1541545695679a4fa7052faa165d5c042ece669869bd6f20247dda4532e4",
+        "local_text_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第28课-编剧课科目三/P54-二十八课-编剧课科目三28-87b3f656/large-v3-5ef88b2b6b/P54-二十八课-编剧课科目三28.raw.txt",
+        "scope": [
+          [
+            1,
+            2445
+          ]
+        ],
+        "kind": "large-v3 raw ASR text"
+      },
+      "note": {
+        "path": "知识库/学习区/课程/查理老师的编剧课/28 - 第二十八课 编剧课科目三（P54）.md",
+        "sha256": "5a80432fd0422e6ad2dfa59617aa61bc6784eff2797fcd7ca68aef8ee5e47461"
+      },
+      "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/28/coverage-v1.json",
+      "review": {
+        "scope": "P54新raw全文1–2445行，分1–800、801–1600、1601–2445读取；随后完整读取正式正文1–192行。未本轮回听原音、看新增画面或连续审看。",
+        "summary": "40项源序语义单元与正式稿对应，无实质遗漏需新增或改写；两部影片过程、三组现场候选、结构刚性要求和不是鬼故事的限制均保留。正式稿字节不变。",
+        "method": "同一代理先完整读新raw，后完整读当前正式正文；源序清单、反向主张核对和旧稿保全比较。结构/登记结果与语义判断分别记录。",
+        "unverified": [
+          "原声未听审，本轮未新看帧/原字幕或连续声画；历史185原帧范围只作为既有审阅记录保存。",
+          "两片细节、镜头和心理/寿命/择偶判断按课堂讲述，未独立核验原片或外部研究。",
+          "新ASR中点/终点、菊次郎姓名、心/蜥及金棕榈等漂移不能作为推翻旧图文依据；本轮只据上下文识别其对应，不认证原音字词。"
+        ]
+      },
+      "checks": [
+        {
+          "name": "new-source-coverage",
+          "returncode": 0
+        },
+        {
+          "name": "validate-note",
+          "returncode": 0
+        }
+      ],
+      "backup_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/保护备份/28",
+      "note_changed": false,
+      "final_report_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/28/review.md"
+    }
+  ]
 }

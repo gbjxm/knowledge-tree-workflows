@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/中国传媒大学《视听语言》/08 - 第七章 拍摄角度与景别（P26-P32）.md",
-    "sha256": "41424109196fc1868c0518a3837c22a27970e218a00ab7e6c64d4745b13567a6"
+    "sha256": "a37e449c5b4e7debd6e95b574a23b1a5cc39c6dad5815de5c3d4e41398aa7772"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "f744586e93a19605f291870a9da7a22c024f71c95cd9208bccc13ecae24554c3",
-    "note_sha256": "41424109196fc1868c0518a3837c22a27970e218a00ab7e6c64d4745b13567a6",
+    "note_sha256": "a37e449c5b4e7debd6e95b574a23b1a5cc39c6dad5815de5c3d4e41398aa7772",
     "scope": [
       [
         6,
@@ -334,6 +334,230 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第08课-第七章 拍摄角度与景别/P27-7.4影像的角度选择——大全景、全景和中景-f640cd3f/large-v3-5ef88b2b6b/P27-7.4影像的角度选择——大全景、全景和中景.raw.txt",
+        "review_source_sha256": "f7063fa191aed381116e78e40453d1619cb02e6e2e3a4032d2f07d88811c4616",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-08-root/08/P27-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            287
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；仅局部补回或修正有清楚源依据的内容，其他旧稿保全。",
+        "changes": [
+          "P27补清讲师口述孩子为保护庄稼驱赶、绳上石头与远处狒狒的前后景动作关系，连续原片与现实法律仍未核。",
+          "P28补片中旁白/同期声可读的养父奶奶关系、养家童年、忍哭怕父担忧、爸爸腿与共同生活愿望；不扩疾病、年龄、路程或精确未听台词。",
+          "M7来源边界同步纳入片中可读转写，继续保留完整动作/同期声/歌曲未核。"
+        ],
+        "recognition_disagreements_and_judgments": [
+          "实际先完整新P26—32共2001行（P32截断83—119另补读），随后全文现稿356行；最终358行，只有旧L97/L143替换与新增亲情段，其他原字节/附件/学习记录/外部校核/已确认限制保全。",
+          "影片窗口M1—12保持；新的电影/歌词/栏目套话不当真实台词，清楚讲师说明与片中可读介绍不因未听看全部撤掉。",
+          "P27/P28受影响旧primary回读30—62及78—232，P28的周游世界新识别清楚、旧L157破损，不把旧字形当独立精确台词证实。",
+          "两额外代理只读局部/全文旧源复核支持这些补充；现行法律、新闻真实性、医疗诊断均不认证。根本轮未新增听声/连续看片或实际观图，代理看过的静帧单独存交叉报告，不称新的原声审核。",
+          "景别1/4、1/2、3/4及近景面积口径、方向30/60/45坐标、信息层级、现实因果、物理速度、人物身份和导演全片风格的旧限定全部继续保留。"
+        ],
+        "note_sha256": "1fc5573a6719318074bd7b7be2f7148f5faf622de7e9e8347e18951306cdc055",
+        "prior_note_sha256": "41424109196fc1868c0518a3837c22a27970e218a00ab7e6c64d4745b13567a6",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P27-U04",
+            "item": "《人类星球》孩子驱赶狒狒，同框建立空间关系",
+            "status": "待核",
+            "reason": "M3连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P27-U08",
+            "item": "洪水救援新闻，老人转移过程",
+            "status": "待核",
+            "reason": "M4连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P27-U09",
+            "item": "老人身份/神态细节缺失的批评",
+            "status": "待核",
+            "reason": "M4连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P27-U11",
+            "item": "《失恋33天》双人交流例子",
+            "status": "待核",
+            "reason": "M5连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P27-U12",
+            "item": "同框可看说话和聆听两方，沉默/手机动作",
+            "status": "待核",
+            "reason": "M5连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P27-U13",
+            "item": "《失恋33天》接续片段",
+            "status": "待核",
+            "reason": "M6连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-08-root/08/工作报告.md",
+        "affected_primary_source_review": {
+          "old_source_ranges_read": {
+            "27": [
+              [
+                30,
+                62
+              ]
+            ],
+            "28": [
+              [
+                78,
+                232
+              ]
+            ]
+          },
+          "old_note_lines_allowed_to_replace": [
+            97,
+            143
+          ],
+          "binding_only_pages": [
+            26,
+            29,
+            30,
+            31,
+            32
+          ],
+          "findings": "旧P27-U04相关明确口述关系补回，U03/U04/U05原定位均含该段；P28-U04/05/06范围自动扩至新增片中说明和更新M7边界；原源坐标与原知识完整保全。其余P只因整篇新增两行更新原段定位与SHA，无改其知识。"
+        },
+        "primary_binding_only_for_this_page": false
+      },
+      {
+        "date": "2026-10-04",
+        "operation": "targeted_clear_source_detail_completion",
+        "scope": {
+          "new_raw_ranges_read": {
+            "27": [
+              [
+                48,
+                86
+              ]
+            ],
+            "28": [
+              [
+                132,
+                149
+              ]
+            ]
+          },
+          "old_primary_ranges_read": {
+            "27": [
+              [
+                30,
+                62
+              ]
+            ],
+            "28": [
+              [
+                148,
+                169
+              ]
+            ]
+          },
+          "note_ranges_read": [
+            [
+              89,
+              100
+            ],
+            [
+              131,
+              145
+            ]
+          ],
+          "changed_note_lines": [
+            97,
+            139
+          ],
+          "binding_only_pages": [
+            26,
+            29,
+            30,
+            31,
+            32
+          ]
+        },
+        "summary": "在根代理本轮全文对照和已采用增补之后，补回两个映射已登记但正文漏写的明晰源述；只改L97与L139，其他字节保全。",
+        "changes": [
+          "P27正文L97补回讲师“杀死一只狒狒会坐七年牢”作为驱赶背景，沿用原尾句不认证现行法律。",
+          "P28正文L139补回片中旁白：三轮车是父亲当时唯一出行工具、女孩很小会骑车；不扩病名或原声审查。"
+        ],
+        "method": "本代理实际回读新P27 L48—86/旧P27 L30—62、新P28 L132—149/旧P28 L148—169及现稿L89—100、131—145；不新增原声听审、原帧查看或连续看片。其他5P只因同篇最终正文SHA绑定。",
+        "binding_only_for_this_page": false,
+        "prior_note_sha256": "1fc5573a6719318074bd7b7be2f7148f5faf622de7e9e8347e18951306cdc055",
+        "note_sha256": "a37e449c5b4e7debd6e95b574a23b1a5cc39c6dad5815de5c3d4e41398aa7772",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-08-root/08/P27-new-raw-coverage.json",
+        "prior_full_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-08-root/08/采用结果.json",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "unverified": [
+          {
+            "id": "P27-U04",
+            "item": "《人类星球》孩子驱赶狒狒，同框建立空间关系",
+            "status": "待核",
+            "reason": "M3连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P27-U08",
+            "item": "洪水救援新闻，老人转移过程",
+            "status": "待核",
+            "reason": "M4连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P27-U09",
+            "item": "老人身份/神态细节缺失的批评",
+            "status": "待核",
+            "reason": "M4连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P27-U11",
+            "item": "《失恋33天》双人交流例子",
+            "status": "待核",
+            "reason": "M5连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P27-U12",
+            "item": "同框可看说话和聆听两方，沉默/手机动作",
+            "status": "待核",
+            "reason": "M5连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P27-U13",
+            "item": "《失恋33天》接续片段",
+            "status": "待核",
+            "reason": "M6连续声画尚未审；已见静帧和讲师说明保留，未核动作、剪切和声音。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "preservation_backup_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-08-root/收尾补充前保护备份-20261004",
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-08-root/08/工作报告.md"
+      }
     ]
   },
   "adoption": {

@@ -512,6 +512,454 @@
         "item": "01:27回指名英文Caroline与中文鬼妈妈不统一，正文不猜回指名，勇敢对照完整保留。人物获奖等仅课堂转述，未另核职业史。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第18课-作家的规则/P18-P18 作家的规则-98700af0/large-v3-ce02d88ede/P18-P18 作家的规则.raw.txt",
+        "review_source_sha256": "02c5e83f2bb73ed4a32bf9bdb0fa8d7dc028a6dc85c7d451de0df6725058f66f",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/15-19/18/P18-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            146
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "新raw全文146行，海因莱因/埃利森规则与盖曼自增“下一件”、编辑修改例外、退稿笑谈及品味反转、并行续集、创作者/第一读者、坏日砌墙、校样比较、拒绝和Joe求教均保全。未发现实质缺漏。",
+          "校样难分好坏日的前提为完成、修改润色及隔时回读，现稿没有说所有初稿同好或无需修改；十万词和三月也没有被改成硬标准。",
+          "新raw回指Coraline未独立核声，历史Caroline/鬼妈妈疑点仍保留并列待核；勇敢比较完整，正文无需追加猜名。",
+          "Joe获提名、规则来源及出版经历是课堂转述，本轮未查外部职业史；新raw中的完整语句支持记录讲师所说，不证明历史事实独立准确。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "2c8664a872626a047cf7bc40e99665a58906efca6c17888acd90cb3b69859044",
+        "prior_note_sha256": "2c8664a872626a047cf7bc40e99665a58906efca6c17888acd90cb3b69859044",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看；静图不证明连续动作、语气或声画同步。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "01:27回指名英文Caroline与中文鬼妈妈不统一，正文不猜回指名，勇敢对照完整保留。人物获奖等仅课堂转述，未另核职业史。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NEW-N22",
+            "item": "新raw回指Coraline与历史字幕Caroline/鬼妈妈疑点",
+            "reason": "本轮未听原声，不能仅新识别一次不同词形核定回指；勇敢对照完整且无需猜名。",
+            "source_lines": [
+              12,
+              17
+            ],
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/15-19/18/工作报告.md",
+        "coverage": {
+          "version": 1,
+          "source_sha256": "02c5e83f2bb73ed4a32bf9bdb0fa8d7dc028a6dc85c7d451de0df6725058f66f",
+          "note_sha256": "2c8664a872626a047cf7bc40e99665a58906efca6c17888acd90cb3b69859044",
+          "scope": [
+            [
+              1,
+              146
+            ]
+          ],
+          "items": [
+            {
+              "id": "N01",
+              "item": "Ellison文引用Heinlein出版规则，盖曼相信应用且对他有效",
+              "source": {
+                "lines": [
+                  1,
+                  3
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  51,
+                  51
+                ]
+              }
+            },
+            {
+              "id": "N02",
+              "item": "必须写和写完，放弃或完美主义不肯放手都是未完成",
+              "source": {
+                "lines": [
+                  4,
+                  8
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  53,
+                  53
+                ]
+              }
+            },
+            {
+              "id": "N03",
+              "item": "完成交给可能出版的人；网络扩大、网站出版社代理都可",
+              "source": {
+                "lines": [
+                  9,
+                  12
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  55,
+                  55
+                ]
+              }
+            },
+            {
+              "id": "N04",
+              "item": "投稿勇气与持械抢劫、野狗袭击的通常勇敢对照",
+              "source": {
+                "lines": [
+                  12,
+                  17
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  57,
+                  57
+                ]
+              }
+            },
+            {
+              "id": "N05",
+              "item": "Heinlein规则除编辑要求勿反复重开已经送出的作品",
+              "source": {
+                "lines": [
+                  17,
+                  20
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  61,
+                  61
+                ]
+              }
+            },
+            {
+              "id": "N06",
+              "item": "Ellison附条件：请求伤害故事完整性则不动并捍卫",
+              "source": {
+                "lines": [
+                  19,
+                  21
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  63,
+                  63
+                ]
+              }
+            },
+            {
+              "id": "N07",
+              "item": "退回再投而不心碎搁置；醉迷糊买者玩笑后接好品味聪明对象，坚持非保证",
+              "source": {
+                "lines": [
+                  21,
+                  27
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  67,
+                  69
+                ]
+              }
+            },
+            {
+              "id": "N08",
+              "item": "盖曼自补规则送出第一件时并行写下一件；编辑问续集已有会增兴奋",
+              "source": {
+                "lines": [
+                  28,
+                  31
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  71,
+                  73
+                ]
+              }
+            },
+            {
+              "id": "N09",
+              "item": "不等待名利敲门，持续写完成更多可投作品，规则对本人有效",
+              "source": {
+                "lines": [
+                  31,
+                  35
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  75,
+                  75
+                ]
+              }
+            },
+            {
+              "id": "N10",
+              "item": "作者创造所有人事言语又同时是第一位读者",
+              "source": {
+                "lines": [
+                  36,
+                  42
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  79,
+                  79
+                ]
+              }
+            },
+            {
+              "id": "N11",
+              "item": "顺利像风托起只是描述已存在世界几无意志，但创造仍出自作者",
+              "source": {
+                "lines": [
+                  43,
+                  53
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  81,
+                  83
+                ]
+              }
+            },
+            {
+              "id": "N12",
+              "item": "不顺像疲惫砌长墙逐词选更适合词，长篇十万次为累积比喻",
+              "source": {
+                "lines": [
+                  54,
+                  63
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  87,
+                  89
+                ]
+              }
+            },
+            {
+              "id": "N13",
+              "item": "近文字难顾全责任，二人重复已知场景的懊恼为过程一部而非免改",
+              "source": {
+                "lines": [
+                  64,
+                  76
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  91,
+                  91
+                ]
+              }
+            },
+            {
+              "id": "N14",
+              "item": "写完编辑润色交稿约三月后校样，痛如拔牙/偏头痛与钻石神赐好日比较",
+              "source": {
+                "lines": [
+                  77,
+                  86
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  95,
+                  97
+                ]
+              }
+            },
+            {
+              "id": "N15",
+              "item": "成品无法区分都像自己而谦卑，前提完成修改时间不等于所有初稿同好",
+              "source": {
+                "lines": [
+                  87,
+                  92
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  97,
+                  99
+                ]
+              }
+            },
+            {
+              "id": "N16",
+              "item": "拒绝常有且健康，起步谦逊承认未知与七岁男孩似狂妄信心共存",
+              "source": {
+                "lines": [
+                  93,
+                  100
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  103,
+                  103
+                ]
+              }
+            },
+            {
+              "id": "N17",
+              "item": "相信点子精彩点燃世界推动实际写，尚不优秀也可拥有行动信念",
+              "source": {
+                "lines": [
+                  101,
+                  114
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  105,
+                  105
+                ]
+              }
+            },
+            {
+              "id": "N18",
+              "item": "被拒的两反应：消沉停止或决定写到不可拒，态度不保证无退稿",
+              "source": {
+                "lines": [
+                  115,
+                  122
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  107,
+                  107
+                ]
+              }
+            },
+            {
+              "id": "N19",
+              "item": "Joe初到好莱坞卖不出稿，查洛城电话簿致电Ellison求教",
+              "source": {
+                "lines": [
+                  123,
+                  135
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  111,
+                  111
+                ]
+              }
+            },
+            {
+              "id": "N20",
+              "item": "直白写得糟需更好后挂断，Joe转为进步动力，后提名按课堂转述",
+              "source": {
+                "lines": [
+                  136,
+                  141
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  113,
+                  113
+                ]
+              }
+            },
+            {
+              "id": "N21",
+              "item": "年轻即起步不专年龄，不适合我们可真为对象不匹配，继续下件",
+              "source": {
+                "lines": [
+                  141,
+                  146
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  115,
+                  115
+                ]
+              }
+            },
+            {
+              "id": "N22",
+              "item": "新raw回指Coraline与历史字幕Caroline/鬼妈妈疑点",
+              "source": {
+                "lines": [
+                  12,
+                  17
+                ]
+              },
+              "status": "待核",
+              "reason": "本轮未听原声，不能仅新识别一次不同词形核定回指；勇敢对照完整且无需猜名。"
+            }
+          ]
+        },
+        "registration_result": "open",
+        "recognition_pending_items": [
+          {
+            "id": "N22",
+            "item": "新raw回指Coraline与历史字幕Caroline/鬼妈妈疑点",
+            "source_lines": [
+              12,
+              17
+            ],
+            "reason": "本轮未听原声，不能仅新识别一次不同词形核定回指；勇敢对照完整且无需猜名。"
+          }
+        ]
+      }
     ]
   },
   "preservation": {

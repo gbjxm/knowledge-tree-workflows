@@ -32,6 +32,8 @@
 
 按原视频复核已有课程时，使用[课程来源复核流程](docs/课程来源复核流程.md)。已固定的信息取舍规则仍需结合每批实际声画证据验收；小样本文字测试不代表四门课全部通过。
 
+已完成课程的完整转录、原音视频地址和新版正式笔记入口见[课程资料索引](docs/课程资料索引.md)。
+
 ## 正式核心 Skills 与预览模块
 
 `manifest/modules.json` 是验证、安装和打包共用的模块清单。默认正式集合为以下八个核心 Skills：
@@ -64,7 +66,7 @@
 
 ## 按需备份到 GitHub
 
-私有仓库为 [gbjxm/knowledge-tree-workflows](https://github.com/gbjxm/knowledge-tree-workflows)，分支为 `main`。以后对 AI 说“备份知识树”，即执行已配置范围的备份；不定时运行，也不在收尾时自动推送。
+目标仓库为 [gbjxm/knowledge-tree-workflows](https://github.com/gbjxm/knowledge-tree-workflows)，分支为 `main`。已授权支持公开和私有仓库，执行前仍核对仓库身份、实际可见性、未归档与未禁用状态及写入权限；预览和回执记录当时的可见性，工具不更改仓库可见性或账号权限。以后对 AI 说“备份知识树”，即执行已配置范围的备份；不定时运行，也不在收尾时自动推送。
 
 ```powershell
 # 只读预览（不带参数也一样）

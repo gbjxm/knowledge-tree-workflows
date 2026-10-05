@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/查理老师的编剧课/30 - 第三十课 人类为什么需要影视剧（P56）.md",
-    "sha256": "8afb0c53937e5c191316aa42ca2882ed4721d4e0850d93f1aae2b32af7968fbb"
+    "sha256": "432c095a3c0237a25ff6f02d4245d80ea6e9a0cf6c5c8529293ba1bbccadda9f"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "859878e04a6c2d6b233f8e5a0d67c23545de703f3e0bc8339dad17b6eb3a8e42",
-    "note_sha256": "8afb0c53937e5c191316aa42ca2882ed4721d4e0850d93f1aae2b32af7968fbb",
+    "note_sha256": "432c095a3c0237a25ff6f02d4245d80ea6e9a0cf6c5c8529293ba1bbccadda9f",
     "scope": [
       [
         6,
@@ -190,7 +190,7 @@
       },
       {
         "id": "U10",
-        "item": "22:54–25:32：看每日时间分配理解注意力价值：抖音2h、淘宝/微信各1h、滴滴半小时及快递，对应张一鸣、马云、马化腾等财富类比。生育人数不够抢属调侃可压缩。艺术生命线attention和time，过去农村树下聊一天、《西游记》《渴望》多人反复看既因好也因选择少；不能以老剧传播广证明比当下所有好剧更强。",
+        "item": "22:54–25:32：看每日时间分配理解注意力价值：抖音2h、淘宝1h、微信1.5h（旧转写微信1h，2026-10-03原字幕23:15.629–23:17.030秒核改）、滴滴半小时及快递，对应张一鸣、马云、马化腾等财富类比。生育人数不够抢属调侃可压缩。艺术生命线attention和time，过去农村树下聊一天、《西游记》《渴望》多人反复看既因好也因选择少；不能以老剧传播广证明比当下所有好剧更强。",
         "source": {
           "lines": [
             615,
@@ -204,7 +204,7 @@
           ]
         },
         "status": "合并",
-        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。 本轮重新读取旧源615–701行和旧稿73行；微信时长由原视频字幕定点纠正，其余观点和定位不变。"
       },
       {
         "id": "U11",
@@ -726,5 +726,191 @@
     "overview_backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/before-charlie-30-overview.md",
     "overview_old_sha256": "bc428bcf5327c60a8bde1023064cb0de6f00ad7be2ca7346ee4596a2aa2e7238"
   },
-  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-30/review.md"
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-30/review.md",
+  "note_binding_history": [
+    {
+      "date": "2026-10-03",
+      "previous_sha256": "8afb0c53937e5c191316aa42ca2882ed4721d4e0850d93f1aae2b32af7968fbb",
+      "current_sha256": "432c095a3c0237a25ff6f02d4245d80ea6e9a0cf6c5c8529293ba1bbccadda9f",
+      "affected_old_source_review": {
+        "source_sha256": "859878e04a6c2d6b233f8e5a0d67c23545de703f3e0bc8339dad17b6eb3a8e42",
+        "source_hint": ".runtime/raw-cache/course-full-review-20260924/new-transcripts/BV1eE411F73t-p56/transcript.md",
+        "reread_source_ranges": [
+          [
+            615,
+            701
+          ]
+        ],
+        "reread_old_note_ranges": [
+          [
+            73,
+            73
+          ]
+        ],
+        "changed_note_lines": [
+          8,
+          73
+        ],
+        "affected_coverage_items": [
+          "U10"
+        ],
+        "semantic_conclusion": "旧源22:54–25:32与旧稿73行全文核对；唯一知识差异为微信假设时长，原字幕证明1.5小时。其余假设平台分配、注意力及持续时间、财富类比含义均保留。元数据只更新整理日期，无插删行导致旧定位偏移。"
+      },
+      "primary_coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/30/primary-coverage-rebound.json"
+    }
+  ],
+  "primary_source_corrections": [
+    {
+      "id": "P56-C01-wechat-hypothetical-duration",
+      "source_lines": [
+        627,
+        627
+      ],
+      "source_text_before": "旧primary ASR：你每天花一个小时在微信上",
+      "adopted_note_text": "使用微信一个半小时",
+      "basis": "原视频硬字幕定点查看，未听原声",
+      "video_sha256": "879cb4ff6009171ab38687c80054c1e1d80d63efdca842bed91500428600d0fc",
+      "time_range_seconds": [
+        1395.629,
+        1397.03
+      ],
+      "frames": [
+        {
+          "time_seconds": 1397.03,
+          "sha256": "99d8e92cd7a95800df30670beddf402b54575543be7b13d50760bda82a5604f0",
+          "local_image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/30/数字定点核图/at-1397.jpg"
+        },
+        {
+          "time_seconds": 1399.032,
+          "sha256": "4fade0e8ae201e2b9722deb967d5daccc2d8515da66b42473e23595b2dce356e",
+          "local_image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/30/数字定点核图/at-1399.jpg"
+        },
+        {
+          "time_seconds": 1395.629,
+          "sha256": "e699d6b044b76328e5c86869b3ce6318446f440ff318981134359cbf648feca4",
+          "local_image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/30/数字定点核图/at-1395.6.jpg"
+        },
+        {
+          "time_seconds": 1396.23,
+          "sha256": "25a20d47f7b0e570cb34d651eaff6fc62f653a34809f9ab869094c6e63238482",
+          "local_image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/30/数字定点核图/at-1396.2.jpg"
+        }
+      ],
+      "review_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/30/数字定点核图/核图记录.json",
+      "decision": "保留旧primary源身份、hash、hint及源行号，只纠正正式稿一处假设例的数字并在记录说明旧ASR识别错误。"
+    }
+  ],
+  "incremental_reviews": [
+    {
+      "review_id": "course-note-reconcile-20261003-next-p56",
+      "date": "2026-10-03",
+      "operation": "one_numeric_correction_with_original_subtitle",
+      "source": {
+        "text_sha256": "7e73878b8ab299526673b6ca7be5246f704649faf684e2ffcc9deda2a920d287",
+        "local_text_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第30课-人类为什么需要影视剧/P56-三十课-人类为什么需要影视剧30-10350792/large-v3-5ef88b2b6b/P56-三十课-人类为什么需要影视剧30.raw.txt",
+        "scope": [
+          [
+            1,
+            2349
+          ]
+        ],
+        "kind": "large-v3 raw ASR text"
+      },
+      "note": {
+        "path": "知识库/学习区/课程/查理老师的编剧课/30 - 第三十课 人类为什么需要影视剧（P56）.md",
+        "sha256": "432c095a3c0237a25ff6f02d4245d80ea6e9a0cf6c5c8529293ba1bbccadda9f"
+      },
+      "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/30/coverage-v1.json",
+      "review": {
+        "scope": "P56新raw全文1–2349行，分1–800、801–1600、1601–2349读取；随后完整读正式正文1–187行。再完整读受影响旧primary源615–701行及旧稿73行，定点实际看缓存1395秒帧与新提取1395.629、1396.230、1397.030、1399.032秒原字幕帧。未听原声/连续声画。",
+        "summary": "52项源序知识与正文对应，无实质观点或案例缺漏；原字幕确认微信假设时长一个半小时，纠正原稿一小时并更新整理日期，其余正文保持。新raw和旧primary两套coverage绑定最终正文。",
+        "method": "同一代理先完整读新raw，后完整读当前正式正文；源序清单、反向主张核对和旧稿保全比较。结构/登记结果与语义判断分别记录。",
+        "unverified": [
+          "未听原声/连续审看；本轮除微信数值相关5帧外未新增视觉核对，历史155帧保持历史身份。",
+          "费里尼/黑格尔/余秋雨出处、艺术心理历史和中西比较、影视市场/歌手收入/95%比例仍未外部独立核实。",
+          "海龟是讲师转述，钓鱼冠军与后续赌注为现场构思，未查看原短视频或核真实赛事；未名影片歌曲装置仍不补名。"
+        ]
+      },
+      "checks": [
+        {
+          "name": "new-source-coverage",
+          "returncode": 0
+        },
+        {
+          "name": "validate-note",
+          "returncode": 0
+        },
+        {
+          "name": "old-primary-coverage-rebound",
+          "returncode": 0
+        }
+      ],
+      "backup_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/保护备份/30",
+      "note_changed": true,
+      "final_report_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/30/review.md",
+      "affected_old_source_review": {
+        "source_sha256": "859878e04a6c2d6b233f8e5a0d67c23545de703f3e0bc8339dad17b6eb3a8e42",
+        "source_hint": ".runtime/raw-cache/course-full-review-20260924/new-transcripts/BV1eE411F73t-p56/transcript.md",
+        "reread_source_ranges": [
+          [
+            615,
+            701
+          ]
+        ],
+        "reread_old_note_ranges": [
+          [
+            73,
+            73
+          ]
+        ],
+        "changed_note_lines": [
+          8,
+          73
+        ],
+        "affected_coverage_items": [
+          "U10"
+        ],
+        "semantic_conclusion": "旧源22:54–25:32与旧稿73行全文核对；唯一知识差异为微信假设时长，原字幕证明1.5小时。其余假设平台分配、注意力及持续时间、财富类比含义均保留。元数据只更新整理日期，无插删行导致旧定位偏移。"
+      },
+      "visual_evidence": {
+        "id": "P56-C01-wechat-hypothetical-duration",
+        "source_lines": [
+          627,
+          627
+        ],
+        "source_text_before": "旧primary ASR：你每天花一个小时在微信上",
+        "adopted_note_text": "使用微信一个半小时",
+        "basis": "原视频硬字幕定点查看，未听原声",
+        "video_sha256": "879cb4ff6009171ab38687c80054c1e1d80d63efdca842bed91500428600d0fc",
+        "time_range_seconds": [
+          1395.629,
+          1397.03
+        ],
+        "frames": [
+          {
+            "time_seconds": 1397.03,
+            "sha256": "99d8e92cd7a95800df30670beddf402b54575543be7b13d50760bda82a5604f0",
+            "local_image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/30/数字定点核图/at-1397.jpg"
+          },
+          {
+            "time_seconds": 1399.032,
+            "sha256": "4fade0e8ae201e2b9722deb967d5daccc2d8515da66b42473e23595b2dce356e",
+            "local_image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/30/数字定点核图/at-1399.jpg"
+          },
+          {
+            "time_seconds": 1395.629,
+            "sha256": "e699d6b044b76328e5c86869b3ce6318446f440ff318981134359cbf648feca4",
+            "local_image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/30/数字定点核图/at-1395.6.jpg"
+          },
+          {
+            "time_seconds": 1396.23,
+            "sha256": "25a20d47f7b0e570cb34d651eaff6fc62f653a34809f9ab869094c6e63238482",
+            "local_image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/30/数字定点核图/at-1396.2.jpg"
+          }
+        ],
+        "review_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/30/数字定点核图/核图记录.json",
+        "decision": "保留旧primary源身份、hash、hint及源行号，只纠正正式稿一处假设例的数字并在记录说明旧ASR识别错误。"
+      }
+    }
+  ]
 }

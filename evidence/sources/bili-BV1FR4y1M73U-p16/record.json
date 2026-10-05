@@ -458,6 +458,499 @@
         "item": "开头biggest…give in to despair措辞衔接未定，正文保留后续明确反对无能为力及方法。编辑姓氏字幕Strong/ASR Strand不一致，仅保留Jonathan。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第16课-写作困境/P16-P16 写作困境-40a6f217/large-v3-ce02d88ede/P16-P16 写作困境.raw.txt",
+        "review_source_sha256": "2f5955da4a0f2d64db2e84a6f227bd9c468d01237e2a618801bb859d0a596fc7",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/15-19/16/P16-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            157
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "新raw全文157行，两步离开重读、早走错岔路、回避痛苦、Anansi类型难题、派对视角/不倾听/素材复用/期限以及雾中长篇均已具体保留。未发现实质缺漏。",
+          "开头biggest…give in to despair仍有衔接疑点；后文明确否认不能行动，现稿已据上下文表达并保留疑点，不倒置建议。",
+          "Jonathan姓氏及Anansi/Wodehouse/Wooster新raw破损已列待核；本轮没有回听，不以重复ASR拼写证明正确，不改历史正文专名。",
+          "“得到需要”的结局保留可怕人物和可怕结果，不泛化成幸福疗愈；期限是这次经验的可能解释，初稿私密及雾行属于讲师方法，不强制项目统一。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "5620ac197e613c6c40e0de0df29eb0c5f3ce0c1a4be0b2bbb5b2d6b9350f500d",
+        "prior_note_sha256": "5620ac197e613c6c40e0de0df29eb0c5f3ce0c1a4be0b2bbb5b2d6b9350f500d",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看；静帧不证明语气手势与声画同步。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "开头biggest…give in to despair措辞衔接未定，正文保留后续明确反对无能为力及方法。编辑姓氏字幕Strong/ASR Strand不一致，仅保留Jonathan。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NEW-N21",
+            "item": "开头biggest thing…give in to despair衔接未定",
+            "reason": "新raw未解决旧疑点，原声未回听；正文依L10明确反对无能为力而非鼓励绝望。",
+            "source_lines": [
+              1,
+              2
+            ],
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NEW-N22",
+            "item": "新raw把Anansi/Wodehouse/Wooster作Nancy/Woodhouse/Worcester等",
+            "reason": "本轮未回听；旧稿保留先前字幕核对与明确作品语境，不让新识别专名覆盖。",
+            "source_lines": [
+              39,
+              46
+            ],
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NEW-N23",
+            "item": "编辑Jonathan的姓新raw仍作Strand，与历史字幕拼写分歧",
+            "reason": "不以新ASR重复同拼写证明姓氏正确；正文继续只写Jonathan。",
+            "source_lines": [
+              82,
+              86
+            ],
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/15-19/16/工作报告.md",
+        "coverage": {
+          "version": 1,
+          "source_sha256": "2f5955da4a0f2d64db2e84a6f227bd9c468d01237e2a618801bb859d0a596fc7",
+          "note_sha256": "5620ac197e613c6c40e0de0df29eb0c5f3ce0c1a4be0b2bbb5b2d6b9350f500d",
+          "scope": [
+            [
+              1,
+              157
+            ]
+          ],
+          "items": [
+            {
+              "id": "N01",
+              "item": "写作障碍看似不可改变并以香料架逃避，随即明确否认无能为力",
+              "source": {
+                "lines": [
+                  1,
+                  10
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  53,
+                  55
+                ]
+              }
+            },
+            {
+              "id": "N02",
+              "item": "长邮件反证完全不能写，真实卡点是某件作品死在纸上",
+              "source": {
+                "lines": [
+                  11,
+                  16
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  55,
+                  55
+                ]
+              }
+            },
+            {
+              "id": "N03",
+              "item": "先离开愤怒凝视，砍柴走跑游泳园艺孩子小猫喂鸡等转去别事",
+              "source": {
+                "lines": [
+                  17,
+                  21
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  59,
+                  59
+                ]
+              }
+            },
+            {
+              "id": "N04",
+              "item": "回来假装从未读过从头读，故障常在车出路面之前拐错街镇",
+              "source": {
+                "lines": [
+                  22,
+                  28
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  61,
+                  61
+                ]
+              }
+            },
+            {
+              "id": "N05",
+              "item": "男子线不如女子有趣可弃半章回退，初稿及曾卡住无需给人看",
+              "source": {
+                "lines": [
+                  29,
+                  33
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  63,
+                  63
+                ]
+              }
+            },
+            {
+              "id": "N06",
+              "item": "有时浅需更好更深更诚实，追问回避黑暗或痛苦场景的原因及写下后的结果",
+              "source": {
+                "lines": [
+                  33,
+                  39
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  67,
+                  69
+                ]
+              }
+            },
+            {
+              "id": "N07",
+              "item": "Anansi喜剧中女人去见男人将被最有效率地杀死，Jeeves烟灰缸打Wooster假想反例",
+              "source": {
+                "lines": [
+                  39,
+                  46
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  73,
+                  75
+                ]
+              }
+            },
+            {
+              "id": "N08",
+              "item": "停书数月思考余下情节去向与喜/悲/恐怖边界，并非休息自然恢复",
+              "source": {
+                "lines": [
+                  46,
+                  51
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  77,
+                  77
+                ]
+              }
+            },
+            {
+              "id": "N09",
+              "item": "结尾给每人所需包括可怕人物，可怕需要及遭遇不等于幸福成长",
+              "source": {
+                "lines": [
+                  52,
+                  57
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  79,
+                  79
+                ]
+              }
+            },
+            {
+              "id": "N10",
+              "item": "愿追随这条路，重规划与调校、真正消化后才继续完成",
+              "source": {
+                "lines": [
+                  58,
+                  61
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  81,
+                  81
+                ]
+              }
+            },
+            {
+              "id": "N11",
+              "item": "派对短篇约稿青少年科幻选集，外星旅游女孩思维与日记，获奖电影按讲师回忆",
+              "source": {
+                "lines": [
+                  62,
+                  74
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  85,
+                  85
+                ]
+              }
+            },
+            {
+              "id": "N12",
+              "item": "多开头和碎片声音世界虽有趣却非故事，电话道歉不能准时交",
+              "source": {
+                "lines": [
+                  75,
+                  83
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  87,
+                  87
+                ]
+              }
+            },
+            {
+              "id": "N13",
+              "item": "尚有24小时及Kelly Link约12小时完稿的比较，重新拿起碎片本",
+              "source": {
+                "lines": [
+                  84,
+                  87
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  89,
+                  89
+                ]
+              }
+            },
+            {
+              "id": "N14",
+              "item": "问题为视角，换基本像16岁作者的人类男孩；平常标题难本次先有名",
+              "source": {
+                "lines": [
+                  88,
+                  100
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  93,
+                  93
+                ]
+              }
+            },
+            {
+              "id": "N15",
+              "item": "15近16岁经验：昔日同族童年结痂，如今化妆衣着秘密和成人距离使女生如外星人",
+              "source": {
+                "lines": [
+                  101,
+                  110
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  95,
+                  95
+                ]
+              }
+            },
+            {
+              "id": "N16",
+              "item": "派对里男孩不会交谈也不倾听，外星女孩说真实经历他全误解的双层叙事",
+              "source": {
+                "lines": [
+                  111,
+                  123
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  97,
+                  99
+                ]
+              }
+            },
+            {
+              "id": "N17",
+              "item": "一天花园空本写成，旧日记碎片交给女孩说，材料未真废弃",
+              "source": {
+                "lines": [
+                  124,
+                  129
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  103,
+                  103
+                ]
+              }
+            },
+            {
+              "id": "N18",
+              "item": "仓促却结果更好，期限或促集中取舍，绞刑比喻为本次解释非普遍赶稿方法",
+              "source": {
+                "lines": [
+                  130,
+                  142
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  105,
+                  105
+                ]
+              }
+            },
+            {
+              "id": "N19",
+              "item": "长篇未知多于已知，写不写大纲都需点到点穿行未知",
+              "source": {
+                "lines": [
+                  143,
+                  147
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  109,
+                  109
+                ]
+              }
+            },
+            {
+              "id": "N20",
+              "item": "Doctorow一灯雾行纽约到洛杉矶、偶晴再雾，持续向前是讲师个人写法",
+              "source": {
+                "lines": [
+                  148,
+                  157
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  111,
+                  113
+                ]
+              }
+            },
+            {
+              "id": "N21",
+              "item": "开头biggest thing…give in to despair衔接未定",
+              "source": {
+                "lines": [
+                  1,
+                  2
+                ]
+              },
+              "status": "待核",
+              "reason": "新raw未解决旧疑点，原声未回听；正文依L10明确反对无能为力而非鼓励绝望。"
+            },
+            {
+              "id": "N22",
+              "item": "新raw把Anansi/Wodehouse/Wooster作Nancy/Woodhouse/Worcester等",
+              "source": {
+                "lines": [
+                  39,
+                  46
+                ]
+              },
+              "status": "待核",
+              "reason": "本轮未回听；旧稿保留先前字幕核对与明确作品语境，不让新识别专名覆盖。"
+            },
+            {
+              "id": "N23",
+              "item": "编辑Jonathan的姓新raw仍作Strand，与历史字幕拼写分歧",
+              "source": {
+                "lines": [
+                  82,
+                  86
+                ]
+              },
+              "status": "待核",
+              "reason": "不以新ASR重复同拼写证明姓氏正确；正文继续只写Jonathan。"
+            }
+          ]
+        },
+        "registration_result": "open",
+        "recognition_pending_items": [
+          {
+            "id": "N21",
+            "item": "开头biggest thing…give in to despair衔接未定",
+            "source_lines": [
+              1,
+              2
+            ],
+            "reason": "新raw未解决旧疑点，原声未回听；正文依L10明确反对无能为力而非鼓励绝望。"
+          },
+          {
+            "id": "N22",
+            "item": "新raw把Anansi/Wodehouse/Wooster作Nancy/Woodhouse/Worcester等",
+            "source_lines": [
+              39,
+              46
+            ],
+            "reason": "本轮未回听；旧稿保留先前字幕核对与明确作品语境，不让新识别专名覆盖。"
+          },
+          {
+            "id": "N23",
+            "item": "编辑Jonathan的姓新raw仍作Strand，与历史字幕拼写分歧",
+            "source_lines": [
+              82,
+              86
+            ],
+            "reason": "不以新ASR重复同拼写证明姓氏正确；正文继续只写Jonathan。"
+          }
+        ]
+      }
     ]
   },
   "preservation": {

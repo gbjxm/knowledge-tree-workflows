@@ -255,7 +255,7 @@
         "note": {
           "lines": [
             110,
-            115
+            110
           ],
           "quote": "**信息有前后关系。**"
         },
@@ -273,7 +273,7 @@
         "note": {
           "lines": [
             111,
-            115
+            111
           ],
           "quote": "**细节还承载人物判断。**"
         },
@@ -291,7 +291,7 @@
         "note": {
           "lines": [
             112,
-            115
+            112
           ],
           "quote": "**本场为后来准备条件。**"
         },
@@ -309,7 +309,7 @@
         "note": {
           "lines": [
             114,
-            115
+            114
           ],
           "quote": "**进出简洁。**"
         },
@@ -369,5 +369,245 @@
   "final_binding_update": {
     "date": "2026-09-30",
     "scope": "来源范围、正文定位及待核状态未变；移除工作缓存绝对提示，匹配最终笔记字节。"
-  }
+  },
+  "incremental_reviews": [
+    {
+      "date": "2026-10-03",
+      "kind": "new_asr_to_existing_lesson_note",
+      "asr_source": {
+        "local_text_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第14课-场景与对白/P32-十四课-场景与对白14.1-713401be/large-v3-5ef88b2b6b/P32-十四课-场景与对白14.1.raw.txt",
+        "text_sha256": "f545165b75ba753c972f8eb9f05817ca0e8ea52f94c631e7509cc6fb761b63e8"
+      },
+      "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/09-15/14/P32-new-raw-coverage.json",
+      "scope": {
+        "page": 32,
+        "raw_lines": [
+          1,
+          1202
+        ],
+        "lesson": 14
+      },
+      "note_sha256": "0fd72879ef6f0d5f7e711ac522ffb78bc564c6e96ed9424914176ed54355ac6d",
+      "method": "完整读新raw→按源序列语义清单→完整读现行课级正文→双向核对；保留历史图文已核内容；正文→新raw及旧稿保全复核",
+      "summary": "P32—P33新ASR全文与现行第十四课逐项对照完成；讲师授课知识和独特案例已保存，正文不强凑修改。两段影片放映的失真ASR及后续报价数字明确保留待核，不能称本课已完成原声/连续声画核验。",
+      "changes": [],
+      "unverified": [
+        "P32 raw818—871（约27:35—30:22）《风骚律师》原片放映为中英混杂失真/机械重复，完整对白、表演及切点仍待核。",
+        "P32 raw1021—1022新ASR识为‘想挣五百块钱/给你们一千’，仅登记为新候选，不替换现行35:22后一报价数额未核清的限制；需原字幕或原声定点证据。",
+        "P33 raw1311—1357（约44:54—47:28）《泰坦尼克号》晚餐放映有严重翻译/识别错词，未用其补造官方对白。",
+        "未回听原音、未连续审看；‘人性/人气’等错词不覆盖历史原字幕已经核对的正文归属。"
+      ],
+      "heard_audio": false,
+      "continuous_av_reviewed": false,
+      "raw_modified": false,
+      "primary_source_preserved": true,
+      "coverage_check_returncode": 1,
+      "old_note_mapping_rechecked": [
+        {
+          "id": "P32-01",
+          "old_note_lines": [
+            58,
+            58
+          ],
+          "current_note_lines": [
+            58,
+            58
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-02",
+          "old_note_lines": [
+            62,
+            62
+          ],
+          "current_note_lines": [
+            62,
+            62
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-03",
+          "old_note_lines": [
+            64,
+            64
+          ],
+          "current_note_lines": [
+            64,
+            64
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-04",
+          "old_note_lines": [
+            70,
+            70
+          ],
+          "current_note_lines": [
+            70,
+            70
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-05",
+          "old_note_lines": [
+            74,
+            74
+          ],
+          "current_note_lines": [
+            74,
+            74
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-06",
+          "old_note_lines": [
+            76,
+            76
+          ],
+          "current_note_lines": [
+            76,
+            76
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-07",
+          "old_note_lines": [
+            88,
+            88
+          ],
+          "current_note_lines": [
+            88,
+            88
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-08",
+          "old_note_lines": [
+            96,
+            96
+          ],
+          "current_note_lines": [
+            96,
+            96
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-09",
+          "old_note_lines": [
+            98,
+            98
+          ],
+          "current_note_lines": [
+            98,
+            98
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-10",
+          "old_note_lines": [
+            104,
+            104
+          ],
+          "current_note_lines": [
+            104,
+            104
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-11",
+          "old_note_lines": [
+            104,
+            104
+          ],
+          "current_note_lines": [
+            104,
+            104
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-12",
+          "old_note_lines": [
+            106,
+            106
+          ],
+          "current_note_lines": [
+            106,
+            106
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-13",
+          "old_note_lines": [
+            110,
+            115
+          ],
+          "current_note_lines": [
+            110,
+            110
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-14",
+          "old_note_lines": [
+            111,
+            115
+          ],
+          "current_note_lines": [
+            111,
+            111
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-15",
+          "old_note_lines": [
+            112,
+            115
+          ],
+          "current_note_lines": [
+            112,
+            112
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-16",
+          "old_note_lines": [
+            114,
+            115
+          ],
+          "current_note_lines": [
+            114,
+            114
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "P32-17",
+          "old_note_lines": [
+            64,
+            64
+          ],
+          "current_note_lines": [
+            64,
+            64
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        }
+      ]
+    }
+  ]
 }

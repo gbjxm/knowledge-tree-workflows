@@ -332,6 +332,50 @@
         "item": "灰马等背景注释明确属于画内译制补注，未作外部准确性核查。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第06课-案例分析之《坟场之书》/P06-P6 案例分析之《坟场之书》-5662988f/large-v3-ce02d88ede/P06-P6 案例分析之《坟场之书》.raw.txt",
+        "review_source_sha256": "dd32aae1248035b6505f765026ce5c4238a6e9cb4945fe93297443013f1ead66",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/05-09/06/P6-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            101
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "完整新raw L1–101与中文L1–114已分别阅读；持刀家宅、婴儿无意离家、欧文斯分歧、亡母、Silas、死亡与食物监护均保全。",
+          "婴儿want是出去而非有意识逃亡，need是客观照料不要求自知；不同保护者并非一开始共识。",
+          "Silas抹记忆在文字里仍是seems（似乎），未因新ASR改为确定机制；收留同时保留态度与实质照料承诺。",
+          "灰马等画内背景补注维持译制者归属和未外核边界，本轮不提升为口述内容或声画核验。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "cd14aa75d40dbe6dc9186b6e579b695f2560046ebf97153d9f1ab3fdfb86101d",
+        "prior_note_sha256": "cd14aa75d40dbe6dc9186b6e579b695f2560046ebf97153d9f1ab3fdfb86101d",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声或连续审看；静帧不证明朗读表演、连续动作或声画节奏。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "灰马等背景注释明确属于画内译制补注，未作外部准确性核查。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/05-09/06/工作报告.md"
+      }
     ]
   },
   "preservation": {

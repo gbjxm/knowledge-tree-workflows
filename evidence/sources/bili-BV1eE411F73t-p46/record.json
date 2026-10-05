@@ -422,6 +422,29 @@
         "example": "加勒比海盗",
         "pending": "continuous fighting, precise shot/coin/curse order and synchronization"
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "review_id": "20261003-47files-lesson22-p46",
+        "new_source_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第22课-高潮上不去/P46-二十二课-G潮上不去？（上）22.1-3fdd9469/large-v3-5ef88b2b6b/P46-二十二课-G潮上不去？（上）22.1.raw.txt",
+        "new_source_sha256": "74005446493cba4046c59bac414734c930f495c404433a520d214eee3051c22d",
+        "new_coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/16-22/22/P46-新raw-coverage-v1.json",
+        "note_sha256": "f96030b2837dd703658518e19f9d041341b08b9a1d0715b7ffc4f6c3e4c7d82d",
+        "scope": "新raw全文L1—L1208；逐单元源→正文及正文→源文字对照；保留历史图文校词",
+        "method": "本代理完整阅读新raw后完整阅读正式课文，按来源顺序建语义清单并双向对照；未回听原音、未连续审看，未重新识别。",
+        "summary": "完整对照P46/P47共2033行新raw与第22课。高潮具体解决、先后两路线、七检查方向的理由/反例/条件、四片AB各不同合流、家人第三视角原课作业已实质保全。无可靠新漏项，正文不改，P47长空白与套话等媒体问题保留待核。",
+        "adopted_changes": [],
+        "old_coverage_review": "正文未改，旧primary source/coverage输入及定位原样保留",
+        "unverified": [
+          "P46定制伴郎34:30—39:28及P47肖申克00:18—11:46、阳光小美女16:44—29:30、加勒比34:24—42:50均未听原声或连续审看；长无文字不等于静音，对白完整性、动作语气节奏和先后切点未核。",
+          "P47 raw L466母亲烟瘾与历史字幕Y瘾仍冲突，不能单用新ASR定字；肖申克服刑19/27年新漂移不替代旧图文19/20年犹疑，也不当作准确影片年表。",
+          "P47电影段L117/L454/L639等固定宣传套话和字幕栏目文本不采用；旁白机器600年/不到20年等只保留课堂已有对照，不证明已听核。",
+          "P46开课班级活动与教务计划压缩，原课确实布置的家人作业全部保留；七项没有变成普遍固定定律、AB多1.5分仍按玩笑归属。"
+        ],
+        "coverage_check": "open",
+        "supplemental_sources": []
+      }
     ]
   },
   "preservation": {

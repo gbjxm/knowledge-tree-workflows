@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/查理老师的编剧课/23 - 第二十三课 怎么写喜剧（P48-P49）.md",
-    "sha256": "d587b122df0e0c23f877ba15f3446a47eb5ff7af8ca70641a3aec52baafb71e7"
+    "sha256": "52bd1427c8225ccbc7e153031b3da87df351f24738380717faba6c9402a1636b"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "9582d745bb47f385f7a73a1209308ee23568163db630170873b679bb0b5c749f",
-    "note_sha256": "d587b122df0e0c23f877ba15f3446a47eb5ff7af8ca70641a3aec52baafb71e7",
+    "note_sha256": "52bd1427c8225ccbc7e153031b3da87df351f24738380717faba6c9402a1636b",
     "scope": [
       [
         6,
@@ -182,7 +182,7 @@
         "note": {
           "lines": [
             168,
-            168
+            170
           ]
         },
         "status": "合并",
@@ -308,7 +308,7 @@
         "note": {
           "lines": [
             204,
-            204
+            208
           ]
         },
         "status": "合并",
@@ -347,13 +347,81 @@
       },
       {
         "id": "M2",
-        "item": "《老友记》语言幽默角色名、教室读物具体名词未定点核清，保留清楚的角色功能、动作及对照，不强补专名；未命名影片也不自行配片名。",
+        "item": "《老友记》语言幽默角色名本轮已由定点原字幕确认Chandler；教室读物具体名词仍未核清，保留明确动作及对照；未命名影片不自行配片名。",
         "blocks_knowledge_body": false
       },
       {
         "id": "M3",
         "item": "影片情节、名人观点和行业经验按课堂复述保存，未独立外查；未把地域/性别/族群的角色认知写为现实事实，未自加课程作业和答案。",
         "blocks_knowledge_body": false
+      }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "scope": "仅因同篇P48局部修订更新整篇笔记绑定；P49知识段字节逐行未变，未审本轮P49新ASR。",
+        "operation": "shared_note_binding_only",
+        "new_asr_reviewed": false,
+        "audio_listened": false,
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/23-P48/核对与采用.md",
+        "prior_note_sha256": "d587b122df0e0c23f877ba15f3446a47eb5ff7af8ca70641a3aec52baafb71e7",
+        "final_note_sha256": "3ec26f20b60ee3231cc2bb7f7d81a7173224581f3525afc979c14643237990bf"
+      },
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第23课-怎么写喜剧/P49-二十三课-怎么写喜剧？（下）23.2-69c87c0e/large-v3-5ef88b2b6b/P49-二十三课-怎么写喜剧？（下）23.2.raw.txt",
+        "review_source_sha256": "58a163683455f37945caeb329e28bad3b7075bdaa5911a5232ca46e24cd4a692",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/23/P49-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            1491
+          ]
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/23/工作报告.md",
+        "semantic_review_completed": true,
+        "method": "本次先全文读新raw1491行，再全文读现行正式214行，按源序列逐观点/理由/独特案例/方法/条件进行双向语义与旧稿保全核对；回读受影响旧主源L869–1000及L1379–1484。",
+        "changes": [
+          "原字幕确认钱德勒（Chandler），保留两类台词与人设对照的课堂语境",
+          "无厘头案例具体为四位老太太，补清挖鼻孔的人却被称为全城第一美女；不猜未明确片名或演员身份",
+          "来源边界更新为P48/P49均已完成本轮文字对照，媒体待核继续保留"
+        ],
+        "frame_observations_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/23/核图/frames.json",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "原声未听审、未连续审看；184个不同静态原帧只证明所记录的板书与字幕，不证明连续动作、节奏、声画同步或所有未采样瞬间。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "《老友记》语言幽默角色名本轮已由定点原字幕确认Chandler；教室读物具体名词仍未核清，保留明确动作及对照；未命名影片不自行配片名。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M3",
+            "item": "影片情节、名人观点和行业经验按课堂复述保存，未独立外查；未把地域/性别/族群的角色认知写为现实事实，未自加课程作业和答案。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "note_sha256": "52bd1427c8225ccbc7e153031b3da87df351f24738380717faba6c9402a1636b",
+        "prior_note_sha256": "3ec26f20b60ee3231cc2bb7f7d81a7173224581f3525afc979c14643237990bf",
+        "affected_primary_source_review": {
+          "read_lines": [
+            [
+              869,
+              1000
+            ],
+            [
+              1379,
+              1484
+            ]
+          ],
+          "changes": "U9最终笔记定位覆盖两条台词路径，U16覆盖定义、两个例子及表演限制；原源坐标和身份未改。"
+        }
       }
     ]
   },

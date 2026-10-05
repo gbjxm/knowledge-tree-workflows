@@ -389,6 +389,47 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第03课-第三章 摄影机结构、快门与机型/P10-3.2玩转时间（快门的造型作用）-0ef72a14/large-v3-5ef88b2b6b/P10-3.2玩转时间（快门的造型作用）.raw.txt",
+        "review_source_sha256": "693bf740f5bf16439f3c429334fb515021f43440272a2d318b11dae354232736",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-01-06/03/P10-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            446
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "P9机身五部件、皮尺/联动/主动测距、马达半按、眼控与四种取景、皮腔均已有详细正文；P10声音短片与后续唐师曾故事分别登记，未用缺声画作为撤除明确故事的理由。",
+          "P10水花/水膜/海浪、布列松三例、网球/蜗牛/前手翻、三组体育对照与印象派、老师练习倡议均保留。新识别唐时增、卡迪埃、卡努杜等不覆盖已有已核文字。",
+          "P11旁轴专业标签玩笑、120成本画幅及输出、ALPA模块、双反各价差与大座机口述都已有；P12成像/保存、ND/XLR/屏幕/变焦杆、镜头群与较大感光面、电影机附件系统均有去处。",
+          "器材数值及史实外部核验属于旧成果，本轮未重新核查；α7S代际、Yashica44规格和主动AF边界继续保留。无改稿、无原声或连续声画新增审核。"
+        ],
+        "note_sha256": "43af824c6009806012047c9bafdadeb4a3942266ee0ed42ebe317541a9bdaf0e",
+        "prior_note_sha256": "43af824c6009806012047c9bafdadeb4a3942266ee0ed42ebe317541a9bdaf0e",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P10-U04",
+            "item": "林间快门声音短片",
+            "status": "待核",
+            "reason": "04:21–05:11原声、动作节奏与声画配合未实审；原静帧不能关闭此项。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-01-06/03/工作报告.md"
+      }
     ]
   },
   "adoption": {

@@ -323,6 +323,89 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第14课-第十章 影视时间组织/P57-10.6我们的时间（下）-9041d0df/large-v3-5ef88b2b6b/P57-10.6我们的时间（下）.raw.txt",
+        "review_source_sha256": "639347ba2308e32b8702c5d0598da8d3aae1a670ce858b2877191a9467bd9975",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/14/P57-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            221
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "新P55—57共750行与272行现稿全文双向核对，三特点/三时间/三长度关系及六处理、每个原独特电影例都有具体段落。",
+          "五秒记感受、书包第四次、泰坦尼克闭眼睁眼、抬手关键细节、慢常速组合、回返重解预感、训练后获用途、声音/物/环境回忆触发均已保存。",
+          "新ASR“成功/现代实在/量于/科普”等不替旧图核重构、晾衣绳及柯布；纳努克山洞与最早、梦层六层/20倍与12倍语境继续留疑。",
+          "原采访/剧本有限校核保历史，不新认证电影设定或真实睡眠科学。未发现正文实质缺漏，正式字节保持。"
+        ],
+        "note_sha256": "69a7d4f2090af4289f8782bcb9a6de1d773722e59bbec877b0de2f88d3728bb2",
+        "prior_note_sha256": "69a7d4f2090af4289f8782bcb9a6de1d773722e59bbec877b0de2f88d3728bb2",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P57-U02",
+            "item": "美国往事鸦片馆电话铃、人物反应及油灯到街灯，引导主观回忆；专名、铃声及声画关系未审。",
+            "status": "待核",
+            "reason": "M10连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P57-U03",
+            "item": "细节引出闪现，罗拉快跑相遇人物生活片段；过去或未来、形式与节奏需核。",
+            "status": "待核",
+            "reason": "M11连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P57-U05",
+            "item": "天使爱美丽自我哀悼幻想、电视黑白与床上彩色，黛安娜比较是讲者解释。",
+            "status": "待核",
+            "reason": "M12连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P57-U08",
+            "item": "现实五分钟梦中一小时、20倍、梦层与老者十年等原说法互有疑点，须分开核，不当科学事实。",
+            "status": "待核",
+            "reason": "M13连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P57-U09",
+            "item": "现实及四层梦、迷失域六层说法，层级实际设定需核。",
+            "status": "待核",
+            "reason": "M13连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P57-U10",
+            "item": "电影图景与绵延时间等原词待字幕，时间比和空间关系产生勾连。",
+            "status": "待核",
+            "reason": "M13连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P57-U12",
+            "item": "梦层表：飞机、车、酒店、雪山、柯布家和迷失域；需读取课件图表并检查层级解释。",
+            "status": "待核",
+            "reason": "M13连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/14/工作报告.md"
+      }
     ]
   },
   "adoption": {

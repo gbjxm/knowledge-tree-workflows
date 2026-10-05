@@ -8,3 +8,11 @@
 - [本任务详细复核](../../../.runtime/raw-cache/course-charlie-continuation-20260930/batches/charlie-26/review.md)。
 
 图文验收不代表全课原声、连续动作、精确切点、节奏及声画同步完成。
+
+## 2026-10-03 新本地 ASR 增量文字复核
+
+- 实际完整读取 P52 本轮 raw L1–L1991，再与正式课文全部 200 行双向对照。
+- 现行正文无需内容改动；新 ASR 不覆盖此前原图文已确认的具体内容。
+- 原始 source 身份、SHA、local_text_hint 和旧 coverage.source 行号全部保留；新输入另见 record.json 的 review.incremental_reviews。
+- [68 项新 raw → 最终正文语义登记与工作报告](<../../../.runtime/raw-cache/course-note-reconcile-20261003-next/24-26/26/工作报告.md>)。
+- 本轮未听审原声、未连续审看影片；历史独立声画待核范围继续保留。

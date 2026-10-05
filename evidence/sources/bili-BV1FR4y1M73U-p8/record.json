@@ -368,6 +368,51 @@
         "item": "Annie/Anne Riley、Rackam/Rackham原文与字幕拼写不同；约07:53时代短语仍不清，不据此加年代。故事生平及孕身避死按课堂叙述，未外核史实。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第08课-短篇小说案例分析之《三月童话》/P08-P8 短篇小说案例分析之《三月童话》-f5d3104c/large-v3-ce02d88ede/P08-P8 短篇小说案例分析之《三月童话》.raw.txt",
+        "review_source_sha256": "b2e7bd239e5e0ff50fd4d36cee76b32f911bac2858d934fae2a21df7dc57d7a8",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/05-09/08/P8-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            163
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "完整新raw L1–163与中文L1–109已分别阅读；十二月提示、原短篇情境与传闻、母亲海上想象、两种长篇入口及主题推演均保全。",
+          "新raw L97仍为破损的Echo, in March, back for the revolution；现行正文07:53时代修饰语待核维持，不强配年代或历史含义。",
+          "新raw明确secrets，但现行正文早已由原字幕補回秘密，无需重复添加；Anne/Annie/Riley、Rackham等拼写历史差异不改中文。",
+          "来者好恶、真正威胁延后、Mary遇险与母救女都是候选，未写成已成大纲或原短篇事实；末段仍允一至三路。",
+          "原故事文本是课堂小说叙述，孕身避死、生平传闻与海上想象没有借此晋升外部史实；旧SVG及整理者扩展标记保全。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "2af6a67ba10bc1b58e0eebf74fb08e7a2033d271be9ee9927ac7637331be9f27",
+        "prior_note_sha256": "2af6a67ba10bc1b58e0eebf74fb08e7a2033d271be9ee9927ac7637331be9f27",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看；静帧不证明连续动作、语气或声画同步。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "Annie/Anne Riley、Rackam/Rackham原文与字幕拼写不同；约07:53时代短语仍不清，不据此加年代。故事生平及孕身避死按课堂叙述，未外核史实。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/05-09/08/工作报告.md"
+      }
     ]
   },
   "preservation": {

@@ -173,6 +173,47 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第04课-第四章 曝光控制/P14-4.2曝光要素-3bac37a0/large-v3-5ef88b2b6b/P14-4.2曝光要素.raw.txt",
+        "review_source_sha256": "9f870f43dd39771581203b97b02e403da4e60a360ebd82a45e9e2a45d4f4b428",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-01-06/04/P14-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            183
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "P13士兵的暗/亮腿迷彩、密度层次三项与CK鼓手/女模特/年轻创新定位的论证，逐项在正文保留。广告播放和后续讲评分别登记。",
+          "P14完整保留E=I×T、晒太阳/圆柱类比、f/2配1/30和f/2.8配1/15的计算、整档互易以及浅景深/丝绸水流两口述例。",
+          "P15挠痒、四标定、整档ISO、桥梁和花叶两组样本、低感允许条件、旧机两夜景讲评及像素取舍都已有。中文新ASR的英语片段破损，不替换更详的旧英文/原帧各场景。",
+          "原稿已把潜影/正负像、f数字不是照度、ISO不增加实际受光、具体旧机样本非品牌定律等分清。本轮不需改字，柱图小字和两片中片的历史未核仍保留。"
+        ],
+        "note_sha256": "5820c0f19c6db6f98e9ae1c16743ac99c25a24597372d6c71168960637f8931d",
+        "prior_note_sha256": "5820c0f19c6db6f98e9ae1c16743ac99c25a24597372d6c71168960637f8931d",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P14-U05",
+            "item": "第一行f2与f2.8互易计算及其他行",
+            "status": "待核",
+            "reason": "第一行图文计算已核；课件后两行小字未完整可靠转录，不用推算值冒充读数。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-01-06/04/工作报告.md"
+      }
     ]
   },
   "adoption": {

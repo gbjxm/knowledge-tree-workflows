@@ -465,6 +465,75 @@
         "content": "采访三句准确台词、语气、目光表情连续过程及同步待核。"
       },
       "全课原声未听审；经验/数字/影片评价未独立事实认证。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第24课-剖析烂片/P50-二十四课-剖析烂片24-ca0b0e0a/large-v3-5ef88b2b6b/P50-二十四课-剖析烂片24.raw.txt",
+        "review_source_sha256": "73139f048cbf345d74e66f3a4b35921674443e24d0025a96f90fe59d4afe3548",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/24-26/24/P50-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            2243
+          ]
+        ],
+        "source_level": "本地 large-v3 ASR 原始识别文字；未听审音轨、未连续审看原视频",
+        "method": "先完整读取新 raw 并按源序列列出内容项，再完整读取现行正式课文，逐观点/理由/独特案例/条件进行新源→正文、正文→源及旧稿保全复核",
+        "summary": "本轮全文文字对照完成；现行正文保留本轮可清楚识别的讲授知识，未发现有充分依据且缺漏的实质增量，不凑字改稿。",
+        "changes": [],
+        "recognition_disagreements": [
+          "全 2243 行新 raw 与 231 行正式课文双向对照，未发现需要补入的实质观点、理由、独特案例、方法或限定条件。",
+          "新 raw L1352 再次出现“小鸡死了”，保留此前字幕已经确认的“看到人死了就受不了”；不以新 ASR 错字覆盖已据证内容。",
+          "新 raw L630–641 识别“语文课”，正式正文为“英语课”；旧主转写该词破损。未做新的定点字幕/音轨核验，本轮保留旧稿并登记该次要情境细节待核，镜中自夸与证据反查机制无冲突。",
+          "新 raw 的“马景涛”等专名未独立核证，旧正文以琼瑶戏大哭大喊保存对照作用，保持此表达。",
+          "本轮首个识别段14.02秒、末段4610.54秒不等于全课声画已审看；新 raw 首行不相干宣传识别不作为课程知识。"
+        ],
+        "unverified": [
+          {
+            "page": 50,
+            "seconds": [
+              263,
+              496
+            ],
+            "content": "战国速看的完整情节/对白/剪接声画未连续核验；课堂后续复盘已保留。"
+          },
+          {
+            "page": 50,
+            "seconds": [
+              2320,
+              2335
+            ],
+            "content": "焦裕禄车站表演原声、眼神表情层次与节奏待核。"
+          },
+          {
+            "page": 50,
+            "seconds": [
+              2442,
+              2454
+            ],
+            "content": "采访三句准确台词、语气、目光表情连续过程及同步待核。"
+          },
+          "全课原声未听审；经验/数字/影片评价未独立事实认证。",
+          {
+            "kind": "minor_recognition_disagreement",
+            "new_raw_lines": [
+              630,
+              641
+            ],
+            "note_lines": [
+              75,
+              75
+            ],
+            "content": "语文/英语课名称差异，本轮未新的定点原字幕或原声核验，保留旧文并登记；不影响照镜子与外部证据反查机制。"
+          }
+        ],
+        "note_sha256": "553c80beff179babb2f493129a7d626a9a61b552cd59d5ef824500cfbdc7eb5f",
+        "coverage_check_exit_code": 1,
+        "semantic_review_completed": true,
+        "audio_review": "not_listened",
+        "continuous_video_review": false
+      }
     ]
   },
   "preservation": {

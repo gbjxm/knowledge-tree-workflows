@@ -458,6 +458,50 @@
         "item": "Hard Core按盖曼转述、Puck出处按译注；未独立查原著。童年发音问题的细分类词未核，正文按已明确情境保存。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第14课-题材类型/P14-P14 题材类型-9f453ace/large-v3-ce02d88ede/P14-P14 题材类型.raw.txt",
+        "review_source_sha256": "78b97fbdb7b41a0b324876f667366b583d56c8e33ca8f7da0f016a89bf284248",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/10-14/14/P14-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            141
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "歌舞预期各段、西部三场、海盗登船、Webster自述、Death弟弟性别信息和新人探索建议逐项相对，没有发现可证实需改的实质遗漏。",
+          "类型是读者期待而非表面布景、满足体验可换方式、话剧同样有价值、作者不必全知及任意年龄新人条件完整保留。",
+          "Hard Core/Williams比较是盖曼课堂转述；Puck作品出处仍归旧画内译者补注，未声称本轮独立核书。",
+          "新raw lisp、cigarillos较旧primary清楚；现稿“发音问题”“黑色小雪茄”已经保留清楚信息，没有必要强行细化或覆写。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "38112149bb9b2cfe5a7ae50fc0685649424b7c80be24e71f2c80e00e508d00df",
+        "prior_note_sha256": "38112149bb9b2cfe5a7ae50fc0685649424b7c80be24e71f2c80e00e508d00df",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看；不以静帧证明语气、手势或声画同步。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "Hard Core按盖曼转述、Puck出处按译注；未独立查原著。童年发音问题的细分类词未核，正文按已明确情境保存。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/10-14/14/工作报告.md"
+      }
     ]
   },
   "preservation": {

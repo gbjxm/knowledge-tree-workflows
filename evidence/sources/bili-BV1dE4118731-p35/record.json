@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/中国传媒大学《视听语言》/09 - 第八章 固定镜头（P33-P42）.md",
-    "sha256": "8890a3be14e8ae503bbf2b77878e1cd0f8b871e38fa6fd9b9cb0f2051cfd9630"
+    "sha256": "402c2b35ac773ee0c3cafec024744f975c75a4d2ddde74bddefa39bdfa2b6bd3"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "6e2fa9bbfa56594776aa303680dd7385b67e9e5122850b896d161eade50f9381",
-    "note_sha256": "8890a3be14e8ae503bbf2b77878e1cd0f8b871e38fa6fd9b9cb0f2051cfd9630",
+    "note_sha256": "402c2b35ac773ee0c3cafec024744f975c75a4d2ddde74bddefa39bdfa2b6bd3",
     "scope": [
       [
         6,
@@ -212,6 +212,138 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第09课-第八章 固定镜头/P35-8.3影像的镜头形态——固定镜头的客观表达-b19115de/large-v3-5ef88b2b6b/P35-8.3影像的镜头形态——固定镜头的客观表达.raw.txt",
+        "review_source_sha256": "167886e41dcac52a3a03d9157bc5b59a56fa7e6f157f867463ae791e96816925",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-09-parallel/09/P35-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            176
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；仅局部补回或修正有清楚源依据的内容，其他旧稿保全。 交付回读校正新加段的方位措辞和幼年骑车语句，补明片中养父因病失去行动能力的关系，不改变既有正文。",
+        "changes": [
+          "P33補汤匙入碗/打翻碗/哭/新愿望具体期待、拉洋片对照树叶的不规律运动理由，以及讲师明确框内右入左逃/回中心/纵深关系；左右回述冲突保留未核。",
+          "P35补回偷拍片段不能直接作为被摄者主动意愿表达的讲师限制，保留影像可信性与违法推断边界。",
+          "P38补回绳荡走→追者抓空→坠车顶结果、总时长同而一拍变两拍，以及20次动作省20秒的理想算例，均归讲师描述非实测声画。",
+          "P39补回片中女孩家人照料/非亲生养家关系、急病三轮送医与忍泪、“爸爸的腿”/周游世界/愿与亲人共居的清楚叙述；不恢复坏专名、病名、精确医疗对白或歌词。"
+        ],
+        "recognition_disagreements_and_judgments": [
+          "已先完整读P33—42全部新raw2481行，再读现稿339行；每段影片播放与后续讲评、每个独特例/条件分开登记。",
+          "普通增补的旧primary实际回读P33 L91—110、181—205、214—278；P35 L61—86；P38 L69—135、207—226；P39 L111—193。其他6P只因同篇最终字节重绑，未改变其知识。",
+          "P39素材确有可读片中旁白/同期声，不能只以“乱码/未连续看片”为由省掉明确家人关系和回忆。该补充保存素材叙述，不归讲师人物调查或独立新闻/病理验证；本课用途仍是虚实接力，与P28近景用途分别保存。",
+          "P33水浇园丁的左右回述不一致未裁定；P38分数与时间均为教学模型，年代说法不升独立史实。P34七三比、P35派对、P37署名/三灯沙盘、P39哑铃/高清、P40性别指代等旧图文核对及限定保全，不被新ASR坏词覆盖。",
+          "未新增原帧查看或听审；早期短片、车载、倾斜晃动、舞蹈动作、转焦、片中对白与完整镜链等历史声画待核保留。"
+        ],
+        "note_sha256": "402c2b35ac773ee0c3cafec024744f975c75a4d2ddde74bddefa39bdfa2b6bd3",
+        "prior_note_sha256": "8890a3be14e8ae503bbf2b77878e1cd0f8b871e38fa6fd9b9cb0f2051cfd9630",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P35-U03",
+            "item": "《科洛弗档案》DV倾斜、惊喜聚会示例；“婚前派对”剧情陈述待官方来源核验，实际镜头/声音需连续看。",
+            "status": "待核",
+            "reason": "M5连续声画未审；教师分析及实际可见的片名/课件已区别保存，动态判断仍待核。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P35-U05",
+            "item": "《永远在路上》采访构图的区别和不稳定心理阐释；原课片例范围、倾斜来源待核，不概括整部片全部采访。",
+            "status": "待核",
+            "reason": "M6连续声画未审；教师分析及实际可见的片名/课件已区别保存，动态判断仍待核。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P35-U06",
+            "item": "讲课机位作为平稳示范。",
+            "status": "待核",
+            "reason": "M7连续声画未审；教师分析及实际可见的片名/课件已区别保存，动态判断仍待核。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P35-U07",
+            "item": "教师现场摇晃画面的演示与分散注意/情绪体验；核心是时间中的变化。",
+            "status": "待核",
+            "reason": "M7连续声画未审；教师分析及实际可见的片名/课件已区别保存，动态判断仍待核。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-09-parallel/09/工作报告.md",
+        "affected_primary_source_review": {
+          "old_source_ranges_read": {
+            "33": [
+              [
+                91,
+                110
+              ],
+              [
+                181,
+                205
+              ],
+              [
+                214,
+                278
+              ]
+            ],
+            "35": [
+              [
+                61,
+                86
+              ]
+            ],
+            "38": [
+              [
+                69,
+                135
+              ],
+              [
+                207,
+                226
+              ]
+            ],
+            "39": [
+              [
+                111,
+                193
+              ]
+            ]
+          },
+          "old_note_lines_allowed_to_replace": [
+            55,
+            59,
+            67,
+            101,
+            153,
+            167,
+            169,
+            201
+          ],
+          "binding_only_pages": [
+            34,
+            36,
+            37,
+            40,
+            41,
+            42
+          ],
+          "findings": [
+            "普通增补的旧primary实际回读P33 L91—110、181—205、214—278；P35 L61—86；P38 L69—135、207—226；P39 L111—193。其他6P只因同篇最终字节重绑，未改变其知识。",
+            "P39素材确有可读片中旁白/同期声，不能只以“乱码/未连续看片”为由省掉明确家人关系和回忆。该补充保存素材叙述，不归讲师人物调查或独立新闻/病理验证；本课用途仍是虚实接力，与P28近景用途分别保存。",
+            "P33水浇园丁的左右回述不一致未裁定；P38分数与时间均为教学模型，年代说法不升独立史实。P34七三比、P35派对、P37署名/三灯沙盘、P39哑铃/高清、P40性别指代等旧图文核对及限定保全，不被新ASR坏词覆盖。"
+          ]
+        },
+        "primary_binding_only_for_this_page": false
+      }
     ]
   },
   "adoption": {

@@ -564,6 +564,65 @@
         "reason": "老师明确几何判断身份，原图只支持離散对应；不声称独立证明连续几何。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第09课-决定机位高度的六个原则/P10-第九课 决定机位高度的六个原则 9-22f28bfe/large-v3-5ef88b2b6b/P10-第九课 决定机位高度的六个原则 9.raw.txt",
+        "review_source_sha256": "58b8abd3cf5175674806f742e7fa1c41cda2b7d13f82c7537b20f30ce5ad1141",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/09/P10-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            1210
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "完整新raw L1—1210与现稿L1—198双向核对，六条原则的院落/沙漠不同对象、天地大色块正误和空旷条件均已保留。",
+          "真人案例中车上头高、拍狗威胁、高个者一排、蹲下两理由、医生节奏、小李怀疑、新打手关系、受害者POV及狗层次全部有正文，不为修改而改。",
+          "苏菲基准、锅遮鸡蛋火腿、哈尔脸/肩几何分析与视角区别/原课练习均已有实质说明。新ASR“猪皮哥和Actor”不能覆盖历史原图核清的回引称呼米格。",
+          "影片播放段L277—356、866—894含无关字串、重复和破损对白，按待核；“石膏/艺人高”等近音由清楚语义及既有原图保留标准术语，未认证原声逐句。",
+          "未发现需补的实质缺漏，正式中文笔记、图解、历史个人入口和主题回链字节保持；无本轮新看图/回听/连续声画审看。"
+        ],
+        "note_sha256": "3fdcad64caecba77f8ff3e55567712f6cc6ff321f8dfa63dfb95813ff7088c8c",
+        "prior_note_sha256": "3fdcad64caecba77f8ff3e55567712f6cc6ff321f8dfa63dfb95813ff7088c8c",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P10-09",
+            "item": "第一原片严重破损完整对白及连续示范",
+            "reason": "原ASR完整读过但未猜恢复；核心高度关系来自讲师清楚解释与原静帧。未听原声、未连续看。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "P10-21",
+            "item": "第二原片无完整对白转写的示范",
+            "reason": "静帧核厨房人物、遮挡与脸肩对应，后续讲师说明支持方法；不补对白或连续过程。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "AV-P10",
+            "item": "抬降、真实切点、狗运动/威胁、表演声音与节奏实际效果",
+            "reason": "正文明确按讲师描述；静帧不替代独立AV。本轮未执行原声或连续审看。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "INFER-P10-HOWL",
+            "item": "哈尔脸肩连续空间调整与效果",
+            "reason": "老师明确几何判断身份，原图只支持離散对应；不声称独立证明连续几何。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/09/工作报告.md"
+      }
     ]
   },
   "working_review_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-09/review.md",

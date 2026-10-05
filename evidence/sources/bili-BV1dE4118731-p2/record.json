@@ -457,6 +457,60 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第01课-第一章 影像语言与技术史/P02-1.2技术史：影像技术的发展-86ec2b5a/large-v3-5ef88b2b6b/P02-1.2技术史：影像技术的发展.raw.txt",
+        "review_source_sha256": "c567f214325ad50d7234de6f95d812827da12e79981e2f7f65df1221fb33331e",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-01-06/01/P2-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            543
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "P1全部明确讲述（爱因斯坦、孩子角度、化学光学、利物浦/点彩、三种募捐、广告婚礼、医生徕卡、家庭相册及一年/十年/五十年）均已有正文去处。",
+          "P2技术设备、墨经、手绘暗箱各尺度、银版肖像全部条件、长曝光街景擦鞋与早期三片均已保留。新ASR的暗箱/塔尔博特外语片中片破损，旧英文分段、字幕和静帧成果更明确，原字节保护。",
+          "银行任职、摆拍第一、电影第一与火车逃厅的原课强说法在现稿已分归属和外部核验；本轮未再次联网、听原声或看连续视频，不升级史实结论。"
+        ],
+        "note_sha256": "d8f6ad982487a31f3af4dd7b5dc8ce69a0d7fb4c8bcd1d91d2ea517a7709ae3c",
+        "prior_note_sha256": "d8f6ad982487a31f3af4dd7b5dc8ce69a0d7fb4c8bcd1d91d2ea517a7709ae3c",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "U7",
+            "item": "第一段外语暗箱演示",
+            "status": "待核",
+            "reason": "旧ASR失真，英文补录与原字幕已恢复主要文本；遮光到成像的连续过程、原声和声画关系未审。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "U9",
+            "item": "第二段外语：纸负片、正片、抽象审美与大量复制",
+            "status": "待核",
+            "reason": "原ASR长段空白且尾段失真；英文补录及字幕已补主要知识，原声和插入素材未连续审看，不能标整个素材完成。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "U21",
+            "item": "三部早期电影、火车片段及逃厅故事",
+            "status": "待核",
+            "reason": "片名和列车画面已核，半数逃厅已按外部档案标疑；列车运动/切换/声音没有连续实审，属整课关键缺口。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-01-06/01/工作报告.md"
+      }
     ]
   },
   "adoption": {

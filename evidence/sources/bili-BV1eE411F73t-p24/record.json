@@ -386,5 +386,256 @@
     "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第十一课原有学习记录.md",
     "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-11/old-unique-and-learning.md"
   },
-  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-11/review.md"
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-11/review.md",
+  "incremental_reviews": [
+    {
+      "date": "2026-10-03",
+      "kind": "new_asr_to_existing_lesson_note",
+      "asr_source": {
+        "local_text_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第11课-类型片/P24-十一课-类型片11.3-535cbe08/large-v3-5ef88b2b6b/P24-十一课-类型片11.3.raw.txt",
+        "text_sha256": "08ed356b2cfb08abcafaf6e58218463dd2c77e740cd41c7307405bbd1817fcd2"
+      },
+      "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/09-15/11/P24-new-raw-coverage.json",
+      "scope": {
+        "page": 24,
+        "raw_lines": [
+          1,
+          702
+        ],
+        "lesson": 11
+      },
+      "note_sha256": "dd2c14e2726629b42fd02d720ec8375bd945febb21cdbac5c153c020d43ddb57",
+      "method": "完整读新raw→按源序列语义清单→完整读现行课级正文→双向核对；保留历史图文已核内容；正文→新raw及旧稿保全复核",
+      "summary": "P22—P24新ASR全文与现行第十一课双向复核完成；十类写法的条件、每个独特正反例和讲师限定均有正文去处，未发现需要另加正文的实质遗漏。",
+      "changes": [],
+      "unverified": [
+        "未回听原声、未连续审看。",
+        "爱情观念史、现代/古代技术优劣、市场比例、规则限制及影视情节均仅保留课堂说法，未独立事实核验。",
+        "《生死营救》具体影片、苏有朋山顶别墅片名仍未确认；梅花烙宫廷称谓混用保留关系而未补造。"
+      ],
+      "heard_audio": false,
+      "continuous_av_reviewed": false,
+      "raw_modified": false,
+      "primary_source_preserved": true,
+      "coverage_check_returncode": 0,
+      "old_note_mapping_rechecked": [
+        {
+          "id": "U1",
+          "old_note_lines": [
+            148,
+            148
+          ],
+          "current_note_lines": [
+            148,
+            148
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U2",
+          "old_note_lines": [
+            152,
+            152
+          ],
+          "current_note_lines": [
+            152,
+            152
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U3",
+          "old_note_lines": [
+            156,
+            156
+          ],
+          "current_note_lines": [
+            156,
+            156
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U4",
+          "old_note_lines": [
+            158,
+            158
+          ],
+          "current_note_lines": [
+            158,
+            158
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U5",
+          "old_note_lines": [
+            160,
+            160
+          ],
+          "current_note_lines": [
+            160,
+            160
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U6",
+          "old_note_lines": [
+            164,
+            164
+          ],
+          "current_note_lines": [
+            164,
+            164
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U7",
+          "old_note_lines": [
+            170,
+            170
+          ],
+          "current_note_lines": [
+            170,
+            170
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U8",
+          "old_note_lines": [
+            172,
+            172
+          ],
+          "current_note_lines": [
+            172,
+            172
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U9",
+          "old_note_lines": [
+            174,
+            174
+          ],
+          "current_note_lines": [
+            174,
+            174
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U10",
+          "old_note_lines": [
+            176,
+            176
+          ],
+          "current_note_lines": [
+            176,
+            176
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U11",
+          "old_note_lines": [
+            180,
+            180
+          ],
+          "current_note_lines": [
+            180,
+            180
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U12",
+          "old_note_lines": [
+            182,
+            182
+          ],
+          "current_note_lines": [
+            182,
+            182
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U13",
+          "old_note_lines": [
+            190,
+            190
+          ],
+          "current_note_lines": [
+            190,
+            190
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U14",
+          "old_note_lines": [
+            192,
+            192
+          ],
+          "current_note_lines": [
+            192,
+            192
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U15",
+          "old_note_lines": [
+            194,
+            194
+          ],
+          "current_note_lines": [
+            194,
+            194
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U16",
+          "old_note_lines": [
+            196,
+            196
+          ],
+          "current_note_lines": [
+            196,
+            196
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U17",
+          "old_note_lines": [
+            198,
+            198
+          ],
+          "current_note_lines": [
+            198,
+            198
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U18",
+          "old_note_lines": [
+            200,
+            200
+          ],
+          "current_note_lines": [
+            200,
+            200
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        }
+      ]
+    }
+  ]
 }

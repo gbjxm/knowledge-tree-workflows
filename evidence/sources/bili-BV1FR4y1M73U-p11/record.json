@@ -620,6 +620,50 @@
         "item": "书籍与过往经历按讲师自述；原字幕对Lud-in-the-Mist含译者未读原著的说明，已分开保存，本次未作原著独立查证。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第11课-构建世界/P11-P11 构建世界-d15a2b53/large-v3-ce02d88ede/P11-P11 构建世界.raw.txt",
+        "review_source_sha256": "237f0bbeefce6d6ddf957afa4428b3ff79a724038a43d803d9a25464dfa73bb8",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/10-14/11/P11-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            236
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "学校、厕所粮食、城门走散、医院观察、泡泡远山、火与冰、墓园长年采集、四组阅读和地图均逐例对应，没有用共同原则吞并案例。",
+          "新ASR L227的Hope Murley与Doromir仍是识别误差；现行Hope Mirrlees、Lud-in-the-Mist、Dorimare来自旧图文已核，不作降级覆写。",
+          "旧primary L104把否定连错，新raw L95—99明确远山可只是涂抹；现稿L80已正确保留，未因原primary错句改坏。",
+          "约20年等待、自嘲能力上限、研究笔记和作者对所有小说的看法仍分别归作者经历/偏好，未改成普遍规定。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "4866e900f7b46a37b8960c19502eb54e79e137133f92b07451f77d00fc7eb153",
+        "prior_note_sha256": "4866e900f7b46a37b8960c19502eb54e79e137133f92b07451f77d00fc7eb153",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看，静帧不证明语音、运动或声画同步验收。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "书籍与过往经历按讲师自述；原字幕对Lud-in-the-Mist含译者未读原著的说明，已分开保存，本次未作原著独立查证。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/10-14/11/工作报告.md"
+      }
     ]
   },
   "preservation": {

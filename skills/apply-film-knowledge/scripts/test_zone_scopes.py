@@ -179,7 +179,8 @@ class ZoneScopeTests(unittest.TestCase):
             with self.assertRaises(ValueError):func(scoped)
 
     def test_new_application_location_and_vault_relative_links(self):
-        self.c.write_text(note("创作主题","服装状态链。","主题笔记"),encoding="utf-8")
+        from test_record_application import topic_text
+        self.c.write_text(topic_text("创作主题"),encoding="utf-8")
         kwargs=dict(config_path=self.config_path,project="测试",problem="连续性",stage="拍摄",topic_names=["创作主题"],method="核对",action="检查",result="",conditions="",status="待验证",observable=False,record_date="2026-09-22",record_key="")
         with patch("record_application.load_config",return_value=self.config):plan=build_plan(**kwargs)
         self.assertEqual(plan.application_path.parent,self.creation/"岗位共用"/"项目经验"/"项目应用")

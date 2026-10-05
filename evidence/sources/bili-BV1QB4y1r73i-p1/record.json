@@ -581,6 +581,64 @@
         "reason": "实际限制如实保留。待核清单仅代表已发现缺口，不覆盖所有潜在遗漏。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第01课-正反打/P01-第一课 正反打 1-c34760e2/large-v3-5ef88b2b6b/P01-第一课 正反打 1.raw.txt",
+        "review_source_sha256": "17d42b1453d4788069dbc57bd21fbc7f43c429377cd437d061e77e0e2ff43a53",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/01/P1-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            543
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "先完整读P1新raw543行，再全文现稿177行；两套覆盖、庭院的各次条件/删减/揭示/离去，以及长镜头各阶段/换侧/运动关系均有正文去处。",
+          "新raw电影唱词与第二段对白仍破损，不能恢复为完整台词；没有把电影连续观感写成已经验收。",
+          "历史图中小兰称呼、单人功能与实际双人取景、机位和轴的区分保留，不因新ASR小蓝/换轴等字词改已核内容。",
+          "源→稿、稿→源回查，未发现需要改稿的实质遗漏；旧稿字节保持，原图链接和个人历史入口保全。"
+        ],
+        "note_sha256": "0cde29f9fb5b30462b0d087e022ad71a498d816417d17d5c664dd76eca20cdba",
+        "prior_note_sha256": "0cde29f9fb5b30462b0d087e022ad71a498d816417d17d5c664dd76eca20cdba",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "W01",
+            "item": "05:36—05:39疑似运动术语未复原",
+            "reason": "画内字幕空白；没有引用损坏词，已由清楚的前文动作与当前静态结果保存关系。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M01",
+            "item": "庭院电影完整对白与连续运动、切点、声音效果",
+            "reason": "仅静帧及讲师描述，独立声画待核；未用破损台词恢复剧情或证明实际效果。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M02",
+            "item": "室内电影对白及长镜头连续运动、节奏、表演和声音效果",
+            "reason": "ASR破损且未连续审看；课堂设计归属已限定、静态关系已核，未把效果声明当正文核心事实。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "A01",
+            "item": "全课原声未听审；静图采样不是穷尽所有短暂变化",
+            "reason": "实际限制如实保留。待核清单仅代表已发现缺口，不覆盖所有潜在遗漏。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/01/工作报告.md"
+      }
     ]
   },
   "migration": {

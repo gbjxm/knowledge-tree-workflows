@@ -607,6 +607,56 @@
         "item": "画内医学和大衣能力补注明确归于译制者，本次未作外部核实。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第09课-对白与角色/P09-P9 对白与角色-af6d4080/large-v3-ce02d88ede/P09-P9 对白与角色.raw.txt",
+        "review_source_sha256": "b6f86168a07c4e2b81959a6ce380ff85d3d8ff78c89692bea09795c6a865a1dc",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/05-09/09/P9-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            277
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "完整新raw L1–277与中文L1–161已分别阅读；采访压缩、Delirium一页失败/改写、两冰淇淋例和lost time、人物敲门笑谈、尊重研究与所有乌有乡案例均保全。",
+          "新raw L153作Coraline，旧字幕/记录作Caroline；现行正文以女孩情境保存且名字待核，未凭新ASR改历史字幕记载或提升核定。",
+          "新raw L89 I did not like that either可能孤立误读为作者再否定角色；旧漫画/字幕确认是角色不喜欢绿老鼠口味，正文保留该历史已核归属。",
+          "in control按原英文与上下文为掌控，未恢复相反中文字幕；Croup/Vandemar等新raw多种拼写按历史文字卡不覆盖。",
+          "研究比喻不改成免研究，脚癣/战壕足、Delirium医学注和侯爵衣能力各保持口述/译制者层次与未核边界。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "c11fdd6bf0713253463fe0238b62c5afb5d0922ba125656a736aecb766489471",
+        "prior_note_sha256": "c11fdd6bf0713253463fe0238b62c5afb5d0922ba125656a736aecb766489471",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看；不以静帧判断人物配音、停顿表演或声画同步。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "约13:15的女孩名字在字幕及ASR作Caroline，具体拼写未由原声核定；清楚的处境和提问保存。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M3",
+            "item": "画内医学和大衣能力补注明确归于译制者，本次未作外部核实。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/05-09/09/工作报告.md"
+      }
     ]
   },
   "preservation": {

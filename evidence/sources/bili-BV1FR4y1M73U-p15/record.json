@@ -764,6 +764,838 @@
         "item": "画内脚本部分行末被镜头裁切，未补齐；已保存可读的合作、角色与版面知识。莎士比亚等按作品及讲师构思，Hamnet关联Hamlet仅画内译注。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第15课-漫画/P15-P15 漫画-d11f4d7e/large-v3-ce02d88ede/P15-P15 漫画.raw.txt",
+        "review_source_sha256": "d55d4e53b082b6c17aafcd64d5dc1d16e3f1545e13a923181f9e944bc209f92c",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/15-19/15/P15-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            312
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "新raw全文312行，各种页/格容量、空白翻页揭示、画色字分工及Karen引出六格情感核心，在现行稿均有具体关系、前后过程和条件。未发现实质缺漏。",
+          "现稿第84/86/88/96行等画内脚本信息超出raw，本轮未重新查看原帧；其历史图文证据归属及原有限制保留，不将它们误报为新ASR口述。",
+          "新raw Hamnet/Hamlet、Condal/Condell及Oliff/Olof分歧已另列待核；正文沿用已核字幕图像及语境，不以破损新词覆盖旧稿。",
+          "新raw L25 felt odd与旧primary L40–41 felt dangerous/felt hard不一致，现稿“危险、困难”仍沿旧证据；已实际回读旧primary L1–42，形容词分歧列待核，未作本轮声画核实。",
+          "右/左页提醒保持盖曼本课纸本表述及适用边界，不推成所有装订和屏幕的通则。Hamnet与Hamlet联系仍只按原字幕/画内译注，不新增历史结论。",
+          "卷本厚重制服窃贼笑谈不含独立教学知识，合并清单说明了压缩；结尾获奖说法保留讲师自述和合作归因。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "ea2d06c5269f04240f9ffd4fc522e6992f2ebb30a53b8b1dd8131b4d5811b5f6",
+        "prior_note_sha256": "ea2d06c5269f04240f9ffd4fc522e6992f2ebb30a53b8b1dd8131b4d5811b5f6",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看；翻页前后静态版面已对照，不证明连续翻书动作、实际停留时长或声画同步。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "画内脚本部分行末被镜头裁切，未补齐；已保存可读的合作、角色与版面知识。莎士比亚等按作品及讲师构思，Hamnet关联Hamlet仅画内译注。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NEW-N37",
+            "item": "新raw felt odd与旧primary felt hard/现稿困难的形容词分歧",
+            "reason": "已实际回读旧primary L38–42；两次ASR不同，本轮未听审或重看对应字幕，保留现稿而不把新词形认作已核纠正。",
+            "source_lines": [
+              24,
+              25
+            ],
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NEW-N38",
+            "item": "新raw的Hamlet/Condal名称识别与旧字幕图文校对不一致",
+            "reason": "本轮未回听；保留旧稿Hamnet/Condell，不用新破损专名覆盖已有图文表述。",
+            "source_lines": [
+              126,
+              128
+            ],
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NEW-N39",
+            "item": "新raw父子嵌入格再作Hamlet，人物名识别待核",
+            "reason": "新raw的称呼不是本轮音频核实；机制和对白清楚，正文沿用历史Hamnet。",
+            "source_lines": [
+              230,
+              236
+            ],
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NEW-N40",
+            "item": "六格中Hamlet/Hamnet与死亡名字游戏的语音识别仍需定点回听",
+            "reason": "不据单词破损改动旧字幕及画内译注确认的孩子名/名字游戏；关系和情感机制保留。",
+            "source_lines": [
+              277,
+              283
+            ],
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NEW-N41",
+            "item": "新raw的Oliff/Olof拼写混用",
+            "reason": "本轮只读识别文本，保留旧稿已图文核对的Steve Oliff；未升级为原声核实。",
+            "source_lines": [
+              237,
+              241
+            ],
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/15-19/15/工作报告.md",
+        "coverage": {
+          "version": 1,
+          "source_sha256": "d55d4e53b082b6c17aafcd64d5dc1d16e3f1545e13a923181f9e944bc209f92c",
+          "note_sha256": "ea2d06c5269f04240f9ffd4fc522e6992f2ebb30a53b8b1dd8131b4d5811b5f6",
+          "scope": [
+            [
+              1,
+              312
+            ]
+          ],
+          "items": [
+            {
+              "id": "N01",
+              "item": "检查念头的长处弱点以选媒介；图文合用可产生散文或电影未必能做的效果",
+              "source": {
+                "lines": [
+                  1,
+                  7
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  52,
+                  52
+                ]
+              }
+            },
+            {
+              "id": "N02",
+              "item": "从念头到脚本的个人方法与《睡魔》第十九期示范卷本",
+              "source": {
+                "lines": [
+                  8,
+                  17
+                ]
+              },
+              "status": "合并",
+              "note": {
+                "lines": [
+                  54,
+                  58
+                ]
+              },
+              "reason": "方法并非唯一；卷本厚重与制服窃贼的笑谈无独立知识增量，压缩但不替代后续案例。"
+            },
+            {
+              "id": "N03",
+              "item": "露天《仲夏夜之梦》从白昼入夜触发让更危险的真精灵观看首演的构思",
+              "source": {
+                "lines": [
+                  18,
+                  26
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  58,
+                  60
+                ]
+              }
+            },
+            {
+              "id": "N04",
+              "item": "重读剧本标台词，台上戏/前排领袖/后排评论精灵三层行动并行",
+              "source": {
+                "lines": [
+                  27,
+                  37
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  62,
+                  62
+                ]
+              }
+            },
+            {
+              "id": "N05",
+              "item": "订纸折小册、24页编号；通常每页粗记，本例仅定两端由戏剧节奏支配中间",
+              "source": {
+                "lines": [
+                  38,
+                  49
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  66,
+                  66
+                ]
+              }
+            },
+            {
+              "id": "N06",
+              "item": "最初四页行路、遇睡魔、布置开门、精灵出现的推进",
+              "source": {
+                "lines": [
+                  50,
+                  53
+                ]
+              },
+              "status": "合并",
+              "note": {
+                "lines": [
+                  66,
+                  66
+                ]
+              },
+              "reason": "与24页容量及特殊规划条件合并，四步具体内容保留。"
+            },
+            {
+              "id": "N07",
+              "item": "缩略图检验格子容量；12格页不能辨清太空舰队和地上孩子、狗、花的反例",
+              "source": {
+                "lines": [
+                  54,
+                  64
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  68,
+                  68
+                ]
+              }
+            },
+            {
+              "id": "N08",
+              "item": "牛车与威尔明顿巨人手杖变守门人，开头种下精灵从山中门出现的视觉信息",
+              "source": {
+                "lines": [
+                  65,
+                  72
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  70,
+                  70
+                ]
+              }
+            },
+            {
+              "id": "N09",
+              "item": "火柴人与草图对白仅供自己；检验对白功能、故事节拍及格间阅读能否成立",
+              "source": {
+                "lines": [
+                  73,
+                  87
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  72,
+                  72
+                ]
+              }
+            },
+            {
+              "id": "N10",
+              "item": "想到具体台词可记，但精确磨字放在正式脚本阶段",
+              "source": {
+                "lines": [
+                  88,
+                  91
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  74,
+                  74
+                ]
+              }
+            },
+            {
+              "id": "N11",
+              "item": "漫画编剧兼导演剪辑、画师兼表演摄影美术、字与色的声音调色玩笑类比",
+              "source": {
+                "lines": [
+                  92,
+                  103
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  78,
+                  78
+                ]
+              }
+            },
+            {
+              "id": "N12",
+              "item": "脚本作为给画师的信，激发热情，说明做什么、为什么及故事意图",
+              "source": {
+                "lines": [
+                  104,
+                  107
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  80,
+                  80
+                ]
+              }
+            },
+            {
+              "id": "N13",
+              "item": "给Charles介绍睡魔外形和山羊胡自由选择；文字密集需Todd稍缩字",
+              "source": {
+                "lines": [
+                  108,
+                  113
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  82,
+                  82
+                ]
+              }
+            },
+            {
+              "id": "N14",
+              "item": "首格大远景横跨顶层，晴朗夏日/丘陵巨人帽子限定/四木车夏尔马与牛；细节不必全挤入",
+              "source": {
+                "lines": [
+                  114,
+                  124
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  92,
+                  94
+                ]
+              }
+            },
+            {
+              "id": "N15",
+              "item": "第二页父亲停队、让孩子去其他男孩处；爬坡出汗无对白",
+              "source": {
+                "lines": [
+                  124,
+                  128
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  102,
+                  102
+                ]
+              }
+            },
+            {
+              "id": "N16",
+              "item": "孩子不快的脸与无字格：标点、节拍、强调，并邀请读者补出情绪含义",
+              "source": {
+                "lines": [
+                  129,
+                  137
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  102,
+                  104
+                ]
+              }
+            },
+            {
+              "id": "N17",
+              "item": "不存在的风、情绪思想等无法照字面画出却需让画师知道的信息",
+              "source": {
+                "lines": [
+                  138,
+                  149
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  106,
+                  106
+                ]
+              }
+            },
+            {
+              "id": "N18",
+              "item": "页控制容量和翻页时机；一格只是插图，读者补全格间才成为漫画叙事",
+              "source": {
+                "lines": [
+                  150,
+                  159
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  110,
+                  110
+                ]
+              }
+            },
+            {
+              "id": "N19",
+              "item": "第七期Dee捏毁储能红宝石引爆，翻页后极小人影置于纯白",
+              "source": {
+                "lines": [
+                  160,
+                  169
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  112,
+                  112
+                ]
+              }
+            },
+            {
+              "id": "N20",
+              "item": "白背景持续，Dee误以为杀死睡魔并统治梦，预想掌声却无人回应",
+              "source": {
+                "lines": [
+                  169,
+                  182
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  114,
+                  114
+                ]
+              }
+            },
+            {
+              "id": "N21",
+              "item": "再翻页揭白色实为墨菲斯掌心；碎宝石反归力量；图像小说加白页维持翻页",
+              "source": {
+                "lines": [
+                  183,
+                  189
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  114,
+                  116
+                ]
+              }
+            },
+            {
+              "id": "N22",
+              "item": "课堂右页易提前扫见、左页翻来才揭示的条件，限定其纸本布局",
+              "source": {
+                "lines": [
+                  190,
+                  198
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  118,
+                  118
+                ]
+              }
+            },
+            {
+              "id": "N23",
+              "item": "Ware/Spiegelman全能作者例外；盖曼依靠合作者共同制作",
+              "source": {
+                "lines": [
+                  199,
+                  205
+                ]
+              },
+              "status": "合并",
+              "note": {
+                "lines": [
+                  122,
+                  122
+                ]
+              },
+              "reason": "与传统合作分工同段组织，全能例外和依赖合作均保留。"
+            },
+            {
+              "id": "N24",
+              "item": "传统铅笔→上字→上墨复制；上墨不同上色，铅笔翻拍损细节，Vess兼铅笔和墨",
+              "source": {
+                "lines": [
+                  206,
+                  215
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  122,
+                  122
+                ]
+              }
+            },
+            {
+              "id": "N25",
+              "item": "铅笔成稿四车、牛、篷和矮墙体现萨塞克斯，未露全部道具",
+              "source": {
+                "lines": [
+                  216,
+                  224
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  124,
+                  124
+                ]
+              }
+            },
+            {
+              "id": "N26",
+              "item": "原草图四等格改为车队大图的较小嵌入格，父子旅店/演出地点追问保留",
+              "source": {
+                "lines": [
+                  224,
+                  236
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  126,
+                  126
+                ]
+              }
+            },
+            {
+              "id": "N27",
+              "item": "Oliff上色随故事从灿烂夏日到暮色夜晚，不只是填线条",
+              "source": {
+                "lines": [
+                  237,
+                  241
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  130,
+                  130
+                ]
+              }
+            },
+            {
+              "id": "N28",
+              "item": "Todd上字为无尽家族七成员及其他人物提供不同声音身份",
+              "source": {
+                "lines": [
+                  242,
+                  247
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  132,
+                  132
+                ]
+              }
+            },
+            {
+              "id": "N29",
+              "item": "能听见纸面字样的通感，拟声词写作文字却被理解为声音",
+              "source": {
+                "lines": [
+                  248,
+                  252
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  134,
+                  134
+                ]
+              }
+            },
+            {
+              "id": "N30",
+              "item": "Karen不懂莎剧且不知核心，初稿二稿之间追问主题即为何在乎",
+              "source": {
+                "lines": [
+                  253,
+                  267
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  138,
+                  138
+                ]
+              }
+            },
+            {
+              "id": "N31",
+              "item": "核心为8岁哈姆奈特与成功父亲疏离，被泰坦妮娅吸引与死亡暧昧",
+              "source": {
+                "lines": [
+                  268,
+                  272
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  140,
+                  140
+                ]
+              }
+            },
+            {
+              "id": "N32",
+              "item": "只剩一页加六格：演员问骄傲，孩子说父亲心在别处、自己不如戏中角色真实",
+              "source": {
+                "lines": [
+                  273,
+                  282
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  142,
+                  142
+                ]
+              }
+            },
+            {
+              "id": "N33",
+              "item": "母亲说五年变化、双胞胎姐姐死亡写戏玩笑、夏天第一次相处超周及五天路程",
+              "source": {
+                "lines": [
+                  282,
+                  286
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  144,
+                  144
+                ]
+              }
+            },
+            {
+              "id": "N34",
+              "item": "孩子称父亲只重故事，演员仍羡慕；这份心碎驱动读者在乎",
+              "source": {
+                "lines": [
+                  286,
+                  290
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  146,
+                  148
+                ]
+              }
+            },
+            {
+              "id": "N35",
+              "item": "首演及英文学之美给众人快乐，与男孩失落及名字游戏并置",
+              "source": {
+                "lines": [
+                  291,
+                  300
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  148,
+                  148
+                ]
+              }
+            },
+            {
+              "id": "N36",
+              "item": "编辑提问与画色字在六格情感中汇合，获奖原因按讲师自述不归单项技术",
+              "source": {
+                "lines": [
+                  301,
+                  312
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  150,
+                  150
+                ]
+              }
+            },
+            {
+              "id": "N37",
+              "item": "新raw felt odd与旧primary felt hard/现稿困难的形容词分歧",
+              "source": {
+                "lines": [
+                  24,
+                  25
+                ]
+              },
+              "status": "待核",
+              "reason": "已实际回读旧primary L38–42；两次ASR不同，本轮未听审或重看对应字幕，保留现稿而不把新词形认作已核纠正。"
+            },
+            {
+              "id": "N38",
+              "item": "新raw的Hamlet/Condal名称识别与旧字幕图文校对不一致",
+              "source": {
+                "lines": [
+                  126,
+                  128
+                ]
+              },
+              "status": "待核",
+              "reason": "本轮未回听；保留旧稿Hamnet/Condell，不用新破损专名覆盖已有图文表述。"
+            },
+            {
+              "id": "N39",
+              "item": "新raw父子嵌入格再作Hamlet，人物名识别待核",
+              "source": {
+                "lines": [
+                  230,
+                  236
+                ]
+              },
+              "status": "待核",
+              "reason": "新raw的称呼不是本轮音频核实；机制和对白清楚，正文沿用历史Hamnet。"
+            },
+            {
+              "id": "N40",
+              "item": "六格中Hamlet/Hamnet与死亡名字游戏的语音识别仍需定点回听",
+              "source": {
+                "lines": [
+                  277,
+                  283
+                ]
+              },
+              "status": "待核",
+              "reason": "不据单词破损改动旧字幕及画内译注确认的孩子名/名字游戏；关系和情感机制保留。"
+            },
+            {
+              "id": "N41",
+              "item": "新raw的Oliff/Olof拼写混用",
+              "source": {
+                "lines": [
+                  237,
+                  241
+                ]
+              },
+              "status": "待核",
+              "reason": "本轮只读识别文本，保留旧稿已图文核对的Steve Oliff；未升级为原声核实。"
+            }
+          ]
+        },
+        "registration_result": "open",
+        "recognition_pending_items": [
+          {
+            "id": "N37",
+            "item": "新raw felt odd与旧primary felt hard/现稿困难的形容词分歧",
+            "source_lines": [
+              24,
+              25
+            ],
+            "reason": "已实际回读旧primary L38–42；两次ASR不同，本轮未听审或重看对应字幕，保留现稿而不把新词形认作已核纠正。"
+          },
+          {
+            "id": "N38",
+            "item": "新raw的Hamlet/Condal名称识别与旧字幕图文校对不一致",
+            "source_lines": [
+              126,
+              128
+            ],
+            "reason": "本轮未回听；保留旧稿Hamnet/Condell，不用新破损专名覆盖已有图文表述。"
+          },
+          {
+            "id": "N39",
+            "item": "新raw父子嵌入格再作Hamlet，人物名识别待核",
+            "source_lines": [
+              230,
+              236
+            ],
+            "reason": "新raw的称呼不是本轮音频核实；机制和对白清楚，正文沿用历史Hamnet。"
+          },
+          {
+            "id": "N40",
+            "item": "六格中Hamlet/Hamnet与死亡名字游戏的语音识别仍需定点回听",
+            "source_lines": [
+              277,
+              283
+            ],
+            "reason": "不据单词破损改动旧字幕及画内译注确认的孩子名/名字游戏；关系和情感机制保留。"
+          },
+          {
+            "id": "N41",
+            "item": "新raw的Oliff/Olof拼写混用",
+            "source_lines": [
+              237,
+              241
+            ],
+            "reason": "本轮只读识别文本，保留旧稿已图文核对的Steve Oliff；未升级为原声核实。"
+          }
+        ]
+      }
     ]
   },
   "preservation": {

@@ -1,0 +1,294 @@
+{
+  "schema_version": 2,
+  "diagram_type": "workflow",
+  "meta": {
+    "title": "知识树怎样接入 AI 影视工作流",
+    "locale": "zh-CN",
+    "quality_profile": "showcase",
+    "animation": "none",
+    "views": [
+      {
+        "id": "deposit",
+        "label": "材料怎样成为知识",
+        "focus": [
+          "material",
+          "source",
+          "synthesis",
+          "topic"
+        ],
+        "note": "保留原始内容；按用途选定创作知识，不自动迁移全部学习材料。"
+      },
+      {
+        "id": "use",
+        "label": "知识怎样解决问题",
+        "focus": [
+          "question",
+          "bridge",
+          "method",
+          "judgment",
+          "execution"
+        ],
+        "note": "从当前岗位问题检索，读方法与条件，形成候选，再靠真实材料检验。"
+      },
+      {
+        "id": "return",
+        "label": "验证怎样回到知识",
+        "focus": [
+          "execution",
+          "feedback",
+          "source",
+          "topic"
+        ],
+        "note": "只有实际结果与明确写回授权，才将实践反馈纳入来源／主题复核。"
+      }
+    ]
+  },
+  "lanes": [
+    {
+      "id": "knowledge",
+      "label": "材料沉淀：为检索提供选定知识"
+    },
+    {
+      "id": "task",
+      "label": "独立入口：当前任务与实际材料"
+    },
+    {
+      "id": "application",
+      "label": "主要调用链：专业检查 → 候选 → 实际验证 → 反馈"
+    }
+  ],
+  "mainPath": [
+    "question",
+    "check",
+    "bridge",
+    "method",
+    "judgment",
+    "execution",
+    "feedback"
+  ],
+  "nodes": [
+    {
+      "id": "material",
+      "lane": "knowledge",
+      "col": 0,
+      "type": "external",
+      "label": "原材料",
+      "sublabel": "课程／书籍／观察",
+      "tag": "保留来源",
+      "width": 164
+    },
+    {
+      "id": "source",
+      "lane": "knowledge",
+      "col": 1,
+      "type": "database",
+      "label": "来源笔记",
+      "sublabel": "观点＋案例＋定位",
+      "tag": "忠实保全",
+      "width": 164
+    },
+    {
+      "id": "synthesis",
+      "lane": "knowledge",
+      "col": 2,
+      "type": "database",
+      "label": "学习综合",
+      "sublabel": "跨材料理解与归纳",
+      "tag": "学习范围",
+      "width": 164
+    },
+    {
+      "id": "topic",
+      "lane": "knowledge",
+      "col": 3,
+      "type": "database",
+      "label": "创作主题",
+      "sublabel": "选定问题的方法与条件",
+      "tag": "六篇有限试点",
+      "width": 164
+    },
+    {
+      "id": "question",
+      "lane": "task",
+      "col": 0,
+      "type": "frontend",
+      "label": "当前任务／材料",
+      "sublabel": "岗位目标＋当前版本",
+      "tag": "专业咨询可并行",
+      "width": 164
+    },
+    {
+      "id": "bridge",
+      "lane": "application",
+      "col": 1,
+      "type": "messagebus",
+      "label": "知识桥／查找",
+      "sublabel": "按问题、岗位和范围",
+      "tag": "X05 仍有缺口",
+      "width": 164
+    },
+    {
+      "id": "method",
+      "lane": "application",
+      "col": 2,
+      "type": "database",
+      "label": "完整方法／条件",
+      "sublabel": "续读依据、边界与反例",
+      "tag": "文字读取验证",
+      "width": 164
+    },
+    {
+      "id": "judgment",
+      "lane": "application",
+      "col": 3,
+      "type": "backend",
+      "label": "专业判断候选",
+      "sublabel": "可比较方案＋残余未知",
+      "tag": "候选不等于采用",
+      "width": 164
+    },
+    {
+      "id": "execution",
+      "lane": "application",
+      "col": 4,
+      "type": "backend",
+      "label": "真实执行验证",
+      "sublabel": "实际声画／工程／观众",
+      "tag": "当前未完成",
+      "width": 164
+    },
+    {
+      "id": "feedback",
+      "lane": "application",
+      "col": 5,
+      "type": "messagebus",
+      "label": "实践反馈",
+      "sublabel": "复核来源与主题",
+      "tag": "需授权；未正式写回",
+      "width": 164
+    },
+    {
+      "id": "check",
+      "lane": "application",
+      "col": 0,
+      "type": "frontend",
+      "label": "专业检查项",
+      "sublabel": "拆分问题与成立条件",
+      "tag": "现场材料缺口需披露",
+      "width": 164
+    }
+  ],
+  "edges": [
+    {
+      "id": "raw-source",
+      "from": "material",
+      "to": "source",
+      "variant": "default"
+    },
+    {
+      "id": "source-synthesis",
+      "from": "source",
+      "to": "synthesis",
+      "label": "对照与归纳",
+      "variant": "default"
+    },
+    {
+      "id": "synthesis-topic",
+      "from": "synthesis",
+      "to": "topic",
+      "label": "按用途选定",
+      "variant": "default"
+    },
+    {
+      "id": "search-read",
+      "from": "bridge",
+      "to": "method",
+      "label": "完整读取",
+      "variant": "default",
+      "role": "main"
+    },
+    {
+      "id": "read-judge",
+      "from": "method",
+      "to": "judgment",
+      "variant": "default",
+      "role": "main"
+    },
+    {
+      "id": "judge-execute",
+      "from": "judgment",
+      "to": "execution",
+      "label": "采用后执行",
+      "variant": "default",
+      "role": "main"
+    },
+    {
+      "id": "execute-feedback",
+      "from": "execution",
+      "to": "feedback",
+      "variant": "default",
+      "role": "main"
+    },
+    {
+      "id": "feedback-review",
+      "from": "feedback",
+      "to": "source",
+      "label": "授权后复核来源／主题",
+      "role": "return",
+      "variant": "dashed"
+    },
+    {
+      "id": "task-check",
+      "from": "question",
+      "to": "check",
+      "role": "main",
+      "variant": "default"
+    },
+    {
+      "id": "check-search",
+      "from": "check",
+      "to": "bridge",
+      "role": "main",
+      "variant": "default"
+    },
+    {
+      "id": "topic-search",
+      "from": "topic",
+      "to": "bridge",
+      "label": "选定知识供给",
+      "role": "branch",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "emerald",
+      "title": "已验证的有限范围",
+      "items": [
+        "机制测试 186 项＋笔记校验 24 项",
+        "桥接：已安装入口 5 题／6 次技术文字读取",
+        "三组／六篇正式试点：69 项来源覆盖"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "为何继续优化核心链",
+      "items": [
+        "X05 分项过度排除仍在；方法精度映射仍有限",
+        "真实问题材料不足；连续声画与实际效果未完成",
+        "反馈仅预览／隔离测试，无正式项目实践写入"
+      ]
+    },
+    {
+      "dot": "slate",
+      "title": "读取与行动边界",
+      "items": [
+        "学习区须本次明确点名，不随链接扩大读取",
+        "判断与建议不自动授权媒体执行或项目写入",
+        "本轮只解释现状，不执行下一批正文改写"
+      ]
+    }
+  ]
+}

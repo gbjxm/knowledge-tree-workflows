@@ -10,14 +10,12 @@
   },
   "note": {
     "path": "知识库/学习区/书籍/DaVinci Resolve 20剪辑师指南/03 - 剧情场景、表演选择与声画剪辑.md",
-    "sha256": "fe1b9c6f0d65d647c41293a5cf4c1dc3f3bc46249e287fc8066b1d832adca830",
-    "reviewed_note_sha256": "bc5f1b8f05834aabb278ed343d157686e187107064208a2c47038435f1835519",
-    "reviewed_prefix_bytes": 18199
+    "sha256": "68513c7198ccf77b49048a64ab463b79c727481f7e68f48eba4e17c841f86ffa"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "7cf3a539a02a6b92dfdce904aeeaf24de1469f82d3435f62e0102db205818127",
-    "note_sha256": "fe1b9c6f0d65d647c41293a5cf4c1dc3f3bc46249e287fc8066b1d832adca830",
+    "note_sha256": "68513c7198ccf77b49048a64ab463b79c727481f7e68f48eba4e17c841f86ffa",
     "scope": [
       [
         9,
@@ -80,8 +78,8 @@
         },
         "note": {
           "lines": [
-            128,
-            128
+            129,
+            129
           ]
         },
         "status": "保留",
@@ -109,8 +107,8 @@
         },
         "note": {
           "lines": [
-            130,
-            130
+            131,
+            131
           ]
         },
         "status": "合并",
@@ -139,8 +137,8 @@
         },
         "note": {
           "lines": [
-            132,
-            132
+            133,
+            133
           ]
         },
         "status": "保留",
@@ -164,8 +162,8 @@
         },
         "note": {
           "lines": [
-            134,
-            138
+            135,
+            139
           ]
         },
         "status": "合并",
@@ -194,8 +192,8 @@
         },
         "note": {
           "lines": [
-            148,
-            148
+            161,
+            161
           ]
         },
         "status": "合并",
@@ -232,8 +230,8 @@
         },
         "note": {
           "lines": [
-            91,
-            93
+            92,
+            94
           ]
         },
         "status": "合并",
@@ -262,8 +260,8 @@
         },
         "note": {
           "lines": [
-            93,
-            93
+            94,
+            94
           ]
         },
         "status": "保留",
@@ -287,8 +285,8 @@
         },
         "note": {
           "lines": [
-            97,
-            97
+            98,
+            98
           ]
         },
         "status": "合并",
@@ -317,8 +315,8 @@
         },
         "note": {
           "lines": [
-            101,
-            110
+            102,
+            111
           ]
         },
         "status": "合并",
@@ -347,8 +345,8 @@
         },
         "note": {
           "lines": [
-            114,
-            114
+            115,
+            115
           ]
         },
         "status": "合并",
@@ -377,8 +375,8 @@
         },
         "note": {
           "lines": [
-            116,
-            116
+            117,
+            117
           ]
         },
         "status": "合并",
@@ -403,8 +401,8 @@
         },
         "note": {
           "lines": [
-            118,
-            118
+            119,
+            119
           ]
         },
         "status": "保留",
@@ -420,12 +418,25 @@
     ]
   },
   "review": {
-    "date": "2026-09-12",
-    "scope": "原书印刷p174-182、p185-191中的12个诊断内容项；不等于这些页所有操作或全章完整复核。",
-    "summary": "保留案例、方法关系和限定语的已执行复核；来源获取、内容复核、用户掌握与真实效果分开。",
-    "method": "此前源输入升级的逐项复核；此次仅核对身份、原稿保留和可迁移入口，不冒充新一轮原文/媒体审核。",
+    "date": "2026-10-03",
+    "scope": "历史范围保留：原书印刷p174-182、p185-191中的12个诊断内容项；不等于这些页所有操作或全章完整复核。；本次：resolve20-editors-ch03既有覆盖项的定位/保全及局部方法文本复核；未重做历史声画检查",
+    "summary": "旧覆盖项正文逐行保留，定位随插入行迁移；局部新增方法经过来源→正文、正文→来源、旧稿→新稿语义复核。",
+    "method": "本轮读取已存在、哈希匹配的来源文本与完整改前/改后笔记；语义结论见六篇试点审阅包。",
     "unverified": [],
-    "limitations": "配套影片/软件效果和用户理解未验证。"
+    "limitations": "仅为已有文本范围的局部复核；不新增原声听审、连续声画验证、用户掌握或真实项目效果。新增操作转译明确归属本体系，既有覆盖登记不认证其为讲者原话。",
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "kind": "core-chain-local-method-pilot",
+        "scope": "本次局部方法的作者/综合归属与三向语义复核；旧覆盖项逐行保全，旧增量复核完整保留",
+        "note_sha256": "68513c7198ccf77b49048a64ab463b79c727481f7e68f48eba4e17c841f86ffa",
+        "prior_note_sha256": "fe1b9c6f0d65d647c41293a5cf4c1dc3f3bc46249e287fc8066b1d832adca830",
+        "source_text_sha256": "7cf3a539a02a6b92dfdce904aeeaf24de1469f82d3435f62e0102db205818127",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "working_review_hint": ".runtime/raw-cache/core-chain-optimization/20261003-125230/pilot/semantic-reviews.json"
+      }
+    ]
   },
   "migration": {
     "created_at": "2026-09-12T21:20:51.069887+08:00",
@@ -445,6 +456,27 @@
       "new_path": "知识库/学习区/书籍/DaVinci Resolve 20剪辑师指南/03 - 剧情场景、表演选择与声画剪辑.md",
       "new_sha256": "fe1b9c6f0d65d647c41293a5cf4c1dc3f3bc46249e287fc8066b1d832adca830",
       "verification": "仅存放路径与链接替换；逐字节对照原件的同一变换，原来源身份、复核结论、未核事项保持。不代表重新审看原始内容。"
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-10-03",
+      "previous_note": {
+        "path": "知识库/学习区/书籍/DaVinci Resolve 20剪辑师指南/03 - 剧情场景、表演选择与声画剪辑.md",
+        "sha256": "fe1b9c6f0d65d647c41293a5cf4c1dc3f3bc46249e287fc8066b1d832adca830",
+        "reviewed_note_sha256": "bc5f1b8f05834aabb278ed343d157686e187107064208a2c47038435f1835519",
+        "reviewed_prefix_bytes": 18199
+      },
+      "previous_coverage_note_sha256": "fe1b9c6f0d65d647c41293a5cf4c1dc3f3bc46249e287fc8066b1d832adca830",
+      "previous_review": {
+        "date": "2026-09-12",
+        "scope": "原书印刷p174-182、p185-191中的12个诊断内容项；不等于这些页所有操作或全章完整复核。",
+        "summary": "保留案例、方法关系和限定语的已执行复核；来源获取、内容复核、用户掌握与真实效果分开。",
+        "method": "此前源输入升级的逐项复核；此次仅核对身份、原稿保留和可迁移入口，不冒充新一轮原文/媒体审核。",
+        "unverified": [],
+        "limitations": "配套影片/软件效果和用户理解未验证。"
+      },
+      "reason": "六篇试点局部方法补充；受影响内容完成文本语义复核，旧审核和旧前缀身份作为历史保存"
     }
   ]
 }

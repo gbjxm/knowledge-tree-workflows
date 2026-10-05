@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/中国传媒大学《视听语言》/18 - 第十章 声音设计（P69-P72）.md",
-    "sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34"
+    "sha256": "c66a019d319b0927613ca89dadc1d723984212494c205ef2092885afddbc47d8"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "ffe704e0129d47e1c8dac4aa31c775003f7d6e8f15d5e95eec83489acb5588bf",
-    "note_sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34",
+    "note_sha256": "c66a019d319b0927613ca89dadc1d723984212494c205ef2092885afddbc47d8",
     "scope": [
       [
         6,
@@ -302,6 +302,90 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第18课-第十章 声音设计/P69-10.18不能忽视的声音1-69bb07be/large-v3-5ef88b2b6b/P69-10.18不能忽视的声音1.raw.txt",
+        "review_source_sha256": "34081129129dd6fda16bc04f96f26fb4172c6960489daf1ce3e03666210d5147",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/18/P69-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            262
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；仅局部补回或修正有清楚源依据的内容，其他旧稿保全。",
+        "changes": [
+          "仅L92補回原课独特比喻：开锁欣喜夸张地类比二战苏联红军攻克柏林时的胜利快感；保留第一人称口吻和第三人称对照的原意。"
+        ],
+        "recognition_disagreements_and_judgments": [
+          "新P69—72共1067行与371行现稿完整双向对照，人声所有分类和权衡、音乐三作用五关系、音响五类四特性、融合视角悬念全部保持详细过程。",
+          "独白例原稿“战胜和攻克”略泛化，补回新文字明确的“二战苏联红军攻克柏林”的独特夸张比喻，作为教师对电影第一人称口吻的分析而非影片台词逐字恢复。",
+          "其余对白/书篇长度/音乐听感、阿甘猫王戏仿、妻夫不同情绪、赎罪故事内外声、音色版本、现代启示录主观点及两电话声源寻找都有正确条件，未因未听删清楚示例。",
+          "新ASR人生/弱脸痴/草莓土豆等不覆盖人声/入殓师原图和旧校字；五音画关系可重叠，声音性质需原声不能用ASR证明。其余正文链接/图解/个人/沉淀状态全部保全，P70—72仅共同SHA重绑。"
+        ],
+        "note_sha256": "c66a019d319b0927613ca89dadc1d723984212494c205ef2092885afddbc47d8",
+        "prior_note_sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P69-U03",
+            "item": "空军一号顾问与总统讨论公开反恐发言，为危机铺垫；死期演讲等词及对白语境待原课。",
+            "status": "待核",
+            "reason": "M1连续声画待核；原课文字和静态图文已分别整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P69-U05",
+            "item": "落水狗开篇桌边闲谈、非线性风格、人物与基调，命运预示属教师解读，不作每句台词必然预测。",
+            "status": "待核",
+            "reason": "M2连续声画待核；原课文字和静态图文已分别整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P69-U08",
+            "item": "阳光灿烂的日子马小军钥匙、开锁和主观回忆例子，第一人称与第三人称替换的语气差异；不展开现实开锁。",
+            "status": "待核",
+            "reason": "M3连续声画待核；原课文字和静态图文已分别整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P69-U11",
+            "item": "倚天屠龙记之魔教教主开场旁白加图画交代背景；王晶、金庸等ASR疑词和三分多钟/一本半书的修辞边界；08:47–09:06插片空窗。",
+            "status": "待核",
+            "reason": "M4连续声画待核；原课文字和静态图文已分别整理。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/18/工作报告.md",
+        "affected_primary_source_review": {
+          "old_source_ranges_read": {
+            "69": [
+              [
+                158,
+                178
+              ]
+            ]
+          },
+          "old_note_lines_allowed_to_replace": [
+            92
+          ],
+          "binding_only_pages": [
+            70,
+            71,
+            72
+          ],
+          "findings": "旧P69 primary L158—178实际读取，L172有苏联红军/二战/柏林的破损识别，L174—178是第一第三人称对照；新raw L141—160明确关系。仅补回具体课堂比喻，非历史论证或实操；旧来源落点含L92。其余3P只共享字节版本重绑。"
+        },
+        "primary_binding_only_for_this_page": false
+      }
     ]
   },
   "adoption": {

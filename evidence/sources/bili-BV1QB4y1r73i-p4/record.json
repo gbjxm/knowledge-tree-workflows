@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/老白的分镜课/03 - 第三课 范例一《老板，大门忘关了》（P4）.md",
-    "sha256": "07c4ee457ea0b16204e630eb7da676db4cb2fdd1e841cac3a7155da8e1be1261"
+    "sha256": "be5d2f7d83e5d9deec687f5566d8454b32556b2251e904f132f50620a81f4adb"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "7d16c5dd24bc0cff5e37434a747944a451de213d2a75747bcb30cc3b892ab16f",
-    "note_sha256": "07c4ee457ea0b16204e630eb7da676db4cb2fdd1e841cac3a7155da8e1be1261",
+    "note_sha256": "be5d2f7d83e5d9deec687f5566d8454b32556b2251e904f132f50620a81f4adb",
     "scope": [
       [
         1,
@@ -355,6 +355,84 @@
         "item": "独立声画效果",
         "reason": "原声未听、连续未看；切换/动作/声音/喜剧效果按讲师设计保存；不是核心图文含义阻塞",
         "blocks_knowledge_body": false
+      }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第03课-范例一《老板，大门忘关了》/P04-第三课 范例一《老板，大门忘关了》3-33586e54/large-v3-5ef88b2b6b/P04-第三课 范例一《老板，大门忘关了》3.raw.txt",
+        "review_source_sha256": "7a0493ab3b682f62aeb9fd8ca2e378490af8bbd8d65ff834f43c0e4ffa00ffab",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/03/P4-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            633
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；仅局部补回或修正有清楚源依据的内容，其他旧稿保全。",
+        "changes": [
+          "1号锁局部补明讲师称“U型锁”（新raw L167–191；旧primary L151–196；335秒原帧字幕及锁图实际核）。"
+        ],
+        "recognition_disagreements_and_judgments": [
+          "完整读P4新raw633行与现稿161行，各机位变体、两种跳感、两次误解、侧拍/声音和回顾中的兰先说后动分别保留。",
+          "原primary L151–196实际回读；旧词又行锁不单独定型号。新全文语境明确锁用于库房责任链，再实际看334、335、340秒原帧，其中335秒字幕明确U型锁；只将既有拿锁局部补为拿U型锁局部。",
+          "新raw L265把3号仰写为仰一点，而历史图文已核俯一点；不以ASR覆盖已核图示。新片名识别也不用于恢复被引用电影名。",
+          "普通添词不删故事过程；常规/压轴和移镜候选、暂不采用运动的限定不变。"
+        ],
+        "note_sha256": "be5d2f7d83e5d9deec687f5566d8454b32556b2251e904f132f50620a81f4adb",
+        "prior_note_sha256": "07c4ee457ea0b16204e630eb7da676db4cb2fdd1e841cac3a7155da8e1be1261",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "AV-P4",
+            "item": "独立声画效果",
+            "reason": "原声未听、连续未看；切换/动作/声音/喜剧效果按讲师设计保存；不是核心图文含义阻塞",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/03/工作报告.md",
+        "affected_primary_source_review": {
+          "old_source_ranges_read": {
+            "4": [
+              [
+                151,
+                196
+              ]
+            ]
+          },
+          "old_note_lines_allowed_to_replace": [
+            103
+          ],
+          "binding_only_pages": [],
+          "findings": "旧primary用破损又行锁，新raw完整拿锁/库房责任链清楚，335秒实际原帧字幕U型锁确认；仅补称呼，责任与候选归属不变。"
+        },
+        "primary_binding_only_for_this_page": false,
+        "actual_media_observations": [
+          {
+            "time_seconds": 334,
+            "path": ".runtime/raw-cache/course-laobai-review-20260930/visual-p4-details/p4-0334.png",
+            "viewed": true,
+            "observation": "手持细长U形道具的草图。单帧不证明动作连续过程。"
+          },
+          {
+            "time_seconds": 335,
+            "path": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/03/p4-0335.png",
+            "viewed": true,
+            "observation": "硬字幕明确啊 拿了一把这样的锁 U型锁，同时可见手持U形道具图。"
+          },
+          {
+            "time_seconds": 340,
+            "path": ".runtime/raw-cache/course-laobai-review-20260930/visual-p4-details/p4-0340.png",
+            "viewed": true,
+            "observation": "锁局部与远处员工同画面，字幕说明挂不住下不来台。"
+          }
+        ]
       }
     ]
   },

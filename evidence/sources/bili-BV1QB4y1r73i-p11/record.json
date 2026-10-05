@@ -550,6 +550,53 @@
         "reason": "书名封面硬字已核；书立场只保存老师课内描述与不认同的判断，未独立通读该书，不补作者/版次。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第10课-构图的两种思路/P11-第十课 构图的两种思路 10-895a617d/large-v3-5ef88b2b6b/P11-第十课 构图的两种思路 10.raw.txt",
+        "review_source_sha256": "3bcdc76e4ff676662ea70dd2ec9881c6506efe09fed32b30d765fb7d351e38a6",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/10/P11-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            990
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "全文新raw L1—990与现稿L1—210核对，抽象形四例、动态点位失效、既定河限制、沙发前中远和俯看替代、三个疏密对比、横带例外全部保全。",
+          "视觉焦点的走廊→香蕉皮→人物、强俯两线带走、桥结构/前树阻断各自关系和条件均已写清，未发现独特示例漏项。",
+          "新文字中“离魔/强思多理/松紧书密”等可按清楚前后语义读作临摹/牵强附会/疏密，原图字幕的三等分、《摄影构图学》及趣味点继续优先；不刷新正文日期或scope。",
+          "书中立场保持讲师转述，未通读该书；眼睛横长/舒适是课堂解释，未升为本轮生理证明。",
+          "9/30先行图文成果包含现稿独特关系，无需局部加字；本轮正式笔记原字节保持，无新增声画核验。"
+        ],
+        "note_sha256": "86e79ca68f923b6b4ce07df0a3a9b4120d91368ebdf3c677079fc02b1912d07e",
+        "prior_note_sha256": "86e79ca68f923b6b4ce07df0a3a9b4120d91368ebdf3c677079fc02b1912d07e",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "AV-P11",
+            "item": "人物移动、真实切点、眼迹、舒服疲劳与叙事效果",
+            "reason": "仅按讲师清楚解释保存方法；原静帧支持标线及离散画面关系，没有听原声、连续审看或真实观众眼动测量。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "BOOK-P11",
+            "item": "摄影构图学实际完整观点和外部版本",
+            "reason": "书名封面硬字已核；书立场只保存老师课内描述与不认同的判断，未独立通读该书，不补作者/版次。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/10/工作报告.md"
+      }
     ]
   },
   "working_review_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-10/review.md",

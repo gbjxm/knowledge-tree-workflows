@@ -602,6 +602,50 @@
         "item": "葡萄干酥点的比拟糕点名尚未核清；正文保留清楚的食物描述，不猜专名。小说章次译注单独归给译者，没有查证原著全书。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第13课-幽默/P13-P13 幽默-889efb8e/large-v3-ce02d88ede/P13-P13 幽默.raw.txt",
+        "review_source_sha256": "00c581743d02cbe70f2f5aabcde7f57681ab8a823d485969b596745da9e42c99",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/10-14/13/P13-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            258
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "海盗买奶全文、父子叙述食人鱼纠错、套路尝试、猪油句序、两类笑点、香烟媒介结尾与青柠全过程均相对；正文无需要实质改动的遗漏。",
+          "新ASR L142识别Eccles cake，但旧记录M2明确比拟糕点专名未核清；本轮不凭另一次ASR解除该疑点，食物清楚类别仍保留，专名独立待核。",
+          "第十二章及几章之后是讲师说法，“实际一章之后”是旧图内译者说明，沿用分层并未查原著全书。",
+          "Figgin回收与青柠重复但无回收并列；六十年代和随后七十年代说法分别保留，未统一年代；文字落点不是原声喜剧效果验收。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "eb5befee4ccf54af40658ceda1fd3a0c34702177f6c2a747e667f55dcf2b02ff",
+        "prior_note_sha256": "eb5befee4ccf54af40658ceda1fd3a0c34702177f6c2a747e667f55dcf2b02ff",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看；不以静帧证明朗读停顿、语气或喜剧表演效果。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "葡萄干酥点的比拟糕点名尚未核清；正文保留清楚的食物描述，不猜专名。小说章次译注单独归给译者，没有查证原著全书。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/10-14/13/工作报告.md"
+      }
     ]
   },
   "preservation": {

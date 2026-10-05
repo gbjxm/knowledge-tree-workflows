@@ -155,8 +155,14 @@ class RetrieveKnowledgeTests(unittest.TestCase):
         result = retrieve(topics, "两个人站着说话，镜头怎么拍才不死", "视觉设计", routes=routes)
         card = result["candidates"][0]
         self.assertEqual("场面调度与镜头覆盖", card["title"])
-        for field in ("core", "method_chunks", "minimal_action", "boundary", "evidence_status"):
+        for field in ("core", "boundary", "evidence_status"):
             self.assertTrue(card[field], field)
+        # The fixture's generic instruction is not a body method for staging
+        # a dialogue scene. Navigation must remain useful without inventing
+        # a method or action merely to keep a card field nonempty.
+        self.assertTrue(card["method_gap"])
+        self.assertEqual([], card["method_chunks"])
+        self.assertEqual("", card["minimal_action"])
         self.assertEqual("navigation_hint", card["route"]["kind"])
 
     def test_formal_relation_rows_are_exposed(self) -> None:

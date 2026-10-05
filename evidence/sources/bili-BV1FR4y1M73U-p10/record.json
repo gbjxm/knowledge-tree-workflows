@@ -476,6 +476,50 @@
         "item": "神话经历按课堂所读小说保存；Heinlein故事分类为讲师转述，本次未外部核定出处。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第10课-角色塑造案例分析《十月童话》/P10-P10 角色塑造案例分析《十月童话》-f5c15ddc/large-v3-ce02d88ede/P10-P10 角色塑造案例分析《十月童话》.raw.txt",
+        "review_source_sha256": "c185baf05c8e2aea8f7e1157c2948ff619daf41d5e5f7a5f645f35a936b61e3e",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/10-14/10/P10-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            191
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "完整故事与随后人物分析逐项相对；新raw未暴露足以改正文的实质遗漏，所有既有情节、名称、关系及作者设想保全。",
+          "新raw L31省略旧primary L59的灯中久居口渴解释，正文仍据已读取旧primary和原图文复核保留，不因新识别漏字删旧成果。",
+          "Suleiman/所罗门沿既有已核故事名称；Toots年代为作者可能设想，精灵历时和神话均是故事内讲述。",
+          "Heinlein三形状与作者偏好、陌生环境双面作用、Hazel有伴侣需求但不许愿的限定均在正文。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "a6e78e3368886b4825a95234b4afe0295765d8a5e29954bb5e3873d23801ddb2",
+        "prior_note_sha256": "a6e78e3368886b4825a95234b4afe0295765d8a5e29954bb5e3873d23801ddb2",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看；本稿不判断盖曼朗读的音色、语气、节奏及声画同步。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "神话经历按课堂所读小说保存；Heinlein故事分类为讲师转述，本次未外部核定出处。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/10-14/10/工作报告.md"
+      }
     ]
   },
   "preservation": {

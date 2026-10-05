@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/查理老师的编剧课/15 - 第十五课 节拍器（P34-P37）.md",
-    "sha256": "9e1c9a583eecb7b29de2a9104f96071c2072d617517293045de7858e0df6b3d4"
+    "sha256": "f95e5415251712003bf2710332e1e33823e143d4b86a5cfead7d842a4df6cea9"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "52b46e8877191cabfff19b3fe2b2c1cb565f1785102b45c4c8208baaa6495afe",
-    "note_sha256": "9e1c9a583eecb7b29de2a9104f96071c2072d617517293045de7858e0df6b3d4",
+    "note_sha256": "f95e5415251712003bf2710332e1e33823e143d4b86a5cfead7d842a4df6cea9",
     "scope": [
       [
         6,
@@ -278,5 +278,188 @@
     "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第十五课原有学习记录.md",
     "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-15/old-unique-and-learning.md"
   },
-  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-15/review.md"
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-15/review.md",
+  "incremental_reviews": [
+    {
+      "date": "2026-10-03",
+      "kind": "new_asr_to_existing_lesson_note",
+      "asr_source": {
+        "local_text_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第15课-节拍器/P34-十五课-节拍器15.1-df30fe65/large-v3-5ef88b2b6b/P34-十五课-节拍器15.1.raw.txt",
+        "text_sha256": "c790f4a4448aa8dd9048a917e26df2dec30acbd07bb4c9388f1251a1fbc9b453"
+      },
+      "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/09-15/15/P34-new-raw-coverage.json",
+      "scope": {
+        "page": 34,
+        "raw_lines": [
+          1,
+          924
+        ],
+        "lesson": 15
+      },
+      "note_sha256": "f95e5415251712003bf2710332e1e33823e143d4b86a5cfead7d842a4df6cea9",
+      "method": "完整读新raw→按源序列语义清单→完整读现行课级正文→双向核对；保留历史图文已核内容；正文→新raw及旧稿保全复核",
+      "summary": "P34—P37新ASR全文与现行第十五课双向核对完成；定点补入受虐孩子二十元整钞/零钱的不符细节、最后衔接点绕开对抗的四种假想办法，以及《回到17岁》借身份优势挽回家人的A线手段；其余十五拍、A/B、Want/Need、不同作品内在节点和方法边界完整保留。",
+      "changes": [
+        "受虐孩子案例补回‘养母丢整二十元、孩子挣一把零钱’的具体对照。",
+        "第85分钟衔接点补回下毒、举报嫖娼、下泻药、雇偷袭四项失败办法，明确为课堂设想，未充当《破坏之王》剧情。",
+        "《回到17岁》补回利用年轻身份、家人不知身份而像间谍行动的A线办法，与认真了解家人的B线区分。"
+      ],
+      "unverified": [
+        "未回听原音、未连续审看；新ASR错识‘终点/终场/中场’不覆盖历史板书和字幕已核概念。",
+        "P35关于12—15与12—25的破损识别，按前后澄清和已有板书保留12—25，不把冲突数字变成新规则。",
+        "最终卖场大战片名新ASR‘深渊人’不能可靠核名，保留现行《伸冤人》旧记录归属与可确定场面；电影情节、斯奈德规则及作者心理均为讲师解读，未外核。"
+      ],
+      "heard_audio": false,
+      "continuous_av_reviewed": false,
+      "raw_modified": false,
+      "primary_source_preserved": true,
+      "coverage_check_returncode": 0,
+      "old_note_mapping_rechecked": [
+        {
+          "id": "U1",
+          "old_note_lines": [
+            53,
+            53
+          ],
+          "current_note_lines": [
+            53,
+            53
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U2",
+          "old_note_lines": [
+            55,
+            55
+          ],
+          "current_note_lines": [
+            55,
+            55
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U3",
+          "old_note_lines": [
+            57,
+            57
+          ],
+          "current_note_lines": [
+            57,
+            57
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U4",
+          "old_note_lines": [
+            59,
+            59
+          ],
+          "current_note_lines": [
+            59,
+            59
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U5",
+          "old_note_lines": [
+            57,
+            57
+          ],
+          "current_note_lines": [
+            57,
+            57
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U6",
+          "old_note_lines": [
+            63,
+            63
+          ],
+          "current_note_lines": [
+            63,
+            63
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U7",
+          "old_note_lines": [
+            65,
+            65
+          ],
+          "current_note_lines": [
+            65,
+            65
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U8",
+          "old_note_lines": [
+            73,
+            73
+          ],
+          "current_note_lines": [
+            73,
+            73
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U9",
+          "old_note_lines": [
+            75,
+            75
+          ],
+          "current_note_lines": [
+            75,
+            75
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U10",
+          "old_note_lines": [
+            117,
+            117
+          ],
+          "current_note_lines": [
+            117,
+            117
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U11",
+          "old_note_lines": [
+            101,
+            101
+          ],
+          "current_note_lines": [
+            101,
+            101
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U12",
+          "old_note_lines": [
+            105,
+            105
+          ],
+          "current_note_lines": [
+            105,
+            105
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        }
+      ]
+    }
+  ]
 }

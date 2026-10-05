@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/查理老师的编剧课/01 - 第一课 劝学（P2-P4）.md",
-    "sha256": "8e67c1d223d9f6a69f8380b55493cb3a2f045ac5295f72c7a469beba04503ff2"
+    "sha256": "c52af2d54237f31a0909c445db7963bedf1fe0a5c74a8bc58a26b1163f2b46a6"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "1a8f06bcad4a1cd3691578fe13f8c175b6f85b674a250871ec3e47dd393aaacd",
-    "note_sha256": "8e67c1d223d9f6a69f8380b55493cb3a2f045ac5295f72c7a469beba04503ff2",
+    "note_sha256": "c52af2d54237f31a0909c445db7963bedf1fe0a5c74a8bc58a26b1163f2b46a6",
     "scope": [
       [
         6,
@@ -277,6 +277,32 @@
         "id": "M2",
         "item": "行业比例、市场和审美判断以及人类演化年代/能力差异为讲师当时观点或转述，未外核为当前统计或学术结论。",
         "blocks_knowledge_body": false
+      },
+      {
+        "id": "M3-20261002",
+        "item": "P2新回传约12:00爱情幻想中“孩子都会打酱油了”可有现实或假想关系的不同读法，本轮没有听核，不裁决；当前正文主要幻想机制保留。",
+        "blocks_knowledge_body": false
+      }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-02",
+        "scope": "本轮P02-P04网页回传全文与第一课正文对照；本P为P2。仅P4两处正文内容改动，其他知识内容保留。",
+        "supplemental_source": {
+          "kind": "user_supplied_web_transcript",
+          "local_text_hint": ".runtime/raw-cache/课程音频转写试验/四门课程音频/01-查理老师的编剧课/第01课-劝学/转写回传/第一轮/P02-劝学1.1_完整转写.md",
+          "text_sha256": "a9050439aa72ea8053929dd33bd5601be27550f253a31b176d6dcb7c00f9b69d"
+        },
+        "method": "子代理来源先读后完整读正文；根代理定点核对受影响新旧来源和改后正文。",
+        "changes": [
+          "本P对应正文未改；合课笔记的其他P有局部修订，重新检查本P定位与最终文件绑定。"
+        ],
+        "prior_note_sha256": "8e67c1d223d9f6a69f8380b55493cb3a2f045ac5295f72c7a469beba04503ff2",
+        "final_note_sha256": "c52af2d54237f31a0909c445db7963bedf1fe0a5c74a8bc58a26b1163f2b46a6",
+        "audio_listened": false,
+        "continuous_video_review": false,
+        "historical_review_retained": true,
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-20261002/第01课-采用与验收.md"
       }
     ]
   },

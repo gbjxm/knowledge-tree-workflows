@@ -458,6 +458,50 @@
         "item": "03:36 Jackson的名字在字幕与ASR均作Shelley，具体人物未核定；正文保留姓及字幕写法，不据猜测替换。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第07课-短篇小说/P07-P7 短篇小说-f4f170f4/large-v3-ce02d88ede/P07-P7 短篇小说.raw.txt",
+        "review_source_sha256": "64e299181cc9c8af4aae38fcac5833e97fd0935266773af92ef39a6652d27967",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/05-09/07/P7-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            157
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "完整新raw L1–157与中文L1–128已分别阅读；三类阅读经验、作家和书名来历、Zelazny末章、百词故事过程与两次认出时机均保全。",
+          "新raw L44作Shirley Jackson；旧复核记录和原字幕/旧ASR作Shelley Jackson。正文保留Jackson姓及历史字幕写法，名字仍待原声定点核验，未凭新识别替换。",
+          "蜗牛probably的回忆不确定、十三万/八千及短篇不同词数周期只是例子、关于一件事不等于只准一个动作，限定均保存。",
+          "原有冰山图示、个人提醒与整理者练习的旧记录入口保全；本轮未新增用户练习或保存个人理解。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "ef272a803147950407c3e95b1a38da756f3f854235f97155e2bc1919211d95b4",
+        "prior_note_sha256": "ef272a803147950407c3e95b1a38da756f3f854235f97155e2bc1919211d95b4",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声或连续审看；不以静帧判断手势、朗读节奏与声画效果。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "03:36 Jackson的名字在字幕与ASR均作Shelley，具体人物未核定；正文保留姓及字幕写法，不据猜测替换。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/05-09/07/工作报告.md"
+      }
     ]
   },
   "preservation": {

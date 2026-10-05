@@ -201,6 +201,75 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第17课-第十章 视听节奏/P65-10.14影视需要有节奏2-36c0793c/large-v3-5ef88b2b6b/P65-10.14影视需要有节奏2.raw.txt",
+        "review_source_sha256": "9ff3dfb4e7622e16299df34efda28481e4bb105b386b6d21ad281c6ba2923d3c",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/17/P65-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            161
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "新P64—68共980行與339行现稿完整双向对照，内外节奏、叙事三因素、影像五因素、上学三处理与军库五技法每个条件和独特例已充分保存。",
+          "阿飞“可能”与导演未确认、钢锯岭伤兵非复活、三峡和荒野同长镜异节奏、英雄五色非词典、慢画快声/音乐语境差异均有明確段落。",
+          "新ASR化简为凡/目的/跨门等不替原图化简为繁/墓地/快慢相间；钟声、三20分钟、六切和镜头时长保持教师说而未计数/听审。",
+          "P67现有视频轨1.122秒差历史问题不据本轮文字关闭，源音/导出完整与视频获取范围分开。未发现实质补改必要，正文原字节保留。"
+        ],
+        "note_sha256": "2237128c8019f982dfaeaedf9ec4dd6c5a09714dbe1718721571ffdef71437c1",
+        "prior_note_sha256": "2237128c8019f982dfaeaedf9ec4dd6c5a09714dbe1718721571ffdef71437c1",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P65-U02",
+            "item": "三峡好人开篇船上横摇，打牌吸烟聊天望远思考等状态与平缓叙述，教师用沉闷形容风格。",
+            "status": "待核",
+            "reason": "M5的连续声画待核；来源文字与静态补充已分别保留。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P65-U03",
+            "item": "荒野猎人开篇水流、低视点前行、一到两名猎人、举枪射击；02:27–03:21及03:33–04:24等长空窗，角色ASR失真。",
+            "status": "待核",
+            "reason": "M6的连续声画待核；来源文字与静态补充已分别保留。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P65-U04",
+            "item": "两种长镜头对照：平稳横移与林间蛇行、冷暗雾气流水、危险预感、沉浸类比；摄影师姓名需核。",
+            "status": "待核",
+            "reason": "M6的连续声画待核；来源文字与静态补充已分别保留。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P65-U05",
+            "item": "血战钢锯岭战场行进、貌似尸体的人喊叫引出反应和混战，短镜头衔接；不把表演描述误写复活。",
+            "status": "待核",
+            "reason": "M7的连续声画待核；来源文字与静态补充已分别保留。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P65-U07",
+            "item": "血战钢锯岭再举例，以全远与近特为主、少量中景，交叉组接与速度感；08:38以后长媒体窗待核。",
+            "status": "待核",
+            "reason": "M7的连续声画待核；来源文字与静态补充已分别保留。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/17/工作报告.md"
+      }
     ]
   },
   "adoption": {

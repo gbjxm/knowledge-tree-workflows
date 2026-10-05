@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/老白的分镜课/14 - 第十四课 什么时候能跳轴（P15）.md",
-    "sha256": "dc2a199680e2d97627db056ea2d2aa59c0dc7931324e3407d0bb4f33a135d5a1"
+    "sha256": "7501f15f560932032e227b30eb9b282c0f6da9318f3b72e88eae2fef998c948a"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "ff3b7704e7ee1b37c88c0ce8639ebcb62e4860c51302e4ac7cc58b9e6e156708",
-    "note_sha256": "dc2a199680e2d97627db056ea2d2aa59c0dc7931324e3407d0bb4f33a135d5a1",
+    "note_sha256": "7501f15f560932032e227b30eb9b282c0f6da9318f3b72e88eae2fef998c948a",
     "scope": [
       [
         1,
@@ -276,10 +276,10 @@
     ]
   },
   "review": {
-    "date": "2026-09-30",
-    "scope": "现存P15 ASR298行完整阅读与重读三向AI复核；19全课分布+30关系+7字幕静帧实际核查",
-    "summary": "补清首例编号/静态方位，保全既有五案例及取舍，限定两种可能/老师效果解读；旧框架/个人另存，原附件关联与历史来源身份保护。",
-    "method": "先来源清单与全课分布→旧稿→候选→全部来源重读/反查/旧稿去向；非用户验收、非独立连续声画核验。",
+    "date": "2026-10-03",
+    "scope": "历史范围保留：现存P15 ASR298行完整阅读与重读三向AI复核；19全课分布+30关系+7字幕静帧实际核查；本次：bili-BV1QB4y1r73i-p15既有覆盖项的定位/保全及局部方法文本复核；未重做历史声画检查",
+    "summary": "旧覆盖项正文逐行保留，定位随插入行迁移；局部新增方法经过来源→正文、正文→来源、旧稿→新稿语义复核。",
+    "method": "本轮读取已存在、哈希匹配的来源文本与完整改前/改后笔记；语义结论见六篇试点审阅包。",
     "unverified": [
       {
         "id": "AV-P15",
@@ -292,6 +292,65 @@
         "item": "侧面女孩正式片外姓名字形",
         "reason": "原课堂字幕写静心，正文保留这一读数并用女孩说明，未按同音常识改为电影规范人名；角色静态位置与方法作用明确，不影响核心关系。",
         "blocks_knowledge_body": false
+      }
+    ],
+    "limitations": "仅为已有文本范围的局部复核；不新增原声听审、连续声画验证、用户掌握或真实项目效果。新增操作转译明确归属本体系，既有覆盖登记不认证其为讲者原话。",
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "kind": "core-chain-local-method-pilot",
+        "scope": "本次局部方法的作者/综合归属与三向语义复核；旧覆盖项逐行保全，旧增量复核完整保留",
+        "note_sha256": "7501f15f560932032e227b30eb9b282c0f6da9318f3b72e88eae2fef998c948a",
+        "prior_note_sha256": "dc2a199680e2d97627db056ea2d2aa59c0dc7931324e3407d0bb4f33a135d5a1",
+        "source_text_sha256": "ff3b7704e7ee1b37c88c0ce8639ebcb62e4860c51302e4ac7cc58b9e6e156708",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "working_review_hint": ".runtime/raw-cache/core-chain-optimization/20261003-125230/pilot/semantic-reviews.json"
+      },
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第14课-什么时候能跳轴/P15-第十四课 什么时候能跳轴-a460033c/large-v3-5ef88b2b6b/P15-第十四课 什么时候能跳轴.raw.txt",
+        "review_source_sha256": "807d57f091efaa83e4d1ad0c4edb3888ce903f1636cae99cef64ae0881001cd1",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/14/P15-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            292
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "新raw L1—292与现稿L1—146全文对照，首例关系轴1/2/3/4、不跳备选、观看者敖江、无反应4拖慢、对脸和删转头对照已完整。",
+          "无名走廊单墙失败、异侧纵深，小津推荐，无名氛围/段落两种可能，关山飞渡混乱与喜剧之王短暂亲密全部已有具体正文。",
+          "新文字“外门打开/卖数/大苍/雪轮/小金安尔郎”不覆盖旧原图已核脉术、角色称呼、小津；女孩“静心”保留课堂原字形而非片外认定。",
+          "无名动机维持“可能”，不以新文删该限定；现稿整理者逐切口操作转译有明确身份，不能把它误当讲师新规则。",
+          "没有新的实质遗漏，正式笔记原字节保存；未操作创作正文、旧练习/个人入口或关系。"
+        ],
+        "note_sha256": "7501f15f560932032e227b30eb9b282c0f6da9318f3b72e88eae2fef998c948a",
+        "prior_note_sha256": "7501f15f560932032e227b30eb9b282c0f6da9318f3b72e88eae2fef998c948a",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "AV-P15",
+            "item": "原声及连续剪辑、动作、情绪和速度效果",
+            "reason": "未独立听音/连续观看，脸向/图示/字幕仅证静态含义，连看效果按老师分析披露。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NAME-P15",
+            "item": "侧面女孩正式片外姓名字形",
+            "reason": "原课堂字幕写静心，正文保留这一读数并用女孩说明，未按同音常识改为电影规范人名；角色静态位置与方法作用明确，不影响核心关系。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/14/工作报告.md"
       }
     ]
   },
@@ -356,6 +415,37 @@
       },
       "backup_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-14/backups/evidence/bili-BV1QB4y1r73i-p15",
       "change": "同身份新一轮图文复核；旧完整记录留备份"
+    }
+  ],
+  "revision_history": [
+    {
+      "date": "2026-10-03",
+      "previous_note": {
+        "path": "知识库/学习区/课程/老白的分镜课/14 - 第十四课 什么时候能跳轴（P15）.md",
+        "sha256": "dc2a199680e2d97627db056ea2d2aa59c0dc7931324e3407d0bb4f33a135d5a1"
+      },
+      "previous_coverage_note_sha256": "dc2a199680e2d97627db056ea2d2aa59c0dc7931324e3407d0bb4f33a135d5a1",
+      "previous_review": {
+        "date": "2026-09-30",
+        "scope": "现存P15 ASR298行完整阅读与重读三向AI复核；19全课分布+30关系+7字幕静帧实际核查",
+        "summary": "补清首例编号/静态方位，保全既有五案例及取舍，限定两种可能/老师效果解读；旧框架/个人另存，原附件关联与历史来源身份保护。",
+        "method": "先来源清单与全课分布→旧稿→候选→全部来源重读/反查/旧稿去向；非用户验收、非独立连续声画核验。",
+        "unverified": [
+          {
+            "id": "AV-P15",
+            "item": "原声及连续剪辑、动作、情绪和速度效果",
+            "reason": "未独立听音/连续观看，脸向/图示/字幕仅证静态含义，连看效果按老师分析披露。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NAME-P15",
+            "item": "侧面女孩正式片外姓名字形",
+            "reason": "原课堂字幕写静心，正文保留这一读数并用女孩说明，未按同音常识改为电影规范人名；角色静态位置与方法作用明确，不影响核心关系。",
+            "blocks_knowledge_body": false
+          }
+        ]
+      },
+      "reason": "六篇试点局部方法补充；受影响内容完成文本语义复核，旧审核和旧前缀身份作为历史保存"
     }
   ]
 }

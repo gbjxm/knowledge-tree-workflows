@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/查理老师的编剧课/23 - 第二十三课 怎么写喜剧（P48-P49）.md",
-    "sha256": "d587b122df0e0c23f877ba15f3446a47eb5ff7af8ca70641a3aec52baafb71e7"
+    "sha256": "52bd1427c8225ccbc7e153031b3da87df351f24738380717faba6c9402a1636b"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "d5805cf66c6fe522bac915f472e2a281615f6a4a545b8eb7acc59c0d1b9dd8ee",
-    "note_sha256": "d587b122df0e0c23f877ba15f3446a47eb5ff7af8ca70641a3aec52baafb71e7",
+    "note_sha256": "52bd1427c8225ccbc7e153031b3da87df351f24738380717faba6c9402a1636b",
     "scope": [
       [
         6,
@@ -73,7 +73,7 @@
         },
         "note": {
           "lines": [
-            64,
+            62,
             64
           ]
         },
@@ -92,7 +92,7 @@
         "note": {
           "lines": [
             68,
-            68
+            70
           ]
         },
         "status": "合并",
@@ -109,8 +109,8 @@
         },
         "note": {
           "lines": [
-            72,
-            72
+            70,
+            80
           ]
         },
         "status": "合并",
@@ -146,7 +146,7 @@
         "note": {
           "lines": [
             84,
-            84
+            86
           ]
         },
         "status": "合并",
@@ -163,8 +163,8 @@
         },
         "note": {
           "lines": [
-            92,
-            92
+            78,
+            94
           ]
         },
         "status": "合并",
@@ -264,6 +264,70 @@
         "id": "M3",
         "item": "影片情节、名人观点和行业经验按课堂复述保存，未独立外查；未把地域/性别/族群的角色认知写为现实事实，未自加课程作业和答案。",
         "blocks_knowledge_body": false
+      }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "scope": "P48新ASR 1—1289行全文，与第23课正文P48知识对照；仅五张定点原字幕帧新看。",
+        "source": {
+          "kind": "local_asr",
+          "local_text_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第23课-怎么写喜剧/P48-二十三课-怎么写喜剧？(上）23.1-64542929/large-v3-5ef88b2b6b/P48-二十三课-怎么写喜剧？(上）23.1.raw.txt",
+          "text_sha256": "3bf0e820068e8dc12cd16c4dd002979a3e4049cae2f6a5d53dc7445ff5b7a5c9"
+        },
+        "new_source_coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/23-P48/新ASR对照-P48.json",
+        "changes": [
+          "学习自证的一个月12斤自述",
+          "喜剧班个人回忆及专题摘果子用法",
+          "人物事件主题逐项叠加的顺序",
+          "夜壶比喻的论证",
+          "定点字幕核正拖鞋及星空顶细节"
+        ],
+        "visual_frames": [
+          {
+            "actual": 940.301,
+            "sha256": "977469c822b18ba5cf866e11e53dfaf6d00483c59fee2c987ad10bf2cd0004e5",
+            "actually_read_caption": "它就像果子了 对吧"
+          },
+          {
+            "actual": 1976.101,
+            "sha256": "02872b5e0f8df408a4a5711f65cee5cfc94981bb276659d5553273536687305a",
+            "actually_read_caption": "拖鞋都从脚上套到腿脖子上了"
+          },
+          {
+            "actual": 2000.701,
+            "sha256": "416081c47f877b8cfbce4e9cb3a4ab9aec47e0659769fd53aa6c20fcc1c894ff",
+            "actually_read_caption": "人家在车里"
+          },
+          {
+            "actual": 2002.301,
+            "sha256": "6c906f03b3e0495292bb74fb187763adc411920e7baaaf0ab6d2ace107108dc1",
+            "actually_read_caption": "对吧"
+          },
+          {
+            "actual": 2001.301,
+            "sha256": "0e781d6f12c2a6a4193d058a15ab3090fd3c44dc3d816577d0d35421d57d0c9f",
+            "actually_read_caption": "还星空顶"
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/23-P48/核对与采用.md",
+        "whole_lesson_new_asr_reviewed": false,
+        "audio_listened": false,
+        "continuous_video_review": false,
+        "prior_note_sha256": "d587b122df0e0c23f877ba15f3446a47eb5ff7af8ca70641a3aec52baafb71e7",
+        "final_note_sha256": "3ec26f20b60ee3231cc2bb7f7d81a7173224581f3525afc979c14643237990bf"
+      },
+      {
+        "date": "2026-10-03",
+        "operation": "shared_note_binding_only",
+        "new_asr_reviewed": false,
+        "scope": "同篇P49补核之后更新整篇note哈希；P48已核知识段逐行未变，来源边界L36同步说明两P进度。",
+        "prior_note_sha256": "3ec26f20b60ee3231cc2bb7f7d81a7173224581f3525afc979c14643237990bf",
+        "final_note_sha256": "52bd1427c8225ccbc7e153031b3da87df351f24738380717faba6c9402a1636b",
+        "previous_full_review_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/23-P48/核对与采用.md",
+        "rebased_previous_coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/23/P48-previous-new-raw-coverage-rebased.json",
+        "audio_review": "not_listened",
+        "continuous_video_review": false
       }
     ]
   },

@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/中国传媒大学《视听语言》/11 - 第九章 后期剪辑与蒙太奇层次（P48-P51）.md",
-    "sha256": "5a8203f2fac596b7341c89c20b8ec71fe0b4a26b36c736eaf1cb9f4ff93c03c8"
+    "sha256": "817e4fbfa883d29e4efb6f4f8d424f387c5629a0c077d150fd0de82561a43aa7"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "97c60e013c14a22863621092f2593fcb8dc1dd84b75c83989536239b3534ffe9",
-    "note_sha256": "5a8203f2fac596b7341c89c20b8ec71fe0b4a26b36c736eaf1cb9f4ff93c03c8",
+    "note_sha256": "817e4fbfa883d29e4efb6f4f8d424f387c5629a0c077d150fd0de82561a43aa7",
     "scope": [
       [
         6,
@@ -288,6 +288,155 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第11课-第九章 后期剪辑与蒙太奇层次/P48-9.1影像的后期剪辑——后期剪辑的基本层次-d46a6d22/large-v3-5ef88b2b6b/P48-9.1影像的后期剪辑——后期剪辑的基本层次.raw.txt",
+        "review_source_sha256": "e3e4bcc33136c3afd51687beb915d2987fe04bd03380429c898b35dc2ee9e792",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-08-12/11/P48-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            229
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；仅局部补回或修正有清楚源依据的内容，其他旧稿保全。",
+        "changes": [
+          "P49 L88补幼儿园情境、递玩具/哭的讲师剪点；L94补孩子回答及删留解释对照；L98补治病筹款/白眼情境。",
+          "P50 L136补讲师道哥装狗微波炉；L138补交警离去及写拆转换；L150补保安向妻子借钱的情境。",
+          "P51 L176补水浒具体两段索引；L188补跨场问答的教学复述；L204补探员假买车、车商不知身份/夫妻关系及想象伤人后仍开车的对照。"
+        ],
+        "recognition_disagreements_and_judgments": [
+          "完整读P48–51全部新raw1161行及現稿250行；镜头状态、逐步式句型、动作/情绪/节奏、七类转场及每个疯狂石头案例、八类结构/表意例分别清单。",
+          "现稿部分课堂案例压得过概括，补回清楚的新ASR讲师完整描述：男孩递接与哭的剪点，山区孩子其实这也挺好删留差别，母亲为孩子治病筹款遭白眼；均按教学描述非独立实看。",
+          "疯狂石头补讲师回述装狗进微波炉、交警离去与写拆的转换、保安缺款去妻处借钱；不改旧实际取样身份、声音未听、不能把采样拼精确路线的限定。",
+          "宏观例补水浒两段具体索引、小兵张嘎跨场问答关系、真实谎言探员假买与妻子/车商隐瞒动机；专名普通识别错字按完整语境校正，未恢复原片逐镜对白表。",
+          "受影响旧primary已实际回读P49 L76–177，P50 L100–166及L196–238，P51 L21–40/L106–122/L194–223；全部各旧unit源定位/状态保全，P48仅共享最终稿重绑。",
+          "所有新增语句留在原段，旧条件、反例、外部补充归属、附件和个人记录保全；原声未听、连续未审，不报告真实节奏或情绪效果。"
+        ],
+        "note_sha256": "0c8e5afee79dcbcd17ab2eba54e17db47f74227c3af16322971f3e86fe5929b2",
+        "prior_note_sha256": "5a8203f2fac596b7341c89c20b8ec71fe0b4a26b36c736eaf1cb9f4ff93c03c8",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P48-U03",
+            "item": "动接动、静接静术语和固定接固定的例子；ASR镜／静需原字幕确认，不写成整个影片只能固定或只能运动的禁令。",
+            "status": "待核",
+            "reason": "M1连续声画待核；讲者分析与实际所见图文已区别保存。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P48-U07",
+            "item": "相隔景别的课堂经验：近景接全景、特写接中景等；所谓国外经验与采访趋势未有独立依据，不写成强制标准。",
+            "status": "待核",
+            "reason": "M1连续声画待核；讲者分析与实际所见图文已区别保存。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-08-12/11/工作报告.md",
+        "affected_primary_source_review": {
+          "old_source_ranges_read": {
+            "49": [
+              [
+                76,
+                177
+              ]
+            ],
+            "50": [
+              [
+                100,
+                166
+              ],
+              [
+                196,
+                238
+              ]
+            ],
+            "51": [
+              [
+                21,
+                40
+              ],
+              [
+                106,
+                122
+              ],
+              [
+                194,
+                223
+              ]
+            ]
+          },
+          "old_note_lines_allowed_to_replace": [
+            88,
+            94,
+            98,
+            136,
+            138,
+            150,
+            176,
+            188,
+            204
+          ],
+          "binding_only_pages": [
+            48
+          ],
+          "findings": "以上受影响旧原文范围实际逐行回读，明确关系与新ASR清楚句相互支持；保留讲师描述身份、旧原声/连续待核，未将疑电影台词转成逐镜原话。原unit定位已覆盖增补同段不改source坐标。"
+        },
+        "primary_binding_only_for_this_page": true
+      },
+      {
+        "date": "2026-10-04",
+        "operation": "neutral_wording_refinement",
+        "summary": "仅正文L88将“哭泣中的动作间歇”中性改为“哭泣动作的间歇”，不判定间歇必在哭泣进行中；原声与连续示范未核继续保留。",
+        "changes": [
+          {
+            "note_lines": [
+              88,
+              88
+            ],
+            "before": "到哭泣中的动作间歇处截断",
+            "after": "到哭泣动作的间歇处截断"
+          }
+        ],
+        "actual_read_scope": {
+          "new_raw": {
+            "page": 49,
+            "lines": [
+              87,
+              97
+            ]
+          },
+          "old_primary": {
+            "page": 49,
+            "lines": [
+              94,
+              105
+            ]
+          },
+          "formal_note_lines": [
+            86,
+            90
+          ]
+        },
+        "prior_note_sha256": "0c8e5afee79dcbcd17ab2eba54e17db47f74227c3af16322971f3e86fe5929b2",
+        "note_sha256": "817e4fbfa883d29e4efb6f4f8d424f387c5629a0c077d150fd0de82561a43aa7",
+        "new_coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-11-wording-correction/11/P48-new-raw-coverage.json",
+        "scope_kind": "局部语句修订及四P已有映射版本重验，不宣称新增四P全文语义复核",
+        "binding_only_for_this_page": true,
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "prior_incremental_review_count": 1,
+        "history_preserved": true,
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-11-wording-correction/11/工作报告.md"
+      }
     ]
   },
   "adoption": {

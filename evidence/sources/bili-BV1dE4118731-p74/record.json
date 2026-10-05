@@ -341,6 +341,89 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第19课-第十章 影调层次/P74-10.23影调有层次（下）-62040c9a/large-v3-5ef88b2b6b/P74-10.23影调有层次（下）.raw.txt",
+        "review_source_sha256": "b4366d7860e314ea9ca2fae4a0f179cb0e7f374bd0062786741565f8cfd3a354",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/19/P74-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            208
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "P73新180行/P74新208行与284行现稿全文双向核对，高低与硬软两轴、中间双义/事项、所有亮暗对比物、两个四月/两个餐桌、材质与其他调整全有对应实质正文。",
+          "新文“饮料/蝶中蝶舞/刺客念饮娘”不覆盖已核影调/碟中谍5/刺客聂隐娘；角光仍未听，不由于新识别同词便擅认下光。",
+          "高调非过曝低调非一片黑，亮暗主导与软硬/光向区别、固定外景时段适用条件、透视口语限制、拔草轶事身份均保持。",
+          "本轮无新增看图/听原声/连续视看。未发现實质遗漏，正式正文和所有历史/沉淀/附件字节保留，待核不因文字清楚或技术导出校验关闭。"
+        ],
+        "note_sha256": "10f6867d50a7ed302c75e1523a27c25e1f8e2e40fa500a95b362838e363da019",
+        "prior_note_sha256": "10f6867d50a7ed302c75e1523a27c25e1f8e2e40fa500a95b362838e363da019",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P74-U02",
+            "item": "四月物语卯月搬家疑词，樱花/室内舒适、柔光低反差；01:29–02:13长无ASR插片，姓名须原字。",
+            "status": "待核",
+            "reason": "M5连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P74-U04",
+            "item": "四月物语卯月加入钓鱼社团疑词，平均柔暖光、自然穿着、没有过亮过暗、过渡顺；03:20–03:44空窗。",
+            "status": "待核",
+            "reason": "M6连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P74-U07",
+            "item": "布鲁克林姑娘初到纽约与房东吃饭、昏暗环境与孤独茫然；人名房东名ASR不清、05:26–05:52插片空窗。",
+            "status": "待核",
+            "reason": "M7连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P74-U08",
+            "item": "布鲁克林后期考试通过、熟悉环境、同场景更暖更亮；06:11起那些反复为识别失败，须核同场景对比与曝光/色彩。",
+            "status": "待核",
+            "reason": "M7连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P74-U10",
+            "item": "陈凯歌黄土地插片，方言/歌声转写失真且长空窗；真实环境服装肤色与土地画面、对白不得猜抄。",
+            "status": "待核",
+            "reason": "M8连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P74-U13",
+            "item": "刺客聂隐娘环境光、氛围、道具、镜头运动服务人物与叙事；11:08–12:26长ASR空窗，需要完整画面。",
+            "status": "待核",
+            "reason": "M9连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P74-U14",
+            "item": "人和物在有限空间中呈现层次、创作意图，刺客聂隐娘插片结尾与外语/人名转写失败，实际片尾范围待媒体。",
+            "status": "待核",
+            "reason": "M9连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/19/工作报告.md"
+      }
     ]
   },
   "adoption": {

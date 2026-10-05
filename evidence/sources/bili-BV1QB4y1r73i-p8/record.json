@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/老白的分镜课/07 - 第七课 讲故事的基础三原则（P8）.md",
-    "sha256": "592659966746aba7f1fbca1737006b08e71b0fe0c62fc0c1c67ec6467934fcfa"
+    "sha256": "5e3ca5ec7ea030088076334ca772cc42a9f0995f1d66857427afb934352efe09"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "3ca45b1985af50456955b7cf0f7c1b0a5970c7fed1754424354020d11d7de7c7",
-    "note_sha256": "592659966746aba7f1fbca1737006b08e71b0fe0c62fc0c1c67ec6467934fcfa",
+    "note_sha256": "5e3ca5ec7ea030088076334ca772cc42a9f0995f1d66857427afb934352efe09",
     "scope": [
       [
         1,
@@ -273,7 +273,7 @@
         "note": {
           "lines": [
             142,
-            142
+            148
           ],
           "quote": "## 弱化非重点：不一定靠继续加镜头"
         }
@@ -333,6 +333,78 @@
         "item": "15:24—15:54异常短词与完整歌词",
         "reason": "补图可核落帽与狗；正文未用损坏词恢复精确台词或切点，不承担核心解释。",
         "blocks_knowledge_body": false
+      }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第07课-讲故事的基础三原则/P08-第七课 讲故事的基础三原则 7-0c35a776/large-v3-5ef88b2b6b/P08-第七课 讲故事的基础三原则 7.raw.txt",
+        "review_source_sha256": "fef27734877f684dde23004b3aeab5b35737c6d07ed455d3c5889255470a487b",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/07/P8-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            831
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；仅局部补回或修正有清楚源依据的内容，其他旧稿保全。",
+        "changes": [
+          "吉他重点的夸张假设补回“一弹就发射核武器”（新raw L733–744；旧primary L712–746；1241秒原帧字幕实际核）。"
+        ],
+        "recognition_disagreements_and_judgments": [
+          "完整读P8新raw831行与现稿180行，事实/意图/接收、各次反应、景别趋势、改词听者、熟悉角度后的有无、消失强调与能力伏笔均分开登记。",
+          "原primary L712–746实际回读；新raw的完整假设句清楚，另本地原视频20:41单帧硬字幕明确一弹就发射核武器之类的，补回该夸张具体例，不当原电影事实。",
+          "发亮倒下位置继续按历史原剧本床上，未以新ASR地改图文已核。歌词原有已核关键词保留，未补全歌词；情绪效果仍属讲師教学解释。",
+          "仅原段一处补句；工作顺序、弱化非重点的长全景/突琴特写、视高景别后讲及个人记录保全。"
+        ],
+        "note_sha256": "5e3ca5ec7ea030088076334ca772cc42a9f0995f1d66857427afb934352efe09",
+        "prior_note_sha256": "592659966746aba7f1fbca1737006b08e71b0fe0c62fc0c1c67ec6467934fcfa",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "AV-P8",
+            "item": "声音突然安静、实际剪接/摇动、演唱和情绪/观众接收效果",
+            "reason": "未听原声、未连续看视频；正文只按讲师描述保存过程，静图只支持构图、文字和对照。已发现限制不是所有潜在遗漏清单。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "TERM-P8-1524",
+            "item": "15:24—15:54异常短词与完整歌词",
+            "reason": "补图可核落帽与狗；正文未用损坏词恢复精确台词或切点，不承担核心解释。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/07/工作报告.md",
+        "affected_primary_source_review": {
+          "old_source_ranges_read": {
+            "8": [
+              [
+                712,
+                746
+              ]
+            ]
+          },
+          "old_note_lines_allowed_to_replace": [
+            144
+          ],
+          "binding_only_pages": [],
+          "findings": "旧primary的和武器处位于完整神奇吉他假设，新raw完整核武器句并1241秒原帧硬字幕核字；保留它是夸张假设，不改原片剧情。"
+        },
+        "primary_binding_only_for_this_page": false,
+        "actual_media_observations": [
+          {
+            "time_seconds": 1241,
+            "path": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/07/p8-1241.png",
+            "viewed": true,
+            "observation": "本地缓存原视频抽取并实际view，硬字幕一弹就发射核武器之类的，正文须保夸张假设身份。"
+          }
+        ]
       }
     ]
   },

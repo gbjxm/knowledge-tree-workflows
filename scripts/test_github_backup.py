@@ -10,12 +10,14 @@ from test_release import ReleaseFixture, write_json
 
 
 class LocalGit(backup.Github):
-    def __init__(self, remote):
+    def __init__(self, remote, private=True):
         super().__init__({"repository": "fixture/tree", "branch": "main"})
         self.url = str(remote)
+        self.private = private
 
     def preflight(self):
-        return {"repository": self.repository, "private": True, "branch": self.branch,
+        return {"repository": self.repository, "private": self.private,
+                "visibility": "private" if self.private else "public", "branch": self.branch,
                 "author": "Fixture", "email": "fixture@example.invalid"}
 
     def manifest(self, sha):
@@ -28,6 +30,81 @@ def verify_fixture(root):
     return release.verify_release(root, root / release.PACKAGE_MANIFEST)
 
 
+class GithubPreflightTests(unittest.TestCase):
+    def setUp(self):
+        self.transport = backup.Github({"repository": "fixture/tree", "branch": "main"})
+        self.info = {"full_name": "fixture/tree", "private": True, "visibility": "private",
+                     "archived": False, "disabled": False, "permissions": {"push": True}}
+        self.user = {"login": "Fixture", "id": 123}
+
+    def assert_blocked(self, info, message):
+        with mock.patch.object(self.transport, "api", return_value=info) as api, \
+                mock.patch.object(backup, "run") as command:
+            with self.assertRaisesRegex(backup.BackupError, message):
+                self.transport.preflight()
+            self.assertEqual(api.call_count, 1)
+            command.assert_not_called()
+
+    def test_private_and_public_report_actual_visibility(self):
+        for private, visibility in ((True, "private"), (False, "public")):
+            with self.subTest(visibility=visibility):
+                info = {**self.info, "private": private, "visibility": visibility}
+                with mock.patch.object(self.transport, "api", side_effect=[info, self.user]) as api, \
+                        mock.patch.object(backup, "run") as command:
+                    target = self.transport.preflight()
+                self.assertIs(target["private"], private)
+                self.assertEqual(target["visibility"], visibility)
+                self.assertEqual(target["repository"], "fixture/tree")
+                self.assertEqual(target["email"], "123+Fixture@users.noreply.github.com")
+                command.assert_called_once_with(["git", "check-ref-format", "refs/heads/main"])
+                self.assertEqual(api.call_args_list, [mock.call("repos/fixture/tree"), mock.call("user")])
+
+    def test_repository_identity_remains_exact_and_case_insensitive(self):
+        self.assert_blocked({**self.info, "full_name": "fixture/other"}, "configured repository")
+        info = {**self.info, "full_name": "Fixture/Tree"}
+        with mock.patch.object(self.transport, "api", side_effect=[info, self.user]), \
+                mock.patch.object(backup, "run"):
+            self.assertEqual(self.transport.preflight()["repository"], "Fixture/Tree")
+
+    def test_missing_malformed_internal_and_conflicting_visibility_block(self):
+        invalid = [{k: v for k, v in self.info.items() if k != field}
+                   for field in ("private", "visibility")]
+        invalid.extend({**self.info, "private": value} for value in (None, 1, 0, "true", []))
+        invalid.extend({**self.info, "visibility": value} for value in (None, "internal", "PRIVATE", []))
+        invalid.extend(({**self.info, "private": True, "visibility": "public"},
+                        {**self.info, "private": False, "visibility": "private"}))
+        for info in invalid:
+            with self.subTest(info=info):
+                self.assert_blocked(info, "consistent public/private")
+
+    def test_archived_disabled_and_unconfirmed_push_block_for_both_visibilities(self):
+        for private, visibility in ((True, "private"), (False, "public")):
+            valid = {**self.info, "private": private, "visibility": visibility}
+            invalid = [{**valid, "archived": value} for value in (True, None, "false", 0)]
+            invalid.append({k: v for k, v in valid.items() if k != "archived"})
+            invalid.extend({**valid, "disabled": value} for value in (True, None, "false", 0))
+            invalid.append({k: v for k, v in valid.items() if k != "disabled"})
+            invalid.extend({**valid, "permissions": value} for value in (None, [], {}))
+            invalid.append({k: v for k, v in valid.items() if k != "permissions"})
+            invalid.extend({**valid, "permissions": {"push": value}} for value in (False, None, 1, "true"))
+            for info in invalid:
+                with self.subTest(visibility=visibility, info=info):
+                    self.assert_blocked(info, "unarchived, enabled, with confirmed push")
+
+    def test_non_object_and_missing_repository_identity_block(self):
+        for info in (None, [], "fixture/tree", {}, {**self.info, "full_name": None}):
+            with self.subTest(info=info):
+                self.assert_blocked(info, "configured repository")
+
+    def test_invalid_branch_still_blocks_before_author_lookup(self):
+        self.transport.branch = "bad..branch"
+        with mock.patch.object(self.transport, "api", return_value=self.info) as api, \
+                mock.patch.object(backup, "run", side_effect=backup.BackupError("invalid ref")):
+            with self.assertRaisesRegex(backup.BackupError, "invalid ref"):
+                self.transport.preflight()
+            self.assertEqual(api.call_count, 1)
+
+
 class BackupTests(ReleaseFixture, unittest.TestCase):
     def setUp(self):
         self.create_fixture()
@@ -37,6 +114,24 @@ class BackupTests(ReleaseFixture, unittest.TestCase):
         backup.run(["git", "init", "--bare", "--initial-branch=main", str(self.remote)])
         self.transport = LocalGit(self.remote)
         self.service = backup.Backup(self.root, self.transport, verify_fixture)
+
+    def test_public_snapshot_and_read_only_restore_record_actual_visibility(self):
+        self.transport.private = False
+        preview = self.service.preview()
+        self.assertIs(preview["target"]["private"], False)
+        self.assertEqual(preview["target"]["visibility"], "public")
+        self.assertFalse(self.service.base.exists())
+        receipt = self.service.execute()
+        saved = json.loads((Path(receipt["directory"]) / "receipt.json").read_text(encoding="utf-8"))
+        self.assertIs(saved["target"]["private"], False)
+        self.assertEqual(saved["target"]["visibility"], "public")
+        self.assertTrue(saved["verified"])
+        refs = self.transport.refs()
+        restored = self.service.execute(receipt["commit"])
+        self.assertEqual(refs, self.transport.refs())
+        self.assertIs(restored["target"]["private"], False)
+        self.assertEqual(restored["target"]["visibility"], "public")
+        self.assertTrue(restored["verified"])
 
     def test_empty_noop_and_add_edit_delete_preserve_bytes(self):
         note = self.root / "Vault/Sources/中文 有空格.md"

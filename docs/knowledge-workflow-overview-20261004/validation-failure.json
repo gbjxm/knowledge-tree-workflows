@@ -1,0 +1,77 @@
+{
+  "schema": "knowledge-workflow-diagram-attempt-v1",
+  "status": "failed; stopped per archify repair limit and root instruction",
+  "diagram_type": "workflow",
+  "specification_path": "D:\\obsidian\\影视知识树\\docs\\knowledge-workflow-overview-20261004\\overview.workflow.json",
+  "specification_sha256": "ebf326bc13b28ca5ae944064e40325a06a31cfbe028dac3f145b4ee80bde6f79",
+  "specification_bytes": 7300,
+  "intended_artifact_path": "D:\\obsidian\\影视知识树\\docs\\knowledge-workflow-overview-20261004\\overview.html",
+  "artifact_exists": false,
+  "nodes": 11,
+  "schema_version": 2,
+  "quality_profile": "showcase",
+  "last_validation": {
+    "command": "node bin/archify.mjs validate workflow overview.workflow.json --layout-json",
+    "exit_code": 1,
+    "stage": "readable-v2 layout",
+    "diagnostics": [
+      {
+        "code": "workflow/explicit-pin-conflict",
+        "severity": "error",
+        "edge": "topic-search",
+        "from": "topic",
+        "to": "bridge",
+        "message": "Explicit bottom-to-top supply edge crosses feedback-review return corridor.",
+        "evidence": {
+          "point": [
+            596,
+            231
+          ],
+          "route_segments": [
+            {
+              "edge": "feedback-review",
+              "from": [
+                1248,
+                231
+              ],
+              "to": [
+                366,
+                231
+              ]
+            },
+            {
+              "edge": "topic-search",
+              "from": [
+                596,
+                170
+              ],
+              "to": [
+                596,
+                322
+              ]
+            }
+          ]
+        },
+        "supportedFixes": []
+      }
+    ]
+  },
+  "showcase_artifact_checks": "not run; render/layout failed before artifact stage; no9/9 claim",
+  "deliver": "not run; no trusted HTML produced",
+  "containment": "not run",
+  "visual_review": "not run; no current delivered artifact",
+  "artifact_sha256": null,
+  "update_checker": {
+    "status": "silent",
+    "reason": "check-failed",
+    "installed_skill_changed": false
+  },
+  "stop_reason": "Two focused repairs did not lower the best remaining error count; root chose Mermaid total diagram plus detailed Markdown issue table, which meets the user request without claiming an unvalidated HTML as a finished artifact.",
+  "boundaries": {
+    "formal_vault_writes": 0,
+    "canonical_code_writes": 0,
+    "installed_writes": 0,
+    "renderer_changes": 0
+  },
+  "recorded_at_local": "2026-10-04T00:50:36.744271+08:00"
+}

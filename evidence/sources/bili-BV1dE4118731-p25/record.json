@@ -319,6 +319,56 @@
         "item": "既有教学SVG按原字节保留，仅读XML文字，未进行本次渲染布局QA。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第07课-第七章 色调与线条/P25-7.2影像语言的画面构成——线条-a22afa24/large-v3-5ef88b2b6b/P25-7.2影像语言的画面构成——线条.raw.txt",
+        "review_source_sha256": "f2388ec1512498fffcf5a7761843c1cb275705865eb81828a53f7c28bfe858fb",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-07/07/P25-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            261
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "实际先完整阅读P24新raw207行、P25新raw261行，再完整现行第7篇208行；每幅照片的情境、取舍、假设与方法关系均已保存，无充分有据的实质遗漏需补。",
+          "原稿还保留此前实际原帧可辨的蓝被儿童、皮肤/花梗彩色、工人姿态与树路/木栈桥等图像细节，本轮新ASR不完整描述这些可见关系；这些额外细节仍归属既有图文而非本轮重新view。",
+          "红色/蓝色/白衣死亡、两幅冷调壁纸、草原躁动与温暖、照片名与史实都归属课程解释；没有把课堂判断提升为心理规律、实际人物生死或已认证制作史。现存外部研究段落与旧教学图/个人记录保持，未重新研究外部材料。",
+          "一字型与L字型、对象建筑设计与摄影取景、辐射两向、S路径长度与画幅纵深、三角稳定与斜向张力均有精确区别；黄金分割并未误当三分法。",
+          "P25开头栏目套话识别单列待核，不补成课程内容。全课原声未听审、视频未连续审看，本轮未新增实际观图。"
+        ],
+        "note_sha256": "e33be6246fc8be4e32304f8d9cb2e331393b5c3cfe61715cd80200ea4d863201",
+        "prior_note_sha256": "e33be6246fc8be4e32304f8d9cb2e331393b5c3cfe61715cd80200ea4d863201",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "原声未听审、全片未连续审看；完整ASR和原图核对未识别需依赖运动、剪辑或声音理解的独立教学示范，本次仅验收静态图文知识。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "照片制作史、部分地点、人物状态及色彩心理因果未独立认证；正文保留课程归属或适用条件。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M3",
+            "item": "既有教学SVG按原字节保留，仅读XML文字，未进行本次渲染布局QA。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-07/07/工作报告.md"
+      }
     ]
   },
   "preservation": {

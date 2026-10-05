@@ -209,6 +209,47 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第02课-第二章 镜头原理、类型与光学控制/P04-2.2背景范围与希区柯克变焦-b0a11289/large-v3-5ef88b2b6b/P04-2.2背景范围与希区柯克变焦.raw.txt",
+        "review_source_sha256": "62f7fad76637ebaad27753982c1cf5ec4a1ab5833f92eb9d393b8359a5a3cc17",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-01-06/02/P4-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            251
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "P3分别保留同距模特、朋友类比、50mm有效视野及极端焦段；P4分别保留等大红伞、旅行人像与建筑大小推导，不把影片播放范围吞并后续讲评。",
+          "P5饼干/巨镜/鱼眼、三变焦类型、树叶与昆虫/水滴/铅笔尖微距、接圈、建筑移轴及两图比较均已在现稿完整保存。P6选85mm经历、风光云色、人像/纪实、苹果黄桃类比均保留。",
+          "P7三变量的室内/中长焦/300mm、人偶光圈、远景/微距、矛盾趋势条件均已有；P8合焦2.3m、f/8近1.5—5m、f/16近1.2m—无穷、纪录片跟焦、雕像和悬挂模特完整保留。",
+          "新ASR不推翻旧图文明确的f数倒数关系、反向推拉背景冲突、A模式曝光条件和模特悬挂身份。光学数字没有新增修订，未新增原帧查看。运动、音乐、原声与识别噪声待核继续保留。"
+        ],
+        "note_sha256": "15899e3b9e24d5e4d6d0877c9f24cfb32bfe8bd6a438fc888c9c9d0a1e7999f8",
+        "prior_note_sha256": "15899e3b9e24d5e4d6d0877c9f24cfb32bfe8bd6a438fc888c9c9d0a1e7999f8",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P4-U05",
+            "item": "多元莫斯科短片的连续运动和声音",
+            "status": "待核",
+            "reason": "实际看过原静帧与末段停帧，未连续审看05:24–05:44的运动、切换及声音；关键缺口保留。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-01-06/02/工作报告.md"
+      }
     ]
   },
   "adoption": {

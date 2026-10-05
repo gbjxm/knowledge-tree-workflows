@@ -458,19 +458,16 @@ def check_control(
             errors.append(f"{note_type}缺少 ## {heading}")
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser(description="Validate a creative-library Markdown note.")
-    parser.add_argument("note", type=Path)
-    args = parser.parse_args()
-
-    path = args.note.resolve()
-    text = path.read_text(encoding="utf-8-sig")
+def validate_text(text: str, path: Path | None = None) -> list[str]:
+    """Apply the same structural checks to a candidate or a saved note."""
+    text = text.removeprefix("\ufeff").replace("\r\n", "\n").replace("\r", "\n")
     errors: list[str] = []
 
     raw, props = parse_frontmatter(text)
     check_common(text, props, errors)
     check_source_architecture(props, errors)
-    check_raw_artifacts(path, errors)
+    if path is not None:
+        check_raw_artifacts(path, errors)
 
     note_type = props.get("类型", "").strip()
     if note_type == "分集笔记":
@@ -485,6 +482,18 @@ def main() -> int:
         check_project(text, props, errors)
     elif note_type in CONTROL_HEADINGS:
         check_control(text, props, note_type, errors)
+
+    return errors
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Validate a creative-library Markdown note.")
+    parser.add_argument("note", type=Path)
+    args = parser.parse_args()
+
+    path = args.note.resolve()
+    text = path.read_text(encoding="utf-8-sig")
+    errors = validate_text(text, path)
 
     if errors:
         for error in errors:

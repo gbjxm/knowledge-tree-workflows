@@ -494,6 +494,83 @@
         "reason": "本轮忠实记录原课堂说明/书页/资料卡；未对历史实证、原实验或指定著作版本做课外核实，正文准确署课堂介绍，不伪装独立事实证明。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第16课-蒙太奇/P17-第十六课 蒙太奇-8e9632af/large-v3-5ef88b2b6b/P17-第十六课 蒙太奇.raw.txt",
+        "review_source_sha256": "779b91938625b8234bf53e460834cecdaa1536e3cafbfcb641d15986e0fad17a",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/16/P17-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            317
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "全文新raw L1—317与现稿L1—156双向核查，同脸三搭配、中性反例、砖块/細胞分歧、镜内两例、刺杀组接、教父两线和婴哭、心理声音、正反配加歌词、对位与失败尝试、女孩声音并置全部已有具体知识。",
+          "新ASR没识别开头生活对象/经典片名，现稿原图核清的街头/千年女优等保留；不将缺识别变为旧稿无依据。",
+          "新文侯孝贤采访较旧文字改善但仍“复格/鬼色”等破损且末段缺失；现稿旧原字幕核清的同主题平行、各自创作冲动理解、合成化学变化更充分，不能删掉。",
+          "原书页《世界电影史》/默奇《眨眼之间》、歌与示范片名已有画面依据；音源未由课堂明确者仍不按常识造火车，歌词保留语义不复制原段。",
+          "未发现有据需改的实质漏项；正式正文所有字节保持。词源/理论/实验仍课堂转述，未浏览外部史料或实做实验，真实声画效果待核。"
+        ],
+        "note_sha256": "fe255df15fee2e8222ebe1253ea48c9964d2079d572aa8861f8b07adeb29e435",
+        "prior_note_sha256": "fe255df15fee2e8222ebe1253ea48c9964d2079d572aa8861f8b07adeb29e435",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "AV-PSYCHO",
+            "item": "惊魂记动作/声音组合与动态限制的独立声画效果",
+            "reason": "含义和教师选择理由由明确课堂文字/字幕保存；未独立听音/连续观看，不声称实际切点、动作、声音来源听感/同步或音乐情绪体验已证。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "AV-GODFATHER-LINES",
+            "item": "教父两故事线/长示范空窗的独立声画效果",
+            "reason": "含义和教师选择理由由明确课堂文字/字幕保存；未独立听音/连续观看，不声称实际切点、动作、声音来源听感/同步或音乐情绪体验已证。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "AV-GODFATHER-SOUND",
+            "item": "教父心理推镜/表演/声音的独立声画效果",
+            "reason": "含义和教师选择理由由明确课堂文字/字幕保存；未独立听音/连续观看，不声称实际切点、动作、声音来源听感/同步或音乐情绪体验已证。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "AV-MUSIC-CONTRAST",
+            "item": "音乐正反配说明的独立声画效果",
+            "reason": "含义和教师选择理由由明确课堂文字/字幕保存；未独立听音/连续观看，不声称实际切点、动作、声音来源听感/同步或音乐情绪体验已证。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "AV-COUNTERPOINT-EFFECT",
+            "item": "风柜送别情境与对位分析目的的独立声画效果",
+            "reason": "含义和教师选择理由由明确课堂文字/字幕保存；未独立听音/连续观看，不声称实际切点、动作、声音来源听感/同步或音乐情绪体验已证。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "AV-SOUND-SOUND",
+            "item": "等红灯女孩与配乐两声音示范的独立声画效果",
+            "reason": "含义和教师选择理由由明确课堂文字/字幕保存；未独立听音/连续观看，不声称实际切点、动作、声音来源听感/同步或音乐情绪体验已证。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "HISTORY-P17",
+            "item": "课堂词源、实验史和电影理论背景的外部原文核实",
+            "reason": "本轮忠实记录原课堂说明/书页/资料卡；未对历史实证、原实验或指定著作版本做课外核实，正文准确署课堂介绍，不伪装独立事实证明。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/16/工作报告.md"
+      }
     ]
   },
   "working_review_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-16/review.md",

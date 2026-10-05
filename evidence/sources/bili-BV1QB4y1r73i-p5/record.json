@@ -374,6 +374,51 @@
         "reason": "成组板书/前后讲述/3D静图支持近视距大开角；独立原音未核，未以常识猜结论",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第04课-透视基础/P05-第四课 透视基础 4-bcc7aad3/large-v3-5ef88b2b6b/P05-第四课 透视基础 4.raw.txt",
+        "review_source_sha256": "ccfae8f240882812bfcb0e29a9039943e35884267fab3b63d39d17a37163ab01",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/04/P5-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            550
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "完整读P5新raw550行与现稿158行，沙漠脖子/脚踝/腰膝反例、第三人、风筝反打、火车站、儿童/狗比例、高差两方向、斜坡及三维两种恢复法都分别有去处。",
+          "近视距大开角与构图大致不变的条件保留；历史硬字幕远/板书近的差异不被新ASR掩盖。没有补焦段数值、书籍作者/版本或任意斜坡通用公式。",
+          "无实质漏项，正文原字节保持；动态变焦与原声仍未验。"
+        ],
+        "note_sha256": "bf14c27b5023f5863bb9ce1eea4f703c4313242a1d71a7d2d252357c588b9159",
+        "prior_note_sha256": "bf14c27b5023f5863bb9ce1eea4f703c4313242a1d71a7d2d252357c588b9159",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "AV-P5",
+            "item": "独立原声、连续软件操作与动态效果",
+            "reason": "未听原声/未连续看；正文为教师陈述与静图关系，非核心含义阻塞",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "WORD-P5-701",
+            "item": "11:41单帧硬字幕视距远与板书近的原话差异",
+            "reason": "成组板书/前后讲述/3D静图支持近视距大开角；独立原音未核，未以常识猜结论",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/04/工作报告.md"
+      }
     ]
   },
   "working_review_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-04/review.md",

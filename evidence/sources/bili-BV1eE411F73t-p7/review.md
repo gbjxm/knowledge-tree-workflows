@@ -7,3 +7,12 @@
 - 本P与同课其他P共同绑定一篇笔记，未将分P误算为单独课次。
 - [双向复核及实际使用检查](../../../.runtime/raw-cache/course-full-review-20260924/batches/charlie-03/review.md)。
 - 最终文件、原稿备份、个人记录路径和SHA见record.json。
+
+## 2026-10-03 新全音轨机器转写增量
+
+- 本轮原文：P7 raw 行1—749，SHA-256 `28411dde49425be821891aac313f83ab9fb488a4c0e8e1619513d934636699e4`；先读来源，再读整课正式稿。
+- 采用：全文核对P07—P08新ASR与整课正文；原有观点、理由、每个结局及因果保留；保留教师反差机制，新增相邻作品回引的待核专名提示，不扩写未讲剧情；来源说明新增本轮文字范围与原声待核边界，保留既有图文复核历史。
+- 原primary source、指纹、source行号和既有review保留；旧coverage note定位按实际修改重核/顺移，绑定最终稿。
+- 新来源覆盖清单：`.runtime/raw-cache/course-note-reconcile-20261003-47files/03-08/第03课-P07-coverage.json`。
+- 本轮未听核、未新增图像核验或连续声画核验。 待核：P8 32:03—32:13同归于尽说明断尾；旧base和独立turbo复识有“就死了”，仅机器证据，未原声听核；P7 约15:34—16:04教师反差段相邻作品回引被新ASR识别为 Great Teacher Onizuka，旧源“各位提示哦”；专名未原声或字幕核对。
+- 最终笔记SHA-256：`894355f1bf4b4e257d6429873ccd29dcc975af686a9576fda7125fd971c8eb71`。

@@ -6,36 +6,54 @@ Exit code 0 means the report was produced; review status is reported separately.
 """
 from __future__ import annotations
 import argparse
+import hashlib
 import json
 from collections import Counter, defaultdict
 from pathlib import Path
 from retrieve_knowledge import load_config, resolve_config
 from knowledge_evidence import load_corpus, candidates, atomic_json, utf8_streams, inside
+from knowledge_dependencies import load_dependency_catalog, calculate_dependency_impact
+from knowledge_scope import make_scope, zoned
 
 RETIRED = {"撤回", "停用", "已失效", "已撤回"}
 PROVENANCE_TYPES = {"材料总览", "分集笔记", "来源笔记"}
 
 
-def snapshot_state(corpus, previous=None, pending_topics=None):
-    if corpus.get("scope") is not None:
+def snapshot_state(corpus, previous=None, pending_topics=None, *, dependency_catalog=None,
+                   pending_dependency_reviews=None):
+    if corpus.get("scope") is not None and dependency_catalog is None:
         raise ValueError("全局补查检查点不能由局部读取范围生成")
     prior_dependencies = (previous or {}).get("dependencies", {})
     accumulated = dict(prior_dependencies)
     for key, doc in corpus["documents"].items():
         if doc["kind"] == "topic":
             accumulated[key] = sorted(set(accumulated.get(key, [])) | set(doc["source_targets"]))
-    return {"version": 1, "vault": corpus["vault"], "snapshot": corpus["snapshot"],
+    if dependency_catalog is not None:
+        # The active v2 graph is exactly today's declarations. Old edges remain
+        # only in pending impact chains, never accumulated as current knowledge.
+        accumulated = {}
+        for edge in dependency_catalog["edges"]:
+            accumulated.setdefault(edge["dependent"], []).append(edge["dependency"])
+        accumulated = {key: sorted(set(value)) for key, value in accumulated.items()}
+    state = {"version": 2 if dependency_catalog is not None else 1,
+            "vault": corpus["vault"], "snapshot": corpus["snapshot"],
             "files": corpus["files"],
             "dependencies": accumulated,
             "pending_topic_reviews": list(pending_topics if pending_topics is not None else (previous or {}).get("pending_topic_reviews", []))}
+    if dependency_catalog is not None:
+        state["dependency_catalog"] = dependency_catalog
+        state["pending_dependency_reviews"] = list(pending_dependency_reviews or [])
+        state["body_scope"] = corpus.get("scope")
+        state["body_snapshot"] = corpus["snapshot"]
+    return state
 
 
-def followup(corpus, previous=None, limit=12, include_candidates=False):
-    if corpus.get("scope") is not None:
+def followup(corpus, previous=None, limit=12, include_candidates=False, *, identity_catalog=None):
+    if corpus.get("scope") is not None and identity_catalog is None:
         raise ValueError("全局增量补查需要完整盘点，不能把未读取内容当成删除")
     docs, files = corpus["documents"], corpus["files"]
     previous = previous or {}
-    if previous and (previous.get("version") != 1 or not isinstance(previous.get("files"), dict)
+    if previous and (previous.get("version") not in (1, 2) or not isinstance(previous.get("files"), dict)
                      or not isinstance(previous.get("dependencies"), dict)):
         raise ValueError("补查快照结构无效")
     if previous and previous.get("vault") != corpus["vault"]:
@@ -145,8 +163,17 @@ def followup(corpus, previous=None, limit=12, include_candidates=False):
 
 
 def run_followup(config, checkpoint=False, suggest=False, limit=12,
-                 reviewed_topics=None, expected_snapshot=None, review_reason=""):
-    corpus = load_corpus(config, write_index=checkpoint)
+                 reviewed_topics=None, expected_snapshot=None, review_reason="",
+                 identity_only=False, include_paths=()):
+    # Identity inventory is independent of content review. It does not call the
+    # unscoped body loader or grant retrieval access to learning notes.
+    catalog = load_dependency_catalog(config)
+    if identity_only and (suggest or reviewed_topics or include_paths):
+        raise ValueError("身份盘点不生成正文候选或确认内容复核")
+    scope = make_scope(config, include_paths=include_paths) if zoned(config) else None
+    if include_paths and not zoned(config):
+        scope = make_scope(config, include_paths=include_paths)
+    corpus = None if identity_only else load_corpus(config, write_index=checkpoint, scope=scope)
     target = Path(config["raw_cache"]) / "knowledge-retrieval" / "followup-state-v1.json"
     if inside(target.resolve(), Path(config["vault"]).resolve()):
         raise ValueError("检查点不能写入 Vault")
@@ -156,20 +183,69 @@ def run_followup(config, checkpoint=False, suggest=False, limit=12,
             previous = json.loads(target.read_text(encoding="utf-8"))
         except (OSError, ValueError, TypeError):
             raise ValueError("补查快照损坏；保持原文件并报告，不能冒充无变化")
-    report = followup(corpus, previous, limit, suggest)
+    if previous and previous.get("vault") != catalog["vault"]:
+        raise ValueError("补查快照属于另一个 Vault")
+    impact = calculate_dependency_impact(catalog, previous)
+    if identity_only:
+        # Read-only inventory has its own identity snapshot; it does not replace
+        # a full follow-up checkpoint with a narrower content observation.
+        if checkpoint:
+            raise ValueError("身份盘点不能推进完整内容检查点")
+        return {"schema": "knowledge-dependency-inventory-v1", "snapshot": catalog["snapshot"],
+                "dependency_impact": impact, "checkpoint_saved": False,
+                "identity_inventory": {"notes": sum(n["kind"] != "source_identity" for n in catalog["nodes"].values()),
+                                       "source_records": sum(n["kind"] == "source_identity" for n in catalog["nodes"].values())},
+                "body_read_permission": False, "status": "needs_review" if impact["pending_reviews"] or catalog["errors"] or catalog["unresolved"] else "identity_inventory_complete"}
+    # Body comparisons stay in today's explicit scope; the identity catalog,
+    # rather than a narrower body corpus, decides global changes and deletion.
+    body_previous = dict(previous) if previous else None
+    if body_previous is not None:
+        allowed = lambda key: scope is None or any(key == root or key.startswith(root + "/") for root in scope["paths"])
+        body_previous["files"] = {key: value for key, value in previous["files"].items() if allowed(key)}
+        body_previous["dependencies"] = {key: value for key, value in previous["dependencies"].items() if allowed(key)}
+        body_previous["snapshot"] = previous.get("body_snapshot", previous.get("snapshot"))
+    report = followup(corpus, body_previous, limit, suggest, identity_catalog=catalog)
+    report["body_scope"] = scope
+    report["identity_scope"] = {"paths": [config[name] for name in ("knowledge_library", "source_notes", "prompt_box") if config.get(name)],
+                                "source_evidence": config.get("source_evidence"), "body_read_permission": False}
+    report["comparison_scope"]["body_scope"] = scope
+    report["duplicate_scope"] = "authorized_body_scope_only"
+    report["body_inventory"] = report["inventory"]
+    source_types = {"材料总览", "分集笔记", "来源笔记", "来源地图"}
+    report["inventory"] = {
+        "topics": sum(node["kind"] == "topic" for node in catalog["nodes"].values()),
+        "sources": sum(node.get("note_type") in source_types for node in catalog["nodes"].values()),
+        "applications": sum(node["kind"] == "application" for node in catalog["nodes"].values()),
+        "source_records": sum(node["kind"] == "source_identity" for node in catalog["nodes"].values())}
+    report["inventory_scope"] = "complete_configured_identity_catalog"
+    report["body_changes"] = report["changes"]
+    report["changes"] = {name: impact["changes"][name] for name in ("added", "modified", "removed", "renamed")}
+    report["identity_snapshot"] = catalog["snapshot"]
+    report["snapshot"] = hashlib.sha256((corpus["snapshot"] + "|" + catalog["snapshot"]).encode("utf-8")).hexdigest()
+    report["dependency_impact"] = impact
+    report["affected_topics"] = sorted(set(report["affected_topics"]) | set(impact["affected_topics"]))
+    report["affected_applications"] = impact["affected_applications"]
+    report["affected_methods"] = impact["affected_methods"]
+    report["issue_summary"]["affected_topic_reviews"] = len(report["affected_topics"])
+    if impact["pending_reviews"] or catalog["errors"] or catalog["unresolved"]:
+        report["status"] = "needs_review"
     pending = list(report["affected_topics"])
+    pending_dependencies = list(impact["pending_reviews"])
     if reviewed_topics:
-        if not checkpoint or expected_snapshot != corpus["snapshot"] or not review_reason.strip():
+        if not checkpoint or expected_snapshot != report["snapshot"] or not review_reason.strip():
             raise ValueError("确认内容复核需要 --checkpoint、当前 --expected-snapshot 和 --review-reason")
         if any(k not in corpus["documents"] or corpus["documents"][k]["kind"] != "topic" for k in reviewed_topics):
             raise ValueError("复核目标不是当前主题路径")
         pending = [k for k in pending if k not in reviewed_topics]
+        pending_dependencies = [item for item in pending_dependencies if item["target"] not in reviewed_topics]
         report["content_review_acknowledged"] = {"topics": reviewed_topics, "reason": review_reason,
                                                  "basis": "caller_declared_content_review"}
     if checkpoint:
-        if corpus["errors"]:
+        if corpus["errors"] or catalog["errors"]:
             raise ValueError("索引含读取错误，检查点未推进")
-        state = snapshot_state(corpus, previous, pending)
+        state = snapshot_state(corpus, previous, pending, dependency_catalog=catalog,
+                               pending_dependency_reviews=pending_dependencies)
+        state["snapshot"] = report["snapshot"]
         if reviewed_topics:
             state["last_content_review"] = report["content_review_acknowledged"]
         atomic_json(target, state)
@@ -188,12 +264,14 @@ def main():
     p.add_argument("--reviewed-topic", action="append", default=[])
     p.add_argument("--expected-snapshot")
     p.add_argument("--review-reason", default="")
+    p.add_argument("--identity-only", action="store_true", help="只读依赖身份/声明图，不解码学习正文、不生成候选、不写检查点")
+    p.add_argument("--include-path", action="append", default=[], help="本次明确选择的来源文件/目录参与正文比较；不沿链接扩张")
     a = p.parse_args()
     try:
         config = load_config(resolve_config(a.config))
         report = run_followup(config, a.checkpoint, a.suggest, max(1, min(a.limit, 50)),
-                              a.reviewed_topic, a.expected_snapshot, a.review_reason)
-        if not a.full:
+                              a.reviewed_topic, a.expected_snapshot, a.review_reason, a.identity_only, a.include_path)
+        if not a.full and "issues" in report:
             report["issue_count"] = len(report["issues"])
             report["issues"] = report["issues"][:20]
         print(json.dumps(report, ensure_ascii=False, separators=(",", ":")))

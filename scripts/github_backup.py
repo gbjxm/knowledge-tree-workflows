@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""On-demand private GitHub snapshots and isolated, byte-verified restores."""
+"""On-demand GitHub snapshots and isolated, byte-verified restores."""
 from __future__ import annotations
 
 import argparse
@@ -69,13 +69,22 @@ class Github:
 
     def preflight(self):
         info = self.api(f"repos/{self.repository}")
-        if (info.get("full_name", "").casefold() != self.repository.casefold()
-                or info.get("private") is not True or info.get("archived")
-                or not info.get("permissions", {}).get("push")):
-            raise BackupError("Target must be the configured private, unarchived repository with push access.")
+        if (not isinstance(info, dict) or not isinstance(info.get("full_name"), str)
+                or info["full_name"].casefold() != self.repository.casefold()):
+            raise BackupError("Target must be the configured repository.")
+        private, visibility = info.get("private"), info.get("visibility")
+        if (type(private) is not bool or visibility not in ("private", "public")
+                or private != (visibility == "private")):
+            raise BackupError("Repository visibility must have consistent public/private metadata.")
+        permissions = info.get("permissions")
+        if (info.get("archived") is not False or info.get("disabled") is not False
+                or not isinstance(permissions, dict)
+                or permissions.get("push") is not True):
+            raise BackupError("Target must be unarchived, enabled, with confirmed push access.")
         run(["git", "check-ref-format", f"refs/heads/{self.branch}"])
         user = self.api("user")
-        return {"repository": info["full_name"], "private": True, "branch": self.branch,
+        return {"repository": info["full_name"], "private": private,
+                "visibility": visibility, "branch": self.branch,
                 "author": user["login"], "email": f"{user['id']}+{user['login']}@users.noreply.github.com"}
 
     def git(self, *args, cwd=None, data=None):

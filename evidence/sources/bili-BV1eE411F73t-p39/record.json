@@ -577,6 +577,26 @@
       "全课原声、说话语气和连续板书演示未实际听审/连续审看。",
       "P39课堂口述《我不是药神》《绝命毒师》的独立电影动作/原声和删减史未核。",
       "P39《夏洛特烦恼》《菊次郎的夏天》实际节奏及独立观众情绪效果未核；讲师复述和体验已准确保留。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "review_id": "20261003-47files-lesson17-p39",
+        "new_source_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第17课-新手跳坑/P39-十七课-新手跳坑17-641d1837/large-v3-5ef88b2b6b/P39-十七课-新手跳坑17.raw.txt",
+        "new_source_sha256": "9c6f236b55ae130e0ea1e32525d75b631fd7907624d1cd8f4f2c2bb8b29e7447",
+        "new_coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/16-22/17/P39-新raw-coverage-v1.json",
+        "note_sha256": "d3dff540a074cfd9dd5eda83784f485e863f4a45da2cabb0685fcfdd6fb52a12",
+        "scope": "新raw全文L1—L1524；逐单元源→正文及正文→源文字对照；保留历史图文校词",
+        "method": "本代理完整阅读新raw后完整阅读正式课文，按来源顺序建语义清单并双向对照；未回听原音、未连续审看，未重新识别。",
+        "summary": "完整对照P39新raw与第17课：七类共性问题、各独特案例、对手提前出场条件、药神激励起点两种划分、先事件后台词的修改顺序及情绪涂色原课练习均已保全；无可靠新漏项，正文不改。",
+        "adopted_changes": [],
+        "old_coverage_review": "正文未改，旧primary source/coverage输入及定位原样保留",
+        "unverified": [
+          "未原声听核、未连续审看。药神删减原因、苦难/艺术市场评价是老师意见，既有归属和限制保留。",
+          "新raw中的穷尧/负姓/菊子狼/药神等漂移不替换已图文核定的琼瑶、复姓、菊次郎的夏天、我不是药神；罗伯特与戴安娜等案例已保留。"
+        ],
+        "coverage_check": "closed"
+      }
     ]
   },
   "preservation": {

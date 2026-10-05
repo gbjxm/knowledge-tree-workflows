@@ -7,3 +7,10 @@
 - 本课全部来源P共同绑定该篇笔记；课次与分P的对应以binding-spec.json为准。
 - [双向复核及实际使用检查](../../../.runtime/raw-cache/course-av-review-20260925/batches/av-06/review.md)。
 - 最终文件、原稿备份、个人记录路径和SHA见record.json。
+
+## 2026-10-04 新本地 ASR 全文文字对照
+
+- 本课全部P新raw先行全文阅读，随后现行正文全文262行双向核对；本P20实际范围L1–240，登记15项。
+- 未见实质漏项，正文保持原字节。
+- 原primary来源身份、SHA、hint及旧source坐标保全；新来源见record.json的review.incremental_reviews。
+- 原声未听审、影片/动态示范未连续审看；历史已核图文不被新ASR错词覆盖，待核继续保留。

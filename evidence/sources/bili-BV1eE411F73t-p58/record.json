@@ -934,5 +934,51 @@
     "overview_backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/before-charlie-32-overview.md",
     "overview_old_sha256": "07045d6705102874e0041a1a8523b6ade2cea37c8216cc76854de0e4260de376"
   },
-  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-32/review.md"
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-32/review.md",
+  "incremental_reviews": [
+    {
+      "review_id": "course-note-reconcile-20261003-next-p58",
+      "date": "2026-10-03",
+      "operation": "review_without_note_change",
+      "source": {
+        "text_sha256": "aa3eeb5095f21bc7ffa15802ac96befe4e1ae64c21e51ab0350cd62113e99bbb",
+        "local_text_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第32课-跟《鱿鱼游戏》学写强设定/P58-三十二课-跟《鱿鱼游戏》学写强设定-4c03174f/large-v3-5ef88b2b6b/P58-三十二课-跟《鱿鱼游戏》学写强设定.raw.txt",
+        "scope": [
+          [
+            1,
+            2450
+          ]
+        ],
+        "kind": "large-v3 raw ASR text"
+      },
+      "note": {
+        "path": "知识库/学习区/课程/查理老师的编剧课/32 - 第三十二课 跟《鱿鱼游戏》学写强设定（P58）.md",
+        "sha256": "cb6090940b04c3bf7f7ebfe8dbb5d41459302a7a0507e3e63aba334e67596639"
+      },
+      "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/32/coverage-v1.json",
+      "review": {
+        "scope": "P58来源meta与segments均completed且ASR遍历完成；音频身份SHA/参数签名与输入一致，六导出哈希已核，raw2450行与2450段文本一致。先完整读新raw1–2450行（1–800、801–1600、1601–2450），后完整读正式正文1–163行。未本轮听原声或新增核图/连续审看。",
+        "summary": "57项源序单元与正式稿对应；游戏四项、规则社会比喻、各强设定变体、行业/推介/持续风险、共同预期与创新、现实选材、穿越两种预期和完整作业边界均保留。没有需要补入的实质新观点或独特案例，正文维持冻结字节。",
+        "method": "同一代理先完整读新raw，后完整读当前正式正文；源序清单、反向主张核对和旧稿保全比较。结构/登记结果与语义判断分别记录。",
+        "unverified": [
+          "原声未听审，本轮未新增图帧/原字幕读取或连续声画；既有183帧范围仅保留为历史审阅身份。",
+          "课堂市场趋势、A/B历史预算、文化心理、动物伤人/票房、首创/克隆史、季数停播、审查制作原因与大数据全能力仍未独立事实核验。",
+          "未点明的是枝裕和回家吃饭片/黄渤困岛片不补名；强设定世界规则不是原剧全关卡、连续过程或完成故事；本课没有给练习标准成稿。"
+        ]
+      },
+      "checks": [
+        {
+          "name": "new-source-coverage",
+          "returncode": 0
+        },
+        {
+          "name": "validate-note",
+          "returncode": 0
+        }
+      ],
+      "backup_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/保护备份/32",
+      "note_changed": false,
+      "final_report_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/32/review.md"
+    }
+  ]
 }

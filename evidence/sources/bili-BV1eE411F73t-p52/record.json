@@ -477,6 +477,48 @@
         "example": "霸王别姬",
         "pending": "original audio and complete recitation, continuous movement/force/order, performance change, rhythm and synchronization; interval is conservative with adjacent commentary, not frame-exact cuts"
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第26课-从容应对文艺凡尔赛/P52-二十六课-从容应对文艺凡尔赛26-2b830e2d/large-v3-5ef88b2b6b/P52-二十六课-从容应对文艺凡尔赛26.raw.txt",
+        "review_source_sha256": "0e92e93f2bf170da794bd75b69f4b03d10ff5c24f46b000c04a27cd6f70b2b85",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/24-26/26/P52-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            1991
+          ]
+        ],
+        "source_level": "本地 large-v3 ASR 原始识别文字；未听审音轨、未连续审看原视频",
+        "method": "先完整读取新 raw 并按源序列列出内容项，再完整读取现行正式课文，逐观点/理由/独特案例/条件进行新源→正文、正文→源及旧稿保全复核",
+        "summary": "本轮全文文字对照完成；未发现有充分依据且缺漏的实质增量，不凑字改稿。",
+        "changes": [],
+        "recognition_disagreements": [
+          "全文新 raw 1991 行与正式课文200行双向核对，人物观点、每个独特片例/家庭成员、假设解释、方法与限定均已有明确去处；无充分依据的实质增量，不修改正文。",
+          "保留此前已核的唯一棉大衣及片前“嘴角血、眼里泪”叙述；新raw仅同源识别对照，不能取代过去字幕或补出完整唱词。",
+          "《阳光小美女》年代、越战/嬉皮/社会排斥/种族主义等仍是老师判断；本輪不将这些未独立查证的分析改为影片事实。",
+          "苏俄假导演名字明确瞎编，母系活动与刘邦双亲对话为讲师演绎；荒岛性取向说法明确玩笑，均保留归属与非事实边界。",
+          "英雄段的反英雄判断与旅程段“不必定性，只是向前走”限定一同保留；心理学转述不升级为科学结论，场景可多读不证明作者写时先想理论。",
+          "原《霸王别姬》插片2063–2345秒的连续动作、唱词、表演节奏及声画同步仍待核；全课原声未听审，本轮只完成文字对照。"
+        ],
+        "unverified": [
+          {
+            "page": 52,
+            "seconds": [
+              2063,
+              2345
+            ],
+            "example": "霸王别姬",
+            "pending": "original audio and complete recitation, continuous movement/force/order, performance change, rhythm and synchronization; interval is conservative with adjacent commentary, not frame-exact cuts"
+          }
+        ],
+        "note_sha256": "77119f321b42f391b55a77864ef2b33b8c47a4145b9df2884eb7abbfe7cf877e",
+        "coverage_check_exit_code": 1,
+        "semantic_review_completed": true,
+        "audio_review": "not_listened",
+        "continuous_video_review": false
+      }
     ]
   },
   "preservation": {

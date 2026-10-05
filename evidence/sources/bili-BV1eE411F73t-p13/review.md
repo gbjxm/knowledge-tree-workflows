@@ -7,3 +7,12 @@
 - 本课全部来源P共同绑定该篇笔记；课次与分P的对应以binding-spec.json为准。
 - [双向复核及实际使用检查](../../../.runtime/raw-cache/course-full-review-20260924/batches/charlie-06/review.md)。
 - 最终文件、原稿备份、个人记录路径和SHA见record.json。
+
+## 2026-10-03 新全音轨机器转写增量
+
+- 本轮原文：P13 raw 行1—969，SHA-256 `6a53a567620bdddbccb561ef44c6cd8e5f401960e780971c742771910b239d66`；先读来源，再读整课正式稿。
+- 采用：完整读取P13新ASR1—969后核对本课正式正文；分场例外、电话三类内容、排版理由、音节旁论及各估时例外均已有忠实归属和限制；正文不强凑补充，仅新增本轮全篇文字复核的来源范围；语言/音乐/页字数经验仍按讲师说法，不升级为行业或语言学事实。
+- 原primary source、指纹、source行号和既有review保留；旧coverage note定位按实际修改重核/顺移，绑定最终稿。
+- 新来源覆盖清单：`.runtime/raw-cache/course-note-reconcile-20261003-47files/03-08/第06课-P13-coverage.json`。
+- 本轮未听核、未新增图像核验或连续声画核验。
+- 最终笔记SHA-256：`823614ccd6ed50a4b7645b4af227e7b3843ed665d53db51c1de9df0232346304`。

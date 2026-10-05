@@ -558,6 +558,26 @@
         "item": "大中小悬念及15/5分钟是讲师针对较紧张商业片的经验；学习/行业/谋生评价为其观点。公交故事、电话斧头、河中汽车为课堂假想，可选录音结尾非真实报道。没有量化练习及标准答案。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "review_id": "20261003-47files-lesson16-p38",
+        "new_source_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第16课-悬念与反转/P38-十六课-悬念与反转16-6796374f/large-v3-5ef88b2b6b/P38-十六课-悬念与反转16.raw.txt",
+        "new_source_sha256": "a326b4ba04a76171c807f4771f5f4440221110d9712867281719f49c74f6761f",
+        "new_coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/16-22/16/P38-新raw-coverage-v1.json",
+        "note_sha256": "dd3bafb9e26d54042214c4fc4c5fa4f91cf2d66d6bc2bb0f700b071019773323",
+        "scope": "新raw全文L1—L1721；逐单元源→正文及正文→源文字对照；保留历史图文校词",
+        "method": "本代理完整阅读新raw后完整阅读正式课文，按来源顺序建语义清单并双向对照；未回听原音、未连续审看，未重新识别。",
+        "summary": "完整对照P38新raw与正式第16课；减肥与手艺观点、事前/事后用途、悬念三特点和三种信息安排、全部假想案例、公交车可选结尾、盲侠反例及观众边界均已有实质正文，无充分依据的新漏项，正文保持原样。",
+        "adopted_changes": [],
+        "old_coverage_review": "正文未改，旧primary source/coverage输入及定位原样保留",
+        "unverified": [
+          "未听原音、未看连续声画；影片情节按讲师复述，不升级历史119帧的图文复核范围。",
+          "唐伯虎诗句、普尔蒂/卡罗克奇姓名及盲侠座头市采用既有图文核词，新raw错写不覆盖；分类史和盲侠影片版本历史待核继续保留。"
+        ],
+        "coverage_check": "closed"
+      }
     ]
   },
   "preservation": {

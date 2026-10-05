@@ -527,6 +527,59 @@
         "reason": "忠实记录教师在本例的视觉解释及可能程度；绿圈不是真实眼动数据，本轮未验证视觉生理/观众反应，正文不升级普遍确定规律，已核的是课堂方法理由。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第11课-视觉焦点的实际应用/P12-第十一课 视觉焦点的实际应用 11-bfb5a977/large-v3-5ef88b2b6b/P12-第十一课 视觉焦点的实际应用 11.raw.txt",
+        "review_source_sha256": "f23f370ce1cb1c17e921e1cd9b8adc2ff9bff81b8d4587b9b581d54a8024d7f0",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/11/P12-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            717
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "新raw L1—717与现稿L1—173全文双向比对，四焦点因素、眼线成功/失败、实际坐站反例与暗示减弱条件、猫/中指竞争、时长游移、猫帮追女友和中带手枪三镜均已有具体正文。",
+          "动作例的雪挡再出现、右出→右脸、跟不同对象不同顺跳读法、左焦点偏左打斗，以及快刀惯性下中/左/普通右摆均可能失败、先空画右入的条件完整保持。",
+          "新ASR“吴皇任谈/血盖住/一睁睁看”保留为识别分歧，不覆盖旧原图已核《无皇刃谭》/雪幕/逐帧建议；新文字“血”无法推翻雪的画面依据。",
+          "片段高潮和惯性按教师解释，保留整场跳损叙事、先接顺的边界；未因未独立声画核验删明确案例。",
+          "本轮未发现需改正文实质漏项，笔记所有字节和图解/个人/主题入口保全；8P中的待核不是语义登记错误。"
+        ],
+        "note_sha256": "d6a9808358703184d78d1880f06aa2d6fc5d05a9c13f7c3e81155c9c45273825",
+        "prior_note_sha256": "d6a9808358703184d78d1880f06aa2d6fc5d05a9c13f7c3e81155c9c45273825",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "AV-P12",
+            "item": "全课原声及草图动作/焦点迁移/正反打独立连续效果",
+            "reason": "未独立听音或连续观看；眼线高低、坐站身份、走廊与草图步骤由明确课堂文字/图文已核，动作和预期作用按教师说明保留，不认证实际眼动或观感。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "AV-FIGHT-P12",
+            "item": "无皇刃谭真实切点/轨迹速度/出入画/原声及顺跳惊吓高潮体验",
+            "reason": "绿色标示和各位置、空画与右缘人物可静态核，雪挡/右出接右脸/观看路径差异/快右向三种失败与延迟入画由明确讲述支持；未听音或连续审看，不把老师分析/静图当独立实际效果。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "VISION-P12",
+            "item": "横向观看省力、注意力惯性及观众焦点/身份暗示的独立实证",
+            "reason": "忠实记录教师在本例的视觉解释及可能程度；绿圈不是真实眼动数据，本轮未验证视觉生理/观众反应，正文不升级普遍确定规律，已核的是课堂方法理由。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/11/工作报告.md"
+      }
     ]
   },
   "working_review_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-11/review.md",

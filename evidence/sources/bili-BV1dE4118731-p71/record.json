@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/中国传媒大学《视听语言》/18 - 第十章 声音设计（P69-P72）.md",
-    "sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34"
+    "sha256": "c66a019d319b0927613ca89dadc1d723984212494c205ef2092885afddbc47d8"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "f815202b8f474991732541eecbb885c77296424a56f01152df67fa56f18fcab2",
-    "note_sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34",
+    "note_sha256": "c66a019d319b0927613ca89dadc1d723984212494c205ef2092885afddbc47d8",
     "scope": [
       [
         6,
@@ -355,6 +355,125 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第18课-第十章 声音设计/P71-10.20不能忽视的声音3-37a24e46/large-v3-5ef88b2b6b/P71-10.20不能忽视的声音3.raw.txt",
+        "review_source_sha256": "2911d9b579702cbd5eb8756703821c5045e5178e612c995d9687d72e32f6128f",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/18/P71-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            278
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；仅局部补回或修正有清楚源依据的内容，其他旧稿保全。",
+        "changes": [
+          "仅L92補回原课独特比喻：开锁欣喜夸张地类比二战苏联红军攻克柏林时的胜利快感；保留第一人称口吻和第三人称对照的原意。"
+        ],
+        "recognition_disagreements_and_judgments": [
+          "新P69—72共1067行与371行现稿完整双向对照，人声所有分类和权衡、音乐三作用五关系、音响五类四特性、融合视角悬念全部保持详细过程。",
+          "独白例原稿“战胜和攻克”略泛化，补回新文字明确的“二战苏联红军攻克柏林”的独特夸张比喻，作为教师对电影第一人称口吻的分析而非影片台词逐字恢复。",
+          "其余对白/书篇长度/音乐听感、阿甘猫王戏仿、妻夫不同情绪、赎罪故事内外声、音色版本、现代启示录主观点及两电话声源寻找都有正确条件，未因未听删清楚示例。",
+          "新ASR人生/弱脸痴/草莓土豆等不覆盖人声/入殓师原图和旧校字；五音画关系可重叠，声音性质需原声不能用ASR证明。其余正文链接/图解/个人/沉淀状态全部保全，P70—72仅共同SHA重绑。"
+        ],
+        "note_sha256": "c66a019d319b0927613ca89dadc1d723984212494c205ef2092885afddbc47d8",
+        "prior_note_sha256": "03a2c904bddb8a8aac1856cee8fc7b8796a76c50469ab51c070276d660102e34",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P71-U01",
+            "item": "音响为人声音乐之外的声音，也可把作为背景的人声音乐按音响功能处理；吃饭敲桌示例需原声。",
+            "status": "待核",
+            "reason": "M14连续声画待核；原课文字和静态图文已分别整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P71-U05",
+            "item": "赎罪开篇打字机、少女布里奥妮完成剧本走动、声源不见后声音持续加快、关门后停止；有源转无源判断需声画及音乐制作证据。",
+            "status": "待核",
+            "reason": "M15连续声画待核；原课文字和静态图文已分别整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P71-U06",
+            "item": "打字声与人物工作和急迫心情关联、类心跳；声临其境/以声写情等疑词原字待核。",
+            "status": "待核",
+            "reason": "M15连续声画待核；原课文字和静态图文已分别整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P71-U08",
+            "item": "拆弹部队警戒聊天转发现白衣持手机者，语言速度声调动作突然加快的例子；不扩展现实拆弹流程。",
+            "status": "待核",
+            "reason": "M16连续声画待核；原课文字和静态图文已分别整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P71-U10",
+            "item": "谍影重重3追杀丹尼尔斯、高密噪声暂止突出按钮声后爆炸；静默是否全静音、实际强度转换须听核。",
+            "status": "待核",
+            "reason": "M17连续声画待核；原课文字和静态图文已分别整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P71-U11",
+            "item": "音色与人物辨识、风格联想；舌尖上的中国与李立宏疑词需原题/原始资料，不将音色等同科学判定人格。",
+            "status": "待核",
+            "reason": "M18连续声画待核；原课文字和静态图文已分别整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P71-U12",
+            "item": "大话西游爱你一万年配音片例，声音标签与氛围；语言版本和配音者未核，不能直接说是演员本人音色。",
+            "status": "待核",
+            "reason": "M18连续声画待核；原课文字和静态图文已分别整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P71-U13",
+            "item": "声音空间感，老无所依旅馆莫斯遭追踪、只闻脚步声由远及近推进悬念；叙事与视点待声画。",
+            "status": "待核",
+            "reason": "M19连续声画待核；原课文字和静态图文已分别整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P71-U14",
+            "item": "11:55–12:56超过一分钟无转写的老无所依插片及收束；不能漏掉关键脚步声演示。",
+            "status": "待核",
+            "reason": "M19连续声画待核；原课文字和静态图文已分别整理。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/18/工作报告.md",
+        "affected_primary_source_review": {
+          "old_source_ranges_read": {
+            "69": [
+              [
+                158,
+                178
+              ]
+            ]
+          },
+          "old_note_lines_allowed_to_replace": [
+            92
+          ],
+          "binding_only_pages": [
+            70,
+            71,
+            72
+          ],
+          "findings": "旧P69 primary L158—178实际读取，L172有苏联红军/二战/柏林的破损识别，L174—178是第一第三人称对照；新raw L141—160明确关系。仅补回具体课堂比喻，非历史论证或实操；旧来源落点含L92。其余3P只共享字节版本重绑。"
+        },
+        "primary_binding_only_for_this_page": true
+      }
     ]
   },
   "adoption": {

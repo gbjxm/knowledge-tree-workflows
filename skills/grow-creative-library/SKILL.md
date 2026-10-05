@@ -45,7 +45,7 @@ Build a working personal knowledge tree rather than a pile of source summaries. 
 
 ## 入库后的增量补查
 
-完成已授权的来源保存与主题融合后，读取 [新增材料补查](../apply-film-knowledge/references/incremental-followup.md)，运行 knowledge_followup.py --suggest --checkpoint。检查变化、未沉淀材料、单向来源入口、重复和受影响主题；阅读候选后再按本 Skill 原授权范围和分区处理普通融合。学习区完整保存或内部综合即可完成学习入库，不能因补查候选自动转入创作区；创作补查也不沿链接读取未点名的学习材料。未确认语义关系只预览，合理独立可保留；deferred 项不能报已完成。
+完成已授权的来源保存与主题融合后，读取 [新增材料补查](../apply-film-knowledge/references/incremental-followup.md)，运行 knowledge_followup.py --suggest --checkpoint。分区配置默认比较创作正文；本次已选学习来源通过重复的 --include-path 准确加入，需要比较学习主题时也只加入本次已授权且实际选中的文件。完整身份盘点与正文比较分开，依赖链不扩大正文读取权限。检查变化、未沉淀材料、单向来源入口、重复和受影响主题；阅读候选后再按本 Skill 原授权范围和分区处理普通融合，跨区候选不授权融合。学习区完整保存或内部综合即可完成学习入库，不能因补查候选自动转入创作区；创作补查也不沿链接读取未点名的学习材料。未确认语义关系只预览，合理独立可保留；deferred 项不能报已完成。
 
 ## Source architecture gate
 

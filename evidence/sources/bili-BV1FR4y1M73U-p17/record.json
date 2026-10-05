@@ -422,6 +422,438 @@
         "item": "片头中英文名称不一致，按目录CID及实际内容确认为P17编辑修改。旧SVG为P17+18整理扩展，边界已标，非本课原图。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第17课-编辑修改/P17-P17 编辑修改-af9565a7/large-v3-ce02d88ede/P17-P17 编辑修改.raw.txt",
+        "review_source_sha256": "26f8255f19d191470e87bbed2891c210713685f3204731f674e0ae84ef237308",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/15-19/17/P17-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            121
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "新raw全文121行，初稿爆炸、可行才放一周/十天、读者边注与battle期待、主题取舍及素材另存、反馈与修法例外、未交色稿及空白不可修的完整关系已保存。未发现实质缺漏。",
+          "新raw Steve Whittaker与旧稿Whitaker不同，列识别待核但不覆盖历史图文姓名。职业经历仍按盖曼回忆，不作新的史实核实。",
+          "正文分别保留读者体验可信、根因可更早、读者建议偶尔有效，不把这三层误压成一律不听建议。",
+          "既有SVG与P17/P18综合说明属于整理者扩展而非原课，本轮完整保留附件链接、归属条件和个人记录入口。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "16c4958f2208309621ebbbb04db89791a10dbc156316a0b93cca201fc84f5e43",
+        "prior_note_sha256": "16c4958f2208309621ebbbb04db89791a10dbc156316a0b93cca201fc84f5e43",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看；静帧不证明语气、手势连续变化或声画同步。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "片头中英文名称不一致，按目录CID及实际内容确认为P17编辑修改。旧SVG为P17+18整理扩展，边界已标，非本课原图。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NEW-N21",
+            "item": "新raw的Steve Whittaker与旧稿Whitaker拼写不同",
+            "reason": "未回听；不覆盖旧图文核对的姓名，职业与历史归属仍按课堂转述。",
+            "source_lines": [
+              81,
+              84
+            ],
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/15-19/17/工作报告.md",
+        "coverage": {
+          "version": 1,
+          "source_sha256": "26f8255f19d191470e87bbed2891c210713685f3204731f674e0ae84ef237308",
+          "note_sha256": "16c4958f2208309621ebbbb04db89791a10dbc156316a0b93cca201fc84f5e43",
+          "scope": [
+            [
+              1,
+              121
+            ]
+          ],
+          "items": [
+            {
+              "id": "N01",
+              "item": "创造与修复两阶段；先爆炸到结尾再看弹片破坏和何处有效",
+              "source": {
+                "lines": [
+                  1,
+                  9
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  52,
+                  54
+                ]
+              }
+            },
+            {
+              "id": "N02",
+              "item": "条件允许则先离开，可能周或十天后打印，以方法派般认真假装初读",
+              "source": {
+                "lines": [
+                  10,
+                  16
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  58,
+                  60
+                ]
+              }
+            },
+            {
+              "id": "N03",
+              "item": "打印便于笔边注，不恶毒残酷而是记真实读者不成立之处",
+              "source": {
+                "lines": [
+                  17,
+                  20
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  62,
+                  62
+                ]
+              }
+            },
+            {
+              "id": "N04",
+              "item": "作者以为暗示战斗可省写，读者因前文承诺期待整场，需battle边注",
+              "source": {
+                "lines": [
+                  21,
+                  28
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  64,
+                  64
+                ]
+              }
+            },
+            {
+              "id": "N05",
+              "item": "暂分作者与读者，最终边注成为二稿编辑修补主要引擎",
+              "source": {
+                "lines": [
+                  28,
+                  31
+                ]
+              },
+              "status": "合并",
+              "note": {
+                "lines": [
+                  62,
+                  62
+                ]
+              },
+              "reason": "并入边注方法段，身份分工与二稿用途保留。"
+            },
+            {
+              "id": "N06",
+              "item": "新眼光读完问关于什么，一二稿差别可小但二稿关键",
+              "source": {
+                "lines": [
+                  32,
+                  43
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  68,
+                  68
+                ]
+              }
+            },
+            {
+              "id": "N07",
+              "item": "真正主题可能不同原想或仅部分相同，主题成为强化删除尺度",
+              "source": {
+                "lines": [
+                  44,
+                  47
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  68,
+                  72
+                ]
+              }
+            },
+            {
+              "id": "N08",
+              "item": "喜欢却无关主题的情节可以删除，另存未来可能有用的文件",
+              "source": {
+                "lines": [
+                  48,
+                  51
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  70,
+                  70
+                ]
+              }
+            },
+            {
+              "id": "N09",
+              "item": "加固初稿已触及却未明确的主题，使二稿像从头知所做",
+              "source": {
+                "lines": [
+                  52,
+                  56
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  72,
+                  72
+                ]
+              }
+            },
+            {
+              "id": "N10",
+              "item": "读者觉得不起作用是真实阅读经验且重要",
+              "source": {
+                "lines": [
+                  57,
+                  60
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  76,
+                  76
+                ]
+              }
+            },
+            {
+              "id": "N11",
+              "item": "读者诊断修法几乎常错但有真好建议例外",
+              "source": {
+                "lines": [
+                  61,
+                  65
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  78,
+                  78
+                ]
+              }
+            },
+            {
+              "id": "N12",
+              "item": "先收不成立信息再找更早根因，或删或补建立条件",
+              "source": {
+                "lines": [
+                  66,
+                  73
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  80,
+                  80
+                ]
+              }
+            },
+            {
+              "id": "N13",
+              "item": "相信不成立但不自动接受更多结论，照其修法恐写他人故事",
+              "source": {
+                "lines": [
+                  74,
+                  79
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  82,
+                  82
+                ]
+              }
+            },
+            {
+              "id": "N14",
+              "item": "Whitaker优秀已为V for Vendetta上色，要交少量样张即可落实睡魔机会",
+              "source": {
+                "lines": [
+                  80,
+                  91
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  86,
+                  86
+                ]
+              }
+            },
+            {
+              "id": "N15",
+              "item": "漂亮色稿不肯送因未完美，DC另聘；有作品未交出致机会错过",
+              "source": {
+                "lines": [
+                  92,
+                  97
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  88,
+                  88
+                ]
+              }
+            },
+            {
+              "id": "N16",
+              "item": "完美山/水晶城为理想而现实有误，不能被恐惧瘫痪",
+              "source": {
+                "lines": [
+                  98,
+                  104
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  90,
+                  90
+                ]
+              }
+            },
+            {
+              "id": "N17",
+              "item": "短篇对白开头可修而空白不能，勇敢开始且容撞礁失败",
+              "source": {
+                "lines": [
+                  104,
+                  109
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  94,
+                  94
+                ]
+              }
+            },
+            {
+              "id": "N18",
+              "item": "讲师不确定比30余年前更明白，有高下不知为何但信过程",
+              "source": {
+                "lines": [
+                  109,
+                  113
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  96,
+                  96
+                ]
+              }
+            },
+            {
+              "id": "N19",
+              "item": "不写则无机会成为好、受爱、获奖、出名或朗读受欢迎作品",
+              "source": {
+                "lines": [
+                  113,
+                  116
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  98,
+                  98
+                ]
+              }
+            },
+            {
+              "id": "N20",
+              "item": "执着作品不如点子会关闭意外写出美丽作品的可能",
+              "source": {
+                "lines": [
+                  117,
+                  121
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  100,
+                  100
+                ]
+              }
+            },
+            {
+              "id": "N21",
+              "item": "新raw的Steve Whittaker与旧稿Whitaker拼写不同",
+              "source": {
+                "lines": [
+                  81,
+                  84
+                ]
+              },
+              "status": "待核",
+              "reason": "未回听；不覆盖旧图文核对的姓名，职业与历史归属仍按课堂转述。"
+            }
+          ]
+        },
+        "registration_result": "open",
+        "recognition_pending_items": [
+          {
+            "id": "N21",
+            "item": "新raw的Steve Whittaker与旧稿Whitaker拼写不同",
+            "source_lines": [
+              81,
+              84
+            ],
+            "reason": "未回听；不覆盖旧图文核对的姓名，职业与历史归属仍按课堂转述。"
+          }
+        ]
+      }
     ]
   },
   "preservation": {

@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/中国传媒大学《视听语言》/16 - 第十章 动作片视听设计（P60-P63）.md",
-    "sha256": "1b4192ab0568b2b812af36baf981573d29dd0366f94ae2ef2f79490b9f33d4d8"
+    "sha256": "6b4f4faefe0f25323273326d4b4a3d9b9bcf28d27555a4cce7924dda9bd26747"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "6e349b31b8fd28a1bdb4edbdf56b153982c621012068de791fe7f1a1fa664f45",
-    "note_sha256": "1b4192ab0568b2b812af36baf981573d29dd0366f94ae2ef2f79490b9f33d4d8",
+    "note_sha256": "6b4f4faefe0f25323273326d4b4a3d9b9bcf28d27555a4cce7924dda9bd26747",
     "scope": [
       [
         6,
@@ -205,6 +205,83 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第16课-第十章 动作片视听设计/P63-10.12动作片的门道4-40580e90/large-v3-5ef88b2b6b/P63-10.12动作片的门道4.raw.txt",
+        "review_source_sha256": "5ecf245c5240631e40b4bc4399bcfaef93fa65249ed23f33a4aeb26a3d06a04e",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/16/P63-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            156
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；仅局部补回或修正有清楚源依据的内容，其他旧稿保全。",
+        "changes": [
+          "仅L267補回讲者“风清扬带着令狐冲，与东厂太监夜战”的清楚口述关系；保留具体片内身份与连续声画待核。"
+        ],
+        "recognition_disagreements_and_judgments": [
+          "完整新P60—63共980行与320行现稿双向复核，五推进片例、马永贞两个段、环绕英雄加笑点、追逐三限制与各器材、长镜双刃剑及三组组接全部已保。",
+          "P63夜战之前仅列两个名字而未写谁带谁/与谁对战；新文字L136—143清楚，旧primary L144—153同关系，因此仅一段補讲者描述，不升实际片内身份。",
+          "正式课架构、所有例子/外部资料/图解/旧学习/候选/链接原样保留；没有改创作主题。P60—62按共享稿哈希重绑，内容无变。",
+          "新文无极光明/昆仑冲突仍是原课冲突，变奏摇和回初始既有原图术语保全。实际运动、制作数据、人物对应及完整声画不由文字证明。"
+        ],
+        "note_sha256": "6b4f4faefe0f25323273326d4b4a3d9b9bcf28d27555a4cce7924dda9bd26747",
+        "prior_note_sha256": "1b4192ab0568b2b812af36baf981573d29dd0366f94ae2ef2f79490b9f33d4d8",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P63-U03",
+            "item": "英雄藏书阁无名剑法、毛笔与假死设定，全特交替的叙事冲击节奏；穴位只作电影虚构，不转成现实伤害知识。",
+            "status": "待核",
+            "reason": "M14的连续声画或制作语境仍缺；文字与静态观察均保留。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P63-U05",
+            "item": "卧虎藏龙酒楼玉娇龙桌前，挑战者动作与回返坐姿表现实力差距，人物名对白动作及剪接待核。",
+            "status": "待核",
+            "reason": "M15的连续声画或制作语境仍缺；文字与静态观察均保留。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P63-U07",
+            "item": "笑傲江湖风清扬令狐冲与东厂太监夜战原说法，人物身份存疑；06:40–08:13无转写插片需完整声画。",
+            "status": "待核",
+            "reason": "M16的连续声画或制作语境仍缺；文字与静态观察均保留。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/16/工作报告.md",
+        "affected_primary_source_review": {
+          "old_source_ranges_read": {
+            "63": [
+              [
+                1,
+                157
+              ]
+            ]
+          },
+          "old_note_lines_allowed_to_replace": [
+            267
+          ],
+          "binding_only_pages": [
+            60,
+            61,
+            62
+          ],
+          "findings": "旧P63 primary全文实际读取，L144—153可见同一带领/夜战关系；新P63 raw L136—143更清楚。本轮仅补讲者描述，旧P63-U07落点263—270包含补充，无旧source坐标/状态变化。其余3P只因共享正文版本重绑。"
+        },
+        "primary_binding_only_for_this_page": false
+      }
     ]
   },
   "adoption": {

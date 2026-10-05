@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/中国传媒大学《视听语言》/12 - 第十章 场景的有限与无限（P52）.md",
-    "sha256": "22091d4e93402ef9b704119950501c8bc287ba72a3f23c71f36fb63c1fba5b7e"
+    "sha256": "cd9a1d92524269268070ae244292ae016beee03b7cdf5d328ed3613f9fa871a6"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "b28b8dc7c7827954d14cb14085832a8b61684e1db48e033123b3879b5fd7c83b",
-    "note_sha256": "22091d4e93402ef9b704119950501c8bc287ba72a3f23c71f36fb63c1fba5b7e",
+    "note_sha256": "cd9a1d92524269268070ae244292ae016beee03b7cdf5d328ed3613f9fa871a6",
     "scope": [
       [
         6,
@@ -615,6 +615,93 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第12课-第十章 场景的有限与无限/P52-10.1有限的场景 无限的可能-393d83ae/large-v3-5ef88b2b6b/P52-10.1有限的场景 无限的可能.raw.txt",
+        "review_source_sha256": "5bd8cf9bc12ef1f376df50b745a15df5a63b54875004340809ee9823b1ad7857",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-08-12/12/P52-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            468
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；仅局部补回或修正有清楚源依据的内容，其他旧稿保全。",
+        "changes": [
+          "P52 L106普通补回“逐层累加的金字塔”比喻（新raw L296–301，旧primary L322–356实际回读），保留原场信息术语待核。"
+        ],
+        "recognition_disagreements_and_judgments": [
+          "完整读取P52新raw468行，再现稿180行，逐定义、五种场景类型、五图逐问题、花样服装/调度、艺伎/碟中谍、场信息关系与两片逐维度比较列38项。",
+          "源→稿、稿→源及旧稿保护回查，只补原段被概括掉的独特金字塔比喻；新raw L296–301明确，受影响旧primary L322–356实际回读也有金字塔结构。",
+          "场信息原字幕历史记录保留，未用ASR建立严格层级；服装数量不等日期，未见画外不等完全不可知，安东作者分类外部补充的原身份保全。",
+          "首行异源栏目识别不取作专业知识；电影对白与合成动态未核、引语和版本不补猜。"
+        ],
+        "note_sha256": "cd9a1d92524269268070ae244292ae016beee03b7cdf5d328ed3613f9fa871a6",
+        "prior_note_sha256": "22091d4e93402ef9b704119950501c8bc287ba72a3f23c71f36fb63c1fba5b7e",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P52-U07",
+            "item": "计算机合成／模拟景，虚拟演播室掌上火字与火焰对照，引用《万万没想到》；low／高级是课堂修辞，不当效果越逼真越好，具体动画和合成方式待核。",
+            "status": "待核",
+            "reason": "M1声画或原声术语待核；静态所见与课堂讲解分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P52-U16",
+            "item": "王家卫《花样年华》场面调度引入及初次播放；07:43–08:51只有零散对白ASR，不代表整段画面与声音已被转写，需原片连续审看。",
+            "status": "待核",
+            "reason": "M2声画或原声术语待核；静态所见与课堂讲解分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P52-U17",
+            "item": "吃饭、模拟对方伴侣的约会、两人两盘子之间的镜头、低剪辑率及苏丽珍旗袍变化；转写说第一次／第二次自相含混，不能给出已核餐次或镜数。",
+            "status": "待核",
+            "reason": "M2声画或原声术语待核；静态所见与课堂讲解分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P52-U18",
+            "item": "转入车内、第三套旗袍的课堂解释：调度与服装线索压缩时空；不能把装束变化自动等于一次独立日期，需影片上下文与实际镜头核对。",
+            "status": "待核",
+            "reason": "M2声画或原声术语待核；静态所见与课堂讲解分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P52-U21",
+            "item": "场景与场戏／场信息候选术语关系：一段戏可用一个或多个空间，预先考虑连贯与穿帮；必须据原字幕核字，不沿用ASR误词，也不把所有穿帮都归于场景设计。",
+            "status": "待核",
+            "reason": "M3声画或原声术语待核；静态所见与课堂讲解分开。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-08-12/12/工作报告.md",
+        "affected_primary_source_review": {
+          "old_source_ranges_read": {
+            "52": [
+              [
+                322,
+                356
+              ]
+            ]
+          },
+          "old_note_lines_allowed_to_replace": [
+            106
+          ],
+          "binding_only_pages": [],
+          "findings": "旧primary L322–356完整受影响论证与金字塔结构回读，新增比喻不建立新术语定义，不改历史待核身份；其他正文原字节内容保护。"
+        },
+        "primary_binding_only_for_this_page": false
+      }
     ]
   },
   "adoption": {

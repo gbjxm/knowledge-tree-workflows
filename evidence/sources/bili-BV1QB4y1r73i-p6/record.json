@@ -336,6 +336,52 @@
         "reason": "名称未独立核定；正文完整保存请求唱歌/弹唱的内容与方法，不猜专名，非核心阻塞",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第05课-主镜的概念/P06-第五课 主镜的概念 5-db45b26a/large-v3-5ef88b2b6b/P06-第五课 主镜的概念 5.raw.txt",
+        "review_source_sha256": "a3c3efcd266f958eda514fee391660e56cc2cb52f5210161776fb0d1dc7b1677",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/05/P6-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            628
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "完整读P6新raw628行与现稿134行；场景两作用、米格反应、主镜中的主镜、分段、每个帽杯与特写理由、同画面/分镜选择及左右后定分别保留。",
+          "歌名呼安妮塔未由本轮原声核字，不补专名；Actor等不替换历史已核埃克托姓名。L420–422可以有可以没有指代不明，不据此删历史图文核定的米格重要反应。",
+          "杯子暗示是讲师解释，观众可能只伤感的限定保留；未把完成片反推教学说成创作团队实际过程。",
+          "新raw未发现需改的实质漏项，正文原字节保持；原声唱歌与消散连续效果保持待核。"
+        ],
+        "note_sha256": "f49bb2a9e25fbdf165ab97673272161c6fc09ec1c9169d587a45011a007cffd3",
+        "prior_note_sha256": "f49bb2a9e25fbdf165ab97673272161c6fc09ec1c9169d587a45011a007cffd3",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "AV-P6",
+            "item": "独立原声与连续唱歌、发亮消散、动作/剪辑效果",
+            "reason": "未听原声或连续观看；正文保存课堂陈述/静图关系而非独立声画体验，非知识核心阻塞",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NAME-P6-SONG",
+            "item": "歌曲名称",
+            "reason": "名称未独立核定；正文完整保存请求唱歌/弹唱的内容与方法，不猜专名，非核心阻塞",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/05/工作报告.md"
+      }
     ]
   },
   "working_review_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-05/review.md",

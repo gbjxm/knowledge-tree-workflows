@@ -305,6 +305,89 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第19课-第十章 影调层次/P73-10.22影调有层次（上）-c7d721de/large-v3-5ef88b2b6b/P73-10.22影调有层次（上）.raw.txt",
+        "review_source_sha256": "9e5e7b01d574dafbd4d9b766d85e0f2faf8ba9d5488c8881682c9337c9d0bbce",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/19/P73-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            180
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "P73新180行/P74新208行与284行现稿全文双向核对，高低与硬软两轴、中间双义/事项、所有亮暗对比物、两个四月/两个餐桌、材质与其他调整全有对应实质正文。",
+          "新文“饮料/蝶中蝶舞/刺客念饮娘”不覆盖已核影调/碟中谍5/刺客聂隐娘；角光仍未听，不由于新识别同词便擅认下光。",
+          "高调非过曝低调非一片黑，亮暗主导与软硬/光向区别、固定外景时段适用条件、透视口语限制、拔草轶事身份均保持。",
+          "本轮无新增看图/听原声/连续视看。未发现實质遗漏，正式正文和所有历史/沉淀/附件字节保留，待核不因文字清楚或技术导出校验关闭。"
+        ],
+        "note_sha256": "10f6867d50a7ed302c75e1523a27c25e1f8e2e40fa500a95b362838e363da019",
+        "prior_note_sha256": "10f6867d50a7ed302c75e1523a27c25e1f8e2e40fa500a95b362838e363da019",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P73-U01",
+            "item": "影调定义为画面明暗层次；轮廓造型、气氛情绪主题质感；更换教师背景的高低调/不同颜色演示须看实际画面。",
+            "status": "待核",
+            "reason": "M1连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P73-U04",
+            "item": "高调三做法：亮背景/景物、散射光、少量暗物对比突出中心；背景切换演示待图文。",
+            "status": "待核",
+            "reason": "M1连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P73-U05",
+            "item": "泰坦尼克号船头兴奋、大海风海豚阳光，暗衣对比亮环境；04:09–04:51长ASR空窗，人物身份场景待画面，不能套成另一著名船头戏。",
+            "status": "待核",
+            "reason": "M2连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P73-U07",
+            "item": "低调四做法：深暗背景，侧光逆光斜侧侧逆，剪影半剪影投影，以少量浅亮主体对比；光向不等于硬度。",
+            "status": "待核",
+            "reason": "M1连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P73-U08",
+            "item": "老炮儿六爷擦刀与白毛巾，深暗环境对照亮物、时间与心理；插刀/擦刀疑词、人物动作须原课。",
+            "status": "待核",
+            "reason": "M3连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P73-U10",
+            "item": "谍中谍5疑片名，伊森亨特受审/挨打、顶光硬光、受光背光投影及肌肉感；需要原片名和画面。",
+            "status": "待核",
+            "reason": "M4连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P73-U11",
+            "item": "外语片例大量我会在那里打的重复错识别、09:23–10:16长空窗；环境压抑与后段搏斗；完整光线连续性和声音/动作未核。",
+            "status": "待核",
+            "reason": "M4连续声画待核；原课文字与静态观察已分层整理。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/19/工作报告.md"
+      }
     ]
   },
   "adoption": {

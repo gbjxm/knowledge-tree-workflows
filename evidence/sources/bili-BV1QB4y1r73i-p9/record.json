@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/老白的分镜课/08 - 第八课 决定景别的六个原则（P9）.md",
-    "sha256": "f25c17b5b02fe7b82910e8bafdc9ec56a72006e6dd244fa4728e24e811517a85"
+    "sha256": "4ca527d30a9625a19bfa69f68deb9949dc2ec209e7000509e2afa1f310e0c096"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "07643db7a4823b7f67c15b6af7c166511f178f7e1c6f6e37ab81dadc0b33544b",
-    "note_sha256": "f25c17b5b02fe7b82910e8bafdc9ec56a72006e6dd244fa4728e24e811517a85",
+    "note_sha256": "4ca527d30a9625a19bfa69f68deb9949dc2ec209e7000509e2afa1f310e0c096",
     "scope": [
       [
         1,
@@ -484,6 +484,223 @@
         "item": "前段签名蒙太奇与导演不加签名特写的理由",
         "reason": "本轮未查完整影片，仅以老师明确称我的理解保留推测，不作确定意图。",
         "blocks_knowledge_body": false
+      }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第08课-决定景别的六个原则/P09-第八课 决定景别的六个原则 8-4e64ee14/large-v3-5ef88b2b6b/P09-第八课 决定景别的六个原则 8.raw.txt",
+        "review_source_sha256": "58b90c16ebc153ff55d7fbf52c40fd554025d416c5754f279bad1807a2e4eb87",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/08/P9-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            1078
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "完整读P9新raw1078行与現稿194行；六项、沙漠两修法、摩托、谈判、杀人等待视角、宝石枪插入、段落节奏及综合案例各独特选择理由分别登记。",
+          "新raw麦高分、殺戮鏡頭等错误不覆盖历史已核麦高芬/插入镜头；电影演示对白不恢复完整台词、金额和专名。",
+          "握手要挟段新raw代词不清，现稿医生不能离开与后段枪指女孩的具体威胁对象仍需原电影原话/连续语境；本轮记录待核，不凭ASR强改历史已核段。",
+          "小哥们仍只原画同框普通称呼，末端特写不改成脸。练习为讲师建议而非小陌已完成；未发现清楚有据需改的正文遗漏，原字节保持。"
+        ],
+        "note_sha256": "f25c17b5b02fe7b82910e8bafdc9ec56a72006e6dd244fa4728e24e811517a85",
+        "prior_note_sha256": "f25c17b5b02fe7b82910e8bafdc9ec56a72006e6dd244fa4728e24e811517a85",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P9-08",
+            "item": "12:11—17:33原片破损ASR完整对白与演示效果",
+            "reason": "完整对白未恢复；本轮未听音、未连续审看，已核标题及必要静态图文不代替连续演示。此处不承载未核核心解释，正文仅用讲师清楚描述及可核字幕。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "AV-P9",
+            "item": "实际切点、松紧观看感、相机/人物运动、枪响和叫停声音、节奏/表演",
+            "reason": "均按老师描述保存，原帧只核静态对象和编号；未独立原声或连续观看。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "INFER-P9-SIGN",
+            "item": "前段签名蒙太奇与导演不加签名特写的理由",
+            "reason": "本轮未查完整影片，仅以老师明确称我的理解保留推测，不作确定意图。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/08/工作报告.md"
+      },
+      {
+        "date": "2026-10-04",
+        "operation": "targeted_original_subtitle_correction",
+        "title": "定点原字幕纠正威胁对象",
+        "method": "只读交叉核新ASR局部、旧primary上下文和完整案例段，再实际view9张缓存原帧；1680/1690秒中英文电影字幕消歧。原声未听审、影片未连续审看。",
+        "scope": {
+          "new_raw_lines_read": [
+            [
+              835,
+              945
+            ]
+          ],
+          "old_primary_lines_read": [
+            [
+              810,
+              990
+            ]
+          ],
+          "formal_note_lines_read": [
+            [
+              122,
+              164
+            ]
+          ],
+          "changed_note_lines": [
+            148
+          ],
+          "actual_frame_seconds": [
+            1672,
+            1690,
+            1717,
+            1650,
+            1680,
+            1710,
+            960,
+            990,
+            1020
+          ]
+        },
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第08课-决定景别的六个原则/P09-第八课 决定景别的六个原则 8-4e64ee14/large-v3-5ef88b2b6b/P09-第八课 决定景别的六个原则 8.raw.txt",
+        "review_source_sha256": "58b90c16ebc153ff55d7fbf52c40fd554025d416c5754f279bad1807a2e4eb87",
+        "primary_source_path": ".runtime/raw-cache/bilibili/BV1QB4y1r73i-p9-第八课 决定景别的六个原则 8/transcript.md",
+        "primary_source_sha256": "07643db7a4823b7f67c15b6af7c166511f178f7e1c6f6e37ab81dadc0b33544b",
+        "formal_note_language": "zh",
+        "source_language": "zh",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-08-correction/08/P9-new-raw-coverage.json",
+        "prior_note_sha256": "f25c17b5b02fe7b82910e8bafdc9ec56a72006e6dd244fa4728e24e811517a85",
+        "note_sha256": "4ca527d30a9625a19bfa69f68deb9949dc2ec209e7000509e2afa1f310e0c096",
+        "summary": "原稿L148把离开对象及被枪击对象都误绑医生；字幕明确为女孩，握手者为医生。只定点修正此句，其他193行及该行其他内容原字节保全。",
+        "actual_media_observations": [
+          {
+            "path": ".runtime/raw-cache/course-laobai-review-20260930/visual-p9-details/p9-1672.png",
+            "requested_second": 1672,
+            "sha256": "8a7e062cab930e2b80b50fc4eb430966bd73e49ff33f8e683add771e7d95e88a",
+            "actually_viewed": true,
+            "observation": "61号帧电影字幕给出握手前和离开条件的前半句，保安队长视角的讲课画面。",
+            "evidence_type": "cached_original_static_frame_and_visible_burned_subtitles"
+          },
+          {
+            "path": ".runtime/raw-cache/course-laobai-review-20260930/visual-p9-details/p9-1690.png",
+            "requested_second": 1690,
+            "sha256": "2ef95cc9ca61b157648f7d12be295b94e3473d9eb44e187defa59b638f7ffb28",
+            "actually_viewed": true,
+            "observation": "63号帧电影双语字幕为“你就毙了她 / you cut her ass down”，明确被枪击对象为女性。",
+            "evidence_type": "cached_original_static_frame_and_visible_burned_subtitles"
+          },
+          {
+            "path": ".runtime/raw-cache/course-laobai-review-20260930/visual-p9-details/p9-1717.png",
+            "requested_second": 1717,
+            "sha256": "7af46362c026df4e49234e63be158e2cb938f21357019ea3bca51904cc5c298a",
+            "actually_viewed": true,
+            "observation": "64号多人画面包含女孩、医生和持枪者，老师字幕“尤其是医生的反应”；不称连续动作已审。",
+            "evidence_type": "cached_original_static_frame_and_visible_burned_subtitles"
+          },
+          {
+            "path": ".runtime/raw-cache/course-laobai-review-20260930/visual-p9/p9-1650.png",
+            "requested_second": 1650,
+            "sha256": "a456ac69f8f3c78996eac626befd53ddd68b234bee5087a3ac83e15bb352b759",
+            "actually_viewed": true,
+            "observation": "56号正反打段多人画面，老师字幕“因为他景别都差不多”。",
+            "evidence_type": "cached_original_static_frame_and_visible_burned_subtitles"
+          },
+          {
+            "path": ".runtime/raw-cache/course-laobai-review-20260930/visual-p9/p9-1680.png",
+            "requested_second": 1680,
+            "sha256": "ec1eb672b294e496bb2f8a484ee988b11ef76dffbf462b8f30f80798d5e96259",
+            "actually_viewed": true,
+            "observation": "62号电影双语字幕清楚为“德国人跟我握手前 如果她想离开这里 / If she tries to leave here before … German shakes my hand”；只读内存放大字幕再核，未写衍生图。",
+            "evidence_type": "cached_original_static_frame_and_visible_burned_subtitles"
+          },
+          {
+            "path": ".runtime/raw-cache/course-laobai-review-20260930/visual-p9/p9-1710.png",
+            "requested_second": 1710,
+            "sha256": "2853bc5878e236d01a44e64238ebe7d819a0bf1d1cb484d85ecb07dc2de34e8a",
+            "actually_viewed": true,
+            "observation": "64号多人画面，老师提是否可拍局部，女孩及医生属于同一关系框。",
+            "evidence_type": "cached_original_static_frame_and_visible_burned_subtitles"
+          },
+          {
+            "path": ".runtime/raw-cache/course-laobai-review-20260930/visual-p9/p9-0960.png",
+            "requested_second": 960,
+            "sha256": "27d31030116e47150eb6811115b875bee669860c93e1867952bc9c6bf94f0531",
+            "actually_viewed": true,
+            "observation": "片中片全屏可见小李和医生所在场景，本帧无可用威胁字幕。",
+            "evidence_type": "cached_original_static_frame_and_visible_burned_subtitles"
+          },
+          {
+            "path": ".runtime/raw-cache/course-laobai-review-20260930/visual-p9/p9-0990.png",
+            "requested_second": 990,
+            "sha256": "2be408adda457304968c2f30a35e01105f353e849c37d827ad270ea3f697fa94",
+            "actually_viewed": true,
+            "observation": "医生问若不握手是否放弃12000元，字幕仅用于确认握手关系，不据此扩写金额比较。",
+            "evidence_type": "cached_original_static_frame_and_visible_burned_subtitles"
+          },
+          {
+            "path": ".runtime/raw-cache/course-laobai-review-20260930/visual-p9/p9-1020.png",
+            "requested_second": 1020,
+            "sha256": "129e7771e4144ae1d0843363f020ef31707f0c94a6c2bfba531dacdeb5b8b773",
+            "actually_viewed": true,
+            "observation": "片中片持枪者及医生多人场景，本帧不单独用于确定完整对白。",
+            "evidence_type": "cached_original_static_frame_and_visible_burned_subtitles"
+          }
+        ],
+        "prior_full_review_provenance": {
+          "agent_group": "laobai-01-08",
+          "artifact": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/08/采用结果.json",
+          "new_raw_scope": [
+            [
+              1,
+              1078
+            ]
+          ],
+          "note_scope": [
+            [
+              1,
+              194
+            ]
+          ],
+          "description": "先前完整新raw/现稿阅读由原1—8负责代理完成，本次交叉核仅上述局部，不重复宣称全文或全声画独立验证。"
+        },
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "unverified": [
+          {
+            "id": "P9-08",
+            "item": "12:11—17:33原片破损ASR完整对白与演示效果",
+            "reason": "完整对白未恢复；本轮未听音、未连续审看，已核标题及必要静态图文不代替连续演示。此处不承载未核核心解释，正文仅用讲师清楚描述及可核字幕。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "AV-P9",
+            "item": "实际切点、松紧观看感、相机/人物运动、枪响和叫停声音、节奏/表演",
+            "reason": "均按老师描述保存，原帧只核静态对象和编号；未独立原声或连续观看。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "INFER-P9-SIGN",
+            "item": "前段签名蒙太奇与导演不加签名特写的理由",
+            "reason": "本轮未查完整影片，仅以老师明确称我的理解保留推测，不作确定意图。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-08-correction/08/工作报告.md",
+        "preservation_backup_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-08-correction/保护备份"
       }
     ]
   },

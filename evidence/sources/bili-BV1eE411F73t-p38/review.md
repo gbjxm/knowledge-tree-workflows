@@ -7,3 +7,11 @@
 - 本课全部来源P共同绑定该篇笔记；课次与分P的对应以binding-spec.json为准。
 - [双向复核及实际使用检查](../../../.runtime/raw-cache/course-full-review-20260924/batches/charlie-16/review.md)。
 - 最终文件、原稿备份、个人记录路径和SHA见record.json。
+
+## 2026-10-03 新raw增量文字复核
+
+- 新raw全文L1—L1721；逐单元源→正文及正文→源文字对照；保留历史图文校词。
+- 完整对照P38新raw与正式第16课；减肥与手艺观点、事前/事后用途、悬念三特点和三种信息安排、全部假想案例、公交车可选结尾、盲侠反例及观众边界均已有实质正文，无充分依据的新漏项，正文保持原样。
+- 新稿与最终正文登记：[P38-新raw-coverage-v1.json](../../../.runtime/raw-cache/course-note-reconcile-20261003-47files/16-22/16/P38-新raw-coverage-v1.json)；最终正文 SHA-256 `dd3bafb9e26d54042214c4fc4c5fa4f91cf2d66d6bc2bb0f700b071019773323`。
+- 未听原音、未看连续声画；影片情节按讲师复述，不升级历史119帧的图文复核范围。；唐伯虎诗句、普尔蒂/卡罗克奇姓名及盲侠座头市采用既有图文核词，新raw错写不覆盖；分类史和盲侠影片版本历史待核继续保留。
+- 旧 primary source、源SHA、旧coverage及其声画限制继续保留；登记检查不能证明语义或声画完成。

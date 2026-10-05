@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/查理老师的编剧课/31 - 第三十一课 单元剧的创作理念（P57）.md",
-    "sha256": "d652e753185405cc6ceffeb6d8307a50e12e93abaec560902075f9264f6a760f"
+    "sha256": "e4451d5ce3e32deffa70cf6d168282a192bbbefbc505c1ed4c80af50107a3e36"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "f703a47d221093b6cd0d47d2260433e1f6007e8d12788879d67e000606a316ba",
-    "note_sha256": "d652e753185405cc6ceffeb6d8307a50e12e93abaec560902075f9264f6a760f",
+    "note_sha256": "e4451d5ce3e32deffa70cf6d168282a192bbbefbc505c1ed4c80af50107a3e36",
     "scope": [
       [
         6,
@@ -316,7 +316,7 @@
       },
       {
         "id": "U17",
-        "item": "35:18–37:58：场景连续；情景喜剧通常5–8个、少超10，大棚可集中；必须有全体共同出现处，咖啡厅/酒吧/客厅/同工作者办公室，《炊事班的故事》餐厅和《东北一家人》饭店例；家/卧室承爱情状态与串门，若主聚集场地非工作处再设办公室，可各有多处。3000米棚说法待画面，不补平方米。",
+        "item": "35:18–37:58：场景连续；情景喜剧通常5–8个、少超10，大棚可集中；必须有全体共同出现处，咖啡厅/酒吧/客厅（称呼待核原声）/同工作者办公室，《炊事班的故事》餐厅和《东北一家人》饭店例；家/卧室承爱情状态与串门，若主聚集场地非工作处再设办公室，可各有多处。2026-10-03新定点原字幕先3000米、后3000平，按后句保留约3000平方米的大棚例，仅为讲师设想而非统一制作规格；具体公共场所新ASR客栈与旧稿客厅差异仍待原声。",
         "source": {
           "lines": [
             1064,
@@ -326,11 +326,11 @@
         "note": {
           "lines": [
             89,
-            89
+            93
           ]
         },
         "status": "合并",
-        "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
+        "reason": "本轮完整重读旧源1064–1136及旧稿89–93，原字幕后句确认3000平；公共场所客厅仍按旧稿保留但标待核。修正真实承载的note行范围，source行号不变。"
       },
       {
         "id": "U18",
@@ -713,5 +713,243 @@
     "overview_backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/before-charlie-31-overview.md",
     "overview_old_sha256": "b3b147d31effb4794882db03d69c43eb7653fec0cd328957d8be4c0e74262ac7"
   },
-  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-31/review.md"
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-31/review.md",
+  "note_binding_history": [
+    {
+      "date": "2026-10-03",
+      "previous_sha256": "d652e753185405cc6ceffeb6d8307a50e12e93abaec560902075f9264f6a760f",
+      "current_sha256": "e4451d5ce3e32deffa70cf6d168282a192bbbefbc505c1ed4c80af50107a3e36",
+      "affected_old_source_review": {
+        "source_sha256": "f703a47d221093b6cd0d47d2260433e1f6007e8d12788879d67e000606a316ba",
+        "source_hint": ".runtime/raw-cache/course-full-review-20260924/new-transcripts/BV1eE411F73t-p57/transcript.md",
+        "reread_source_ranges": [
+          [
+            1064,
+            1136
+          ]
+        ],
+        "reread_old_note_ranges": [
+          [
+            89,
+            93
+          ]
+        ],
+        "changed_note_lines": [
+          8,
+          89,
+          91
+        ],
+        "affected_coverage_items": [
+          "U17"
+        ],
+        "semantic_conclusion": "完整重读旧源1064–1136及旧稿89–93；5-8场景少于10、三类场所机制和炊事班/东北一家人案例不变。原字幕后句3000平补清面积单位；具体场所词维持旧稿但加入待核，不以新ASR覆写。旧源字节/行号不变，U17 note范围修正为实际承载该单元的89–93行。"
+      },
+      "primary_coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/primary-coverage-rebound.json"
+    }
+  ],
+  "primary_source_corrections": [
+    {
+      "id": "P57-C01-stage-area-and-place-term",
+      "affected_source_lines": [
+        1079,
+        1096
+      ],
+      "old_source_text": "1079–1080均识别3000米，1096识别客户；旧稿89面积不明、91客厅",
+      "adopted_note_text": "第89行约3000平方米作为讲师制作设想；第91行维持客厅并标称呼待核原声",
+      "basis": "本轮实际查看8个原视频静帧，35:56与35:58原字幕分别3000米/3000平；场所词所看帧无该字幕，不能选定新ASR客栈",
+      "video_sha256": "64631f4fe168f1cbfe8ad6d65c6addc580cdb717a71a8fb909fc5f767fdd5614",
+      "frames": [
+        {
+          "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2156.jpg",
+          "requested_seconds": 2156,
+          "actual_pts_seconds": 2156.0,
+          "sha256": "ad2d91b905d049654a5b0f66acea6d80b0b230b2deeee4232a7426eb46dbb7b0"
+        },
+        {
+          "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2158.jpg",
+          "requested_seconds": 2158,
+          "actual_pts_seconds": 2158.0,
+          "sha256": "013ae0efa9ea666f374eb0efa9174e92bd702b8d2cd8fd31b1e7d716ed154869"
+        },
+        {
+          "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2191.6.jpg",
+          "requested_seconds": 2191.6,
+          "actual_pts_seconds": 2191.6,
+          "sha256": "b40a108f391932c15a155043f534a29f1f6f1b3cb11d2cff37f2dd54933c18f6"
+        },
+        {
+          "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2192.5.jpg",
+          "requested_seconds": 2192.5,
+          "actual_pts_seconds": 2192.5,
+          "sha256": "d5f2aa81eafb0ad6027743def83bdf3f69455ed6f9251912abe4ec2a28b0c299"
+        },
+        {
+          "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2189.8.jpg",
+          "requested_seconds": 2189.8,
+          "actual_pts_seconds": 2189.8,
+          "sha256": "3aa20710b5ef0e61fd8c92978bc0c9852399564b776a7d4d8f8d81ecf46cd974"
+        },
+        {
+          "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2190.4.jpg",
+          "requested_seconds": 2190.4,
+          "actual_pts_seconds": 2190.4,
+          "sha256": "ae5e807b36a177fbea0a65fd65c5185105af8a1299a8c3cd4813002a62330947"
+        },
+        {
+          "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2191.0.jpg",
+          "requested_seconds": 2191.0,
+          "actual_pts_seconds": 2191.0,
+          "sha256": "595ae68fc60018181a28a16bb1551916c190bc5c3afe73a98cb9ebe243f6f6a3"
+        },
+        {
+          "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2193.0.jpg",
+          "requested_seconds": 2193.0,
+          "actual_pts_seconds": 2193.0,
+          "sha256": "6f70ea44d238f4c6bdfb5d74c1623b4055a2c7228501b55cb5fc338f60909948"
+        }
+      ],
+      "review_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/核图记录.json",
+      "resolved": "原review M3中面积单位疑点由后句3000平字幕解决；其他历史原片/声画限制继续保留",
+      "remaining_unverified": "公共场所客厅/客栈的原声，未听审"
+    }
+  ],
+  "incremental_reviews": [
+    {
+      "review_id": "course-note-reconcile-20261003-next-p57",
+      "date": "2026-10-03",
+      "operation": "local_source_correction_with_one_pending_term",
+      "source": {
+        "text_sha256": "4158cf6dd2f99da85c99ed4135d8e63767525e8ef98ad554c7b96e8e7fc2ede1",
+        "local_text_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第31课-单元剧的创作理念/P57-三十一课-单元剧的创作理念31-6873b7df/large-v3-5ef88b2b6b/P57-三十一课-单元剧的创作理念31.raw.txt",
+        "scope": [
+          [
+            1,
+            2087
+          ]
+        ],
+        "kind": "large-v3 raw ASR text"
+      },
+      "note": {
+        "path": "知识库/学习区/课程/查理老师的编剧课/31 - 第三十一课 单元剧的创作理念（P57）.md",
+        "sha256": "e4451d5ce3e32deffa70cf6d168282a192bbbefbc505c1ed4c80af50107a3e36"
+      },
+      "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/coverage-v1.json",
+      "review": {
+        "scope": "P57新raw全文1–2087行，分1–750、751–1500、1501–2087读取；随后全文正式稿1–153行。另完整读受影响旧primary源1064–1136行及保护备份正文89–93行；实际看原视频2156、2158、2189.8、2190.4、2191.0、2191.6、2192.5、2193.0秒8个字幕帧。未听原声/连续声画。",
+        "summary": "48项源序单元完成文字对照；观点、理由、各独特案例、方法关系和练习方向无实质缺漏。原字幕后句3000平补清面积设想，公共场所仍维持旧词客厅并标原声待核；新coverage有1个非关键称呼待核，不能报全部内容登记已核清。",
+        "method": "同一代理先完整读新raw，后完整读当前正式正文；源序清单、反向主张核对和旧稿保全比较。结构/登记结果与语义判断分别记录。",
+        "unverified": [
+          "公共场所具体称呼待核：旧primary识别客户、旧稿客厅、新raw客栈；所看帧没该词，未听原声，保持旧词并标待核。此不阻塞共同场所的创作机制，但coverage存在一项待核。",
+          "原声与连续动作/板书变化/节奏/同步未听审或连续审看；历史185静帧范围只作已有记录保留。",
+          "行业历史、当时三层审查、记忆/受众/犯罪比例与市场预测，以及麦基/乔治普尔蒂原出处未独立外查。"
+        ]
+      },
+      "checks": [
+        {
+          "name": "new-source-coverage",
+          "returncode": 1
+        },
+        {
+          "name": "validate-note",
+          "returncode": 0
+        },
+        {
+          "name": "old-primary-coverage-rebound",
+          "returncode": 0
+        }
+      ],
+      "backup_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/保护备份/31",
+      "note_changed": true,
+      "final_report_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/review.md",
+      "affected_old_source_review": {
+        "source_sha256": "f703a47d221093b6cd0d47d2260433e1f6007e8d12788879d67e000606a316ba",
+        "source_hint": ".runtime/raw-cache/course-full-review-20260924/new-transcripts/BV1eE411F73t-p57/transcript.md",
+        "reread_source_ranges": [
+          [
+            1064,
+            1136
+          ]
+        ],
+        "reread_old_note_ranges": [
+          [
+            89,
+            93
+          ]
+        ],
+        "changed_note_lines": [
+          8,
+          89,
+          91
+        ],
+        "affected_coverage_items": [
+          "U17"
+        ],
+        "semantic_conclusion": "完整重读旧源1064–1136及旧稿89–93；5-8场景少于10、三类场所机制和炊事班/东北一家人案例不变。原字幕后句3000平补清面积单位；具体场所词维持旧稿但加入待核，不以新ASR覆写。旧源字节/行号不变，U17 note范围修正为实际承载该单元的89–93行。"
+      },
+      "visual_evidence": {
+        "id": "P57-C01-stage-area-and-place-term",
+        "affected_source_lines": [
+          1079,
+          1096
+        ],
+        "old_source_text": "1079–1080均识别3000米，1096识别客户；旧稿89面积不明、91客厅",
+        "adopted_note_text": "第89行约3000平方米作为讲师制作设想；第91行维持客厅并标称呼待核原声",
+        "basis": "本轮实际查看8个原视频静帧，35:56与35:58原字幕分别3000米/3000平；场所词所看帧无该字幕，不能选定新ASR客栈",
+        "video_sha256": "64631f4fe168f1cbfe8ad6d65c6addc580cdb717a71a8fb909fc5f767fdd5614",
+        "frames": [
+          {
+            "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2156.jpg",
+            "requested_seconds": 2156,
+            "actual_pts_seconds": 2156.0,
+            "sha256": "ad2d91b905d049654a5b0f66acea6d80b0b230b2deeee4232a7426eb46dbb7b0"
+          },
+          {
+            "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2158.jpg",
+            "requested_seconds": 2158,
+            "actual_pts_seconds": 2158.0,
+            "sha256": "013ae0efa9ea666f374eb0efa9174e92bd702b8d2cd8fd31b1e7d716ed154869"
+          },
+          {
+            "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2191.6.jpg",
+            "requested_seconds": 2191.6,
+            "actual_pts_seconds": 2191.6,
+            "sha256": "b40a108f391932c15a155043f534a29f1f6f1b3cb11d2cff37f2dd54933c18f6"
+          },
+          {
+            "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2192.5.jpg",
+            "requested_seconds": 2192.5,
+            "actual_pts_seconds": 2192.5,
+            "sha256": "d5f2aa81eafb0ad6027743def83bdf3f69455ed6f9251912abe4ec2a28b0c299"
+          },
+          {
+            "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2189.8.jpg",
+            "requested_seconds": 2189.8,
+            "actual_pts_seconds": 2189.8,
+            "sha256": "3aa20710b5ef0e61fd8c92978bc0c9852399564b776a7d4d8f8d81ecf46cd974"
+          },
+          {
+            "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2190.4.jpg",
+            "requested_seconds": 2190.4,
+            "actual_pts_seconds": 2190.4,
+            "sha256": "ae5e807b36a177fbea0a65fd65c5185105af8a1299a8c3cd4813002a62330947"
+          },
+          {
+            "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2191.0.jpg",
+            "requested_seconds": 2191.0,
+            "actual_pts_seconds": 2191.0,
+            "sha256": "595ae68fc60018181a28a16bb1551916c190bc5c3afe73a98cb9ebe243f6f6a3"
+          },
+          {
+            "image_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/at-2193.0.jpg",
+            "requested_seconds": 2193.0,
+            "actual_pts_seconds": 2193.0,
+            "sha256": "6f70ea44d238f4c6bdfb5d74c1623b4055a2c7228501b55cb5fc338f60909948"
+          }
+        ],
+        "review_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/31-32/31/疑词定点核图/核图记录.json",
+        "resolved": "原review M3中面积单位疑点由后句3000平字幕解决；其他历史原片/声画限制继续保留",
+        "remaining_unverified": "公共场所客厅/客栈的原声，未听审"
+      }
+    }
+  ]
 }

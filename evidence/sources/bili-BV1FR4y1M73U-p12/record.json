@@ -440,6 +440,50 @@
         "item": "伦敦历史、交通数字和人物故事按课堂所读小说保存，没有作为本次外部事实查证。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第12课-描述/P12-P12 描述-a4c494bd/large-v3-ce02d88ede/P12-P12 描述.raw.txt",
+        "review_source_sha256": "435c12f8c5ced327829a7f137a15f961e32b855324e6031b18a6e60d976a73d2",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/10-14/12/P12-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            102
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "保镖两人形象、四人猪油箱、伦敦三组颜色与新旧交通文学描写、攥云树、触觉两次缩手均逐项对应。",
+          "新ASR Ryslip等拼写不覆盖现稿画内英文已核Ruislip；伦敦历史交通数字归小说朗读，不作现实调查事实。",
+          "Coraline墙温软毛呼吸和热湿口中先后及恐惧反应完整，正文未虚造怪物身份或脱身。",
+          "先找不同之处与选最强感官的条件已保留，未变成每段凑全感官或固定作业。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "686ee8d4b0ffa91545527d55d0733616372b825b9f99d919d7a89fcc5726425d",
+        "prior_note_sha256": "686ee8d4b0ffa91545527d55d0733616372b825b9f99d919d7a89fcc5726425d",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看，静帧不证明朗读语气、停顿、运动或声画同步验收。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "伦敦历史、交通数字和人物故事按课堂所读小说保存，没有作为本次外部事实查证。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/10-14/12/工作报告.md"
+      }
     ]
   },
   "preservation": {

@@ -44,6 +44,8 @@ REQUIRED_FIELDS = [
 
 INDEX_START = "<!-- prompt-box-index:start -->"
 INDEX_END = "<!-- prompt-box-index:end -->"
+FAVORITES_START = "<!-- prompt-box-favorites:start -->"
+FAVORITES_END = "<!-- prompt-box-favorites:end -->"
 INDEX_LINK_PATTERN = re.compile(r"\[\[#([^\]|]+)\|([^\]]+)\]\]")
 
 
@@ -264,6 +266,65 @@ def inspect_quick_index(markdown: str, entries: list[Entry]) -> dict:
     return report
 
 
+def inspect_favorites(markdown: str, entries: list[Entry]) -> dict:
+    start_count = markdown.count(FAVORITES_START)
+    end_count = markdown.count(FAVORITES_END)
+    expected = [
+        entry.title
+        for entry in entries
+        if re.search(r"^- 使用频率：常用[ \t]*$", entry.body, re.MULTILINE)
+    ]
+    report = {
+        "present": bool(start_count or end_count),
+        "entry_count": 0,
+        "marker_error": False,
+        "format_error": False,
+        "missing_entries": expected.copy(),
+        "stale_links": [],
+        "duplicate_links": [],
+        "prompt_mismatches": [],
+        "unmarked_entries": [],
+        "ok": False,
+    }
+    if not report["present"]:
+        report["ok"] = not expected
+        return report
+    if start_count != 1 or end_count != 1:
+        report["marker_error"] = True
+        return report
+    start = markdown.index(FAVORITES_START) + len(FAVORITES_START)
+    end = markdown.index(FAVORITES_END)
+    if start >= end:
+        report["marker_error"] = True
+        return report
+    block = markdown[start:end]
+    copies = re.findall(
+        r"^\*\*\[\[#([^\]|]+)\|[^\]]+\]\]\*\*[ \t]*\n+"
+        r"```text[ \t]*\n(.*?)\n```[ \t]*$",
+        block,
+        flags=re.MULTILINE | re.DOTALL,
+    )
+    titles = [title for title, _ in copies]
+    report["entry_count"] = len(copies)
+    report["format_error"] = (
+        not copies
+        or len(copies) != len(INDEX_LINK_PATTERN.findall(block))
+        or len(copies) != len(re.findall(r"^```text[ \t]*$", block, re.MULTILINE))
+    )
+    by_title = {entry.title: entry for entry in entries}
+    report["missing_entries"] = [title for title in expected if title not in titles]
+    report["stale_links"] = [title for title in titles if title not in by_title]
+    report["duplicate_links"] = sorted({title for title in titles if titles.count(title) > 1})
+    report["prompt_mismatches"] = [
+        title for title, text in copies if title in by_title and text != by_title[title].organized
+    ]
+    report["unmarked_entries"] = [title for title in titles if title not in expected]
+    report["ok"] = not any(
+        value for key, value in report.items() if key not in {"present", "entry_count", "ok"}
+    )
+    return report
+
+
 def read_candidate(args: argparse.Namespace) -> str:
     selected = sum(bool(value) for value in [args.candidate_file, args.candidate_stdin])
     if selected > 1:
@@ -324,11 +385,13 @@ def main() -> int:
         parser.error(str(error))
 
     quick_index = inspect_quick_index(markdown, entries)
+    favorites = inspect_favorites(markdown, entries)
     report = {
         "note": str(note),
         "entry_count": len(entries),
         "structure": inspect_structure(markdown, entries, outside),
         "quick_index": quick_index,
+        "favorites": favorites,
         "candidate": compare_candidate(candidate, entries, args.threshold),
     }
     structure_ok = not any(
@@ -340,7 +403,7 @@ def main() -> int:
             report["structure"]["entry_errors"],
         ]
     )
-    report["ok"] = structure_ok and quick_index["ok"]
+    report["ok"] = structure_ok and quick_index["ok"] and favorites["ok"]
     print(json.dumps(report, ensure_ascii=False, indent=2))
     return 0 if report["ok"] else 1
 

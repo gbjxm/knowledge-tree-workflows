@@ -56,7 +56,49 @@ STOP_TERMS = {
 
 GENERIC_TERMS = {
     "人物", "角色", "场景", "镜头", "画面", "故事", "生成", "声音", "素材", "工作流", "项目",
-    "专业", "执行", "结果", "保持", "当前", "阶段", "问题", "设计", "检查", "方法",
+    "专业", "创作", "执行", "结果", "保持", "当前", "阶段", "问题", "设计", "检查", "方法",
+    "意图", "变化", "状态", "时间", "内容", "方案", "关系", "推进", "相关", "同一",
+    "一个", "两个", "一次", "通过", "形成", "使用", "判断", "原因", "以及", "还是",
+    "突然", "改变", "可见", "成立", "同时", "转成", "获得", "相邻", "一致", "比较", "先查",
+    "制作", "条件", "验证",
+    "处理", "顺序", "过程", "增加", "前提", "清楚", "避免", "带来", "表达", "没有", "观众",
+    "边界", "体验", "感觉",
+}
+
+# Sentence connectors are not professional concepts. Splitting them before
+# character grams prevents a longer question from introducing many imaginary
+# terms across clause boundaries. Matching still uses the original local text.
+QUERY_CONNECTORS = re.compile(
+    r"怎样|如何|为什么|是否|哪些|什么|应该|能不能|怎么办|到底|现在|当前|还是|或者|"
+    r"以及|然后|之后|以后|之前|表现|建立|支持|检查|判断|[，。；！？：、\s]+"
+)
+
+# Professional objects, not destinations or fixed answers. A chapter can own
+# an object even when its document belongs to another discipline. General
+# workflow words such as '处理' and '版本' cannot establish that ownership.
+PROFESSIONAL_OBJECTS = {
+    "sound": (("声音", "声源", "音频", "音效", "底噪", "听审", "混音", "room tone", "foley"),
+              ("声音", "声源", "音频", "音效", "底噪", "听觉", "听审", "审听", "混音", "声学", "对白", "配音", "room tone", "foley")),
+    "music": (("音乐", "配乐", "旋律", "和声", "和弦", "音色"),
+              ("音乐", "配乐", "旋律", "和声", "和弦", "音色", "composer")),
+    "camera_space": (("轴线", "视线", "画面方向", "屏幕方向", "运动方向", "拍摄方向", "空间连续", "镜头衔接", "机位", "焦距", "蒙太奇"),
+                     ("轴线", "视线", "方向", "摄影", "机位", "镜头", "覆盖", "调度", "布光", "焦距", "蒙太奇")),
+    "color": (("肤色", "调色", "色彩", "色温", "白平衡", "曝光", "影调"),
+              ("肤色", "调色", "色彩", "色温", "白平衡", "曝光", "影调", "光源", "look")),
+    "assets": (("资产", "服装", "服化道", "道具", "材质", "美术", "生产设计"),
+               ("资产", "服装", "服化道", "道具", "材质", "美术", "生产设计", "空间设计")),
+    "text": (("字幕", "字体", "屏幕文字", "timed text", "sdh"),
+             ("字幕", "字体", "文字", "文本", "timed text", "sdh")),
+    "story": (("故事", "剧本", "人物弧光", "因果", "冲突", "阻力", "欲望"),
+              ("故事", "剧本", "人物", "因果", "冲突", "阻力", "欲望", "大纲", "分场")),
+    "performance": (("表演", "演员", "对白", "台词", "聆听", "语速"),
+                    ("表演", "演员", "对白", "台词", "聆听", "人物", "配音")),
+    "vfx": (("vfx", "视觉特效", "合成", "alpha", "抠像"),
+            ("vfx", "视觉特效", "合成", "alpha", "抠像", "plate")),
+    "release": (("播放量", "平台曝光", "完播", "留存", "平台传播", "传播原因", "传播效果", "传播策略",
+                 "受众", "投放", "推荐量", "点击率", "触达"),
+                ("播放量", "平台曝光", "完播", "留存", "平台传播", "传播原因", "传播效果", "传播策略",
+                 "受众", "投放", "推荐量", "点击率", "触达", "发布条件")),
 }
 
 
@@ -350,6 +392,174 @@ def normalize(value: str) -> str:
     return re.sub(r"[^0-9a-z\u4e00-\u9fff]+", "", value)
 
 
+def lexical_text(value: str) -> str:
+    """Normalize without inventing terms across punctuation or field breaks."""
+    value = unicodedata.normalize("NFKC", value).casefold()
+    return " ".join(re.findall(r"[0-9a-z\u4e00-\u9fff]+", value))
+
+
+def _raw_object_foci(value: str) -> tuple[str, ...]:
+    text = lexical_text(value)
+    # Distribution reach and image exposure share a word, not an object.
+    # Only explicit metric phrases are masked; bare exposure stays ambiguous.
+    color_text = lexical_text(re.sub(r"(?:平台|传播|推荐|投放|流量|受众)[^，。；！？]{0,4}?曝光(?:量|率|次数|数据)?", "", value))
+    return tuple(name for name, (triggers, _) in PROFESSIONAL_OBJECTS.items()
+                 if any(lexical_text(term) in (color_text if name == "color" else text) for term in triggers))
+
+
+def query_roles(value: str) -> dict[str, Any]:
+    """Bounded grammatical routing: target vs a proposed borrowed reference.
+
+    This does not decide whether a comparison is valid. It keeps a questioned
+    reference domain from supplying the target's evidence merely by being named.
+    """
+    labeled_target = re.search(r"(?:^|[。；\n])\s*(?:实际问题|当前问题|目标问题|本次目标|判断目标)\s*[:：]\s*(.+)$", value, re.S)
+    intent_target = re.search(r"(?:我)?(?:实际要|实际想|实际需要|只想|只要|仅想|仅要|需要)\s*"
+        r"((?:检查|判断|分析|解释|解决|确认|了解|比较|讨论).+)$", value, re.S)
+    if intent_target and not labeled_target:
+        prefix = value[:intent_target.start()]
+        # A normal trailing request does not erase its preceding concrete
+        # problem. Reduce an intent span only inside declared reference context.
+        declared_reference = re.search(r"(?:参考知识|参考方法|参考材料|参考领域)\s*[:：]|"
+            r"(?:借|拿|用)[^，。；：\n]{1,80}?(?:打个比方|作个比方|做个比方|类比|举个例子)", prefix)
+        if not declared_reference:
+            intent_target = None
+    target_anchor = labeled_target or intent_target
+    explicit_target = bool(target_anchor)
+    reference_context = ""
+    if target_anchor:
+        prefix = value[:target_anchor.start()]
+        labels = re.findall(r"(?:参考知识|参考方法|参考材料|参考领域)\s*[:：]\s*([^。；\n]+)", prefix)
+        analogies = re.findall(r"(?:借|拿|用)([^，。；：\n]{1,80}?)(?:打个比方|作个比方|做个比方|类比|举个例子)", prefix)
+        reference_context = "；".join([*labels, *analogies])
+        value = target_anchor.group(1)
+    def borrowed(target, reference):
+        return {"mode": "borrowed_reference", "target_text": target, "comparison_text": reference,
+                "target_foci": list(_raw_object_foci(target)), "comparison_foci": list(_raw_object_foci(reference)),
+                "explicit_target": True, "comparison_status": "not_target_evidence"}
+    # These are grammatical qualification relations, not a list of the
+    # operations that different professions happen to perform. Everything
+    # after the relation remains the target, including an unfamiliar verb.
+    repeated_question = r"(?P<question_word>[\u4e00-\u9fff]{1,3})不(?P=question_word)"
+    doubt = r"(?:是否|能否|可否|可不可以|有没有|有无|有必要|" + repeated_question + r")"
+    linked = re.compile(r"(?P<reference>[^，。；！？：]{1,120}?)(?P<modal>" + doubt +
+        r")[^，。；！？：]{0,24}?(?P<link>用来|用于|作为|当作)(?P<target>[^。；！？]*)")
+    qualified = re.compile(r"(?P<reference>[^，。；！？：]{1,120}?)(?P<modal>"
+        r"(?:能否|可否|可不可以)(?:(?:能够|可以|能)\s*)?|"
+        r"(?P<ability_word>能够|可以|能|可)不(?P=ability_word)(?:(?:能够|可以|能)\s*)?|"
+        r"(?:是否|(?P<compound_question>[\u4e00-\u9fff]{1,3})不(?P=compound_question))"
+        r"\s*(?:能够|可以|能))(?P<target>[^。；！？]*)")
+    for expression in (linked, qualified):
+        for match in expression.finditer(value):
+            reference = "；".join(part for part in (reference_context, match.group("reference").strip()) if part)
+            target = match.group("target").strip()
+            # A dangling connector gives no target object. Preserve it as an
+            # unresolved applicability request, not a same-domain method hit.
+            complete = bool(target and re.sub(r"^(?:用来|用于|作为|当作)\s*", "", target).strip())
+            result = borrowed(target if complete else "", reference)
+            result["target_context"] = value[:match.start()].strip()
+            result["applicability_status"] = "target_supplied" if complete else "target_unresolved"
+            if not complete:
+                result["mode"] = "applicability_unresolved"
+            return result
+    # Subject-first capability questions are comparisons of applicability,
+    # not an instruction to make the subject's domain the target evidence.
+    capability = re.compile(r"(?P<reference>[^，。；！？：]{1,80}?)(?:能否|是否|可否|能不能)"
+        r"(?:用来|用于|能够|可以)?(?P<purpose>解释|代表|解决|判断|诊断|证明|说明)(?P<target>[^。；！？]+)")
+    for match in capability.finditer(value):
+        reference = "；".join(part for part in (reference_context, match.group("reference").strip()) if part)
+        target = (value[:match.start()] + " " + match.group("purpose") + match.group("target") + value[match.end():]).strip()
+        if target and reference:
+            return borrowed(target, reference)
+    pattern = re.compile(r"(?:是否|能否|可否|能不能|可不可以|可以)?(?:能)?"
+        r"(?:借用|借|套用|参考|借鉴|照搬|照着|按|用|拿)\s*(?P<reference>[^，。；！？]{1,80}?)"
+        r"(?P<purpose>(?:来)?(?:判断|解释|分析|推断|诊断|修正|解决|评价|支持|说明|证明|作为|当作|用于|做))")
+    for match in pattern.finditer(value):
+        reference = "；".join(part for part in (reference_context, match.group("reference").strip()) if part)
+        target = (value[:match.start()] + " " + match.group("purpose") + value[match.end():]).strip()
+        target_foci, reference_foci = _raw_object_foci(target), _raw_object_foci(reference)
+        if reference and target and (explicit_target or not target_foci or
+                reference_foci and set(reference_foci) - set(target_foci)):
+            return borrowed(target, reference)
+    foci = _raw_object_foci(value)
+    reference_foci = _raw_object_foci(reference_context)
+    if reference_context and (not foci or reference_foci and set(reference_foci) - set(foci)):
+        return borrowed(value, reference_context)
+    return {"mode": "multiple_targets" if len(foci) > 1 else "direct", "target_text": value,
+            "comparison_text": reference_context, "target_foci": list(foci), "comparison_foci": list(reference_foci),
+            "explicit_target": explicit_target, "comparison_status": None}
+
+
+def object_foci(value: str) -> tuple[str, ...]:
+    return tuple(query_roles(value)["target_foci"])
+
+
+def general_review_body(question: str, owner: str, body: str) -> bool:
+    """Allow explicitly requested neutral reasoning, not incidental film facts."""
+    requested = any(term in question for term in ("复盘", "解释假设", "反证", "事前依据", "一次结果", "单次结果", "区分事实"))
+    if not requested or not any(term in owner for term in ("复盘", "决策", "反证", "过程质量", "观察/解释", "观察、解释", "观察与解释")):
+        return False
+    if any(focus != "release" for focus in _raw_object_foci(owner)):
+        return False
+    groups = (("事实", "数据", "结果", "观察"), ("解释", "原因", "影响", "归因", "反证"),
+              ("复盘", "决策", "方法", "事前", "证据", "样本", "依据"))
+    return sum(any(term in question for term in group) and any(term in body for term in group)
+               for group in groups) >= 2
+
+
+def owns_objects(foci: Iterable[str], title: str, heading: str = "", body: str = "") -> bool:
+    if not foci:
+        return True
+    # The shared category label before ｜ is not a chapter's object identity.
+    owner = lexical_text(title.split("｜")[-1] + " " + heading)
+    text = lexical_text(body)
+    for focus in foci:
+        _, terms = PROFESSIONAL_OBJECTS[focus]
+        if any(lexical_text(term) in owner for term in terms):
+            return True
+        # Permit real cross-discipline methods, not an incidental mention of
+        # one object (e.g. '声音转移注意' inside a VFX tool decision).
+        if sum(lexical_text(term) in text for term in terms) >= 2:
+            return True
+    return False
+
+
+def short_lookup(query: str) -> bool:
+    if re.fullmatch(r"[a-z0-9][a-z0-9+&/-]*", query.strip(), re.IGNORECASE):
+        return True
+    value = normalize(" ".join(QUERY_CONNECTORS.split(query)))
+    for filler in sorted(STOP_TERMS | GENERIC_TERMS, key=len, reverse=True):
+        value = value.replace(normalize(filler), "")
+    return 2 <= len(value) <= 4
+
+
+def independent_terms(terms: Iterable[str]) -> list[str]:
+    values = set(terms)
+    return sorted((term for term in values if not any(term != other and term in other for other in values)),
+                  key=lambda term: (-len(term), term))
+
+
+def specific_terms(terms: Iterable[str]) -> list[str]:
+    # Remove contained grams before filtering general phrases. Otherwise
+    # discarding '画面上' would expose '面上' as a spurious specific concept.
+    return [term for term in independent_terms(terms) if term not in GENERIC_TERMS and
+            re.sub(r"(?:[上下中内外后前]|[一二三四五六七八九十两\d]+(?:个|条|项|次|镜|场)?)$", "", term)
+            not in GENERIC_TERMS]
+
+
+def direct_match(terms: Iterable[str], available: Iterable[str] | None = None, *, lookup=False) -> bool:
+    """Require a specific phrase or multiple concepts, not a role/generic word."""
+    specific = specific_terms(terms)
+    if len(specific) >= 2:
+        return True
+    # A precise short lookup (including an English object name) may have one
+    # concept. A multi-concept problem must not be answered by one incidental
+    # phrase occurring in a distant example.
+    return ((lookup and bool(specific)) or
+            (any(len(term) >= 4 for term in specific) and
+             (available is None or len(specific_terms(available)) < 2)))
+
+
 def _load_taxonomy() -> list[dict[str, Any]]:
     path = SKILL_ROOT / "references" / "retrieval-taxonomy.json"
     if not path.is_file():
@@ -374,7 +584,7 @@ def _expand_query(query: str, taxonomy: list[dict[str, Any]]) -> tuple[str, list
 
 
 def query_terms(query: str) -> list[str]:
-    normalized_query = unicodedata.normalize("NFKC", query).casefold()
+    normalized_query = " ".join(QUERY_CONNECTORS.split(unicodedata.normalize("NFKC", query).casefold()))
     terms: set[str] = set()
     for run in re.findall(r"[\u4e00-\u9fff]{2,}|[a-z0-9][a-z0-9+&/-]{1,}", normalized_query):
         normalized_run = normalize(run)
@@ -390,6 +600,11 @@ def query_terms(query: str) -> list[str]:
                 continue
             for index in range(len(normalized_run) - size + 1):
                 term = normalized_run[index:index + size]
+                if size >= 3 and len(normalized_run) > size and (
+                    term[0] in "的和与及是了又让把在或并由才这那时" or
+                    term[-1] in "的和与及是了又让把在或并由才这那时"
+                ):
+                    continue
                 if term not in STOP_TERMS:
                     terms.add(term)
     terms.difference_update(normalize(item) for item in STOP_TERMS)
@@ -399,9 +614,9 @@ def query_terms(query: str) -> list[str]:
 def _documents(topics: list[Topic], routes: list[Route]) -> list[str]:
     docs: list[str] = []
     for topic in topics:
-        docs.append(normalize(" ".join((topic.title, topic.problem, topic.core, topic.summary, topic.default_practice))))
-        docs.extend(normalize(f"{chunk.heading} {chunk.content}") for chunk in topic.chunks)
-    docs.extend(normalize(route.searchable) for route in routes)
+        docs.append(lexical_text(" ".join((topic.title, *topic.aliases, topic.problem, topic.core, topic.summary, topic.default_practice))))
+        docs.extend(lexical_text(f"{chunk.heading} {chunk.content}") for chunk in topic.chunks)
+    docs.extend(lexical_text(route.searchable) for route in routes)
     return docs
 
 
@@ -410,6 +625,11 @@ def _idf(terms: Iterable[str], docs: list[str]) -> dict[str, float]:
     values: dict[str, float] = {}
     for term in terms:
         df = sum(1 for doc in docs if term in doc)
+        if not df:
+            # Unseen scene details are reported in debug, not rewarded with
+            # maximum rarity and allowed to drown out known method concepts.
+            values[term] = 0.0
+            continue
         base = math.log((total + 1) / (df + 1)) + 0.35
         length_factor = 1.0 + min(max(len(term) - 2, 0), 2) * 0.35
         if term in GENERIC_TERMS:
@@ -419,7 +639,7 @@ def _idf(terms: Iterable[str], docs: list[str]) -> dict[str, float]:
 
 
 def _coverage(terms: list[str], text: str, weights: dict[str, float]) -> tuple[float, list[str]]:
-    target = normalize(text)
+    target = lexical_text(text)
     if not target or not terms:
         return 0.0, []
     denominator = sum(weights.get(term, 1.0) for term in terms) or 1.0
@@ -448,7 +668,9 @@ def _compact(value: str, limit: int) -> str:
 
 
 def _first_action(topic: Topic, chunks: list[KnowledgeChunk]) -> str:
-    source = topic.default_practice or (chunks[0].content if chunks else topic.summary or topic.core)
+    if not chunks:
+        return ""
+    source = chunks[0].content
     source = "\n".join(
         line.lstrip("> ") for line in source.splitlines()
         if line.strip() and not line.lstrip().startswith("> [!")
@@ -456,6 +678,49 @@ def _first_action(topic: Topic, chunks: list[KnowledgeChunk]) -> str:
     compact = _compact(source, 240)
     first = re.split(r"(?<=[。；])|\n", compact)[0].lstrip("- 0123456789.、")
     return first.strip() or f"先按《{topic.title}》完成当前问题的最小检查。"
+
+
+def _selection_corpus(topic: Topic):
+    """Adapt the legacy pure API to the review's same body selector.
+
+    This temporary structure is for ranking only. It is not a read locator,
+    snapshot, or a substitute for a scoped corpus bound to current file bytes.
+    """
+    from knowledge_evidence import section_blocks, split_table_sections
+    text = "# " + topic.title + "\n" + "\n".join(
+        "## " + chunk.section + "\n### " + chunk.heading + "\n" + chunk.content
+        for chunk in topic.chunks)
+    blocks = [part for block in section_blocks(text) for part in split_table_sections(block)]
+    for index, block in enumerate(blocks):
+        block["id"] = f"selection-{index}"
+    block_ids = {(block["line_start"], block.get("fragment_kind", "")): block["id"] for block in blocks}
+    for block in blocks:
+        if "_parent_start" in block:
+            block["parent_id"] = block_ids[(block.pop("_parent_start"), "")]
+        if "_context_keys" in block:
+            block["context_ids"] = [block_ids[key] for key in block.pop("_context_keys")]
+    key = str(topic.path)
+    return {"documents": {key: {"title": topic.title, "kind": "topic", "blocks": blocks,
+                                "meta": {"分类": topic.category, "解决问题": topic.problem}}}}, key
+
+
+def _method_rows(topic: Topic, query: str, role: str, corpus=None):
+    """Select body reading candidates with review eligibility, not title overlap."""
+    from knowledge_evidence import candidates as body_candidates
+    if corpus is None:
+        selected_corpus, key = _selection_corpus(topic)
+    else:
+        selected_corpus = corpus
+        key = topic.path.relative_to(Path(corpus["vault"])).as_posix()
+    rows = body_candidates(selected_corpus, query, keys=[key], limit=200, role=role)
+    # Topic scoring still locates documents. Its summary or a matching source
+    # list is not the method body; retain the note's existing method-body range.
+    def in_method_body(row):
+        block = row["block"]
+        owners = [block["heading"], *block.get("parents", [])]
+        return any(chunk.heading in owners or block["heading"].startswith(chunk.heading + " / ")
+                   for chunk in topic.chunks)
+    return [row for row in rows if row.get("primary_eligible", True) and in_method_body(row)][:2]
 
 
 def _reading_info(original: str, shown: str, heading: str) -> dict[str, Any]:
@@ -481,8 +746,7 @@ def _bind_readings(result, corpus):
             raise ValueError("快查期间文章发生变化，请重新检索")
         text = raw.decode("utf-8-sig")
         card.update(kind="topic", document_hash=doc["hash"])
-        entries = [(item, item["content"]) for item in card["method_chunks"]]
-        entries += [(item, card[name]) for name, item in card["reading"].items()]
+        entries = [(item, card[name]) for name, item in card["reading"].items()]
         for item, shown in entries:
             try:
                 _, full = extract_heading(text, item["heading"])
@@ -496,6 +760,53 @@ def _bind_readings(result, corpus):
                 item["continuation"] = {"mode": "section", "path": str(path), "heading": item["heading"],
                     "offset": 0, "max_chars": 5000, "document_hash": doc["hash"],
                     "snapshot": corpus["snapshot"], "scope": corpus.get("scope")}
+        by_id = {block["id"]: block for block in doc["blocks"]}
+        context_ids = []
+        for item in card["method_chunks"]:
+            block = by_id.get(item.get("id"))
+            if block is None:
+                # Legacy cards select the same body candidates, but their
+                # temporary ranking IDs never become evidence identities.
+                try:
+                    _, full = extract_heading(text, item["heading"])
+                except ValueError as exc:
+                    item.update(read_required=True, continuation=None, reading_error=str(exc),
+                                reading_hint="用 knowledge_review.py 获取该段准确证据 ID 后续读")
+                    entries.append((item, item["content"]))
+                    continue
+                item.update(_reading_info(full, item["content"], item["heading"]))
+                if item["read_required"]:
+                    item["continuation"] = {"mode": "section", "path": str(path), "heading": item["heading"],
+                        "offset": 0, "max_chars": 5000, "document_hash": doc["hash"],
+                        "snapshot": corpus["snapshot"], "scope": corpus.get("scope")}
+            else:
+                item.update(_reading_info(block["text"], item["content"], item["heading"]))
+                try:
+                    _, section = extract_heading(text, item["heading"])
+                    use_section = section.strip().replace("\r\n", "\n") == block["text"].strip()
+                except ValueError:
+                    use_section = False
+                if item["read_required"]:
+                    item["continuation"] = ({"mode": "section", "path": str(path), "heading": item["heading"],
+                        "offset": 0, "max_chars": 5000, "document_hash": doc["hash"],
+                        "snapshot": corpus["snapshot"], "scope": corpus.get("scope")} if use_section else
+                        {"mode": "evidence", "read_id": block["id"], "offset": 0, "max_chars": 5000,
+                         "snapshot": corpus["snapshot"], "scope": corpus.get("scope")})
+                context_ids.extend(block.get("context_ids", []))
+            entries.append((item, item["content"]))
+        from knowledge_evidence import full_evidence
+        card["context_evidence"] = []
+        for item_id in dict.fromkeys(context_ids):
+            context = full_evidence(corpus, item_id)
+            full = context["excerpt"]
+            context.update(excerpt=_compact(full, 900), returned_characters=len(_compact(full, 900)))
+            context["read_required"] = context["excerpt"] != full
+            context["continuation"] = ({"mode": "evidence", "read_id": item_id, "offset": 0,
+                "max_chars": 5000, "snapshot": corpus["snapshot"], "scope": corpus.get("scope")}
+                if context["read_required"] else None)
+            card["context_evidence"].append(context)
+            entries.append((context, context["excerpt"]))
+            context["truncated"] = context["read_required"]
         card["truncated"] = any(item["truncated"] for item, _ in entries)
         card["read_required"] = any(item["read_required"] for item, _ in entries)
     for item in result.get("source_candidates", []):
@@ -530,19 +841,32 @@ def _topic_score(
     stage: str,
     role: str,
     route_scores: dict[str, tuple[float, Route]],
+    *, foci: tuple[str, ...] = (), lookup=False,
+    question: str = "",
 ) -> tuple[float, float, list[str], list[tuple[float, KnowledgeChunk]]]:
     title_cov, title_hits = _coverage(terms, " ".join([topic.title, *topic.aliases]), weights)
     problem_cov, problem_hits = _coverage(terms, topic.problem, weights)
     summary_cov, summary_hits = _coverage(terms, " ".join((topic.core, topic.summary, topic.default_practice)), weights)
+    direct_hits = title_hits + problem_hits + summary_hits
     chunk_rows: list[tuple[float, KnowledgeChunk]] = []
     for chunk in topic.chunks:
+        if not owns_objects(foci, topic.title, chunk.heading, chunk.content) and not (
+                "release" in foci and general_review_body(question, topic.title + " " + chunk.heading, chunk.content)):
+            continue
         heading_cov, _ = _coverage(terms, chunk.heading, weights)
-        content_cov, _ = _coverage(terms, chunk.content, weights)
+        content_cov, content_hits = _coverage(terms, chunk.content, weights)
+        direct_hits.extend(content_hits)
         chunk_rows.append((heading_cov * 0.65 + content_cov * 0.35, chunk))
     chunk_rows.sort(key=lambda item: (-item[0], item[1].heading))
     chunk_cov = chunk_rows[0][0] if chunk_rows else 0.0
     route_cov = route_scores.get(topic.title, (0.0, None))[0]
     semantic = title_cov * 38.0 + problem_cov * 34.0 + summary_cov * 16.0 + chunk_cov * 28.0 + route_cov * 44.0
+    owner = topic.title + " " + topic.problem
+    same_object = owns_objects(foci, topic.title) or bool(chunk_rows)
+    if not same_object or not direct_match(direct_hits, [term for term in terms if weights.get(term)], lookup=lookup):
+        # A map or the requested workflow stage may route a reading, but must
+        # not manufacture a topic match with no specific local support.
+        semantic = 0.0
     score = semantic
     if semantic >= 10.0 and _stage_match(topic, stage):
         score += 7.0
@@ -565,11 +889,13 @@ def retrieve(
     constraints: str = "",
     expected_output: str = "",
     debug: bool = False,
+    corpus=None,
 ) -> dict[str, Any]:
     limit = max(1, min(int(limit), MAX_RESULTS))
     routes = routes or []
-    structured_query = " ".join(item for item in (query, task_type, object_name, constraints, expected_output) if item)
-    expanded_query, matched_alias_rules = _expand_query(structured_query, _load_taxonomy())
+    roles = query_roles(query)
+    target_query = roles["target_text"]
+    expanded_query, matched_alias_rules = _expand_query(target_query, _load_taxonomy())
     terms = query_terms(expanded_query)
     docs = _documents(topics, routes)
     weights = _idf(terms, docs)
@@ -586,7 +912,9 @@ def retrieve(
 
     all_ranked: list[tuple[float, float, Topic, list[str], list[tuple[float, KnowledgeChunk]]]] = []
     for topic in topics:
-        score, semantic, hits, chunk_rows = _topic_score(topic, terms, weights, stage, role, route_scores)
+        score, semantic, hits, chunk_rows = _topic_score(topic, terms, weights, stage, role, route_scores,
+                                                       foci=tuple(roles["target_foci"]), lookup=short_lookup(target_query),
+                                                       question=target_query)
         all_ranked.append((score, semantic, topic, hits, chunk_rows))
     all_ranked.sort(key=lambda item: (-item[0], item[2].title, str(item[2].path).casefold()))
     ranked = [row for row in all_ranked if row[1] >= MIN_SCORE]
@@ -598,9 +926,9 @@ def retrieve(
 
     candidates: list[dict[str, Any]] = []
     for score, semantic, topic, hits, chunk_rows in selected:
-        selected_chunks = [chunk for chunk_score, chunk in chunk_rows if chunk_score > 0.03][:2]
-        if not selected_chunks and topic.chunks:
-            selected_chunks = topic.chunks[:1]
+        method_rows = _method_rows(topic, query, role, corpus)
+        selected_chunks = [KnowledgeChunk(row["block"]["heading"], row["block"]["text"],
+                                          (row["block"].get("parents") or [""])[-1]) for row in method_rows]
         route_row = route_scores.get(topic.title)
         route = route_row[1] if route_row and route_row[0] >= 0.08 else None
         card: dict[str, Any] = {
@@ -613,9 +941,16 @@ def retrieve(
             "why_matched": hits[:5],
             "core": _compact(topic.summary or topic.core, 480),
             "method_chunks": [
-                {"heading": chunk.heading, "section": chunk.section, "content": _compact(chunk.content, 650)}
-                for chunk in selected_chunks
+                {"heading": chunk.heading, "section": chunk.section, "content": _compact(chunk.content, 650),
+                 "section_role_hint": row["section_role_hint"], "selection_status": "needs_semantic_review",
+                 **({"id": row["block"]["id"], "line_start": row["block"]["line_start"],
+                     "line_end": row["block"]["line_end"], "fragment_kind": row["block"].get("fragment_kind", "section"),
+                     "context_ids": row["block"].get("context_ids", []),
+                     "parent_id": row["block"].get("parent_id")} if corpus is not None else {})}
+                for chunk, row in zip(selected_chunks, method_rows)
             ],
+            "method_gap": not selected_chunks,
+            "method_gap_reason": "主题可定位，但本题尚未获得主要正文阅读候选；需按专业问题补查" if not selected_chunks else None,
             "default_practice": _compact(topic.default_practice, 450),
             "minimal_action": _first_action(topic, selected_chunks),
             "boundary": _compact(topic.boundary, 600),
@@ -661,11 +996,12 @@ def retrieve(
             card.update({"score": round(score, 3), "semantic_score": round(semantic, 3)})
         candidates.append(card)
 
-    gap = not candidates
+    gap = not any(card["method_chunks"] for card in candidates)
     top_margin = round(ranked[0][0] - ranked[1][0], 3) if len(ranked) >= 2 else None
     ambiguous = bool(len(ranked) >= 2 and ranked[1][0] >= ranked[0][0] * 0.88)
     result: dict[str, Any] = {
         "query": query,
+        "query_roles": roles,
         "context": {
             "role": role or None,
             "stage": stage or None,
@@ -681,11 +1017,15 @@ def retrieve(
         "alternatives": [{"title": row[2].title, "category": row[2].category} for row in alternatives],
         "ambiguous": ambiguous,
         "gap": gap,
-        "gap_reason": "当前主题、知识单元与导航路由均不足以可靠回答该问题" if gap else None,
+        "method_gap": not any(card["method_chunks"] for card in candidates),
+        "method_gap_reason": ("本题尚未获得主要正文阅读候选；候选主题、相关原理或导航不能证明方法已充分"
+                              if not any(card["method_chunks"] for card in candidates) else None),
+        "gap_reason": "本题尚无可靠直接正文依据；保留主题仅供进一步阅读" if gap else None,
     }
     if debug:
         result["debug"] = {
             "terms": terms,
+            "unmatched_query_terms": [term for term in terms if not weights.get(term)],
             "matched_alias_rules": matched_alias_rules,
             "top_margin": top_margin,
             "ranked": [
@@ -807,22 +1147,25 @@ def retrieve_scoped(config, query, *, role="", include_paths=(), stage="", limit
     while True:
         if not zoned(config) and not include_paths:
             topics, routes, cache_status = load_or_build_index(library, cache, no_cache=no_cache)
-            result = retrieve(topics, query, stage, limit, routes=routes, role=role, **context)
+            corpus = load_corpus(config, write_index=False)
+            result = retrieve(topics, query, stage, limit, routes=routes, role=role, corpus=corpus, **context)
             result["index_cache"] = {"status": cache_status, "path": str(cache / INDEX_RELATIVE)}
             # Old configurations keep the same candidate set, with bound reading locators added.
-            corpus = load_corpus(config, write_index=False)
             _bind_readings(result, corpus)
             return result
         corpus = load_corpus(config, write_index=not no_cache, scope=scope)
         files = [Path(corpus["vault"]) / key for key in corpus["files"]]
         topics, routes = load_topics(library, files=files), load_routes(library, files=files)
-        result = retrieve(topics, query, stage, limit, routes=routes, role=role, **context)
+        result = retrieve(topics, query, stage, limit, routes=routes, role=role, corpus=corpus, **context)
         source_keys = [k for k, d in corpus["documents"].items() if d["kind"] == "source"]
         rows = evidence_candidates(corpus, query, keys=source_keys, limit=max(1, min(limit, MAX_RESULTS)), role=role)
         result["source_candidates"] = [evidence(corpus, row) for row in rows]
+        result["method_gap"] = result["method_gap"] and not any(row.get("primary_eligible", True) for row in rows)
+        if not result["method_gap"]:
+            result["method_gap_reason"] = None
         result["source_count"] = len(source_keys)
-        result["gap"] = not result["candidates"] and not rows
-        result["gap_reason"] = "本次读取范围没有有效主题或来源候选" if result["gap"] else None
+        result["gap"] = result["method_gap"]
+        result["gap_reason"] = "本次读取范围尚无可靠直接正文依据；保留主题仅供进一步阅读" if result["gap"] else None
         result.update(scope=scope, snapshot=corpus["snapshot"], index_errors=corpus["errors"])
         result["index_cache"] = {"status": "disabled" if no_cache else "scoped_discovery_only"}
         if result["gap"] and can_expand(scope):

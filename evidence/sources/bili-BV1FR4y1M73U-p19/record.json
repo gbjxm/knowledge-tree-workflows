@@ -404,6 +404,386 @@
         "item": "死亡事件及作者求教均按盖曼课堂转述；Brian姓氏画内英文Vaughn与旧稿Vaughan不一，正文用中文姓名和Brian，未另做外部人物史实核查。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第19课-作家的责任/P19-P19 作家的责任-db11c8fb/large-v3-ce02d88ede/P19-P19 作家的责任.raw.txt",
+        "review_source_sha256": "c396a1ada2e24a3537550723f1b6559e428dc8218132dd0c5fce6666f639b9e2",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/15-19/19/P19-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            97
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "新raw全文97行，字条具体内容、谋杀伪装反转、责任底线、好兆头避免战争少获赞与人之为人、Coraline工具勇敢、写/写完/特定人去生活及蜂蜜细节已完整保存。未发现实质缺漏。",
+          "新raw首段字条比旧ASR完整，与现稿此前从字幕补回的内容一致；不需重复补段或把旧图文确认重新称为原声核实。",
+          "新raw Brian姓及Why/Y作品词形仍有分歧，列待核；保持旧稿中文名、Brian和已核作品名，不猜性别以外无依据属性或新增山名、故事名。",
+          "创作者责任与儿童恐怖是盖曼立场，去工作受伤的建议针对能写能完成却无话的人，现稿保留所有这些范围和反方，不改成普遍要求。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "a88e056b1bf08fcdebdebc9b1e00568b873130bf8f4f22fd4ec86d0b23e5dbcd",
+        "prior_note_sha256": "a88e056b1bf08fcdebdebc9b1e00568b873130bf8f4f22fd4ec86d0b23e5dbcd",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看；静帧不证明连续手势、语气或声画同步。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "死亡事件及作者求教均按盖曼课堂转述；Brian姓氏画内英文Vaughn与旧稿Vaughan不一，正文用中文姓名和Brian，未另做外部人物史实核查。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "NEW-N18",
+            "item": "新raw Brian Vaughan/Why the Last Man与历史字幕拼写差异",
+            "reason": "原声未听审；旧正文保留中文名与Brian及已校作品，不据新ASR核定姓氏/词形。",
+            "source_lines": [
+              64,
+              65
+            ],
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/15-19/19/工作报告.md",
+        "coverage": {
+          "version": 1,
+          "source_sha256": "c396a1ada2e24a3537550723f1b6559e428dc8218132dd0c5fce6666f639b9e2",
+          "note_sha256": "a88e056b1bf08fcdebdebc9b1e00568b873130bf8f4f22fd4ec86d0b23e5dbcd",
+          "scope": [
+            [
+              1,
+              97
+            ]
+          ],
+          "items": [
+            {
+              "id": "N01",
+              "item": "起初不想责任，死者字条睡魔干的/带平静及尸旁漫画引起自责和糟周末",
+              "source": {
+                "lines": [
+                  1,
+                  5
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  51,
+                  53
+                ]
+              }
+            },
+            {
+              "id": "N02",
+              "item": "后知男友谋杀伪装睡魔启发自杀且自杀，愤怒如被嫁祸",
+              "source": {
+                "lines": [
+                  6,
+                  15
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  55,
+                  55
+                ]
+              }
+            },
+            {
+              "id": "N03",
+              "item": "真相未消责任问题，仍须判断愿承担什么",
+              "source": {
+                "lines": [
+                  16,
+                  18
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  57,
+                  57
+                ]
+              }
+            },
+            {
+              "id": "N04",
+              "item": "责任为好且诚实、尽力讲好抵达多人并纳相信价值",
+              "source": {
+                "lines": [
+                  19,
+                  22
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  61,
+                  61
+                ]
+              }
+            },
+            {
+              "id": "N05",
+              "item": "有观点仍允许其他观点及不想交往人物，公正呈现作所有作品底线",
+              "source": {
+                "lines": [
+                  22,
+                  26
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  63,
+                  65
+                ]
+              }
+            },
+            {
+              "id": "N06",
+              "item": "Good Omens滑稽末日闹剧仍能担价值：人负责修世界战争少好避免战争重大少获赞",
+              "source": {
+                "lines": [
+                  26,
+                  30
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  69,
+                  69
+                ]
+              }
+            },
+            {
+              "id": "N07",
+              "item": "最大成败由于人是人而非根本善恶，支持闹剧价值不受文体限制",
+              "source": {
+                "lines": [
+                  31,
+                  34
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  71,
+                  73
+                ]
+              }
+            },
+            {
+              "id": "N08",
+              "item": "Coraline恐怖儿童书与应隔绝黑暗的反方观点",
+              "source": {
+                "lines": [
+                  35,
+                  38
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  77,
+                  77
+                ]
+              }
+            },
+            {
+              "id": "N09",
+              "item": "讲师个人隔绝可能使黑暗来时缺少工具武器，隔绝与准备不同",
+              "source": {
+                "lines": [
+                  38,
+                  40
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  79,
+                  79
+                ]
+              }
+            },
+            {
+              "id": "N10",
+              "item": "书关于勇敢继续，七岁恐怖质询回应尽力因有孩子需知道能渡过，不设统一门槛",
+              "source": {
+                "lines": [
+                  40,
+                  46
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  81,
+                  83
+                ]
+              }
+            },
+            {
+              "id": "N11",
+              "item": "课后想成为作者回答去写是认真的非轻佻",
+              "source": {
+                "lines": [
+                  47,
+                  54
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  87,
+                  87
+                ]
+              }
+            },
+            {
+              "id": "N12",
+              "item": "已写则写完，部分人意识问题后开始完成，回应不同阶段",
+              "source": {
+                "lines": [
+                  55,
+                  62
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  89,
+                  89
+                ]
+              }
+            },
+            {
+              "id": "N13",
+              "item": "Brian来问未实现，能写能完成却无话，先听诊具体需要",
+              "source": {
+                "lines": [
+                  63,
+                  70
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  93,
+                  95
+                ]
+              }
+            },
+            {
+              "id": "N14",
+              "item": "特别建议去工作被开除心碎看世界遭遇受伤，几年后材料增加",
+              "source": {
+                "lines": [
+                  71,
+                  81
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  95,
+                  95
+                ]
+              }
+            },
+            {
+              "id": "N15",
+              "item": "Brian实行回来问是否给所有人，回答偶尔按需要，非人人必经",
+              "source": {
+                "lines": [
+                  82,
+                  86
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  97,
+                  97
+                ]
+              }
+            },
+            {
+              "id": "N16",
+              "item": "读一切写一切又生活，未来遇人见物会成为虚构所需",
+              "source": {
+                "lines": [
+                  87,
+                  95
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  101,
+                  101
+                ]
+              }
+            },
+            {
+              "id": "N17",
+              "item": "中国山顶小个男人卖雪白蜂蜜使未来故事可写，未给山名或具体改编",
+              "source": {
+                "lines": [
+                  96,
+                  97
+                ]
+              },
+              "status": "保留",
+              "note": {
+                "lines": [
+                  103,
+                  105
+                ]
+              }
+            },
+            {
+              "id": "N18",
+              "item": "新raw Brian Vaughan/Why the Last Man与历史字幕拼写差异",
+              "source": {
+                "lines": [
+                  64,
+                  65
+                ]
+              },
+              "status": "待核",
+              "reason": "原声未听审；旧正文保留中文名与Brian及已校作品，不据新ASR核定姓氏/词形。"
+            }
+          ]
+        },
+        "registration_result": "open",
+        "recognition_pending_items": [
+          {
+            "id": "N18",
+            "item": "新raw Brian Vaughan/Why the Last Man与历史字幕拼写差异",
+            "source_lines": [
+              64,
+              65
+            ],
+            "reason": "原声未听审；旧正文保留中文名与Brian及已校作品，不据新ASR核定姓氏/词形。"
+          }
+        ]
+      }
     ]
   },
   "preservation": {

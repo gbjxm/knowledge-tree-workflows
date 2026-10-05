@@ -245,6 +245,47 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第05课-第五章 光线方向与造型/P19-5.4顶光与底光-1445c4f3/large-v3-5ef88b2b6b/P19-5.4顶光与底光.raw.txt",
+        "review_source_sha256": "2d7180943e07350286bedfe4f264c8f7bed3ff2692878557f36a6d9409d08619",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-01-06/05/P19-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            246
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "P16船工、三石膏两灯位、城市客船、证件式脸与抬光、45度人像三角区均有详细现稿；P17远人、新闻二人、伊斯特伍德及另一肖像、终结者/硬朗肌肉、两幅绘画与两摄影例均已有去处。",
+          "P18完整保留剪影去杂外形、发型头颈侧脸、摄影者/军人身份、孔明灯和肢体间隙、阅读人物/蓬松头发、同图奶奶头部与男孩肩及两亮背景反例，不能合成单一泛说。",
+          "P19顶光眼窝、教父观察目标、底光口头战争/地狱例、弱低位反光板、晴阴方向性、沙丘硬和人像柔对比均已有。播放对白破损单独待核，后续老师底光/光质分析另登记。",
+          "新ASR伦伯朗等普通错词不覆盖旧正文；毛发高灯绝对条件、顺光非零影/非柔光、三角光与侧逆/绘画区别和底光自然机制的旧校核保留。无新增图帧/原声/连续审看，P17轨道短1.165秒历史差异继续保留。"
+        ],
+        "note_sha256": "60877e6562a645d9a27bf2b627ca7753820b8e951abef6f09a80c50b8c5922da",
+        "prior_note_sha256": "60877e6562a645d9a27bf2b627ca7753820b8e951abef6f09a80c50b8c5922da",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P19-U04",
+            "item": "教父独立电影片段",
+            "status": "待核",
+            "reason": "P19-M1：约03:20至04:25电影，连续核查需03:19至04:30含前后切换。固定帧及15段补英文ASR已读不等于原声听审、走位受光与切换连续审看。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-01-06/05/工作报告.md"
+      }
     ]
   },
   "adoption": {

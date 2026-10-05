@@ -287,6 +287,47 @@
         "reason": "未独立听音或连续看示范，方向动作按讲师清楚描述及原字幕标注保存，不用静帧证明实际动态效果。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第13课-运动/P14-第十三课 运动-ea530f33/large-v3-5ef88b2b6b/P14-第十三课 运动.raw.txt",
+        "review_source_sha256": "0283365f845e4df9271d4ec6c36bd43dac064ae3e5aec064329dd63fdc2ff213",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/13/P14-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            320
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "全文新raw L1—320与现稿L1—130对照，看麦子本/人/布方向链、镜内拐弯后跨镜、剪掉拐弯失败对照、两层动作创作、危机快节奏链已有具体正文。",
+          "总结新增“不同主体可接”“POSE”“景别角度时长共同参与”已在对应正文保留，没把回顾一概当赘述。",
+          "新ASR“走势/动势/四个块/揪/剪”不影响清楚机制；既有原字幕核《看麦子》及动势/走势同义优先，不重新造术语或主体。",
+          "2018日期仍教师自述，未外部核制作史；方向与效果仍是讲師描述，不因未连续看删明确动作链。",
+          "没有实质缺漏或可据新文修正的问题，笔记全部字节保持，动态/音轨待核继续记录。"
+        ],
+        "note_sha256": "2bba87f6d0694dacc9d944166c2206d355edbcaa2a9cb32c5bc99e3a9fde03e5",
+        "prior_note_sha256": "2bba87f6d0694dacc9d944166c2206d355edbcaa2a9cb32c5bc99e3a9fde03e5",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "AV-P14",
+            "item": "原声、连续运动及实际切点和节奏效果",
+            "reason": "未独立听音或连续看示范，方向动作按讲师清楚描述及原字幕标注保存，不用静帧证明实际动态效果。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/13/工作报告.md"
+      }
     ]
   },
   "working_review_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-13/review.md",

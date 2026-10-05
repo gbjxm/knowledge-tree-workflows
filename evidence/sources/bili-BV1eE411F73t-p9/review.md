@@ -7,3 +7,12 @@
 - 本P与同课其他P共同绑定一篇笔记，未将分P误算为单独课次。
 - [双向复核及实际使用检查](../../../.runtime/raw-cache/course-full-review-20260924/batches/charlie-04/review.md)。
 - 最终文件、原稿备份、个人记录路径和SHA见record.json。
+
+## 2026-10-03 新全音轨机器转写增量
+
+- 本轮原文：P9 raw 行1—643，SHA-256 `4938b339e987e472586f5957618d983ac63c07c020bbc4c4f778522904641f57`；先读来源，再读整课正式稿。
+- 采用：P09—P10新ASR全文与正式课级正文双向核对；每个实质案例、回顾增量及限制均已有对应内容，不强凑正文补充；仅补入来源说明中的本轮整课文字增量复核范围，保留全部原有正文、SVG、练习、关联与个人记录入口。
+- 原primary source、指纹、source行号和既有review保留；旧coverage note定位按实际修改重核/顺移，绑定最终稿。
+- 新来源覆盖清单：`.runtime/raw-cache/course-note-reconcile-20261003-47files/03-08/第04课-P09-coverage.json`。
+- 本轮未听核、未新增图像核验或连续声画核验。
+- 最终笔记SHA-256：`532bc7897c9916327a01e8a3f5cf6a2e1cc4dbdb6cddeb1651dd1c4639b88ab2`。

@@ -150,7 +150,45 @@
         "blocks_knowledge_body": false
       }
     ],
-    "limitations": "未检验小陌掌握、实践效果，也未重审关联综合主题。"
+    "limitations": "未检验小陌掌握、实践效果，也未重审关联综合主题。",
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第01课-课程介绍/P01-P1 INTRO-b3ba3400/large-v3-ce02d88ede/P01-P1 INTRO.raw.txt",
+        "review_source_sha256": "723e1443e05ac17a71deb04fe697700aa2ebc5238a6da17b04553524bab35ed4",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/01-04/01/P1-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            30
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "本课只有后续教学承诺，没有本集技法分类、练习题或标准答案。工具/陷阱比喻和线上教学动机均保留。",
+          "新raw前3行署名式/感谢识别未核，不纳入课堂知识；原片头仍只承认此前静帧定位，本轮未新增核图、听审或连续观看。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "d4bd67ab38163c4fdfb139bd6d4700ce8fc386e5c1153cbb06912e77cd05d846",
+        "prior_note_sha256": "d4bd67ab38163c4fdfb139bd6d4700ce8fc386e5c1153cbb06912e77cd05d846",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "片头连续声画与全片原声",
+            "reason": "当前可用工具的实际审查为转写与原帧；未直接听审或连续审看。不影响本文所保留的可核讲述；不据此声称全视频声画验收。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/01-04/01/工作报告.md"
+      }
+    ]
   },
   "preservation": {
     "old_note_sha256": "08978ccf2afc2315fb9cf9fa0de1ec0c9b895d6e720de278e3e61a4e08d2bdd6",

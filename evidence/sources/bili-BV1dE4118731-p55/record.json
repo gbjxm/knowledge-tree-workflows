@@ -420,6 +420,96 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第14课-第十章 影视时间组织/P55-10.4我们的时间（上）-9ee3af6a/large-v3-5ef88b2b6b/P55-10.4我们的时间（上）.raw.txt",
+        "review_source_sha256": "2bfd9b91ac0d62199522a560665eb744e79fee3f0b882061c45175718ac76c3b",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/14/P55-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            370
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "新P55—57共750行与272行现稿全文双向核对，三特点/三时间/三长度关系及六处理、每个原独特电影例都有具体段落。",
+          "五秒记感受、书包第四次、泰坦尼克闭眼睁眼、抬手关键细节、慢常速组合、回返重解预感、训练后获用途、声音/物/环境回忆触发均已保存。",
+          "新ASR“成功/现代实在/量于/科普”等不替旧图核重构、晾衣绳及柯布；纳努克山洞与最早、梦层六层/20倍与12倍语境继续留疑。",
+          "原采访/剧本有限校核保历史，不新认证电影设定或真实睡眠科学。未发现正文实质缺漏，正式字节保持。"
+        ],
+        "note_sha256": "69a7d4f2090af4289f8782bcb9a6de1d773722e59bbec877b0de2f88d3728bb2",
+        "prior_note_sha256": "69a7d4f2090af4289f8782bcb9a6de1d773722e59bbec877b0de2f88d3728bb2",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P55-U05",
+            "item": "两次五秒体验，停顿与影视片段的感受对比；原声、内容和时长需核。",
+            "status": "待核",
+            "reason": "M1连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P55-U08",
+            "item": "阳光灿烂的日子扔书包转场，前三次与第四次、儿童到后续时空及跨年；次数和段落需连续核。",
+            "status": "待核",
+            "reason": "M2连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P55-U11",
+            "item": "北方的纳努克捕海豹长镜头及1922、最早纪录片、人类学开创等表述；两段长ASR窗需看片，历史断言另核。",
+            "status": "待核",
+            "reason": "M3连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P55-U13",
+            "item": "泰坦尼克号获救与老年回忆者转场，人脸与声音联接、省略几十年；连续声画需核。",
+            "status": "待核",
+            "reason": "M4连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P55-U14",
+            "item": "扩展时间，抬手多角度重复、辅助镜头、升格与定格；区分记录与成片重叠呈现。",
+            "status": "待核",
+            "reason": "M5连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P55-U15",
+            "item": "黑客帝国子弹时间，动作和空间观察延展；90多度、用一分钟是讲者说法待核。",
+            "status": "待核",
+            "reason": "M6连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P55-U16",
+            "item": "英雄本色枪战、周润发、小马哥与地点待原字幕确认；升格及人物气度。",
+            "status": "待核",
+            "reason": "M7连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P55-U17",
+            "item": "升格与正常速度交替形成节奏张力；实际切点、速度、声音未审。",
+            "status": "待核",
+            "reason": "M7连续声画或原说法语境待核；图文及课堂解释分开。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/14/工作报告.md"
+      }
     ]
   },
   "adoption": {

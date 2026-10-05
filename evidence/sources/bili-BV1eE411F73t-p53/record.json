@@ -528,5 +528,51 @@
     "overview_backup_hint": ".runtime/raw-cache/course-full-review-20260924/backups/before-charlie-27-overview.md",
     "overview_old_sha256": "63b427427c492f6290d7fbfeb6634471d42dee986be71eeea8df9d5d1caa0791"
   },
-  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-27/review.md"
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-27/review.md",
+  "incremental_reviews": [
+    {
+      "review_id": "course-note-reconcile-20261003-next-p53",
+      "date": "2026-10-03",
+      "operation": "review_without_note_change",
+      "source": {
+        "text_sha256": "b0c08443d5505b7539acf1aeee7766137f68a72a66539ec6759328aa56ab87e5",
+        "local_text_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第27课-剧本的叙事视角/P53-二十七课-剧本的叙事视角27-233b8dea/large-v3-5ef88b2b6b/P53-二十七课-剧本的叙事视角27.raw.txt",
+        "scope": [
+          [
+            1,
+            1788
+          ]
+        ],
+        "kind": "large-v3 raw ASR text"
+      },
+      "note": {
+        "path": "知识库/学习区/课程/查理老师的编剧课/27 - 第二十七课 剧本的叙事视角（P53）.md",
+        "sha256": "b9c517bf5f8b1c9323484aff4955e1479ea01a5a7f93999d256efafbd7f4616a"
+      },
+      "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/27/coverage-v1.json",
+      "review": {
+        "scope": "P53新raw全文1–1788行；来源先行后完整读取正式正文1–166行。未本轮回听原音、看新增画面或连续审看。",
+        "summary": "新转写与当前正式稿逐项对照，无需要补入或改写的实质知识；27项观点、论证、独特案例、限定与原课观影要求已在正文保留。正式稿字节不变。",
+        "method": "同一代理先完整读新raw，后完整读当前正式正文；源序清单、反向主张核对和旧稿保全比较。结构/登记结果与语义判断分别记录。",
+        "unverified": [
+          "原声未听审；本轮未新增图帧/原字幕查看、未连续审看；历史145帧范围仅作为既有记录保留。",
+          "片例与社会/叙事学/脑变化说法按课堂讲述，未独立核实原片或外部研究。",
+          "新raw片尾歌词/字幕噪声与祝福不认证为原声准确转写，未纳入课程知识。"
+        ]
+      },
+      "checks": [
+        {
+          "name": "new-source-coverage",
+          "returncode": 0
+        },
+        {
+          "name": "validate-note",
+          "returncode": 0
+        }
+      ],
+      "backup_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/保护备份/27",
+      "note_changed": false,
+      "final_report_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/27-30/27/review.md"
+    }
+  ]
 }

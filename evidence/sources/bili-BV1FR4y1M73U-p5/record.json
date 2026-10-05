@@ -458,6 +458,50 @@
         "item": "ASR尾时间标签有越界，末句改按原视频18:02–18:06字幕回查；不作为额外来源内容。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第05课-故事情节的展开/P05-P5 故事情节的展开-3ec9d2e1/large-v3-ce02d88ede/P05-P5 故事情节的展开.raw.txt",
+        "review_source_sha256": "a60d92f5da3ee118d3fdb3ec430273258c25568e19c7454c70ea647f182e4408",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/05-09/05/P5-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            190
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "完整新raw L1–190与中文L1–128已分别阅读；所有实质内容在正文有去处，无新增遗漏。",
+          "两个互斥目标的角色与冲突多种处理/结果并列保全；need/want按讲师强概括保留，未添加完整判别体系。",
+          "乌有乡露宿者关切→隐喻实体化→Richard救人被办公室/ATM/出租车失认→进入下伦敦，因果与创作意图身份均保持。",
+          "现行正文中的原字幕解释、个人旧记录入口与所有链接不动；未以新ASR末段强概括覆盖历史字幕译法。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "5b8e4456df79f7b69506217c7318567cdcb5a902ae2e145ca8d4305a81ad849f",
+        "prior_note_sha256": "5b8e4456df79f7b69506217c7318567cdcb5a902ae2e145ca8d4305a81ad849f",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看；讲师表达的读者效果仅按创作意图保存。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "ASR尾时间标签有越界，末句改按原视频18:02–18:06字幕回查；不作为额外来源内容。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/05-09/05/工作报告.md"
+      }
     ]
   },
   "preservation": {

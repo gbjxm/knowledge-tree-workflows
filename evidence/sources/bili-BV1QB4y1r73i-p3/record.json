@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/老白的分镜课/02 - 第二课 轴向（P2-P3）.md",
-    "sha256": "2c546ed76f700b575aabc3359cebdc61c8840a4cef0b6add7f780dae6c910fe0"
+    "sha256": "072bb82737123353980d661827d1d0020e5b438de6f6fafdf3928e86888ba435"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "7ffed6c9936560ea96fbdb35e9b43d262ae3432d9318ef69bc264046bfad1ccf",
-    "note_sha256": "2c546ed76f700b575aabc3359cebdc61c8840a4cef0b6add7f780dae6c910fe0",
+    "note_sha256": "072bb82737123353980d661827d1d0020e5b438de6f6fafdf3928e86888ba435",
     "scope": [
       [
         1,
@@ -260,6 +260,65 @@
         "item": "独立声画效果",
         "reason": "未听原声/未连续审看；候选保留教师陈述，静态图文明确关系，开放项不妨碍已核核心知识",
         "blocks_knowledge_body": false
+      }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第02课-轴向/P03-第二课 轴向 2-2-7ff1c957/large-v3-5ef88b2b6b/P03-第二课 轴向 2-2.raw.txt",
+        "review_source_sha256": "9362e75ef358246eff88604b10a9792554d3aade2579ec0d5fbe194f5fe82311",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/02/P3-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            414
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；仅局部补回或修正有清楚源依据的内容，其他旧稿保全。",
+        "changes": [
+          "P3 4号衔接段补明小三角先以画外音说“不赖我”，再小圆转头接7号（新raw L220–232；旧primary L199–233）。"
+        ],
+        "recognition_disagreements_and_judgments": [
+          "先完整读P2 377行与P3 414行，再全文现稿176行；I/L/A/A2/U/O及每个失败/桥梁/练习分别列项，没有用一个多人标题吞掉各例。",
+          "普通补充仅P3画外音先回应→小圆转头→7号，保持4而非8及背景差异条件。受影响旧primary P3 L199–233实际回读；P2只因同篇最终字节重绑。",
+          "原图已核I、L等板书与左右关系继续保留，不用新ASR的爱形、小弹脚替换；讲师顺/怪/威严不升级为本轮独立效果。"
+        ],
+        "note_sha256": "072bb82737123353980d661827d1d0020e5b438de6f6fafdf3928e86888ba435",
+        "prior_note_sha256": "2c546ed76f700b575aabc3359cebdc61c8840a4cef0b6add7f780dae6c910fe0",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "AV-P3",
+            "item": "独立声画效果",
+            "reason": "未听原声/未连续审看；候选保留教师陈述，静态图文明确关系，开放项不妨碍已核核心知识",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-01-08/02/工作报告.md",
+        "affected_primary_source_review": {
+          "old_source_ranges_read": {
+            "3": [
+              [
+                199,
+                233
+              ]
+            ]
+          },
+          "old_note_lines_allowed_to_replace": [
+            144
+          ],
+          "binding_only_pages": [
+            2
+          ],
+          "findings": "旧P3 L199–233逐行实际回读，新raw L220–232能清楚补明画外音先传来再转头；旧声画未核不升级。P2内容未改，只共享最终稿绑定。"
+        },
+        "primary_binding_only_for_this_page": false
       }
     ]
   },

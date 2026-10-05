@@ -314,5 +314,207 @@
     "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第十课原有学习记录.md",
     "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-10/old-unique-and-learning.md"
   },
-  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-10/review.md"
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-10/review.md",
+  "incremental_reviews": [
+    {
+      "date": "2026-10-03",
+      "kind": "new_asr_to_existing_lesson_note",
+      "asr_source": {
+        "local_text_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第10课-复杂叙事/P21-第十课-复杂叙事10.2-04e589ac/large-v3-5ef88b2b6b/P21-第十课-复杂叙事10.2.raw.txt",
+        "text_sha256": "30c602c6968d2dd3e7ba743aab036e9540135053639b25898d260e969b76dc04"
+      },
+      "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/09-15/10/P21-new-raw-coverage.json",
+      "scope": {
+        "page": 21,
+        "raw_lines": [
+          1,
+          662
+        ],
+        "lesson": 10
+      },
+      "note_sha256": "67cebfd9574e4bdffc8e80a616b5e1fcb3e92b19375619bab20155c9fa0696bd",
+      "method": "完整读新raw→按源序列语义清单→完整读现行课级正文→双向核对；保留历史图文已核内容；正文→新raw及旧稿保全复核",
+      "summary": "P20—P21新ASR全文与现行第十课逐项双向对照完成；复合主角、团队模型、泰坦尼克/泰囧的独立弧线、石头五方连接和巧合代价均已保留，未发现须强行增加的实质遗漏。",
+      "changes": [],
+      "unverified": [
+        "未回听原音、未连续审看；影片结构与观众反应按讲师记忆分析归属，未外核原电影。",
+        "P21‘迅’全名、荒诞王子例具体名字识别仍不稳定，现行中性身份保留；新ASR不覆盖已核字幕/板书。"
+      ],
+      "heard_audio": false,
+      "continuous_av_reviewed": false,
+      "raw_modified": false,
+      "primary_source_preserved": true,
+      "coverage_check_returncode": 0,
+      "old_note_mapping_rechecked": [
+        {
+          "id": "U1",
+          "old_note_lines": [
+            116,
+            116
+          ],
+          "current_note_lines": [
+            116,
+            116
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U2",
+          "old_note_lines": [
+            118,
+            118
+          ],
+          "current_note_lines": [
+            118,
+            118
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U3",
+          "old_note_lines": [
+            126,
+            126
+          ],
+          "current_note_lines": [
+            126,
+            126
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U4",
+          "old_note_lines": [
+            132,
+            132
+          ],
+          "current_note_lines": [
+            132,
+            132
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U5",
+          "old_note_lines": [
+            134,
+            134
+          ],
+          "current_note_lines": [
+            134,
+            134
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U6",
+          "old_note_lines": [
+            140,
+            140
+          ],
+          "current_note_lines": [
+            140,
+            140
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U7",
+          "old_note_lines": [
+            144,
+            144
+          ],
+          "current_note_lines": [
+            144,
+            144
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U8",
+          "old_note_lines": [
+            146,
+            146
+          ],
+          "current_note_lines": [
+            146,
+            146
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U9",
+          "old_note_lines": [
+            154,
+            154
+          ],
+          "current_note_lines": [
+            154,
+            154
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U10",
+          "old_note_lines": [
+            162,
+            162
+          ],
+          "current_note_lines": [
+            162,
+            162
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U11",
+          "old_note_lines": [
+            164,
+            164
+          ],
+          "current_note_lines": [
+            164,
+            164
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U12",
+          "old_note_lines": [
+            168,
+            168
+          ],
+          "current_note_lines": [
+            168,
+            168
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U13",
+          "old_note_lines": [
+            170,
+            170
+          ],
+          "current_note_lines": [
+            170,
+            170
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U14",
+          "old_note_lines": [
+            174,
+            174
+          ],
+          "current_note_lines": [
+            174,
+            174
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        }
+      ]
+    }
+  ]
 }

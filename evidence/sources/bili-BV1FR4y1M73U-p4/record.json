@@ -404,6 +404,49 @@
         "item": "Garcia名言出处连讲师本人也未能证实，按不确定转述保留。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第04课-寻找你的风格/P04-P4 寻找你的风格-ccd3ae35/large-v3-ce02d88ede/P04-P4 寻找你的风格.raw.txt",
+        "review_source_sha256": "16402053d05f53eb7da1ba4e6649e4ebe1d4c01b22c884de950afe4fffdc98a8",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/01-04/04/P4-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            181
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "作者跨作品态度与每个项目叙述声音分开；旧儿童书、量子进步、失败完整稿、三项项目取舍和牵手黑暗的比喻与全部限定均已完整保存。",
+          "Garcia名言本人承认找不到原出处；百万坏画只是转述比喻，累计字数非达标规则，也不等于故意写坏或保证获奖。",
+          "新raw作者名单部分拼写失真，旧正文依已有字幕图文确认字形继续保留；本轮没有新的原声、原帧或连续视频审查。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "11cd6edb7afb96ef58815ce486a3535bf09785aa3e34eb93214f9ad851c5bba9",
+        "prior_note_sha256": "11cd6edb7afb96ef58815ce486a3535bf09785aa3e34eb93214f9ad851c5bba9",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看；讲述的声音与读者效果按作者解释保存。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "Garcia名言出处连讲师本人也未能证实，按不确定转述保留。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/01-04/04/工作报告.md"
+      }
     ]
   },
   "preservation": {

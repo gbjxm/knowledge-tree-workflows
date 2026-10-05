@@ -2,9 +2,12 @@ from __future__ import annotations
 
 import tempfile
 import unittest
+from unittest import mock
+import os
+import subprocess
 from pathlib import Path
 
-from obsidian_cli import TARGET_MISMATCH, CliResult, ObsidianCLI
+from obsidian_cli import CLI_ARGUMENT_ERROR, CLI_RESPONSE_ERROR, INDEX_MISMATCH, TARGET_MISMATCH, CliResult, ObsidianCLI
 
 
 class FakeObsidianCLI(ObsidianCLI):
@@ -85,6 +88,95 @@ class ObsidianCLITargetTests(unittest.TestCase):
             result = cli.run(["move", "path=a.md", "to=b.md"], timeout=30)
             self.assertEqual(result.returncode, TARGET_MISMATCH)
             self.assertNotIn(["move", "path=a.md", "to=b.md"], cli.calls)
+
+    def test_native_error_text_is_not_a_successful_file_query(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            vault = Path(directory) / "vault"
+            vault.mkdir()
+            cli = FakeObsidianCLI(vault, vault, CliResult(0, 'Error: File "a.md" not found.'))
+            result = cli.run(["file", "path=a.md"])
+            self.assertEqual(result.returncode, CLI_RESPONSE_ERROR)
+            self.assertIn("not found", result.stderr)
+
+    def test_literal_error_text_in_a_note_is_preserved_when_native_file_exists(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            vault = Path(directory) / "vault"
+            vault.mkdir()
+            cli = FakeObsidianCLI(vault, vault)
+            original = cli._execute
+            def execute(arguments, timeout=15):
+                if arguments == ["read", "path=a.md"]:
+                    return CliResult(0, 'Error: File "a.md" not found.')
+                if arguments == ["file", "path=a.md"]:
+                    return CliResult(0, "path\ta.md\nname\ta")
+                return original(arguments, timeout)
+            cli._execute = execute
+            result = cli.run(["read", "path=a.md"])
+            self.assertEqual(result.returncode, 0)
+            self.assertEqual(result.stdout, 'Error: File "a.md" not found.')
+
+    def test_raw_read_missing_in_native_view_is_reported_as_failure(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            vault = Path(directory) / "vault"
+            vault.mkdir()
+            cli = FakeObsidianCLI(vault, vault, CliResult(0, 'Error: File "a.md" not found.'))
+            result = cli.run(["read", "path=a.md"])
+            self.assertEqual(result.returncode, CLI_RESPONSE_ERROR)
+
+    def test_index_check_accepts_matching_relative_paths(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            vault = Path(directory) / "vault"
+            vault.mkdir()
+            (vault / "a.md").write_text("actual content", encoding="utf-8")
+            cli = FakeObsidianCLI(vault, vault, CliResult(0, "a.md"))
+            result = cli.check_files()
+            self.assertEqual(result.returncode, 0)
+            self.assertIn('"paths_match": true', result.stdout)
+
+    def test_same_count_but_different_paths_is_an_index_mismatch(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            vault = Path(directory) / "vault"
+            vault.mkdir()
+            (vault / "new.md").write_text("new note", encoding="utf-8")
+            cli = FakeObsidianCLI(vault, vault, CliResult(0, "old.md"))
+            result = cli.check_files()
+            self.assertEqual(result.returncode, INDEX_MISMATCH)
+            self.assertIn("new.md", result.stdout)
+            self.assertIn("old.md", result.stdout)
+
+    def test_index_check_does_not_execute_against_a_mismatched_vault(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            configured, actual = root / "configured", root / "actual"
+            configured.mkdir(); actual.mkdir()
+            cli = FakeObsidianCLI(configured, actual)
+            result = cli.check_files()
+            self.assertEqual(result.returncode, TARGET_MISMATCH)
+            self.assertEqual(cli.calls, [])
+
+    @unittest.skipUnless(os.name == "nt", "Windows redirector regression")
+    def test_multiline_argument_cannot_reach_the_native_redirector(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            executable = root / "fake.com"
+            executable.write_text("stub", encoding="utf-8")
+            cli = ObsidianCLI(executable, "vault", root)
+            with mock.patch("obsidian_cli.subprocess.run") as execute:
+                result = cli._execute(["eval", "code=1\n+2"])
+            self.assertEqual(result.returncode, CLI_ARGUMENT_ERROR)
+            execute.assert_not_called()
+
+    def test_official_escaped_newline_content_remains_supported(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            executable = root / "fake.com"
+            executable.write_text("stub", encoding="utf-8")
+            cli = ObsidianCLI(executable, "vault", root)
+            args = ["append", "path=a.md", r"content=first\nsecond"]
+            with mock.patch("obsidian_cli.subprocess.run", return_value=subprocess.CompletedProcess([], 0, "Appended", "")) as execute:
+                result = cli._execute(args)
+            self.assertEqual(result.returncode, 0)
+            self.assertEqual(execute.call_args.args[0][-1], r"content=first\nsecond")
 
 
 if __name__ == "__main__":

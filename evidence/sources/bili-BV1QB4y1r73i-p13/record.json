@@ -382,6 +382,47 @@
         "reason": "未独立听原声或连续观看，文字动作按讲师描述、图示只证静态关系，不宣称实际切点/节奏已核。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第12课-空间感/P13-第十二课 空间感-d825f9e7/large-v3-5ef88b2b6b/P13-第十二课 空间感.raw.txt",
+        "review_source_sha256": "534fd63097f610d92fddb41545fe3a9127fd1736eb4d508e96c8943e917f79c1",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/12/P13-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            449
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "新raw L1—449与现稿L1—132全文对照；平面定义、盒由一面到三面、三机位各自替代方案和两阶段空间改善均已有正文。",
+          "反打扩大开角失效与后退/广角拍不到屋角的两个失败条件分开保存；前盆/中炉/案板前层/门边鞋柜的不同层次和能否模糊未合并抹平。",
+          "新文字“切老张/变圆/锅耳瓢盆/斜柜”存在错认，保留清楚的课堂切菜关系和原字幕已核“大开角/炉子/鞋柜”，无需据新识别撤旧图证。",
+          "原画面/文本强调机位不变加层与房间/人不实体移动，现稿保留条件、焦距无数值，不把露更多面最大化作每镜规则。",
+          "未发现知识缺漏，正式正文保持原字节；原声和连续效果待核继续保留。"
+        ],
+        "note_sha256": "72705ba304e0414ff4aa3a7a27c8ccf58b54f62c8368646e4c7b2376304b7b00",
+        "prior_note_sha256": "72705ba304e0414ff4aa3a7a27c8ccf58b54f62c8368646e4c7b2376304b7b00",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "AV-P13",
+            "item": "原声及连续三镜头比较效果",
+            "reason": "未独立听原声或连续观看，文字动作按讲师描述、图示只证静态关系，不宣称实际切点/节奏已核。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/12/工作报告.md"
+      }
     ]
   },
   "working_review_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-12/review.md",

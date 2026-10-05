@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/查理老师的编剧课/08 - 第八课 勾勒画面（P15-P17）.md",
-    "sha256": "02679c7d6c92491ba50b65ae8fd7ac1cc10f308fd7ed97b5441cb8ceea9e8b1b"
+    "sha256": "c770c18de67d95f55c930ff0b79c501ef258e21e4e2d1d4e7cf56b7eb39396bd"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "0ddb1b8ff57580552cd8509bbafe49889951cfb2f7d8891e6b834dd95da0d120",
-    "note_sha256": "02679c7d6c92491ba50b65ae8fd7ac1cc10f308fd7ed97b5441cb8ceea9e8b1b",
+    "note_sha256": "c770c18de67d95f55c930ff0b79c501ef258e21e4e2d1d4e7cf56b7eb39396bd",
     "scope": [
       [
         1,
@@ -289,8 +289,8 @@
         },
         "note": {
           "lines": [
-            235,
-            235
+            237,
+            237
           ],
           "quote": "原声语气与连续声画未听审/审看"
         },
@@ -307,6 +307,54 @@
     "unverified": [
       "P15/P16/P17课堂原声语气与连续声画未独立听审/审看；不以静帧代替",
       "P15完整原件仍未取得，补段至2317秒，末0.327秒未取；已见2313–2316秒宣传卡，无核心图文阻塞"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "batch": "course-note-reconcile-20261003-47files",
+        "source_path": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第08课-勾勒画面/P16-第八课-勾勒画面8.2-a69f192e/large-v3-5ef88b2b6b/P16-第八课-勾勒画面8.2.raw.txt",
+        "source_sha256": "7701dca7fa565ee7c01dc173b02c0919870385e2e2561ba3aa786cd5b86af5a7",
+        "source_scope_lines": [
+          [
+            1,
+            797
+          ]
+        ],
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/03-08/第08课-P16-coverage.json",
+        "note_sha256": "c770c18de67d95f55c930ff0b79c501ef258e21e4e2d1d4e7cf56b7eb39396bd",
+        "method": "来源先行全文阅读→源序观点/理由/案例/限制清单→整篇正文双向语义核对；仅文字，未听核或连续声画核验。",
+        "summary": [
+          "P15—P17新ASR全文先行阅读、源序清单与255行正式稿双向核对，保留各现场候选/撤回/暂用方案及回顾增量",
+          "补明P16沿用课代表改出的筹钱留妻女方案，与第三课亡女天堂方案区分，保留原人物逻辑",
+          "在再转后果分量段补回具体受害者/伤害后果比较，明确属于讲师的戏剧痛感判断及生命平等限定",
+          "危机导入段补回虚构五分钟接近三米的叙事限制，不升级为实际装置参数",
+          "来源边界分清2026-09-30历史图文与本轮整课文字增量；另实际核看P17 1585.547秒一帧硬字幕，确认“最基本的主题还是生死嘛”，修正旧ASR“舒服”的词面歧义，不声称原声听核"
+        ],
+        "unverified": [
+          "原声与连续声画未听审/审看；本轮只新增核看P17 1585.547秒一帧原字幕，P15历史原视频完整取得限制不因新增全音轨ASR消除"
+        ],
+        "primary_source_preserved": true,
+        "old_coverage_affected_recheck": [
+          {
+            "item_id": "P16-02",
+            "old_source_lines": [
+              32,
+              68
+            ],
+            "old_note_lines": [
+              109,
+              109
+            ],
+            "final_note_lines": [
+              109,
+              109
+            ],
+            "result": "已重读旧来源对应范围并核对保留含义；新增信息另由本轮raw支持。"
+          }
+        ],
+        "coverage_check_exit_code": 0,
+        "visual_review": []
+      }
     ]
   },
   "preservation": {

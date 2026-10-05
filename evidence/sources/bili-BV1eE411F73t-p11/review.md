@@ -7,3 +7,12 @@
 - 本P与同课其他P共同绑定一篇笔记，未将分P误算为单独课次。
 - [双向复核及实际使用检查](../../../.runtime/raw-cache/course-full-review-20260924/batches/charlie-05/review.md)。
 - 最终文件、原稿备份、个人记录路径和SHA见record.json。
+
+## 2026-10-03 新全音轨机器转写增量
+
+- 本轮原文：P11 raw 行1—702，SHA-256 `acbce060e6151d1692c4853bf53e4ce6505b818f39c4b2dd4e034cece11a7063`；先读来源，再读整课正式稿。
+- 采用：P11—P12新ASR全文及现有整课正文双向核对；三个失败经历、主题与结果区分、每个杀人回忆案例及练习要求均已承接，正文无需强增补；追加本轮来源范围与实际P11 925.547秒一帧硬字幕核验：字幕支持完整八要素作业要求，关闭知识要求的文字歧义；保留新raw否定词差异和原声未听边界，正文作业内容原已正确。
+- 原primary source、指纹、source行号和既有review保留；旧coverage note定位按实际修改重核/顺移，绑定最终稿。
+- 新来源覆盖清单：`.runtime/raw-cache/course-note-reconcile-20261003-47files/03-08/第05课-P11-coverage.json`。
+- 本P本轮实际查看925.547秒一帧硬字幕“一个故事包含完整八要素的故事”，定位/帧SHA见incremental_reviews.visual_review；未听核或连续声画审看。 待核：P11新raw461“不完整”与实际硬字幕“完整”不同；作业要求已按硬字幕和前后文核清，原声措辞仍未听核；整体原声与连续声画未审。
+- 最终笔记SHA-256：`debe7aec15f9c99dd48be8318aec24d3ab6c343c32db8b0726d36a668f44b81b`。

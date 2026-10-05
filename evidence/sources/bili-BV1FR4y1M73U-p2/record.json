@@ -381,6 +381,44 @@
         "item": "未听审原声、未连续审看；不评价语气、剪辑和声画同步。静帧不证明间隔中全部声画完整。现有正文不依赖这些未核的动态形式。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/02-讲故事的艺术/第02课-虚构中的真实/P02-P2 虚构中的真实-c74f913f/large-v3-ce02d88ede/P02-P2 虚构中的真实.raw.txt",
+        "review_source_sha256": "bf5ca01dac04563846a681ca83daa6cd940d6aa504eca9f2ba842d821cfd90f5",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/01-04/02/P2-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            219
+          ]
+        ],
+        "source_language": "en",
+        "formal_note_language": "zh",
+        "method": "先全文读取新raw，按源序每个观点/关键理由/独特案例/方法/条件列项，再全文现行中文稿，做源→正文、正文→源与旧稿保全复核。",
+        "summary": "全文新英文ASR与现行中文课文完成双向对照；未发现有充分依据需改的实质遗漏，正文保持原字节。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "小红帽两种狼、卡洛琳黄蜂/眼镜返回区分与读者反馈、Milford观看立场、自我暴露、七岁记忆和调味料类比均逐例反查，未发现需补的实质漏项。",
+          "题辞虚假署名及个人写作信念条件保存；读者反馈不升为普遍治愈效果；不以自己的后见作品知识重写原课。",
+          "新raw的书名Coraline、名人/工作坊人名与现行字形以原图文已核的正式称呼为准，不把粗糙英文拆词当新来源独立认证。"
+        ],
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "note_sha256": "082f62a03b6923f3a9ed2e953b430898e6a8d637dbacfcc04433678a0c53fd40",
+        "prior_note_sha256": "082f62a03b6923f3a9ed2e953b430898e6a8d637dbacfcc04433678a0c53fd40",
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "未听审原声、未连续审看；不评价语气、剪辑和声画同步。静帧不证明间隔中全部声画完整。现有正文不依赖这些未核的动态形式。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-story-art-20261003/01-04/02/工作报告.md"
+      }
     ]
   },
   "preservation": {

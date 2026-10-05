@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/查理老师的编剧课/33 - 第三十三课 怎样克服拖延症（P59）.md",
-    "sha256": "3039e3dc0601d1a8926cd5b0d3471b28252a63cd2ce2f0994e95d77dbc2fc1db"
+    "sha256": "ac786f4b9b356a53604f99271045c82c4f3556d40f78222fa9c4de0b278b698f"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "1acd60dc8e3f07f6a62baeb44417b462f366b5f5aae862984e52cb2cf01a903d",
-    "note_sha256": "3039e3dc0601d1a8926cd5b0d3471b28252a63cd2ce2f0994e95d77dbc2fc1db",
+    "note_sha256": "ac786f4b9b356a53604f99271045c82c4f3556d40f78222fa9c4de0b278b698f",
     "scope": [
       [
         6,
@@ -244,7 +244,7 @@
       },
       {
         "id": "U13",
-        "item": "23:00起：小奖励频繁即时；一字一元钱包响的假想、个人稿酬回忆、网吧对照；正文75、77合并保存。",
+        "item": "23:00起：小奖励频繁即时；一字一元钱包响的假想、个人稿酬回忆、网吧对照；正文75、77合并保存。 本轮按实际源L878–880补回奖励自己做开心事情的可选做法，正文L75与金钱假想/网吧对照L77分别保存。",
         "source": {
           "lines": [
             788,
@@ -254,8 +254,9 @@
         "note": {
           "lines": [
             75,
-            75
-          ]
+            77
+          ],
+          "quote": "也可以做一件让自己开心的事"
         },
         "status": "合并",
         "reason": "按内容连续组织；双向内容判断见review.md，登记不代替语义复核。"
@@ -454,6 +455,92 @@
         "id": "M5",
         "item": "开头前10秒与转写后约7秒只定点见课名、告别与推广，未听审；未给新定量作业或标准答案，不补造。",
         "blocks_knowledge_body": false
+      }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第33课-怎样克服拖延症/P59-三十三课-怎样克服拖延症-d73179d1/large-v3-5ef88b2b6b/P59-三十三课-怎样克服拖延症.raw.txt",
+        "review_source_sha256": "cad3dc6c545e8db7426f0f3409f213c2759ad14419039310b5f5c207097a2258",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-next/33-34/33/P59-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            1266
+          ]
+        ],
+        "source_level": "本地 large-v3 ASR 原始识别文字；未听审音轨、未连续审看原视频",
+        "method": "先完整读取新 raw 并按源序列列出内容项，再完整读取现行正式课文，逐观点/理由/独特案例/条件进行新源→正文、正文→源及旧稿保全复核",
+        "summary": "本轮全文文字对照完成，独立抽查发现小奖励非食物活动选项遗漏后，回查新旧源并在原段定点补回；其他旧文逐字节保全。",
+        "changes": [
+          "正式课文L75补“也可以做一件让自己开心的事”，恢复小奖励非食物活动选项；其他内容、原课练习、记录、关系及附件保持。"
+        ],
+        "recognition_disagreements": [
+          "新raw1266行及正式119行全文对照；初核漏认L741–752非食物小奖励可选做法，经独立抽查及新旧源回读修正。",
+          "训练营三个月30课、毕业作品诊断及商业可看性的取向，完整作品/小说的入行完成度、群聊转网站资料留底均已有保存；不把当时招生与稿酬/行业比例提升为当前事实。",
+          "新raw L384“既然它不是懒”与前文“就是懒”的措辞转变已由旧字幕核过，现行正文准确保留，不擅自统一。",
+          "七方法每个理由、买车与冰淇淋奖励、假想钱包到账、网吧、搬砖、30万字峰值反例、20年网游、洗衣回避、最爱场戏、为在乎者及获奖女学员搭档个案均有去处；大小奖励/工时/远程或不同作品条件保留。",
+          "最后回顾新增“创作过程本身即时快乐，类似角色扮演游戏”的理想及七招可不再需要，现行末段已有完整解释；没有新量化作业。",
+          "本轮未听审原声、未连续审看；拖延/内外驱/动物性与抑郁个案按老师原观点和写作语境保留，不作医学科学或治疗结论。"
+        ],
+        "unverified": [
+          {
+            "id": "M1",
+            "item": "原声未听审，未连续审看；90不同静帧只证明所列板书字幕和片头片尾，不证明连续运动、节奏、同步及所有瞬间。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M2",
+            "item": "拖延/完美主义/内外驱和动物性、基因解释为讲师经验观点，未经医学科学核验；女学员抑郁个案不认证治疗或治愈。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M3",
+            "item": "行业编剧缺口、甲方第一准则、20–30%新人比例、制作工期和稿酬、成功者均行动派等为授课时点讲师观察或概括，未外证；每字即时到账是解释激励的假想。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M4",
+            "item": "828秒字幕既然不是懒与前文就是懒措辞不同，按两处来源保留，不擅自统一；朝三暮四被称实验但未给研究依据。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "M5",
+            "item": "开头前10秒与转写后约7秒只定点见课名、告别与推广，未听审；未给新定量作业或标准答案，不补造。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "note_sha256": "ac786f4b9b356a53604f99271045c82c4f3556d40f78222fa9c4de0b278b698f",
+        "coverage_check_exit_code": 0,
+        "semantic_review_completed": true,
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "affected_primary_source_review": {
+          "actual_read_source_lines": [
+            788,
+            891
+          ],
+          "specific_added_claim_source_lines": [
+            878,
+            880
+          ],
+          "new_raw_lines": [
+            741,
+            752
+          ],
+          "note_lines": [
+            75,
+            75
+          ],
+          "method": "逐行读取旧源即时反馈、小奖励论证及具体食物/开心活动原句，回查新raw对应段；更新受影响旧U13笔记定位至L75–77，逐项确认其他旧note定位无行移且主source身份/源行号未变。",
+          "preservation": "最终笔记移除唯一新增短语即与修正前笔记字节相同。"
+        },
+        "independent_review_correction": {
+          "finding": "初核新coverage N31登记喜欢的活动，但正文只保留食物/冰淇淋，语义登记过度；root独立抽查指出后修正。",
+          "previous_note_sha256": "3039e3dc0601d1a8926cd5b0d3471b28252a63cd2ce2f0994e95d77dbc2fc1db",
+          "status": "corrected",
+          "final_note_sha256": "ac786f4b9b356a53604f99271045c82c4f3556d40f78222fa9c4de0b278b698f"
+        }
       }
     ]
   },

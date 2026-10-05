@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/查理老师的编剧课/04 - 第四课 第一个故事（P9-P10）.md",
-    "sha256": "47d9578105e03218c88be7911bfa5f13e452a4407e6b38db1cc00df3a5c6e478"
+    "sha256": "532bc7897c9916327a01e8a3f5cf6a2e1cc4dbdb6cddeb1651dd1c4639b88ab2"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "55dd214424e1e4529166ff55b500f242c88b4456c58c7adcc2ecd6114d16d809",
-    "note_sha256": "47d9578105e03218c88be7911bfa5f13e452a4407e6b38db1cc00df3a5c6e478",
+    "note_sha256": "532bc7897c9916327a01e8a3f5cf6a2e1cc4dbdb6cddeb1651dd1c4639b88ab2",
     "scope": [
       [
         6,
@@ -37,8 +37,8 @@
         },
         "note": {
           "lines": [
-            118,
-            118
+            120,
+            120
           ]
         },
         "status": "合并",
@@ -55,8 +55,8 @@
         },
         "note": {
           "lines": [
-            120,
-            120
+            122,
+            122
           ]
         },
         "status": "合并",
@@ -73,8 +73,8 @@
         },
         "note": {
           "lines": [
-            122,
-            122
+            124,
+            124
           ]
         },
         "status": "合并",
@@ -91,8 +91,8 @@
         },
         "note": {
           "lines": [
-            126,
-            126
+            128,
+            128
           ]
         },
         "status": "合并",
@@ -109,8 +109,8 @@
         },
         "note": {
           "lines": [
-            128,
-            128
+            130,
+            130
           ]
         },
         "status": "合并",
@@ -127,8 +127,8 @@
         },
         "note": {
           "lines": [
-            132,
-            132
+            134,
+            134
           ]
         },
         "status": "合并",
@@ -145,8 +145,8 @@
         },
         "note": {
           "lines": [
-            138,
-            138
+            140,
+            140
           ]
         },
         "status": "合并",
@@ -163,8 +163,8 @@
         },
         "note": {
           "lines": [
-            146,
-            146
+            148,
+            148
           ]
         },
         "status": "合并",
@@ -181,8 +181,8 @@
         },
         "note": {
           "lines": [
-            148,
-            148
+            150,
+            150
           ]
         },
         "status": "合并",
@@ -199,8 +199,8 @@
         },
         "note": {
           "lines": [
-            154,
-            154
+            156,
+            156
           ]
         },
         "status": "合并",
@@ -217,8 +217,8 @@
         },
         "note": {
           "lines": [
-            158,
-            158
+            160,
+            160
           ]
         },
         "status": "合并",
@@ -235,8 +235,8 @@
         },
         "note": {
           "lines": [
-            160,
-            160
+            162,
+            162
           ]
         },
         "status": "合并",
@@ -253,8 +253,8 @@
         },
         "note": {
           "lines": [
-            162,
-            162
+            164,
+            164
           ]
         },
         "status": "合并",
@@ -271,8 +271,8 @@
         },
         "note": {
           "lines": [
-            168,
-            168
+            170,
+            170
           ]
         },
         "status": "合并",
@@ -289,8 +289,8 @@
         },
         "note": {
           "lines": [
-            175,
-            175
+            177,
+            177
           ]
         },
         "status": "合并",
@@ -307,8 +307,8 @@
         },
         "note": {
           "lines": [
-            179,
-            179
+            181,
+            181
           ]
         },
         "status": "合并",
@@ -325,8 +325,8 @@
         },
         "note": {
           "lines": [
-            185,
-            185
+            187,
+            187
           ]
         },
         "status": "合并",
@@ -343,8 +343,8 @@
         },
         "note": {
           "lines": [
-            189,
-            189
+            191,
+            191
           ]
         },
         "status": "合并",
@@ -372,6 +372,31 @@
         "id": "M3",
         "item": "《逍遥医生》的字幕与板书“潇洒医生 Rush”写法有别，正文如实保留；未名美剧不猜片名，未把临时学院名称、车速举数或修女案例的口头类比补成原片确切事实。",
         "blocks_knowledge_body": false
+      }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-03",
+        "batch": "course-note-reconcile-20261003-47files",
+        "source_path": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第04课-第一个故事/P10-第四课-第一个故事4.2-a91e9537/large-v3-5ef88b2b6b/P10-第四课-第一个故事4.2.raw.txt",
+        "source_sha256": "c3da21e353df6e9c3494840dd1051015e45c40c23f59effb085b5ef9a7761dde",
+        "source_scope_lines": [
+          [
+            1,
+            766
+          ]
+        ],
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/03-08/第04课-P10-coverage.json",
+        "note_sha256": "532bc7897c9916327a01e8a3f5cf6a2e1cc4dbdb6cddeb1651dd1c4639b88ab2",
+        "method": "来源先行全文阅读→源序观点/理由/案例/限制清单→整篇正文双向语义核对；仅文字，未听核或连续声画核验。",
+        "summary": [
+          "P09—P10新ASR全文与正式课级正文双向核对；每个实质案例、回顾增量及限制均已有对应内容，不强凑正文补充",
+          "仅补入来源说明中的本轮整课文字增量复核范围，保留全部原有正文、SVG、练习、关联与个人记录入口"
+        ],
+        "unverified": [],
+        "primary_source_preserved": true,
+        "old_coverage_affected_recheck": [],
+        "coverage_check_exit_code": 0
       }
     ]
   },

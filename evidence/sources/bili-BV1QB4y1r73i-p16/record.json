@@ -394,6 +394,59 @@
         "reason": "片名、静态日常情境与教师客观氛围判断已保存；对白ASR破损不猜名字/完整剧情，未独立声画核验。课堂不是逐句电影对白教学，不阻已核核心知识。",
         "blocks_knowledge_body": false
       }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/03-老白的分镜课/第15课-视角/P16-第十五课 视角-83a6b235/large-v3-5ef88b2b6b/P16-第十五课 视角.raw.txt",
+        "review_source_sha256": "f8eba375e732c7592da6468d1eaf95f8c44cd13a8fadee5a2780f5746ada9b21",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/15/P16-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            367
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "新raw L1—367和现稿L1—128逐段全文比对，常规/小红/小蓝三版对象链、红门菜等待、蓝门外信息限制、鞋柜钥匙、“如果转头”同框条件均已具体保存。",
+          "小蓝版新邀吃与快跑玩笑、除尾声外零表演限定已有，未以“同样对白”抹掉后半差异或当真下毒。",
+          "故事/视听视角区别、同场多个视角的五分钟例、不必强视角的风格边界，以及强角色引导与客观童年共鸣两种路径均在正文。",
+          "新ASR“比利丁中产战士/咚咚假期”维持识别分歧，原标题已核《比利林恩的中场战事》《冬冬的假期》优先；破损片段不恢复姓名/对白。",
+          "未发现需增补的实质内容，正式笔记保持原字节。新raw终段到11:58附近而原片12:20左右，文本范围不证明声画尾段完整。"
+        ],
+        "note_sha256": "0407911d2d4e48631082971767823d18f210319fcefa367412c4a1f8502a292a",
+        "prior_note_sha256": "0407911d2d4e48631082971767823d18f210319fcefa367412c4a1f8502a292a",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "AV-P16",
+            "item": "原声与草图连续动作/真实切点/代入效果",
+            "reason": "未独立听音或连续看；组织、动作、心理模拟和感受按老师描述限定，静态只核文字和关系。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "MOVIE-BILLY",
+            "item": "比利林恩原电影连续示范效果",
+            "reason": "原标题、主人公/场面静态与教师反应—所见分析清楚；真实切点、完整心理体验与声画未独立核，不影响已核方法含义。",
+            "blocks_knowledge_body": false
+          },
+          {
+            "id": "MOVIE-DONGDONG",
+            "item": "冬冬原片连续效果和受损片中对白",
+            "reason": "片名、静态日常情境与教师客观氛围判断已保存；对白ASR破损不猜名字/完整剧情，未独立声画核验。课堂不是逐句电影对白教学，不阻已核核心知识。",
+            "blocks_knowledge_body": false
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/laobai-09-16/15/工作报告.md"
+      }
     ]
   },
   "working_review_hint": ".runtime/raw-cache/course-laobai-review-20260930/batches/laobai-15/review.md",

@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/查理老师的编剧课/01 - 第一课 劝学（P2-P4）.md",
-    "sha256": "8e67c1d223d9f6a69f8380b55493cb3a2f045ac5295f72c7a469beba04503ff2"
+    "sha256": "c52af2d54237f31a0909c445db7963bedf1fe0a5c74a8bc58a26b1163f2b46a6"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "f81a53d4634584ea939dc0cbc0f0c8a2727ef8fe77e4713d8301742c7d1f9695",
-    "note_sha256": "8e67c1d223d9f6a69f8380b55493cb3a2f045ac5295f72c7a469beba04503ff2",
+    "note_sha256": "c52af2d54237f31a0909c445db7963bedf1fe0a5c74a8bc58a26b1163f2b46a6",
     "scope": [
       [
         6,
@@ -96,7 +96,7 @@
           ]
         },
         "status": "合并",
-        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。 2026-10-02重新对照网页回传及旧ASR后校正话术/补清动作次序，未据此宣称原声已核。"
       },
       {
         "id": "U5",
@@ -132,7 +132,7 @@
           ]
         },
         "status": "合并",
-        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。"
+        "reason": "按本课实际知识与案例连续组织；来源至正文及正文至来源的判断见review.md，范围登记不代替语义验收。 2026-10-02重新对照网页回传及旧ASR后校正话术/补清动作次序，未据此宣称原声已核。"
       },
       {
         "id": "U7",
@@ -223,6 +223,27 @@
         "id": "M2",
         "item": "行业比例、市场和审美判断以及人类演化年代/能力差异为讲师当时观点或转述，未外核为当前统计或学术结论。",
         "blocks_knowledge_body": false
+      }
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-02",
+        "scope": "本轮P02-P04网页回传全文与第一课正文对照；本P为P4。仅P4两处正文内容改动，其他知识内容保留。",
+        "supplemental_source": {
+          "kind": "user_supplied_web_transcript",
+          "local_text_hint": ".runtime/raw-cache/课程音频转写试验/四门课程音频/01-查理老师的编剧课/第01课-劝学/转写回传/第一轮/P04-劝学1.3_完整转写 (1).md",
+          "text_sha256": "fb8c91157f27a5042f1335538749dd1654380c1f501fe34f5dbbd1e4954a7047"
+        },
+        "method": "子代理来源先读后完整读正文；根代理定点核对受影响新旧来源和改后正文。",
+        "changes": [
+          "P4裁员铺垫回归陈述的工作年限，不再增加询问动作；情侣观察补清先确认女友是否看自己的顺序。"
+        ],
+        "prior_note_sha256": "8e67c1d223d9f6a69f8380b55493cb3a2f045ac5295f72c7a469beba04503ff2",
+        "final_note_sha256": "c52af2d54237f31a0909c445db7963bedf1fe0a5c74a8bc58a26b1163f2b46a6",
+        "audio_listened": false,
+        "continuous_video_review": false,
+        "historical_review_retained": true,
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-20261002/第01课-采用与验收.md"
       }
     ]
   },

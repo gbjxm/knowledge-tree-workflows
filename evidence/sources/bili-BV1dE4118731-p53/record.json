@@ -445,6 +445,103 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第13课-第十章 空镜头的叙事作用/P53-10.2空镜空不空（上）-d6fd6b00/large-v3-5ef88b2b6b/P53-10.2空镜空不空（上）.raw.txt",
+        "review_source_sha256": "3171df946cd8e30f15fdd2c6ee48ceba279753bc7cd855b3bb51409591a435e5",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/13/P53-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            350
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "P53新350行/P54新418行与201行现稿完整双向比对。定义宽严、主客观/内容两轴、运动与固定及八功能的所有独特课堂片例已实质保全，无需改正文。",
+          "新文字美景/狼牙榜/八个人/血压轻松等错词不覆盖旧图核《美姐》《琅琊榜》《八恶人》与雪压青松；人群/舟有人的宽用法边界继续保留。",
+          "空镜功能可重叠；取款环境组合四个作用、稳定与稍摇并存、五季阶段解释与孩子实图差异、羽毛运动鞋旧图证均保留，不因新ASR损坏删案例。",
+          "八镜数字、瀑布两分半和片内位置、具体声画/合成技术继续待核。旧外部BFI/Criterion只有限背景，未重新联网/看片。"
+        ],
+        "note_sha256": "08ee04760598b992ba09f11b63a950a67c2761800cb7487886b5ca33da15678b",
+        "prior_note_sha256": "08ee04760598b992ba09f11b63a950a67c2761800cb7487886b5ca33da15678b",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P53-U01",
+            "item": "《你的名字》空镜开场及教师台本引述、新海诚动画表达；00:00–00:34无ASR、随后台本转写失真，画面、声音和引语不得按ASR补猜。动画与实拍均可用空镜表达感受。",
+            "status": "待核",
+            "reason": "M1连续声画待核；课堂解释与采样所见分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P53-U05",
+            "item": "ASR美景、铁盖候选《盲井》及元凤鸣／铁蛋等人名未定，主角往厕所移动、农村院落水缸母鸡柴堆等；片名、人物、POV路径、无台词解说断言待原画与连续声画。",
+            "status": "待核",
+            "reason": "M2连续声画待核；课堂解释与采样所见分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P53-U09",
+            "item": "风景空镜多全远景，可运动或固定；候选《勇敢的心》开场空中运动，06:27–07:10无转写片例窗，需实际画面、声音、路径与切镜，不假定单一长镜。",
+            "status": "待核",
+            "reason": "M3连续声画待核；课堂解释与采样所见分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P53-U10",
+            "item": "杨德昌候选《一一》固定空镜例，07:22–08:49长合并ASR夹零碎对白；片例身份、固定机位、人物出现和视听关系待核，不能整段视为无人或无切镜。",
+            "status": "待核",
+            "reason": "M4连续声画待核；课堂解释与采样所见分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P53-U12",
+            "item": "候选《琅琊榜》梅长苏、小舟水面、画面转成国画感，讨论虚实相生；片名人名及究竟播放或静图演示待原画。有人小船不自动满足严格无人定义。",
+            "status": "待核",
+            "reason": "M5连续声画待核；课堂解释与采样所见分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P53-U14",
+            "item": "ASR八个人候选《八恶人》，称八个空镜、八个人与昆汀第八部电影数字联系；镜数、开场范围、作者意图及影史计数未核，应区分课件统计与解释猜测。",
+            "status": "待核",
+            "reason": "M6连续声画待核；课堂解释与采样所见分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P53-U15",
+            "item": "《黄土地》开头黄土高原地域特征，例证环境交代；图例、实际播放与拍摄角度待核，不凭转写俯瞰认定航拍。",
+            "status": "待核",
+            "reason": "M7连续声画待核；课堂解释与采样所见分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P53-U17",
+            "item": "称接近片尾两分半瀑布航拍、候选伊瓜苏，人物分开后梁朝伟角色在阿根廷开始新生活；片内位置、精确长度、移动路线与叙事前后文均需复核，不照搬可能错误。",
+            "status": "待核",
+            "reason": "M8连续声画待核；课堂解释与采样所见分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P53-U18",
+            "item": "空镜连接时间变化、省略过渡活动并承载情绪；五年七月为教师举例，不是上例实际时间。画面可替代部分字幕，不意味着文字或声音天生生硬低级。",
+            "status": "待核",
+            "reason": "M8连续声画待核；课堂解释与采样所见分开。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/13/工作报告.md"
+      }
     ]
   },
   "adoption": {

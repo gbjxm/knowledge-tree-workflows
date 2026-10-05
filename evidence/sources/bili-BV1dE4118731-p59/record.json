@@ -391,6 +391,103 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第15课-第十章 布光实践/P59-10.8我们要布光（下）-b7b58361/large-v3-5ef88b2b6b/P59-10.8我们要布光（下）.raw.txt",
+        "review_source_sha256": "1c76e80afa7d47829861ad1b8a292df1b70eca498918d680f8cdb186dbbe768b",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/15/P59-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            300
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "P58新251行/P59新300行与257行现稿全文核对，两套五项及五种情绪光效/三脸明暗/红六状态/末代两时空表、现场订光/光比/影调/衔接所有具体条件已保全。",
+          "新ASR“定光/轴光纸/朱莉”等不覆盖原题卡订光/柔光纸或已保存发行方瓦伦蒂娜纠正；回忆光比较小与暗沉分轴继续保持。",
+          "姜戈裙裾上楼和13米课堂说/13.7米制作报道差别、老炮儿四组原图状态、车站比例变化与跨景别标准、网球收光圈仍教师技术说法都已具细节。",
+          "不据新文关闭原图小数值或庄士敦匹配待核。未发现需改实质漏项，正式正文原字节保存。"
+        ],
+        "note_sha256": "42631f93749f49bc4469d94c338cd70f1e036e9891546fb5fcdcf08f13d1bba4",
+        "prior_note_sha256": "42631f93749f49bc4469d94c338cd70f1e036e9891546fb5fcdcf08f13d1bba4",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P59-U04",
+            "item": "被解救的姜戈庄园楼梯镜头，13米摇臂、裙边焦点、两女上楼、建筑与光相互配合；人名器材数字待核。",
+            "status": "待核",
+            "reason": "M6连续声画或制作语境待核；课堂解释与图文观察已分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P59-U07",
+            "item": "老炮儿门窗片例，零碎台词与05:57–07:28长ASR窗；影片画面不能据空窗跳过。",
+            "status": "待核",
+            "reason": "M7连续声画或制作语境待核；课堂解释与图文观察已分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P59-U08",
+            "item": "控制光比，末代皇帝伪满宫中大反差夕阳及人物环境关系，政治意味属于讲者分析。",
+            "status": "待核",
+            "reason": "M8连续声画或制作语境待核；课堂解释与图文观察已分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P59-U09",
+            "item": "末代皇帝押返车站大光比、厚重感与人物情绪，亮一部分压一部分只是简化说法。",
+            "status": "待核",
+            "reason": "M9连续声画或制作语境待核；课堂解释与图文观察已分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P59-U11",
+            "item": "末代皇帝车站高亮天空、烟雾、逆光侧逆光、室内暗区和亮门口对比；词与实际画面待核。",
+            "status": "待核",
+            "reason": "M9连续声画或制作语境待核；课堂解释与图文观察已分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P59-U12",
+            "item": "用内容和摄影机运动衔接不同光线区域，维持整体氛围。",
+            "status": "待核",
+            "reason": "M10连续声画或制作语境待核；课堂解释与图文观察已分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P59-U13",
+            "item": "同片车站推进，烟散、暗车体面积增加、由车到战犯和散射光；运动及变化真实过程未审。",
+            "status": "待核",
+            "reason": "M10连续声画或制作语境待核；课堂解释与图文观察已分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P59-U14",
+            "item": "大景别建氛围，近景特写另调人物光比，以大景别氛围为准；近景光比必更大等绝对化需限定。",
+            "status": "待核",
+            "reason": "M11连续声画或制作语境待核；课堂解释与图文观察已分开。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P59-U15",
+            "item": "末代皇帝网球到出宫，暖晴转阴冷、士兵进入、所谓光圈收缩、天气拼接及庄士敦黄昏半剪影；拍摄机制未独立核。",
+            "status": "待核",
+            "reason": "M12连续声画或制作语境待核；课堂解释与图文观察已分开。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/15/工作报告.md"
+      }
     ]
   },
   "adoption": {

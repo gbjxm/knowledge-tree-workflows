@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/中国传媒大学《视听语言》/10 - 第八章 运动镜头（P43-P47）.md",
-    "sha256": "1ceffe41161d01a39b32d061c1dcf5221a4fd9a9b08417b52757b9d90e04bf5c"
+    "sha256": "8b4a08acdc4431a62ad214eb2175abf4f327a663e4b8a214208ecda6cd4e21c1"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "7e5b1d19ea1f5483434b7037f42938ccf2257dc484b56fbc4c982a7b2c0c4df4",
-    "note_sha256": "1ceffe41161d01a39b32d061c1dcf5221a4fd9a9b08417b52757b9d90e04bf5c",
+    "note_sha256": "8b4a08acdc4431a62ad214eb2175abf4f327a663e4b8a214208ecda6cd4e21c1",
     "scope": [
       [
         6,
@@ -330,6 +330,133 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第10课-第八章 运动镜头/P46-8.14影像的镜头形态——运动镜头的造型功能-4189e70d/large-v3-5ef88b2b6b/P46-8.14影像的镜头形态——运动镜头的造型功能.raw.txt",
+        "review_source_sha256": "43dfe174f4535bc1a3a2642899f1ff68d1ff2e72ee5e37a0c6bae090c50ed0a6",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-08-12/10/P46-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            214
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；仅局部补回或修正有清楚源依据的内容，其他旧稿保全。",
+        "changes": [
+          "P44 L83补《清明上河图》的长卷类比（new L26–27/46，旧L15–42回读）。",
+          "P46 L161补教师口述去见女朋友（new L188–189，旧L191–202回读）；原片实际关系仍待核。",
+          "P47 L177补三士兵分开关注马、搁浅船、歌唱者（new L113–123，旧L78–88回读）；连续交接未独立核。"
+        ],
+        "recognition_disagreements_and_judgments": [
+          "完整读取P43–47全部新raw1100行，现稿240行；推拉各条件/反例、摇浏览和误导、甩三用途、移升降跟、云水谣线索、两功夫与大象、赎罪与风声逐例登记。",
+          "源↔稿与旧稿保护仅补三个清楚的讲师描述：《清明上河图》类比，大象口述去见女朋友，以及赎罪三士兵分开各关注马、搁浅船、唱者。旧primary P44 L15–42、P46 L191–202、P47 L78–88逐行实际回读；P43/P45只共享最终稿重绑。",
+          "光学错误、行业禁变焦、摇横移等同、运动只情绪不信息、短片大象等均沿历史原帧/一手资料限定保全，没有用新ASR覆盖。",
+          "新补女友和分开关注按教师口述保存，连续实际角色关系/线索交接仍待原片；未听原声，不恢复电影对白、人数、具体年份朝代或跟腚用字，不闭声画门。"
+        ],
+        "note_sha256": "8b4a08acdc4431a62ad214eb2175abf4f327a663e4b8a214208ecda6cd4e21c1",
+        "prior_note_sha256": "1ceffe41161d01a39b32d061c1dcf5221a4fd9a9b08417b52757b9d90e04bf5c",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P46-U04",
+            "item": "《功夫》包租婆／洗头断水的引入，讲者称开头四个固定镜头约30秒。镜数、时长与插播位置尚未实测。",
+            "status": "待核",
+            "reason": "M2连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P46-U05",
+            "item": "电影对白与动作播放，ASR严重失真；逐字台词和语气均不能据此还原。实际片例是否从更早开始要看原画面。",
+            "status": "待核",
+            "reason": "M2连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P46-U06",
+            "item": "包租婆训斥住户的运动长镜头，持续时间、走位、反应形成权势与情绪积累。讲解可记录，剪接、镜头路线和实际表演必须动态核对。",
+            "status": "待核",
+            "reason": "M2连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P46-U07",
+            "item": "《功夫》警署例子：探长办公室、上层警员、返回办公室等讲者路径，黑帮／警察的权势反差；实际升降移动、楼层、不中断性待核。",
+            "status": "待核",
+            "reason": "M3连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P46-U08",
+            "item": "警署片段对白播放及人物反应；谁说话、语气和画面切换需要连续声画，不能由ASR引文确认。",
+            "status": "待核",
+            "reason": "M3连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P46-U10",
+            "item": "校园穿行片段的长段ASR缺口；必须连续看片及听环境声，不能用一句提问代替三分多钟内容。",
+            "status": "待核",
+            "reason": "M4连续声画待核，课堂说法与实际查看的静态画面已区别保存。 此长时间窗的ASR行仅作邻接或合并段定位，不代表已转写出整段影片的声画内容。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P46-U11",
+            "item": "教师解读空旷、疏离、距离，主人公穿过校园见女朋友；人物身份关系、实际路线与氛围均待原片核对，不把解释写成唯一观众感受。",
+            "status": "待核",
+            "reason": "M4连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P46-U12",
+            "item": "对后续校园暴力的情绪铺垫。讲者归因不等于影片已给出唯一因果，也不能当作现实校园暴力的社会学结论。",
+            "status": "待核",
+            "reason": "M4连续声画待核，课堂说法与实际查看的静态画面已区别保存。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-08-12/10/工作报告.md",
+        "affected_primary_source_review": {
+          "old_source_ranges_read": {
+            "44": [
+              [
+                15,
+                42
+              ]
+            ],
+            "46": [
+              [
+                191,
+                202
+              ]
+            ],
+            "47": [
+              [
+                78,
+                88
+              ]
+            ]
+          },
+          "old_note_lines_allowed_to_replace": [
+            83,
+            161,
+            177
+          ],
+          "binding_only_pages": [
+            43,
+            45
+          ],
+          "findings": "三个受影响旧完整论证区间已逐行实际回读，旧primary也明确长卷、女朋友及三人分开对象；只补讲师描述身份，旧AV/史实门及个人内容保持。"
+        },
+        "primary_binding_only_for_this_page": false
+      }
     ]
   },
   "adoption": {

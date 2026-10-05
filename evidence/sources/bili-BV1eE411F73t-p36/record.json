@@ -13,12 +13,12 @@
   },
   "note": {
     "path": "知识库/学习区/课程/查理老师的编剧课/15 - 第十五课 节拍器（P34-P37）.md",
-    "sha256": "9e1c9a583eecb7b29de2a9104f96071c2072d617517293045de7858e0df6b3d4"
+    "sha256": "f95e5415251712003bf2710332e1e33823e143d4b86a5cfead7d842a4df6cea9"
   },
   "coverage": {
     "version": 1,
     "source_sha256": "55ad5f38ad50e88eea1cb44df4c72aa8f63e47b67ae032c7af12075fb4a8688e",
-    "note_sha256": "9e1c9a583eecb7b29de2a9104f96071c2072d617517293045de7858e0df6b3d4",
+    "note_sha256": "f95e5415251712003bf2710332e1e33823e143d4b86a5cfead7d842a4df6cea9",
     "scope": [
       [
         6,
@@ -37,8 +37,8 @@
         },
         "note": {
           "lines": [
-            177,
-            177
+            181,
+            181
           ]
         },
         "status": "合并",
@@ -55,8 +55,8 @@
         },
         "note": {
           "lines": [
-            179,
-            179
+            183,
+            183
           ]
         },
         "status": "合并",
@@ -73,8 +73,8 @@
         },
         "note": {
           "lines": [
-            181,
-            181
+            185,
+            185
           ]
         },
         "status": "合并",
@@ -91,8 +91,8 @@
         },
         "note": {
           "lines": [
-            185,
-            185
+            189,
+            189
           ]
         },
         "status": "合并",
@@ -109,8 +109,8 @@
         },
         "note": {
           "lines": [
-            187,
-            187
+            191,
+            191
           ]
         },
         "status": "合并",
@@ -127,8 +127,8 @@
         },
         "note": {
           "lines": [
-            198,
-            198
+            202,
+            202
           ]
         },
         "status": "合并",
@@ -145,8 +145,8 @@
         },
         "note": {
           "lines": [
-            206,
-            206
+            210,
+            210
           ]
         },
         "status": "合并",
@@ -163,8 +163,8 @@
         },
         "note": {
           "lines": [
-            214,
-            214
+            220,
+            220
           ]
         },
         "status": "合并",
@@ -206,5 +206,161 @@
     "personal_note": "知识库/学习区/个人思考/查理老师的编剧课 - 第十五课原有学习记录.md",
     "old_unique_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-15/old-unique-and-learning.md"
   },
-  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-15/review.md"
+  "working_review_hint": ".runtime/raw-cache/course-full-review-20260924/batches/charlie-15/review.md",
+  "incremental_reviews": [
+    {
+      "date": "2026-10-03",
+      "kind": "new_asr_to_existing_lesson_note",
+      "asr_source": {
+        "local_text_hint": ".runtime/raw-cache/课程本地转写/01-查理老师的编剧课/第15课-节拍器/P36-十五课-节拍器15.3-8d28b42f/large-v3-5ef88b2b6b/P36-十五课-节拍器15.3.raw.txt",
+        "text_sha256": "09f7f04a76f786ea2ce6306fc30fb0dfd6736633a68be9e4d0d599b59cd81a50"
+      },
+      "coverage_hint": ".runtime/raw-cache/course-note-reconcile-20261003-47files/09-15/15/P36-new-raw-coverage.json",
+      "scope": {
+        "page": 36,
+        "raw_lines": [
+          1,
+          538
+        ],
+        "lesson": 15
+      },
+      "note_sha256": "f95e5415251712003bf2710332e1e33823e143d4b86a5cfead7d842a4df6cea9",
+      "method": "完整读新raw→按源序列语义清单→完整读现行课级正文→双向核对；保留历史图文已核内容；正文→新raw及旧稿保全复核",
+      "summary": "P34—P37新ASR全文与现行第十五课双向核对完成；定点补入受虐孩子二十元整钞/零钱的不符细节、最后衔接点绕开对抗的四种假想办法，以及《回到17岁》借身份优势挽回家人的A线手段；其余十五拍、A/B、Want/Need、不同作品内在节点和方法边界完整保留。",
+      "changes": [
+        "受虐孩子案例补回‘养母丢整二十元、孩子挣一把零钱’的具体对照。",
+        "第85分钟衔接点补回下毒、举报嫖娼、下泻药、雇偷袭四项失败办法，明确为课堂设想，未充当《破坏之王》剧情。",
+        "《回到17岁》补回利用年轻身份、家人不知身份而像间谍行动的A线办法，与认真了解家人的B线区分。"
+      ],
+      "unverified": [
+        "未回听原音、未连续审看；新ASR错识‘终点/终场/中场’不覆盖历史板书和字幕已核概念。",
+        "P35关于12—15与12—25的破损识别，按前后澄清和已有板书保留12—25，不把冲突数字变成新规则。",
+        "最终卖场大战片名新ASR‘深渊人’不能可靠核名，保留现行《伸冤人》旧记录归属与可确定场面；电影情节、斯奈德规则及作者心理均为讲师解读，未外核。"
+      ],
+      "heard_audio": false,
+      "continuous_av_reviewed": false,
+      "raw_modified": false,
+      "primary_source_preserved": true,
+      "coverage_check_returncode": 0,
+      "old_note_mapping_rechecked": [
+        {
+          "id": "U1",
+          "old_note_lines": [
+            177,
+            177
+          ],
+          "current_note_lines": [
+            181,
+            181
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U2",
+          "old_note_lines": [
+            179,
+            179
+          ],
+          "current_note_lines": [
+            183,
+            183
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U3",
+          "old_note_lines": [
+            181,
+            181
+          ],
+          "current_note_lines": [
+            185,
+            185
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U4",
+          "old_note_lines": [
+            185,
+            185
+          ],
+          "current_note_lines": [
+            189,
+            189
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U5",
+          "old_note_lines": [
+            187,
+            187
+          ],
+          "current_note_lines": [
+            191,
+            191
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U6",
+          "old_note_lines": [
+            198,
+            198
+          ],
+          "current_note_lines": [
+            202,
+            202
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U7",
+          "old_note_lines": [
+            206,
+            206
+          ],
+          "current_note_lines": [
+            210,
+            210
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        },
+        {
+          "id": "U8",
+          "old_note_lines": [
+            214,
+            214
+          ],
+          "current_note_lines": [
+            220,
+            220
+          ],
+          "basis": "原对应段落在最终正文精确重定位并回查；未把旧源行号转绑新raw"
+        }
+      ],
+      "locator_corrections": [
+        {
+          "page": 36,
+          "id": "P36-U14",
+          "previous_raw_lines": [
+            399,
+            418
+          ],
+          "corrected_raw_lines": [
+            399,
+            422
+          ],
+          "source_quote": "他就像个间谍一样\n想把大家都搞回来",
+          "corrected_at": "2026-10-03T00:38:19+08:00",
+          "basis": "定点重读冻结raw，修正原source定位未包含关键原句的边界；允许与相邻项重叠",
+          "note_modified": false,
+          "primary_source_or_coverage_modified": false,
+          "new_coverage_check_returncode": 0
+        }
+      ],
+      "coverage_rechecked_at": "2026-10-03T00:38:19+08:00"
+    }
+  ]
 }

@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import subprocess
 import sys
 from dataclasses import dataclass
@@ -16,6 +17,11 @@ DEFAULT_EXECUTABLE = CONFIG.obsidian_cli
 DEFAULT_VAULT_NAME = CONFIG.vault_name
 DEFAULT_VAULT_PATH = CONFIG.vault
 TARGET_MISMATCH = 78
+CLI_ARGUMENT_ERROR = 64
+CLI_RESPONSE_ERROR = 65
+INDEX_MISMATCH = 79
+# These commands may legitimately return arbitrary note text or evaluated values.
+RAW_OUTPUT_COMMANDS = {"read", "daily:read", "history:read", "eval", "diff"}
 APPDATA = os.environ.get("APPDATA")
 DEFAULT_REGISTRY_PATH = Path(APPDATA) / "obsidian" / "obsidian.json" if APPDATA else None
 
@@ -45,6 +51,12 @@ class ObsidianCLI:
     def _execute(self, arguments: list[str], timeout: int = 15) -> CliResult:
         if self.executable is None or not self.executable.exists():
             return CliResult(127, stderr="Obsidian CLI 尚未安装；当前仅允许本地只读检索。")
+        if os.name == "nt" and any("\n" in arg or "\r" in arg for arg in arguments):
+            return CliResult(
+                CLI_ARGUMENT_ERROR,
+                stderr=("Windows Obsidian CLI的原始多行参数存在IPC解析风险，已在发送前停止。"
+                        "内容参数请使用官方\\n转义；复杂eval请用短单行调用加载已审本地脚本。"),
+            )
 
         command = [str(self.executable), f"vault={self.vault_name}", *arguments]
         try:
@@ -112,11 +124,13 @@ class ObsidianCLI:
             shown = ", ".join(str(path) for path in registered) or "<未注册>"
             return self._target_mismatch(shown, "仓库名必须唯一匹配一个已注册路径。")
         expected = self.vault_path.resolve()
-        registered_path = registered[0]
+        registered_path = registered[0].resolve()
         if os.path.normcase(str(registered_path)) != os.path.normcase(str(expected)):
             return self._target_mismatch(str(registered_path))
 
-        result = self._execute(["vault", "info=path"], timeout=timeout)
+        result = self._normalize_result(
+            ["vault", "info=path"], self._execute(["vault", "info=path"], timeout=timeout)
+        )
         if result.returncode != 0:
             return result
         actual = self._reported_path(result.stdout)
@@ -129,7 +143,60 @@ class ObsidianCLI:
         target = self.verify_target(timeout=min(timeout, 15))
         if target.returncode != 0:
             return target
-        return self._execute(arguments, timeout=timeout)
+        return self._normalize_result(arguments, self._execute(arguments, timeout=timeout))
+
+    def _normalize_result(self, arguments: list[str], result: CliResult) -> CliResult:
+        """Some native CLI failures are printed as text with process exit code zero."""
+        if result.returncode != 0:
+            return result
+        command = arguments[0] if arguments else ""
+        diagnostic = next(
+            (line.strip() for line in result.stderr.splitlines() if re.match(r"^\s*Error:", line)), ""
+        )
+        if not diagnostic and command not in RAW_OUTPUT_COMMANDS:
+            diagnostic = next(
+                (line.strip() for line in result.stdout.splitlines() if re.match(r"^\s*Error:", line)), ""
+            )
+        # A note can itself start with "Error: ...". Resolve its native file first
+        # only when a read returned the exact shape of a missing-file diagnostic.
+        if not diagnostic and command in {"read", "daily:read", "history:read"}:
+            first = result.stdout.splitlines()[0] if result.stdout else ""
+            locator = [arg for arg in arguments[1:] if arg.startswith(("path=", "file="))]
+            if locator and re.fullmatch(r'Error:\s*File\s+.*not found\.?', first.strip(), re.IGNORECASE):
+                probe_args = ["file", *locator]
+                probe = self._normalize_result(probe_args, self._execute(probe_args))
+                if probe.returncode != 0:
+                    return CliResult(probe.returncode, result.stdout, probe.stderr)
+        if diagnostic:
+            return CliResult(CLI_RESPONSE_ERROR, result.stdout, diagnostic)
+        return result
+
+    def check_files(self, timeout: int = 30) -> CliResult:
+        """Compare paths, not just counts; never refresh, restart or delete files."""
+        native = self.run(["files", "ext=md"], timeout=timeout)
+        if native.returncode != 0:
+            return native
+        lines = [line.strip().replace("\\", "/") for line in native.stdout.splitlines() if line.strip()]
+        if any(not line.lower().endswith(".md") or Path(line).is_absolute() or ".." in Path(line).parts for line in lines):
+            return CliResult(CLI_RESPONSE_ERROR, native.stdout, "Obsidian文件列表格式不符合路径清单；无法证明原生识别完整。")
+        disk = {
+            path.relative_to(self.vault_path).as_posix()
+            for path in self.vault_path.rglob("*.md")
+            if ".obsidian" not in path.parts and ".trash" not in path.parts
+        }
+        reported = set(lines)
+        missing, extra = sorted(disk - reported), sorted(reported - disk)
+        payload = {
+            "filesystem_markdown": len(disk), "obsidian_markdown": len(reported),
+            "paths_match": not missing and not extra,
+            "missing_from_obsidian": missing, "only_in_obsidian": extra,
+        }
+        message = "" if payload["paths_match"] else (
+            "Obsidian原生文件视图与磁盘不一致；文件存在不能当作应用已识别。"
+            "本检查没有重启应用、刷新缓存或修改笔记。"
+        )
+        return CliResult(0 if payload["paths_match"] else INDEX_MISMATCH,
+                         json.dumps(payload, ensure_ascii=False), message)
 
     def search(self, query: str, folder: str | None = None, limit: int = 50) -> CliResult:
         if self.executable is None or not self.executable.exists():
@@ -240,14 +307,25 @@ def main() -> int:
             print("Mode: local read-only")
             return 0
         path_result = cli.verify_target()
-        files_result = cli.run(["files", "ext=md", "total"]) if path_result.returncode == 0 else path_result
+        files_result = cli.check_files() if path_result.returncode == 0 else path_result
         print(f"CLI: {cli.executable}")
         print(f"Vault name: {cli.vault_name}")
         print(f"Vault: {path_result.stdout or cli.vault_path}")
-        print(f"Markdown: {files_result.stdout or 'unknown'}")
+        try:
+            inventory = json.loads(files_result.stdout)
+        except (json.JSONDecodeError, TypeError):
+            inventory = {}
+        print(f"Markdown: {inventory.get('obsidian_markdown', 'unknown')}")
+        if inventory:
+            print(f"Filesystem Markdown: {inventory['filesystem_markdown']}")
+            print(f"Index: {'consistent' if inventory['paths_match'] else 'mismatch'}")
+            if not inventory["paths_match"]:
+                print(files_result.stdout)
         if path_result.returncode or files_result.returncode:
             if path_result.stderr:
                 print(path_result.stderr, file=sys.stderr)
+            if files_result.stderr:
+                print(files_result.stderr, file=sys.stderr)
             return path_result.returncode or files_result.returncode
         return 0
 

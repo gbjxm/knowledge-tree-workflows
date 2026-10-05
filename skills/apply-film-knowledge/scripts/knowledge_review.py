@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 from retrieve_knowledge import load_config, resolve_config
 from knowledge_evidence import load_corpus, make_review, full_evidence, validate_application, utf8_streams
-from knowledge_followup import followup
+from knowledge_followup import followup, run_followup
 from knowledge_scope import make_scope, restore_scope, can_expand, zoned, normalize_role
 
 
@@ -152,7 +152,28 @@ def main():
             if args.snapshot and args.snapshot != corpus["snapshot"]:
                 raise ValueError("知识快照或读取范围已变化，请重新检查")
             if corpus.get("scope") is not None:
-                result["followup"] = {"status": "not_checked", "reason": "本次分区读取不替代全局增量盘点，也不将未读取文件报告为删除"}
+                try:
+                    identity = run_followup(config, identity_only=True)
+                    impact = identity.get("dependency_impact", {})
+                    selected_paths = set(corpus["documents"])
+                    affected = [path for path in impact.get("affected_topics", []) if path in selected_paths]
+                    result["followup"] = {
+                        "status": identity.get("status", "needs_review"),
+                        "mode": "identity_only",
+                        "identity_snapshot": impact.get("snapshot"),
+                        "body_read_permission": False,
+                        "affected_topics": affected,
+                        "affected_applications": impact.get("affected_applications", []),
+                        "global_affected_topic_count": len(impact.get("affected_topics", [])),
+                        "identity_error_count": len(impact.get("identity_errors", [])),
+                        "unavailable_source_input_count": len(impact.get("unavailable_source_inputs", [])),
+                        "reason": "仅附来源身份变化；依赖链不扩大本次正文读取范围，也不自动改变项目判断",
+                    }
+                except (ValueError, OSError, KeyError, TypeError) as exc:
+                    result["followup"] = {
+                        "status": "not_checked", "mode": "identity_only", "body_read_permission": False,
+                        "error": "依赖身份盘点未完成: " + str(exc),
+                    }
             else:
                 checkpoint = Path(config["raw_cache"]) / "knowledge-retrieval" / "followup-state-v1.json"
                 try:

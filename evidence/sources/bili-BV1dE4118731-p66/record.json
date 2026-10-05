@@ -187,6 +187,61 @@
     "limits": [
       "完整原声与连续声画未审，图文采用不代表整课声画验收。",
       "个别字幕、小字、史实或制作归属问题以正文及历史复核清单的待核标注为准。"
+    ],
+    "incremental_reviews": [
+      {
+        "date": "2026-10-04",
+        "operation": "new_asr_full_semantic_review",
+        "review_source_path": ".runtime/raw-cache/课程本地转写/04-中国传媒大学《视听语言》/第17课-第十章 视听节奏/P66-10.15影视需要有节奏3-b4241a64/large-v3-5ef88b2b6b/P66-10.15影视需要有节奏3.raw.txt",
+        "review_source_sha256": "6ec8085e7b1d9aa45ee6e85e7ee977ef910b1dffcca262cec6f55b79aaa8c7ba",
+        "coverage_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/17/P66-new-raw-coverage.json",
+        "scope": [
+          [
+            1,
+            191
+          ]
+        ],
+        "source_language": "zh",
+        "formal_note_language": "zh",
+        "method": "本课全部P新raw先完整读取，逐观点/关键理由/独特案例和示范关系/方法/条件列源序项，再全文现行中文稿，执行双向语义与旧稿保全复核。",
+        "summary": "全文新文字对照完成；未发现需改的实质漏项，正式正文原字节保持。",
+        "changes": [],
+        "recognition_disagreements_and_judgments": [
+          "新P64—68共980行與339行现稿完整双向对照，内外节奏、叙事三因素、影像五因素、上学三处理与军库五技法每个条件和独特例已充分保存。",
+          "阿飞“可能”与导演未确认、钢锯岭伤兵非复活、三峡和荒野同长镜异节奏、英雄五色非词典、慢画快声/音乐语境差异均有明確段落。",
+          "新ASR化简为凡/目的/跨门等不替原图化简为繁/墓地/快慢相间；钟声、三20分钟、六切和镜头时长保持教师说而未计数/听审。",
+          "P67现有视频轨1.122秒差历史问题不据本轮文字关闭，源音/导出完整与视频获取范围分开。未发现实质补改必要，正文原字节保留。"
+        ],
+        "note_sha256": "2237128c8019f982dfaeaedf9ec4dd6c5a09714dbe1718721571ffdef71437c1",
+        "prior_note_sha256": "2237128c8019f982dfaeaedf9ec4dd6c5a09714dbe1718721571ffdef71437c1",
+        "audio_review": "not_listened",
+        "continuous_video_review": false,
+        "semantic_review_completed": true,
+        "unverified": [
+          {
+            "id": "P66-U02",
+            "item": "尹力云水谣疑词，开篇三分钟长镜头、闽南戏布袋戏婚嫁摊贩士兵的台湾时代风情；02:02–04:01长空窗待核。",
+            "status": "待核",
+            "reason": "M8的连续声画待核；来源文字与静态补充已分别保留。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P66-U04",
+            "item": "英雄黑红蓝白绿的段落结构、叙述层次和文化寓意，黑秦王权力、红骗局复仇、蓝猜想风骨、白真实、绿回忆；意义属具体分析。",
+            "status": "待核",
+            "reason": "M9的连续声画待核；来源文字与静态补充已分别保留。",
+            "blocks_full_audiovisual_acceptance": true
+          },
+          {
+            "id": "P66-U06",
+            "item": "教父洗礼与刺杀交叉，宗教油画般光影、人物脸上明暗、仪式对白与暴力对照；亲属关系和原声措辞未核。",
+            "status": "待核",
+            "reason": "M10的连续声画待核；来源文字与静态补充已分别保留。",
+            "blocks_full_audiovisual_acceptance": true
+          }
+        ],
+        "working_review_hint": ".runtime/raw-cache/course-note-reconcile-remaining-20261004/cuc-13-19/17/工作报告.md"
+      }
     ]
   },
   "adoption": {
