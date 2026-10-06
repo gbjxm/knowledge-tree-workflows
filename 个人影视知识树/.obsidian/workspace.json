@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "小陌的AI百宝箱.md",
+                "file": "小陌的终端启动方式.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "小陌的AI百宝箱"
+              "title": "小陌的终端启动方式"
             }
           }
         ]
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小陌的AI百宝箱.md",
+                "file": "小陌的终端启动方式.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -216,6 +216,7 @@
   },
   "active": "2c45b30b5218d307",
   "lastOpenFiles": [
+    "小陌的AI百宝箱.md",
     "知识库/学习区/访谈与专题/抖音学习笔记/《对赌》赢了不等于做对了.md",
     "知识库/学习区/个人思考/查理老师的编剧课 - 第三课原有学习记录.md",
     "知识库/学习区/个人思考/查理老师的编剧课 - 第二课原有学习记录.md",
@@ -241,7 +242,6 @@
     "知识库/_assets/查理老师的编剧课/05-theme-result-justice.svg",
     "知识库/_assets/查理老师的编剧课/01-learning-material-loop.svg",
     "小陌的终端启动方式.md",
-    "小陌的AI百宝箱.md",
     "AI任务执行与Agent工作流官方规范.md",
     "小陌的视觉案例参考库.md",
     "知识库/学习区/书籍/DaVinci Resolve 20剪辑师指南/03 - 剧情场景、表演选择与声画剪辑.md",

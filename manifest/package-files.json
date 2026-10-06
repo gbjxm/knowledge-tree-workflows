@@ -2,7 +2,7 @@
   "version": 2,
   "purpose": "portable-release",
   "root_name": "影视知识树",
-  "generated_at": "2026-10-05T16:39:45.732413+00:00",
+  "generated_at": "2026-10-06T16:14:10.275721+00:00",
   "manifest_path": "manifest/package-files.json",
   "module_manifest": "manifest/modules.json",
   "modules": [
@@ -2968,8 +2968,8 @@
     },
     {
       "path": "个人影视知识树/.obsidian/workspace.json",
-      "size": 9577,
-      "sha256": "1dae6d1b1c1260c0f66144a360b289f5bca9c8060a300bbcecbf7a58df9f8cc1"
+      "size": 9598,
+      "sha256": "3b82dd622cf777e2b371c2c13bb584d9494de690e69d82dc7bda0729abc1e822"
     },
     {
       "path": "个人影视知识树/AI任务执行与Agent工作流官方规范.md",
@@ -4943,8 +4943,8 @@
     },
     {
       "path": "个人影视知识树/小陌的终端启动方式.md",
-      "size": 4787,
-      "sha256": "47f25496bc0c9e700e335c3dc98c359853b3c40a00357ded2754a3c5ca1f4048"
+      "size": 5032,
+      "sha256": "14afda14dbeb613cffb95091313d97f0dcecc7fd081639644eaa86c76e6f9283"
     },
     {
       "path": "个人影视知识树/小陌的视觉案例参考库.md",
